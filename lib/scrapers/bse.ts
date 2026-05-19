@@ -197,15 +197,39 @@ const NEGATIVE_TRIGGERS = [
   /\bdisqualif/i,
 ];
 
+// Real BSE headlines use a wider vocabulary than the obvious "order win" /
+// "awarded" patterns. Examples seen in production:
+//   - "BEL receives Rs.1251 Crore order for supply of ..."
+//   - "BEL receives orders worth Rs. 569 Crore."
+//   - "L&T Wins Orders (Significant*) for Power Transmission & Distribution"
+//   - "L&T Secures (Large*) Order to Reinforce India's Energy Security"
+//   - "L&T Strengthens its EPC Leadership with Significant* Order from BCGCL"
+//   - "Receipt of LOA from NMDC Limited."
+// The patterns below match all of those.
 const POSITIVE_TRIGGERS = [
+  // X wins (significant/large/mega) order(s)
+  /\bwins?\s+(?:\(?[\w*]+\)?\s+)?orders?\b/i,
+  // X receives (an) order(s) | X receives Rs.N Cr order
+  /\breceives?\s+(?:an?\s+|the\s+)?(?:Rs\.?\s*[\d.,]+\s*(?:Cr|Crore)?\s+)?orders?\b/i,
+  // X secures (large/mega) order
+  /\bsecures?\s+(?:\(?[\w*]+\)?\s+)?orders?\b/i,
+  // X bags (an) order
+  /\bbags?\s+(?:an?\s+)?orders?\b/i,
+  // "Strengthens ... with Significant*/Large/Mega Order from BCGCL"
+  // (asterisk is BSE's own annotation for order-size buckets)
+  /\b(?:significant|large|mega)\*?\s+order\s+(?:from|for|to)\b/i,
+  // Receipt of LOA / LOI / order
+  /\breceipt\s+of\s+(?:LOA|LOI|order|contract|letter\s+of\s+(?:award|intent))\b/i,
+  // Legacy / explicit patterns kept for safety
   /\border\s+win\b/i,
   /\bawarded\b/i,
   /\bletter\s+of\s+award\b|\bLOA\b/i,
   /\bletter\s+of\s+intent\b|\bLOI\b/i,
   /\bL1\s+bidder\b/i,
-  /\bcontract\s+won\b/i,
-  /\bcontract\s+signed\b/i,
+  /\bcontract\s+(?:won|signed)\b/i,
   /\bqualified\s+bidder\b/i,
+  /\bemerged?\s+(?:as\s+)?L1\b/i,
+  /\bdeclared?\s+(?:as\s+)?L1\b/i,
 ];
 
 const WATCH_TRIGGERS = [

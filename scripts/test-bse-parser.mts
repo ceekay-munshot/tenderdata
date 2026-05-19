@@ -57,6 +57,57 @@ const MOCK_BSE_RESPONSE = {
       CATEGORYNAME: "Contract Win",
       NEWS_DT: "2026-05-19T11:30:00",
     },
+    // Real-world headlines from the first GHA scrape that the classifier
+    // initially missed. Locked in here so future regex tweaks don't
+    // silently regress them.
+    {
+      NEWSID: "real-001",
+      SCRIP_CD: 500049,
+      HEADLINE: "BEL receives Rs.1251 Crore order for supply of Ground Based Mobile ELINT System (GBMES) to Indian Army.",
+      MORE: "",
+      CATEGORYNAME: "Company Update",
+      NEWS_DT: "2026-05-12T10:00:00",
+    },
+    {
+      NEWSID: "real-002",
+      SCRIP_CD: 500049,
+      HEADLINE: "BEL receives orders worth Rs. 569 Crore.",
+      MORE: "",
+      CATEGORYNAME: "Company Update",
+      NEWS_DT: "2026-05-09T10:00:00",
+    },
+    {
+      NEWSID: "real-003",
+      SCRIP_CD: 500510,
+      HEADLINE: "L&T Wins Orders (Significant*) for Power Transmission & Distribution Business",
+      MORE: "",
+      CATEGORYNAME: "Company Update",
+      NEWS_DT: "2026-05-14T10:00:00",
+    },
+    {
+      NEWSID: "real-004",
+      SCRIP_CD: 500510,
+      HEADLINE: "L&T Secures (Large*) Order to Reinforce India's Energy Security Through Coal Gasification",
+      MORE: "",
+      CATEGORYNAME: "Company Update",
+      NEWS_DT: "2026-05-11T10:00:00",
+    },
+    {
+      NEWSID: "real-005",
+      SCRIP_CD: 500510,
+      HEADLINE: "L&T Strengthens its Coal-to-Chemicals EPC Leadership with Significant* Order from BCGCL",
+      MORE: "",
+      CATEGORYNAME: "Company Update",
+      NEWS_DT: "2026-05-10T10:00:00",
+    },
+    {
+      NEWSID: "real-006",
+      SCRIP_CD: 540073,
+      HEADLINE: "Outcome of the meeting of Nomination and Remuneration Committee held on Tuesday, May 19, 2026",
+      MORE: "",
+      CATEGORYNAME: "Board Meeting",
+      NEWS_DT: "2026-05-19T15:00:00",
+    },
   ],
 };
 
@@ -105,7 +156,7 @@ for (const a of announcements) {
 
 console.log("--- assertions ---");
 
-assert("4 announcements parsed", announcements.length === 4);
+assert("all announcements parsed", announcements.length === 10);
 
 const debar = announcements.find((a) => a.headline.includes("Debarment"));
 assert("debarment is parsed", !!debar);
@@ -149,6 +200,44 @@ assert(
 const update = announcementToUpdate(announcements[0]);
 assert("update id has bse- prefix", update.id.startsWith("bse-"));
 assert("update carries ticker", update.ticker === "BLS");
+
+// Real-world classification regressions caught from the first GHA scrape.
+const belOrderHeadline = "BEL receives Rs.1251 Crore order";
+const belOrder = announcements.find((a) => a.headline.startsWith(belOrderHeadline));
+assert(
+  "BEL 'receives Rs.X Crore order' classified as positive",
+  belOrder && classifyAnnouncement(belOrder).tone === "positive",
+);
+
+const belMany = announcements.find((a) => a.headline.includes("receives orders worth"));
+assert(
+  "BEL 'receives orders worth' classified as positive",
+  belMany && classifyAnnouncement(belMany).tone === "positive",
+);
+
+const ltWins = announcements.find((a) => a.headline.startsWith("L&T Wins Orders"));
+assert(
+  "L&T 'Wins Orders (Significant*)' classified as positive",
+  ltWins && classifyAnnouncement(ltWins).tone === "positive",
+);
+
+const ltSecures = announcements.find((a) => a.headline.startsWith("L&T Secures"));
+assert(
+  "L&T 'Secures (Large*) Order' classified as positive",
+  ltSecures && classifyAnnouncement(ltSecures).tone === "positive",
+);
+
+const ltStrengthens = announcements.find((a) => a.headline.startsWith("L&T Strengthens"));
+assert(
+  "L&T 'Strengthens ... with Significant* Order from' classified as positive",
+  ltStrengthens && classifyAnnouncement(ltStrengthens).tone === "positive",
+);
+
+const nrcMeeting = announcements.find((a) => a.headline.startsWith("Outcome of the meeting"));
+assert(
+  "routine committee meeting stays neutral",
+  nrcMeeting && classifyAnnouncement(nrcMeeting).tone === "neutral",
+);
 
 console.log(`\n${failed === 0 ? "All checks passed." : `${failed} check(s) failed.`}\n`);
 process.exit(failed === 0 ? 0 : 1);
