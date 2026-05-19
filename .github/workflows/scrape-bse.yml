@@ -1,0 +1,100 @@
+name: Scrape BSE announcements
+
+# Runs the BSE scraper on a schedule and commits the JSON payload to a
+# dedicated `data` branch. Keeping data on a separate branch means commits
+# from this job never trigger a Cloudflare rebuild of `main` — the app
+# fetches the JSON from the `data` branch at runtime via the raw URL.
+#
+# Manual run: Actions tab -> "Scrape BSE announcements" -> Run workflow.
+
+on:
+  schedule:
+    # Every 30 minutes during Indian market hours (09:00 - 17:30 IST = 03:30 - 12:00 UTC),
+    # plus a couple of off-hours catches. Adjust freely.
+    - cron: "*/30 3-12 * * 1-5"   # weekdays, every 30 min, IST market window
+    - cron: "0 14,18 * * 1-5"      # weekday evening catches (IST ~19:30, 23:30)
+    - cron: "0 6 * * 0,6"          # weekend daily sweep
+  workflow_dispatch: {}
+
+# Don't let two scrapes step on each other when commits race.
+concurrency:
+  group: scrape-bse
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout source (main)
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      # We don't need OpenNext or Next.js to scrape — install runtime deps
+      # only, and skip the postinstall hook that would otherwise try to
+      # build the whole app.
+      - name: Install runtime deps
+        run: pnpm install --frozen-lockfile --ignore-scripts
+
+      - name: Run BSE scraper
+        env:
+          DAYS_BACK: "30"
+        run: pnpm tsx scripts/scrape-bse.mts
+
+      - name: Show summary
+        run: |
+          if [ -f data/bse-updates.json ]; then
+            echo "::group::scrape summary"
+            node -e "const d=require('./data/bse-updates.json'); console.log(JSON.stringify({fetchedAt:d.fetchedAt,counts:d.counts,ok:d.successCount,failed:d.failureCount,failures:d.failures}, null, 2));"
+            echo "::endgroup::"
+          else
+            echo "No output file produced."
+            exit 1
+          fi
+
+      - name: Publish to data branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # Stash the freshly written file before we switch branches.
+          mkdir -p /tmp/scrape-out
+          cp data/bse-updates.json /tmp/scrape-out/bse-updates.json
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Switch to (or create) the data branch.
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch origin data --depth=1
+            git checkout -B data origin/data
+          else
+            git checkout --orphan data
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          mkdir -p data
+          cp /tmp/scrape-out/bse-updates.json data/bse-updates.json
+
+          git add data/bse-updates.json
+
+          if git diff --cached --quiet; then
+            echo "No content change — nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "data(bse): $(date -u +%Y-%m-%dT%H:%MZ) update"
+          git push origin data
