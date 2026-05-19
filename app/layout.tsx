@@ -6,9 +6,9 @@ import { Topbar } from "@/components/layout/topbar";
 import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
-  title: "Catalyst — Corporate Detective Dashboard",
+  title: "TenderTrack — Government tenders & results",
   description:
-    "Predict market-moving catalysts before they hit the tape. Tender intelligence + real-time SEBI disclosures for Indian listed companies.",
+    "Track Indian government tenders, who's bidding, when results drop, and what follows.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

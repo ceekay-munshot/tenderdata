@@ -1,58 +1,78 @@
-export { companies, companyList } from "./companies";
-export { sectorTags, buyerOptions, competitorOptions } from "./sector-tags";
-export { tenders, tendersById } from "./tenders";
-export { disclosures, disclosuresByTicker } from "./disclosures";
-
+import type { Tender, Update } from "@/lib/types";
 import { tenders } from "./tenders";
-import { disclosures } from "./disclosures";
-import type { SignalEvent } from "@/lib/types";
+import { watchlist, watchedTickers } from "./watchlist";
 
-// Derive a flat upcoming-events stream for the calendar + dashboard
-export function getUpcomingEvents(daysAhead = 60): SignalEvent[] {
-  const now = new Date();
-  const horizon = new Date(now.getTime() + daysAhead * 24 * 60 * 60 * 1000);
-  const events: SignalEvent[] = [];
+export { tenders, tendersById } from "./tenders";
+export { watchlist, watchedTickers } from "./watchlist";
+
+/** Synthesise the "Recent Updates" stream from tender results + follow-ups. */
+export function getRecentUpdates(limit = 30): Update[] {
+  const updates: Update[] = [];
 
   for (const t of tenders) {
-    for (const m of t.milestones) {
-      const d = new Date(m.date);
-      if (d < now || d > horizon) continue;
-      const severity =
-        m.type === "financial_bid_opening" ? "critical"
-        : m.type === "technical_evaluation" ? "warning"
-        : "neutral";
-      events.push({
-        id: `${t.id}-${m.type}`,
-        ticker: t.watchedCompanies[0],
-        type: "tender_milestone",
-        title: `${labelFor(m.type)} — ${t.title.split("—")[0].trim()}`,
-        description: t.buyer,
-        severity,
-        date: m.date,
-        source: t.sourcePortal,
-        linkedId: t.id,
+    // Result declared event
+    if (t.status === "awarded" || t.status === "result_in") {
+      updates.push({
+        id: `${t.id}--result`,
+        date: t.resultDate,
+        tenderId: t.id,
+        kind: "winner_announced",
+        ticker: t.bidders.find((b) => b.status === "won")?.ticker,
+        text: t.winner
+          ? `${t.winner} won — ${t.title}`
+          : `Result declared — ${t.title}`,
+        tone: "positive",
+        context: t.buyer,
+      });
+
+      // Each loser is its own update (so watchlist hits surface)
+      for (const b of t.bidders) {
+        if (b.status === "lost") {
+          updates.push({
+            id: `${t.id}--lost-${b.ticker ?? b.name}`,
+            date: t.resultDate,
+            tenderId: t.id,
+            kind: "loser_confirmed",
+            ticker: b.ticker,
+            text: `${b.name} lost — contract awarded to ${t.winner ?? "another bidder"}`,
+            tone: "negative",
+            context: t.title,
+          });
+        }
+      }
+    }
+
+    // Follow-ups (ban, penalty, LOI, etc.)
+    for (const fu of t.followUps) {
+      updates.push({
+        id: fu.id,
+        date: fu.date,
+        tenderId: t.id,
+        kind: "follow_up",
+        ticker: fu.ticker,
+        text: fu.text,
+        tone: fu.tone,
+        context: t.title,
       });
     }
   }
 
-  return events.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+  return updates
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, limit);
 }
 
-function labelFor(type: string): string {
-  switch (type) {
-    case "bid_submission":
-      return "Bid Submission";
-    case "technical_evaluation":
-      return "Technical Evaluation";
-    case "financial_bid_opening":
-      return "Financial Bid Opening";
-    case "result_announcement":
-      return "Result Announcement";
-    default:
-      return type;
-  }
+export function isWatched(ticker?: string): boolean {
+  return !!ticker && watchedTickers.has(ticker);
 }
 
-export function getRecentDisclosures(limit = 20) {
-  return [...disclosures].sort((a, b) => new Date(b.filedAt).getTime() - new Date(a.filedAt).getTime()).slice(0, limit);
+/** Tenders sorted by relevance: pending soonest first, then result_in, then recently awarded. */
+export function sortedTenders(): Tender[] {
+  const now = Date.now();
+  return [...tenders].sort((a, b) => {
+    const aPending = a.status === "pending" || a.status === "evaluation";
+    const bPending = b.status === "pending" || b.status === "evaluation";
+    if (aPending !== bPending) return aPending ? -1 : 1;
+    return Math.abs(new Date(a.resultDate).getTime() - now) - Math.abs(new Date(b.resultDate).getTime() - now);
+  });
 }

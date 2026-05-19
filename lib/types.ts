@@ -1,108 +1,83 @@
-export type Severity = "critical" | "positive" | "warning" | "neutral";
+export type BidderStatus =
+  | "applied"
+  | "qualified"
+  | "disqualified"
+  | "won"
+  | "lost"
+  | "unknown";
 
-export type MilestoneType =
-  | "bid_submission"
-  | "technical_evaluation"
-  | "financial_bid_opening"
-  | "result_announcement";
-
-export interface Company {
-  ticker: string;
+export interface Bidder {
   name: string;
-  exchange: "BSE" | "NSE";
-  sector: string;
-  industry: string;
-  marketCap: number; // in INR
-  lastPrice: number;
-  change: number; // percentage
-  volume: number;
-  // Tender concentration risk score (0-100): higher = more dependent on a single contract
-  concentrationRisk: number;
-  // Live signal score (0-100): aggregated alert intensity
-  signalScore: number;
-  about?: string;
+  /** BSE/NSE ticker if listed in India */
+  ticker?: string;
+  status: BidderStatus;
 }
 
-export interface SectorTag {
+export type TenderStatus =
+  | "pending" // result not yet announced
+  | "evaluation" // technical eval done, financial bid scheduled
+  | "result_in" // result just dropped, contract not yet inked
+  | "awarded" // contract awarded
+  | "cancelled";
+
+export type FollowUpKind =
+  | "ban"
+  | "penalty"
+  | "sebi_disclosure"
+  | "news"
+  | "loi"
+  | "contract_signed";
+
+export interface FollowUp {
   id: string;
-  label: string;
-  // Semantic keywords used by the AI filter
-  keywords: string[];
-}
-
-export interface Watchlist {
-  id: string;
-  name: string;
-  companies: string[]; // ticker list
-  buyers?: string[]; // e.g. "Ministry of External Affairs"
-  competitors?: string[]; // e.g. "VFS Global"
-  createdAt: string;
-}
-
-export interface TenderMilestone {
-  type: MilestoneType;
   date: string; // ISO
-  description?: string;
+  kind: FollowUpKind;
+  ticker?: string;
+  text: string;
+  tone: "positive" | "negative" | "neutral";
+  source?: string;
 }
 
 export interface Tender {
   id: string;
   refNo: string;
   title: string;
-  buyer: string; // e.g. "Ministry of External Affairs"
+  buyer: string; // ministry / PSU
   ministry?: string;
   description: string;
   estimatedValue?: number; // INR
-  sectorTagIds: string[];
-  // Companies on our watchlist that are involved in some way
-  watchedCompanies: string[]; // tickers
-  // Bidders if known
-  knownBidders?: string[];
-  competitorBidders?: string[];
-  milestones: TenderMilestone[];
-  status: "upcoming" | "bidding_open" | "evaluation" | "financial_opened" | "awarded" | "cancelled";
+  bidders: Bidder[];
+  /** The headline date — when the result will be (or was) announced */
+  resultDate: string; // ISO
+  status: TenderStatus;
+  /** Set when status === "result_in" or "awarded" */
+  winner?: string;
+  followUps: FollowUp[];
   publishedAt: string;
-  sourcePortal: "CPPP" | "GeM" | "State" | "BidAssist";
+  sourcePortal: "CPPP" | "GeM" | "State";
   sourceUrl?: string;
-  // Semantic match confidence 0-100
-  matchScore: number;
 }
 
-export interface Disclosure {
-  id: string;
+export interface WatchlistItem {
   ticker: string;
-  companyName: string;
-  exchange: "BSE" | "NSE";
-  title: string;
-  body: string;
-  severity: Severity;
-  category: "contract_win" | "contract_loss" | "regulatory" | "governance" | "financial" | "structural" | "other";
-  triggerWords: string[];
-  filedAt: string;
-  url?: string;
-  // If this disclosure mentions a tender, we link it back
-  linkedTenderId?: string;
-  // AI-tagged price impact prediction
-  predictedImpact: "high" | "medium" | "low";
-}
-
-export interface AlertRule {
-  id: string;
   name: string;
-  trigger: "financial_bid_opening" | "disclosure_critical" | "disclosure_positive" | "result_announcement";
-  leadTimeHours: number; // e.g. 48
-  channels: ("telegram" | "email" | "slack" | "webhook")[];
-  enabled: boolean;
+  exchange: "BSE" | "NSE";
+  sector?: string;
+  addedAt: string;
 }
 
-export interface SignalEvent {
+/** A flattened "what just happened" event for the Recent Updates strip */
+export interface Update {
   id: string;
-  ticker: string;
-  type: "tender_milestone" | "disclosure" | "competitor_action" | "regulatory";
-  title: string;
-  description: string;
-  severity: Severity;
   date: string;
-  source?: string;
-  linkedId?: string;
+  tenderId: string;
+  kind:
+    | "result_declared"
+    | "winner_announced"
+    | "loser_confirmed"
+    | "follow_up";
+  ticker?: string;
+  text: string;
+  tone: "positive" | "negative" | "neutral";
+  context?: string; // e.g. tender title for breadcrumb
 }
