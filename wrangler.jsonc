@@ -1,0 +1,29 @@
+/**
+ * Cloudflare Workers config for the Catalyst dashboard.
+ *
+ * IMPORTANT: `name` must match the existing Worker on your Cloudflare account.
+ * The detected project worker name from the previous failed deploy was "tenderdata",
+ * which is also the GitHub repo name. The WORKER_SELF_REFERENCE service binding
+ * MUST match this name exactly — that mismatch (catalyst-dashboard vs tenderdata)
+ * is what broke the last deploy.
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tenderdata",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-05-19",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".open-next/assets"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "tenderdata"
+    }
+  ]
+}
