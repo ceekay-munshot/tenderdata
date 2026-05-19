@@ -172,62 +172,83 @@ export async function fetchBseAnnouncementsForTickers(
 // Classification — turn an announcement headline into an Update for the feed
 // ---------------------------------------------------------------------------
 
+/**
+ * Trigger-word patterns.
+ *
+ * Classifier uses a strict hierarchy (negative > positive > watch > neutral)
+ * rather than counting matches — counting double-trips on phrases like "not
+ * the L1 bidder" (matches "not L1" as negative AND "L1 bidder" as positive),
+ * and the dashboard treating "loss of contract" announcements as positive is
+ * exactly the kind of bug that would make a trader miss a BLS-style move.
+ */
 const NEGATIVE_TRIGGERS = [
-  /debar/i,
-  /banned?/i,
-  /penalt/i,
-  /show\s+cause/i,
-  /termination/i,
-  /lost\s+contract/i,
-  /loss\s+of\s+contract/i,
-  /not.*L1\s+bidder/i,
-  /resignation/i,
-  /fraud/i,
-  /forensic/i,
-  /liquidated\s+damages/i,
+  /\bdebar/i,
+  /\bbanned?\b/i,
+  /\bpenalt/i,
+  /\bshow\s+cause\b/i,
+  /\btermina(?:tion|ted)\b/i,
+  /\blost\s+contract\b/i,
+  /\bloss\s+of\b/i,
+  /\bnot\s+(?:the\s+)?L1\b/i,
+  /\bfraud\b/i,
+  /\bliquidated\s+damages\b/i,
+  /\bwithdrawn\b/i,
+  /\border\s+cancellation\b/i,
+  /\bdisqualif/i,
 ];
 
 const POSITIVE_TRIGGERS = [
-  /order\s+win/i,
-  /awarded/i,
-  /letter\s+of\s+award|LOA/i,
-  /letter\s+of\s+intent|LOI/i,
-  /L1\s+bidder/i,
-  /contract\s+won/i,
-  /qualified\s+bidder/i,
+  /\border\s+win\b/i,
+  /\bawarded\b/i,
+  /\bletter\s+of\s+award\b|\bLOA\b/i,
+  /\bletter\s+of\s+intent\b|\bLOI\b/i,
+  /\bL1\s+bidder\b/i,
+  /\bcontract\s+won\b/i,
+  /\bcontract\s+signed\b/i,
+  /\bqualified\s+bidder\b/i,
 ];
 
-const WATCH_TRIGGERS = [/auditor/i, /promoter\s+pledge/i, /resignation/i, /forensic/i];
+const WATCH_TRIGGERS = [
+  /\bresignation\b/i,
+  /\bauditor\b/i,
+  /\bforensic\b/i,
+  /\bpromoter\s+pledge\b/i,
+  /\bopen\s+offer\b/i,
+  /\binsider\s+trading\b/i,
+];
 
 export function classifyAnnouncement(
   ann: BseAnnouncement,
 ): { tone: "positive" | "negative" | "neutral"; matches: string[] } {
   const text = `${ann.headline}\n${ann.body}`.slice(0, 4000);
-  const matches: string[] = [];
-  let neg = 0;
-  let pos = 0;
+
+  const negMatches: string[] = [];
+  const posMatches: string[] = [];
+  const watchMatches: string[] = [];
 
   for (const r of NEGATIVE_TRIGGERS) {
     const m = text.match(r);
-    if (m) {
-      neg++;
-      matches.push(m[0]);
-    }
+    if (m) negMatches.push(m[0]);
   }
   for (const r of POSITIVE_TRIGGERS) {
     const m = text.match(r);
-    if (m) {
-      pos++;
-      matches.push(m[0]);
-    }
+    if (m) posMatches.push(m[0]);
   }
   for (const r of WATCH_TRIGGERS) {
     const m = text.match(r);
-    if (m && !matches.includes(m[0])) matches.push(m[0]);
+    if (m) watchMatches.push(m[0]);
   }
 
-  const tone = neg > pos ? "negative" : pos > neg ? "positive" : "neutral";
-  return { tone, matches };
+  // Strict hierarchy: a single negative trigger wins, regardless of any
+  // positives picked up in the same body.
+  const tone: "positive" | "negative" | "neutral" =
+    negMatches.length > 0
+      ? "negative"
+      : posMatches.length > 0
+      ? "positive"
+      : "neutral";
+
+  return { tone, matches: [...negMatches, ...posMatches, ...watchMatches] };
 }
 
 /**

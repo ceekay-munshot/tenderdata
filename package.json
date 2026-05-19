@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
+    "test:scrapers": "tsx scripts/test-bse-parser.mts",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "postinstall": "node scripts/cf-postinstall.mjs",
@@ -48,6 +49,7 @@
   "devDependencies": {
     "@opennextjs/cloudflare": "^1.19.11",
     "wrangler": "^4.93.0",
+    "tsx": "^4.22.3",
     "typescript": "^5.6.3",
     "@types/node": "^22.9.0",
     "@types/react": "^19.0.0",
