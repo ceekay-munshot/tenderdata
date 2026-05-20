@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-20T13:21:00.393Z",
-  "durationMs": 493,
+  "fetchedAt": "2026-05-20T15:43:27.546Z",
+  "durationMs": 602,
   "window": {
     "daysBack": 30
   },
@@ -16,12 +16,27 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 80,
+    "announcements": 82,
     "negative": 0,
     "positive": 9,
-    "neutral": 71
+    "neutral": 73
   },
   "announcements": [
+    {
+      "newsId": "add4d8f0-cbae-4372-812a-097a1ab6f081",
+      "ticker": "BLS",
+      "scripcode": 540073,
+      "companyName": "BLS International Services Ltd",
+      "headline": "Dear Sir/ Ma'am,\r\n\r\nIn continuation to our intimation dated May 15, 2026 and pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the audio recording of Earnings call held on Wednesday, May 20, 2026 at 16:00 P.M. (IST) on operational and financial performance of the company for the fourth quarter and financial year ended on March 31, 2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-20T19:16:34.763Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/654bfb3a-0489-41b2-b4c2-4b5412dcb3da.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
     {
       "newsId": "3a46b17c-3d95-47eb-a734-51ee150cc7ae",
       "ticker": "BLS",
@@ -182,6 +197,21 @@
       "category": "Company Update",
       "filedAt": "2026-05-11T19:54:01.610Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56ad8d01-3e7d-445c-8127-a46e7f445b78.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "23ea0acf-c67a-422d-ba90-6edae371e612",
+      "ticker": "BEL",
+      "scripcode": 500049,
+      "companyName": "Bharat Electronics Ltd",
+      "headline": "Link of Audio Recording of Conference call held on 20/05/2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-20T20:15:46.620Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/62a01ea1-44b5-4437-b402-7e495329ba9b.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1245,6 +1275,26 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-23ea0acf-c67a-422d-ba90-6edae371e612",
+      "date": "2026-05-20T20:15:46.620Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BEL",
+      "text": "Link of Audio Recording of Conference call held on 20/05/2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-add4d8f0-cbae-4372-812a-097a1ab6f081",
+      "date": "2026-05-20T19:16:34.763Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BLS",
+      "text": "Dear Sir/ Ma'am,\r\n\r\nIn continuation to our intimation dated May 15, 2026 and pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the audio recording of Earnings call held on Wednesday, May 20, 2026 at 16:00 P.M. (IST) on operational and financial performance of the company for the fourth quarter and financial year ended on March 31, 2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-8bbcdf5e-584d-4150-982b-df4b7af93cc9",
       "date": "2026-05-20T18:09:40.240Z",
