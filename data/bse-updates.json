@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-19T20:12:11.095Z",
-  "durationMs": 699,
+  "fetchedAt": "2026-05-20T02:45:32.531Z",
+  "durationMs": 744,
   "window": {
     "daysBack": 30
   },
@@ -18,8 +18,8 @@
   "counts": {
     "announcements": 77,
     "negative": 0,
-    "positive": 1,
-    "neutral": 76
+    "positive": 9,
+    "neutral": 68
   },
   "announcements": [
     {
@@ -260,8 +260,10 @@
       "filedAt": "2026-05-05T15:24:08.910Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c4e8aecb-53e4-4d90-9a96-219739f4953b.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "receives Rs.1251 Crore order"
+        ]
       }
     },
     {
@@ -305,8 +307,10 @@
       "filedAt": "2026-04-22T15:48:55.527Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a386853-d3ca-48ae-824e-2268a6f84441.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "receives orders"
+        ]
       }
     },
     {
@@ -532,6 +536,7 @@
       "classification": {
         "tone": "positive",
         "matches": [
+          "Receipt of LOA",
           "LOA"
         ]
       }
@@ -712,8 +717,10 @@
       "filedAt": "2026-05-13T10:10:07.310Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/808d847b-3871-4d23-b20d-a3ab7df5caaa.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "Wins Orders"
+        ]
       }
     },
     {
@@ -742,8 +749,10 @@
       "filedAt": "2026-05-08T09:45:47.843Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7ae87272-7944-41bd-9c6a-032617bfaa80.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "Significant* Order from"
+        ]
       }
     },
     {
@@ -772,8 +781,10 @@
       "filedAt": "2026-05-07T10:44:08.807Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/818b1250-6453-44dc-a939-1d0da3fddf26.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "Wins Orders"
+        ]
       }
     },
     {
@@ -817,8 +828,10 @@
       "filedAt": "2026-05-06T09:29:23.883Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1aeade45-bedc-40e0-85fa-84ea42394db3.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "wins (Mega*) Order"
+        ]
       }
     },
     {
@@ -997,8 +1010,10 @@
       "filedAt": "2026-05-05T09:56:09.067Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f86baee5-1279-4f1a-bd44-be3630e0a755.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "Secures (Large*) Order"
+        ]
       }
     },
     {
@@ -1147,8 +1162,10 @@
       "filedAt": "2026-04-23T09:40:16.047Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8638fdb2-dd3c-4173-9a2f-107237c5d9c7.pdf",
       "classification": {
-        "tone": "neutral",
-        "matches": []
+        "tone": "positive",
+        "matches": [
+          "Wins Orders"
+        ]
       }
     },
     {
@@ -1450,8 +1467,8 @@
       "kind": "follow_up",
       "ticker": "LT",
       "text": "L&T Wins Orders (Significant*) for Power Transmission & Distribution Business",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: Wins Orders"
     },
     {
       "id": "bse-0bd5714f-6e37-4c13-866d-a5c21ce23e7e",
@@ -1520,8 +1537,8 @@
       "kind": "follow_up",
       "ticker": "LT",
       "text": "L&T Strengthens its Coal-to-Chemicals EPC Leadership with Significant* Order from BCGCL",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: Significant* Order from"
     },
     {
       "id": "bse-c90be2de-a740-4c03-96f4-bc9c39ede078",
@@ -1570,8 +1587,8 @@
       "kind": "follow_up",
       "ticker": "LT",
       "text": "L&T Buildings & Factories Business Wins Orders (Large*)",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: Wins Orders"
     },
     {
       "id": "bse-386de102-f019-4f3e-82fc-d9cbe772ef87",
@@ -1600,8 +1617,8 @@
       "kind": "follow_up",
       "ticker": "LT",
       "text": "L&T wins (Mega*) Order for Minerals & Metals Business",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: wins (Mega*) Order"
     },
     {
       "id": "bse-e965204c-295f-4fa6-b43c-b7bb4d757c8d",
@@ -1710,8 +1727,8 @@
       "kind": "follow_up",
       "ticker": "BEL",
       "text": "BEL receives Rs.1251 Crore order for supply of Ground Based Mobile ELINT System (GBMES) to Indian Army.",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: receives Rs.1251 Crore order"
     },
     {
       "id": "bse-3b05d3bc-24e3-45c0-94bd-53872c0cc746",
@@ -1730,8 +1747,8 @@
       "kind": "follow_up",
       "ticker": "LT",
       "text": "L&T Secures (Large*) Order to Reinforce India''s Energy Security Through Coal Gasification",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: Secures (Large*) Order"
     },
     {
       "id": "bse-9dd749ae-e8a1-4117-b99e-8095ac617cd5",
@@ -1831,7 +1848,7 @@
       "ticker": "RVNL",
       "text": "Receipt of LOA from NMDC Limited.",
       "tone": "positive",
-      "context": "Triggers: LOA"
+      "context": "Triggers: Receipt of LOA, LOA"
     },
     {
       "id": "bse-18d27756-afef-45c5-ac40-64669d4899ef",
@@ -1920,8 +1937,8 @@
       "kind": "follow_up",
       "ticker": "LT",
       "text": "L&T Wins Orders (Significant*) for Buildings & Factories Business",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: Wins Orders"
     },
     {
       "id": "bse-e9b24a4f-6ffb-48bf-af4d-015aa1eaf04c",
@@ -1930,8 +1947,8 @@
       "kind": "follow_up",
       "ticker": "BEL",
       "text": "BEL receives orders worth Rs. 569 Crore.",
-      "tone": "neutral",
-      "context": "Company Update"
+      "tone": "positive",
+      "context": "Triggers: receives orders"
     },
     {
       "id": "bse-0f591f71-59f4-4349-8ffc-1ea527dee69f",
