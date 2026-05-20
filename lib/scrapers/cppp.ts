@@ -1,36 +1,40 @@
 /**
  * CPPP (Central Public Procurement Portal — eprocure.gov.in) scraper.
  *
- * Unlike BSE there is no JSON API. CPPP is an ASP.NET site that renders
- * tender listings as HTML tables. We scrape the "Latest Active Tenders"
- * page, parse the table with cheerio, and keyword-filter the result down
- * to watchlist-relevant tenders.
+ * Source page: "Tenders by Closing Date" (FrontEndListTendersbyDate), which
+ * defaults to "Closing Today" and serves real tender rows with NO captcha
+ * gate. (FrontEndLatestActiveTenders, by contrast, is a captcha-walled
+ * search form — see the endpoint probe history.)
  *
- * This module uses cheerio and is meant to run ONLY in the GitHub Actions
- * scraper (Node), never bundled into the Cloudflare Worker. The app should
- * import types from here with `import type`, never the functions.
+ * Verified structure of the real page:
+ *   - The tender table is <table id="table" class="list_table">.
+ *   - Each tender row is <tr id="informal">, <tr id="informal_0">, ... with
+ *     exactly 6 cells: S.No | e-Published | Bid Closing | Tender Opening |
+ *     Title(<a>) + refs | Organisation Chain.
+ *   - The title sits inside an <a>; the dept ref and the canonical CPPP
+ *     tender ID (e.g. 2026_FCI_908269_1) follow it as bracketed text.
+ *   - Pagination: <a id="linkLast"> / <a id="linkPage..."> are plain GET
+ *     links carrying an "sp=<page>" param. ~10 rows per page.
  *
- * CPPP's HTML changes from time to time, so parsing is deliberately
- * defensive: it maps columns by header text, falls back to positional
- * indices, and the scraper script keeps a raw HTML sample when 0 rows are
- * found so we can fix selectors without guessing.
+ * Selecting tr[id^=informal] and requiring a canonical tender ID per row
+ * is what keeps header/footer/layout rows out of the result.
+ *
+ * cheerio-based — runs ONLY in the GHA scraper, never the Worker bundle.
  */
 
 import * as cheerio from "cheerio";
 import type { CpppTender } from "@/lib/types";
 import { matchTenderKeywords } from "./sector-keywords";
 
-/**
- * "Tenders by Closing Date" — defaults to "Closing Today" and serves real
- * tender rows with no CAPTCHA gate (verified by the endpoint probe).
- *
- * NOT "FrontEndLatestActiveTenders" — that page is a CAPTCHA-gated search
- * form, it returns no data without solving the captcha.
- */
 export const CPPP_TENDERS_BY_DATE_URL =
   "https://eprocure.gov.in/eprocure/app?page=FrontEndListTendersbyDate&service=page";
 
-const REQUEST_HEADERS: HeadersInit = {
+/** Safety cap on pagination — a normal day is ~15-25 pages. */
+const MAX_PAGES = 30;
+/** Politeness delay between page fetches. */
+const PAGE_DELAY_MS = 500;
+
+const REQUEST_HEADERS: Record<string, string> = {
   "User-Agent":
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
   Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -49,163 +53,177 @@ export interface CpppScrapeResult {
   tenders: CpppTender[];
   /** Every parsed row (matchedKeywords may be empty) — for inspection. */
   allRows: CpppTender[];
-  /** Count of rows parsed, before keyword filtering. */
+  /** Count of rows parsed across all pages, before keyword filtering. */
   totalRowsParsed: number;
-  /** The full HTML that was fetched/parsed — the caller decides whether to
-   *  persist it for debugging (e.g. when totalRowsParsed looks too low). */
+  /** How many listing pages were fetched. */
+  pagesFetched: number;
+  /** First page's HTML — caller may persist it for debugging. */
   rawHtml: string;
 }
 
 interface FetchOptions {
   fetcher?: typeof fetch;
   signal?: AbortSignal;
-  /** Already-downloaded HTML — skips the network call (used by tests). */
+  /** Pre-supplied HTML — skips the network and pagination (used by tests). */
   html?: string;
+  /** Override the page cap. */
+  maxPages?: number;
 }
+
+type RawTenderRow = Omit<CpppTender, "matchedKeywords">;
 
 /**
- * Fetch + parse the CPPP Latest Active Tenders page, then keyword-filter.
- *
- * Returns only watchlist-relevant tenders, but reports `totalRowsParsed`
- * so the caller can tell "0 relevant" apart from "parser is broken".
+ * Scrape the CPPP "Closing Today" listing across all pages, then
+ * keyword-filter to watchlist-relevant tenders.
  */
 export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<CpppScrapeResult> {
-  const html = opts.html ?? (await fetchLatestTendersHtml(opts));
-  const all = parseTenderTable(html);
+  // Test mode: parse the supplied HTML only, no network, no pagination.
+  if (opts.html != null) {
+    const rows = dedupeByRef(parseTenderTable(opts.html));
+    return finalise(rows, 1, opts.html);
+  }
 
-  const allRows: CpppTender[] = all.map((row) => {
-    const match = matchTenderKeywords(row.title, row.organisationChain);
-    return { ...row, matchedKeywords: match.matchedKeywords };
-  });
-  const tenders = allRows.filter((t) => t.matchedKeywords.length > 0);
+  const fetcher = opts.fetcher ?? fetch;
+  const maxPages = opts.maxPages ?? MAX_PAGES;
 
-  return { tenders, allRows, totalRowsParsed: all.length, rawHtml: html };
+  // Page 1.
+  const first = await fetchHtml(CPPP_TENDERS_BY_DATE_URL, fetcher, undefined, opts.signal);
+  let rows = parseTenderTable(first.html);
+
+  // Follow GET-based pagination.
+  const { lastPage, pageUrl } = parsePagination(first.html);
+  let pagesFetched = 1;
+  for (let p = 2; p <= Math.min(lastPage, maxPages); p++) {
+    const url = pageUrl(p);
+    if (!url) break;
+    try {
+      const next = await fetchHtml(url, fetcher, first.cookie, opts.signal);
+      const pageRows = parseTenderTable(next.html);
+      if (pageRows.length === 0) break; // empty page — stop early
+      rows = rows.concat(pageRows);
+      pagesFetched++;
+    } catch {
+      break; // pagination hiccup — keep what we have
+    }
+    await delay(PAGE_DELAY_MS);
+  }
+
+  return finalise(dedupeByRef(rows), pagesFetched, first.html);
 }
 
-async function fetchLatestTendersHtml(opts: FetchOptions): Promise<string> {
-  const fetcher = opts.fetcher ?? fetch;
-  const res = await fetcher(CPPP_TENDERS_BY_DATE_URL, {
-    method: "GET",
-    headers: REQUEST_HEADERS,
-    signal: opts.signal,
-  });
+function finalise(rows: RawTenderRow[], pagesFetched: number, rawHtml: string): CpppScrapeResult {
+  const allRows: CpppTender[] = rows.map((row) => ({
+    ...row,
+    matchedKeywords: matchTenderKeywords(row.title, row.organisationChain).matchedKeywords,
+  }));
+  return {
+    tenders: allRows.filter((t) => t.matchedKeywords.length > 0),
+    allRows,
+    totalRowsParsed: rows.length,
+    pagesFetched,
+    rawHtml,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// HTTP
+// ---------------------------------------------------------------------------
+
+async function fetchHtml(
+  url: string,
+  fetcher: typeof fetch,
+  cookie: string | undefined,
+  signal: AbortSignal | undefined,
+): Promise<{ html: string; cookie: string | undefined }> {
+  const headers: Record<string, string> = { ...REQUEST_HEADERS };
+  if (cookie) headers.Cookie = cookie;
+
+  const res = await fetcher(url, { method: "GET", headers, signal });
   if (!res.ok) {
     throw new CpppFetchError(`CPPP responded ${res.status}`, res.status);
   }
-  return res.text();
+
+  // Carry the JSESSIONID forward so paginated GETs stay in the same session.
+  let nextCookie = cookie;
+  const setCookie = res.headers.get("set-cookie");
+  if (setCookie) {
+    const m = setCookie.match(/JSESSIONID=[^;]+/);
+    if (m) nextCookie = m[0];
+  }
+  return { html: await res.text(), cookie: nextCookie };
 }
+
+const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 // ---------------------------------------------------------------------------
 // HTML parsing
 // ---------------------------------------------------------------------------
 
-type RawTenderRow = Omit<CpppTender, "matchedKeywords">;
-
-/** Header text -> the logical column it represents. */
-const COLUMN_HINTS: { test: RegExp; key: keyof ColumnMap }[] = [
-  { test: /e[-\s]?published/i, key: "published" },
-  { test: /closing\s*date|submission/i, key: "closing" },
-  { test: /opening\s*date/i, key: "opening" },
-  { test: /title.*ref|tender\s*id/i, key: "title" },
-  { test: /organisation|organization/i, key: "org" },
-];
-
-interface ColumnMap {
-  published: number;
-  closing: number;
-  opening: number;
-  title: number;
-  org: number;
-}
-
-const DEFAULT_COLUMNS: ColumnMap = {
-  published: 1,
-  closing: 2,
-  opening: 3,
-  title: 4,
-  org: 5,
-};
-
 export function parseTenderTable(html: string): RawTenderRow[] {
   const $ = cheerio.load(html);
   const rows: RawTenderRow[] = [];
 
-  // CPPP renders the listing in a <table>. There can be several tables on
-  // the page (layout/header), so we evaluate each and keep rows that look
-  // like real tender rows.
-  $("table").each((_, table) => {
-    const $table = $(table);
+  // CPPP tender rows are <tr id="informal">, "informal_0", "informal_1"...
+  // (The pagination block is <span id="informal_9"> — excluded by the `tr`.)
+  $("tr[id^='informal']").each((_, tr) => {
+    const cells = $(tr).find("td");
+    if (cells.length < 6) return;
 
-    const headerCells = $table.find("th").length
-      ? $table.find("th")
-      : $table.find("tr").first().find("td");
-    const headerTexts: string[] = [];
-    headerCells.each((_, c) => {
-      headerTexts.push($(c).text());
-    });
-    const columns = resolveColumns(headerTexts);
+    const cellText = (i: number) => normaliseWhitespace($(cells[i]).text());
 
-    $table.find("tr").each((_, tr) => {
-      const cells = $(tr).find("td");
-      if (cells.length < 5) return; // not a tender row
+    const titleCell = $(cells[4]);
+    const link = titleCell.find("a").first();
+    const fullText = normaliseWhitespace(titleCell.text());
 
-      const cellText = (i: number) => normaliseWhitespace($(cells[i]).text());
+    // A real tender row always carries a canonical CPPP tender ID.
+    const tenderRef = extractTenderRef(fullText);
+    if (!tenderRef) return;
 
-      const titleCell = $(cells[columns.title]);
-      const title = normaliseWhitespace(titleCell.text());
-      if (!title) return;
-
-      // The title cell holds a link to the detail page + the ref/ID.
-      const link = titleCell.find("a").first();
-      const href = link.attr("href");
-      const tenderRef = extractTenderRef(titleCell.text(), link.text());
-
-      // Skip header rows: a header cell has no parseable dates anywhere.
-      const published = parseCpppDate(cellText(columns.published));
-      const closing = parseCpppDate(cellText(columns.closing));
-      const opening = parseCpppDate(cellText(columns.opening));
-      if (!published && !closing && !opening) return;
-
-      rows.push({
-        tenderRef: tenderRef || `cppp-${rows.length + 1}`,
-        title: stripRefFromTitle(title, tenderRef),
-        organisationChain: cellText(columns.org),
-        buyer: firstOrgSegment(cellText(columns.org)),
-        publishedAt: published,
-        bidSubmissionCloses: closing,
-        tenderOpensAt: opening,
-        detailUrl: absoluteUrl(href),
-      });
+    rows.push({
+      tenderRef,
+      title: extractTitle(normaliseWhitespace(link.text()), fullText),
+      organisationChain: cellText(5),
+      buyer: firstOrgSegment(cellText(5)),
+      publishedAt: parseCpppDate(cellText(1)),
+      bidSubmissionCloses: parseCpppDate(cellText(2)),
+      tenderOpensAt: parseCpppDate(cellText(3)),
+      detailUrl: absoluteUrl(decodeEntities(link.attr("href"))),
     });
   });
 
-  return dedupeByRef(rows);
+  return rows;
 }
 
-/** Map a table's header cell texts to logical column indices. */
-function resolveColumns(headerTexts: string[]): ColumnMap {
-  if (headerTexts.length >= 5) {
-    const map: Partial<ColumnMap> = {};
-    headerTexts.forEach((text, i) => {
-      for (const hint of COLUMN_HINTS) {
-        if (hint.test.test(text)) map[hint.key] = i;
-      }
-    });
-    if (
-      map.published != null &&
-      map.closing != null &&
-      map.opening != null &&
-      map.title != null &&
-      map.org != null
-    ) {
-      return map as ColumnMap;
-    }
+interface Pagination {
+  lastPage: number;
+  pageUrl: (n: number) => string | null;
+}
+
+/** Read CPPP's table pager: <a id="linkLast"> gives the count, the
+ *  <a id="linkPage..."> links give the URL shape. */
+function parsePagination(html: string): Pagination {
+  const $ = cheerio.load(html);
+  const lastHref = decodeEntities($("a#linkLast").attr("href"));
+  const tmplHref = decodeEntities($("a[id^='linkPage']").first().attr("href"));
+
+  let lastPage = 1;
+  if (lastHref) {
+    const nums = [...lastHref.matchAll(/sp=(\d+)/g)].map((m) => Number(m[1]));
+    if (nums.length) lastPage = nums[nums.length - 1];
   }
-  return DEFAULT_COLUMNS;
+
+  const pageUrl = (n: number): string | null => {
+    if (!tmplHref) return null;
+    // Replace the final "sp=<num>" with the requested page.
+    const withN = tmplHref.replace(/(sp=)\d+(?![\s\S]*sp=\d+)/, `$1${n}`);
+    return absoluteUrl(withN) ?? null;
+  };
+
+  return { lastPage, pageUrl };
 }
 
 // ---------------------------------------------------------------------------
-// helpers
+// field helpers
 // ---------------------------------------------------------------------------
 
 const MONTHS: Record<string, number> = {
@@ -213,10 +231,7 @@ const MONTHS: Record<string, number> = {
   jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11,
 };
 
-/**
- * Parse CPPP's date format: "19-May-2026 03:00 PM" (also handles
- * "19-May-2026 15:00" and date-only "19-May-2026").
- */
+/** Parse CPPP's "19-May-2026 03:00 PM" date format -> UTC ISO. */
 export function parseCpppDate(raw: string): string | null {
   const s = raw.trim();
   if (!s) return null;
@@ -237,35 +252,45 @@ export function parseCpppDate(raw: string): string | null {
     if (upper === "AM" && hh === 12) hh = 0;
   }
   // CPPP times are IST (UTC+5:30).
-  const utcMs = Date.UTC(Number(yyyy), month, Number(dd), hh, mm, ss) - 5.5 * 3600_000;
+  const utcMs = Date.UTC(Number(yyyy), month, Number(dd), hh, mm, ss) - 5.5 * 3_600_000;
   const d = new Date(utcMs);
   return isNaN(d.getTime()) ? null : d.toISOString();
+}
+
+/** Canonical CPPP tender ID, e.g. 2026_FCI_908269_1 / 2026_ARMHA_908028_1. */
+function extractTenderRef(text: string): string {
+  const m = text.match(/\b(20\d{2}_[A-Z][A-Z0-9]*_\d{3,8}_\d{1,3})\b/);
+  return m ? m[1] : "";
+}
+
+/** The title is the <a> text (bracketed); fall back to the first [..] group. */
+function extractTitle(linkText: string, fullText: string): string {
+  const fromLink = stripOuterBrackets(linkText);
+  if (fromLink) return fromLink;
+  const m = fullText.match(/\[([^\]]+)\]/);
+  return m ? m[1].trim() : fullText;
+}
+
+function stripOuterBrackets(s: string): string {
+  return s.replace(/^\s*\[/, "").replace(/\]\s*$/, "").trim();
 }
 
 function normaliseWhitespace(s: string): string {
   return s.replace(/\s+/g, " ").trim();
 }
 
-/** Pull a tender ID like "2026_MEA_812345_1" out of a cell's text. */
-function extractTenderRef(cellText: string, linkText: string): string {
-  const candidates = [linkText, cellText];
-  for (const c of candidates) {
-    const m = c.match(/\b\d{4}[_/][A-Za-z0-9]+[_/]\d+(?:[_/]\d+)?\b/);
-    if (m) return m[0];
-  }
-  // Fallback: bracketed ID "[2026_xxx]"
-  const bracket = cellText.match(/\[([^\]]+)\]/);
-  return bracket ? bracket[1].trim() : "";
-}
-
-function stripRefFromTitle(title: string, ref: string): string {
-  let t = title;
-  if (ref) t = t.replace(ref, "");
-  return normaliseWhitespace(t.replace(/\[\s*\]/g, ""));
-}
-
 function firstOrgSegment(orgChain: string): string {
-  return orgChain.split(/\|\||›|>|\//)[0]?.trim() || orgChain;
+  return orgChain.split(/\|\||›|>/)[0]?.trim() || orgChain;
+}
+
+function decodeEntities(s?: string): string | undefined {
+  if (!s) return s;
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&#36;/g, "$")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"');
 }
 
 function absoluteUrl(href?: string): string | undefined {
