@@ -45,8 +45,11 @@ export class CpppFetchError extends Error {
 }
 
 export interface CpppScrapeResult {
+  /** Tenders that matched a watchlist sector keyword. */
   tenders: CpppTender[];
-  /** Every tender row we parsed, before keyword filtering. */
+  /** Every parsed row (matchedKeywords may be empty) — for inspection. */
+  allRows: CpppTender[];
+  /** Count of rows parsed, before keyword filtering. */
   totalRowsParsed: number;
   /** The full HTML that was fetched/parsed — the caller decides whether to
    *  persist it for debugging (e.g. when totalRowsParsed looks too low). */
@@ -70,14 +73,13 @@ export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<Cppp
   const html = opts.html ?? (await fetchLatestTendersHtml(opts));
   const all = parseTenderTable(html);
 
-  const tenders: CpppTender[] = [];
-  for (const row of all) {
+  const allRows: CpppTender[] = all.map((row) => {
     const match = matchTenderKeywords(row.title, row.organisationChain);
-    if (match.matchedKeywords.length === 0) continue;
-    tenders.push({ ...row, matchedKeywords: match.matchedKeywords });
-  }
+    return { ...row, matchedKeywords: match.matchedKeywords };
+  });
+  const tenders = allRows.filter((t) => t.matchedKeywords.length > 0);
 
-  return { tenders, totalRowsParsed: all.length, rawHtml: html };
+  return { tenders, allRows, totalRowsParsed: all.length, rawHtml: html };
 }
 
 async function fetchLatestTendersHtml(opts: FetchOptions): Promise<string> {

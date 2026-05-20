@@ -55,6 +55,9 @@ async function main() {
     totalRowsParsed: result.totalRowsParsed,
     relevantCount: result.tenders.length,
     tenders: result.tenders,
+    // Debug: a sample of every parsed row (matched or not) so the parse
+    // quality and the keyword filter can be inspected from the output.
+    sampleRows: result.allRows.slice(0, 25),
   });
 
   console.log(
@@ -62,10 +65,10 @@ async function main() {
       `${result.tenders.length} matched watchlist sectors, in ${durationMs}ms`,
   );
 
-  // If parsing looks wrong (a healthy CPPP listing has dozens of rows),
-  // dump the fetched HTML so the table structure can be inspected and the
-  // parser fixed against real markup instead of guesswork.
-  if (result.totalRowsParsed < 10) {
+  // While the CPPP parser is still being tuned, dump the page HTML on any
+  // run with a thin result so the table structure + pagination controls
+  // can be inspected. (Threshold lowered back to ~0 once it's stable.)
+  if (result.totalRowsParsed < 50) {
     const stripped = result.rawHtml
       .replace(/<script[\s\S]*?<\/script>/gi, "")
       .replace(/<style[\s\S]*?<\/style>/gi, "")
