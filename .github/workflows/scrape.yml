@@ -65,8 +65,8 @@ jobs:
       - name: Scrape BidAssist tenders
         run: pnpm tsx scripts/scrape-bidassist.mts || echo "BidAssist scrape exited non-zero"
 
-      # Temporary: find the BidAssist pagination/search API endpoint.
-      - name: Probe BidAssist API
+      # Temporary: find the BidAssist bid-awards (results) API endpoint.
+      - name: Probe BidAssist bid-awards
         run: pnpm tsx scripts/probe-bidassist.mts || echo "BidAssist probe exited non-zero"
 
       - name: Show summary

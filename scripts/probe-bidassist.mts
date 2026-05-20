@@ -1,14 +1,14 @@
 /**
- * BidAssist API probe — find the tender-listing/search endpoint.
+ * BidAssist bid-awards API probe.
  *
- * The server-rendered __INITIAL_STATE__ only carries page 0 (10 tenders);
- * ?pageNumber= is ignored on SSR. Real pagination/search runs client-side
- * against api.bidassist.com. Earlier guesses (/api/tender-listings/) 404'd
- * because the real path family — visible in the JS — is
- * /api/tender/tender-listings/ (note the extra /tender/).
+ * The tender listing API turned out to be /api/tender/tenders with
+ * tenderEntity=TENDER. Bid awards ("tender results" — who won) should
+ * follow a similar shape. This probe tries the likely endpoints + entity
+ * values and reports which returns award data (a winner / awarded-to /
+ * bidAward field).
  *
- * This probe hits the likely endpoints with GET and POST and reports which
- * returns JSON tender data. Output: data/bidassist-probe.json. Temporary.
+ * Output: data/bidassist-probe.json. Temporary — removed once the
+ * bid-awards scraper is built.
  */
 
 import { writeFile, mkdir } from "node:fs/promises";
@@ -25,66 +25,59 @@ const HEADERS: Record<string, string> = {
   Referer: "https://bidassist.com/",
 };
 
-const PATHS = [
-  "/api/tender/tender-listings",
-  "/api/tender/tender-listings/",
-  "/api/tender/tender-listings/search",
-  "/api/tender/tender-listings/v2",
-  "/api/tender-listings",
-  "/api/tender/tenders",
-  "/api/tender/tenders/search",
-  "/api/v1/tender/tender-listings",
-];
+const QS = "sort=RELEVANCE:DESC&pageNumber=0&pageSize=10";
 
-/** Query params + POST body shape mirror the listing-page URL we saw. */
-const QUERY = "?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER";
-const BODY = JSON.stringify({
-  sort: "RELEVANCE:DESC",
-  pageNumber: 0,
-  pageSize: 10,
-  tenderEntity: "TENDER",
-});
+// Endpoint + entity combinations to try.
+const CANDIDATES: string[] = [
+  `${API}/api/tender/tenders?${QS}&tenderEntity=BID_AWARD`,
+  `${API}/api/tender/tenders?${QS}&tenderEntity=BIDAWARD`,
+  `${API}/api/tender/tenders?${QS}&tenderEntity=TENDER_RESULT`,
+  `${API}/api/tender/tenders?${QS}&tenderEntity=RESULT`,
+  `${API}/api/tender/tenders?${QS}&tenderEntity=BID_AWARDS`,
+  `${API}/api/bid-award/bid-awards?${QS}`,
+  `${API}/api/bid-award/bid-awards?${QS}&tenderEntity=BID_AWARD`,
+  `${API}/api/tender/bid-awards?${QS}`,
+  `${API}/api/bidaward/bidawards?${QS}`,
+  `${API}/api/bid-awards/v2?${QS}`,
+  `${API}/api/tender/tenders/bid-awards?${QS}`,
+  `${API}/api/bid-award/tenders?${QS}`,
+];
 
 interface Result {
   url: string;
-  method: string;
   status: number | null;
   contentType: string;
   isJson: boolean;
-  /** Looks like it carries tender rows. */
-  hasTenders: boolean;
+  /** Response carries a content[] array. */
+  hasContent: boolean;
+  /** Response mentions award / winner / bidder fields. */
+  looksLikeAwards: boolean;
   bytes: number;
   sample: string;
   error?: string;
 }
 
-async function probe(url: string, method: "GET" | "POST"): Promise<Result> {
+async function probe(url: string): Promise<Result> {
   const r: Result = {
     url,
-    method,
     status: null,
     contentType: "",
     isJson: false,
-    hasTenders: false,
+    hasContent: false,
+    looksLikeAwards: false,
     bytes: 0,
     sample: "",
   };
   try {
-    const init: RequestInit = {
-      method,
-      headers: {
-        ...HEADERS,
-        ...(method === "POST" ? { "Content-Type": "application/json" } : {}),
-      },
-      ...(method === "POST" ? { body: BODY } : {}),
-    };
-    const res = await fetch(url, init);
+    const res = await fetch(url, { headers: HEADERS });
     const body = await res.text();
     r.status = res.status;
     r.contentType = res.headers.get("content-type") ?? "";
     r.bytes = body.length;
     r.isJson = /json/i.test(r.contentType) || /^\s*[[{]/.test(body);
-    r.hasTenders = /tenderDescription|tenderNoticeNo|"content"\s*:/i.test(body);
+    r.hasContent = /"content"\s*:/.test(body);
+    r.looksLikeAwards =
+      /bidAward|awardedTo|awardValue|"winner|winnerName|bidderName|resultStage|workOrder/i.test(body);
     r.sample = body.slice(0, 500);
   } catch (err) {
     r.error = err instanceof Error ? err.message : String(err);
@@ -93,19 +86,17 @@ async function probe(url: string, method: "GET" | "POST"): Promise<Result> {
 }
 
 async function main() {
-  console.log("Probing BidAssist API endpoints...");
+  console.log("Probing BidAssist bid-awards endpoints...");
   const results: Result[] = [];
-  for (const p of PATHS) {
-    for (const method of ["GET", "POST"] as const) {
-      const url = API + p + (method === "GET" ? QUERY : "");
-      const r = await probe(url, method);
-      results.push(r);
-      console.log(
-        `  ${method.padEnd(4)} ${p.padEnd(36)} -> ${r.status ?? "ERR"} ` +
-          `${r.isJson ? "JSON" : r.contentType} tenders=${r.hasTenders}`,
-      );
-      await new Promise((res) => setTimeout(res, 400));
-    }
+  for (const url of CANDIDATES) {
+    const r = await probe(url);
+    results.push(r);
+    const tag = url.replace(`${API}/api/`, "").slice(0, 48);
+    console.log(
+      `  ${tag.padEnd(50)} -> ${r.status ?? "ERR"} ` +
+        `${r.isJson ? "JSON" : r.contentType} content=${r.hasContent} awards=${r.looksLikeAwards}`,
+    );
+    await new Promise((res) => setTimeout(res, 400));
   }
 
   await mkdir("data", { recursive: true });
@@ -115,11 +106,11 @@ async function main() {
     "utf8",
   );
 
-  const hit = results.find((r) => r.status === 200 && r.hasTenders);
+  const hit = results.find((r) => r.status === 200 && r.hasContent && r.looksLikeAwards);
   console.log(
     hit
-      ? `\nFOUND tender API: ${hit.method} ${hit.url}`
-      : "\nNo tender-bearing endpoint found — see data/bidassist-probe.json samples.",
+      ? `\nFOUND bid-awards API: ${hit.url}`
+      : "\nNo award-bearing endpoint confirmed — inspect data/bidassist-probe.json samples.",
   );
 }
 
