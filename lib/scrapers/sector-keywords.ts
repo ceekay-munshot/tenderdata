@@ -1,23 +1,27 @@
 /**
  * Sector keyword filter — the v1 "semantic" filter for tenders.
  *
- * CPPP publishes thousands of tenders a day. We can't show all of them, so
- * we keep only tenders whose title/org matches a watchlist sector. This is
- * deliberately keyword-based for now (cheap, no API, runs anywhere); an
- * embedding-based filter can replace `matchTenderKeywords` later without
- * touching callers.
+ * CPPP publishes thousands of tenders; we keep only those whose title/org
+ * maps to a watchlist sector. Two hard-won rules from real data:
  *
- * Keywords are intentionally specific multi-word phrases where possible —
- * bare words like "construction" or "service" would match half of CPPP and
- * bring back the keyword-blindness problem we're trying to avoid.
+ *  1. Match on WORD BOUNDARIES, never raw substring. Substring matching
+ *     flagged "SCADA for VISAKHapatnam pipeline" because "visa" sits inside
+ *     "Visakhapatnam". \b...\b fixes that class of false positive.
+ *  2. Prefer SPECIFIC multi-word phrases. Bare "radar" matched an
+ *     industrial "(RADAR) level instrument"; bare "metro rail" matched a
+ *     metro corporation's video-conferencing tender via its org name.
+ *     "radar system" / "metro rail project" don't.
+ *
+ * An embedding-based filter can later replace matchTenderKeywords without
+ * touching callers.
  */
 
 export interface SectorDef {
   id: string;
   label: string;
-  /** Watchlist tickers that operate in this sector */
+  /** Watchlist tickers operating in this sector. */
   tickers: string[];
-  /** Lower-cased phrases; a tender matches if its text contains any */
+  /** Keyword phrases, matched whole-word, case-insensitive. */
   keywords: string[];
 }
 
@@ -30,12 +34,12 @@ export const SECTORS: SectorDef[] = [
       "visa",
       "passport",
       "consular",
+      "e-visa",
+      "visa application",
+      "passport seva",
       "biometric enrolment",
       "biometric enrollment",
-      "visa application",
       "citizen service centre",
-      "e-visa",
-      "passport seva",
     ],
   },
   {
@@ -43,16 +47,16 @@ export const SECTORS: SectorDef[] = [
     label: "Defence Electronics",
     tickers: ["BEL"],
     keywords: [
-      "radar",
+      "radar system",
+      "surveillance radar",
+      "air defence",
+      "weapon locating radar",
       "electronic warfare",
       "missile system",
-      "sonar",
-      "secure communication",
       "electro-optic",
-      "electro optic",
-      "fire control system",
-      "naval electronics",
-      "air defence",
+      "sonar system",
+      "naval communication system",
+      "command and control system",
     ],
   },
   {
@@ -64,10 +68,10 @@ export const SECTORS: SectorDef[] = [
       "helicopter",
       "aero engine",
       "aero-engine",
-      "aircraft overhaul",
       "fighter aircraft",
       "rotary wing",
-      "aviation mro",
+      "avionics",
+      "aircraft overhaul",
     ],
   },
   {
@@ -77,14 +81,15 @@ export const SECTORS: SectorDef[] = [
     keywords: [
       "railway electrification",
       "track doubling",
+      "doubling of railway",
       "rail signalling",
-      "railway construction",
-      "metro rail",
+      "gauge conversion",
       "freight corridor",
       "new railway line",
+      "metro rail project",
+      "metro corridor",
       "overhead equipment",
-      "gauge conversion",
-      "rail flyover",
+      "railway bridge",
     ],
   },
   {
@@ -93,21 +98,33 @@ export const SECTORS: SectorDef[] = [
     tickers: ["LT"],
     keywords: [
       "expressway",
-      "metro rail",
-      "thermal power",
+      "thermal power plant",
       "transmission line",
-      "water supply project",
       "coal gasification",
       "hydroelectric",
       "tunnel construction",
-      "smart city",
+      "water treatment plant",
     ],
   },
 ];
 
-/** Flat keyword -> sector id index, for fast lookup. */
-const KEYWORD_INDEX: { keyword: string; sectorId: string }[] = SECTORS.flatMap((s) =>
-  s.keywords.map((k) => ({ keyword: k.toLowerCase(), sectorId: s.id })),
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+interface CompiledKeyword {
+  keyword: string;
+  sectorId: string;
+  re: RegExp;
+}
+
+// Each keyword -> /\bkeyword(s|es)?\b/i : whole-word, plural-tolerant.
+const COMPILED: CompiledKeyword[] = SECTORS.flatMap((s) =>
+  s.keywords.map((k) => ({
+    keyword: k,
+    sectorId: s.id,
+    re: new RegExp(`\\b${escapeRegExp(k)}(?:s|es)?\\b`, "i"),
+  })),
 );
 
 export interface KeywordMatch {
@@ -117,17 +134,16 @@ export interface KeywordMatch {
 }
 
 /**
- * Match free text (a tender title + org chain) against the sector keyword
- * index. Returns the matched keywords, sectors, and the watchlist tickers
- * those sectors map to. Empty arrays = not relevant, drop the tender.
+ * Match free text (tender title + org chain) against the sector keyword
+ * index. Empty arrays = not relevant.
  */
 export function matchTenderKeywords(...textParts: (string | null | undefined)[]): KeywordMatch {
-  const haystack = textParts.filter(Boolean).join("  ").toLowerCase();
+  const haystack = textParts.filter(Boolean).join("  ");
 
   const matchedKeywords = new Set<string>();
   const sectorIds = new Set<string>();
-  for (const { keyword, sectorId } of KEYWORD_INDEX) {
-    if (haystack.includes(keyword)) {
+  for (const { keyword, sectorId, re } of COMPILED) {
+    if (re.test(haystack)) {
       matchedKeywords.add(keyword);
       sectorIds.add(sectorId);
     }

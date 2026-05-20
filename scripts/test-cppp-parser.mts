@@ -10,6 +10,7 @@
  */
 
 import { scrapeLatestTenders, parseCpppDate, parseTenderTable } from "../lib/scrapers/cppp.ts";
+import { matchTenderKeywords } from "../lib/scrapers/sector-keywords.ts";
 
 interface Row {
   sno: string;
@@ -182,7 +183,12 @@ assert(
   wide.tenders.length === 3,
   `got ${wide.tenders.length}: ${wide.tenders.map((t) => t.title.slice(0, 18)).join(" | ")}`,
 );
-assert("radar tagged with 'radar'", wide.tenders.some((t) => t.matchedKeywords.includes("radar")));
+assert(
+  "radar tender tagged via a defence keyword",
+  wide.tenders.some(
+    (t) => t.matchedKeywords.includes("radar system") || t.matchedKeywords.includes("air defence"),
+  ),
+);
 assert("rural road not matched", !wide.tenders.some((t) => t.title.includes("rural road")));
 
 console.log("\nfallback when POST fails:");
@@ -193,6 +199,35 @@ assert("still parsed the today row", fallback.totalRowsParsed === 1, `got ${fall
 console.log("\nkeyword filter (single page via html option):");
 const single = await scrapeLatestTenders({ html: page(WIDE_P1, 1, 2) });
 assert("1 relevant on the visa page", single.tenders.length === 1, `got ${single.tenders.length}`);
+
+console.log("\nkeyword false-positive guards:");
+assert(
+  "'Visakhapatnam' does NOT match 'visa' (word boundary)",
+  matchTenderKeywords("SCADA system for Visakhapatnam Raipur pipeline").matchedKeywords.length === 0,
+);
+assert(
+  "industrial '(RADAR) level instrument' does NOT match",
+  matchTenderKeywords("Special level instrument (RADAR) for PP plant").matchedKeywords.length === 0,
+);
+assert(
+  "metro corp's VC-system tender does NOT match",
+  matchTenderKeywords(
+    "Supply of Video Conferencing System",
+    "Delhi Metro Rail Corporation",
+  ).matchedKeywords.length === 0,
+);
+assert(
+  "real 'radar system' still matches",
+  matchTenderKeywords("Supply of surveillance radar system for Air Defence").matchedKeywords.length > 0,
+);
+assert(
+  "whole-word 'visa' still matches",
+  matchTenderKeywords("Visa and passport outsourcing services").matchedKeywords.includes("visa"),
+);
+assert(
+  "'railway electrification' still matches",
+  matchTenderKeywords("Railway electrification works, Bhusawal").matchedKeywords.includes("railway electrification"),
+);
 
 console.log(`\n${failed === 0 ? "All checks passed." : `${failed} check(s) failed.`}\n`);
 process.exit(failed === 0 ? 0 : 1);
