@@ -14,9 +14,11 @@ name: Scrape tenders & disclosures
 
 on:
   schedule:
-    - cron: "*/30 3-12 * * 1-5"   # weekdays, every 30 min, IST market window
-    - cron: "0 14,18 * * 1-5"      # weekday evening catches
-    - cron: "0 6 * * 0,6"          # weekend daily sweep
+    # Every 4 hours. The CPPP 14-day scrape pages through up to ~50 listing
+    # pages, so this is deliberately not minute-frequent — tenders and
+    # disclosures don't move fast enough to need it, and it keeps the load
+    # on eprocure.gov.in / BSE polite.
+    - cron: "0 */4 * * *"
   workflow_dispatch: {}
 
 concurrency:

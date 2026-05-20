@@ -52,6 +52,8 @@ async function main() {
     fetchedAt: new Date().toISOString(),
     durationMs,
     ok: true,
+    view: result.view,
+    pagesFetched: result.pagesFetched,
     totalRowsParsed: result.totalRowsParsed,
     relevantCount: result.tenders.length,
     tenders: result.tenders,
@@ -61,7 +63,10 @@ async function main() {
   });
 
   console.log(
-    `Parsed ${result.totalRowsParsed} tender rows, ` +
+    `View: ${result.view === "14day" ? "Closing within 14 days" : "Closing today (POST fell back)"}`,
+  );
+  console.log(
+    `Parsed ${result.totalRowsParsed} tender rows across ${result.pagesFetched} page(s), ` +
       `${result.tenders.length} matched watchlist sectors, in ${durationMs}ms`,
   );
 
