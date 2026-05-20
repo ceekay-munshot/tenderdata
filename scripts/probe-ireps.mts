@@ -1,18 +1,18 @@
 /**
- * IREPS probe v2 — find which IREPS pages are reachable without the
- * mobile-OTP auth wall.
+ * IREPS probe v3 — dump the "View IREPS Documents" search form.
  *
- * Probe v1 found: the homepage is open, but anonymSearch.do (tender
- * search) demands mobile-number + SMS-OTP authentication. IREPS links are
- * all javascript: calls, so the real URLs live in its JS files.
+ * irepsDocuments.do is the one IREPS tender endpoint NOT behind the
+ * mobile-OTP wall ("View IREPS Documents - Indian Railways tenders for
+ * Goods, Works and Services"). It's a search form. To build a scraper we
+ * need its exact shape: the form action/method, every input + select
+ * (with options), whether the submit needs a captcha, and whether the
+ * Zone/Department dropdowns cascade.
  *
- * This probe: fetches the homepage, pulls every <script src>, scans the JS
- * for ".do" endpoints, then GETs each candidate and reports whether it's
- * open, captcha-gated, or OTP-walled. The goal is the public transparency
- * pages — "High Value Tenders" and "Banned / Suspended Firms" — which
- * govt sites usually leave open.
+ * This probe GETs the IREPS homepage (for a JSESSIONID), then GETs the
+ * documents page with that cookie, and reports the full form structure.
  *
- * Output: data/ireps-probe.json (committed to the data branch). Temporary.
+ * Output: data/ireps-probe.json + data/ireps-doc-debug.html (committed to
+ * the data branch). Temporary — removed once the scraper is built.
  */
 
 import { writeFile, mkdir } from "node:fs/promises";
@@ -20,144 +20,114 @@ import path from "node:path";
 import * as cheerio from "cheerio";
 
 const HOME = "https://www.ireps.gov.in/";
-const ORIGIN = "https://www.ireps.gov.in";
+const DOC_URL = "https://www.ireps.gov.in/epsn/works/irepsDocuments.do";
 
-const HEADERS: HeadersInit = {
+const HEADERS: Record<string, string> = {
   "User-Agent":
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
   Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
   "Accept-Language": "en-US,en;q=0.9",
 };
 
-function abs(href: string): string {
-  if (href.startsWith("http")) return href;
-  if (href.startsWith("/")) return ORIGIN + href;
-  return `${ORIGIN}/${href.replace(/^\.?\//, "")}`;
-}
-
-interface EndpointResult {
-  url: string;
-  status: number | null;
-  bytes: number;
-  /** Page is gated behind the mobile-OTP / "authenticate yourself" wall. */
-  otpWalled: boolean;
-  hasCaptcha: boolean;
-  tableCount: number;
-  trCount: number;
-  textSample: string;
-  error?: string;
-}
-
-async function fetchText(url: string): Promise<{ status: number; body: string }> {
-  const res = await fetch(url, { headers: HEADERS, redirect: "follow" });
-  return { status: res.status, body: await res.text() };
-}
-
-async function probeEndpoint(url: string): Promise<EndpointResult> {
-  const r: EndpointResult = {
-    url,
-    status: null,
-    bytes: 0,
-    otpWalled: false,
-    hasCaptcha: false,
-    tableCount: 0,
-    trCount: 0,
-    textSample: "",
-  };
-  try {
-    const { status, body } = await fetchText(url);
-    r.status = status;
-    r.bytes = body.length;
-    r.hasCaptcha = /captcha/i.test(body);
-    r.otpWalled =
-      /authenticate yourself/i.test(body) ||
-      /enter\b[^<]{0,40}\bOTP/i.test(body) ||
-      /session has expired/i.test(body);
-    const $ = cheerio.load(body);
-    r.tableCount = $("table").length;
-    r.trCount = $("tr").length;
-    r.textSample = body
-      .replace(/<script[\s\S]*?<\/script>/gi, " ")
-      .replace(/<style[\s\S]*?<\/style>/gi, " ")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-      .slice(0, 500);
-  } catch (err) {
-    r.error = err instanceof Error ? err.message : String(err);
+async function get(url: string, cookie?: string) {
+  const headers: Record<string, string> = { ...HEADERS };
+  if (cookie) headers.Cookie = cookie;
+  const res = await fetch(url, { headers, redirect: "follow" });
+  const body = await res.text();
+  let nextCookie = cookie;
+  const sc = res.headers.get("set-cookie");
+  if (sc) {
+    const m = sc.match(/JSESSIONID=[^;]+/);
+    if (m) nextCookie = m[0];
   }
-  return r;
+  return { status: res.status, body, cookie: nextCookie, finalUrl: res.url };
 }
 
 async function main() {
-  console.log("Fetching IREPS homepage + JS...");
-  const home = await fetchText(HOME);
-  const $ = cheerio.load(home.body);
+  console.log("GET homepage (for session cookie)...");
+  const home = await get(HOME);
+  console.log(`  homepage ${home.status}, cookie=${home.cookie ? "yes" : "no"}`);
 
-  // Collect <script src> URLs (same-origin only).
-  const scriptSrcs: string[] = [];
-  $("script[src]").each((_, el) => {
-    const src = $(el).attr("src");
-    if (src && !/^https?:\/\/(?!www\.ireps)/i.test(src)) scriptSrcs.push(abs(src));
+  console.log("GET irepsDocuments.do with session...");
+  const doc = await get(DOC_URL, home.cookie);
+  console.log(`  irepsDocuments.do ${doc.status}, ${doc.body.length} bytes, finalUrl=${doc.finalUrl}`);
+
+  const $ = cheerio.load(doc.body);
+
+  // Form structure.
+  const forms: {
+    action: string;
+    method: string;
+    inputs: { name: string; type: string; value: string }[];
+    selects: { name: string; options: { value: string; label: string }[] }[];
+  }[] = [];
+
+  $("form").each((_, f) => {
+    const $f = $(f);
+    const inputs: { name: string; type: string; value: string }[] = [];
+    $f.find("input").each((_, el) => {
+      const name = $(el).attr("name");
+      if (name) inputs.push({ name, type: $(el).attr("type") ?? "text", value: $(el).attr("value") ?? "" });
+    });
+    const selects: { name: string; options: { value: string; label: string }[] }[] = [];
+    $f.find("select").each((_, el) => {
+      const name = $(el).attr("name");
+      if (!name) return;
+      const options: { value: string; label: string }[] = [];
+      $(el)
+        .find("option")
+        .each((_, o) => {
+          options.push({
+            value: $(o).attr("value") ?? "",
+            label: $(o).text().replace(/\s+/g, " ").trim(),
+          });
+        });
+      selects.push({ name, options: options.slice(0, 40) });
+    });
+    forms.push({
+      action: $f.attr("action") ?? "",
+      method: ($f.attr("method") ?? "GET").toUpperCase(),
+      inputs,
+      selects,
+    });
   });
-  console.log(`  ${scriptSrcs.length} same-origin script(s) found`);
 
-  // Concatenate the JS and scan for ".do" endpoints.
-  let js = "";
-  for (const src of scriptSrcs.slice(0, 20)) {
-    try {
-      const { body } = await fetchText(src);
-      js += "\n" + body;
-    } catch {
-      /* skip */
-    }
-    await new Promise((r) => setTimeout(r, 300));
-  }
+  // Captcha signals.
+  const captchaImg = $("img[src*='captcha' i], img[id*='captcha' i]").length;
+  const captchaInput = $("input[name*='captcha' i], input[id*='captcha' i]").length;
 
-  const doEndpoints = [
-    ...new Set([...js.matchAll(/['"`]([\w./-]+\.do)\b/g)].map((m) => m[1])),
-  ];
-  console.log(`  ${doEndpoints.length} distinct .do endpoint(s) referenced in JS`);
-
-  // Prioritise the transparency-page candidates.
-  const interesting = doEndpoints.filter((e) =>
-    /high.?value|tender|search|award|bann|debar|nit/i.test(e),
-  );
-  const toProbe = [...new Set([...interesting, ...doEndpoints])].slice(0, 16);
-
-  const results: EndpointResult[] = [];
-  for (const ep of toProbe) {
-    const r = await probeEndpoint(abs(ep));
-    results.push(r);
-    console.log(
-      `  ${ep.padEnd(34)} status=${r.status ?? "ERR"} bytes=${r.bytes} ` +
-        `otpWall=${r.otpWalled} captcha=${r.hasCaptcha} tables=${r.tableCount}`,
-    );
-    await new Promise((r) => setTimeout(r, 500));
-  }
+  const report = {
+    probedAt: new Date().toISOString(),
+    docUrl: DOC_URL,
+    status: doc.status,
+    bytes: doc.body.length,
+    captchaImageTags: captchaImg,
+    captchaInputTags: captchaInput,
+    formCount: forms.length,
+    forms,
+  };
 
   await mkdir("data", { recursive: true });
   await writeFile(
     path.resolve("data", "ireps-probe.json"),
-    JSON.stringify(
-      {
-        probedAt: new Date().toISOString(),
-        scriptCount: scriptSrcs.length,
-        doEndpointsFound: doEndpoints,
-        results,
-      },
-      null,
-      2,
-    ) + "\n",
+    JSON.stringify(report, null, 2) + "\n",
     "utf8",
   );
 
-  const open = results.filter((r) => r.status === 200 && !r.otpWalled && !r.hasCaptcha && r.trCount > 5);
+  const stripped = doc.body
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<!--[\s\S]*?-->/g, "");
+  await writeFile(path.resolve("data", "ireps-doc-debug.html"), stripped.slice(0, 250_000), "utf8");
+
   console.log(
-    open.length
-      ? `\nOpen, data-bearing endpoints: ${open.map((r) => r.url).join(", ")}`
-      : "\nNo open data-bearing IREPS endpoint found among candidates.",
+    `\nForms: ${forms.length}. Captcha img tags: ${captchaImg}, captcha input tags: ${captchaInput}.`,
   );
+  for (const f of forms) {
+    console.log(`  form action="${f.action}" method=${f.method} inputs=${f.inputs.length} selects=${f.selects.length}`);
+    for (const s of f.selects) console.log(`    select ${s.name}: ${s.options.length} options`);
+  }
+  console.log("\nWrote data/ireps-probe.json + data/ireps-doc-debug.html");
 }
 
 main().catch((err) => {
