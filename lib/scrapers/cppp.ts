@@ -20,9 +20,15 @@ import * as cheerio from "cheerio";
 import type { CpppTender } from "@/lib/types";
 import { matchTenderKeywords } from "./sector-keywords";
 
-/** "Latest Active Tenders" — newest tenders published nationally. */
-export const CPPP_LATEST_TENDERS_URL =
-  "https://eprocure.gov.in/eprocure/app?page=FrontEndLatestActiveTenders&service=page";
+/**
+ * "Tenders by Closing Date" — defaults to "Closing Today" and serves real
+ * tender rows with no CAPTCHA gate (verified by the endpoint probe).
+ *
+ * NOT "FrontEndLatestActiveTenders" — that page is a CAPTCHA-gated search
+ * form, it returns no data without solving the captcha.
+ */
+export const CPPP_TENDERS_BY_DATE_URL =
+  "https://eprocure.gov.in/eprocure/app?page=FrontEndListTendersbyDate&service=page";
 
 const REQUEST_HEADERS: HeadersInit = {
   "User-Agent":
@@ -76,7 +82,7 @@ export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<Cppp
 
 async function fetchLatestTendersHtml(opts: FetchOptions): Promise<string> {
   const fetcher = opts.fetcher ?? fetch;
-  const res = await fetcher(CPPP_LATEST_TENDERS_URL, {
+  const res = await fetcher(CPPP_TENDERS_BY_DATE_URL, {
     method: "GET",
     headers: REQUEST_HEADERS,
     signal: opts.signal,
