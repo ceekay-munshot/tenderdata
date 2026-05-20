@@ -8,33 +8,51 @@
  *
  * IMPORTANT: the public listing does NOT name the winning bidder. The
  * winner lives inside the AOC document, which BidAssist paywalls. This
- * scraper surfaces *which* tenders are at decision stage and *when* — not
- * who won. Naming the winner needs a source-portal AOC fetch.
+ * scraper surfaces *which* tenders are at decision stage and *when* — the
+ * winner is filled in later by the BSE-disclosure correlation.
  *
- * Source: the /tender-results/all-tenders/active page server-renders a
- * window.__INITIAL_STATE__ JSON blob whose `tenders.content[]` holds the
- * award entities. The SSR blob is the *only* source — the dedicated
- * /api/bid-award/* endpoints 404, and /api/tender/tenders ignores
- * tenderEntity (every variant returns the active-tender feed byte-for-
- * byte, so it can't serve awards).
+ * Source: the /global-tender-results/active page server-renders a
+ * window.__INITIAL_STATE__ blob whose `tenders.content[]` holds the award
+ * entities. The SSR page is the only way in — the dedicated
+ * /api/bid-award/* endpoints 404 and /api/tender/tenders ignores
+ * tenderEntity (it always returns the active-tender feed).
  *
- * Pagination is probed at runtime: the scraper fetches the bare page,
- * then tries ?page=2 / ?pageNumber=2 and keeps whichever returns awards
- * the bare page didn't. Probing with index 2 (not 1) detects the param
- * for both 0- and 1-indexed pagers. It then walks pages up to the page's
- * own totalPages (capped). If neither param works it scrapes a single
- * page; the result reports paginationParam=null and the raw pageInfo
- * blob so the pagination model can be re-probed from the output.
+ * The unfiltered results feed is a grab-bag of every government
+ * procurement result (10k+ rows, almost none in a watchlist sector), so
+ * the scraper does keyword-targeted searches: the page accepts a `label`
+ * query param — the same keyword search the active-tenders API uses — and
+ * `?label=<term>&page=<n>` returns results matching the term. The scraper
+ * first proves `label` actually filters (a nonsense term must return zero
+ * rows); if it doesn't, searchParam is reported null so it can be
+ * re-checked from the output.
  *
  * Runs ONLY in the GHA scraper (Node). The app imports types only.
  */
 
 import { matchTenderKeywords } from "./sector-keywords";
 
-const RESULTS_PAGE_URL = "https://bidassist.com/tender-results/all-tenders/active";
+const RESULTS_PAGE_URL = "https://bidassist.com/global-tender-results/active";
 
-/** Max result pages to walk once a pagination param is confirmed. */
-const PAGE_CAP = 12;
+/** Distinctive search terms — one or two per watchlist sector. */
+const SEARCH_TERMS = [
+  "visa",
+  "passport",
+  "consular",
+  "radar",
+  "electronic warfare",
+  "aircraft",
+  "helicopter",
+  "railway electrification",
+  "metro rail",
+  "freight corridor",
+  "transmission line",
+  "expressway",
+];
+
+/** A term that should match nothing — proves ?label= actually filters. */
+const NONSENSE_LABEL = "zqxjvnomatchq";
+/** Max result pages to walk per search term. */
+const SEARCH_PAGE_CAP = 3;
 const REQUEST_DELAY_MS = 600;
 
 const PAGE_HEADERS: Record<string, string> = {
@@ -95,11 +113,11 @@ export interface BidAssistAwardsScrapeResult {
   totalScanned: number;
   /** Result pages actually fetched. */
   pagesFetched: number;
-  /** Query param that paginated the SSR page, or null if none worked. */
-  paginationParam: string | null;
-  /** totalElements reported by the page's embedded state, if any. */
+  /** "label" if keyword search filtered the page; null if it didn't. */
+  searchParam: string | null;
+  /** totalElements reported by the unfiltered results feed. */
   totalAvailable: number | null;
-  /** Raw __INITIAL_STATE__.pageInfo from page 0 — pagination metadata. */
+  /** Trimmed __INITIAL_STATE__.pageInfo (url/path/query) from page 0. */
   pageInfo: unknown;
   source: "ssr" | "none";
 }
@@ -107,8 +125,10 @@ export interface BidAssistAwardsScrapeResult {
 interface FetchOptions {
   fetcher?: typeof fetch;
   signal?: AbortSignal;
-  /** Override the page cap (tests). */
-  pageCap?: number;
+  /** Override the search-term list (tests). */
+  searchTerms?: string[];
+  /** Override the per-term page cap (tests). */
+  searchPageCap?: number;
 }
 
 type RawAward = Omit<BidAssistAward, "matchedKeywords">;
@@ -116,7 +136,6 @@ type RawAward = Omit<BidAssistAward, "matchedKeywords">;
 interface SsrState {
   /** Award rows only — non-award rows are filtered out here. */
   rows: unknown[];
-  totalPages: number | null;
   totalElements: number | null;
   pageInfo: unknown;
 }
@@ -125,7 +144,8 @@ export async function scrapeBidAssistAwards(
   opts: FetchOptions = {},
 ): Promise<BidAssistAwardsScrapeResult> {
   const fetcher = opts.fetcher ?? fetch;
-  const pageCap = opts.pageCap ?? PAGE_CAP;
+  const searchTerms = opts.searchTerms ?? SEARCH_TERMS;
+  const searchPageCap = opts.searchPageCap ?? SEARCH_PAGE_CAP;
 
   const collected: unknown[] = [];
   const seen = new Set<string>();
@@ -145,88 +165,83 @@ export async function scrapeBidAssistAwards(
     return added;
   };
 
-  const empty = (): BidAssistAwardsScrapeResult => ({
-    awards: [],
-    allRows: [],
-    totalScanned: 0,
-    pagesFetched,
-    paginationParam: null,
-    totalAvailable: null,
-    pageInfo: null,
-    source: "none",
-  });
+  const finish = (
+    searchParam: string | null,
+    totalAvailable: number | null,
+    pageInfo: unknown,
+  ): BidAssistAwardsScrapeResult => {
+    const allRows: BidAssistAward[] = collected.map(mapAward).map((r) => ({
+      ...r,
+      matchedKeywords: matchTenderKeywords(r.title, r.buyer, "", r.sectorNames.join(" "))
+        .matchedKeywords,
+    }));
+    return {
+      awards: allRows.filter((a) => a.matchedKeywords.length > 0),
+      allRows,
+      totalScanned: allRows.length,
+      pagesFetched,
+      searchParam,
+      totalAvailable,
+      pageInfo,
+      source: allRows.length > 0 ? "ssr" : "none",
+    };
+  };
 
-  // Page 0 — the bare results page.
+  // Page 0 — the bare results feed. Confirms the page works + carries
+  // pageInfo (the pagination/search metadata).
   let first: SsrState;
   try {
     first = await fetchSsrState(fetcher, RESULTS_PAGE_URL, opts.signal);
     pagesFetched++;
   } catch {
-    return empty();
+    return finish(null, null, null);
   }
   ingest(first.rows);
   if (collected.length === 0) {
-    const base = empty();
-    return { ...base, totalAvailable: first.totalElements, pageInfo: first.pageInfo };
+    return finish(null, first.totalElements, first.pageInfo);
   }
 
-  // Probe the pagination param. Index 2 differs from the bare page for
-  // both 0-indexed (page 2 = 3rd) and 1-indexed (page 2 = 2nd) pagers.
-  let paginationParam: string | null = null;
-  for (const param of ["page", "pageNumber"]) {
+  // Prove ?label= actually filters: a nonsense term must return nothing.
+  let searchWorks = false;
+  try {
     await delay(REQUEST_DELAY_MS);
-    try {
-      const probe = await fetchSsrState(
-        fetcher,
-        `${RESULTS_PAGE_URL}?${param}=2`,
-        opts.signal,
-      );
-      pagesFetched++;
-      if (ingest(probe.rows) > 0) {
-        paginationParam = param;
-        break;
-      }
-    } catch {
-      // try the next candidate param
-    }
+    const probe = await fetchSsrState(fetcher, withParams({ label: NONSENSE_LABEL }), opts.signal);
+    pagesFetched++;
+    searchWorks = probe.rows.length === 0;
+  } catch {
+    // leave searchWorks false — fall through with just the bare page
   }
 
-  // Walk the remaining pages with the working param. p=1 may duplicate
-  // the bare page on a 1-indexed pager — de-dupe absorbs it.
-  if (paginationParam) {
-    const lastPage = Math.min(first.totalPages ?? pageCap, pageCap);
-    for (let p = 1; p <= lastPage; p++) {
-      await delay(REQUEST_DELAY_MS);
-      try {
-        const page = await fetchSsrState(
-          fetcher,
-          `${RESULTS_PAGE_URL}?${paginationParam}=${p}`,
-          opts.signal,
-        );
-        pagesFetched++;
-        ingest(page.rows);
-      } catch {
-        break;
+  // Keyword-targeted searches — the only way to surface watchlist awards
+  // out of the 10k-row general feed.
+  if (searchWorks) {
+    for (const term of searchTerms) {
+      for (let p = 1; p <= searchPageCap; p++) {
+        await delay(REQUEST_DELAY_MS);
+        let page: SsrState;
+        try {
+          page = await fetchSsrState(
+            fetcher,
+            withParams({ label: term, page: String(p) }),
+            opts.signal,
+          );
+          pagesFetched++;
+        } catch {
+          break;
+        }
+        if (ingest(page.rows) === 0) break; // no new rows for this term
       }
     }
   }
 
-  const allRows: BidAssistAward[] = collected.map(mapAward).map((r) => ({
-    ...r,
-    matchedKeywords: matchTenderKeywords(r.title, r.buyer, "", r.sectorNames.join(" "))
-      .matchedKeywords,
-  }));
+  return finish(searchWorks ? "label" : null, first.totalElements, first.pageInfo);
+}
 
-  return {
-    awards: allRows.filter((a) => a.matchedKeywords.length > 0),
-    allRows,
-    totalScanned: allRows.length,
-    pagesFetched,
-    paginationParam,
-    totalAvailable: first.totalElements,
-    pageInfo: first.pageInfo,
-    source: allRows.length > 0 ? "ssr" : "none",
-  };
+/** RESULTS_PAGE_URL with query params applied. */
+function withParams(params: Record<string, string>): string {
+  const url = new URL(RESULTS_PAGE_URL);
+  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
+  return url.toString();
 }
 
 // ---------------------------------------------------------------------------
@@ -251,23 +266,30 @@ async function fetchSsrState(
       const state = extractInitialState(html);
       const stateObj =
         state && typeof state === "object" ? (state as Record<string, unknown>) : {};
+      const pageInfo = slimPageInfo(stateObj.pageInfo);
       const tenders = stateObj.tenders;
       if (tenders && typeof tenders === "object") {
         const t = tenders as Record<string, unknown>;
         return {
           rows: (Array.isArray(t.content) ? t.content : []).filter(isAwardRow),
-          totalPages: typeof t.totalPages === "number" ? t.totalPages : null,
           totalElements: typeof t.totalElements === "number" ? t.totalElements : null,
-          pageInfo: stateObj.pageInfo ?? null,
+          pageInfo,
         };
       }
-      return { rows: [], totalPages: null, totalElements: null, pageInfo: stateObj.pageInfo ?? null };
+      return { rows: [], totalElements: null, pageInfo };
     } catch (err) {
       lastErr = err;
       await delay(1000 * attempt);
     }
   }
   throw lastErr instanceof Error ? lastErr : new BidAssistAwardsError(String(lastErr));
+}
+
+/** Keep only the small, useful slice of __INITIAL_STATE__.pageInfo. */
+function slimPageInfo(raw: unknown): unknown {
+  if (!raw || typeof raw !== "object") return null;
+  const p = raw as Record<string, unknown>;
+  return { url: p.url ?? null, path: p.path ?? null, query: p.query ?? null };
 }
 
 /** Balanced-brace extraction of window.__INITIAL_STATE__ = {...}. */

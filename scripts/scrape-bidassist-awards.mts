@@ -36,7 +36,7 @@ async function main() {
       ok: false,
       error: message,
       source: "none",
-      paginationParam: null,
+      searchParam: null,
       pagesFetched: 0,
       totalAvailable: null,
       totalScanned: 0,
@@ -53,30 +53,33 @@ async function main() {
     durationMs,
     ok: true,
     source: result.source,
-    paginationParam: result.paginationParam,
+    searchParam: result.searchParam,
     pagesFetched: result.pagesFetched,
     totalAvailable: result.totalAvailable,
     totalScanned: result.totalScanned,
     relevantCount: result.awards.length,
     awards: result.awards,
-    // Debug: pageInfo lets the pagination model be re-probed from the
-    // output if no param worked; sampleRows expose parse + filter quality.
+    // Debug: pageInfo exposes the page's pagination/search params if the
+    // keyword search ever stops working; sampleRows show parse quality.
     pageInfo: result.pageInfo,
     sampleRows: result.allRows.slice(0, 25),
   });
 
-  const pagination = result.paginationParam
-    ? `paginated via ?${result.paginationParam}, ${result.pagesFetched} pages`
-    : "single page — pagination param not found";
+  const search = result.searchParam
+    ? `keyword search via ?${result.searchParam}`
+    : "keyword search UNAVAILABLE — bare feed only";
   console.log(
-    `Source: ${result.source} (${pagination}). Scanned ${result.totalScanned} awards, ` +
-      `${result.awards.length} matched watchlist sectors, in ${durationMs}ms`,
+    `Source: ${result.source} (${search}, ${result.pagesFetched} pages). ` +
+      `Scanned ${result.totalScanned} awards, ${result.awards.length} matched ` +
+      `watchlist sectors, in ${durationMs}ms`,
   );
   for (const a of result.awards.slice(0, 12)) {
     const stage = a.resultStage ?? a.awardStage ?? "result";
     console.log(`  - [${a.matchedKeywords.join(", ")}] ${stage} :: ${a.title.slice(0, 65)}`);
   }
-  if (result.totalScanned === 0) {
+  if (result.searchParam === null) {
+    console.warn("WARNING: ?label= keyword search did not filter — check pageInfo in the output.");
+  } else if (result.totalScanned === 0) {
     console.warn("WARNING: 0 awards parsed — the tender-results page came up empty.");
   }
 }

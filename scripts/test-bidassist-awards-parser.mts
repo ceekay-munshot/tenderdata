@@ -2,12 +2,12 @@
  * Local sanity test for the BidAssist bid-awards scraper.
  *
  * The scraper reads the tender-results page's window.__INITIAL_STATE__
- * blob and probes the pagination param at runtime. Two scenarios:
- *   1. Pagination works — ?page=N returns fresh awards, so the scraper
- *      detects the param and walks every page.
- *   2. Params ignored — every query returns the same page, so the
- *      scraper settles for a single page (paginationParam = null)
- *      without looping forever.
+ * blob and does keyword-targeted ?label= searches. Two scenarios:
+ *   1. ?label= filters — a nonsense term returns nothing, so the scraper
+ *      trusts it and walks each watchlist search term.
+ *   2. ?label= is ignored — the nonsense term returns the same feed, so
+ *      the scraper reports searchParam=null and stops after the bare page
+ *      (no runaway loop).
  *
  * Run:  npx tsx scripts/test-bidassist-awards-parser.mts
  */
@@ -54,61 +54,63 @@ function awardObj(o: MockRow) {
 }
 
 /** A tender-results page with a window.__INITIAL_STATE__ blob. */
-function ssrPage(awards: MockRow[], meta: { totalPages?: number; totalElements?: number } = {}): string {
+function ssrPage(rows: MockRow[]): string {
   const state = {
-    pageInfo: { current: "tender-results" },
-    tenders: {
-      content: awards.map(awardObj),
-      totalPages: meta.totalPages ?? 1,
-      totalElements: meta.totalElements ?? awards.length,
+    pageInfo: {
+      url: "/global-tender-results/active",
+      path: "/global-tender-results/active",
+      query: { label: "", sort: "RELEVANCE:DESC" },
     },
+    tenders: { content: rows.map(awardObj), totalElements: 9999 },
   };
   return `<!doctype html><html><body><script>window.__INITIAL_STATE__ = ${JSON.stringify(
     state,
   )};</script></body></html>`;
 }
 
-const RAILWAY: MockRow = {
-  id: "res-rail-1", ref: "CR/ELEC/2026/41",
-  desc: "Railway electrification and overhead equipment works, Bhusawal section",
-  buyer: "Central Railway", src: "IREPS", value: 1_240_000_000,
+const RADAR1: MockRow = {
+  id: "res-radar-1", ref: "MOD/IAF/2026/9",
+  desc: "Supply of surveillance radar system for the naval base",
+  buyer: "Indian Navy", src: "EPROCURE", value: 2_480_000_000,
+};
+const RADAR2: MockRow = {
+  id: "res-radar-2", ref: "MOD/AD/2026/4",
+  desc: "Air defence radar system procurement and commissioning",
+  buyer: "Ministry of Defence", src: "EPROCURE", value: 3_100_000_000,
 };
 const VISA: MockRow = {
   id: "res-visa-1", ref: "MEA/CONSULAR/2026/MOR",
-  desc: "Visa and passport outsourcing services at Embassy of India, Rabat",
+  desc: "Visa and passport seva outsourcing services, Embassy of India",
   buyer: "Ministry of External Affairs", src: "EPROCURE", value: 845_000_000,
 };
-const RADAR: MockRow = {
-  id: "res-radar-1", ref: "MOD/IAF/2026/9",
-  desc: "Procurement of surveillance radar system for air defence",
-  buyer: "Indian Air Force", src: "EPROCURE", value: 2_480_000_000,
+const GEN1: MockRow = {
+  id: "res-gen-1", ref: "APWD/2026/1",
+  desc: "Renovation of school building", buyer: "Public Works Department",
 };
-const NOISE: MockRow = {
-  id: "res-noise-1", ref: "GEN/FURN/2026/7",
-  desc: "Supply of office furniture and fixtures",
-  buyer: "Some Department", src: "GeM",
+const GEN2: MockRow = {
+  id: "res-gen-2", ref: "GEM/2026/77",
+  desc: "Supply of toner cartridges", buyer: "Some Department",
 };
 
 const htmlResponse = (body: string) =>
   new Response(body, { status: 200, headers: { "content-type": "text/html" } });
 
-/** Scenario 1: ?page=N paginates; ?pageNumber is ignored. totalPages = 2. */
-function paginatedFetcher(): typeof fetch {
+/** Scenario 1: ?label= filters. Unknown labels (incl. the nonsense probe) return nothing. */
+function searchFetcher(): typeof fetch {
   return (async (input: RequestInfo | URL) => {
     const url = new URL(typeof input === "string" ? input : input.toString());
+    const label = url.searchParams.get("label");
     const page = url.searchParams.get("page");
-    let awards: MockRow[];
-    if (page === "2") awards = [RADAR, RAILWAY];
-    else if (page === null || page === "1") awards = [VISA, NOISE];
-    else awards = []; // page 3+
-    return htmlResponse(ssrPage(awards, { totalPages: 2, totalElements: 4 }));
+    if (!label) return htmlResponse(ssrPage([GEN1, GEN2])); // bare page 0
+    if (label === "visa" && page === "1") return htmlResponse(ssrPage([VISA]));
+    if (label === "radar" && page === "1") return htmlResponse(ssrPage([RADAR1, RADAR2]));
+    return htmlResponse(ssrPage([])); // nonsense probe, other terms, later pages
   }) as typeof fetch;
 }
 
-/** Scenario 2: every query param is ignored — the same page comes back. */
-function singlePageFetcher(): typeof fetch {
-  return (async () =>
-    htmlResponse(ssrPage([VISA, NOISE], { totalPages: 1, totalElements: 2 }))) as typeof fetch;
+/** Scenario 2: ?label= is ignored — the same feed comes back for everything. */
+function ignoredFetcher(): typeof fetch {
+  return (async () => htmlResponse(ssrPage([GEN1, GEN2]))) as typeof fetch;
 }
 
 let failed = 0;
@@ -122,38 +124,40 @@ function assert(label: string, cond: unknown, detail?: string) {
 
 console.log("\n--- BidAssist bid-awards scraper local sanity test ---\n");
 
-// --- Scenario 1: pagination works ------------------------------------------
-console.log("scenario 1 — ?page paginates the tender-results page:");
-const paged = await scrapeBidAssistAwards({ fetcher: paginatedFetcher() });
+// --- Scenario 1: keyword search works --------------------------------------
+console.log("scenario 1 — ?label= keyword search filters the results:");
+const searched = await scrapeBidAssistAwards({
+  fetcher: searchFetcher(),
+  searchTerms: ["visa", "radar", "aircraft"],
+});
 
-assert("source === ssr", paged.source === "ssr", paged.source);
-assert("pagination param detected as 'page'", paged.paginationParam === "page", String(paged.paginationParam));
-// bare + ?page=2 probe + walk p1..p2 -> VISA, NOISE, RADAR, RAILWAY de-duped.
-assert("de-dupe across pages: 4 unique awards", paged.totalScanned === 4, `got ${paged.totalScanned}`);
-assert("totalAvailable read from state", paged.totalAvailable === 4, String(paged.totalAvailable));
-assert("3 matched (visa + radar + railway)", paged.awards.length === 3, `got ${paged.awards.length}`);
-assert("furniture noise dropped", !paged.awards.some((a) => a.title.includes("furniture")));
+assert("source === ssr", searched.source === "ssr", searched.source);
+assert("search param detected as 'label'", searched.searchParam === "label", String(searched.searchParam));
+// page 0 (GEN1,GEN2) + visa (VISA) + radar (RADAR1,RADAR2) -> 5 unique.
+assert("collected across searches: 5 unique awards", searched.totalScanned === 5, `got ${searched.totalScanned}`);
+// page0 + nonsense probe + visa(p1,p2) + radar(p1,p2) + aircraft(p1) = 7.
+assert("fetch count = 7 (early-breaks on empty pages)", searched.pagesFetched === 7, `got ${searched.pagesFetched}`);
+assert("3 matched (visa + 2 radar)", searched.awards.length === 3, `got ${searched.awards.length}`);
+assert("generic feed rows dropped by the filter", !searched.awards.some((a) => a.title.includes("school")));
 
-const rail = paged.allRows.find((r) => r.tenderId === "res-rail-1");
-assert("title quotes stripped", rail?.title === "Railway electrification and overhead equipment works, Bhusawal section", rail?.title);
-assert("awardId mapped from bidAwardId", rail?.awardId === "award-res-rail-1", rail?.awardId);
-assert("value mapped (INR)", rail?.value === 1_240_000_000, String(rail?.value));
-assert("procurementSource mapped", rail?.procurementSource === "IREPS", rail?.procurementSource);
-assert("resultStage mapped", rail?.resultStage === "Potential AOC Released", rail?.resultStage);
-assert("awardStage mapped", rail?.awardStage === "FINANCIAL_BID_OPENING_DATE", rail?.awardStage);
-assert("resultDate -> ISO", typeof rail?.resultDate === "string" && rail!.resultDate!.startsWith("20"), rail?.resultDate ?? "null");
-assert("aocAvailable mapped", rail?.aocAvailable === true);
-assert("detail URL points at tender-results", rail?.detailUrl?.startsWith("https://bidassist.com/tender-results/") ?? false, rail?.detailUrl);
+const radar = searched.allRows.find((r) => r.tenderId === "res-radar-1");
+assert("title quotes stripped", radar?.title === "Supply of surveillance radar system for the naval base", radar?.title);
+assert("awardId mapped from bidAwardId", radar?.awardId === "award-res-radar-1", radar?.awardId);
+assert("resultStage mapped", radar?.resultStage === "Potential AOC Released", radar?.resultStage);
+assert("resultDate -> ISO", typeof radar?.resultDate === "string" && radar!.resultDate!.startsWith("20"), radar?.resultDate ?? "null");
+assert("detail URL points at tender-results", radar?.detailUrl?.startsWith("https://bidassist.com/tender-results/") ?? false, radar?.detailUrl);
 
-// --- Scenario 2: pagination params ignored ---------------------------------
-console.log("\nscenario 2 — query params ignored, single page only:");
-const single = await scrapeBidAssistAwards({ fetcher: singlePageFetcher() });
+// --- Scenario 2: keyword search ignored ------------------------------------
+console.log("\nscenario 2 — ?label= ignored, scraper settles for the bare feed:");
+const ignored = await scrapeBidAssistAwards({
+  fetcher: ignoredFetcher(),
+  searchTerms: ["visa", "radar"],
+});
 
-assert("source === ssr", single.source === "ssr", single.source);
-assert("paginationParam === null", single.paginationParam === null, String(single.paginationParam));
-assert("no runaway loop — 3 fetches (bare + 2 probes)", single.pagesFetched === 3, `got ${single.pagesFetched}`);
-assert("2 awards scanned", single.totalScanned === 2, `got ${single.totalScanned}`);
-assert("1 matched (visa)", single.awards.length === 1, `got ${single.awards.length}`);
+assert("searchParam === null", ignored.searchParam === null, String(ignored.searchParam));
+assert("no runaway loop — 2 fetches (bare + probe)", ignored.pagesFetched === 2, `got ${ignored.pagesFetched}`);
+assert("only the bare page scanned", ignored.totalScanned === 2, `got ${ignored.totalScanned}`);
+assert("0 matched — bare feed is all generic", ignored.awards.length === 0, `got ${ignored.awards.length}`);
 
 console.log(`\n${failed === 0 ? "All checks passed." : `${failed} check(s) failed.`}\n`);
 process.exit(failed === 0 ? 0 : 1);

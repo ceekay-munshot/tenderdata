@@ -49,7 +49,7 @@ interface BidAssistAwardsPayload {
   ok: boolean;
   error?: string;
   source: string;
-  paginationParam: string | null;
+  searchParam: string | null;
   pagesFetched: number;
   totalAvailable: number | null;
   totalScanned: number;
