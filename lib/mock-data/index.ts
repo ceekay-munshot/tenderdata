@@ -1,16 +1,46 @@
 import type { Tender, Update } from "@/lib/types";
-import { tenders } from "./tenders";
+import { tenders as rawTenders } from "./tenders";
 import { watchlist, watchedTickers } from "./watchlist";
 
-export { tenders, tendersById } from "./tenders";
 export { watchlist, watchedTickers } from "./watchlist";
 
-/** Synthesise the "Recent Updates" stream from tender results + follow-ups. */
+/**
+ * Seeded BLS-arc tenders, tagged as example data. These stay in the feed
+ * (clearly badged) so the dashboard always demonstrates a fully-populated
+ * tender — bidders, winner, follow-ups — for client walkthroughs, while
+ * live scraped tenders flow in alongside them.
+ */
+export const exampleTenders: Tender[] = rawTenders.map((t) => ({
+  ...t,
+  dataSource: "example" as const,
+}));
+
+export function isWatched(ticker?: string): boolean {
+  return !!ticker && watchedTickers.has(ticker);
+}
+
+/**
+ * Sort any tender list for the feed: pending/evaluation first, then by
+ * how close the result date is to now.
+ */
+export function sortTenders(list: Tender[]): Tender[] {
+  const now = Date.now();
+  return [...list].sort((a, b) => {
+    const aPending = a.status === "pending" || a.status === "evaluation";
+    const bPending = b.status === "pending" || b.status === "evaluation";
+    if (aPending !== bPending) return aPending ? -1 : 1;
+    return (
+      Math.abs(new Date(a.resultDate).getTime() - now) -
+      Math.abs(new Date(b.resultDate).getTime() - now)
+    );
+  });
+}
+
+/** Synthesise "Recent Updates" from the example tenders' results + follow-ups. */
 export function getRecentUpdates(limit = 30): Update[] {
   const updates: Update[] = [];
 
-  for (const t of tenders) {
-    // Result declared event
+  for (const t of exampleTenders) {
     if (t.status === "awarded" || t.status === "result_in") {
       updates.push({
         id: `${t.id}--result`,
@@ -18,14 +48,10 @@ export function getRecentUpdates(limit = 30): Update[] {
         tenderId: t.id,
         kind: "winner_announced",
         ticker: t.bidders.find((b) => b.status === "won")?.ticker,
-        text: t.winner
-          ? `${t.winner} won — ${t.title}`
-          : `Result declared — ${t.title}`,
+        text: t.winner ? `${t.winner} won — ${t.title}` : `Result declared — ${t.title}`,
         tone: "positive",
         context: t.buyer,
       });
-
-      // Each loser is its own update (so watchlist hits surface)
       for (const b of t.bidders) {
         if (b.status === "lost") {
           updates.push({
@@ -41,8 +67,6 @@ export function getRecentUpdates(limit = 30): Update[] {
         }
       }
     }
-
-    // Follow-ups (ban, penalty, LOI, etc.)
     for (const fu of t.followUps) {
       updates.push({
         id: fu.id,
@@ -60,19 +84,4 @@ export function getRecentUpdates(limit = 30): Update[] {
   return updates
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, limit);
-}
-
-export function isWatched(ticker?: string): boolean {
-  return !!ticker && watchedTickers.has(ticker);
-}
-
-/** Tenders sorted by relevance: pending soonest first, then result_in, then recently awarded. */
-export function sortedTenders(): Tender[] {
-  const now = Date.now();
-  return [...tenders].sort((a, b) => {
-    const aPending = a.status === "pending" || a.status === "evaluation";
-    const bPending = b.status === "pending" || b.status === "evaluation";
-    if (aPending !== bPending) return aPending ? -1 : 1;
-    return Math.abs(new Date(a.resultDate).getTime() - now) - Math.abs(new Date(b.resultDate).getTime() - now);
-  });
 }

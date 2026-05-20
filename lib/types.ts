@@ -56,6 +56,9 @@ export interface Tender {
   publishedAt: string;
   sourcePortal: "CPPP" | "GeM" | "State";
   sourceUrl?: string;
+  /** "live" = scraped from a real portal; "example" = seeded demo data.
+   *  Absent is treated as "example". */
+  dataSource?: "live" | "example";
 }
 
 export interface WatchlistItem {

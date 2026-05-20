@@ -33,6 +33,13 @@ export function TenderCard({ tender, onOpen }: { tender: Tender; onOpen: (id: st
         <div className="flex items-start justify-between gap-3">
           <div className="flex items-center gap-2 flex-wrap">
             <StatusBadge status={tender.status} />
+            {tender.dataSource === "live" ? (
+              <Badge variant="positive" className="gap-1 text-[10px]">
+                <span className="live-dot" /> Live · {tender.sourcePortal}
+              </Badge>
+            ) : (
+              <Badge variant="neutral" className="text-[10px]">Example</Badge>
+            )}
             {watchedBidders.length > 0 && (
               <Badge variant="default" className="text-[10px]">
                 {watchedBidders.length} on watchlist
@@ -94,16 +101,22 @@ export function TenderCard({ tender, onOpen }: { tender: Tender; onOpen: (id: st
         )}
 
         {/* Row 4: bidders */}
-        <div>
-          <div className="mb-1.5 text-[10px] uppercase tracking-wider text-muted-foreground">
-            Bidders ({tender.bidders.length})
+        {tender.bidders.length > 0 ? (
+          <div>
+            <div className="mb-1.5 text-[10px] uppercase tracking-wider text-muted-foreground">
+              Bidders ({tender.bidders.length})
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {tender.bidders.map((b, i) => (
+                <BidderChip key={`${b.name}-${i}`} bidder={b} />
+              ))}
+            </div>
           </div>
-          <div className="flex flex-wrap gap-1.5">
-            {tender.bidders.map((b, i) => (
-              <BidderChip key={`${b.name}-${i}`} bidder={b} />
-            ))}
+        ) : (
+          <div className="rounded-md border border-dashed bg-muted/20 px-3 py-1.5 text-[11px] text-muted-foreground">
+            Bidders not yet disclosed — CPPP publishes the bidder list only after the financial bid opens.
           </div>
-        </div>
+        )}
 
         {/* Row 5: follow-up alerts (collapsed) */}
         {(negativeFollowUp || positiveFollowUp) && (

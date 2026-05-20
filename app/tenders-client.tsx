@@ -1,14 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Filter } from "lucide-react";
+import { Filter, Radio, Database, AlertTriangle, Clock } from "lucide-react";
 import { RecentUpdates } from "@/components/tenders/recent-updates";
 import { TenderCard } from "@/components/tenders/tender-card";
 import { TenderDetail } from "@/components/tenders/tender-detail";
 import { Card } from "@/components/ui/card";
-import { sortedTenders, isWatched } from "@/lib/mock-data";
-import { cn } from "@/lib/utils";
-import type { Update } from "@/lib/types";
+import { exampleTenders, sortTenders, isWatched } from "@/lib/mock-data";
+import { cn, formatRelativeTime } from "@/lib/utils";
+import type { Tender, Update } from "@/lib/types";
 
 type StatusFilter = "all" | "pending" | "result_in" | "awarded";
 
@@ -18,6 +18,13 @@ export interface TendersClientProps {
   bseStale: boolean;
   bseStatus: "ok" | "empty" | "missing" | "error";
   bseError?: string;
+  /** Live tenders scraped from CPPP. */
+  liveTenders: Tender[];
+  cpppFetchedAt: string | null;
+  cpppScanned: number;
+  cpppStatus: "ok" | "empty" | "missing" | "error";
+  cpppStale: boolean;
+  cpppError?: string;
 }
 
 export function TendersClient({
@@ -26,13 +33,25 @@ export function TendersClient({
   bseStale,
   bseStatus,
   bseError,
+  liveTenders,
+  cpppFetchedAt,
+  cpppScanned,
+  cpppStatus,
+  cpppStale,
+  cpppError,
 }: TendersClientProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
   const [watchOnly, setWatchOnly] = useState(false);
 
+  // Live CPPP tenders first, then the badged BLS example tenders.
+  const allTenders = useMemo(
+    () => sortTenders([...liveTenders, ...exampleTenders]),
+    [liveTenders],
+  );
+
   const tenders = useMemo(() => {
-    return sortedTenders().filter((t) => {
+    return allTenders.filter((t) => {
       if (statusFilter !== "all") {
         if (statusFilter === "pending" && !(t.status === "pending" || t.status === "evaluation")) return false;
         if (statusFilter === "result_in" && t.status !== "result_in") return false;
@@ -41,17 +60,16 @@ export function TendersClient({
       if (watchOnly && !t.bidders.some((b) => isWatched(b.ticker))) return false;
       return true;
     });
-  }, [statusFilter, watchOnly]);
+  }, [allTenders, statusFilter, watchOnly]);
 
   const counts = useMemo(() => {
-    const all = sortedTenders();
     return {
-      all: all.length,
-      pending: all.filter((t) => t.status === "pending" || t.status === "evaluation").length,
-      result_in: all.filter((t) => t.status === "result_in").length,
-      awarded: all.filter((t) => t.status === "awarded").length,
+      all: allTenders.length,
+      pending: allTenders.filter((t) => t.status === "pending" || t.status === "evaluation").length,
+      result_in: allTenders.filter((t) => t.status === "result_in").length,
+      awarded: allTenders.filter((t) => t.status === "awarded").length,
     };
-  }, []);
+  }, [allTenders]);
 
   return (
     <div className="mx-auto w-full max-w-[1100px] space-y-5 px-4 py-6 md:px-6">
@@ -71,6 +89,15 @@ export function TendersClient({
         onSelectTender={setOpenId}
       />
 
+      <CpppSourceBar
+        liveCount={liveTenders.length}
+        scanned={cpppScanned}
+        fetchedAt={cpppFetchedAt}
+        status={cpppStatus}
+        stale={cpppStale}
+        error={cpppError}
+      />
+
       <Card className="border-dashed p-3">
         <div className="flex flex-wrap items-center gap-3">
           <div className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground">
@@ -78,27 +105,9 @@ export function TendersClient({
           </div>
           <div className="flex flex-wrap gap-1.5">
             <Chip active={statusFilter === "all"} onClick={() => setStatusFilter("all")} label="All" count={counts.all} />
-            <Chip
-              active={statusFilter === "pending"}
-              onClick={() => setStatusFilter("pending")}
-              label="Pending"
-              count={counts.pending}
-              tone="warning"
-            />
-            <Chip
-              active={statusFilter === "result_in"}
-              onClick={() => setStatusFilter("result_in")}
-              label="Result in"
-              count={counts.result_in}
-              tone="positive"
-            />
-            <Chip
-              active={statusFilter === "awarded"}
-              onClick={() => setStatusFilter("awarded")}
-              label="Awarded"
-              count={counts.awarded}
-              tone="positive"
-            />
+            <Chip active={statusFilter === "pending"} onClick={() => setStatusFilter("pending")} label="Pending" count={counts.pending} tone="warning" />
+            <Chip active={statusFilter === "result_in"} onClick={() => setStatusFilter("result_in")} label="Result in" count={counts.result_in} tone="positive" />
+            <Chip active={statusFilter === "awarded"} onClick={() => setStatusFilter("awarded")} label="Awarded" count={counts.awarded} tone="positive" />
           </div>
           <button
             onClick={() => setWatchOnly(!watchOnly)}
@@ -124,7 +133,64 @@ export function TendersClient({
         )}
       </div>
 
-      <TenderDetail tenderId={openId} onClose={() => setOpenId(null)} />
+      <TenderDetail tenderId={openId} tenders={allTenders} onClose={() => setOpenId(null)} />
+    </div>
+  );
+}
+
+function CpppSourceBar({
+  liveCount,
+  scanned,
+  fetchedAt,
+  status,
+  stale,
+  error,
+}: {
+  liveCount: number;
+  scanned: number;
+  fetchedAt: string | null;
+  status: "ok" | "empty" | "missing" | "error";
+  stale: boolean;
+  error?: string;
+}) {
+  let tone: "ok" | "warn" | "muted" = "muted";
+  let message: string;
+
+  if (status === "missing") {
+    message = "CPPP feed not yet published — awaiting first scrape.";
+    tone = "warn";
+  } else if (status === "error") {
+    message = `CPPP feed error${error ? `: ${error}` : ""}.`;
+    tone = "warn";
+  } else if (liveCount > 0) {
+    message = `${liveCount} live tender${liveCount === 1 ? "" : "s"} from CPPP matched your watchlist · ${scanned} scanned.`;
+    tone = "ok";
+  } else {
+    message = `Scanned ${scanned} CPPP tenders — 0 matched your watchlist sectors. Coverage widens as Railway (IREPS) and Defence portals are added.`;
+    tone = "muted";
+  }
+
+  return (
+    <div
+      className={cn(
+        "flex flex-wrap items-center gap-2 rounded-lg border px-3 py-2 text-xs",
+        tone === "ok" && "border-positive/30 bg-positive/8 text-foreground",
+        tone === "warn" && "border-warning/30 bg-warning/8 text-foreground",
+        tone === "muted" && "border-border bg-card text-muted-foreground",
+      )}
+    >
+      {tone === "warn" ? (
+        <AlertTriangle className="h-3.5 w-3.5 text-warning" />
+      ) : (
+        <Database className="h-3.5 w-3.5 text-muted-foreground" />
+      )}
+      <span>{message}</span>
+      {fetchedAt && (
+        <span className="ml-auto inline-flex items-center gap-1 text-[11px] text-muted-foreground">
+          <Clock className="h-3 w-3" />
+          {stale ? "stale —" : "synced"} {formatRelativeTime(fetchedAt)}
+        </span>
+      )}
     </div>
   );
 }

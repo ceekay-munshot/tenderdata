@@ -6,10 +6,18 @@ import { Badge } from "@/components/ui/badge";
 import { StatusBadge } from "./status-badge";
 import { BidderChip } from "./bidder-chip";
 import { cn, daysFromNow, formatDate, formatINR, formatRelativeTime } from "@/lib/utils";
-import { tendersById } from "@/lib/mock-data";
+import type { Tender } from "@/lib/types";
 
-export function TenderDetail({ tenderId, onClose }: { tenderId: string | null; onClose: () => void }) {
-  const tender = tenderId ? tendersById[tenderId] : null;
+export function TenderDetail({
+  tenderId,
+  tenders,
+  onClose,
+}: {
+  tenderId: string | null;
+  tenders: Tender[];
+  onClose: () => void;
+}) {
+  const tender = tenderId ? tenders.find((t) => t.id === tenderId) ?? null : null;
 
   return (
     <Dialog open={!!tender} onOpenChange={(open) => !open && onClose()}>

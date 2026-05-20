@@ -40,13 +40,15 @@ export function RecentUpdates({
   bseError,
   onSelectTender,
 }: RecentUpdatesProps) {
-  // Merge BSE-scraped updates with tender-derived follow-ups, dedupe by id,
-  // and sort newest first. Mock follow-ups will progressively get replaced
-  // once we have a real tender feed too.
+  // Merge BSE-scraped updates with tender-derived follow-ups, drop the
+  // routine neutral filings (committee meetings, investor presentations —
+  // noise for our purpose), dedupe by id, sort newest first. The strip is
+  // meant to be pure signal: wins, losses, bans, regulatory actions.
   const merged = useMemo(() => {
     const mock = getRecentUpdates(40);
     const seen = new Set<string>();
     const all = [...bseUpdates, ...mock].filter((u) => {
+      if (u.tone === "neutral") return false;
       if (seen.has(u.id)) return false;
       seen.add(u.id);
       return true;
