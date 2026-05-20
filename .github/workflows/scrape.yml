@@ -62,6 +62,11 @@ jobs:
       - name: Scrape CPPP tenders
         run: pnpm tsx scripts/scrape-cppp.mts || echo "CPPP scrape exited non-zero"
 
+      # Temporary: probe IREPS (Indian Railway e-procurement) to find its
+      # tender-listing entry point. Removed once the IREPS scraper is built.
+      - name: Probe IREPS
+        run: pnpm tsx scripts/probe-ireps.mts || echo "IREPS probe exited non-zero"
+
       - name: Show summary
         run: |
           echo "::group::scrape summary"
@@ -85,6 +90,8 @@ jobs:
           cp data/cppp-tenders.json    /tmp/scrape-out/ 2>/dev/null || true
           cp data/cppp-debug.html      /tmp/scrape-out/ 2>/dev/null || true
           cp data/cppp-post-debug.html /tmp/scrape-out/ 2>/dev/null || true
+          cp data/ireps-probe.json     /tmp/scrape-out/ 2>/dev/null || true
+          cp data/ireps-probe.html     /tmp/scrape-out/ 2>/dev/null || true
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -106,9 +113,12 @@ jobs:
           cp /tmp/scrape-out/cppp-tenders.json    data/ 2>/dev/null || true
           cp /tmp/scrape-out/cppp-debug.html      data/ 2>/dev/null || true
           cp /tmp/scrape-out/cppp-post-debug.html data/ 2>/dev/null || true
+          cp /tmp/scrape-out/ireps-probe.json     data/ 2>/dev/null || true
+          cp /tmp/scrape-out/ireps-probe.html     data/ 2>/dev/null || true
 
           git add data/bse-updates.json data/cppp-tenders.json
           git add data/cppp-debug.html data/cppp-post-debug.html 2>/dev/null || true
+          git add data/ireps-probe.json data/ireps-probe.html 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No content change — nothing to commit."
