@@ -1,24 +1,118 @@
 {
-  "fetchedAt": "2026-05-20T03:48:20.475Z",
-  "durationMs": 8162,
+  "fetchedAt": "2026-05-20T03:53:54.177Z",
+  "durationMs": 43509,
   "ok": true,
-  "view": "today",
-  "pagesFetched": 7,
-  "totalRowsParsed": 53,
-  "relevantCount": 0,
-  "tenders": [],
-  "sampleRows": [
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 355,
+  "relevantCount": 8,
+  "tenders": [
     {
-      "tenderRef": "2026_NALCO_907234_1",
-      "title": "ALUMINIUM GLASS PARTITION/ WINDOW REPLACEMENT AND MARBONITE FLOORING AT DEFFERENT BUILDINGS INSIDE ALUMINA PLANT, NALCO, DAMANJODI",
-      "organisationChain": "National Aluminium Company Limited,NALCO||NALCO-Alumina Division-Damanjodi||Tender and Contract-AD-Damanjodi-NALCO",
-      "buyer": "National Aluminium Company Limited,NALCO",
-      "publishedAt": "2026-05-04T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
-      "tenderOpensAt": "2026-05-22T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpYG8qu0fCj2Y%2FUIHx7TsmA%3D%3D",
-      "matchedKeywords": []
+      "tenderRef": "2026_DMRC_905443_1",
+      "title": "Supply, Installation, Testing, Commissioning of Video Conferencing (VC) System with the Integration of existing Audio-video (AV) system.",
+      "organisationChain": "Delhi Metro Rail Corporation Limited||GM/IT - DMRC",
+      "buyer": "Delhi Metro Rail Corporation Limited",
+      "publishedAt": "2026-04-15T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T09:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SI6Tiaporjt7Hv3nbswxrZQ%3D%3D",
+      "matchedKeywords": [
+        "metro rail"
+      ]
     },
+    {
+      "tenderRef": "2026_EIL_902123_1",
+      "title": "JP/B862-000-YL-MR-1239/541 - SPECIAL LEVEL INSTRUMENT (RADAR) FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT AT DAHEJ, GUJARAT",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-03-12T10:00:00.000Z",
+      "bidSubmissionCloses": "2026-05-21T06:30:00.000Z",
+      "tenderOpensAt": "2026-05-22T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLW5ozjNxuPzv7eRpfKcLDg%3D%3D",
+      "matchedKeywords": [
+        "radar"
+      ]
+    },
+    {
+      "tenderRef": "2026_EIL_907816_1",
+      "title": "SPN/ B957-000-YL-MR-1235/150 SPECIAL LEVEL INSTRUMENTS (NON CONTACT RADAR) FOR Bina Petchem and Refinery Expansion Project (BPREP)-BPCL",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-05-07T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-05-21T06:30:00.000Z",
+      "tenderOpensAt": "2026-05-22T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SuA7xbqZnc5WfslG3BzpGgA%3D%3D",
+      "matchedKeywords": [
+        "radar"
+      ]
+    },
+    {
+      "tenderRef": "2026_DMRC_907670_1",
+      "title": "Maintenance Contract for Civil-Electrical-Horticulture works at Director/ BD office at 25, Ashoka Road New Delhi",
+      "organisationChain": "Delhi Metro Rail Corporation Limited||GM/Consultancy - DMRC",
+      "buyer": "Delhi Metro Rail Corporation Limited",
+      "publishedAt": "2026-05-07T10:00:00.000Z",
+      "bidSubmissionCloses": "2026-05-21T09:30:00.000Z",
+      "tenderOpensAt": "2026-05-22T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCCe1QE6jhf0aiYg159HjNQ%3D%3D",
+      "matchedKeywords": [
+        "metro rail"
+      ]
+    },
+    {
+      "tenderRef": "2026_EIL_909294_1",
+      "title": "PRE TENDER MEET FOR SCADA SYSTEM FOR VISAKH RAIPUR PIPELINE OF HPCL",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-05-19T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-05-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-05-22T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SuaBQpVYyH96srdaJGf4ufg%3D%3D",
+      "matchedKeywords": [
+        "visa"
+      ]
+    },
+    {
+      "tenderRef": "2026_ITBP_906665_1",
+      "title": "ARM OF RESIDENTIAL BUILDING CIVIL WORKS FOR THE YEAR 2026 27 AT 56 BN ITB POLICE VISAKHAPATNAM SH ACRYLIC EXTERIOR WALL PAINT AND INTERIOR WALL ACRYLIC EMULSION PAINT",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, EASTERN FTR,ITBP||DIG(PROV),FTR HQ,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-04-29T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-22T06:00:00.000Z",
+      "tenderOpensAt": "2026-05-23T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STO%2FaywpIB27qW1orqiUQUg%3D%3D",
+      "matchedKeywords": [
+        "visa"
+      ]
+    },
+    {
+      "tenderRef": "2026_ITBP_906854_1",
+      "title": "ARM OF NON RESIDENTIAL BUILDING CIVIL WORKS FOR THE YEAR 2026-27 AT 56BN ITB POLICE, VISAKHAPATNAM",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, EASTERN FTR,ITBP||DIG(PROV),FTR HQ,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-04-29T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-22T06:00:00.000Z",
+      "tenderOpensAt": "2026-05-23T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnHME28LKrBBzTRomS8Qhlw%3D%3D",
+      "matchedKeywords": [
+        "visa"
+      ]
+    },
+    {
+      "tenderRef": "2026_BARC_906172_1",
+      "title": "Providing, supplying, and fixing false ceiling and false flooring, and miscellaneous electrical works in TREndS at BARC, near Visakhapatnam, A.P.",
+      "organisationChain": "Bhabha Atomic Research Centre||Bhabha Atomic Research Centre Visakhapatnam||Engineering Services Section - BARC Visakhapatnam",
+      "buyer": "Bhabha Atomic Research Centre",
+      "publishedAt": "2026-04-23T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-22T09:30:00.000Z",
+      "tenderOpensAt": "2026-05-29T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BV36RPj4z3TjIWCtY88JTA%3D%3D",
+      "matchedKeywords": [
+        "visa"
+      ]
+    }
+  ],
+  "sampleRows": [
     {
       "tenderRef": "2026_ARMHA_906776_1",
       "title": "VIII.11001/Engr/MW/2026-72/01",
@@ -28,28 +122,6 @@
       "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
       "tenderOpensAt": "2026-05-21T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SY6W8KdEgGmHutoGKZOzB0g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_908007_1",
-      "title": "Term Contract for repair/maint and periodical services of Resdl Bldgs Type-VI,V,IV Accn of HQ 21 Sector AR at Agartala",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-08T11:15:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SasGAy4Jd4iBkVC%2BzsFF27A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_908014_1",
-      "title": "Term Contract for internal electrification incl elect fitting MCBs, DBs, Service connection etc for OB of HQ 21 Sector AR at Agartala",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-08T11:25:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGJjD5eKDaqJt%2FE4AoWJZOQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -64,6 +136,39 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_ARMHA_908007_1",
+      "title": "Term Contract for repair/maint and periodical services of Resdl Bldgs Type-VI,V,IV Accn of HQ 21 Sector AR at Agartala",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-08T11:15:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SasGAy4Jd4iBkVC%2BzsFF27A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NALCO_907234_1",
+      "title": "ALUMINIUM GLASS PARTITION/ WINDOW REPLACEMENT AND MARBONITE FLOORING AT DEFFERENT BUILDINGS INSIDE ALUMINA PLANT, NALCO, DAMANJODI",
+      "organisationChain": "National Aluminium Company Limited,NALCO||NALCO-Alumina Division-Damanjodi||Tender and Contract-AD-Damanjodi-NALCO",
+      "buyer": "National Aluminium Company Limited,NALCO",
+      "publishedAt": "2026-05-04T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-05-22T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpYG8qu0fCj2Y%2FUIHx7TsmA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITTP_906846_1",
+      "title": "NOTICE INVITING TENDER FOR THE SUPPLY, INSTALLATION, TESTING, COMMISSIONING AND TRAINING OF MICROWAVE PLASMA ASSISTED ATOMIC EMISSIONS SPECTROMETER(MP-AES)",
+      "organisationChain": "Indian Institute of Technology Tirupati||Purchase and Stores - IITTP",
+      "buyer": "Indian Institute of Technology Tirupati",
+      "publishedAt": "2026-04-29T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShryqZf84qJooNPpyNgezdQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_ARMHA_906795_1",
       "title": "VIII.11001/Engr/MW/2026-72/03",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -72,6 +177,17 @@
       "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
       "tenderOpensAt": "2026-05-21T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SETkQuruTfS4XrjXha1i4rg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_908014_1",
+      "title": "Term Contract for internal electrification incl elect fitting MCBs, DBs, Service connection etc for OB of HQ 21 Sector AR at Agartala",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-08T11:25:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGJjD5eKDaqJt%2FE4AoWJZOQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -97,50 +213,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IITTP_906846_1",
-      "title": "NOTICE INVITING TENDER FOR THE SUPPLY, INSTALLATION, TESTING, COMMISSIONING AND TRAINING OF MICROWAVE PLASMA ASSISTED ATOMIC EMISSIONS SPECTROMETER(MP-AES)",
-      "organisationChain": "Indian Institute of Technology Tirupati||Purchase and Stores - IITTP",
-      "buyer": "Indian Institute of Technology Tirupati",
-      "publishedAt": "2026-04-29T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T04:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T05:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShryqZf84qJooNPpyNgezdQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_907871_1",
-      "title": "Term contract for repair/ maint of OR Single men barrack (DPB-161) and Ordinance store of DSGE, HQ DGAR at Laitkor",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-07T12:20:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4o7U6RdDaKAiOeu9zaUr4g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_907817_1",
-      "title": "Term contract for B/R and E/M in Zone-III incl Sentinal Offrs Mess (SOM) at Laitkor Grn",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-07T11:20:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDVakloI22pm8L0CPRPvsUw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_907874_1",
-      "title": "Cleaning of OH storage tanks, OTM accn, md accn PVC storage tanks and UG sumps with connected items at Shillong Grn",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-07T12:45:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScTjP9IoxCK5xNurkLLxV6w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ARMHA_907856_1",
       "title": "Term contract for B/R and E/M for Offrs md accn at Happy Valley",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -163,14 +235,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_907861_1",
-      "title": "Term Contract for B/R and E/M works at SF accn Dwarka, New Delhi",
+      "tenderRef": "2026_ARMHA_907803_1",
+      "title": "Term Contract for B/R and E/M works at Central Institute, Laitkor Grn",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
       "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-07T12:05:00.000Z",
+      "publishedAt": "2026-05-07T10:45:00.000Z",
       "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
       "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnW3LG064CGi6zXcUMWhEXg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SxzDFjQFBa4n6v5ggR7tgDQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -185,14 +257,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_907834_1",
-      "title": "Term contract for welcome wash for Offrs md accn at Happy Valley",
+      "tenderRef": "2026_ARMHA_907810_1",
+      "title": "Term Contract for B/R and E/M works in Adm Block at Laitkor Grn",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
       "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-07T11:40:00.000Z",
+      "publishedAt": "2026-05-07T10:55:00.000Z",
       "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
       "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWgdobHvma2KJ7OkjsNnKrA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SV15YblvbeiuqOmdc7H998A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_907788_1",
+      "title": "Repair/ maint of existing furniture at SF Accn, Dwarka",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-07T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SheWjcdmKVtWrk0bHrxVYrw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_907871_1",
+      "title": "Term contract for repair/ maint of OR Single men barrack (DPB-161) and Ordinance store of DSGE, HQ DGAR at Laitkor",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-07T12:20:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4o7U6RdDaKAiOeu9zaUr4g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_907874_1",
+      "title": "Cleaning of OH storage tanks, OTM accn, md accn PVC storage tanks and UG sumps with connected items at Shillong Grn",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-07T12:45:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScTjP9IoxCK5xNurkLLxV6w%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -207,36 +312,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_907823_1",
-      "title": "Term contract for repair/ maint of ARPS (S) Hostel building at Laitkor Grn",
+      "tenderRef": "2026_ARMHA_907861_1",
+      "title": "Term Contract for B/R and E/M works at SF accn Dwarka, New Delhi",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
       "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-07T11:30:00.000Z",
+      "publishedAt": "2026-05-07T12:05:00.000Z",
       "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
       "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCP7cU9JxQdykfENWkFNuUA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnW3LG064CGi6zXcUMWhEXg%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_PGIME_906052_1",
-      "title": "Augmentation and Upgradation of 66 11 KV Grid Substation at PGIMER, Chandigarh.",
-      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
-      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
-      "publishedAt": "2026-04-21T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnV8RlACAMVplIbouvdApgQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_908614_1",
-      "title": "RENOVATION UP-GRADATION OF 02 NOS TOILET BLOCK LEFT SIDE OF THE 120 MEN JAWAN BARRACK, OLD 103 BN NOW 142 BN BSF UNDER SHQ BSF FEROZEPUR",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-15T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
+      "tenderRef": "2026_ARMHA_907817_1",
+      "title": "Term contract for B/R and E/M in Zone-III incl Sentinal Offrs Mess (SOM) at Laitkor Grn",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-07T11:20:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:00:00.000Z",
       "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SA854R8tmt89cxi2R377H3A%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDVakloI22pm8L0CPRPvsUw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -251,25 +345,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_908470_1",
-      "title": "Providing LED Street Security Lights in Campus of 174 Nos BOPs along Indo Pakistan Border IPB and Indo Bangladesh Border IBB SH Providing and fixing of security light along the periphery of BOP Old Bamialof 121 BN Now109 BN BSF under SHQ BSF Gurda",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-14T03:30:00.000Z",
+      "tenderRef": "2026_ARMHA_906924_1",
+      "title": "TC work for ORs md accns at Transit Camp Minuthong under HQ IGAR (S), Mantripukhri",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-04-29T09:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXiB9EAdJkYCGnyeofDk42w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_908712_1",
-      "title": "Provision of temporary structure for Aadhar Kendra at Hapur HO.",
-      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-05-14T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCPhL%2BZD3C5HmkcgyPtoQWw%3D%3D",
+      "tenderOpensAt": "2026-05-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLLCjFaCWWnFKww3igl6BqA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -281,6 +364,28 @@
       "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
       "tenderOpensAt": "2026-05-21T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGe4Lp%2B%2FZ77EvOW3Ek5U2iA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_908569_1",
+      "title": "Providing LED Street Security Lights in Campus of 174 Nos BOPs along Indo-Pakistan Border IPB and Indo Bangladesh Border IBB SH Providing and d fixing of security light along the periphery of BOP Paharipur of 121 BN Now109 BN BSF under SHQ BSF GSP",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-05-14T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SajS6K97MksUSPHeaDVBatw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_PGIME_906052_1",
+      "title": "Augmentation and Upgradation of 66 11 KV Grid Substation at PGIMER, Chandigarh.",
+      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
+      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
+      "publishedAt": "2026-04-21T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnV8RlACAMVplIbouvdApgQ%3D%3D",
       "matchedKeywords": []
     }
   ]
