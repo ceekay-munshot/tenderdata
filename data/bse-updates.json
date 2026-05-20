@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-20T11:14:05.476Z",
-  "durationMs": 613,
+  "fetchedAt": "2026-05-20T13:21:00.393Z",
+  "durationMs": 493,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 79,
+    "announcements": 80,
     "negative": 0,
     "positive": 9,
-    "neutral": 70
+    "neutral": 71
   },
   "announcements": [
     {
@@ -458,6 +458,21 @@
       "category": "Company Update",
       "filedAt": "2026-04-28T17:07:09.343Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8f1caeb1-9d91-434f-b5bc-2378b3c98e4c.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "8bbcdf5e-584d-4150-982b-df4b7af93cc9",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Rail Vikas Nigam Limited emerges as the Lowest Bidder (L1) from East Coast Railway- Normal course of business of the Company.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-20T18:09:40.240Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c20b87a0-5195-48a5-a9bd-af7fea2b5b5d.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1230,6 +1245,16 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-8bbcdf5e-584d-4150-982b-df4b7af93cc9",
+      "date": "2026-05-20T18:09:40.240Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Rail Vikas Nigam Limited emerges as the Lowest Bidder (L1) from East Coast Railway- Normal course of business of the Company.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-aece8cc7-be9c-4b91-9a80-f9eab8513259",
       "date": "2026-05-20T15:47:39.400Z",
