@@ -1,11 +1,71 @@
 {
-  "fetchedAt": "2026-05-20T05:45:38.517Z",
-  "durationMs": 15769,
+  "fetchedAt": "2026-05-20T05:56:26.843Z",
+  "durationMs": 21163,
   "ok": true,
-  "pagesFetched": 10,
-  "totalScanned": 10,
-  "relevantCount": 0,
-  "tenders": [],
+  "apiCalls": 16,
+  "totalScanned": 200,
+  "relevantCount": 3,
+  "tenders": [
+    {
+      "tenderId": "e24f6e3f-8f80-4084-9b12-7fe755e2dd97",
+      "refNo": "NIT No. CGM(DandS)/APDCL/LAR/ Adani Power Ltd, Thermal PP/Bilasipara/2026-27/05",
+      "title": "Construction Of 33kv Dedicated Line And From 132/33kv Bilasipara Gss Udmari To The Premise Of M/s Adani Power Ltd., (thermal Power Plant) At Chiraubakra Jungle Block, Dhubri, Assam Under Deposit Work Scheme Under Bilasipara Electrical Sub-division On",
+      "buyer": "Assam Power Distribution Company Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Assam",
+      "value": 72003263,
+      "emd": 1500000,
+      "bidDeadline": "2026-06-02T10:30:00.000Z",
+      "postedAt": "2026-05-20T04:30:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/assam-power-distribution-company-limited/detail-e24f6e3f-8f80-4084-9b12-7fe755e2dd97",
+      "matchedKeywords": [
+        "thermal power plant"
+      ]
+    },
+    {
+      "tenderId": "07582854-3f8a-4727-bb87-c782e92f3ba7",
+      "refNo": "EE-A/07/2026-27",
+      "title": "Construction Rub Near Railway Bridge No. 215 On Jaipur Delhi Railway Line At Kartarpura Nallah And Widening Of Existing Culvert At Nallah, Jaipur",
+      "buyer": "Jaipur Development Authority",
+      "procurementSource": "EPROCURE",
+      "state": "Rajasthan",
+      "value": 140632000,
+      "emd": 2812640,
+      "bidDeadline": "2026-06-08T12:30:00.000Z",
+      "postedAt": "2026-05-20T04:00:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Drainage Work",
+        "Bridge Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/jaipur-development-authority/detail-07582854-3f8a-4727-bb87-c782e92f3ba7",
+      "matchedKeywords": [
+        "railway bridge"
+      ]
+    },
+    {
+      "tenderId": "f44a4104-ea2a-4705-b11d-ae2cd26bc060",
+      "refNo": "7000039985",
+      "title": "Work Of Providing & Applying Nano Technology Based Acid And Alkali Resistant Nano Modified Anti Corrosive Coating Paint On Rusted Ehv Transmission Line Tower Legs /stubs Under Ehv O&m Division, Ratnagiri.",
+      "buyer": "Maharashtra State Electricity Transmission Company Limited",
+      "state": "Maharashtra",
+      "value": 8644560,
+      "emd": 86445,
+      "bidDeadline": "2026-06-02T18:30:00.000Z",
+      "postedAt": "2026-05-19T18:30:00.000Z",
+      "sectorNames": [
+        "Paints and Enamels"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/maharashtra-state-electricity-transmission-company-limited/detail-f44a4104-ea2a-4705-b11d-ae2cd26bc060",
+      "matchedKeywords": [
+        "transmission line"
+      ]
+    }
+  ],
   "sampleRows": [
     {
       "tenderId": "5d6d6320-682f-43bc-8cd3-e6660dfe29d1",
@@ -176,6 +236,270 @@
         "Transportation and Logistics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-8544ef68-cfa7-47a2-9396-ba5e34b1fa26",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "e22f711b-dc20-4270-a9a5-0c0ebf0c390b",
+      "refNo": "NHAI/13013/547/CO/ 26-27/CB/ Nageshri FP",
+      "title": "Engagement Of User Fee Collection Agency On The Basis Of Competitive Bidding Through E-tender For Nageshri Fee Plaza At Km 151.950 Of Nh-8e For Four Lanning From Kilometer 139.915 Kagavadar To Una Section Of Nh8e In The State Of Gujarat",
+      "buyer": "National Highways Authority Of India",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Himachal Pradesh",
+      "value": 199400000,
+      "bidDeadline": "2026-06-02T05:30:00.000Z",
+      "postedAt": "2026-05-20T03:35:00.000Z",
+      "sectorNames": [
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-e22f711b-dc20-4270-a9a5-0c0ebf0c390b",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "1f7047d2-0a0f-4ec3-97ad-2b4b837a4e4c",
+      "refNo": "75 Dt.18.04.2026",
+      "title": "Construction Of 30 Nos C Type Shops And Rikt Sthano Per Cc Work At N.m.y. Milak",
+      "buyer": "Rajya Krishi Utpadan Mandi Parishad",
+      "procurementSource": "EPROCURE",
+      "state": "Uttar Pradesh",
+      "value": 20954000,
+      "emd": 1250000,
+      "bidDeadline": "2026-06-05T11:30:00.000Z",
+      "postedAt": "2026-05-20T04:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/rajya-krishi-utpadan-mandi-parishad/detail-1f7047d2-0a0f-4ec3-97ad-2b4b837a4e4c",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "b36d22f0-f2fa-43b8-b94a-23bc3ab62801",
+      "refNo": "RSRDCC NIT 103/2026-27 Dated 18.05.2026",
+      "title": "Electrification Work In Auditorium Building At University Of Kota",
+      "buyer": "Rajasthan State Road Development And Construction Corporation Limited",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Rajasthan",
+      "value": 29345000,
+      "emd": 586900,
+      "bidDeadline": "2026-06-08T12:30:00.000Z",
+      "postedAt": "2026-05-20T03:30:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/rajasthan-state-road-development-and-construction-corporation-limited/detail-b36d22f0-f2fa-43b8-b94a-23bc3ab62801",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "293ff8b6-f034-4064-add9-cdc3553c002f",
+      "refNo": "8267/Pari-5/Nivida Suchna/2025-26",
+      "title": "Tourism Development Work Of Panchal Ghat In Farrukhabad District.",
+      "buyer": "Uttar Pradesh State Tourism Development Corporation Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Uttar Pradesh",
+      "value": 37813409.3,
+      "emd": 2091000,
+      "bidDeadline": "2026-05-27T07:00:00.000Z",
+      "postedAt": "2026-05-20T03:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/uttar-pradesh-state-tourism-development-corporation-limited/detail-293ff8b6-f034-4064-add9-cdc3553c002f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "22ab8469-1301-4d2c-bfd3-5c5792f8828c",
+      "refNo": "E-AUCTION FOR SETTLEMENT OF EKAGURI-MEDHO SAND GHAT FOR 5 YEARS",
+      "title": "Mines/lohardaga/sand/62/2026",
+      "buyer": "Department Of Mines And Geology",
+      "procurementSource": "EPROCURE",
+      "state": "Jharkhand",
+      "value": 90260966,
+      "emd": 9026097,
+      "bidDeadline": "2026-05-28T09:30:00.000Z",
+      "postedAt": "2026-05-20T03:30:00.000Z",
+      "sectorNames": [
+        "Minerals and Mining"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/department-of-mines-and-geology/detail-22ab8469-1301-4d2c-bfd3-5c5792f8828c",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "c0c5d925-72fd-48a5-b9ac-57a0f0eae948",
+      "refNo": "e-NIT No. 05 of 2026-27, Dated 19-05-2026",
+      "title": "Balance Electrical Works For Proposed Additional Block For Jlnm Hospital At Srinagar.",
+      "buyer": "Housing And Urban Development Department",
+      "procurementSource": "EPROCURE",
+      "state": "Jammu & Kashmir",
+      "value": 22158467,
+      "emd": 443169,
+      "bidDeadline": "2026-06-05T11:00:00.000Z",
+      "postedAt": "2026-05-20T04:30:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/housing-and-urban-development-department/detail-c0c5d925-72fd-48a5-b9ac-57a0f0eae948",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "5c07cf96-c6ae-49a1-af33-55a4b46cb318",
+      "refNo": "RSRDCC NIT 104/2026-27 Dated 18.05.2026",
+      "title": "Construction Of Main Entrance Gate And Guard Room At Medical College, Dausa",
+      "buyer": "Rajasthan State Road Development And Construction Corporation Limited",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Rajasthan",
+      "value": 24000000,
+      "emd": 480000,
+      "bidDeadline": "2026-05-29T12:30:00.000Z",
+      "postedAt": "2026-05-20T03:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/rajasthan-state-road-development-and-construction-corporation-limited/detail-5c07cf96-c6ae-49a1-af33-55a4b46cb318",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f1b36a3b-4e3f-4176-8225-c0592304b858",
+      "refNo": "E-AUCTION FOR SETTLEMENT OF LAWAGAIN-NADINAGRA SAND GHAT FOR 5 YEARS",
+      "title": "Mines/lohardaga/sand/56/2026",
+      "buyer": "Department Of Mines And Geology",
+      "procurementSource": "EPROCURE",
+      "state": "Jharkhand",
+      "value": 40349568,
+      "emd": 4034957,
+      "bidDeadline": "2026-05-28T09:30:00.000Z",
+      "postedAt": "2026-05-20T03:30:00.000Z",
+      "sectorNames": [
+        "Minerals and Mining"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/department-of-mines-and-geology/detail-f1b36a3b-4e3f-4176-8225-c0592304b858",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "628afa7d-677e-47f7-bd29-29697bba331e",
+      "refNo": "E-AUCTION FOR SETTLEMENT OF JOGNA-MEDHO SAND GHAT FOR 5 YEARS",
+      "title": "Mines/lohardaga/sand/64/2026",
+      "buyer": "Department Of Mines And Geology",
+      "procurementSource": "EPROCURE",
+      "state": "Jharkhand",
+      "value": 24345370,
+      "emd": 2434537,
+      "bidDeadline": "2026-05-28T09:30:00.000Z",
+      "postedAt": "2026-05-20T03:30:00.000Z",
+      "sectorNames": [
+        "Minerals and Mining"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/department-of-mines-and-geology/detail-628afa7d-677e-47f7-bd29-29697bba331e",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "a5f117ff-7b96-4252-8da5-48217005f57a",
+      "refNo": "28",
+      "title": "Selection Of An Agency For Operation And Maintenance Of Gardens Having An Area Above 10,000 Square Meters (two Years) (reverse Auction)",
+      "buyer": "Municipal Corporation",
+      "purchaserGroup": "Health",
+      "procurementSource": "NPROCURE",
+      "state": "Gujarat",
+      "value": 26112668,
+      "bidDeadline": "2026-06-04T12:30:00.000Z",
+      "postedAt": "2026-05-20T04:30:00.000Z",
+      "sectorNames": [
+        "Agriculture or Forestry Works"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/municipal-corporation/detail-a5f117ff-7b96-4252-8da5-48217005f57a",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "607c05a0-8c30-4e55-aeb6-bce5bf019cf2",
+      "refNo": "GEM/2026/B/7503909",
+      "title": "Category: Security Manpower Service (version 2.0) - office/commercial/institutions/ Residential; Unarmed security Guard , Security Manpower Service (version 2.0) - office/commercial/institutions/ Residential; Armed Security guard , Security Manpower Service (version 2.0) - office/commercial/institutions/ Residential; Security supervisor",
+      "buyer": "Bharat Heavy Electricals Limited",
+      "procurementSource": "GEM",
+      "state": "Uttarakhand",
+      "value": 31301502.23,
+      "bidDeadline": "2026-05-30T09:30:00.000Z",
+      "postedAt": "2026-05-20T03:26:12.000Z",
+      "sectorNames": [
+        "Security and Emergency Services",
+        "Manpower Supply"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bharat-heavy-electricals-limited/detail-607c05a0-8c30-4e55-aeb6-bce5bf019cf2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "d696a830-caf2-4357-8531-fe90740a5516",
+      "refNo": "GM(C)/SGR/26-27/ETN-02 Dated 19.05.2026",
+      "title": "Annual Operation, Maintenance And Providing Civil And Electrical Maintenance (including Facility Management Services) For Office And Residential Complex At Krishnashila Area For 2 Years",
+      "buyer": "Northern Coalfields Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Madhya Pradesh",
+      "value": 89280426,
+      "emd": 1116100,
+      "bidDeadline": "2026-06-10T13:25:00.000Z",
+      "postedAt": "2026-05-19T13:25:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/northern-coalfields-limited/detail-d696a830-caf2-4357-8531-fe90740a5516",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "e40a1d47-ed74-4ed1-8e6c-e1d3a89152cb",
+      "refNo": "GM(C)/SGR/26-27/ETN-04 Dated 19.05.2026",
+      "title": "Annual Operation, Maintenance And Providing Civil And Electrical Maintenance (including Facility Management Services) For Office And Residential Complex At Block-b Area For 2 Years.",
+      "buyer": "Northern Coalfields Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Madhya Pradesh",
+      "value": 103190780,
+      "emd": 1289900,
+      "bidDeadline": "2026-06-10T13:25:00.000Z",
+      "postedAt": "2026-05-19T13:25:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/northern-coalfields-limited/detail-e40a1d47-ed74-4ed1-8e6c-e1d3a89152cb",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "2fa0254c-6fbf-4ae5-9226-d8d1f5c6fec7",
+      "refNo": "GM(C)/SGR/26-27/ETN-03 Dated 19.05.2026",
+      "title": "Annual Operation And Maintenance (civil And Electrical, With Facility Management Service) For Office And Residential Township For Two Years In Jhingurda Area.",
+      "buyer": "Northern Coalfields Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Madhya Pradesh",
+      "value": 115217503,
+      "emd": 1440300,
+      "bidDeadline": "2026-06-10T13:25:00.000Z",
+      "postedAt": "2026-05-19T13:25:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/northern-coalfields-limited/detail-2fa0254c-6fbf-4ae5-9226-d8d1f5c6fec7",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "424e6fb7-ac29-4ba9-94d4-c7c5770714fd",
+      "refNo": "GEM/2026/B/7542154",
+      "title": "Category: Custom Bid For Services - 9070c26b58 Annual Rate Contract for Day To Day Upkeepment Of Administrative Building And its Premises Of Paradip Refinery, Paradip, Odisha",
+      "buyer": "Indian Oil Corporation Limited",
+      "procurementSource": "GEM",
+      "state": "Odisha",
+      "value": 24011674.98,
+      "emd": 61000,
+      "bidDeadline": "2026-06-03T04:30:00.000Z",
+      "postedAt": "2026-05-20T04:14:07.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/indian-oil-corporation-limited/detail-424e6fb7-ac29-4ba9-94d4-c7c5770714fd",
       "matchedKeywords": []
     }
   ]
