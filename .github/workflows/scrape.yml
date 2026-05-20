@@ -60,6 +60,11 @@ jobs:
       - name: Scrape CPPP tenders
         run: pnpm tsx scripts/scrape-cppp.mts || echo "CPPP scrape exited non-zero"
 
+      # Temporary: probe CPPP endpoints to find a captcha-free tender source.
+      # Removed once a source is chosen.
+      - name: Probe CPPP endpoints
+        run: pnpm tsx scripts/probe-cppp.mts || echo "CPPP probe exited non-zero"
+
       - name: Show summary
         run: |
           echo "::group::scrape summary"
@@ -82,6 +87,7 @@ jobs:
           cp data/bse-updates.json   /tmp/scrape-out/ 2>/dev/null || true
           cp data/cppp-tenders.json  /tmp/scrape-out/ 2>/dev/null || true
           cp data/cppp-debug.html    /tmp/scrape-out/ 2>/dev/null || true
+          cp data/cppp-probe.json    /tmp/scrape-out/ 2>/dev/null || true
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -102,9 +108,10 @@ jobs:
           cp /tmp/scrape-out/bse-updates.json   data/ 2>/dev/null || true
           cp /tmp/scrape-out/cppp-tenders.json  data/ 2>/dev/null || true
           cp /tmp/scrape-out/cppp-debug.html    data/ 2>/dev/null || true
+          cp /tmp/scrape-out/cppp-probe.json    data/ 2>/dev/null || true
 
           git add data/bse-updates.json data/cppp-tenders.json
-          git add data/cppp-debug.html 2>/dev/null || true
+          git add data/cppp-debug.html data/cppp-probe.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No content change — nothing to commit."
