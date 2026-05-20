@@ -1,46 +1,13 @@
 {
-  "fetchedAt": "2026-05-20T05:16:34.313Z",
-  "durationMs": 7348,
+  "fetchedAt": "2026-05-20T05:22:58.761Z",
+  "durationMs": 44097,
   "ok": true,
   "view": "14day",
-  "pagesFetched": 5,
-  "totalRowsParsed": 36,
+  "pagesFetched": 50,
+  "totalRowsParsed": 351,
   "relevantCount": 0,
   "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_DOP_908712_1",
-      "title": "Provision of temporary structure for Aadhar Kendra at Hapur HO.",
-      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-05-14T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCPhL%2BZD3C5HmkcgyPtoQWw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_908470_1",
-      "title": "Providing LED Street Security Lights in Campus of 174 Nos BOPs along Indo Pakistan Border IPB and Indo Bangladesh Border IBB SH Providing and fixing of security light along the periphery of BOP Old Bamialof 121 BN Now109 BN BSF under SHQ BSF Gurda",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-14T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXiB9EAdJkYCGnyeofDk42w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_908569_1",
-      "title": "Providing LED Street Security Lights in Campus of 174 Nos BOPs along Indo-Pakistan Border IPB and Indo Bangladesh Border IBB SH Providing and d fixing of security light along the periphery of BOP Paharipur of 121 BN Now109 BN BSF under SHQ BSF GSP",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-14T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SajS6K97MksUSPHeaDVBatw%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_PGIME_906052_1",
       "title": "Augmentation and Upgradation of 66 11 KV Grid Substation at PGIMER, Chandigarh.",
@@ -53,14 +20,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_906924_1",
-      "title": "TC work for ORs md accns at Transit Camp Minuthong under HQ IGAR (S), Mantripukhri",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-04-29T09:30:00.000Z",
+      "tenderRef": "2026_SAI_907020_1",
+      "title": "Sewer Cleaning work as and when need basis",
+      "organisationChain": "Sports Authority of India||SAI NRC Sonepat",
+      "buyer": "Sports Authority of India",
+      "publishedAt": "2026-04-30T10:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLLCjFaCWWnFKww3igl6BqA%3D%3D",
+      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sc78FiCFKgoK6RZv88w4ngw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_908733_1",
+      "title": "Annual repair and maintenance of various ACs i.e (split/window/ tower /ductable) of BSF Campus Jodhpur under FTR HQ BSF Rajasthan.",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-05-15T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyPoR1nuf1%2Bdg7SIp2KVmTg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_908712_1",
+      "title": "Provision of temporary structure for Aadhar Kendra at Hapur HO.",
+      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-05-14T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCPhL%2BZD3C5HmkcgyPtoQWw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NVS_895632_1",
+      "title": "Engagement of Department of Economic Affairs empanelled Transaction Advisor for Feasibility Assessment and Opportunity Identification for Public Private Partnership (PPP) in Navodaya Vidyalaya Infrastructure",
+      "organisationChain": "Navodaya Vidyalaya Samiti||HQ NVS (Noida)||Construction Wing - HQ NVS (Noida)",
+      "buyer": "Navodaya Vidyalaya Samiti",
+      "publishedAt": "2026-01-27T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SStw5%2BB%2BFgiUf4JTgLFCIUA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -72,6 +72,17 @@
       "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
       "tenderOpensAt": "2026-05-21T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2YJ3clNaf4ojOEok7gEEiA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_906924_1",
+      "title": "TC work for ORs md accns at Transit Camp Minuthong under HQ IGAR (S), Mantripukhri",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-04-29T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLLCjFaCWWnFKww3igl6BqA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -97,25 +108,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NVS_895632_1",
-      "title": "Engagement of Department of Economic Affairs empanelled Transaction Advisor for Feasibility Assessment and Opportunity Identification for Public Private Partnership (PPP) in Navodaya Vidyalaya Infrastructure",
-      "organisationChain": "Navodaya Vidyalaya Samiti||HQ NVS (Noida)||Construction Wing - HQ NVS (Noida)",
-      "buyer": "Navodaya Vidyalaya Samiti",
-      "publishedAt": "2026-01-27T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SStw5%2BB%2BFgiUf4JTgLFCIUA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_908733_1",
-      "title": "Annual repair and maintenance of various ACs i.e (split/window/ tower /ductable) of BSF Campus Jodhpur under FTR HQ BSF Rajasthan.",
-      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "tenderRef": "2026_BSF_908470_1",
+      "title": "Providing LED Street Security Lights in Campus of 174 Nos BOPs along Indo Pakistan Border IPB and Indo Bangladesh Border IBB SH Providing and fixing of security light along the periphery of BOP Old Bamialof 121 BN Now109 BN BSF under SHQ BSF Gurda",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
       "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-15T03:30:00.000Z",
+      "publishedAt": "2026-05-14T03:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyPoR1nuf1%2Bdg7SIp2KVmTg%3D%3D",
+      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXiB9EAdJkYCGnyeofDk42w%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -130,25 +130,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DDA_908689_1",
-      "title": "M/o Completed scheme under North Zone.",
-      "organisationChain": "Delhi Development Authority||CE-North Zone-DDA||EE-ND 3-Kingsway Camp-BBM Depot-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-05-14T09:45:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T06:00:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMFkGVf%2F1PNtjpmlAf0WRPQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_IGCAR_903732_1",
-      "title": "Construction of Emergency staircase at Central Cafeteria in IGCAR, Kalpakkam.",
+      "tenderRef": "2026_IGCAR_907581_1",
+      "title": "Maintenance and improvement of landscape area in South side of IGCAR at Kalpakkam during the year 2026-2027.",
       "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
       "buyer": "Indira Gandhi Centre for Atomic Research",
-      "publishedAt": "2026-03-26T04:50:00.000Z",
+      "publishedAt": "2026-05-06T12:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T06:00:00.000Z",
       "tenderOpensAt": "2026-05-21T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvjTG2HFg96kxZSAfXqxPLQ%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeZ4yM8LPqfO2DTPGa5tUCQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -160,6 +149,17 @@
       "bidSubmissionCloses": "2026-05-20T06:00:00.000Z",
       "tenderOpensAt": "2026-05-21T09:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S81FWYkY8Z2aRxGWpURXZ2g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_908689_1",
+      "title": "M/o Completed scheme under North Zone.",
+      "organisationChain": "Delhi Development Authority||CE-North Zone-DDA||EE-ND 3-Kingsway Camp-BBM Depot-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-05-14T09:45:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T06:00:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMFkGVf%2F1PNtjpmlAf0WRPQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -185,14 +185,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IGCAR_907581_1",
-      "title": "Maintenance and improvement of landscape area in South side of IGCAR at Kalpakkam during the year 2026-2027.",
+      "tenderRef": "2026_IGCAR_903732_1",
+      "title": "Construction of Emergency staircase at Central Cafeteria in IGCAR, Kalpakkam.",
       "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
       "buyer": "Indira Gandhi Centre for Atomic Research",
-      "publishedAt": "2026-05-06T12:30:00.000Z",
+      "publishedAt": "2026-03-26T04:50:00.000Z",
       "bidSubmissionCloses": "2026-05-20T06:00:00.000Z",
       "tenderOpensAt": "2026-05-21T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeZ4yM8LPqfO2DTPGa5tUCQ%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvjTG2HFg96kxZSAfXqxPLQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_908829_1",
+      "title": "INVITATION FOR PRE-TENDER MEET FOR ELECTRICAL CONTROL SYSTEM OF PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES AT DAHEJ, GUJARAT OF M/S PETRONET LNG LIMITED",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-05-15T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZaz%2BigjmwjiM%2Betx%2BYyQvw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -207,14 +218,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_RCFL_909027_1",
-      "title": "SUPPLY OF LUBE OIL",
-      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
-      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
-      "publishedAt": "2026-05-16T11:30:00.000Z",
+      "tenderRef": "2026_EIL_905805_1",
+      "title": "JP/B957-999-EA-T-0011/1029",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-04-18T09:50:00.000Z",
       "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-05-20T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGKKKXC3EqGzWmjSfnf1gMQ%3D%3D",
+      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLLrVbl6MxI1OD8OpwJX4uQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_906971_1",
+      "title": "JP/B862-000-WA-MR-3206/87 - PIPES - SS (WELDED) FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT AT DAHEJ, GUJARAT",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-04-29T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6aejfxi%2Fv08nSSqEJDfN%2FA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -240,14 +262,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_906971_1",
-      "title": "JP/B862-000-WA-MR-3206/87 - PIPES - SS (WELDED) FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT AT DAHEJ, GUJARAT",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-04-29T13:00:00.000Z",
+      "tenderRef": "2026_RCFL_909027_1",
+      "title": "SUPPLY OF LUBE OIL",
+      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
+      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
+      "publishedAt": "2026-05-16T11:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6aejfxi%2Fv08nSSqEJDfN%2FA%3D%3D",
+      "tenderOpensAt": "2026-05-20T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGKKKXC3EqGzWmjSfnf1gMQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -259,28 +281,6 @@
       "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
       "tenderOpensAt": "2026-05-21T08:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzCFtG49gMU7QrkU7Xz5mCg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_905805_1",
-      "title": "JP/B957-999-EA-T-0011/1029",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-04-18T09:50:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLLrVbl6MxI1OD8OpwJX4uQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_907704_1",
-      "title": "28006/Engr/MW-05/2026-27/05",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-06T12:10:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T07:00:00.000Z",
-      "tenderOpensAt": "2026-05-21T07:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOIIc%2F7x8z97tH2L37Bso9A%3D%3D",
       "matchedKeywords": []
     }
   ]
