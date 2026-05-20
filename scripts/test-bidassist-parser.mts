@@ -1,15 +1,16 @@
 /**
  * Local sanity test for the BidAssist scraper.
  *
- * Feeds the scraper a page whose markup mirrors bidassist.com — a
- * server-rendered listing with a `window.__INITIAL_STATE__` JSON blob —
- * and asserts the __INITIAL_STATE__ extraction, tender mapping, keyword
- * filter, and pagination.
+ * The scraper hits the api.bidassist.com JSON API
+ * (/api/tender/tenders -> { data: { content: [...] } }). A mock fetcher
+ * returns that shape and routes by the `label` search param, so the test
+ * exercises keyword search, the general feed, de-dupe, mapping, and the
+ * keyword filter.
  *
  * Run:  npx tsx scripts/test-bidassist-parser.mts
  */
 
-import { scrapeBidAssist, extractInitialState, parseInitialState } from "../lib/scrapers/bidassist.ts";
+import { scrapeBidAssist } from "../lib/scrapers/bidassist.ts";
 
 interface MockTender {
   id: string;
@@ -27,7 +28,7 @@ function tenderObj(o: MockTender) {
     tenderId: o.id,
     tenderNoticeNo: o.ref,
     sourceTenderId: `SRC/${o.ref}`,
-    // BidAssist wraps the description in literal quotes — the parser strips them.
+    // BidAssist wraps descriptions in literal quotes — the parser strips them.
     tenderDescription: `"${o.desc}"`,
     tenderDetails: `"${o.desc}"`,
     purchaserName: o.buyer,
@@ -43,60 +44,56 @@ function tenderObj(o: MockTender) {
   };
 }
 
-/** Build a bidassist-shaped page with a __INITIAL_STATE__ blob. */
-function page(tenders: MockTender[], pageNumber: number, totalPages: number): string {
-  const state = {
-    pageInfo: { foo: "bar" },
-    tenders: {
-      number: pageNumber,
-      size: 10,
-      totalPages,
-      totalElements: totalPages * 10,
+/** The api.bidassist.com JSON envelope: { data: { content, totalPages, ... } }. */
+function apiResponse(tenders: MockTender[]): string {
+  return JSON.stringify({
+    success: true,
+    data: {
+      number: 0,
+      size: 50,
+      totalPages: 1,
+      totalElements: tenders.length,
       numberOfElements: tenders.length,
       content: tenders.map(tenderObj),
     },
-    tenderType: "ACTIVE",
-  };
-  return `<!DOCTYPE html><html><body>
-    <div id="app">listing</div>
-    <script>window.__INITIAL_STATE__ = ${JSON.stringify(state)};</script>
-  </body></html>`;
+  });
 }
 
 const RAILWAY: MockTender = {
   id: "uuid-rail-1", ref: "CR/ELEC/2026/41",
   desc: "Railway electrification and overhead equipment works, Bhusawal section",
-  buyer: "Central Railway", group: "Railways", src: "IREPS",
-  value: 1_240_000_000, sectors: ["Railway Works"],
+  buyer: "Central Railway", group: "Railways", src: "IREPS", value: 1_240_000_000,
 };
 const VISA: MockTender = {
   id: "uuid-visa-1", ref: "MEA/CONSULAR/2026/MOR",
   desc: "Visa and passport outsourcing services at Embassy of India, Rabat",
-  buyer: "Ministry of External Affairs", group: "Central Government", src: "CPPP",
-  value: 845_000_000, sectors: ["Services"],
+  buyer: "Ministry of External Affairs", group: "Central Government", src: "CPPP", value: 845_000_000,
+};
+const RADAR: MockTender = {
+  id: "uuid-radar-1", ref: "MOD/IAF/2026/9",
+  desc: "Procurement of surveillance radar system for air defence",
+  buyer: "Indian Air Force", group: "Defence", src: "CPPP", value: 2_480_000_000,
 };
 const NOISE: MockTender = {
   id: "uuid-noise-1", ref: "GEN/FURN/2026/7",
   desc: "Supply of office furniture and fixtures",
   buyer: "Some Department", group: "State", src: "GeM",
-  sectors: ["Furniture"],
-};
-const RADAR: MockTender = {
-  id: "uuid-radar-1", ref: "MOD/IAF/2026/9",
-  desc: "Procurement of surveillance radar system for air defence",
-  buyer: "Indian Air Force", group: "Defence", src: "CPPP",
-  value: 2_480_000_000, sectors: ["Defence"],
 };
 
+/** Routes by the `label` search param; general feed (no label) returns a mix. */
 function mockFetcher(): typeof fetch {
   return (async (input: RequestInfo | URL) => {
-    const url = typeof input === "string" ? input : input.toString();
-    const pageNum = Number(new URL(url).searchParams.get("pageNumber") ?? "0");
-    const html =
-      pageNum === 0
-        ? page([RAILWAY, VISA, NOISE], 0, 2)
-        : page([RADAR], 1, 2);
-    return new Response(html, { status: 200, headers: { "content-type": "text/html" } });
+    const url = new URL(typeof input === "string" ? input : input.toString());
+    const label = url.searchParams.get("label");
+    let tenders: MockTender[];
+    if (label === "visa") tenders = [VISA];
+    else if (label === "radar") tenders = [RADAR];
+    else if (label) tenders = []; // other search terms: no hits
+    else tenders = [RAILWAY, NOISE, VISA]; // general feed (VISA overlaps the search)
+    return new Response(apiResponse(tenders), {
+      status: 200,
+      headers: { "content-type": "application/json" },
+    });
   }) as typeof fetch;
 }
 
@@ -111,43 +108,36 @@ function assert(label: string, cond: unknown, detail?: string) {
 
 console.log("\n--- BidAssist scraper local sanity test ---\n");
 
-console.log("__INITIAL_STATE__ extraction:");
-const html1 = page([RAILWAY, VISA, NOISE], 0, 2);
-const state = extractInitialState(html1) as { tenders?: { content?: unknown[] } } | null;
-assert("blob extracted (balanced braces, nested location obj)", !!state);
-assert("tenders.content present", Array.isArray(state?.tenders?.content));
-assert("garbage page -> null", extractInitialState("<html>no blob</html>") === null);
+const result = await scrapeBidAssist({
+  fetcher: mockFetcher(),
+  searchTerms: ["visa", "radar", "expressway"],
+  generalPages: 1,
+});
+
+console.log("api calls + scanning:");
+assert("4 API calls (3 searches + 1 general page)", result.apiCalls === 4, `got ${result.apiCalls}`);
+// 5 rows collected (visa, radar, railway, noise, visa-again) -> VISA de-duped -> 4 unique.
+assert("de-dupe: 4 unique tenders", result.totalScanned === 4, `got ${result.totalScanned}`);
+
+console.log("\nkeyword filter:");
+assert("3 matched (visa + radar + railway)", result.tenders.length === 3, `got ${result.tenders.length}`);
+assert(
+  "furniture noise dropped",
+  !result.tenders.some((t) => t.title.includes("furniture")),
+);
+assert(
+  "radar matched via a defence keyword",
+  result.tenders.some((t) => t.matchedKeywords.some((k) => /radar|air defence/.test(k))),
+);
 
 console.log("\ntender mapping:");
-const rows = parseInitialState(html1);
-assert("3 tenders parsed", rows.length === 3, `got ${rows.length}`);
-const rail = rows.find((r) => r.tenderId === "uuid-rail-1");
+const rail = result.allRows.find((r) => r.tenderId === "uuid-rail-1");
 assert("title quotes stripped", rail?.title === "Railway electrification and overhead equipment works, Bhusawal section", rail?.title);
 assert("buyer mapped", rail?.buyer === "Central Railway");
 assert("value mapped (INR)", rail?.value === 1_240_000_000);
 assert("procurementSource mapped", rail?.procurementSource === "IREPS");
-assert("bidDeadline -> ISO", typeof rail?.bidDeadline === "string" && rail.bidDeadline.startsWith("20"));
+assert("bidDeadline -> ISO", typeof rail?.bidDeadline === "string" && rail!.bidDeadline!.startsWith("20"));
 assert("detail URL built", rail?.detailUrl?.startsWith("https://bidassist.com/global-tenders/") ?? false);
-
-console.log("\nkeyword filter:");
-const single = await scrapeBidAssist({ html: html1 });
-assert("3 scanned", single.totalScanned === 3);
-assert("2 matched (railway + visa)", single.tenders.length === 2, `got ${single.tenders.length}`);
-assert("furniture noise dropped", !single.tenders.some((t) => t.title.includes("furniture")));
-
-console.log("\npagination (2 pages via mock fetcher):");
-const paged = await scrapeBidAssist({ fetcher: mockFetcher() });
-assert("2 pages fetched", paged.pagesFetched === 2, `got ${paged.pagesFetched}`);
-assert("4 tenders scanned across pages", paged.totalScanned === 4, `got ${paged.totalScanned}`);
-assert(
-  "3 matched (railway + visa + radar)",
-  paged.tenders.length === 3,
-  `got ${paged.tenders.length}: ${paged.tenders.map((t) => t.matchedKeywords.join("/")).join(" | ")}`,
-);
-assert(
-  "radar matched via defence keyword",
-  paged.tenders.some((t) => t.matchedKeywords.some((k) => /radar|air defence/.test(k))),
-);
 
 console.log(`\n${failed === 0 ? "All checks passed." : `${failed} check(s) failed.`}\n`);
 process.exit(failed === 0 ? 0 : 1);

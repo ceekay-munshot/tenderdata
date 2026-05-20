@@ -35,7 +35,7 @@ async function main() {
       durationMs: Date.now() - started,
       ok: false,
       error: message,
-      pagesFetched: 0,
+      apiCalls: 0,
       totalScanned: 0,
       relevantCount: 0,
       tenders: [],
@@ -49,7 +49,7 @@ async function main() {
     fetchedAt: new Date().toISOString(),
     durationMs,
     ok: true,
-    pagesFetched: result.pagesFetched,
+    apiCalls: result.apiCalls,
     totalScanned: result.totalScanned,
     relevantCount: result.tenders.length,
     tenders: result.tenders,
@@ -59,7 +59,7 @@ async function main() {
   });
 
   console.log(
-    `Scanned ${result.totalScanned} tenders across ${result.pagesFetched} page(s), ` +
+    `Scanned ${result.totalScanned} unique tenders via ${result.apiCalls} API call(s), ` +
       `${result.tenders.length} matched watchlist sectors, in ${durationMs}ms`,
   );
   for (const t of result.tenders.slice(0, 12)) {

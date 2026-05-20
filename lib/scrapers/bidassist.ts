@@ -3,38 +3,55 @@
  *
  * BidAssist is a tender aggregator: it has already de-walled every
  * government portal (CPPP, IREPS, GeM, state e-proc) and normalised them
- * into one feed. Its listing pages are server-rendered and embed the full
- * tender data as a `window.__INITIAL_STATE__` JSON blob — no API auth, no
- * captcha, no OTP.
+ * into one feed. Its public JSON API serves the lot — no auth, no captcha,
+ * no OTP.
  *
- * We fetch the paginated "all tenders / active" listing, pull
- * __INITIAL_STATE__.tenders.content[], map each tender, and keyword-filter
- * to watchlist sectors.
+ *   GET https://api.bidassist.com/api/tender/tenders
+ *       ?sort=RELEVANCE:DESC&pageNumber=N&pageSize=S&tenderEntity=TENDER
+ *       [&label=<keyword>]
+ *   -> { data: { content: [...tenders], totalPages, totalElements, ... } }
+ *
+ * Strategy: run a keyword search (label=) per watchlist sector term to
+ * pull targeted tenders, plus a few pages of the general feed as a
+ * baseline, then de-dupe and keyword-filter. If `label` turns out to be
+ * ignored, the searches just return the general feed and de-dupe absorbs
+ * it — the scrape still works.
  *
  * Runs ONLY in the GHA scraper (Node). The app imports types only.
  */
 
 import { matchTenderKeywords } from "./sector-keywords";
 
-/** Paginated active-tenders listing. pageNumber/pageSize drive pagination. */
-function listingUrl(pageNumber: number, pageSize: number): string {
-  const u = new URL("https://bidassist.com/all-tenders/active");
-  u.searchParams.set("sort", "RELEVANCE:DESC");
-  u.searchParams.set("pageNumber", String(pageNumber));
-  u.searchParams.set("pageSize", String(pageSize));
-  u.searchParams.set("tenderEntity", "TENDER");
-  return u.toString();
-}
+const API_URL = "https://api.bidassist.com/api/tender/tenders";
 
-const PAGE_SIZE = 10; // BidAssist's proven anonymous page size
-const MAX_PAGES = 12;
-const PAGE_DELAY_MS = 600;
+/** Distinctive search terms — one or two per watchlist sector. */
+const SEARCH_TERMS = [
+  "visa",
+  "passport",
+  "consular",
+  "radar",
+  "electronic warfare",
+  "aircraft",
+  "helicopter",
+  "railway electrification",
+  "metro rail",
+  "freight corridor",
+  "transmission line",
+  "expressway",
+];
+
+const PAGE_SIZE = 50;
+/** Pages of the general (unfiltered) feed to pull as a baseline. */
+const GENERAL_PAGES = 4;
+const REQUEST_DELAY_MS = 450;
 
 const REQUEST_HEADERS: Record<string, string> = {
   "User-Agent":
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-  Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  Accept: "application/json, text/plain, */*",
   "Accept-Language": "en-US,en;q=0.9",
+  Origin: "https://bidassist.com",
+  Referer: "https://bidassist.com/",
 };
 
 export class BidAssistError extends Error {
@@ -49,7 +66,6 @@ export interface BidAssistTender {
   refNo: string;
   title: string;
   buyer: string;
-  /** BidAssist's purchaser grouping, e.g. "Railways", "Defence". */
   purchaserGroup?: string;
   /** Which government portal the tender originally came from. */
   procurementSource?: string;
@@ -62,7 +78,6 @@ export interface BidAssistTender {
   bidDeadline: string | null;
   /** ISO — when the tender was published. */
   postedAt: string | null;
-  /** BidAssist's own sector tags. */
   sectorNames: string[];
   detailUrl?: string;
   /** Watchlist sector keywords this tender matched. */
@@ -72,70 +87,66 @@ export interface BidAssistTender {
 export interface BidAssistScrapeResult {
   /** Tenders that matched a watchlist sector keyword. */
   tenders: BidAssistTender[];
-  /** Every tender parsed (matchedKeywords may be empty). */
+  /** Every tender pulled (matchedKeywords may be empty). */
   allRows: BidAssistTender[];
   totalScanned: number;
-  pagesFetched: number;
-  /** First page's HTML — caller may persist it for debugging. */
-  rawHtml: string;
+  apiCalls: number;
 }
 
 interface FetchOptions {
   fetcher?: typeof fetch;
   signal?: AbortSignal;
-  /** Pre-supplied HTML for a single page — skips the network (tests). */
-  html?: string;
-  maxPages?: number;
+  /** Override the search-term list (tests). */
+  searchTerms?: string[];
+  /** Override the general-feed page count. */
+  generalPages?: number;
 }
 
 type RawTender = Omit<BidAssistTender, "matchedKeywords">;
 
-export async function scrapeBidAssist(opts: FetchOptions = {}): Promise<BidAssistScrapeResult> {
-  if (opts.html != null) {
-    const rows = parseInitialState(opts.html);
-    return finalise(rows, 1, opts.html);
-  }
-
-  const fetcher = opts.fetcher ?? fetch;
-  const maxPages = opts.maxPages ?? MAX_PAGES;
-
-  let rows: RawTender[] = [];
-  let firstHtml = "";
-  let pagesFetched = 0;
-  let totalPages = 1;
-
-  for (let page = 0; page < Math.min(maxPages, totalPages); page++) {
-    let html: string;
-    try {
-      html = await fetchWithRetry(listingUrl(page, PAGE_SIZE), fetcher, opts.signal);
-    } catch {
-      break; // keep whatever we have
-    }
-    if (page === 0) firstHtml = html;
-
-    const state = extractInitialState(html);
-    const pageObj = state?.tenders as
-      | { content?: unknown[]; totalPages?: number }
-      | undefined;
-    if (!pageObj || !Array.isArray(pageObj.content)) break;
-
-    rows = rows.concat(pageObj.content.map(mapTender));
-    pagesFetched++;
-    if (typeof pageObj.totalPages === "number" && pageObj.totalPages > 0) {
-      totalPages = pageObj.totalPages;
-    }
-    if (pageObj.content.length === 0) break;
-
-    if (page + 1 < Math.min(maxPages, totalPages)) {
-      await delay(PAGE_DELAY_MS);
-    }
-  }
-
-  return finalise(dedupe(rows), pagesFetched, firstHtml);
+interface ApiPage {
+  content: unknown[];
+  totalPages: number;
+  totalElements: number;
 }
 
-function finalise(rows: RawTender[], pagesFetched: number, rawHtml: string): BidAssistScrapeResult {
-  const allRows: BidAssistTender[] = rows.map((r) => ({
+export async function scrapeBidAssist(opts: FetchOptions = {}): Promise<BidAssistScrapeResult> {
+  const fetcher = opts.fetcher ?? fetch;
+  const searchTerms = opts.searchTerms ?? SEARCH_TERMS;
+  const generalPages = opts.generalPages ?? GENERAL_PAGES;
+
+  const rows: RawTender[] = [];
+  let apiCalls = 0;
+
+  // 1. Keyword searches — targeted, high-yield.
+  for (const term of searchTerms) {
+    try {
+      const page = await fetchApiPage(fetcher, { pageNumber: 0, label: term, signal: opts.signal });
+      apiCalls++;
+      rows.push(...page.content.map(mapTender));
+    } catch {
+      // skip this term — one failure shouldn't sink the run
+    }
+    await delay(REQUEST_DELAY_MS);
+  }
+
+  // 2. General feed — a baseline of the most relevant recent tenders.
+  let totalPages = generalPages;
+  for (let p = 0; p < Math.min(generalPages, totalPages); p++) {
+    try {
+      const page = await fetchApiPage(fetcher, { pageNumber: p, signal: opts.signal });
+      apiCalls++;
+      rows.push(...page.content.map(mapTender));
+      if (page.totalPages > 0) totalPages = page.totalPages;
+      if (page.content.length === 0) break;
+    } catch {
+      break;
+    }
+    await delay(REQUEST_DELAY_MS);
+  }
+
+  const deduped = dedupe(rows);
+  const allRows: BidAssistTender[] = deduped.map((r) => ({
     ...r,
     matchedKeywords: matchTenderKeywords(
       r.title,
@@ -144,98 +155,55 @@ function finalise(rows: RawTender[], pagesFetched: number, rawHtml: string): Bid
       r.sectorNames.join(" "),
     ).matchedKeywords,
   }));
+
   return {
     tenders: allRows.filter((t) => t.matchedKeywords.length > 0),
     allRows,
-    totalScanned: rows.length,
-    pagesFetched,
-    rawHtml,
+    totalScanned: deduped.length,
+    apiCalls,
   };
 }
 
 // ---------------------------------------------------------------------------
-// HTTP — BidAssist is a real site and can be flaky; retry on socket errors.
+// API
 // ---------------------------------------------------------------------------
 
 const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-async function fetchWithRetry(
-  url: string,
+async function fetchApiPage(
   fetcher: typeof fetch,
-  signal: AbortSignal | undefined,
-): Promise<string> {
+  opts: { pageNumber: number; label?: string; signal?: AbortSignal },
+): Promise<ApiPage> {
+  const url = new URL(API_URL);
+  url.searchParams.set("sort", "RELEVANCE:DESC");
+  url.searchParams.set("pageNumber", String(opts.pageNumber));
+  url.searchParams.set("pageSize", String(PAGE_SIZE));
+  url.searchParams.set("tenderEntity", "TENDER");
+  if (opts.label) url.searchParams.set("label", opts.label);
+
   let lastErr: unknown;
   for (let attempt = 1; attempt <= 4; attempt++) {
     try {
-      const res = await fetcher(url, { headers: REQUEST_HEADERS, signal });
-      if (!res.ok) throw new BidAssistError(`BidAssist responded ${res.status}`, res.status);
-      return await res.text();
+      const res = await fetcher(url.toString(), { headers: REQUEST_HEADERS, signal: opts.signal });
+      if (!res.ok) throw new BidAssistError(`BidAssist API responded ${res.status}`, res.status);
+      const json = (await res.json()) as { data?: Partial<ApiPage> };
+      const data = json.data ?? {};
+      return {
+        content: Array.isArray(data.content) ? data.content : [],
+        totalPages: typeof data.totalPages === "number" ? data.totalPages : 0,
+        totalElements: typeof data.totalElements === "number" ? data.totalElements : 0,
+      };
     } catch (err) {
       lastErr = err;
-      await delay(1500 * attempt);
+      await delay(1200 * attempt);
     }
   }
   throw lastErr instanceof Error ? lastErr : new BidAssistError(String(lastErr));
 }
 
 // ---------------------------------------------------------------------------
-// __INITIAL_STATE__ extraction + tender mapping
+// tender mapping
 // ---------------------------------------------------------------------------
-
-/**
- * Pull the `window.__INITIAL_STATE__ = {...}` JSON object out of the page.
- * Uses balanced-brace scanning — a regex can't handle the nested braces.
- */
-export function extractInitialState(html: string): { tenders?: unknown } | null {
-  const marker = "window.__INITIAL_STATE__";
-  const idx = html.indexOf(marker);
-  if (idx === -1) return null;
-  const start = html.indexOf("{", idx);
-  if (start === -1) return null;
-
-  let depth = 0;
-  let inStr = false;
-  let esc = false;
-  let end = -1;
-  for (let i = start; i < html.length; i++) {
-    const c = html[i];
-    if (esc) {
-      esc = false;
-      continue;
-    }
-    if (c === "\\" && inStr) {
-      esc = true;
-      continue;
-    }
-    if (c === '"') {
-      inStr = !inStr;
-      continue;
-    }
-    if (inStr) continue;
-    if (c === "{") depth++;
-    else if (c === "}") {
-      depth--;
-      if (depth === 0) {
-        end = i + 1;
-        break;
-      }
-    }
-  }
-  if (end === -1) return null;
-  try {
-    return JSON.parse(html.slice(start, end));
-  } catch {
-    return null;
-  }
-}
-
-/** Parse the tender rows out of one page's HTML. */
-export function parseInitialState(html: string): RawTender[] {
-  const state = extractInitialState(html);
-  const content = (state?.tenders as { content?: unknown[] } | undefined)?.content;
-  if (!Array.isArray(content)) return [];
-  return content.map(mapTender);
-}
 
 interface RawBidAssistTender {
   tenderId?: string;
@@ -290,10 +258,11 @@ function epochToIso(ms?: number): string | null {
 }
 
 function buildDetailUrl(buyer: string, tenderId: string): string {
-  const slug = buyer
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "") || "tender";
+  const slug =
+    buyer
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "tender";
   return `https://bidassist.com/global-tenders/${slug}/detail-${tenderId}`;
 }
 
