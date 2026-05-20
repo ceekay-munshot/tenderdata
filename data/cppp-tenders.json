@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-05-20T06:18:22.070Z",
-  "durationMs": 43190,
+  "fetchedAt": "2026-05-20T06:24:43.567Z",
+  "durationMs": 41996,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 352,
+  "totalRowsParsed": 339,
   "relevantCount": 0,
   "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_DOP_908361_1",
-      "title": "Civil repair and maintenance works for Type V Quarters at Ashok Nagar, Chennai.",
-      "organisationChain": "Department of Posts||Tamil Nadu Circle,Dept.of Posts||CPMG,Tamil Nadu Circle,Chennai,POST||EE(Civil),Postal Civil Dn,Chennai,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-05-12T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmT2pAWJyBULICs0hES3rrA%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_EIL_908829_1",
       "title": "INVITATION FOR PRE-TENDER MEET FOR ELECTRICAL CONTROL SYSTEM OF PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES AT DAHEJ, GUJARAT OF M/S PETRONET LNG LIMITED",
@@ -31,14 +20,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_906482_1",
-      "title": "LT/C213-001-PA-MR-5010/03 FOR PUMP-CENT.HOR(SPP) FOR REVAMPING OF EXISTING DESALTER SYSTEM OF CDU/VDU (PHASE-II) OF NUMALIGARH REFINERY LIMITED (NRL)",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-04-24T13:00:00.000Z",
+      "tenderRef": "2026_RCFL_909027_1",
+      "title": "SUPPLY OF LUBE OIL",
+      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
+      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
+      "publishedAt": "2026-05-16T11:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzCFtG49gMU7QrkU7Xz5mCg%3D%3D",
+      "tenderOpensAt": "2026-05-20T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGKKKXC3EqGzWmjSfnf1gMQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -50,17 +39,6 @@
       "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
       "tenderOpensAt": "2026-05-21T08:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScHXPXFreDVZQ9N%2FVS2mjgg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_RCFL_909027_1",
-      "title": "SUPPLY OF LUBE OIL",
-      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
-      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
-      "publishedAt": "2026-05-16T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-05-20T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGKKKXC3EqGzWmjSfnf1gMQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -97,6 +75,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_EIL_906482_1",
+      "title": "LT/C213-001-PA-MR-5010/03 FOR PUMP-CENT.HOR(SPP) FOR REVAMPING OF EXISTING DESALTER SYSTEM OF CDU/VDU (PHASE-II) OF NUMALIGARH REFINERY LIMITED (NRL)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-04-24T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzCFtG49gMU7QrkU7Xz5mCg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_908361_1",
+      "title": "Civil repair and maintenance works for Type V Quarters at Ashok Nagar, Chennai.",
+      "organisationChain": "Department of Posts||Tamil Nadu Circle,Dept.of Posts||CPMG,Tamil Nadu Circle,Chennai,POST||EE(Civil),Postal Civil Dn,Chennai,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-05-12T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T06:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmT2pAWJyBULICs0hES3rrA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_ARMHA_907695_1",
       "title": "28006/Engr/MW-06/2026-27/06",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -105,6 +105,17 @@
       "bidSubmissionCloses": "2026-05-20T07:00:00.000Z",
       "tenderOpensAt": "2026-05-21T07:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgSro917jz%2FX3PLxM31Hwjg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_907711_1",
+      "title": "28006/Engr/MW-04/2026-27/04",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-06T12:35:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T07:00:00.000Z",
+      "tenderOpensAt": "2026-05-21T07:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgA2m1I8xVPn9rFC2JLroWA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -119,6 +130,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_ESIC_898687_2",
+      "title": "Temporary Structure in lien of demolition works along with construction of the semi-structure of ESIS 20-bedded Hospital, Agra (Uttar Pradesh)",
+      "organisationChain": "Employees State Insurance Corporation||R.O. Uttar Pradesh",
+      "buyer": "Employees State Insurance Corporation",
+      "publishedAt": "2026-05-11T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T07:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SK2w%2FT3R4ljsol6mEcVtPtA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_DU_907585_1",
       "title": "Repair of plaster, white washing, sanitary work and other allied work at Out House, University of Delhi",
       "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
@@ -130,17 +152,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DU_907463_1",
-      "title": "Providing and fixing of street light on pathway from corner of Hindu Studies to canteen near parking and maintenance work at Guard room at Arts Faculty, University of Delhi",
-      "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
-      "buyer": "Delhi University",
-      "publishedAt": "2026-05-05T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T07:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T07:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCSqsdPwpFlGiCQ1xl2V1Ag%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_DU_907001_1",
       "title": "Provision of new air Cooled Cassette type Air conditioners at Department of Life Science and Department of Electronic Science, South Campus, University of Delhi",
       "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
@@ -149,6 +160,17 @@
       "bidSubmissionCloses": "2026-05-20T07:30:00.000Z",
       "tenderOpensAt": "2026-05-21T07:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Su4zkjkjKkoJ1e0M2CGkGQA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DU_907029_1",
+      "title": "Replacement/Modification of existing VRV/VRF and Cassette Air Conditioning System in the USIC and Nuclear Science Department , University of Delhi",
+      "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
+      "buyer": "Delhi University",
+      "publishedAt": "2026-04-30T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T07:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T07:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkIvCL7QezqB0L2xt%2Bk0xgQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -174,25 +196,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ESIC_898687_2",
-      "title": "Temporary Structure in lien of demolition works along with construction of the semi-structure of ESIS 20-bedded Hospital, Agra (Uttar Pradesh)",
-      "organisationChain": "Employees State Insurance Corporation||R.O. Uttar Pradesh",
-      "buyer": "Employees State Insurance Corporation",
-      "publishedAt": "2026-05-11T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T07:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SK2w%2FT3R4ljsol6mEcVtPtA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DU_907029_1",
-      "title": "Replacement/Modification of existing VRV/VRF and Cassette Air Conditioning System in the USIC and Nuclear Science Department , University of Delhi",
+      "tenderRef": "2026_DU_907463_1",
+      "title": "Providing and fixing of street light on pathway from corner of Hindu Studies to canteen near parking and maintenance work at Guard room at Arts Faculty, University of Delhi",
       "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
       "buyer": "Delhi University",
-      "publishedAt": "2026-04-30T12:30:00.000Z",
+      "publishedAt": "2026-05-05T12:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T07:30:00.000Z",
       "tenderOpensAt": "2026-05-21T07:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkIvCL7QezqB0L2xt%2Bk0xgQ%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCSqsdPwpFlGiCQ1xl2V1Ag%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -207,25 +218,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DPS_907763_1",
-      "title": "Transportation of Zirconium Guide Assemblies from NFC, Hyderabad to KGS, KAIGA, Karnataka",
-      "organisationChain": "Directorate of Purchase and Stores||Hyderabad Regional Purchase Unit Hyderabad - DPS",
-      "buyer": "Directorate of Purchase and Stores",
-      "publishedAt": "2026-05-08T12:30:00.000Z",
+      "tenderRef": "2026_SCL_905873_1",
+      "title": "Sealing Window for Imager 2 and Imager 3",
+      "organisationChain": "Semi-Conductor Laboratory (SCL)",
+      "buyer": "Semi-Conductor Laboratory (SCL)",
+      "publishedAt": "2026-04-20T09:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BCOHH%2FEG9gXadjEA7WNhNQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARAI_907025_1",
-      "title": "Procurement of Hydrogen Purity Analyser",
-      "organisationChain": "Automotive Research Association of India",
-      "buyer": "Automotive Research Association of India",
-      "publishedAt": "2026-04-30T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6ckkWJdZ4oDxT9w3KSARnQ%3D%3D",
+      "tenderOpensAt": "2026-05-21T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEC%2B5lak6iKSFm5X%2FEUfrug%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -240,47 +240,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FACT_906780_1",
-      "title": "INTERNAL ELECTRIFICATION WORKS OF S3 QUARTERS AT UDL TOWNSHIP 2026",
-      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
-      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-04-29T11:30:00.000Z",
+      "tenderRef": "2026_BARC_907412_1",
+      "title": "Annual Maintenance of Control Instrumentation Systems at PRPD for the Year 2026 27",
+      "organisationChain": "Bhabha Atomic Research Centre||Bhabha Atomic Research Centre Kalpakkam",
+      "buyer": "Bhabha Atomic Research Centre",
+      "publishedAt": "2026-05-05T07:00:00.000Z",
       "bidSubmissionCloses": "2026-05-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKPyNwiq1TNWfe5v1RfH0IA%3D%3D",
+      "tenderOpensAt": "2026-05-22T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SseDI0fzjiGSdwIwWi8aFYw%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IGRMS_908731_1",
-      "title": "Supply, installation, Testing and commissioning of Streetlighting in IGRMS campus (from Gate no.1 to office complex including Veethi sankul) of Indira Gandhi Rashtriya Manav Sangrahalaya (IGRMS), Bhopal",
-      "organisationChain": "Indira Gandhi Rashtriya Manav Sangrahalaya",
-      "buyer": "Indira Gandhi Rashtriya Manav Sangrahalaya",
-      "publishedAt": "2026-05-14T11:55:00.000Z",
-      "bidSubmissionCloses": "2026-05-20T09:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ST3gSVRhYrF1HSV2aNYARPA%3D%3D",
+      "tenderRef": "2026_FCI_908741_1",
+      "title": "Comprehensive Annual Maintenance Contract of 40 MT pit shallow pit pit less type Fully Electronic (Computerized) Lorry Weighbridge at FSD Mon under DO Dimapur",
+      "organisationChain": "Food Corporation of India||Regional Office, N and M,FCI,MFPD||DO-Dimapur_N and M_FCI",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-05-14T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-05-20T08:30:00.000Z",
+      "tenderOpensAt": "2026-05-21T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Segdy70bP1fz6k0RWq0KzMA%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DDA_908523_1",
-      "title": "M/o completed works under North Zone.",
-      "organisationChain": "Delhi Development Authority||CE-North Zone-DDA||EE-ND 1-DDA Office Complex-Pitam Pura-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-05-13T09:30:00.000Z",
+      "tenderRef": "2026_DOP_908606_1",
+      "title": "Civil works for repair and Maintenance works to Gents and Ladies toilet in 2nd 3rd and 5th Floor near canteen side at GPO Building Bengaluru 560001.",
+      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Civil) Dn,R T Nagar HO,Bangalore,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-05-14T03:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T09:30:00.000Z",
       "tenderOpensAt": "2026-05-21T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZv8RGe2TVlOVzeoZu0RHsg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9dEMthrykkvHouOjRnMJfQ%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ALHW_907000_1",
-      "title": "Special repairs to Malacca Jetty at Car Nicobar.",
-      "organisationChain": "Andaman Lakshadweep Harbour Works||Executive Engineer (K and GN) -Campbell Bay ALHW",
-      "buyer": "Andaman Lakshadweep Harbour Works",
-      "publishedAt": "2026-04-30T04:45:00.000Z",
+      "tenderRef": "2026_NITK_907462_1",
+      "title": "Engagement of Chartered Accountant Firm for the FY 2026-27",
+      "organisationChain": "National Institute of Technology Karnataka",
+      "buyer": "National Institute of Technology Karnataka",
+      "publishedAt": "2026-05-06T12:30:00.000Z",
       "bidSubmissionCloses": "2026-05-20T09:30:00.000Z",
-      "tenderOpensAt": "2026-05-21T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIhkw7pTbpOGncJW03iuPUw%3D%3D",
+      "tenderOpensAt": "2026-05-21T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SypncpoqfEzgZ8Um5cTHTnw%3D%3D",
       "matchedKeywords": []
     }
   ]
