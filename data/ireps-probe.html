@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Indian Railways E-Procurement System (IREPS)</title>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="" name="description">
+	<meta content="no-cache" http-equiv="Pragma">
+	<meta content="" name="google-translate-customization">
+	<meta content="NO-CACHE" http-equiv="CACHE-CONTROL">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="/ireps/bootstrapLatest/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/ireps/bootstrapLatest/css/bootstrap-grid.min.css" rel="stylesheet">
+	<link href="/ireps/bootstrapLatest/css/bootstrap-reboot.min.css" rel="stylesheet">
+	<link class="color-switcher-link" href="/ireps/css/irepsnewDesign.css" rel="stylesheet">
+	<link href="/ireps/css/irepsAnimation.css" rel="stylesheet">
+	<link class="color-switcher-link" href="/ireps/css/irepsNewfont.css" rel="stylesheet">
+	<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" rel="stylesheet">
+	  
+	
+
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</head>
+
+
+<body>
+
+
+
+
+	
+	
+	<a class="skip-link" href="#main">Skip to main content</a>
+
+	<div id="canvas">
+		<div id="box_wrapper">
+			<header class="page_header header_black section_padding_25" id="header1" role="banner">
+				<div class="container-fluid gradientClass" style="padding:8px 40px; height:auto;">
+					
+					
+
+
+					<div class="d-flex justify-content-between align-items-center" style="margin-bottom:10px;">
+						
+
+
+						<div class="d-flex align-items-center">
+						  <span class="resizable-text">Font Size:</span>
+						  <a href="javascript:changeFontSize('decrease')" class="resizable-text" style="margin-left:5px;">A-</a>
+						  <a href="javascript:changeFontSize('reset')" class="resizable-text" style="margin-left:5px;">A</a>
+						  <a href="javascript:changeFontSize('increase')" class="resizable-text" style="margin-left:5px;">A+</a>
+						
+						  <span class="resizable-text" style="margin-left:15px;">Mode:</span>
+						  <a href="javascript:toggleDarkMode()" id="darkModeBtn" class="resizable-text" style="margin-left:5px;">Dark</a>
+						 
+						 <div class="bhashini-plugin-container" style="text-align:left"></div>
+						 
+						</div>
+						
+						
+
+
+						<div class="d-flex align-items-center" style="margin-right:130px;">
+							<a class="nav-link small-text resizable-small" href="javascript:askQ()" rel="noopener noreferrer" >Ask a Question <font color="red">|</font></a> 
+							<a class="nav-link small-text resizable-small" href="javascript:showHelpDeskQueryPage()" rel="noopener noreferrer" >Contact Helpdesk <font color="red">|</font></a>
+						</div>
+					</div>
+					
+
+
+					<div class="row align-items-center">
+						
+
+
+						<div class="col-md-4">
+							<a class="navbar-brand" href="#" style="margin:-11px;"><img alt="Government eMarketplace (IREPS) logo" class="img-fluid" src="/ireps/images/gem-new-logo-v6.png" width="300px"></a>
+						</div>
+						
+
+
+						<div class="col-md-5 text-center">
+							<ul class="mainmenu nav sf-menu" style="margin-top:-35px; padding:0; list-style:none;">
+							  <li class="resizable-heading" style="color:white; font-family: 'Adobe Garamond Pro', sans-serif; line-height:1.3;">
+							    Government eMarketplace<br>
+							    <span class="resizable-subheading">Indian Railways E-Procurement System</span>
+							  </li>
+							</ul>
+						</div>
+						
+
+
+						<div class="col-md-3 text-right" >
+							<ul class="mainmenu nav sf-menu" style="margin:0; padding:0; list-style:none;">
+								<li>
+									<a class="nav-link small-text resizable-text" href="javascript:vendorApprovalAnn()" rel="noopener noreferrer">Approval of Vendors <font color="red">|</font></a>
+								</li>
+
+
+								<li>
+									<a class="nav-link small-text resizable-text;" href="#" rel="noopener noreferrer" >Sign Up <i aria-hidden="true" class="fa fa-caret-down text-danger"></i></a>
+
+									<ul>
+										<li>
+											<a href="javascript:void(0);" onclick="displayPage()" rel="noopener noreferrer">New Vendors/Contractors<br>
+											(E-Tender/E-Auction Leasing)</a>
+										</li>
+
+
+										<li>
+											<a href="javascript:bidderRegistration()" rel="noopener noreferrer">New Bidder (E-Auction Sale)</a>
+										</li>
+
+
+										<li>
+											<a href="javascript:RequestFormDeptRlyPostUser()" id="aColor" rel="noopener noreferrer">Department Creation Form<br>
+											(for Railway Officials)</a>
+										</li>
+									</ul>
+								</li>
+								<li style="margin-top: 13px;">
+                                                
+						   				 <div class="bhashini-plugin-container"></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<hr style="color:#4A4A4A; width:80%; margin: 0px auto;">
+
+
+			<header class="page_header bordered_items toggler_left" role="banner" style="z-index: 5;">
+				<div class="container-fluid-custompadding gradientClass" style="height: 45px;">
+					<div class="row">
+						<div class="col-md-12 display_table">
+							<div class="header_mainmenu display_table_cell">
+								
+
+
+								<nav aria-label="Primary" class="mainmenu_wrapper" role="navigation">
+									<ul class="mainmenu nav sf-menu">
+										<li style=" margin-left: -17px;">
+											<a class="small-text" href="#" rel="noopener noreferrer" style="height: 45px;"><mark>Login </mark></a>
+
+											<ul style="margin-left:90px;">
+												<li>
+													<a href="javascript:void(0);" onclick="fun('supplyWorks');" rel="noopener noreferrer">E-Tender</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('auctionuser');" rel="noopener noreferrer">E-Auction-Sale</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('rlyofficer');" rel="noopener noreferrer">iMMS</a>
+												</li>
+
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('newIMMS');" rel="noopener noreferrer">UDM</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('supplyWorks');" rel="noopener noreferrer">Vendor Approval (UVAM)</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('supplyWorks');" rel="noopener noreferrer">Inspection Module</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('supplyWorks');" rel="noopener noreferrer">E-Auction Leasing</a>
+												</li>
+												<li>
+												    <a href="javascript:void(0);" onclick="fun('newIMMSSDM');" rel="noopener noreferrer">IMMS 2.0 </a>
+												</li> 
+												
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('tpi');" rel="noopener noreferrer">TPI</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('stn');" rel="noopener noreferrer">RLY. Board STATIONERY</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('med');" rel="noopener noreferrer">RLY. Board e-Medical</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('crismmis');" rel="noopener noreferrer">CRIS MMIS</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" onclick="fun('helpdesk');" rel="noopener noreferrer">Helpdesk User</a>
+												</li>
+												
+											</ul>
+										</li>
+
+
+										<li>
+											<a class="small-text" href="#">E-Tender <i aria-hidden="true" class="fa fa-caret-down text-danger"></i></a>
+
+											<ul>
+												<li>
+													<a href="#">Works</a>
+
+													<ul>
+														
+
+
+														<li>
+															<a href="javascript:anonymSearch();" rel="noopener noreferrer">Search Tenders</a>
+														</li>
+													</ul>
+												</li>
+
+
+												<li>
+													<a href="javascript:void(0);" rel="noopener noreferrer">Goods And Services</a>
+
+													<ul>
+														
+
+
+														<li>
+															<a href="javascript:anonymSearchSupply();" rel="noopener noreferrer">Search Tender</a>
+														</li>
+
+
+														<li>
+															<a href="javascript:viewApprovedVendor();" rel="noopener noreferrer">View Approved Vendors</a>
+														</li>
+														
+													</ul>
+												</li>
+											</ul>
+										</li>
+										
+
+
+										<li>
+											<a class="small-text" href="#" rel="noopener noreferrer">E-Auction sale  <i aria-hidden="true" class="fa fa-caret-down text-danger"></i></a>
+
+											<ul>
+												<li>
+													<a href="javascript:void(0);" rel="noopener noreferrer">Sale</a>
+
+													<ul>
+														<li>
+															<a href="javascript:void(0);" rel="noopener noreferrer">Live Auctions</a>
+
+															<ul>
+																<li>
+																	<a href="javascript:verifycharPage('m1','liveAuction',%201);" rel="noopener noreferrer">Indian Railways</a>
+																</li>
+																
+															</ul>
+														</li>
+
+
+														<li>
+															<a href="javascript:void(0);" rel="noopener noreferrer">Upcoming Auctions</a>
+
+															<ul>
+																<li>
+																	<a href="javascript:verifycharPageForthComingAuction('m2','forthComingAuction',%201);" rel="noopener noreferrer">Indian Railways</a>
+																</li>
+																
+															</ul>
+														</li>
+
+
+														<li>
+															<a href="javascript:viewAuctionSechedule();" rel="noopener noreferrer">Auction Schedules</a>
+														</li>
+
+
+														<li>
+															<a href="javascript:viewUniformESaleCondition();" rel="noopener noreferrer">Uniform E-Sale Condition</a>
+														</li>
+
+
+														<li>
+															<a href="javascript:viewAddressAucUnit();" rel="noopener noreferrer">Addresses of Auctioning Units</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+
+
+										<li>
+											<a class="small-text" href="#">E-Auctions Leasing  <i aria-hidden="true" class="fa fa-caret-down text-danger"></i></a>
+
+											<ul>
+												<li>
+													<a href="javascript:searchEauctionLeasing();" rel="noopener noreferrer">Search E-Auction ( Leasing )</a>
+												</li>
+
+
+												<li>
+													<a href="ireps/upload/resources/Standard%20Conditions%20of%20Contract%20Version%202.0.pdf" rel="noopener noreferrer" target="_blank">Standard Conditions of Contract</a>
+												</li>
+
+
+												<li>
+													<a href="/ireps/upload/resources/Pre-requisites%20for%20Contractors%20for%20E-Auction%20Leasing%20module.pdf" rel="noopener noreferrer" target="_blank">Pre-requisites for Contractors</a>
+												</li>
+
+
+												<li>
+													<a href="/ireps/upload/resources/User%20Manual%20for%20Contractors%20for%20E-Auction%20for%20Earning-Leasing%20Contracts%20Version%201.0.pdf" rel="noopener noreferrer" target="_blank">User Manual for Contractors</a>
+												</li>
+
+
+												<li>
+													<a href="/ireps/upload/resources/User%20Guide%20for%20Virtual%20Account%20Mechanism%20Ver%201.0.pdf" rel="noopener noreferrer" target="_blank">User Guide for Payment of Earnest Money<br>
+													through Virtual Account Mechanism</a>
+												</li>
+											</ul>
+										</li>
+
+
+										<li>
+											<a class="small-text" href="#">Contracts <i aria-hidden="true" class="fa fa-caret-down text-danger"></i></a>
+
+											<ul>
+												<li>
+													<a href="javascript:anonymSearchPO();" rel="noopener noreferrer">Supply Contracts</a>
+												</li>
+												
+											</ul>
+										</li>
+
+
+										<li>
+											<a class="small-text" href="#">FAQ <i aria-hidden="true" class="fa fa-caret-down text-danger"></i></a>
+
+											<ul>
+												<li>
+													<a class="linkStyle" href="javascript:Etender()" rel="noopener noreferrer">E-Tender</a>
+												</li>
+
+
+												<li>
+													<a class="linkStyle" href="javascript:Eauction()" rel="noopener noreferrer">E-Auction</a>
+												</li>
+
+
+												<li>
+													<a class="linkStyle" href="javascript:ePayment()" rel="noopener noreferrer">E-Payment</a>
+												</li>
+											</ul>
+										</li>
+
+
+										<li>
+											<a class="small-text" href="javascript:void(0);" onclick="showHelpDeskQueryPage()">Learning <i aria-hidden="true" class="fa fa-caret-down text-danger"></i></a>
+
+											<ul>
+												<li>
+													<a href="javascript:learningCenter()" rel="noopener noreferrer">Learning Center</a>
+												</li>
+
+
+												<li>
+													<a href="javascript:systemSetting()" rel="noopener noreferrer">System Settings</a>
+												</li>
+											</ul>
+										</li>
+
+
+										<li style="list-style: none">
+											<button class="btn-primary" data-toggle="dropdown" style="background-color: transparent;" type="button">
+											<i aria-hidden="true" class="fa fa-bell text-uppercase margin_0"></i></button> 
+
+
+											<ul class="dropdown-menu dropdown-menu-right list-unstyled" style="margin-top: -10px; padding: 10px;border-radius:10px; margin-right: 180px;">
+												<li style="background-color: transparent;">
+													<div class="media with_background">
+														<div class="media-left media-middle">
+															<div class="teaser_icon label-info">
+																<i class="fa fa-bullhorn"></i>
+															</div>
+														</div>
+
+
+														<div class="media-body media-middle">
+															<span>Indian Railways allows the vendors / contractors the option to receive<br>
+															contractual payments against letter of credit against<br>
+															indigenous contracts.</span>
+														</div>
+													</div>
+												</li>
+
+
+												<li>
+													<div class="media with_background">
+														<div class="media-left media-middle">
+															<div class="teaser_icon label-info">
+																<i class="fa fa-bullhorn"></i>
+															</div>
+														</div>
+
+
+														<div class="media-body media-middle">
+															<span>The terms and conditions related to payment through Letter<br>
+															of Credit are described in the tender documents.</span>
+														</div>
+													</div>
+												</li>
+
+
+												<li>
+													<div class="media with_background">
+														<div class="media-left media-middle">
+															<div class="teaser_icon label-info">
+																<i class="fa fa-bullhorn"></i>
+															</div>
+														</div>
+
+
+														<div class="media-body media-middle">
+															<span>Vendors / contractors who intend to take advantage of this option can do<br>
+															so by selecting suitable payment mode at the time of submission of<br>
+															their bid.</span>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+								
+								<span class="toggle_menu"><span></span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+
+			<section class="" id="main">
+				<div class="fluid" style="padding-left:10px;">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="rounded overflow_hidden">
+								<div class="with_padding header_gradient heading_wrappper" style="background-color:black">
+									<h5 class="text-uppercase margin_0" style="color:white;">Quick Links</h5>
+								</div>
+
+
+								<div class="ireps_padding" style="border: 1px solid #145683;">
+									<div class="widget widget_slider widget_featured_posts">
+										<div class="owl-carousel" data-autoplay="true" data-items="1" data-loop="true" data-nav="true" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-responsive-xs="1">
+											<ul>
+												<li class="big-left-media">
+													<a href="javascript:anonymSearch();" title="Click here to search for available E-Tenders" id="aColor" rel="noopener noreferrer" class="resizable-text">Search E-Tenders</a>
+												</li>
+
+
+												<li class="big-left-media">
+													<a href="javascript:searchEauctionLeasing()" title="Click here to search for available E-Auctions (Leasing)" id="aColor" rel="noopener noreferrer" class="resizable-text">Search E-Auctions ( Leasing )</a>
+												</li>
+
+
+												<li class="big-left-media">
+													<a href="javascript:void(0);" id="aColor" title="Click here to search for ongoing E-Auction Sales" onclick="verifycharPage('m1','liveAuction', 1);" rel="noopener noreferrer" class="resizable-text">Search E-Auction Sale</a>
+												</li>
+												
+
+
+												<li class="big-left-media">
+													<a href="javascript:systemSetting()" title="Open system settings for configuration options" id="aColor" rel="noopener noreferrer" class="resizable-text">System Settings</a>
+												</li>
+												<li class="big-left-media">
+													<a href="javascript:learningCenter()" title="Access the Learning Center to view user manuals" id="aColor" rel="noopener noreferrer" class="resizable-text">Learning Center<br>
+													(User Manuals)</a>
+												</li>
+
+
+												<li class="big-left-media">
+													<a href="javascript:subjectWise()" title="Rly. Board Policy Circulars" id="aColor" rel="noopener noreferrer" class="resizable-text">Rly. Board Policy Circulars<br>
+													(For Procurement Of Goods)</a>
+												</li>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								<br>
+
+
+								<div class="heading_wrappper" style="background-color: #D75125; padding:10px;">
+									<h6 class="text-uppercase margin_0" style="color:white;">Other Useful Links</h6>
+								</div>
+
+
+								<div class="ireps_padding" style="border: 1px solid #145683;">
+									<div class="widget widget_slider widget_featured_posts">
+										<div class="owl-carousel" data-autoplay="true" data-items="1" data-loop="true" data-nav="true" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-responsive-xs="1">
+											<ul>
+												<li class="big-left-media" style="text-align: justify;">
+													<a aria-label="Open: javascript:iMMSPKI()"  title="Click here if you encounter any error while logging in to iMMS" href="javascript:iMMSPKI()">Click here</a> if you encounter any error while logging in to iMMS. 
+												</li>
+
+
+												<li class="big-left-media" style="text-align: justify;">
+													<a class="linkStyle" href="javascript:highValue();" title="View details of High Value Tenders" id="aColor" rel="noopener noreferrer">High Value Tenders</a>
+												</li>
+
+
+												<li class="big-left-media" style="text-align: justify;">
+													<a class="linkStyle" href="javascript:jreInstructionPage()" title="Download JAVA (JRE) installation and setup guide" id="aColor" rel="noopener noreferrer" title="Download JAVA (JRE)">Download JAVA (JRE)</a>
+												</li>
+
+
+												<li class="big-left-media" style="text-align: justify;">
+													<a href="javascript:irepsSigner15()" id="aColor" title="Download and install IREPS Signer (Version 1.5)" rel="noopener noreferrer">IREPS Signer (Version 1.5) </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+
+						<div class="col-md-10" style="padding-left:0px;">
+							<div class="row" style="height: 420px;">
+								<div class="col-md-9 mt-0">
+									
+
+
+									<div aria-label="Carousel myCarousel" aria-roledescription="carousel" class="carousel slide" data-interval="6000" data-ride="carousel" id="myCarousel" role="region">
+										
+
+
+										<ol class="carousel-indicators">
+											<li aria-label="Go to slide 1" class="active" data-slide-to="0" data-target="#myCarousel" role="button" tabindex="0">
+											</li>
+
+
+											<li aria-label="Go to slide 2" data-slide-to="1" data-target="#myCarousel" role="button" tabindex="0">
+											</li>
+
+
+											<li aria-label="Go to slide 3" data-slide-to="2" data-target="#myCarousel" role="button" tabindex="0">
+											</li>
+
+
+											<li aria-label="Go to slide 4" data-slide-to="3" data-target="#myCarousel" role="button" tabindex="0">
+											</li>
+											
+										</ol>
+										
+
+
+										<div class="carousel-inner">
+									
+										    
+										    <div class="carousel-item active"><img alt="IREPS security banner" class="" src="/ireps/images/home/security.png" style="width: 100%; height: 370px;">
+											</div>
+											
+											<div class="carousel-item "><img alt="IREPS promotional banner" class="" src="/ireps/images/home/image03a.jpg" style="width: 100%; height: 370px;">
+											</div>
+
+
+											<div class="carousel-item"><img alt="IREPS promotional banner" class="" src="/ireps/images/home/ireps4.png" style="width: 100%; height: 370px;">
+											</div>
+
+
+											<div class="carousel-item"><img alt="IREPS promotional banner" class="" src="/ireps/images/home/image05a.png" style="width: 100%; height: 370px;">
+											</div>
+
+										</div>
+										
+										<a class="carousel-control-prev" data-slide="prev" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-prev-icon" style="color: #336699; height: 30px; width: 40px; padding: 5px; margin-top: 8px;"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-next-icon" style="color: #336699; height: 30px; width: 40px; padding: 5px; margin-top: 8px;"></span> <span class="sr-only">Next</span></a>
+									</div>
+								</div>
+
+
+								<div class="col-md-3 mt-0">
+									<div class="rounded overflow_hidden" style="height:36%">
+										
+										
+
+
+										<div class="widget widget_slider widget_featured_posts embed-responsive embed-responsive-4by3">
+											
+
+
+											<div id="div-gpt-ad-1572611857377-0" style="width: 300px; height: 250px;">
+												
+											</div>
+
+
+											<div id="div-gpt-ad-1572611857377-0" style="width: 300px; height: 250px;">
+												
+											</div>
+											
+										</div>
+										
+									</div>
+									<a class="logo top_logo" href="javascript:vendorApprovalAnn()" rel="noopener noreferrer"><img alt="vendor approval" class="img-fluid" src="/ireps/images/vendorapr.png" style="margin-left:-3px;height:90px; width:250px;"></a>
+								</div>
+							</div>
+
+
+							<div class="row">
+								<div class="col-md-8">
+									<h4 class="entry-title"><a href="" rel="bookmark">News &amp; Updates</a>
+									</h4>
+
+
+									<div class="row">
+										<div class="with_border" id="RollingDiv1" style="max-height:250px; -ms-overflow-y: scroll; overflow-y:scroll;">
+											
+
+
+											<ul style="text-align: justify;">
+											<li><b><font color="#D75125"> Digi-Rail-Chemist vendor familiarization meeting on IREPS e-Auction Leasing portal is being organized on 04.05.2026 (Monday) at 11:00 Hrs.  <img alt="New notification badge" src="/ireps/images/home/New.png"></font></b><br>
+											<span>(29/04/2026)</span><br>
+											 Centre for Railway Information Systems (CRIS) is conducting an e-auction on 14.05.2026 (Thursday) under the Digi-Rail-Chemist project for supply and delivery of medicines to Northern Railway Central Hospital (NRCH) including Health Units / Dispensaries under its administrative control, and / or their Railway- beneficiaries (under UMID) for the areas covered in the e-Auction Catalogue. Interested and eligible vendors are required to register on the Indian Railways E-Procurement System (IREPS) portal (https://www.ireps.gov.in).<br> 
+A one-time non-refundable registration fee (as applicable) of ₹10,000/- + GST is to be paid online prior to participation in the e-auction, if not already paid. Auction details are available on the IREPS E-Auction Leasing Module under Organization CRIS. E-auction Catalogue No. 0126 MED1. Auction Start on 14.05.2026 (Thursday) at 11:00 hours. In this regard, a vendor familiarization meeting on IREPS e-Auction Leasing portal is being organized at CRIS, Conference Hall, 3rd Floor, ITPI Building, 4-A, Ring Road, I.P. Estate, New Delhi on 04.05.2026 (Monday) at 11:00 Hrs. Interested vendors may attend.
+											 
+
+											</li><br/>
+											
+																						
+											<li><b><font color="#D75125">CRIS has issued an Expression of Interest (EOI) for "Audio Alerts on Detection of Obstacles and Signal Aspects" for Indian Railways.<img alt="New notification badge" src="/ireps/images/home/New.png"></font></b><br>
+											<span>(18/02/2026)</span><br>
+											Click to download the documents
+  												<a href="./ireps/upload/resources/EOI_notice_RSAAS.pdf" target="_blank" rel="noopener noreferrer">
+    										EOI Notice</a>
+											</li><br/>
+											
+
+
+
+
+
+
+											
+                                                                                                 
+				
+               
+
+
+               
+
+					 
+												
+												
+                                               
+                                               
+                                                
+
+
+												
+
+
+												
+
+
+												<li style="list-style: none"><br>
+												</li>
+
+
+												<li><b><font color="#D75125">IR-USSOR 2021 (as per ACS 1 to IRUSSOR 2021) directory published</font></b><br>
+												<span>(14/06/2024)</span><br>
+												1. IRUSSOR-2019 and USSOR-2010 has been archived on 14.06.2024.<br>
+												2. A new version (Version 3) has been created for IR-USSOR 2021 (as per ACS 1 to IRUSSOR 2021). All zonal railways are advised to updated the rates against this version at the earliest. IR-USSOR 2021 Version 2 will be discontinued from 01.07.2024.</li>
+
+
+												<li style="list-style: none"><br>
+												<br>
+												<br>
+												<br>
+												<br>
+												<br>
+												</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-md-4 rounded">
+									<h4 class="entry-title"><a href="" rel="bookmark">Notifications</a>
+									</h4>
+
+
+									<div class="row" id="RollingDiv2" style="max-height:250px; -ms-overflow-y: scroll; overflow-y:scroll;">
+										<div class="">
+											<div style="margin-left: 13px;margin-right: 20px;">
+												<div class="owl-carousel" data-autoplay="true" data-items="1" data-loop="true" data-nav="true" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-responsive-xs="1">
+													<ul>
+														
+														
+
+                                                        <li>
+                                                           <p style="margin: 10px;text-align: justify;"><b><font color="#D75125"> Digi-Rail-Chemist vendor familiarization meeting on IREPS e-Auction Leasing portal is being organized on 04.05.2026 (Monday) at 11:00 Hrs. <img alt="New notification badge" src="/ireps/images/home/New.png"></font></b><br>
+											               Centre for Railway Information Systems (CRIS) is conducting an e-auction on 14.05.2026 (Thursday) under the Digi-Rail-Chemist project for supply and delivery of medicines to Northern Railway Central Hospital (NRCH) including Health Units / Dispensaries under its administrative control, and / or their Railway- beneficiaries (under UMID) for the areas covered in the e-Auction Catalogue. Interested and eligible vendors are required to register on the Indian Railways E-Procurement System (IREPS) portal (https://www.ireps.gov.in).<br> 
+														   A one-time non-refundable registration fee (as applicable) of ₹10,000/- + GST is to be paid online prior to participation in the e-auction, if not already paid. Auction details are available on the IREPS E-Auction Leasing Module under Organization CRIS. E-auction Catalogue No. 0126 MED1. Auction Start on 14.05.2026 (Thursday) at 11:00 hours. In this regard, a vendor familiarization meeting on IREPS e-Auction Leasing portal is being organized at CRIS, Conference Hall, 3rd Floor, ITPI Building, 4-A, Ring Road, I.P. Estate, New Delhi on 04.05.2026 (Monday) at 11:00 Hrs. Interested vendors may attend.
+
+											               </p>
+											           </li>
+                                                       
+											           
+                                                        <li>
+                                                           <p style="margin: 10px;text-align: justify;"><b><font color="#D75125">CRIS has issued an Expression of Interest (EOI) for "Audio Alerts on Detection of Obstacles and Signal Aspects" for Indian Railways.<img alt="New notification badge" src="/ireps/images/home/New.png"></font></b><br>
+											                 Click to download the documents <a href="./ireps/upload/resources/EOI_notice_RSAAS.pdf" target="_blank" rel="noopener noreferrer">EOI Notice</a></p>
+											           </li>
+														
+
+														<li>
+															<p style="margin: 10px;text-align: justify;"><b><font color="#D75125">Online Appeal for Reinstatement of Cancelled Leasing Contracts</font></b><br>
+															All Vendors are requested to submit their appeals for reinstatement of cancelled leasing contracts online exclusively through IREPS.</p>
+														</li>
+
+
+														<li>
+															<p style="margin: 10px;text-align: justify;"><b><font color="#D75125">Online Submission of Post-Contract Clarification/Amendment Requests by vendors.</font></b><br>
+															All Vendors are requested to lodge their post-contract clarification/amendment requests exclusively through IREPS.</p>
+														</li>
+
+
+														<li>
+															<p style="margin: 10px;text-align: justify;"><b><font color="#D75125">IR-USSOR 2021 (as per ACS 1 to IRUSSOR 2021) directory published</font></b><br>
+															1. IRUSSOR-2019 and USSOR-2010 has been archived on 14.06.2024.<br>
+															2. A new version (Version 3) has been created for IR-USSOR 2021 (as per ACS 1 to IRUSSOR 2021). All zonal railways are advised to updated the rates against this version at the earliest. IR-USSOR 2021 Version 2 will be discontinued from 01.07.2024.<img alt="New notification badge" src="/ireps/images/home/New.png"></p>
+														</li>
+
+
+														<li>
+															<p style="margin: 10px;text-align: justify;"><b><font color="#D75125">Attention Vendors: - Generation of e-Dispatch Note in Goods &amp; Services Module of IREPS</font></b><br>
+															It is mandatory for all vendors to generate e-dispatch note duly entering the dispatch details, while dispatching the materials to consignee against the Indian Railway supply contracts. This facility can be accessed through Contracts Tab on your homepage after login in Goods &amp; Services Module.<img alt="New notification badge" src="/ireps/images/home/New.png"></p>
+														</li>
+
+
+														<li>
+															<p style="margin: 10px;text-align: justify;"><b><font color="#D75125">QR based Gate Entry System</font></b><br>
+															QR based Gate Entry System has been developed on IMMS. Please refer to the User Manual for the same. <a aria-label="Open: ./ireps/upload/resources/egate_entry.pdf" href="./ireps/upload/resources/egate_entry.pdf" rel="noopener noreferrer" target="_blank">Please click</a> .<img alt="New notification badge" src="/ireps/images/home/New.png"></p>
+														</li>
+
+
+														<li>
+															<p style="margin: 10px;text-align: justify;"><b><font color="#D75125">Implementation of Warranty Policy on IR</font></b><br>
+															Handling of Warranty Rejections. <a aria-label="Open: ./ireps/upload/resources/Handling_of_Warranty_rejections_17102022.pdf" href="./ireps/upload/resources/Handling_of_Warranty_rejections_17102022.pdf" rel="noopener noreferrer" target="_blank">Please click</a> Railway Board's letter No.2022/RS(G)/779/7(3390005) dated 17.10.2022 for details.<img alt="New notification badge" src="/ireps/images/home/New.png"></p>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+
+
+		<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="GSCCModal" role="dialog" tabindex="-1">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+
+						<h4 class="entry-title" id="myModalLabel"><a href="#">Notifications</a>
+						</h4>
+					</div>
+
+
+					<div class="modal-body" style="height:290px; -ms-overflow-y: scroll; overflow:auto;text-align: justify;">
+						<ul>
+							<li>All vendors are advised to generate e-dispatch note duly entering the dispatch details, while dispatching the materials to consignee against the Indian Railway supply contracts. This facility can be accessed through Contracts Tab on your homepage after login in Goods &amp; Services Module.</li>
+
+
+							<li style="list-style: none"><br>
+							<br>
+							</li>
+
+
+							<li>For convenience of all stake-holders, functionality for on-line submission of Non-Stock Bills by vendors on IREPS Portal has been made live for POL items (High Speed Diesel etc.) also. Vendors are suggested to submit their on-line Bills on IREPS Portal for POL items (Non-Stock) against Digitally-signed Receipt Documents generated in User Depot Module (UDM).<img alt="New notification badge" src="/ireps/images/home/New.png"></li>
+
+
+							<li style="list-style: none"><br>
+							<br>
+							</li>
+
+
+							<li>Important information to vendors: Online Bill Payment has been implemented in RCF, hence all the vendors are advised to submit bills only through online system of IREPS for material supplied from 1st May 22 onwards.</li>
+
+
+							<li style="list-style: none"><br>
+							<br>
+							</li>
+
+
+							<li>In terms of Railway Board's instructions no.2021/RS(G)/779/7 dated 30.03.2022, from 01.04.2022 onwards directory of approved vendors of RDSO, CLW, BLW, RCF, ICF, MCF, and CORE as available on UVAM only shall be considered valid directories for all purposes by all stakeholders. Vendor directories being maintained in other forms (manual or online), if any, shall not be valid. <a aria-label="Open: ./ireps/upload/resources/Procurement%20from%20approved%20sources%20300322.pdf" href="./ireps/upload/resources/Procurement%20from%20approved%20sources%20300322.pdf" rel="noopener noreferrer" target="_blank">Click Here</a> to view/download Railway Board Letter.
+							</li>
+
+
+							<li style="list-style: none"><br>
+							<br>
+							</li>
+
+
+							<li>In terms of Railway Board's letter No.2021/RS(M)/Paperless Working/1 dt.25.08.2021, Suppliers can now submit their Bills on-line on IREPS Portal (<a href="https://ireps.gov.in/" rel="noopener noreferrer">https://ireps.gov.in/</a>) for Non-Stock items supplied against Purchase Orders placed by Stores Department, as being done for Stock Items.<br>
+								<br>
+								For Non-Stock items supplied, Suppliers can view digitally-signed Consignment Receipt Certificate (CRC) under CRC (UDM) Tab for Advance Payment of 80% / 90% / 95% / 98% etc. (similar to Receipted Challan for Stock Items) &amp; Consignment Receipt Note (CRN) under CRN (UDM) Tab for Final Payment (similar for R-Note for Stock Items) by clicking "View &amp; Manage Contracts" link under "My Contracts" Tab and clicking the icon "Manage Your Purchase Order" available against the selected Purchase Order on the Home Page of IREPS site available after login.<br>
+								<br>
+								Digitally-signed Receipted Challans &amp; R-Notes issued by Stores Depots against Purchase Orders for Non-Stock items will be visible to supplier under Rect. Challan &amp; R/Notes Tabs respectively wherever such supplies are made to Stores Depot.<br>
+								<br>
+								Vendor has to select the relevant CRC / CRN / Receipted Challan / R-Note while submitting the Bill on-line on IREPS Portal for the supplied Non-Stock item. Suppliers may refer "User Manual for Vendors on Post Contract Activities" available on IREPS Portal in "Learning Centre" link at S.No.3 under Heading "E-Tender (Goods &amp; Services)" for guidance.<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+							</li>
+
+
+							<li style="list-style: none"><br>
+							<br>
+							</li>
+
+
+							<li>All vendors supplying common use goods and services to Railways are advised to get themselves registered with GeM portal (<a href="https://gem.gov.in" rel="noopener noreferrer" target="_blank">www.gem.gov.in</a>) for availing business opportunities offered by GeM.<br>
+								<br>
+							</li>
+
+
+							<li>Exhibition of Critical Items by Northern Railway <a href="https://sites.google.com/view/northern-railway-vendor-meet/exhibition-of-items?authuser=0" rel="noopener noreferrer" target="_blank">(Click here) <img alt="New notification badge" src="/ireps/images/home/New.png"></a><br>
+								<br>
+							</li>
+
+
+							<li>Indian Railways allows the vendors / contractors the option to receive contractual payments against letter of credit against indigenous contracts. The terms and conditions related to payment through Letter of Credit are described in the tender documents. Vendors / contractors who intend to take advantage of this option can do so by selecting suitable payment mode at the time of submission of their bid.</li>
+						</ul>
+					</div>
+
+
+					<div class="modal-footer">
+						<button class="btn btn-primary btn-sm" data-dismiss="modal" style="float:right;" type="button">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="GSCCModal1" role="dialog" tabindex="-1">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-body" style="height:400px; -ms-overflow-y: scroll; overflow:auto;text-align: justify;">
+						<table align="center" width="300">
+							<tbody>
+								<tr style="text-align: justify;">
+									<td><img alt="Indian Railways E-Procurement System logo" height="100" src="./ireps/images/notification_image/logo.jpeg" style="display: block; margin-left: auto; margin-right: auto;" width="100">
+									</td>
+								</tr>
+
+
+								<tr style="text-align: justify;">
+									<td>
+									</td>
+								</tr>
+
+
+								<tr>
+									<td align="left" style="text-align: justify;" width="100%"><font color="black" size="+1"><b>Shri Ashwini Vaishnaw, Minister of Railways, Communications and Electronics &amp; Information Technology launched e-Auction of Commercial Earning &amp; NFR Contracts on 24th June,2022 at 5:15 PM</b></font>
+									</td>
+								</tr>
+
+
+								<tr style="text-align: justify;">
+									<td style="text-align: justify;"><img alt="IREPS promotional banner" src="./ireps/images/notification_image/banner.jpeg">
+									</td>
+								</tr>
+
+
+								<tr>
+									<td>
+									</td>
+								</tr>
+
+
+								<tr>
+									<td align="left" style="text-align: justify;" width="100%"><font color="black" size="+1"><b>YouTube link for recording of the event is as under:</b></font>
+									</td>
+								</tr>
+
+
+								<tr>
+									<td><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" height="400" src="https://www.youtube.com/embed/JrScKXqBzsc" title="YouTube video player" width="100%"></iframe>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+
+					<div class="modal-footer">
+						<button class="btn btn-primary btn-sm" data-dismiss="modal" style="float:right;" type="button">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+		<section>
+			<div class="row">
+				<div class="col-md-12" style="padding-left:325px;">
+					<div id="div-gpt-ad-1572612360884-0" style="width: 970px; height: 90px;">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<footer class="page_footer ds darkblue parallax" role="contentinfo">
+			<div class="container" style="padding: 0 340px;">
+				<div class="row">
+					<div class="col-md-4 text-left">
+						<div class="widget widget_contacts topmargin_5">
+							<h4 class="setmargin">Assistance</h4>
+
+
+							<p><a href="javascript:void(0);" onclick="showHelpDeskQueryPage()">Helpdesk</a>
+							</p>
+
+
+							<p><a href="javascript:learningCenter()">User Manuals</a>
+							</p>
+
+
+							<p><a href="javascript:systemSetting()">System Settings</a>
+							</p>
+							
+
+
+							<ul style="list-style-type:none;">
+								<li>FAQs
+
+									<ul style="list-style-type:none;">
+										<li>-  <a class="linkStyle" href="javascript:Etender()">E-Tender</a>
+										</li>
+
+
+										<li>-  <a class="linkStyle" href="javascript:Eauction()">E-Auction</a>
+										</li>
+
+
+										<li>-  <a class="linkStyle" href="javascript:ePayment()">E-Payment</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-4 text-left" data-animation="fadeInUp">
+						<div class="widget widget_contacts topmargin_5">
+							<h4 class="setmargin"><span class="color-lightblue">Useful Info</span>
+							</h4>
+
+
+							<p><a class="linkStyle" href="javascript:annualProcReport();">Procurement Projections</a>
+							</p>
+
+
+							<p><a class="linkStyle" href="javascript:highValue();">High Value Tenders</a>
+							</p>
+
+
+							<p><a class="linkStyle" href="javascript:viewApprovedVendor();">Approved Vendors</a>
+							</p>
+
+
+							<p><a class="linkStyle" href="javascript:bannFirms();">Banned / Suspended Firms</a>
+							</p>
+						</div>
+					</div>
+
+
+					<div class="col-md-4 text-left" data-animation="fadeInUp">
+						<div class="widget widget_contact topmargin_5">
+							<h4 class="setmargin"><span class="color-lightblue" rel="noopener noreferrer">Miscellaneous</span>
+							</h4>
+							
+
+
+							<p class=""><a class="linkStyle" href="javascript:aboutUs()" rel="noopener noreferrer">About IREPS</a>
+							</p>
+
+
+							<p class=""><a href="http://cris.org.in/" rel="noopener noreferrer" target="_blank">CRIS</a>
+							</p>
+
+
+							<p class=""><a href="javascript:TermsAndCondition()" rel="noopener noreferrer">Terms &amp; Conditions</a>
+							</p>
+
+
+							<p class=""><a href="javascript:Copyright()" rel="noopener noreferrer">Copyright</a>
+							</p>
+
+
+							<p class=""><a href="javascript:PrivacyPolicy()" rel="noopener noreferrer">Privacy Statement</a>
+							</p>
+
+
+							<p class=""><a href="javascript:Contactus()" rel="noopener noreferrer">Contact</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-4 text-left" data-animation="fadeInUp">
+						<div class="widget widget_contacts topmargin_5">
+							<h4 class="setmargin"><span class="color-lightblue">Downloads</span>
+							</h4>
+
+
+							<p><a href="javascript:irepsSigner15()">IREPS Signer (Version 1.5) <img alt="New notification badge" src="/ireps/images/home/New.png"></a>
+							</p>
+
+
+							<p><a href="javascript:learningCenter()">User Manuals</a>
+							</p>
+							                         <a href="javascript:Disclamier()"> Disclamier </a> 
+
+
+							<ul style="list-style-type:none;">
+								<li>Public Documents
+
+									<ul style="list-style-type:none;">
+										<li>-  <a class="linkStyle" href="javascript:irepsDocumentNew('supply')" rel="noopener noreferrer">Goods &amp; Services</a>
+										</li>
+										
+
+
+										<li>-  <a class="linkStyle" href="javascript:irepsDocumentNew('works')" rel="noopener noreferrer">Works</a>
+										</li>
+
+
+										<li>-  <a class="linkStyle" href="javascript:irepsDocumentNew('lease')" rel="noopener noreferrer">Earning / Leasing</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-5 text-left" data-animation="fadeInUp">
+						<div class="widget widget_contacts topmargin_5">
+							<h4 class="setmargin"><span class="color-lightblue">Important External Links</span>
+							</h4>
+
+
+							<p><a class="linkStyle" href="javascript:jreInstructionPage()" rel="noopener noreferrer" title="Download JAVA (JRE)">Download JAVA (JRE)</a>
+							</p>
+
+
+							<p><a class="linkStyle" href="http://adobe.com/downloads" rel="noopener noreferrer" target="_blank" title="Acrobat Reader Version 8 or above">Download PDF Reader</a>
+							</p>
+
+
+							<p><a class="linkStyle" href="http://cca.gov.in" rel="noopener noreferrer" target="_blank">CCA India</a>
+							</p>
+
+
+							<p><a href="http://www.indianrailways.gov.in" rel="noopener noreferrer" target="_blank">Indian Railways</a>
+							</p>
+
+
+							<p><a href="http://www.nic.in" rel="noopener noreferrer" target="_blank">National Informatics Center</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-12 text-left" data-animation="fadeInUp">
+						<div class="widget widget_contacts topmargin_5">
+							<p><a href="./ireps/upload/resources/stqc_certificate.PDF" rel="noopener noreferrer" target="_blank"><img alt="CRIS" height="60" src="/ireps/images/common/logo/stqc.png" width="60">   </a>    <a href="http://cris.org.in/" rel="noopener noreferrer" target="_blank"><img alt="CRIS" height="70" src="/ireps/images/common/logo/5.jpeg" width="70">   Centre For Railway Information Systems, Designed, Developed and Hosted by CRIS Version 7.1.0</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	
+
+
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				
+
+
+				<div class="modal-body">
+					
+					
+					
+
+
+					<div id="dmsg_tag">
+					</div>
+
+
+					<table>
+
+
+						
+
+
+						<tr>
+							<td align="left" style="text-align: justify;" width="100%"><font color="#D75125"><b>V. Important</b></font><br>
+							<br>
+							<font color="black">IREPS services have been discontinued on Internet Explorer as of July 13, 2024. All users are advised to switch to other browsers such as Chrome, Edge, or Firefox to avoid any inconvenience.</font>
+							</td>
+						</tr>
+						
+						<tr>
+						  <td colspan="2" style="padding:12px; border:1px solid #f5c6cb; background-color:#fff3cd; color:#856404; border-radius:5px;">
+						    If you see a popup message like 
+						    <b>"Access other apps and services on this device"</b> while attaching your Digital Signing Certificate, 
+						    please click on the <b>"Allow"</b> button to proceed.
+						    
+						    <br><br>
+						    
+						    <img src="/ireps/images/pki/popup.png" alt="Permission Popup Example" 
+						         style="max-width:100%; height:auto; border:1px solid #ccc; border-radius:5px;">
+						         
+						  </td>
+						</tr>
+						
+						
+					</table>
+					
+
+
+					<table>
+						<tr>
+							<td align="center" height="10" width="100%"><button class="btn btn-primary btn-sm" data-dismiss="modal" type="button">Close</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<div class="modal fade" id="cvapModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<table align="center" style="width: 97%;border-style: dashed;border-width: 2px;border-color: #806000; margin-left: 10px; margin-right: 10px;margin-top:10px;margin-bottom:10px;">
+						<tr>
+							<td align="center">
+								<table border="0" style="width: 93%">
+									<tr>
+										<td align="center" style="padding: 0px;" width="100%">
+											<table border="0" style="width: 100%">
+												<tr>
+													<td style="text-align: right;padding-top: 25px;">
+														<font color="#D75125"></font>
+
+														<h3><font color="#D75125">Unified Vendor Approval Module</font>
+														</h3>
+													</td>
+
+													<td align="left"><img alt="Indian Railways E-Procurement System logo" height="60" src="/ireps/images/common/U-VAM_logo.png" width="150">
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="left" style="text-align: justify;" width="100%">Indian Railways procure various items related to safety of passengers and trains from approved vendors. Various units of Indian Railways like <b>RDSO</b> (Research Design &amp; Standards Organization, Lucknow), <b>ICF</b> (Integral Coach Factory, Perambur), <b>MCF</b> (Modern Coach Factory, Rae Bareilly), <b>RCF</b> (Rail Coach Factory, Kapurthala), <b>BLW</b> (Benaras Locomotive Works, Varanasi), <b>CLW</b> (Chittaranjan Locomotive Works, Chittaranjan) and <b>CORE</b> (Central Organization for Railway Electrification, Prayagraj) are engaged in approval of vendors for various categories of items.</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="left" style="text-align: justify;" width="100%">UVAM is a digitization initiative of Indian Railways through which all the activities related to approval of vendors has been digitized.</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="left" style="text-align: justify;" width="100%">Requests for approval can be submitted by the vendors online through their IREPS account, and the status of application can also be tracked. All the drawings, specifications, and schedule of technical requirements can be viewed and downloaded.</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="left" style="text-align: justify;" width="100%">Manufactures who are interested in getting themselves approved may click on Approval of Vendors link on IREPS home page for further Details.</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="left" style="text-align: justify;" width="100%">
+										</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="center" width="100%">............................................</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="left" style="text-align: justify;" width="100%">
+										</td>
+									</tr>
+
+
+									<tr height="25px;">
+										<td align="left" style="text-align: center;" width="100%"><button class="btn btn-primary btn-sm" data-dismiss="modal" type="button">Close</button>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span>To Top</a> 
+	
+	 
+	' 
+	
+	
+ 
+	  
+</body>
+</html>
