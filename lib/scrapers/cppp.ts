@@ -42,8 +42,9 @@ export interface CpppScrapeResult {
   tenders: CpppTender[];
   /** Every tender row we parsed, before keyword filtering. */
   totalRowsParsed: number;
-  /** Raw HTML kept only when parsing looked wrong (0 rows) — for debugging. */
-  debugHtmlSample?: string;
+  /** The full HTML that was fetched/parsed — the caller decides whether to
+   *  persist it for debugging (e.g. when totalRowsParsed looks too low). */
+  rawHtml: string;
 }
 
 interface FetchOptions {
@@ -70,12 +71,7 @@ export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<Cppp
     tenders.push({ ...row, matchedKeywords: match.matchedKeywords });
   }
 
-  const result: CpppScrapeResult = { tenders, totalRowsParsed: all.length };
-  if (all.length === 0) {
-    // Parser likely broken (or CPPP returned an error page) — keep a sample.
-    result.debugHtmlSample = html.slice(0, 3000);
-  }
-  return result;
+  return { tenders, totalRowsParsed: all.length, rawHtml: html };
 }
 
 async function fetchLatestTendersHtml(opts: FetchOptions): Promise<string> {

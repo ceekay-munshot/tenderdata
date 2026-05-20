@@ -55,17 +55,27 @@ async function main() {
     totalRowsParsed: result.totalRowsParsed,
     relevantCount: result.tenders.length,
     tenders: result.tenders,
-    ...(result.debugHtmlSample ? { debugHtmlSample: result.debugHtmlSample } : {}),
   });
 
   console.log(
     `Parsed ${result.totalRowsParsed} tender rows, ` +
       `${result.tenders.length} matched watchlist sectors, in ${durationMs}ms`,
   );
-  if (result.totalRowsParsed === 0) {
+
+  // If parsing looks wrong (a healthy CPPP listing has dozens of rows),
+  // dump the fetched HTML so the table structure can be inspected and the
+  // parser fixed against real markup instead of guesswork.
+  if (result.totalRowsParsed < 10) {
+    const stripped = result.rawHtml
+      .replace(/<script[\s\S]*?<\/script>/gi, "")
+      .replace(/<style[\s\S]*?<\/style>/gi, "")
+      .replace(/<!--[\s\S]*?-->/g, "");
+    const debugPath = path.resolve("data", "cppp-debug.html");
+    await writeFile(debugPath, stripped.slice(0, 300_000), "utf8");
     console.warn(
-      "WARNING: 0 rows parsed — CPPP HTML structure may have changed. " +
-        "A debugHtmlSample was saved to the output file for inspection.",
+      `WARNING: only ${result.totalRowsParsed} rows parsed — CPPP HTML may ` +
+        `differ from what the parser expects. Saved data/cppp-debug.html ` +
+        `(${stripped.length} chars, scripts/styles stripped) for inspection.`,
     );
   }
   for (const t of result.tenders.slice(0, 10)) {

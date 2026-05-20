@@ -154,7 +154,7 @@ assert(
 console.log("\nbroken page handling:");
 const broken = await scrapeLatestTenders({ html: "<html><body>error</body></html>" });
 assert("0 rows on broken page", broken.totalRowsParsed === 0);
-assert("debug sample kept on 0 rows", typeof broken.debugHtmlSample === "string");
+assert("rawHtml is returned for debugging", typeof broken.rawHtml === "string" && broken.rawHtml.length > 0);
 
 console.log(`\n${failed === 0 ? "All checks passed." : `${failed} check(s) failed.`}\n`);
 process.exit(failed === 0 ? 0 : 1);
