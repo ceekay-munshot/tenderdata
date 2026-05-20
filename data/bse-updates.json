@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-20T07:52:38.426Z",
-  "durationMs": 680,
+  "fetchedAt": "2026-05-20T10:43:00.757Z",
+  "durationMs": 683,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 77,
+    "announcements": 79,
     "negative": 0,
     "positive": 9,
-    "neutral": 68
+    "neutral": 70
   },
   "announcements": [
     {
@@ -182,6 +182,21 @@
       "category": "Company Update",
       "filedAt": "2026-05-11T19:54:01.610Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56ad8d01-3e7d-445c-8127-a46e7f445b78.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "aece8cc7-be9c-4b91-9a80-f9eab8513259",
+      "ticker": "BEL",
+      "scripcode": 500049,
+      "companyName": "Bharat Electronics Ltd",
+      "headline": "Extracts of Standalone and Consolidated Audited Financial Results for the Quarter and Year ended 31.03.2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-20T15:47:39.400Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/38fbf18f-555c-426c-95ce-e993fb277444.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -443,6 +458,21 @@
       "category": "Company Update",
       "filedAt": "2026-04-28T17:07:09.343Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8f1caeb1-9d91-434f-b5bc-2378b3c98e4c.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "580633f9-9a4e-431f-a699-8ad6f85ec978",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Rail Vikas Nigam Limited emerges as the Lowest Bidder (L1) from North Eastern Railway- Normal course of business of the Company.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-20T14:37:11.137Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/df1e3ef6-ab11-4724-be21-2ed3654d7809.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1200,6 +1230,26 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-aece8cc7-be9c-4b91-9a80-f9eab8513259",
+      "date": "2026-05-20T15:47:39.400Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BEL",
+      "text": "Extracts of Standalone and Consolidated Audited Financial Results for the Quarter and Year ended 31.03.2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-580633f9-9a4e-431f-a699-8ad6f85ec978",
+      "date": "2026-05-20T14:37:11.137Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Rail Vikas Nigam Limited emerges as the Lowest Bidder (L1) from North Eastern Railway- Normal course of business of the Company.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-3a46b17c-3d95-47eb-a734-51ee150cc7ae",
       "date": "2026-05-19T23:58:05.483Z",
