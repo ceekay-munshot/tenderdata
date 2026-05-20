@@ -1,11 +1,12 @@
 name: Scrape tenders & disclosures
 
-# Runs both scrapers (BSE corporate announcements + CPPP tenders) and
-# commits their JSON payloads to a dedicated `data` branch in one commit.
+# Runs every scraper (BSE corporate announcements, CPPP tenders,
+# BidAssist active tenders + bid-awards) and commits their JSON payloads
+# to a dedicated `data` branch in one commit.
 #
-# Why one workflow, not two: both jobs would push to the `data` branch,
-# and two workflows racing there cause non-fast-forward push failures.
-# A single job scraping both sources sidesteps that entirely.
+# Why one workflow, not several: every job would push to the `data`
+# branch, and workflows racing there cause non-fast-forward push
+# failures. A single job scraping all sources sidesteps that entirely.
 #
 # Each scraper handles its own errors and always writes its output file,
 # so a failure in one source still commits fresh data for the other.
@@ -65,17 +66,16 @@ jobs:
       - name: Scrape BidAssist tenders
         run: pnpm tsx scripts/scrape-bidassist.mts || echo "BidAssist scrape exited non-zero"
 
-      # Temporary: find the BidAssist bid-awards (results) API endpoint.
-      - name: Probe BidAssist bid-awards
-        run: pnpm tsx scripts/probe-bidassist.mts || echo "BidAssist probe exited non-zero"
+      - name: Scrape BidAssist bid-awards
+        run: pnpm tsx scripts/scrape-bidassist-awards.mts || echo "BidAssist awards scrape exited non-zero"
 
       - name: Show summary
         run: |
           echo "::group::scrape summary"
-          for f in data/bse-updates.json data/cppp-tenders.json; do
+          for f in data/bse-updates.json data/cppp-tenders.json data/bidassist-tenders.json data/bidassist-awards.json; do
             if [ -f "$f" ]; then
               echo "--- $f ---"
-              node -e "const d=require('./$f'); console.log(JSON.stringify(d.counts ?? {ok:d.ok,total:d.totalRowsParsed,relevant:d.relevantCount,error:d.error}, null, 2));"
+              node -e "const d=require('./$f'); console.log(JSON.stringify(d.counts ?? {ok:d.ok,source:d.source,total:d.totalScanned??d.totalRowsParsed,relevant:d.relevantCount,error:d.error}, null, 2));"
             else
               echo "--- $f MISSING ---"
             fi
@@ -93,7 +93,7 @@ jobs:
           cp data/cppp-debug.html      /tmp/scrape-out/ 2>/dev/null || true
           cp data/cppp-post-debug.html /tmp/scrape-out/ 2>/dev/null || true
           cp data/bidassist-tenders.json    /tmp/scrape-out/ 2>/dev/null || true
-          cp data/bidassist-probe.json      /tmp/scrape-out/ 2>/dev/null || true
+          cp data/bidassist-awards.json     /tmp/scrape-out/ 2>/dev/null || true
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -116,11 +116,11 @@ jobs:
           cp /tmp/scrape-out/cppp-debug.html      data/ 2>/dev/null || true
           cp /tmp/scrape-out/cppp-post-debug.html data/ 2>/dev/null || true
           cp /tmp/scrape-out/bidassist-tenders.json    data/ 2>/dev/null || true
-          cp /tmp/scrape-out/bidassist-probe.json      data/ 2>/dev/null || true
+          cp /tmp/scrape-out/bidassist-awards.json     data/ 2>/dev/null || true
 
           git add data/bse-updates.json data/cppp-tenders.json
           git add data/cppp-debug.html data/cppp-post-debug.html 2>/dev/null || true
-          git add data/bidassist-tenders.json data/bidassist-probe.json 2>/dev/null || true
+          git add data/bidassist-tenders.json data/bidassist-awards.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No content change — nothing to commit."

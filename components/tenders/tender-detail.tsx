@@ -95,11 +95,20 @@ export function TenderDetail({
                 <h4 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
                   Bidders ({tender.bidders.length})
                 </h4>
-                <div className="flex flex-wrap gap-1.5">
-                  {tender.bidders.map((b, i) => (
-                    <BidderChip key={`${b.name}-${i}`} bidder={b} />
-                  ))}
-                </div>
+                {tender.bidders.length > 0 ? (
+                  <div className="flex flex-wrap gap-1.5">
+                    {tender.bidders.map((b, i) => (
+                      <BidderChip key={`${b.name}-${i}`} bidder={b} />
+                    ))}
+                  </div>
+                ) : (
+                  <p className="rounded-md border border-dashed bg-muted/20 px-3 py-2 text-xs text-muted-foreground">
+                    Bidder list not exposed by this source.{" "}
+                    {tender.status === "result_in" || tender.status === "awarded"
+                      ? "The winning bidder is named in the Award-of-Contract document on the source portal."
+                      : "Portals publish the bidder list only after the financial bid opens."}
+                  </p>
+                )}
               </div>
 
               {/* Follow-ups timeline */}

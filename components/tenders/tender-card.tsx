@@ -63,6 +63,15 @@ export function TenderCard({ tender, onOpen }: { tender: Tender; onOpen: (id: st
               >
                 Result in {days}d
               </span>
+            ) : days >= 0 ? (
+              <span
+                className={cn(
+                  "mt-1 rounded px-1.5 py-0.5 font-mono text-[10px] font-semibold",
+                  days <= 7 ? "bg-critical/15 text-critical" : "bg-warning/15 text-warning",
+                )}
+              >
+                Result due in {days}d
+              </span>
             ) : (
               <span className="mt-1 text-[10px] text-muted-foreground">Announced {Math.abs(days)}d ago</span>
             )}

@@ -1,12 +1,17 @@
 import { loadBseUpdates } from "@/lib/server/load-updates";
 import { loadBidAssistTenders } from "@/lib/server/load-bidassist";
+import { loadBidAssistAwards } from "@/lib/server/load-bidassist-awards";
 import { TendersClient } from "./tenders-client";
 
 // Render on every request (the upstream fetches are still ISR-cached).
 export const dynamic = "force-dynamic";
 
 export default async function TendersPage() {
-  const [bseLoad, baLoad] = await Promise.all([loadBseUpdates(), loadBidAssistTenders()]);
+  const [bseLoad, baLoad, awardLoad] = await Promise.all([
+    loadBseUpdates(),
+    loadBidAssistTenders(),
+    loadBidAssistAwards(),
+  ]);
 
   return (
     <TendersClient
@@ -21,6 +26,12 @@ export default async function TendersPage() {
       sourceStatus={baLoad.status}
       sourceStale={baLoad.stale}
       sourceError={baLoad.error}
+      awardTenders={awardLoad.tenders}
+      awardFetchedAt={awardLoad.fetchedAt}
+      awardScanned={awardLoad.scanned}
+      awardStatus={awardLoad.status}
+      awardStale={awardLoad.stale}
+      awardError={awardLoad.error}
     />
   );
 }

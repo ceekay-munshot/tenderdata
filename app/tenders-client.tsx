@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Filter, Database, AlertTriangle, Clock, Plus } from "lucide-react";
+import { Filter, Database, Gavel, AlertTriangle, Clock, Plus } from "lucide-react";
 import { RecentUpdates } from "@/components/tenders/recent-updates";
 import { TenderCard } from "@/components/tenders/tender-card";
 import { TenderDetail } from "@/components/tenders/tender-detail";
@@ -28,6 +28,13 @@ export interface TendersClientProps {
   sourceStatus: "ok" | "empty" | "missing" | "error";
   sourceStale: boolean;
   sourceError?: string;
+  /** Tenders at decision stage — BidAssist bid-awards (tender results). */
+  awardTenders: Tender[];
+  awardFetchedAt: string | null;
+  awardScanned: number;
+  awardStatus: "ok" | "empty" | "missing" | "error";
+  awardStale: boolean;
+  awardError?: string;
 }
 
 export function TendersClient({
@@ -42,6 +49,12 @@ export function TendersClient({
   sourceStatus,
   sourceStale,
   sourceError,
+  awardTenders,
+  awardFetchedAt,
+  awardScanned,
+  awardStatus,
+  awardStale,
+  awardError,
 }: TendersClientProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
@@ -51,11 +64,19 @@ export function TendersClient({
 
   const manual = useManualTenders();
 
-  // Manual (tracked) tenders first, then live BidAssist, then badged examples.
-  const allTenders = useMemo(
-    () => sortTenders([...manual.tenders, ...liveTenders, ...exampleTenders]),
-    [manual.tenders, liveTenders],
-  );
+  // Manual (tracked) first, then BidAssist results, then live BidAssist
+  // tenders, then badged examples. De-dupe by id — a tender that appears
+  // in both the results feed and the active feed keeps its result row.
+  const allTenders = useMemo(() => {
+    const seen = new Set<string>();
+    const merged: Tender[] = [];
+    for (const t of [...manual.tenders, ...awardTenders, ...liveTenders, ...exampleTenders]) {
+      if (seen.has(t.id)) continue;
+      seen.add(t.id);
+      merged.push(t);
+    }
+    return sortTenders(merged);
+  }, [manual.tenders, awardTenders, liveTenders]);
 
   const tenders = useMemo(() => {
     return allTenders.filter((t) => {
@@ -124,6 +145,15 @@ export function TendersClient({
         status={sourceStatus}
         stale={sourceStale}
         error={sourceError}
+      />
+
+      <ResultsBar
+        resultCount={awardTenders.length}
+        scanned={awardScanned}
+        fetchedAt={awardFetchedAt}
+        status={awardStatus}
+        stale={awardStale}
+        error={awardError}
       />
 
       <Card className="border-dashed p-3">
@@ -236,6 +266,63 @@ function SourceBar({
           {manualCount} tracked manually
         </span>
       )}
+      {fetchedAt && (
+        <span className="ml-auto inline-flex items-center gap-1 text-[11px] text-muted-foreground">
+          <Clock className="h-3 w-3" />
+          {stale ? "stale —" : "synced"} {formatRelativeTime(fetchedAt)}
+        </span>
+      )}
+    </div>
+  );
+}
+
+function ResultsBar({
+  resultCount,
+  scanned,
+  fetchedAt,
+  status,
+  stale,
+  error,
+}: {
+  resultCount: number;
+  scanned: number;
+  fetchedAt: string | null;
+  status: "ok" | "empty" | "missing" | "error";
+  stale: boolean;
+  error?: string;
+}) {
+  let tone: "ok" | "warn" | "muted" = "muted";
+  let message: string;
+
+  if (status === "missing") {
+    message = "Bid-results feed not yet published — awaiting first scrape.";
+    tone = "warn";
+  } else if (status === "error") {
+    message = `Bid-results feed error${error ? `: ${error}` : ""}.`;
+    tone = "warn";
+  } else if (resultCount > 0) {
+    message = `${resultCount} tender result${resultCount === 1 ? "" : "s"} at decision stage matched your watchlist — from BidAssist, scanned ${scanned}.`;
+    tone = "ok";
+  } else {
+    message = `Scanned ${scanned} tender result${scanned === 1 ? "" : "s"} via BidAssist — 0 matched your watchlist sectors this run.`;
+    tone = "muted";
+  }
+
+  return (
+    <div
+      className={cn(
+        "flex flex-wrap items-center gap-2 rounded-lg border px-3 py-2 text-xs",
+        tone === "ok" && "border-positive/30 bg-positive/8 text-foreground",
+        tone === "warn" && "border-warning/30 bg-warning/8 text-foreground",
+        tone === "muted" && "border-border bg-card text-muted-foreground",
+      )}
+    >
+      {tone === "warn" ? (
+        <AlertTriangle className="h-3.5 w-3.5 text-warning" />
+      ) : (
+        <Gavel className="h-3.5 w-3.5 text-muted-foreground" />
+      )}
+      <span>{message}</span>
       {fetchedAt && (
         <span className="ml-auto inline-flex items-center gap-1 text-[11px] text-muted-foreground">
           <Clock className="h-3 w-3" />
