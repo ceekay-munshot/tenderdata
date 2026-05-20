@@ -1,20 +1,26 @@
 /**
- * One-shot probe of IREPS (ireps.gov.in — Indian Railway e-procurement).
+ * IREPS probe v2 — find which IREPS pages are reachable without the
+ * mobile-OTP auth wall.
  *
- * IREPS is a CRIS-built system, structurally unlike NIC's CPPP, and its
- * URL layout is unknown. This probe fetches the homepage and a couple of
- * guessed tender endpoints, then reports — per URL — HTTP status, size,
- * captcha presence, table/row counts, every link (href + text), and every
- * form (action + method). The homepage's links reveal the real
- * tender-listing entry points to target next.
+ * Probe v1 found: the homepage is open, but anonymSearch.do (tender
+ * search) demands mobile-number + SMS-OTP authentication. IREPS links are
+ * all javascript: calls, so the real URLs live in its JS files.
  *
- * Output: data/ireps-probe.json + data/ireps-probe.html (committed to the
- * data branch). Both temporary — removed once the IREPS source is chosen.
+ * This probe: fetches the homepage, pulls every <script src>, scans the JS
+ * for ".do" endpoints, then GETs each candidate and reports whether it's
+ * open, captcha-gated, or OTP-walled. The goal is the public transparency
+ * pages — "High Value Tenders" and "Banned / Suspended Firms" — which
+ * govt sites usually leave open.
+ *
+ * Output: data/ireps-probe.json (committed to the data branch). Temporary.
  */
 
 import { writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import * as cheerio from "cheerio";
+
+const HOME = "https://www.ireps.gov.in/";
+const ORIGIN = "https://www.ireps.gov.in";
 
 const HEADERS: HeadersInit = {
   "User-Agent":
@@ -23,143 +29,135 @@ const HEADERS: HeadersInit = {
   "Accept-Language": "en-US,en;q=0.9",
 };
 
-interface Candidate {
-  name: string;
-  url: string;
+function abs(href: string): string {
+  if (href.startsWith("http")) return href;
+  if (href.startsWith("/")) return ORIGIN + href;
+  return `${ORIGIN}/${href.replace(/^\.?\//, "")}`;
 }
 
-const CANDIDATES: Candidate[] = [
-  { name: "home", url: "https://www.ireps.gov.in/" },
-  { name: "home-nowww", url: "https://ireps.gov.in/" },
-  // Best-effort guesses — IREPS commonly exposes anonymous tender search.
-  { name: "guess-anon-search", url: "https://www.ireps.gov.in/epsn/anonymSearch.do" },
-  { name: "guess-tender", url: "https://www.ireps.gov.in/epsn/" },
-];
-
-interface LinkInfo {
-  text: string;
-  href: string;
-}
-
-interface ProbeResult {
-  name: string;
+interface EndpointResult {
   url: string;
   status: number | null;
-  finalUrl?: string;
   bytes: number;
+  /** Page is gated behind the mobile-OTP / "authenticate yourself" wall. */
+  otpWalled: boolean;
   hasCaptcha: boolean;
   tableCount: number;
   trCount: number;
-  formCount: number;
-  forms: { action: string; method: string }[];
-  /** Links whose text/href hints at tenders. */
-  tenderLinks: LinkInfo[];
-  /** First 60 links overall (to see the nav). */
-  links: LinkInfo[];
   textSample: string;
   error?: string;
 }
 
-async function probe(c: Candidate): Promise<ProbeResult> {
-  const base: ProbeResult = {
-    name: c.name,
-    url: c.url,
+async function fetchText(url: string): Promise<{ status: number; body: string }> {
+  const res = await fetch(url, { headers: HEADERS, redirect: "follow" });
+  return { status: res.status, body: await res.text() };
+}
+
+async function probeEndpoint(url: string): Promise<EndpointResult> {
+  const r: EndpointResult = {
+    url,
     status: null,
     bytes: 0,
+    otpWalled: false,
     hasCaptcha: false,
     tableCount: 0,
     trCount: 0,
-    formCount: 0,
-    forms: [],
-    tenderLinks: [],
-    links: [],
     textSample: "",
   };
   try {
-    const res = await fetch(c.url, { headers: HEADERS, redirect: "follow" });
-    const html = await res.text();
-    base.status = res.status;
-    base.finalUrl = res.url;
-    base.bytes = html.length;
-    base.hasCaptcha = /captcha/i.test(html);
-
-    const $ = cheerio.load(html);
-    base.tableCount = $("table").length;
-    base.trCount = $("tr").length;
-
-    $("form").each((_, el) => {
-      base.forms.push({
-        action: $(el).attr("action") ?? "",
-        method: ($(el).attr("method") ?? "GET").toUpperCase(),
-      });
-    });
-    base.formCount = base.forms.length;
-
-    const all: LinkInfo[] = [];
-    $("a[href]").each((_, el) => {
-      const href = ($(el).attr("href") ?? "").trim();
-      const text = $(el).text().replace(/\s+/g, " ").trim();
-      if (href && href !== "#" && !href.startsWith("javascript:void")) {
-        all.push({ text, href });
-      }
-    });
-    base.links = all.slice(0, 60);
-    base.tenderLinks = all.filter((l) =>
-      /tender|bid|e-?proc|works|goods|search|nit|auction|contract/i.test(`${l.text} ${l.href}`),
-    );
-
-    base.textSample = html
+    const { status, body } = await fetchText(url);
+    r.status = status;
+    r.bytes = body.length;
+    r.hasCaptcha = /captcha/i.test(body);
+    r.otpWalled =
+      /authenticate yourself/i.test(body) ||
+      /enter\b[^<]{0,40}\bOTP/i.test(body) ||
+      /session has expired/i.test(body);
+    const $ = cheerio.load(body);
+    r.tableCount = $("table").length;
+    r.trCount = $("tr").length;
+    r.textSample = body
       .replace(/<script[\s\S]*?<\/script>/gi, " ")
       .replace(/<style[\s\S]*?<\/style>/gi, " ")
       .replace(/<[^>]+>/g, " ")
       .replace(/\s+/g, " ")
       .trim()
-      .slice(0, 800);
+      .slice(0, 500);
   } catch (err) {
-    base.error = err instanceof Error ? err.message : String(err);
+    r.error = err instanceof Error ? err.message : String(err);
   }
-  return base;
+  return r;
 }
 
 async function main() {
-  console.log(`Probing ${CANDIDATES.length} IREPS endpoints...`);
-  const results: ProbeResult[] = [];
-  let homepageHtml = "";
+  console.log("Fetching IREPS homepage + JS...");
+  const home = await fetchText(HOME);
+  const $ = cheerio.load(home.body);
 
-  for (const c of CANDIDATES) {
-    const r = await probe(c);
+  // Collect <script src> URLs (same-origin only).
+  const scriptSrcs: string[] = [];
+  $("script[src]").each((_, el) => {
+    const src = $(el).attr("src");
+    if (src && !/^https?:\/\/(?!www\.ireps)/i.test(src)) scriptSrcs.push(abs(src));
+  });
+  console.log(`  ${scriptSrcs.length} same-origin script(s) found`);
+
+  // Concatenate the JS and scan for ".do" endpoints.
+  let js = "";
+  for (const src of scriptSrcs.slice(0, 20)) {
+    try {
+      const { body } = await fetchText(src);
+      js += "\n" + body;
+    } catch {
+      /* skip */
+    }
+    await new Promise((r) => setTimeout(r, 300));
+  }
+
+  const doEndpoints = [
+    ...new Set([...js.matchAll(/['"`]([\w./-]+\.do)\b/g)].map((m) => m[1])),
+  ];
+  console.log(`  ${doEndpoints.length} distinct .do endpoint(s) referenced in JS`);
+
+  // Prioritise the transparency-page candidates.
+  const interesting = doEndpoints.filter((e) =>
+    /high.?value|tender|search|award|bann|debar|nit/i.test(e),
+  );
+  const toProbe = [...new Set([...interesting, ...doEndpoints])].slice(0, 16);
+
+  const results: EndpointResult[] = [];
+  for (const ep of toProbe) {
+    const r = await probeEndpoint(abs(ep));
     results.push(r);
     console.log(
-      `  ${r.name.padEnd(20)} status=${r.status ?? "ERR"} bytes=${r.bytes} ` +
-        `captcha=${r.hasCaptcha} forms=${r.formCount} tenderLinks=${r.tenderLinks.length}` +
-        `${r.error ? ` error=${r.error}` : ""}`,
+      `  ${ep.padEnd(34)} status=${r.status ?? "ERR"} bytes=${r.bytes} ` +
+        `otpWall=${r.otpWalled} captcha=${r.hasCaptcha} tables=${r.tableCount}`,
     );
-    if (r.name === "home" && r.status === 200) {
-      // keep the homepage HTML for inspection
-      try {
-        const res = await fetch(c.url, { headers: HEADERS });
-        homepageHtml = await res.text();
-      } catch {
-        /* ignore */
-      }
-    }
-    await new Promise((res) => setTimeout(res, 800));
+    await new Promise((r) => setTimeout(r, 500));
   }
 
   await mkdir("data", { recursive: true });
   await writeFile(
     path.resolve("data", "ireps-probe.json"),
-    JSON.stringify({ probedAt: new Date().toISOString(), results }, null, 2) + "\n",
+    JSON.stringify(
+      {
+        probedAt: new Date().toISOString(),
+        scriptCount: scriptSrcs.length,
+        doEndpointsFound: doEndpoints,
+        results,
+      },
+      null,
+      2,
+    ) + "\n",
     "utf8",
   );
-  if (homepageHtml) {
-    const stripped = homepageHtml
-      .replace(/<script[\s\S]*?<\/script>/gi, "")
-      .replace(/<style[\s\S]*?<\/style>/gi, "")
-      .replace(/<!--[\s\S]*?-->/g, "");
-    await writeFile(path.resolve("data", "ireps-probe.html"), stripped.slice(0, 250_000), "utf8");
-  }
-  console.log("\nWrote data/ireps-probe.json (+ ireps-probe.html if homepage loaded).");
+
+  const open = results.filter((r) => r.status === 200 && !r.otpWalled && !r.hasCaptcha && r.trCount > 5);
+  console.log(
+    open.length
+      ? `\nOpen, data-bearing endpoints: ${open.map((r) => r.url).join(", ")}`
+      : "\nNo open data-bearing IREPS endpoint found among candidates.",
+  );
 }
 
 main().catch((err) => {
