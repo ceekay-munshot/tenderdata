@@ -1,6 +1,7 @@
 import { loadBseUpdates } from "@/lib/server/load-updates";
 import { loadBidAssistTenders } from "@/lib/server/load-bidassist";
 import { loadBidAssistAwards } from "@/lib/server/load-bidassist-awards";
+import { correlateWinners } from "@/lib/server/correlate-winners";
 import { TendersClient } from "./tenders-client";
 
 // Render on every request (the upstream fetches are still ISR-cached).
@@ -13,9 +14,16 @@ export default async function TendersPage() {
     loadBidAssistAwards(),
   ]);
 
+  // Name the winners: match BSE order-win disclosures to award tenders.
+  const correlated = correlateWinners(
+    awardLoad.tenders,
+    bseLoad.payload?.announcements ?? [],
+    bseLoad.payload?.updates ?? [],
+  );
+
   return (
     <TendersClient
-      bseUpdates={bseLoad.payload?.updates ?? []}
+      bseUpdates={correlated.updates}
       bseFetchedAt={bseLoad.fetchedAt}
       bseStale={bseLoad.stale}
       bseStatus={bseLoad.status}
@@ -26,7 +34,7 @@ export default async function TendersPage() {
       sourceStatus={baLoad.status}
       sourceStale={baLoad.stale}
       sourceError={baLoad.error}
-      awardTenders={awardLoad.tenders}
+      awardTenders={correlated.awards}
       awardFetchedAt={awardLoad.fetchedAt}
       awardScanned={awardLoad.scanned}
       awardStatus={awardLoad.status}
