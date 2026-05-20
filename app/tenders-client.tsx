@@ -21,12 +21,13 @@ export interface TendersClientProps {
   bseStale: boolean;
   bseStatus: "ok" | "empty" | "missing" | "error";
   bseError?: string;
+  /** Live tenders scraped from BidAssist (multi-portal aggregator). */
   liveTenders: Tender[];
-  cpppFetchedAt: string | null;
-  cpppScanned: number;
-  cpppStatus: "ok" | "empty" | "missing" | "error";
-  cpppStale: boolean;
-  cpppError?: string;
+  sourceFetchedAt: string | null;
+  sourceScanned: number;
+  sourceStatus: "ok" | "empty" | "missing" | "error";
+  sourceStale: boolean;
+  sourceError?: string;
 }
 
 export function TendersClient({
@@ -36,11 +37,11 @@ export function TendersClient({
   bseStatus,
   bseError,
   liveTenders,
-  cpppFetchedAt,
-  cpppScanned,
-  cpppStatus,
-  cpppStale,
-  cpppError,
+  sourceFetchedAt,
+  sourceScanned,
+  sourceStatus,
+  sourceStale,
+  sourceError,
 }: TendersClientProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
@@ -50,7 +51,7 @@ export function TendersClient({
 
   const manual = useManualTenders();
 
-  // Manual (tracked) tenders first, then live CPPP, then badged examples.
+  // Manual (tracked) tenders first, then live BidAssist, then badged examples.
   const allTenders = useMemo(
     () => sortTenders([...manual.tenders, ...liveTenders, ...exampleTenders]),
     [manual.tenders, liveTenders],
@@ -115,14 +116,14 @@ export function TendersClient({
         onSelectTender={setOpenId}
       />
 
-      <CpppSourceBar
+      <SourceBar
         liveCount={liveTenders.length}
         manualCount={manual.tenders.length}
-        scanned={cpppScanned}
-        fetchedAt={cpppFetchedAt}
-        status={cpppStatus}
-        stale={cpppStale}
-        error={cpppError}
+        scanned={sourceScanned}
+        fetchedAt={sourceFetchedAt}
+        status={sourceStatus}
+        stale={sourceStale}
+        error={sourceError}
       />
 
       <Card className="border-dashed p-3">
@@ -181,7 +182,7 @@ export function TendersClient({
   );
 }
 
-function CpppSourceBar({
+function SourceBar({
   liveCount,
   manualCount,
   scanned,
@@ -202,16 +203,16 @@ function CpppSourceBar({
   let message: string;
 
   if (status === "missing") {
-    message = "CPPP feed not yet published — awaiting first scrape.";
+    message = "BidAssist feed not yet published — awaiting first scrape.";
     tone = "warn";
   } else if (status === "error") {
-    message = `CPPP feed error${error ? `: ${error}` : ""}.`;
+    message = `BidAssist feed error${error ? `: ${error}` : ""}.`;
     tone = "warn";
   } else if (liveCount > 0) {
-    message = `${liveCount} live tender${liveCount === 1 ? "" : "s"} from CPPP matched your watchlist · ${scanned} scanned.`;
+    message = `${liveCount} live tender${liveCount === 1 ? "" : "s"} matched your watchlist — from BidAssist, scanned ${scanned} across all portals.`;
     tone = "ok";
   } else {
-    message = `Scanned ${scanned} CPPP tenders — 0 matched. Add tenders you care about with "Watch a tender".`;
+    message = `Scanned ${scanned} tenders via BidAssist — 0 matched your watchlist sectors this run. Add tenders directly with "Watch a tender".`;
     tone = "muted";
   }
 

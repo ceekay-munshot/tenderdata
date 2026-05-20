@@ -54,7 +54,7 @@ export interface Tender {
   winner?: string;
   followUps: FollowUp[];
   publishedAt: string;
-  sourcePortal: "CPPP" | "GeM" | "State" | "IREPS" | "Manual";
+  sourcePortal: "CPPP" | "GeM" | "State" | "IREPS" | "Manual" | "BidAssist";
   sourceUrl?: string;
   /** "live" = scraped from a real portal; "manual" = added by the user;
    *  "example" = seeded demo data. Absent is treated as "example". */
