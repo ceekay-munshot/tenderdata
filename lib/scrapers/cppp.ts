@@ -102,9 +102,9 @@ export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<Cppp
   let view: CpppViewMode = "today";
   let postDebug: string | undefined;
   try {
-    const fields = extractFormFields(base.html, "#ListTendersbyDate");
+    const fields = extractFormFields(base.html);
     if (fields.length === 0) {
-      postDebug = "No fields found in #ListTendersbyDate form.";
+      postDebug = "No fields found in ListTendersbyDate hidden block.";
     } else {
       const posted = await fetchHtml(CPPP_APP_URL, fetcher, {
         method: "POST",
@@ -212,25 +212,34 @@ const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 // Tapestry form handling
 // ---------------------------------------------------------------------------
 
-/** Collect every input/select name+value inside a form (duplicates kept). */
-function extractFormFields(html: string, formSelector: string): [string, string][] {
-  const $ = cheerio.load(html);
+/**
+ * Extract the ListTendersbyDate form's hidden fields.
+ *
+ * Done by string slicing + regex, NOT cheerio: CPPP renders the <form>
+ * inside a <table>, and parse5's HTML5 table-parsing rules foster-parent
+ * the form's contents out of the form element — so a DOM query like
+ * $("#ListTendersbyDate input") finds nothing. The hidden fields all live
+ * in a flat <div id="ListTendersbyDatehidden"> of <input> tags, so we read
+ * that block directly. Duplicate names (iterRows_0, iterPage_0) are kept.
+ */
+function extractFormFields(html: string): [string, string][] {
+  const marker = html.indexOf('id="ListTendersbyDatehidden"');
+  if (marker === -1) return [];
+  const openEnd = html.indexOf(">", marker);
+  const closeIdx = html.indexOf("</div>", openEnd);
+  if (openEnd === -1 || closeIdx === -1) return [];
+  const block = html.slice(openEnd + 1, closeIdx);
+
   const pairs: [string, string][] = [];
-
-  $(`${formSelector} input`).each((_, el) => {
-    const name = $(el).attr("name");
-    if (name) pairs.push([name, $(el).attr("value") ?? ""]);
-  });
-  $(`${formSelector} select`).each((_, el) => {
-    const name = $(el).attr("name");
-    if (!name) return;
-    const value =
-      $(el).find("option[selected]").attr("value") ??
-      $(el).find("option").first().attr("value") ??
-      "";
-    pairs.push([name, value]);
-  });
-
+  const inputRe = /<input\b[^>]*>/gi;
+  let m: RegExpExecArray | null;
+  while ((m = inputRe.exec(block)) !== null) {
+    const tag = m[0];
+    const name = tag.match(/\bname="([^"]*)"/i)?.[1];
+    if (!name) continue;
+    const rawValue = tag.match(/\bvalue="([^"]*)"/i)?.[1] ?? "";
+    pairs.push([name, decodeEntities(rawValue) ?? rawValue]);
+  }
   return pairs;
 }
 
@@ -241,15 +250,20 @@ function extractFormFields(html: string, formSelector: string): [string, string]
 function buildWiderWindowBody(fields: [string, string][]): string {
   const params = new URLSearchParams();
   let sawSubmitName = false;
+  let sawTypeSearch = false;
   for (const [name, value] of fields) {
     if (name === "submitname") {
       params.append(name, FOURTEEN_DAY_SUBMIT);
       sawSubmitName = true;
     } else {
       params.append(name, value);
+      if (name === "typeSearch") sawTypeSearch = true;
     }
   }
   if (!sawSubmitName) params.append("submitname", FOURTEEN_DAY_SUBMIT);
+  // typeSearch lives in a <select> outside the hidden block; default 0 =
+  // "Bid Submission Closing".
+  if (!sawTypeSearch) params.append("typeSearch", "0");
   return params.toString();
 }
 
