@@ -1,8 +1,9 @@
 "use client";
 
-import { Building2, Calendar, ExternalLink, AlertTriangle, CheckCircle2, Info, FileText } from "lucide-react";
+import { Building2, Calendar, ExternalLink, AlertTriangle, CheckCircle2, Info, FileText, Pencil, Trash2 } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { StatusBadge } from "./status-badge";
 import { BidderChip } from "./bidder-chip";
 import { cn, daysFromNow, formatDate, formatINR, formatRelativeTime } from "@/lib/utils";
@@ -12,12 +13,19 @@ export function TenderDetail({
   tenderId,
   tenders,
   onClose,
+  onEdit,
+  onDelete,
 }: {
   tenderId: string | null;
   tenders: Tender[];
   onClose: () => void;
+  /** Edit a manually-tracked tender. */
+  onEdit?: (tender: Tender) => void;
+  /** Delete a manually-tracked tender by id. */
+  onDelete?: (id: string) => void;
 }) {
   const tender = tenderId ? tenders.find((t) => t.id === tenderId) ?? null : null;
+  const isManual = tender?.dataSource === "manual";
 
   return (
     <Dialog open={!!tender} onOpenChange={(open) => !open && onClose()}>
@@ -29,8 +37,28 @@ export function TenderDetail({
                 <StatusBadge status={tender.status} />
                 <span className="font-mono text-[10px] text-muted-foreground">{tender.refNo}</span>
                 <Badge variant="outline" className="text-[10px]">{tender.sourcePortal}</Badge>
+                {isManual && <Badge variant="default" className="text-[10px]">Watching</Badge>}
               </div>
               <DialogTitle className="pt-2">{tender.title}</DialogTitle>
+              {isManual && (onEdit || onDelete) && (
+                <div className="flex gap-2 pt-1">
+                  {onEdit && (
+                    <Button variant="outline" size="sm" onClick={() => onEdit(tender)}>
+                      <Pencil className="h-3.5 w-3.5" /> Edit / record result
+                    </Button>
+                  )}
+                  {onDelete && (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="text-muted-foreground hover:text-critical"
+                      onClick={() => onDelete(tender.id)}
+                    >
+                      <Trash2 className="h-3.5 w-3.5" /> Remove
+                    </Button>
+                  )}
+                </div>
+              )}
             </DialogHeader>
 
             <div className="space-y-5">

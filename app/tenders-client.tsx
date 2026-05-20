@@ -1,12 +1,15 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Filter, Radio, Database, AlertTriangle, Clock } from "lucide-react";
+import { Filter, Database, AlertTriangle, Clock, Plus } from "lucide-react";
 import { RecentUpdates } from "@/components/tenders/recent-updates";
 import { TenderCard } from "@/components/tenders/tender-card";
 import { TenderDetail } from "@/components/tenders/tender-detail";
+import { WatchTenderDialog } from "@/components/tenders/watch-tender-dialog";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { exampleTenders, sortTenders, isWatched } from "@/lib/mock-data";
+import { useManualTenders } from "@/lib/manual-tenders";
 import { cn, formatRelativeTime } from "@/lib/utils";
 import type { Tender, Update } from "@/lib/types";
 
@@ -18,7 +21,6 @@ export interface TendersClientProps {
   bseStale: boolean;
   bseStatus: "ok" | "empty" | "missing" | "error";
   bseError?: string;
-  /** Live tenders scraped from CPPP. */
   liveTenders: Tender[];
   cpppFetchedAt: string | null;
   cpppScanned: number;
@@ -43,11 +45,15 @@ export function TendersClient({
   const [openId, setOpenId] = useState<string | null>(null);
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
   const [watchOnly, setWatchOnly] = useState(false);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [editTender, setEditTender] = useState<Tender | null>(null);
 
-  // Live CPPP tenders first, then the badged BLS example tenders.
+  const manual = useManualTenders();
+
+  // Manual (tracked) tenders first, then live CPPP, then badged examples.
   const allTenders = useMemo(
-    () => sortTenders([...liveTenders, ...exampleTenders]),
-    [liveTenders],
+    () => sortTenders([...manual.tenders, ...liveTenders, ...exampleTenders]),
+    [manual.tenders, liveTenders],
   );
 
   const tenders = useMemo(() => {
@@ -62,22 +68,42 @@ export function TendersClient({
     });
   }, [allTenders, statusFilter, watchOnly]);
 
-  const counts = useMemo(() => {
-    return {
+  const counts = useMemo(
+    () => ({
       all: allTenders.length,
       pending: allTenders.filter((t) => t.status === "pending" || t.status === "evaluation").length,
       result_in: allTenders.filter((t) => t.status === "result_in").length,
       awarded: allTenders.filter((t) => t.status === "awarded").length,
-    };
-  }, [allTenders]);
+    }),
+    [allTenders],
+  );
+
+  const openAdd = () => {
+    setEditTender(null);
+    setDialogOpen(true);
+  };
+  const openEdit = (t: Tender) => {
+    setOpenId(null);
+    setEditTender(t);
+    setDialogOpen(true);
+  };
+  const handleDelete = (id: string) => {
+    manual.remove(id);
+    setOpenId(null);
+  };
 
   return (
     <div className="mx-auto w-full max-w-[1100px] space-y-5 px-4 py-6 md:px-6">
-      <header>
-        <h1 className="text-2xl font-semibold tracking-tight">Government tenders</h1>
-        <p className="text-sm text-muted-foreground">
-          Track who&apos;s bidding, when results drop, and what follows after.
-        </p>
+      <header className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight">Government tenders</h1>
+          <p className="text-sm text-muted-foreground">
+            Track who&apos;s bidding, when results drop, and what follows after.
+          </p>
+        </div>
+        <Button onClick={openAdd} className="shrink-0">
+          <Plus className="h-4 w-4" /> Watch a tender
+        </Button>
       </header>
 
       <RecentUpdates
@@ -91,6 +117,7 @@ export function TendersClient({
 
       <CpppSourceBar
         liveCount={liveTenders.length}
+        manualCount={manual.tenders.length}
         scanned={cpppScanned}
         fetchedAt={cpppFetchedAt}
         status={cpppStatus}
@@ -127,19 +154,36 @@ export function TendersClient({
           <TenderCard key={t.id} tender={t} onOpen={setOpenId} />
         ))}
         {tenders.length === 0 && (
-          <Card className="flex h-32 items-center justify-center text-sm text-muted-foreground">
-            No tenders match this filter.
+          <Card className="flex h-36 flex-col items-center justify-center gap-2 text-sm text-muted-foreground">
+            <span>No tenders match this filter.</span>
+            <Button variant="outline" size="sm" onClick={openAdd}>
+              <Plus className="h-3.5 w-3.5" /> Watch a tender
+            </Button>
           </Card>
         )}
       </div>
 
-      <TenderDetail tenderId={openId} tenders={allTenders} onClose={() => setOpenId(null)} />
+      <TenderDetail
+        tenderId={openId}
+        tenders={allTenders}
+        onClose={() => setOpenId(null)}
+        onEdit={openEdit}
+        onDelete={handleDelete}
+      />
+
+      <WatchTenderDialog
+        open={dialogOpen}
+        onOpenChange={setDialogOpen}
+        editTender={editTender}
+        onSave={manual.upsert}
+      />
     </div>
   );
 }
 
 function CpppSourceBar({
   liveCount,
+  manualCount,
   scanned,
   fetchedAt,
   status,
@@ -147,6 +191,7 @@ function CpppSourceBar({
   error,
 }: {
   liveCount: number;
+  manualCount: number;
   scanned: number;
   fetchedAt: string | null;
   status: "ok" | "empty" | "missing" | "error";
@@ -166,7 +211,7 @@ function CpppSourceBar({
     message = `${liveCount} live tender${liveCount === 1 ? "" : "s"} from CPPP matched your watchlist · ${scanned} scanned.`;
     tone = "ok";
   } else {
-    message = `Scanned ${scanned} CPPP tenders — 0 matched your watchlist sectors. Coverage widens as Railway (IREPS) and Defence portals are added.`;
+    message = `Scanned ${scanned} CPPP tenders — 0 matched. Add tenders you care about with "Watch a tender".`;
     tone = "muted";
   }
 
@@ -185,6 +230,11 @@ function CpppSourceBar({
         <Database className="h-3.5 w-3.5 text-muted-foreground" />
       )}
       <span>{message}</span>
+      {manualCount > 0 && (
+        <span className="rounded bg-primary/15 px-1.5 py-0.5 text-[10px] font-medium text-primary">
+          {manualCount} tracked manually
+        </span>
+      )}
       {fetchedAt && (
         <span className="ml-auto inline-flex items-center gap-1 text-[11px] text-muted-foreground">
           <Clock className="h-3 w-3" />

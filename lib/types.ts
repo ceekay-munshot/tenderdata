@@ -54,11 +54,13 @@ export interface Tender {
   winner?: string;
   followUps: FollowUp[];
   publishedAt: string;
-  sourcePortal: "CPPP" | "GeM" | "State";
+  sourcePortal: "CPPP" | "GeM" | "State" | "IREPS" | "Manual";
   sourceUrl?: string;
-  /** "live" = scraped from a real portal; "example" = seeded demo data.
-   *  Absent is treated as "example". */
-  dataSource?: "live" | "example";
+  /** "live" = scraped from a real portal; "manual" = added by the user;
+   *  "example" = seeded demo data. Absent is treated as "example". */
+  dataSource?: "live" | "manual" | "example";
+  /** Free-text notes the user attached (manual tenders only). */
+  notes?: string;
 }
 
 export interface WatchlistItem {

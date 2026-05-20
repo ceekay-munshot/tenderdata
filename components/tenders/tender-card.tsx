@@ -37,6 +37,8 @@ export function TenderCard({ tender, onOpen }: { tender: Tender; onOpen: (id: st
               <Badge variant="positive" className="gap-1 text-[10px]">
                 <span className="live-dot" /> Live · {tender.sourcePortal}
               </Badge>
+            ) : tender.dataSource === "manual" ? (
+              <Badge variant="default" className="text-[10px]">Watching</Badge>
             ) : (
               <Badge variant="neutral" className="text-[10px]">Example</Badge>
             )}
