@@ -87,7 +87,11 @@ jobs:
 
           if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
             git fetch origin data --depth=1
-            git checkout -B data origin/data
+            # -f discards the dirty main-branch working tree (the scrapers
+            # just overwrote data/*.json, which also exist on the data
+            # branch). The fresh output is already stashed in /tmp above,
+            # so forcing here is safe and avoids a checkout conflict.
+            git checkout -f -B data origin/data
           else
             git checkout --orphan data
             git rm -rf . >/dev/null 2>&1 || true
