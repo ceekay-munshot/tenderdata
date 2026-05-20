@@ -70,20 +70,30 @@ async function main() {
       `${result.tenders.length} matched watchlist sectors, in ${durationMs}ms`,
   );
 
-  // While the CPPP parser is still being tuned, dump the page HTML on any
-  // run with a thin result so the table structure + pagination controls
-  // can be inspected. (Threshold lowered back to ~0 once it's stable.)
-  if (result.totalRowsParsed < 50) {
-    const stripped = result.rawHtml
+  const strip = (html: string) =>
+    html
       .replace(/<script[\s\S]*?<\/script>/gi, "")
       .replace(/<style[\s\S]*?<\/style>/gi, "")
-      .replace(/<!--[\s\S]*?-->/g, "");
-    const debugPath = path.resolve("data", "cppp-debug.html");
-    await writeFile(debugPath, stripped.slice(0, 300_000), "utf8");
+      .replace(/<!--[\s\S]*?-->/g, "")
+      .slice(0, 300_000);
+
+  // When the 14-day POST fell back, dump the POST response so the Tapestry
+  // form contract can be diagnosed.
+  if (result.view === "today" && result.postDebug) {
+    const postPath = path.resolve("data", "cppp-post-debug.html");
+    await writeFile(postPath, strip(result.postDebug), "utf8");
     console.warn(
-      `WARNING: only ${result.totalRowsParsed} rows parsed — CPPP HTML may ` +
-        `differ from what the parser expects. Saved data/cppp-debug.html ` +
-        `(${stripped.length} chars, scripts/styles stripped) for inspection.`,
+      `WARNING: 14-day POST fell back to "today". Saved data/cppp-post-debug.html ` +
+        `(${result.postDebug.length} chars) for inspection.`,
+    );
+  }
+
+  // Dump the listing HTML if the parse itself looks thin.
+  if (result.totalRowsParsed < 20) {
+    const debugPath = path.resolve("data", "cppp-debug.html");
+    await writeFile(debugPath, strip(result.rawHtml), "utf8");
+    console.warn(
+      `WARNING: only ${result.totalRowsParsed} rows parsed — saved data/cppp-debug.html.`,
     );
   }
   for (const t of result.tenders.slice(0, 10)) {

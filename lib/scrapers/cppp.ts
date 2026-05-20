@@ -65,6 +65,9 @@ export interface CpppScrapeResult {
   view: CpppViewMode;
   /** Listing HTML (the view actually used) — caller may persist for debug. */
   rawHtml: string;
+  /** The POST response HTML when the 14-day switch did NOT yield rows —
+   *  captured so the Tapestry form contract can be debugged. */
+  postDebug?: string;
 }
 
 interface FetchOptions {
@@ -97,9 +100,12 @@ export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<Cppp
   let listHtml = base.html;
   let cookie = base.cookie;
   let view: CpppViewMode = "today";
+  let postDebug: string | undefined;
   try {
     const fields = extractFormFields(base.html, "#ListTendersbyDate");
-    if (fields.length > 0) {
+    if (fields.length === 0) {
+      postDebug = "No fields found in #ListTendersbyDate form.";
+    } else {
       const posted = await fetchHtml(CPPP_APP_URL, fetcher, {
         method: "POST",
         body: buildWiderWindowBody(fields),
@@ -111,10 +117,13 @@ export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<Cppp
         listHtml = posted.html;
         cookie = posted.cookie;
         view = "14day";
+      } else {
+        // POST didn't yield a listing — keep the response for debugging.
+        postDebug = posted.html;
       }
     }
-  } catch {
-    // Keep the "today" view — never return nothing.
+  } catch (err) {
+    postDebug = `POST threw: ${err instanceof Error ? err.message : String(err)}`;
   }
 
   // Step 3 — parse + follow GET pagination of whichever view we landed on.
@@ -136,7 +145,7 @@ export async function scrapeLatestTenders(opts: FetchOptions = {}): Promise<Cppp
     await delay(PAGE_DELAY_MS);
   }
 
-  return finalise(dedupeByRef(rows), pagesFetched, listHtml, view);
+  return finalise(dedupeByRef(rows), pagesFetched, listHtml, view, postDebug);
 }
 
 function finalise(
@@ -144,6 +153,7 @@ function finalise(
   pagesFetched: number,
   rawHtml: string,
   view: CpppViewMode,
+  postDebug?: string,
 ): CpppScrapeResult {
   const allRows: CpppTender[] = rows.map((row) => ({
     ...row,
@@ -156,6 +166,7 @@ function finalise(
     pagesFetched,
     view,
     rawHtml,
+    postDebug,
   };
 }
 

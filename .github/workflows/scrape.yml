@@ -81,9 +81,10 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p /tmp/scrape-out
-          cp data/bse-updates.json   /tmp/scrape-out/ 2>/dev/null || true
-          cp data/cppp-tenders.json  /tmp/scrape-out/ 2>/dev/null || true
-          cp data/cppp-debug.html    /tmp/scrape-out/ 2>/dev/null || true
+          cp data/bse-updates.json     /tmp/scrape-out/ 2>/dev/null || true
+          cp data/cppp-tenders.json    /tmp/scrape-out/ 2>/dev/null || true
+          cp data/cppp-debug.html      /tmp/scrape-out/ 2>/dev/null || true
+          cp data/cppp-post-debug.html /tmp/scrape-out/ 2>/dev/null || true
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -101,12 +102,13 @@ jobs:
           fi
 
           mkdir -p data
-          cp /tmp/scrape-out/bse-updates.json   data/ 2>/dev/null || true
-          cp /tmp/scrape-out/cppp-tenders.json  data/ 2>/dev/null || true
-          cp /tmp/scrape-out/cppp-debug.html    data/ 2>/dev/null || true
+          cp /tmp/scrape-out/bse-updates.json     data/ 2>/dev/null || true
+          cp /tmp/scrape-out/cppp-tenders.json    data/ 2>/dev/null || true
+          cp /tmp/scrape-out/cppp-debug.html      data/ 2>/dev/null || true
+          cp /tmp/scrape-out/cppp-post-debug.html data/ 2>/dev/null || true
 
           git add data/bse-updates.json data/cppp-tenders.json
-          git add data/cppp-debug.html 2>/dev/null || true
+          git add data/cppp-debug.html data/cppp-post-debug.html 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No content change — nothing to commit."
