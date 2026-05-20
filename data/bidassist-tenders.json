@@ -1,518 +1,464 @@
 {
-  "fetchedAt": "2026-05-20T18:27:02.637Z",
-  "durationMs": 14712,
+  "fetchedAt": "2026-05-20T22:02:57.322Z",
+  "durationMs": 14341,
   "ok": true,
   "apiCalls": 16,
   "totalScanned": 200,
-  "relevantCount": 3,
+  "relevantCount": 2,
   "tenders": [
     {
-      "tenderId": "e24f6e3f-8f80-4084-9b12-7fe755e2dd97",
-      "refNo": "NIT No. CGM(DandS)/APDCL/LAR/ Adani Power Ltd, Thermal PP/Bilasipara/2026-27/05",
-      "title": "Construction Of 33kv Dedicated Line And From 132/33kv Bilasipara Gss Udmari To The Premise Of M/s Adani Power Ltd., (thermal Power Plant) At Chiraubakra Jungle Block, Dhubri, Assam Under Deposit Work Scheme Under Bilasipara Electrical Sub-division On",
-      "buyer": "Assam Power Distribution Company Limited",
-      "procurementSource": "EPROCURE",
-      "state": "Assam",
-      "value": 72003263,
-      "emd": 1500000,
-      "bidDeadline": "2026-06-02T10:30:00.000Z",
-      "postedAt": "2026-05-20T04:30:00.000Z",
-      "sectorNames": [
-        "Electrical Works",
-        "Electrical and Electronics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/assam-power-distribution-company-limited/detail-e24f6e3f-8f80-4084-9b12-7fe755e2dd97",
+      "tenderId": "1e2f4dd3-a7de-4a5b-9220-b497021b9210",
+      "refNo": "CC/T/W-TW/DOM/A02/26/07157",
+      "title": "Transmission Line Package Tl03 For 765kv Double Circuit (dc) Line With Hexa Zebra Conductor From Kavathampalayam 765/400 Kv Ss To Ariyalur 765/400 Kv Ss Part-ii",
+      "buyer": "Power Grid Corporation Of India Limited",
+      "state": "Unknown",
+      "bidDeadline": "2026-06-01T05:30:00.000Z",
+      "postedAt": "2026-05-20T15:02:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/power-grid-corporation-of-india-limited/detail-1e2f4dd3-a7de-4a5b-9220-b497021b9210",
       "matchedKeywords": [
-        "thermal power plant"
+        "transmission line"
       ]
     },
     {
-      "tenderId": "b3a57a29-93a2-4463-9a9a-554b8fdcf481",
-      "refNo": "GEM/2026/B/7410056",
-      "title": "Category: Airfield Lighting System Of Runway With Helicopter Approach path Indicator , Voice Communication Control System , automatic Weather Station Awos With Frangible Mast , Ptz day And Night Camera System For Air Traffic Control recording , Power Generation System , Stabilized uninterrupted Power Distribution Network For Air Traffic services Equipment , Atc And User Consoles , Trailer mounted Mobile Atc , Server And Work Station",
-      "buyer": "Indian Army",
-      "purchaserGroup": "Defence",
-      "procurementSource": "GEM",
-      "state": "Punjab",
-      "value": 300000000,
-      "emd": 8910000,
-      "bidDeadline": "2026-07-04T05:30:00.000Z",
-      "postedAt": "2026-05-20T05:05:25.000Z",
-      "sectorNames": [
-        "Electronics Equipment",
-        "Aerospace and Defence"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/indian-army/detail-b3a57a29-93a2-4463-9a9a-554b8fdcf481",
+      "tenderId": "71527c65-0222-45b1-8feb-7ffa7348e970",
+      "refNo": "WR1/NT/W-MISC/DOM/F01/26/06323",
+      "title": "Drone Based Patrolling Of Transmission Lines For Identification Of Defects And Health Assessment Of Transmission Lines In Wr-1",
+      "buyer": "Power Grid Corporation Of India Limited",
+      "state": "Maharashtra",
+      "emd": 266000,
+      "bidDeadline": "2026-06-10T05:30:00.000Z",
+      "postedAt": "2026-05-20T12:30:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/power-grid-corporation-of-india-limited/detail-71527c65-0222-45b1-8feb-7ffa7348e970",
       "matchedKeywords": [
-        "helicopter"
-      ]
-    },
-    {
-      "tenderId": "07582854-3f8a-4727-bb87-c782e92f3ba7",
-      "refNo": "EE-A/07/2026-27",
-      "title": "Construction Rub Near Railway Bridge No. 215 On Jaipur Delhi Railway Line At Kartarpura Nallah And Widening Of Existing Culvert At Nallah, Jaipur",
-      "buyer": "Jaipur Development Authority",
-      "procurementSource": "EPROCURE",
-      "state": "Rajasthan",
-      "value": 140632000,
-      "emd": 2812640,
-      "bidDeadline": "2026-06-08T12:30:00.000Z",
-      "postedAt": "2026-05-20T04:00:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Drainage Work",
-        "Bridge Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/jaipur-development-authority/detail-07582854-3f8a-4727-bb87-c782e92f3ba7",
-      "matchedKeywords": [
-        "railway bridge"
+        "transmission line"
       ]
     }
   ],
   "sampleRows": [
     {
-      "tenderId": "b0cd5971-152c-41ff-8df7-1a6130528275",
-      "refNo": "SE/DHLC/HR/T-09/2026-27",
-      "title": "For The Work Of Supply Of Outsourced Electrical Assistant Under Dhule Rural Division",
-      "buyer": "Maharashtra State Electricity Distribution Company Limited",
-      "state": "Maharashtra",
-      "value": 43000000,
-      "emd": 215000,
-      "bidDeadline": "2026-05-29T12:50:00.000Z",
-      "postedAt": "2026-05-19T18:30:00.000Z",
-      "sectorNames": [
-        "Manpower Supply"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/maharashtra-state-electricity-distribution-company-limited/detail-b0cd5971-152c-41ff-8df7-1a6130528275",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "b8ea6c75-0b66-4bb4-a9be-18f4956a668f",
-      "refNo": "SE/DHLC/HR/T-08/2026-27",
-      "title": "Tender For The Work Of Supply Of Outsourced Electrical Assistant Under Dhule Ucr Division",
-      "buyer": "Maharashtra State Electricity Distribution Company Limited",
-      "state": "Maharashtra",
-      "value": 44000000,
-      "emd": 220000,
-      "bidDeadline": "2026-05-29T12:50:00.000Z",
-      "postedAt": "2026-05-19T18:30:00.000Z",
-      "sectorNames": [
-        "Manpower Supply"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/maharashtra-state-electricity-distribution-company-limited/detail-b8ea6c75-0b66-4bb4-a9be-18f4956a668f",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "b5d7a4cb-732e-45e4-b6ca-089f553e34af",
-      "refNo": "SE/DHLC/HR/T-10/2026-27",
-      "title": "For The Work Of Supply Of Outsourced Electrical Assistant Under Dondiacha Division",
-      "buyer": "Maharashtra State Electricity Distribution Company Limited",
-      "state": "Maharashtra",
-      "value": 43000000,
-      "emd": 215000,
-      "bidDeadline": "2026-05-29T12:50:00.000Z",
-      "postedAt": "2026-05-19T18:30:00.000Z",
-      "sectorNames": [
-        "Manpower Supply"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/maharashtra-state-electricity-distribution-company-limited/detail-b5d7a4cb-732e-45e4-b6ca-089f553e34af",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "1f7047d2-0a0f-4ec3-97ad-2b4b837a4e4c",
-      "refNo": "75 Dt.18.04.2026",
-      "title": "Construction Of 30 Nos C Type Shops And Rikt Sthano Per Cc Work At N.m.y. Milak",
-      "buyer": "Rajya Krishi Utpadan Mandi Parishad",
-      "procurementSource": "EPROCURE",
-      "state": "Uttar Pradesh",
-      "value": 20954000,
-      "emd": 1250000,
-      "bidDeadline": "2026-06-05T11:30:00.000Z",
-      "postedAt": "2026-05-20T04:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/rajya-krishi-utpadan-mandi-parishad/detail-1f7047d2-0a0f-4ec3-97ad-2b4b837a4e4c",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "a2aaf044-61dd-4c12-a445-be1699a373a5",
-      "refNo": "52.W/17/38/ARM(C)-NCM/2026-PMD",
-      "title": "Annual Repairs And Maintenance (arm) Of Civil Works Of Esi Hospital, Nacharam, Esi Dispensary Kavadiguda And Esi Dispensary Goshamahal, Hyderabad During 2026-27.",
-      "buyer": "Employees State Insurance Corporation",
-      "purchaserGroup": "Health",
-      "procurementSource": "EPROCURE",
-      "state": "Telangana",
-      "value": 21163916,
-      "emd": 423278,
-      "bidDeadline": "2026-06-12T11:30:00.000Z",
-      "postedAt": "2026-05-20T07:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/employees-state-insurance-corporation/detail-a2aaf044-61dd-4c12-a445-be1699a373a5",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "bac94703-c309-4da8-a0dc-d398dec4ab25",
-      "refNo": "1979/Etender/176 Dt 20.05.2026",
-      "title": "Construction Of Zonal Office Under Cmvny Scheme In Nagar Nigam Meerut At Distt- Meerut (u.p.)",
-      "buyer": "UP Jal Nigam",
-      "procurementSource": "EPROCURE",
-      "state": "Uttar Pradesh",
-      "value": 100000000,
-      "emd": 1000000,
-      "bidDeadline": "2026-06-04T09:30:00.000Z",
-      "postedAt": "2026-05-20T08:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/up-jal-nigam/detail-bac94703-c309-4da8-a0dc-d398dec4ab25",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "a210376b-5cb0-4245-bfae-0df7008d71b8",
-      "refNo": "JEPC/CIV/03/2267/2026/1980",
-      "title": "1. Construction Of 11 Additional Class Room In R.k. Plus 2 Hs Dhurki 2. Construction Of 08 Additional Class Room In R.k. S.p.d High School Hariharpur In Garhwa District Of Palamu Divison Of Jharkhand",
-      "buyer": "Jharkhand Education Project Council",
-      "purchaserGroup": "Education",
-      "procurementSource": "EPROCURE",
-      "state": "Jharkhand",
-      "value": 24857953,
-      "emd": 497500,
-      "bidDeadline": "2026-06-01T08:30:00.000Z",
-      "postedAt": "2026-05-20T07:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/jharkhand-education-project-council/detail-a210376b-5cb0-4245-bfae-0df7008d71b8",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "a95c86ae-4a43-469b-986d-ef8ac25bb8c2",
-      "refNo": "GEM/2026/B/7563962",
-      "title": "Category: Handling And Transport On Lumpsum Basis - Handling & transport Service",
-      "buyer": "Container Corporation Of India Limited",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "GEM",
-      "state": "Gujarat",
-      "value": 65801520,
-      "emd": 500000,
-      "bidDeadline": "2026-06-04T09:30:00.000Z",
-      "postedAt": "2026-05-20T09:37:34.000Z",
-      "sectorNames": [
-        "Transportation and Logistics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/container-corporation-of-india-limited/detail-a95c86ae-4a43-469b-986d-ef8ac25bb8c2",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "8529d119-7dbb-4379-8752-dd70baf10f9a",
-      "refNo": "EE/CD-XIX/DB/2026-27/04",
-      "title": "Improvement Of Streets And Side Drain At E-block Part-i Qutub Vihar Phase- Ii In Matiala Assembly Constituency Ac-34(regd No. 601)",
-      "buyer": "Irrigation and Flood Control",
-      "procurementSource": "EPROCURE",
-      "state": "Delhi",
-      "value": 45147336,
-      "emd": 902947,
-      "bidDeadline": "2026-05-29T09:30:00.000Z",
-      "postedAt": "2026-05-20T05:45:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Drainage Work"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/irrigation-and-flood-control/detail-8529d119-7dbb-4379-8752-dd70baf10f9a",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "2269c448-7a6a-466b-8ab0-448df4031da5",
-      "refNo": "GM(K)/CC/CHPMM/2512/V8/E3910",
-      "title": "Biennial Rate Contract For Providing Services Of Eight 08 No Of 50 Seater And 01 No 25 Seater Buses On Hiring Basis For The Employees Of Ktps From Township To Plant And Back And Other Associated Trips",
-      "buyer": "The West Bengal Power Development Corporation Limited",
-      "procurementSource": "EPROCURE",
-      "state": "West Bengal",
-      "value": 43732230,
-      "emd": 874645,
-      "bidDeadline": "2026-06-15T08:30:00.000Z",
-      "postedAt": "2026-05-20T07:30:00.000Z",
-      "sectorNames": [
-        "Hiring of Vehicles"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/the-west-bengal-power-development-corporation-limited/detail-2269c448-7a6a-466b-8ab0-448df4031da5",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "bd0b8a25-7949-41d7-aafc-6611f224826f",
-      "refNo": "CMPDI/RI-II/Civ/eTen/26-27/491",
-      "title": "Comprehensive Annual Maintenance Contract For Office Building And Residential Building Of Cmpdi Ri-ii For Two Years.",
-      "buyer": "Central Mine Planning And Design Institute Limited",
-      "procurementSource": "EPROCURE",
-      "state": "Jharkhand",
-      "value": 21459995,
-      "emd": 268300,
-      "bidDeadline": "2026-06-04T05:30:00.000Z",
-      "postedAt": "2026-05-20T05:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/central-mine-planning-and-design-institute-limited/detail-bd0b8a25-7949-41d7-aafc-6611f224826f",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "87daf398-0c02-4bdd-99dc-3bfdad6026ab",
-      "refNo": "EE/CD-XIX/DB/2026-27/01",
-      "title": "Improvement Of Streets And Side Drain At Improvement Of Streets And Side Drain At D Block Part-ii Qutub Vihar Phase-ii In Matiala Assembly Constituency Ac-34",
-      "buyer": "Irrigation and Flood Control",
-      "procurementSource": "EPROCURE",
-      "state": "Delhi",
-      "value": 45600789,
-      "emd": 912016,
-      "bidDeadline": "2026-05-29T09:30:00.000Z",
-      "postedAt": "2026-05-20T05:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Drainage Work"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/irrigation-and-flood-control/detail-87daf398-0c02-4bdd-99dc-3bfdad6026ab",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "6edbf72a-db24-45a4-a855-8ff82f1b0994",
-      "refNo": "E-NIT No. JDA/SE/2026-27/01 Dated 20-05-2026",
-      "title": "Collection Of Parking Charges For Jda Multilevel Parking At General Bus Stand Jammu",
-      "buyer": "Housing And Urban Development Department",
-      "procurementSource": "EPROCURE",
-      "state": "Jammu & Kashmir",
-      "value": 22500000,
-      "emd": 2250000,
-      "bidDeadline": "2026-06-09T08:30:00.000Z",
-      "postedAt": "2026-05-20T07:30:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/housing-and-urban-development-department/detail-6edbf72a-db24-45a4-a855-8ff82f1b0994",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "63232745-2e75-4112-87d8-66fe09674fa9",
-      "refNo": "EE/CD-XIX/DB/2026-27/03",
-      "title": "Improvement Of Streets And Side Drain At E-block Part-ii Qutub Vihar Phase- Ii In Matiala Assembly Constituency, Ac-34 (regd No. 601)",
-      "buyer": "Irrigation and Flood Control",
-      "procurementSource": "EPROCURE",
-      "state": "Delhi",
-      "value": 34511390,
-      "emd": 690228,
-      "bidDeadline": "2026-05-29T09:30:00.000Z",
-      "postedAt": "2026-05-20T05:40:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Drainage Work"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/irrigation-and-flood-control/detail-63232745-2e75-4112-87d8-66fe09674fa9",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "0df14994-cbc7-4cd8-8886-03004f87b103",
-      "refNo": "CE-Bldg-I-02/2026-27",
-      "title": "Construction Of Community Health Centre At Barkote In The District Of Deogarh.",
-      "buyer": "Rural Development Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "EPROCURE",
-      "state": "Odisha",
-      "value": 166173743,
-      "emd": 1662000,
-      "bidDeadline": "2026-05-28T11:30:00.000Z",
-      "postedAt": "2026-05-20T06:00:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/rural-development-department/detail-0df14994-cbc7-4cd8-8886-03004f87b103",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "b6c24672-95b8-4268-a306-e8410f45d2f6",
-      "refNo": "2552/25M",
-      "title": "Desilting In Longitudinal Length From Rd 7000 To 9800 Of Sutlej River Opposite Fp Bundh Rd 0 To 110920 To Guide The Flow Of River Near Village Dineke And Gatta Badshah Of Tehsil Zira District Ferozepur",
-      "buyer": "Water Resources Department",
-      "procurementSource": "EPROCURE",
-      "state": "Punjab",
-      "value": 37500000,
-      "emd": 500000,
-      "bidDeadline": "2026-05-29T04:30:00.000Z",
-      "postedAt": "2026-05-20T08:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Environmental Service"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/water-resources-department/detail-b6c24672-95b8-4268-a306-e8410f45d2f6",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "e60d8bf1-55f2-4dee-9af2-0c4ab912a149",
-      "refNo": "KRDCL/TVC/BOQ/2026/DCC-03",
-      "title": "Redevelopment Of Thiruvananthapuram Railway Station -foundation Work Of Departure Concourse Dcc",
-      "buyer": "Kerala Rail Development Corporation Limited",
-      "purchaserGroup": "Railways",
-      "procurementSource": "EPROCURE",
-      "state": "Kerala",
-      "value": 20339412,
-      "emd": 251700,
-      "bidDeadline": "2026-06-03T09:30:00.000Z",
-      "postedAt": "2026-05-20T08:00:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/kerala-rail-development-corporation-limited/detail-e60d8bf1-55f2-4dee-9af2-0c4ab912a149",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "ba5710b0-994c-40fd-acee-63c5386e5280",
-      "refNo": "EE/CD-XIX/DB/2026-27/02",
-      "title": "Improvement Of Streets And Side Drain At D Block Part-i Qutub Vihar Phase-ii In Matiala Assembly Constitu Ency Ac-34",
-      "buyer": "Irrigation and Flood Control",
-      "procurementSource": "EPROCURE",
-      "state": "Delhi",
-      "value": 47897603,
-      "emd": 957952,
-      "bidDeadline": "2026-05-29T09:30:00.000Z",
-      "postedAt": "2026-05-20T05:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Drainage Work"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/irrigation-and-flood-control/detail-ba5710b0-994c-40fd-acee-63c5386e5280",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "42816ff6-33b7-4034-886e-51d42ca4aaac",
-      "refNo": "CE AND BM - MB- 02/2026-2027(Online)",
-      "title": "Renovation Of Canal System Of Hirakud Dam Project Of Papanga Canal Section",
-      "buyer": "Water Resources Department",
-      "procurementSource": "EPROCURE",
-      "state": "Odisha",
-      "value": 279620023,
-      "emd": 2796200,
-      "bidDeadline": "2026-06-10T11:30:00.000Z",
-      "postedAt": "2026-05-20T06:00:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Irrigation Work"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/water-resources-department/detail-42816ff6-33b7-4034-886e-51d42ca4aaac",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "f006d643-651d-4192-aefa-7c28e82829ba",
-      "refNo": "GEM/2026/B/7541195",
-      "title": "Category: Hiring Of Sanitation Service - Manpower Based Model - sanitary Attendant; 7; All Areas; All Areas; Daily; 1 , Hiring of Sanitation Service - Manpower Based Model - Supervisor; 7; All Areas; All Areas; Daily; 1",
-      "buyer": "All India Institute Of Medical Sciences",
-      "purchaserGroup": "Education",
-      "procurementSource": "GEM",
-      "state": "Maharashtra",
-      "value": 298018850.57,
-      "emd": 6000000,
-      "bidDeadline": "2026-06-03T11:30:00.000Z",
-      "postedAt": "2026-05-20T09:37:27.000Z",
-      "sectorNames": [
-        "Housekeeping Services",
-        "Manpower Supply"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/all-india-institute-of-medical-sciences/detail-f006d643-651d-4192-aefa-7c28e82829ba",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "032e91a8-0b2f-4d9a-abf8-167dd028b2c2",
-      "refNo": "GEM/2026/B/7563888",
-      "title": "Category: Manpower Outsourcing Services - Fixed Remuneration - others; Office Peon; High School",
-      "buyer": "Secondary Education Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "GEM",
-      "state": "Uttar Pradesh",
-      "value": 113105693,
-      "emd": 1131057,
-      "bidDeadline": "2026-06-04T10:30:00.000Z",
-      "postedAt": "2026-05-20T09:59:42.000Z",
-      "sectorNames": [
-        "Manpower Supply"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/secondary-education-department/detail-032e91a8-0b2f-4d9a-abf8-167dd028b2c2",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "9a319d35-c3a8-4064-aab0-858dbb941223",
-      "refNo": "GEM/2026/B/7563991",
-      "title": "Category: Goods Transport Services - Per Mt - Food Grains, Regular rtc J&k Dhariwal To Kishtwar Te 11062026; Open Body taurus; 16 Ft Truck",
-      "buyer": "Food Corporation Of India",
-      "procurementSource": "GEM",
-      "state": "Chandigarh",
-      "value": 21379000,
-      "emd": 427580,
-      "bidDeadline": "2026-06-11T04:30:00.000Z",
-      "postedAt": "2026-05-20T09:24:40.000Z",
-      "sectorNames": [
-        "Transportation and Logistics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/food-corporation-of-india/detail-9a319d35-c3a8-4064-aab0-858dbb941223",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "5cedfc04-a34d-4c9b-8cb8-920c6855f176",
-      "refNo": "GEM/2026/B/7563119",
-      "title": "Category: Manpower Outsourcing Services - Fixed Remuneration - deputy Librarian; Librarian; Degree In Library Science / diploma In Library Science (02 Years) And Ccc Certificate , manpower Outsourcing Services - Fixed Remuneration - admin; Computer Operator; Graduate Preferably With Maths physics Stat Doe Diploma O Level Or Equivalent With minimum 01 Year Experience , Manpower Outsourcing services - Fixed Remuneration - Admin; Stenographer; intermediate And Short Hand In Hindi 80 Words Per Minute and Typing In Hindi 30 Words Per Minute And English Typing 25 Words Per Minute With Ccc , Manpower Outsourcing services - Fixed Remuneration - Admin; Medical Social worker; Graduate In Social Work Or Socialogy , manpower Outsourcing Services - Fixed Remuneration - admin; Legal Advisor; Degree In Law , Manpower outsourcing Services - Fixed Remuneration - Admin; Artist moduler; Graduate , Manpower Outsourcing Services - fixed Remuneration - Admin; Audio Visual Technician; graduate , Manpower Outsourcing Services - Fixed remuneration - Admin; Cataloguer; Graduate , Manpower outsourcing Services - Fixed Remuneration - Healthcare; dietician; M Sc Food Nutrition From A Recognized University institution With 2 Years Experience In The Line Preferably In A large Teaching Hospital , Manpower Outsourcing Services - fixed Remuneration - Healthcare; Occupation Therapist; intermediate With Science And Diploma In Occupational therapy Affiliated Recognized Institute , Manpower outsourcing Services - Fixed Remuneration - Healthcare; psychiatry Social Worker; Graduate With psychology , Manpower Outsourcing Services - Fixed remuneration - Healthcare; Speech Therapist; Diploma B sc Speech And Hearing And Experience Of 01 Year In Related works And Registration In Rehabilitation Council Of India , manpower Outsourcing Services - Fixed Remuneration - admin; Electrician; Graduation With 05 Years Experience In electric Work , Manpower Outsourcing Services - Fixed remuneration - Healthcare; Health Assistant; Graduate , manpower Outsourcing Services - Fixed Remuneration - healthcare; Health Educator; Graduate , Manpower outsourcing Services - Fixed Remuneration - Healthcare; health Inspector; Graduate , Manpower Outsourcing services - Fixed Remuneration - Admin; Photographer; graduate , Manpower Outsourcing Services - Fixed remuneration - Admin; Driver; 10th Pass With Valid commercial Driving License , Manpower Outsourcing services - Fixed Remuneration - Healthcare; Technical assistant Technician Dialysis Technician Plaster technician; 12th With Science Subjects Physics Chemistry and Biology Biotechnology And 2 Years Regular Diploma In medical , Manpower Outsourcing Services - Fixed remuneration - Healthcare; T B And Chest Health visitor; Graduate",
-      "buyer": "Medical Education Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "GEM",
-      "state": "Uttar Pradesh",
-      "value": 156333019.76,
-      "emd": 1563331,
-      "bidDeadline": "2026-06-10T08:30:00.000Z",
-      "postedAt": "2026-05-20T09:26:14.000Z",
-      "sectorNames": [
-        "Manpower Supply"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/medical-education-department/detail-5cedfc04-a34d-4c9b-8cb8-920c6855f176",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "2ac4ce1a-1324-48ff-bddf-83f9cafbf8d0",
-      "refNo": "17/GM(E/M)/SM(E/M)-IV/2026-27",
-      "title": "Construction Of 33/11kv Sub-station In Sector-156, Noida (electrical Work)",
-      "buyer": "New Okhla Industrial Development Authority",
-      "procurementSource": "EPROCURE",
-      "state": "Uttar Pradesh",
-      "value": 107687473,
-      "emd": 2077000,
-      "bidDeadline": "2026-06-02T11:30:00.000Z",
-      "postedAt": "2026-05-20T08:30:00.000Z",
+      "tenderId": "f1d68c3e-c18b-4d97-a508-2476d96cfde1",
+      "refNo": "NIT-42/SBD/2025-26/GR-03",
+      "title": "Construction Of Training Class Room At Police Line Purnia In The District Of Purnia With Electrification",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 36159024,
+      "emd": 723180,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Electrical Works",
         "Electrical and Electronics"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/new-okhla-industrial-development-authority/detail-2ac4ce1a-1324-48ff-bddf-83f9cafbf8d0",
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-f1d68c3e-c18b-4d97-a508-2476d96cfde1",
       "matchedKeywords": []
     },
     {
-      "tenderId": "d5a7180a-e8b6-4739-8171-7001ff94d53c",
-      "refNo": "343/E-Tender/EPC/GM Ayodhya/2026 Dt 19.05.2026",
-      "title": "Design And Construction Of Bridge, Approach Road, Additional Approach Road And Protection Work At Nirsahiya Ghat On Gomti River Located On The Kumhayi-nirsahiya-bahadurpur Route Off The Sultanpur-kudwar Road Block Dhanpatganj Distt Sultanpur Epc Mode",
-      "buyer": "Uttar Pradesh State Bridge Corporation Limited",
-      "procurementSource": "EPROCURE",
-      "state": "Uttar Pradesh",
-      "value": 229656819,
-      "emd": 4593000,
-      "bidDeadline": "2026-06-04T11:30:00.000Z",
-      "postedAt": "2026-05-20T04:30:00.000Z",
+      "tenderId": "eb5cd3af-a58a-4d35-aa0e-0a935f57faa0",
+      "refNo": "NIT-42/SBD/2025-26/GR-01",
+      "title": "Construction Of 02 Unit Fire Station Building At Barsoi In The District Of Katihar With Electrification",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 53988028,
+      "emd": 1079761,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
-        "Bridge Construction"
+        "Building Construction",
+        "Electrical Works"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/uttar-pradesh-state-bridge-corporation-limited/detail-d5a7180a-e8b6-4739-8171-7001ff94d53c",
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-eb5cd3af-a58a-4d35-aa0e-0a935f57faa0",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f57619b7-6a57-43ef-b500-5eff421c4ea4",
+      "refNo": "NIT-42/SBD/2025-26/GR-06",
+      "title": "Construction Of Boundary Wall At Bsap Dumraon In The District Of Buxar",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 23888399,
+      "emd": 477768,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-f57619b7-6a57-43ef-b500-5eff421c4ea4",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "4e1ce921-4f8c-495b-8230-469f5cebfb77",
+      "refNo": "NIT-42/SBD/2025-26/GR-07",
+      "title": "Construction Of Traffic Police Station Building (g+4), Jehanabad In The District Of Jehanabad - With Electrification",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 62064932,
+      "emd": 1241299,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction",
+        "Electrical Works"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-4e1ce921-4f8c-495b-8230-469f5cebfb77",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "3a1f31a5-6109-439f-ae81-50c15160ace7",
+      "refNo": "NIT-42/SBD/2025-26/GR-04",
+      "title": "Construction Of Model Police Station Building (g+3) At Pipra Police Station In The District Of Patna With Electrification",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 58499993,
+      "emd": 1170000,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-3a1f31a5-6109-439f-ae81-50c15160ace7",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "fc3255ee-a333-40ec-b1e1-9e6a06e62f5a",
+      "refNo": "TCN NO.01 OF 2026-27",
+      "title": "Construction Of Internal Roads Of Nkzp From Ch 0/00km To 0/854km Inside Nandankanan Zoological Park, Bhubaneswar",
+      "buyer": "Works Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Odisha",
+      "value": 51066857,
+      "emd": 510669,
+      "bidDeadline": "2026-06-03T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:25:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/works-department/detail-fc3255ee-a333-40ec-b1e1-9e6a06e62f5a",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "e46a2387-3430-47c1-bde9-25a7a06ca4a4",
+      "refNo": "TCN NO.01 OF 2026-27",
+      "title": "Structural Strengthening Of Existing Boundary Wall Inside Nandankan Zoological Park Bhubaneswar (roads)",
+      "buyer": "Works Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Odisha",
+      "value": 27570641,
+      "emd": 275706,
+      "bidDeadline": "2026-06-03T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:25:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/works-department/detail-e46a2387-3430-47c1-bde9-25a7a06ca4a4",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "decd41ce-ae32-4212-b447-da1d545a3e42",
+      "refNo": "NIT-42/SBD/2025-26/GR-05",
+      "title": "Construction Of Training Class Room (g+1) At Police Line, Patna In The District Of Patna - With Electrification",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 34920090,
+      "emd": 698402,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-decd41ce-ae32-4212-b447-da1d545a3e42",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "5ac13e89-7e66-426e-9072-299d16d3f7cf",
+      "refNo": "TCN NO.01 OF 2026-27",
+      "title": "Construction Of Internal Road Nkzp From Ch 0/00km To 0//689km Inside Nandankanan Zoological Park, Bhubaneswar",
+      "buyer": "Works Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Odisha",
+      "value": 20339527,
+      "emd": 203395,
+      "bidDeadline": "2026-06-03T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:25:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/works-department/detail-5ac13e89-7e66-426e-9072-299d16d3f7cf",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0edcaf16-9ee4-4fea-a697-5bf81346e56a",
+      "refNo": "NIT-42/SBD/2025-26/GR-02",
+      "title": "Construction Of Training Class Room Building At Police Line Katihar In The District Of Katihar With Electrification",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 36172583,
+      "emd": 723452,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-0edcaf16-9ee4-4fea-a697-5bf81346e56a",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "c8f25681-202f-4b38-b3cf-d2d250be7161",
+      "refNo": "2267743",
+      "title": "Residential Flat No. Mf-2 (mig), Total Area Measuring 65.02 Sq. Mtr.",
+      "buyer": "LIC Housing Finance Limited",
+      "state": "Uttar Pradesh",
+      "value": 2570000,
+      "emd": 257000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/lic-housing-finance-limited/detail-c8f25681-202f-4b38-b3cf-d2d250be7161",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "06cbfa74-9893-448f-bfb2-5033d64b6e37",
+      "refNo": "2267767",
+      "title": "Land Admeasuring 57.45 Cents 8.30 Cents Plus 19.71 Cents Plus 29.44 Cents",
+      "buyer": "South Indian Bank",
+      "purchaserGroup": "Banking",
+      "state": "Kerala",
+      "value": 3630000,
+      "emd": 363000,
+      "bidDeadline": "2026-06-10T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-indian-bank/detail-06cbfa74-9893-448f-bfb2-5033d64b6e37",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ca91f94f-1ea5-45da-9a71-ba779bea5f31",
+      "refNo": "2267762",
+      "title": "Land Admeasuring 4.05 Ares Along With Residential Building",
+      "buyer": "South Indian Bank",
+      "purchaserGroup": "Banking",
+      "state": "Kerala",
+      "value": 2050000,
+      "emd": 205000,
+      "bidDeadline": "2026-06-06T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-indian-bank/detail-ca91f94f-1ea5-45da-9a71-ba779bea5f31",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "5856b518-2027-459f-9e5c-a3b70f59686d",
+      "refNo": "CIFC/MH/SAT/067",
+      "title": "Sr No - I6/3a/2 Mlikat No-0821000797 Islamplrwalwasangli Near V1scb Office Valava415409 , Satara, Maharashtra",
+      "buyer": "Cholamandalam Investment And Finance Company Limited",
+      "state": "Maharashtra",
+      "value": 8131600,
+      "emd": 813160,
+      "bidDeadline": "2026-06-12T18:30:00.000Z",
+      "postedAt": "2026-06-11T18:30:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/cholamandalam-investment-and-finance-company-limited/detail-5856b518-2027-459f-9e5c-a3b70f59686d",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "320c97a2-4681-4426-b2c4-8de88d8f859c",
+      "refNo": "2267748",
+      "title": "First Floor, Measuring 32.00 Sq. Mtrs",
+      "buyer": "LIC Housing Finance Limited",
+      "state": "Delhi",
+      "value": 2037750,
+      "emd": 203775,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/lic-housing-finance-limited/detail-320c97a2-4681-4426-b2c4-8de88d8f859c",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "45f57d1a-e996-495a-bd71-b3217b2d2485",
+      "refNo": "2267751",
+      "title": "Land Admeasuring 17.75 Cents With Residential Building Having 1200 Sq.ft Area (approx.)",
+      "buyer": "South Indian Bank",
+      "purchaserGroup": "Banking",
+      "state": "Kerala",
+      "value": 3588000,
+      "emd": 358800,
+      "bidDeadline": "2026-06-16T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-indian-bank/detail-45f57d1a-e996-495a-bd71-b3217b2d2485",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "779ed106-7e63-498d-b154-5b11ab32d18c",
+      "refNo": "CIFC/UP/JHA/006",
+      "title": "All That Piece And Parcel Of Residential House. Total Area Of 1596 Sq. Ft. Situated At Plot No. 928, Kasha Samthar, Viohalla Vijaygarh, Pargana Moth, Dist.- Jhansi, Uttar Pradesh - 284304 East: - House Of Anuradha Sahu. West: - House Of Sahid Khan. North: - 31ft Wide Road. South: - Plot Of Other. , Jhansi, Uttar Pradesh",
+      "buyer": "Cholamandalam Investment And Finance Company Limited",
+      "state": "Uttar Pradesh",
+      "value": 4713200,
+      "emd": 471320,
+      "bidDeadline": "2026-06-12T18:30:00.000Z",
+      "postedAt": "2026-06-11T18:30:00.000Z",
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/cholamandalam-investment-and-finance-company-limited/detail-779ed106-7e63-498d-b154-5b11ab32d18c",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "eac78ddc-6450-40dd-9602-4102b2b173fb",
+      "refNo": "2267732",
+      "title": "Ambapuram, Vijayawada, Rsno:100 2, Plot No:6 Part, Krishna, Andhra Pradesh 520012.",
+      "buyer": "PNB Housing Finance Limited",
+      "state": "Andhra Pradesh",
+      "value": 2246000,
+      "emd": 224600,
+      "bidDeadline": "2026-06-07T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/pnb-housing-finance-limited/detail-eac78ddc-6450-40dd-9602-4102b2b173fb",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f8955efb-8277-4b01-b1bc-4346420b245d",
+      "refNo": "2267803",
+      "title": "Residential House Extent 60 Sq Feet",
+      "buyer": "IKF Home Finance Limited",
+      "state": "Karnataka",
+      "value": 4200000,
+      "emd": 420000,
+      "bidDeadline": "2026-06-22T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/ikf-home-finance-limited/detail-f8955efb-8277-4b01-b1bc-4346420b245d",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "46823bea-d978-473b-a897-cc5b2a3718c7",
+      "refNo": "2267731",
+      "title": "Flat No. Ff4, Fourth Floor, Snk Towers, R.s. No. 91 2a, Near Door No.: 21 51, Ibrahimpatnam, Krishna, Andhra Pradesh, 521456",
+      "buyer": "PNB Housing Finance Limited",
+      "state": "Andhra Pradesh",
+      "value": 2662000,
+      "emd": 266200,
+      "bidDeadline": "2026-06-07T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/pnb-housing-finance-limited/detail-46823bea-d978-473b-a897-cc5b2a3718c7",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f3cc3e39-2f5c-4472-849a-1a098b2f5c98",
+      "refNo": "2267775",
+      "title": "All Measuring 666.06 Square Meter, Along With Building Constructed",
+      "buyer": "Protium Finance Limited",
+      "state": "Karnataka",
+      "value": 7026300,
+      "emd": 702630,
+      "bidDeadline": "2026-06-23T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/protium-finance-limited/detail-f3cc3e39-2f5c-4472-849a-1a098b2f5c98",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0f34f3a1-58c3-450a-803a-4ed60657faf2",
+      "refNo": "2267917",
+      "title": "Sy No. 212 1, Kuruvilassery Village, Chalakudy Taluk Mukundapuram, Thrissur, Kerala, 680732",
+      "buyer": "PNB Housing Finance Limited",
+      "state": "Kerala",
+      "value": 1800000,
+      "emd": 180000,
+      "bidDeadline": "2026-06-07T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/pnb-housing-finance-limited/detail-0f34f3a1-58c3-450a-803a-4ed60657faf2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "d47e419a-d111-44e7-a2e9-4ee7996f83c2",
+      "refNo": "2267746",
+      "title": "Second Floor And Third Floor Plot No. 55, Area Measuring 50 Sq. Yards",
+      "buyer": "LIC Housing Finance Limited",
+      "state": "Delhi",
+      "value": 3840000,
+      "emd": 384000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/lic-housing-finance-limited/detail-d47e419a-d111-44e7-a2e9-4ee7996f83c2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "306eb603-2797-4812-9a21-e2a744066c5e",
+      "refNo": "CIFC/TN/TIR/092",
+      "title": "All That Piece And Parcel Of Vacant Land Measuring An Extent Of 10541 Sq. Feet (by Virtue Of The Sub-division Plan, Vide Planning Permit No. 432/14/f2dated 11-08-2014, Bearing Plot Nos. 186 With 12 Feet Wide Passage), Situated At Cholambedu Road, Thamarai Nagar Extension, Thirumullaivoyal, Chennai - 600 062 And Comprised In Old Survey No. 502/2 And By Virtue Of Town Survey Field Register Bearing New Survey Nos. 502/2g & 502/2h And Correlated To T.s. No. 27/2 In Block No. 100 Of Ward D Of Thirumullaivoyal Village, Ambattur Taluk, Tiruvallur District, Within The Registration District Of North-chennai And Sub-registration Of Ambattur, Within The Civic Limits Of Municipality Of Avadi, With The Following Boundaries: - North By 20 Feet Wide Road; South By: Cholambedu Road; East By Land Comprised In Survey No. 502/3 Belonging To Mr. Arumuganaicker And Mr. Natesanaicker, West By Vacant Housing Plot Bearing Plot No. 2-f Comprised In Survey No. 502/2 Measuring:- East To West On The Northern Side :48 Feet 03 , Tiruvallur, Tamil Nadu",
+      "buyer": "Cholamandalam Investment And Finance Company Limited",
+      "state": "Tamil Nadu",
+      "value": 4170400,
+      "emd": 417040,
+      "bidDeadline": "2026-06-14T18:30:00.000Z",
+      "postedAt": "2026-06-12T18:30:00.000Z",
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/cholamandalam-investment-and-finance-company-limited/detail-306eb603-2797-4812-9a21-e2a744066c5e",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "3c8f0f4a-5923-4f77-b408-26ecc5df086b",
+      "refNo": "2267747",
+      "title": "Third Floor, H-3/123, Area Measuring 80 Sq. Yds.",
+      "buyer": "LIC Housing Finance Limited",
+      "state": "Delhi",
+      "value": 2725000,
+      "emd": 272500,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/lic-housing-finance-limited/detail-3c8f0f4a-5923-4f77-b408-26ecc5df086b",
       "matchedKeywords": []
     }
   ]
