@@ -1,188 +1,33 @@
 {
-  "probedAt": "2026-05-20T04:21:16.049Z",
-  "scriptCount": 7,
-  "doEndpointsFound": [
-    "/common/vendorRegistrationRequest.do",
-    "/common/deptPostUserReq.do",
-    "/auction/onLineRegisterBybidder.do",
-    "epsn/works/irepsDocuments.do",
-    "/FeedbackForm.do",
-    "/home/showTenderDetails.do",
-    "/home/viewRlyTenders.do",
-    "/auction/annonimousViewAuctionSchedule.do",
-    "/anonymSearch.do",
-    "epsn/anonymSearch.do",
-    "epsn/guestLogin.do",
-    "epsn/anonymSearchPO.do",
-    "/anonymQuickSearch.do",
-    "/admin/AnnonumousAction.do",
-    "epsn/bannedFirms.do",
-    "epsn/reports/ItemReport.do",
-    "epsn/reports/HighValue.do",
-    "epsn/reports/AnnualProcurmentValue.do",
-    "epsn/laAnonymousSearchLink.do",
-    "eps/helpdesk/querisAfterLogin.do"
-  ],
-  "results": [
+  "probedAt": "2026-05-20T04:39:50.315Z",
+  "docUrl": "https://www.ireps.gov.in/epsn/works/irepsDocuments.do",
+  "status": 200,
+  "bytes": 32430,
+  "captchaImageTags": 0,
+  "captchaInputTags": 0,
+  "formCount": 1,
+  "forms": [
     {
-      "url": "https://www.ireps.gov.in/home/showTenderDetails.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/home/viewRlyTenders.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/anonymSearch.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/epsn/anonymSearch.do",
-      "status": 200,
-      "bytes": 45219,
-      "otpWalled": true,
-      "hasCaptcha": true,
-      "tableCount": 3,
-      "trCount": 10,
-      "textSample": "Guest &nbsp; Government eMarketplace Indian Railways E-Procurement System A - A A + &#x1F319; / &#x2600; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Your Language A - A A + &#x1F319; / &#x2600; --> &nbsp; &nbsp; Error Code : ADM.004 Message �� : Your session has expired, please login again to ����������������������continue... !! Authenticate Yourself For All types of Tenders (Goods & Services, Works, Earning / Leasing) ---> Foreign users can install the IREPS mobil"
-    },
-    {
-      "url": "https://www.ireps.gov.in/epsn/anonymSearchPO.do",
-      "status": 200,
-      "bytes": 45183,
-      "otpWalled": true,
-      "hasCaptcha": true,
-      "tableCount": 3,
-      "trCount": 10,
-      "textSample": "Guest &nbsp; Government eMarketplace Indian Railways E-Procurement System A - A A + &#x1F319; / &#x2600; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Your Language A - A A + &#x1F319; / &#x2600; --> &nbsp; &nbsp; Authenticate Yourself For All types of Tenders (Goods & Services, Works, Earning / Leasing) ---> Foreign users can install the IREPS mobile app --> (available on Android and iOS ). Use the 'Generate OTP' feature in the app, then enter your mobile number and"
-    },
-    {
-      "url": "https://www.ireps.gov.in/anonymQuickSearch.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/epsn/bannedFirms.do",
-      "status": 200,
-      "bytes": 45187,
-      "otpWalled": true,
-      "hasCaptcha": true,
-      "tableCount": 3,
-      "trCount": 10,
-      "textSample": "Guest &nbsp; Government eMarketplace Indian Railways E-Procurement System A - A A + &#x1F319; / &#x2600; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Your Language A - A A + &#x1F319; / &#x2600; --> &nbsp; &nbsp; Authenticate Yourself For All types of Tenders (Goods & Services, Works, Earning / Leasing) ---> Foreign users can install the IREPS mobile app --> (available on Android and iOS ). Use the 'Generate OTP' feature in the app, then enter your mobile number and"
-    },
-    {
-      "url": "https://www.ireps.gov.in/epsn/reports/HighValue.do",
-      "status": 200,
-      "bytes": 45186,
-      "otpWalled": true,
-      "hasCaptcha": true,
-      "tableCount": 3,
-      "trCount": 10,
-      "textSample": "Guest &nbsp; Government eMarketplace Indian Railways E-Procurement System A - A A + &#x1F319; / &#x2600; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Your Language A - A A + &#x1F319; / &#x2600; --> &nbsp; &nbsp; Authenticate Yourself For All types of Tenders (Goods & Services, Works, Earning / Leasing) ---> Foreign users can install the IREPS mobile app --> (available on Android and iOS ). Use the 'Generate OTP' feature in the app, then enter your mobile number and"
-    },
-    {
-      "url": "https://www.ireps.gov.in/epsn/laAnonymousSearchLink.do",
-      "status": 200,
-      "bytes": 45192,
-      "otpWalled": true,
-      "hasCaptcha": true,
-      "tableCount": 3,
-      "trCount": 10,
-      "textSample": "Guest &nbsp; Government eMarketplace Indian Railways E-Procurement System A - A A + &#x1F319; / &#x2600; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Your Language A - A A + &#x1F319; / &#x2600; --> &nbsp; &nbsp; Authenticate Yourself For All types of Tenders (Goods & Services, Works, Earning / Leasing) ---> Foreign users can install the IREPS mobile app --> (available on Android and iOS ). Use the 'Generate OTP' feature in the app, then enter your mobile number and"
-    },
-    {
-      "url": "https://www.ireps.gov.in/common/vendorRegistrationRequest.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/common/deptPostUserReq.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/auction/onLineRegisterBybidder.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/epsn/works/irepsDocuments.do",
-      "status": 200,
-      "bytes": 32430,
-      "otpWalled": false,
-      "hasCaptcha": true,
-      "tableCount": 10,
-      "trCount": 25,
-      "textSample": "View IREPS Documents-Indian Railways tenders for Goods, Works and Services &nbsp; Government eMarketplace Indian Railways E-Procurement System A - A A + &#x1F319; / &#x2600; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Your Language A - A A + &#x1F319; / &#x2600; --> &nbsp; &nbsp; View PVC Documents &nbsp; IREPS Documents --> Organization * Select Zone * Select Department * Select Admin Unit * All Scope Type Public Document Status Live Archived Document Type Verific"
-    },
-    {
-      "url": "https://www.ireps.gov.in/FeedbackForm.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/auction/annonimousViewAuctionSchedule.do",
-      "status": 404,
-      "bytes": 2486,
-      "otpWalled": false,
-      "hasCaptcha": false,
-      "tableCount": 0,
-      "trCount": 0,
-      "textSample": "404 Page not found 404 Page not found Click here to go to IREPS home page."
-    },
-    {
-      "url": "https://www.ireps.gov.in/epsn/guestLogin.do",
-      "status": 200,
-      "bytes": 45185,
-      "otpWalled": true,
-      "hasCaptcha": true,
-      "tableCount": 3,
-      "trCount": 10,
-      "textSample": "Guest &nbsp; Government eMarketplace Indian Railways E-Procurement System A - A A + &#x1F319; / &#x2600; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Your Language A - A A + &#x1F319; / &#x2600; --> &nbsp; &nbsp; Authenticate Yourself For All types of Tenders (Goods & Services, Works, Earning / Leasing) ---> Foreign users can install the IREPS mobile app --> (available on Android and iOS ). Use the 'Generate OTP' feature in the app, then enter your mobile number and"
+      "action": "/epsn/works/irepsDocuments.do;jsessionid=0001fKuF_Hn6w2Y7nRgsXHq3xv1:1886tt34a",
+      "method": "POST",
+      "inputs": [
+        {
+          "name": "activity",
+          "type": "hidden",
+          "value": ""
+        },
+        {
+          "name": "isPvc",
+          "type": "hidden",
+          "value": ""
+        },
+        {
+          "name": "workArea",
+          "type": "hidden",
+          "value": ""
+        }
+      ],
+      "selects": []
     }
   ]
 }
