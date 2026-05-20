@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-20T05:56:26.843Z",
-  "durationMs": 21163,
+  "fetchedAt": "2026-05-20T06:18:43.623Z",
+  "durationMs": 20908,
   "ok": true,
   "apiCalls": 16,
   "totalScanned": 200,
-  "relevantCount": 3,
+  "relevantCount": 4,
   "tenders": [
     {
       "tenderId": "e24f6e3f-8f80-4084-9b12-7fe755e2dd97",
@@ -45,6 +45,27 @@
       "detailUrl": "https://bidassist.com/global-tenders/jaipur-development-authority/detail-07582854-3f8a-4727-bb87-c782e92f3ba7",
       "matchedKeywords": [
         "railway bridge"
+      ]
+    },
+    {
+      "tenderId": "b3a57a29-93a2-4463-9a9a-554b8fdcf481",
+      "refNo": "GEM/2026/B/7410056",
+      "title": "Category: Airfield Lighting System Of Runway With Helicopter Approach path Indicator , Voice Communication Control System , automatic Weather Station Awos With Frangible Mast , Ptz day And Night Camera System For Air Traffic Control recording , Power Generation System , Stabilized uninterrupted Power Distribution Network For Air Traffic services Equipment , Atc And User Consoles , Trailer mounted Mobile Atc , Server And Work Station",
+      "buyer": "Indian Army",
+      "purchaserGroup": "Defence",
+      "procurementSource": "GEM",
+      "state": "Punjab",
+      "value": 300000000,
+      "emd": 8910000,
+      "bidDeadline": "2026-07-04T05:30:00.000Z",
+      "postedAt": "2026-05-20T05:05:25.000Z",
+      "sectorNames": [
+        "Electronics Equipment",
+        "Aerospace and Defence"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/indian-army/detail-b3a57a29-93a2-4463-9a9a-554b8fdcf481",
+      "matchedKeywords": [
+        "helicopter"
       ]
     },
     {
@@ -417,23 +438,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "607c05a0-8c30-4e55-aeb6-bce5bf019cf2",
-      "refNo": "GEM/2026/B/7503909",
-      "title": "Category: Security Manpower Service (version 2.0) - office/commercial/institutions/ Residential; Unarmed security Guard , Security Manpower Service (version 2.0) - office/commercial/institutions/ Residential; Armed Security guard , Security Manpower Service (version 2.0) - office/commercial/institutions/ Residential; Security supervisor",
-      "buyer": "Bharat Heavy Electricals Limited",
-      "procurementSource": "GEM",
-      "state": "Uttarakhand",
-      "value": 31301502.23,
-      "bidDeadline": "2026-05-30T09:30:00.000Z",
-      "postedAt": "2026-05-20T03:26:12.000Z",
-      "sectorNames": [
-        "Security and Emergency Services",
-        "Manpower Supply"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/bharat-heavy-electricals-limited/detail-607c05a0-8c30-4e55-aeb6-bce5bf019cf2",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "d696a830-caf2-4357-8531-fe90740a5516",
       "refNo": "GM(C)/SGR/26-27/ETN-02 Dated 19.05.2026",
       "title": "Annual Operation, Maintenance And Providing Civil And Electrical Maintenance (including Facility Management Services) For Office And Residential Complex At Krishnashila Area For 2 Years",
@@ -488,19 +492,41 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "424e6fb7-ac29-4ba9-94d4-c7c5770714fd",
-      "refNo": "GEM/2026/B/7542154",
-      "title": "Category: Custom Bid For Services - 9070c26b58 Annual Rate Contract for Day To Day Upkeepment Of Administrative Building And its Premises Of Paradip Refinery, Paradip, Odisha",
-      "buyer": "Indian Oil Corporation Limited",
-      "procurementSource": "GEM",
-      "state": "Odisha",
-      "value": 24011674.98,
-      "emd": 61000,
-      "bidDeadline": "2026-06-03T04:30:00.000Z",
-      "postedAt": "2026-05-20T04:14:07.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/indian-oil-corporation-limited/detail-424e6fb7-ac29-4ba9-94d4-c7c5770714fd",
+      "tenderId": "d8531792-cde2-4ed2-a4aa-eba78e741cb5",
+      "refNo": "NHAI/13013/547/CO/26-27/ CB/Sundarpara FP",
+      "title": "Engagement Of User Fee Collection Agency On The Basis Of Cb Through E-tender For Sundarpara Fee Plaza At Km. 252.150 On Four Laning Of Kodinar Veraval Section In Gujarat",
+      "buyer": "National Highways Authority Of India",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Gujarat",
+      "value": 218000000,
+      "bidDeadline": "2026-06-02T05:30:00.000Z",
+      "postedAt": "2026-05-20T03:30:00.000Z",
+      "sectorNames": [
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-d8531792-cde2-4ed2-a4aa-eba78e741cb5",
       "matchedKeywords": []
+    },
+    {
+      "tenderId": "e24f6e3f-8f80-4084-9b12-7fe755e2dd97",
+      "refNo": "NIT No. CGM(DandS)/APDCL/LAR/ Adani Power Ltd, Thermal PP/Bilasipara/2026-27/05",
+      "title": "Construction Of 33kv Dedicated Line And From 132/33kv Bilasipara Gss Udmari To The Premise Of M/s Adani Power Ltd., (thermal Power Plant) At Chiraubakra Jungle Block, Dhubri, Assam Under Deposit Work Scheme Under Bilasipara Electrical Sub-division On",
+      "buyer": "Assam Power Distribution Company Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Assam",
+      "value": 72003263,
+      "emd": 1500000,
+      "bidDeadline": "2026-06-02T10:30:00.000Z",
+      "postedAt": "2026-05-20T04:30:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/assam-power-distribution-company-limited/detail-e24f6e3f-8f80-4084-9b12-7fe755e2dd97",
+      "matchedKeywords": [
+        "thermal power plant"
+      ]
     }
   ]
 }

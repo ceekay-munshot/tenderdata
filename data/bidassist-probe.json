@@ -1,165 +1,125 @@
 {
-  "probedAt": "2026-05-20T05:56:38.687Z",
+  "probedAt": "2026-05-20T06:18:54.311Z",
   "results": [
     {
-      "url": "https://api.bidassist.com/api/tender/tender-listings?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 122,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tender-listings",
-      "method": "POST",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 122,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tender-listings/?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 122,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tender-listings/",
-      "method": "POST",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 122,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tender-listings/search?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 129,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings/search.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tender-listings/search",
-      "method": "POST",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 129,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings/search.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tender-listings/v2?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 125,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings/v2.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tender-listings/v2",
-      "method": "POST",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 125,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tender-listings/v2.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender-listings?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
-      "status": 401,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 112,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"Unauthorized. User must be logged in\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender-listings",
-      "method": "POST",
-      "status": 500,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 172,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"System is experiencing some turbulence. Please try later. Request method 'POST' is not supported\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tenders?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
+      "url": "https://api.bidassist.com/api/tender/tenders?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=BID_AWARD",
       "status": 200,
       "contentType": "application/json",
       "isJson": true,
-      "hasTenders": true,
+      "hasContent": true,
+      "looksLikeAwards": true,
       "bytes": 27042,
       "sample": "{\"data\":{\"number\":0,\"size\":10,\"totalPages\":10,\"numberOfElements\":10,\"totalElements\":50000,\"previousPage\":false,\"content\":[{\"sourceTenderId\":\"CEC-NGP-26-27-04-CAO-C-HQ-ENGINEERING/SOUTH EAST CENTRAL RLY\",\"tenderId\":\"5d6d6320-682f-43bc-8cd3-e6660dfe29d1\",\"tenderDescription\":\"\\\"yard Remodeling Of Talodhi, Rajoli, Mul Marora, Kelzar Chandafort And Other Engg Works In Connection With Gondia- Chandafort Doubling In Nagpur Division Of South East Central Railway.\\\"\",\"translatedTenderDescription\":null,\"v"
     },
     {
-      "url": "https://api.bidassist.com/api/tender/tenders",
-      "method": "POST",
+      "url": "https://api.bidassist.com/api/tender/tenders?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=BIDAWARD",
+      "status": 200,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": true,
+      "looksLikeAwards": true,
+      "bytes": 27042,
+      "sample": "{\"data\":{\"number\":0,\"size\":10,\"totalPages\":10,\"numberOfElements\":10,\"totalElements\":50000,\"previousPage\":false,\"content\":[{\"sourceTenderId\":\"CEC-NGP-26-27-04-CAO-C-HQ-ENGINEERING/SOUTH EAST CENTRAL RLY\",\"tenderId\":\"5d6d6320-682f-43bc-8cd3-e6660dfe29d1\",\"tenderDescription\":\"\\\"yard Remodeling Of Talodhi, Rajoli, Mul Marora, Kelzar Chandafort And Other Engg Works In Connection With Gondia- Chandafort Doubling In Nagpur Division Of South East Central Railway.\\\"\",\"translatedTenderDescription\":null,\"v"
+    },
+    {
+      "url": "https://api.bidassist.com/api/tender/tenders?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER_RESULT",
+      "status": 200,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": true,
+      "looksLikeAwards": true,
+      "bytes": 27042,
+      "sample": "{\"data\":{\"number\":0,\"size\":10,\"totalPages\":10,\"numberOfElements\":10,\"totalElements\":50000,\"previousPage\":false,\"content\":[{\"sourceTenderId\":\"CEC-NGP-26-27-04-CAO-C-HQ-ENGINEERING/SOUTH EAST CENTRAL RLY\",\"tenderId\":\"5d6d6320-682f-43bc-8cd3-e6660dfe29d1\",\"tenderDescription\":\"\\\"yard Remodeling Of Talodhi, Rajoli, Mul Marora, Kelzar Chandafort And Other Engg Works In Connection With Gondia- Chandafort Doubling In Nagpur Division Of South East Central Railway.\\\"\",\"translatedTenderDescription\":null,\"v"
+    },
+    {
+      "url": "https://api.bidassist.com/api/tender/tenders?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=RESULT",
+      "status": 200,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": true,
+      "looksLikeAwards": true,
+      "bytes": 27042,
+      "sample": "{\"data\":{\"number\":0,\"size\":10,\"totalPages\":10,\"numberOfElements\":10,\"totalElements\":50000,\"previousPage\":false,\"content\":[{\"sourceTenderId\":\"CEC-NGP-26-27-04-CAO-C-HQ-ENGINEERING/SOUTH EAST CENTRAL RLY\",\"tenderId\":\"5d6d6320-682f-43bc-8cd3-e6660dfe29d1\",\"tenderDescription\":\"\\\"yard Remodeling Of Talodhi, Rajoli, Mul Marora, Kelzar Chandafort And Other Engg Works In Connection With Gondia- Chandafort Doubling In Nagpur Division Of South East Central Railway.\\\"\",\"translatedTenderDescription\":null,\"v"
+    },
+    {
+      "url": "https://api.bidassist.com/api/tender/tenders?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=BID_AWARDS",
+      "status": 200,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": true,
+      "looksLikeAwards": true,
+      "bytes": 27042,
+      "sample": "{\"data\":{\"number\":0,\"size\":10,\"totalPages\":10,\"numberOfElements\":10,\"totalElements\":50000,\"previousPage\":false,\"content\":[{\"sourceTenderId\":\"CEC-NGP-26-27-04-CAO-C-HQ-ENGINEERING/SOUTH EAST CENTRAL RLY\",\"tenderId\":\"5d6d6320-682f-43bc-8cd3-e6660dfe29d1\",\"tenderDescription\":\"\\\"yard Remodeling Of Talodhi, Rajoli, Mul Marora, Kelzar Chandafort And Other Engg Works In Connection With Gondia- Chandafort Doubling In Nagpur Division Of South East Central Railway.\\\"\",\"translatedTenderDescription\":null,\"v"
+    },
+    {
+      "url": "https://api.bidassist.com/api/bid-award/bid-awards?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10",
+      "status": 404,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": false,
+      "looksLikeAwards": false,
+      "bytes": 120,
+      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/bid-award/bid-awards.\",\"errorCode\":null,\"meta\":null}"
+    },
+    {
+      "url": "https://api.bidassist.com/api/bid-award/bid-awards?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=BID_AWARD",
+      "status": 404,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": false,
+      "looksLikeAwards": false,
+      "bytes": 120,
+      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/bid-award/bid-awards.\",\"errorCode\":null,\"meta\":null}"
+    },
+    {
+      "url": "https://api.bidassist.com/api/tender/bid-awards?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10",
+      "status": 404,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": false,
+      "looksLikeAwards": false,
+      "bytes": 117,
+      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/bid-awards.\",\"errorCode\":null,\"meta\":null}"
+    },
+    {
+      "url": "https://api.bidassist.com/api/bidaward/bidawards?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10",
+      "status": 404,
+      "contentType": "application/json",
+      "isJson": true,
+      "hasContent": false,
+      "looksLikeAwards": true,
+      "bytes": 118,
+      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/bidaward/bidawards.\",\"errorCode\":null,\"meta\":null}"
+    },
+    {
+      "url": "https://api.bidassist.com/api/bid-awards/v2?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10",
       "status": 500,
       "contentType": "application/json",
       "isJson": true,
-      "hasTenders": false,
-      "bytes": 172,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"System is experiencing some turbulence. Please try later. Request method 'POST' is not supported\",\"errorCode\":null,\"meta\":null}"
+      "hasContent": false,
+      "looksLikeAwards": false,
+      "bytes": 134,
+      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"System is experiencing some turbulence. Please try later. \",\"errorCode\":null,\"meta\":null}"
     },
     {
-      "url": "https://api.bidassist.com/api/tender/tenders/search?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
+      "url": "https://api.bidassist.com/api/tender/tenders/bid-awards?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10",
       "status": 404,
       "contentType": "application/json",
       "isJson": true,
-      "hasTenders": false,
-      "bytes": 121,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tenders/search.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/tender/tenders/search",
-      "method": "POST",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
-      "bytes": 121,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tenders/search.\",\"errorCode\":null,\"meta\":null}"
-    },
-    {
-      "url": "https://api.bidassist.com/api/v1/tender/tender-listings?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10&tenderEntity=TENDER",
-      "method": "GET",
-      "status": 404,
-      "contentType": "application/json",
-      "isJson": true,
-      "hasTenders": false,
+      "hasContent": false,
+      "looksLikeAwards": false,
       "bytes": 125,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/v1/tender/tender-listings.\",\"errorCode\":null,\"meta\":null}"
+      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/tender/tenders/bid-awards.\",\"errorCode\":null,\"meta\":null}"
     },
     {
-      "url": "https://api.bidassist.com/api/v1/tender/tender-listings",
-      "method": "POST",
+      "url": "https://api.bidassist.com/api/bid-award/tenders?sort=RELEVANCE:DESC&pageNumber=0&pageSize=10",
       "status": 404,
       "contentType": "application/json",
       "isJson": true,
-      "hasTenders": false,
-      "bytes": 125,
-      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/v1/tender/tender-listings.\",\"errorCode\":null,\"meta\":null}"
+      "hasContent": false,
+      "looksLikeAwards": false,
+      "bytes": 117,
+      "sample": "{\"data\":null,\"success\":false,\"errorMessage\":\"No static resource api/bid-award/tenders.\",\"errorCode\":null,\"meta\":null}"
     }
   ]
 }
