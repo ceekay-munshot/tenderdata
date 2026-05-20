@@ -1,0 +1,89 @@
+{
+  "probedAt": "2026-05-20T02:56:04.053Z",
+  "results": [
+    {
+      "name": "by-organisation",
+      "url": "https://eprocure.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page",
+      "note": "Org tree drill-down — may be browsable without captcha",
+      "status": 200,
+      "bytes": 308820,
+      "hasCaptcha": true,
+      "hasSearchForm": true,
+      "tableCount": 20,
+      "trCount": 329,
+      "looksLikeTenderList": false,
+      "textSample": "eProcurement System Government of India eProcurement System Screen Reader Access 20-May-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | Bid Awards | CPPP Home eProcurement System Government of India MIS Reports Tenders by Location Tenders by Organisation Tenders by Classification Tenders in Archive Tenders Status Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility &nbsp; &nbsp Tender Search By Organisation Back &nbsp &nbsp Search Tender Category -Select- Goods Services Works Product Category -Select- Access Control System Advertisement Services Agricultural or Forestry Air-Conditioner Allotment of Space AMC/ Maintenance Contracts Architecture/Interior Design Cargo / Containers Chemicals/Minerals Civil Construction Goods Civil Works Civil Works - Bridges Civil Works - Buildings Civil Works - Highways Civil Works - Others Civil Works - Roads Civil Works - Water Works Coal Works Computer- Data Processing Computer- H/W Computer- S/W Construction Works Consultancy Consumables (Hospital / Lab) Consumables - Paper/Printing/Photocopy Paper Consumables- Raw materials Crop Products Drugs and Pharmaceutical Products Electrical Goo",
+      "finalUrl": "https://eprocure.gov.in/eprocure/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "name": "by-closing-date",
+      "url": "https://eprocure.gov.in/eprocure/app?page=FrontEndListTendersbyDate&service=page",
+      "note": "Tenders grouped by closing date",
+      "status": 200,
+      "bytes": 59744,
+      "hasCaptcha": true,
+      "hasSearchForm": false,
+      "tableCount": 22,
+      "trCount": 111,
+      "looksLikeTenderList": false,
+      "textSample": "eProcurement System Government of India eProcurement System Screen Reader Access 20-May-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | Bid Awards | CPPP Home eProcurement System Government of India MIS Reports Tenders by Location Tenders by Organisation Tenders by Classification Tenders in Archive Tenders Status Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility &nbsp; &nbsp; Tenders/Auctions Closing Today &nbsp; &nbsp; &nbsp;&nbsp; Tenders/Auctions Closing Today &nbsp; &nbsp; &nbsp;Search By &nbsp;&nbsp;&nbsp;&nbsp; Bid Submission Closing Auction Closing &nbsp; &nbsp; &nbsp; Closing Today Closing within 7 days Closing within 14 days Closing by Date &nbsp S.No e-Published Date Bid Submission Closing Date Tender Opening Date Title and Ref.No./Tender ID Organisation Chain 1. 07-May-2026 12:10 PM 20-May-2026 09:00 AM 21-May-2026 09:00 AM [Fabrication and fixing of gates in new cafeteria near Admin block at IISER campus Thiruvananthapuram] [IISER-T/2061/01/2026-27 dated 02.04.2026][2026_IISRT_904413_2] Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvanant",
+      "finalUrl": "https://eprocure.gov.in/eprocure/app?page=FrontEndListTendersbyDate&service=page"
+    },
+    {
+      "name": "bid-awards",
+      "url": "https://eprocure.gov.in/eprocure/app?page=ResultOfTenders&service=page",
+      "note": "Results of tenders — who won (the D-day data we want)",
+      "status": 200,
+      "bytes": 34835,
+      "hasCaptcha": true,
+      "hasSearchForm": true,
+      "tableCount": 22,
+      "trCount": 106,
+      "looksLikeTenderList": false,
+      "textSample": "eProcurement System Government of India eProcurement System Screen Reader Access 20-May-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | Bid Awards | CPPP Home eProcurement System Government of India MIS Reports Tenders by Location Tenders by Organisation Tenders by Classification Tenders in Archive Tenders Status Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility &nbsp; &nbsp Results Of Tenders Back &nbsp &nbsp Search Tender ID Keyword Enter Captcha &nbsp; &nbsp; Refresh Keyword finds the match in Tender title and Tender reference number &nbsp Clear &nbsp; &nbsp S.No AOC Date e-Published Date Title and Ref.No./Tender ID Organisation Chain AOC &nbsp; No Results Of Tenders found. &nbsp; &nbsp; Visitor No:32580781 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.23 16-Oct-2025 (c) 2017 Tenders NIC, All rights reserved. Site best viewed with a screen resolution 1920 x 1080. Portal policies",
+      "finalUrl": "https://eprocure.gov.in/eprocure/app?page=ResultOfTenders&service=page"
+    },
+    {
+      "name": "debarment-list",
+      "url": "https://eprocure.gov.in/eprocure/app?page=FrontEndDebarmentList&service=page",
+      "note": "Debarred bidders — direct BLS-style ban signal",
+      "status": 200,
+      "bytes": 32765,
+      "hasCaptcha": true,
+      "hasSearchForm": false,
+      "tableCount": 22,
+      "trCount": 102,
+      "looksLikeTenderList": false,
+      "textSample": "eProcurement System Government of India eProcurement System Screen Reader Access 20-May-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | Bid Awards | CPPP Home eProcurement System Government of India MIS Reports Tenders by Location Tenders by Organisation Tenders by Classification Tenders in Archive Tenders Status Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility &nbsp; &nbsp; Debarment List &nbsp; &nbsp; &nbsp;&nbsp; Debarment List &nbsp; &nbsp; &nbsp;Search By &nbsp;&nbsp;&nbsp;&nbsp; Login ID PAN Number &nbsp; &nbsp; &nbsp; Product Category Tender Category Organisation Against Portal Search &nbsp S.No Bidder Name Login ID Product Category Start Date End Date No Records found. &nbsp; Visitor No:32580781 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.23 16-Oct-2025 (c) 2017 Tenders NIC, All rights reserved. Site best viewed with a screen resolution 1920 x 1080. Portal policies",
+      "finalUrl": "https://eprocure.gov.in/eprocure/app?page=FrontEndDebarmentList&service=page"
+    },
+    {
+      "name": "by-classification",
+      "url": "https://eprocure.gov.in/eprocure/app?page=FrontEndTendersByClassification&service=page",
+      "note": "Tenders by product classification",
+      "status": 200,
+      "bytes": 35210,
+      "hasCaptcha": true,
+      "hasSearchForm": true,
+      "tableCount": 23,
+      "trCount": 108,
+      "looksLikeTenderList": false,
+      "textSample": "eProcurement System Government of India eProcurement System Screen Reader Access 20-May-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | Bid Awards | CPPP Home eProcurement System Government of India MIS Reports Tenders by Location Tenders by Organisation Tenders by Classification Tenders in Archive Tenders Status Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility &nbsp; &nbsp; Tender Search By Classification Back &nbsp; &nbsp;Please select the Classification from the drop down box below for more tenders related to that particular Form Of Contract. &nbsp; &nbsp;&nbsp; Tender search by classification &nbsp; &nbsp &nbsp;Select Classification * -Select- Piece-work Lump-sum Multi-stage Supply Fixed-rate Turn-key Buy Works EPC Contract QCBS Tender cum Auction Sale Percentage PPP-BoT-Annuity PPP-BoT-Toll PPP-BoT-HAM PPP-BoT-ToT Item Rate EOI Empanelment PPP-DBFOT PPP-DBFO Tender &nbsp; &nbsp; Enter Captcha &nbsp; &nbsp; Refresh Provide Captcha and click on Search button to list by Classification. &nbsp; Cancel &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; S.No e-publish Date Bid Submission Closing Date Tender Opening Date Title and Ref.No",
+      "finalUrl": "https://eprocure.gov.in/eprocure/app?page=FrontEndTendersByClassification&service=page"
+    },
+    {
+      "name": "cpp-portal-home",
+      "url": "https://eprocure.gov.in/cppp/",
+      "note": "CPP publishing portal (separate from the e-proc system)",
+      "status": 200,
+      "bytes": 66180,
+      "hasCaptcha": false,
+      "hasSearchForm": false,
+      "tableCount": 0,
+      "trCount": 0,
+      "looksLikeTenderList": false,
+      "textSample": "Central Public Procurement Portal | Home en | GeM-CPPP | Tenders Portal of Government of India | Government eTenders Skip to main content cppp-doe[at]nic[dot]in +91 0120-4001002 | +91 0120-4001005 | +91 0120-4493395 Skip to Main Content Screen Reader Access हिन्दी Home About GeM-CPPP GeM OMs/GOs/Others Important Procurement policies Central State Rules and Procedures Central Other Orders and Circulars Rules and Manuals IT Act EMC State Other Orders and Circulars Rules and Manuals IT Act GeM Other Orders and Circulars Mission & Vision Standard Bidding Document Search Tender / Bids Latest Active Tenders Active Corrigendums Result of Tenders Bid / RA Notices GeM Global Tenders High value Tenders Tender Search by Product Tender Closing Today Tender Search Tender Calendar Central State Cancelled Tenders Dashboard Descriptive Analytics Unified Analytics Key Performance Indicators GeM Statistics Grievance PPP-MII Order, 2017 Grievance/Suggestions Debarment Debarred Bidders Search Debarred List - Archive Debarred List -Revocated Debarment Manual Grievance/Suggestions Select Portal Secondl Even More.. 3rd level 3rd level Second level Second level Welcome to GeM-CPPP View All Know More --> K",
+      "finalUrl": "https://eprocure.gov.in/cppp/"
+    }
+  ]
+}
