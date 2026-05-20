@@ -29,18 +29,37 @@ const HEADERS: Record<string, string> = {
   "Accept-Language": "en-US,en;q=0.9",
 };
 
-async function get(url: string, cookie?: string) {
-  const headers: Record<string, string> = { ...HEADERS };
-  if (cookie) headers.Cookie = cookie;
-  const res = await fetch(url, { headers, redirect: "follow" });
-  const body = await res.text();
-  let nextCookie = cookie;
-  const sc = res.headers.get("set-cookie");
-  if (sc) {
-    const m = sc.match(/JSESSIONID=[^;]+/);
-    if (m) nextCookie = m[0];
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * GET with retries. IREPS is a flaky government server — it sometimes
+ * closes the socket mid-response (UND_ERR_SOCKET). A few retries with
+ * backoff usually catch a clean response.
+ */
+async function get(url: string, cookie?: string, referer?: string) {
+  let lastErr: unknown;
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      const headers: Record<string, string> = { ...HEADERS };
+      if (cookie) headers.Cookie = cookie;
+      if (referer) headers.Referer = referer;
+      const res = await fetch(url, { headers, redirect: "follow" });
+      const body = await res.text();
+      let nextCookie = cookie;
+      const sc = res.headers.get("set-cookie");
+      if (sc) {
+        // Capture whatever session cookie IREPS sets (name varies).
+        const m = sc.match(/([A-Za-z0-9_]+)=([^;]+)/);
+        if (m) nextCookie = `${m[1]}=${m[2]}`;
+      }
+      return { status: res.status, body, cookie: nextCookie, finalUrl: res.url };
+    } catch (err) {
+      lastErr = err;
+      console.log(`  attempt ${attempt}/5 failed: ${err instanceof Error ? err.message : err}`);
+      await sleep(2000 * attempt);
+    }
   }
-  return { status: res.status, body, cookie: nextCookie, finalUrl: res.url };
+  throw lastErr;
 }
 
 async function main() {
@@ -48,8 +67,9 @@ async function main() {
   const home = await get(HOME);
   console.log(`  homepage ${home.status}, cookie=${home.cookie ? "yes" : "no"}`);
 
+  await sleep(1500);
   console.log("GET irepsDocuments.do with session...");
-  const doc = await get(DOC_URL, home.cookie);
+  const doc = await get(DOC_URL, home.cookie, HOME);
   console.log(`  irepsDocuments.do ${doc.status}, ${doc.body.length} bytes, finalUrl=${doc.finalUrl}`);
 
   const $ = cheerio.load(doc.body);
@@ -130,7 +150,22 @@ async function main() {
   console.log("\nWrote data/ireps-probe.json + data/ireps-doc-debug.html");
 }
 
-main().catch((err) => {
+main().catch(async (err) => {
   console.error("probe-ireps failed:", err);
+  // Still write a report so the failure is visible on the data branch.
+  try {
+    await mkdir("data", { recursive: true });
+    await writeFile(
+      path.resolve("data", "ireps-probe.json"),
+      JSON.stringify(
+        { probedAt: new Date().toISOString(), error: err instanceof Error ? err.message : String(err) },
+        null,
+        2,
+      ) + "\n",
+      "utf8",
+    );
+  } catch {
+    /* ignore */
+  }
   process.exit(1);
 });
