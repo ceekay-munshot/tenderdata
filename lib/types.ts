@@ -81,3 +81,28 @@ export interface Update {
   tone: "positive" | "negative" | "neutral";
   context?: string; // e.g. tender title for breadcrumb
 }
+
+/**
+ * A tender as scraped from CPPP (eprocure.gov.in).
+ *
+ * CPPP's "Latest Active Tenders" listing gives us titles, the org chain,
+ * and the key dates — but not bidders, winner, or estimated value (those
+ * live in the detail page / award documents and come in a later pass).
+ */
+export interface CpppTender {
+  /** CPPP tender reference / tender ID */
+  tenderRef: string;
+  title: string;
+  /** Full org chain, e.g. "Ministry of Defence||Bharat Electronics Limited" */
+  organisationChain: string;
+  /** First, most meaningful segment of the org chain */
+  buyer: string;
+  publishedAt: string | null; // ISO
+  /** Last date to submit bids */
+  bidSubmissionCloses: string | null; // ISO
+  /** When bids are opened — proxy for the result/D-day */
+  tenderOpensAt: string | null; // ISO
+  detailUrl?: string;
+  /** Sector keywords that matched this tender (the v1 "semantic" filter) */
+  matchedKeywords: string[];
+}

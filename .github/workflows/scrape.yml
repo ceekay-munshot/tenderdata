@@ -1,0 +1,108 @@
+name: Scrape tenders & disclosures
+
+# Runs both scrapers (BSE corporate announcements + CPPP tenders) and
+# commits their JSON payloads to a dedicated `data` branch in one commit.
+#
+# Why one workflow, not two: both jobs would push to the `data` branch,
+# and two workflows racing there cause non-fast-forward push failures.
+# A single job scraping both sources sidesteps that entirely.
+#
+# Each scraper handles its own errors and always writes its output file,
+# so a failure in one source still commits fresh data for the other.
+#
+# Manual run: Actions tab -> "Scrape tenders & disclosures" -> Run workflow.
+
+on:
+  schedule:
+    - cron: "*/30 3-12 * * 1-5"   # weekdays, every 30 min, IST market window
+    - cron: "0 14,18 * * 1-5"      # weekday evening catches
+    - cron: "0 6 * * 0,6"          # weekend daily sweep
+  workflow_dispatch: {}
+
+concurrency:
+  group: scrape-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout source (main)
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      # Runtime deps only — skip the postinstall hook that builds the app.
+      - name: Install runtime deps
+        run: pnpm install --frozen-lockfile --ignore-scripts
+
+      # `|| true` so a hard failure in one scraper doesn't abort the other.
+      # Each script writes its output file even on error (error payload),
+      # so the publish step below always has something to commit.
+      - name: Scrape BSE announcements
+        env:
+          DAYS_BACK: "30"
+        run: pnpm tsx scripts/scrape-bse.mts || echo "BSE scrape exited non-zero"
+
+      - name: Scrape CPPP tenders
+        run: pnpm tsx scripts/scrape-cppp.mts || echo "CPPP scrape exited non-zero"
+
+      - name: Show summary
+        run: |
+          echo "::group::scrape summary"
+          for f in data/bse-updates.json data/cppp-tenders.json; do
+            if [ -f "$f" ]; then
+              echo "--- $f ---"
+              node -e "const d=require('./$f'); console.log(JSON.stringify(d.counts ?? {ok:d.ok,total:d.totalRowsParsed,relevant:d.relevantCount,error:d.error}, null, 2));"
+            else
+              echo "--- $f MISSING ---"
+            fi
+          done
+          echo "::endgroup::"
+
+      - name: Publish to data branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/scrape-out
+          cp data/bse-updates.json   /tmp/scrape-out/ 2>/dev/null || true
+          cp data/cppp-tenders.json  /tmp/scrape-out/ 2>/dev/null || true
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch origin data --depth=1
+            git checkout -B data origin/data
+          else
+            git checkout --orphan data
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          mkdir -p data
+          cp /tmp/scrape-out/bse-updates.json   data/ 2>/dev/null || true
+          cp /tmp/scrape-out/cppp-tenders.json  data/ 2>/dev/null || true
+
+          git add data/bse-updates.json data/cppp-tenders.json
+
+          if git diff --cached --quiet; then
+            echo "No content change — nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) scrape"
+          git push origin data

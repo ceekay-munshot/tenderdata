@@ -9,16 +9,13 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test:scrapers": "tsx scripts/test-bse-parser.mts",
+    "test:scrapers": "tsx scripts/test-bse-parser.mts && tsx scripts/test-cppp-parser.mts",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "postinstall": "node scripts/cf-postinstall.mjs",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
-    "next": "^15.5.18",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
     "@radix-ui/react-avatar": "^1.1.1",
     "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-dropdown-menu": "^2.1.2",
@@ -39,7 +36,10 @@
     "cmdk": "^1.0.4",
     "date-fns": "^4.1.0",
     "lucide-react": "^0.460.0",
+    "next": "^15.5.18",
     "next-themes": "^0.4.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "recharts": "^2.13.3",
     "sonner": "^1.7.0",
     "tailwind-merge": "^2.5.4",
@@ -48,16 +48,17 @@
   },
   "devDependencies": {
     "@opennextjs/cloudflare": "^1.19.11",
-    "wrangler": "^4.93.0",
-    "tsx": "^4.22.3",
-    "typescript": "^5.6.3",
     "@types/node": "^22.9.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.20",
+    "cheerio": "^1.2.0",
+    "eslint": "^9.14.0",
+    "eslint-config-next": "^15.5.18",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.14",
-    "eslint": "^9.14.0",
-    "eslint-config-next": "^15.5.18"
+    "tsx": "^4.22.3",
+    "typescript": "^5.6.3",
+    "wrangler": "^4.93.0"
   }
 }
