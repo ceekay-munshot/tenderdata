@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-21T15:46:17.651Z",
-  "durationMs": 36037,
+  "fetchedAt": "2026-05-21T18:10:13.760Z",
+  "durationMs": 33602,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 31,
   "totalScanned": 1550,
-  "relevantCount": 1549,
+  "relevantCount": 1550,
   "tenders": [
     {
       "tenderId": "a10dabb6-5178-4822-9eea-de9cd509cd47",
@@ -60,20 +60,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
-      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
-      "buyer": "Ministry Of Justice",
-      "value": 92000000000,
-      "bidDeadline": "2026-12-16T18:30:00.000Z",
-      "postedAt": "2025-12-16T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "6c135a27-21ca-4746-ae71-b623dd6aac54",
       "refNo": "6f9cda5d-7f86-398a-91fa-48af41fdf4c5",
       "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
@@ -88,9 +74,9 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
-      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
-      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
+      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
+      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
       "buyer": "Ministry Of Justice",
       "value": 92000000000,
       "bidDeadline": "2026-12-16T18:30:00.000Z",
@@ -98,7 +84,7 @@
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
       "matchedKeywords": []
     },
     {
@@ -113,6 +99,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-59d3ca54-4731-4841-872b-57abe9b9f6ac",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
+      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "buyer": "Ministry Of Justice",
+      "value": 92000000000,
+      "bidDeadline": "2026-12-16T18:30:00.000Z",
+      "postedAt": "2025-12-16T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
       "matchedKeywords": []
     },
     {
@@ -326,21 +326,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "c69798ca-22f3-45d0-8f4c-d0a342517ae1",
-      "refNo": "ffdab7c8-00b0-396d-b38b-6e36240b4efd",
-      "title": "Environmental Decontamination 2026",
-      "buyer": "Supply Chain Coordination Limited",
-      "value": 77500000000,
-      "bidDeadline": "2026-05-28T18:30:00.000Z",
-      "postedAt": "2025-05-28T18:30:00.000Z",
-      "sectorNames": [
-        "Solid Waste Management",
-        "Environmental Service"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/supply-chain-coordination-limited/detail-c69798ca-22f3-45d0-8f4c-d0a342517ae1",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "e6ec3a1e-c9a5-4546-9862-ecb051bad74f",
       "refNo": "53a8a4b7-d752-3cc7-9f4e-21a3f274eec2",
       "title": "Environmental Decontamination 2026",
@@ -353,6 +338,21 @@
         "Environmental Service"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/supply-chain-coordination-limited/detail-e6ec3a1e-c9a5-4546-9862-ecb051bad74f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "c69798ca-22f3-45d0-8f4c-d0a342517ae1",
+      "refNo": "ffdab7c8-00b0-396d-b38b-6e36240b4efd",
+      "title": "Environmental Decontamination 2026",
+      "buyer": "Supply Chain Coordination Limited",
+      "value": 77500000000,
+      "bidDeadline": "2026-05-28T18:30:00.000Z",
+      "postedAt": "2025-05-28T18:30:00.000Z",
+      "sectorNames": [
+        "Solid Waste Management",
+        "Environmental Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/supply-chain-coordination-limited/detail-c69798ca-22f3-45d0-8f4c-d0a342517ae1",
       "matchedKeywords": []
     },
     {
@@ -1465,20 +1465,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "8416084b-5ef9-4f61-9c4d-dcc3165f97cd",
-      "refNo": "8747892b-a5ef-30d0-804b-800fe00f4934",
-      "title": "Purchase Of Standard And Specialist Vehicles 2",
-      "buyer": "Crown Commercial Service",
-      "value": 22000000000,
-      "bidDeadline": "2026-07-07T18:30:00.000Z",
-      "postedAt": "2025-07-07T18:30:00.000Z",
-      "sectorNames": [
-        "Automobiles and Auto Parts"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-8416084b-5ef9-4f61-9c4d-dcc3165f97cd",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "e8df8f4f-cd26-4f04-92b5-a3dde55a3c4f",
       "refNo": "39b89f1b-8804-3aea-bb80-74bcbbe439b1",
       "title": "Purchase Of Standard And Specialist Vehicles 2",
@@ -1490,6 +1476,20 @@
         "Automobiles and Auto Parts"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-e8df8f4f-cd26-4f04-92b5-a3dde55a3c4f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "8416084b-5ef9-4f61-9c4d-dcc3165f97cd",
+      "refNo": "8747892b-a5ef-30d0-804b-800fe00f4934",
+      "title": "Purchase Of Standard And Specialist Vehicles 2",
+      "buyer": "Crown Commercial Service",
+      "value": 22000000000,
+      "bidDeadline": "2026-07-07T18:30:00.000Z",
+      "postedAt": "2025-07-07T18:30:00.000Z",
+      "sectorNames": [
+        "Automobiles and Auto Parts"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-8416084b-5ef9-4f61-9c4d-dcc3165f97cd",
       "matchedKeywords": []
     },
     {
@@ -2303,7 +2303,7 @@
       "state": "Punjab",
       "value": 14086679985,
       "emd": 140866800,
-      "bidDeadline": "2026-05-21T11:30:00.000Z",
+      "bidDeadline": "2026-05-27T11:30:00.000Z",
       "postedAt": "2026-04-27T13:25:00.000Z",
       "sectorNames": [
         "Solid Waste Management",
@@ -5381,20 +5381,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "d7c8d03c-174e-417b-b36a-108b8b4d2de9",
-      "refNo": "b43c3cd5-2ed6-3c3e-8e27-2564f105e417",
-      "title": "Non Clinical Staffing 2",
-      "buyer": "Crown Commercial Service",
-      "value": 6000000000,
-      "bidDeadline": "2026-11-19T18:30:00.000Z",
-      "postedAt": "2025-11-19T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-d7c8d03c-174e-417b-b36a-108b8b4d2de9",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "ff4d727e-e4b1-4839-a3d5-c9c7728f3557",
       "refNo": "3f87c272-b38f-39de-a3fc-f69652211039",
       "title": "Non Clinical Staffing 2",
@@ -5406,6 +5392,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-ff4d727e-e4b1-4839-a3d5-c9c7728f3557",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "d7c8d03c-174e-417b-b36a-108b8b4d2de9",
+      "refNo": "b43c3cd5-2ed6-3c3e-8e27-2564f105e417",
+      "title": "Non Clinical Staffing 2",
+      "buyer": "Crown Commercial Service",
+      "value": 6000000000,
+      "bidDeadline": "2026-11-19T18:30:00.000Z",
+      "postedAt": "2025-11-19T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-d7c8d03c-174e-417b-b36a-108b8b4d2de9",
       "matchedKeywords": []
     },
     {
@@ -5514,6 +5514,23 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-83678dad-74ca-4efb-8f9d-ad4ffeecf23e",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "eb97d4d4-66d6-4df9-8033-30519052855f",
+      "refNo": "CPC-72/2025-26",
+      "title": "Procurement Of 500 Mva 1 Ph Auto Transformer 21 Nos As Per Tender Specification.",
+      "buyer": "Odisha Power Transmission Corporation Limited",
+      "state": "Odisha",
+      "value": 5520701065,
+      "emd": 55207011,
+      "bidDeadline": "2026-06-04T09:30:00.000Z",
+      "postedAt": "2026-04-20T10:10:00.000Z",
+      "sectorNames": [
+        "Electrical Generators And Transformers",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/odisha-power-transmission-corporation-limited/detail-eb97d4d4-66d6-4df9-8033-30519052855f",
       "matchedKeywords": []
     },
     {
@@ -5785,6 +5802,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "02d16d5a-de18-4b0a-8035-3bdfc80b04b9",
+      "refNo": "e8828a6c-f877-3191-82b8-8ea832e26367",
+      "title": "Vehicle Lease, Fleet Management And Salary Sacrifice Car Schemes",
+      "buyer": "Crown Commercial Service",
+      "value": 5000000000,
+      "bidDeadline": "2027-01-01T18:30:00.000Z",
+      "postedAt": "2026-01-01T18:30:00.000Z",
+      "sectorNames": [
+        "Automobiles and Auto Parts"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-02d16d5a-de18-4b0a-8035-3bdfc80b04b9",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "237916ac-fa91-4ef6-b1d3-60df9aef45b0",
       "refNo": "fc42a773-8427-3b2d-8f44-c3c32a906f2e",
       "title": "Consultancy And Professional Services",
@@ -5797,20 +5828,6 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-237916ac-fa91-4ef6-b1d3-60df9aef45b0",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "02d16d5a-de18-4b0a-8035-3bdfc80b04b9",
-      "refNo": "e8828a6c-f877-3191-82b8-8ea832e26367",
-      "title": "Vehicle Lease, Fleet Management And Salary Sacrifice Car Schemes",
-      "buyer": "Crown Commercial Service",
-      "value": 5000000000,
-      "bidDeadline": "2027-01-01T18:30:00.000Z",
-      "postedAt": "2026-01-01T18:30:00.000Z",
-      "sectorNames": [
-        "Automobiles and Auto Parts"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-02d16d5a-de18-4b0a-8035-3bdfc80b04b9",
       "matchedKeywords": []
     },
     {
@@ -5903,6 +5920,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "15f5963c-2d67-4c1c-a3b5-88efca31fcfe",
+      "refNo": "UDA/IMS/26/02 DATE 05/01/2026",
+      "title": "Development, Operation And Maintenance Of Dewas Gate Mahakal Inter Modal Station Ims Project On Design, Build, Finance",
+      "buyer": "Directorate Of Town And Country Planning",
+      "procurementSource": "EPROCURE",
+      "state": "Madhya Pradesh",
+      "value": 5000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-05-28T12:00:00.000Z",
+      "postedAt": "2026-01-05T13:25:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-town-and-country-planning/detail-15f5963c-2d67-4c1c-a3b5-88efca31fcfe",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "a268aea9-2126-469d-9735-d954968cdbce",
       "refNo": "4c368931-2fa7-3e7a-a50f-227360b4d8be",
       "title": "Consultancy And Professional Services",
@@ -5930,24 +5965,6 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-d0556642-6f55-4f79-81b9-6d856856ab97",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "15f5963c-2d67-4c1c-a3b5-88efca31fcfe",
-      "refNo": "UDA/IMS/26/02 DATE 05/01/2026",
-      "title": "Development, Operation And Maintenance Of Dewas Gate Mahakal Inter Modal Station Ims Project On Design, Build, Finance",
-      "buyer": "Directorate Of Town And Country Planning",
-      "procurementSource": "EPROCURE",
-      "state": "Madhya Pradesh",
-      "value": 5000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-05-28T12:00:00.000Z",
-      "postedAt": "2026-01-05T13:25:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Transportation and Logistics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-town-and-country-planning/detail-15f5963c-2d67-4c1c-a3b5-88efca31fcfe",
       "matchedKeywords": []
     },
     {
@@ -6469,22 +6486,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "cdeca495-592b-4aac-be5f-81c9c89cf8f3",
-      "refNo": "e NIB 01 of 2026-27",
-      "title": "Construction Of Dam And Development Of Pressurized Irr Network To Irrigate The Command Area Under Andheri Med Irr Proj Including Survey Design Const Operation Maintenance Of Dam And Piped Network Canal Sys Teh-chhabra Distt Baran Epc Turnkey Basis",
-      "buyer": "Water Resources Department",
-      "state": "Rajasthan",
-      "value": 4543300000,
-      "bidDeadline": "2026-06-21T18:30:00.000Z",
-      "postedAt": "2026-05-19T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Agriculture or Forestry Works"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/water-resources-department/detail-cdeca495-592b-4aac-be5f-81c9c89cf8f3",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "a40c46a9-5ff9-45fe-9396-a8e7eb6b4716",
       "refNo": "CE WR ZONE KOTA NITNO-01/2026-27",
       "title": "Const Of Dam And Deve Of Pressurized Irrig Network To Irrigate The Command Area Under Andheri Med Irrig Project Including Survey, Design, Const, Operation And Maint Of Dam And Piped Network Canal System. Teh Chhabra, Dist Baran Raj Epc Turnkey Basis",
@@ -6500,6 +6501,22 @@
         "Agriculture or Forestry Works"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/water-resources-department/detail-a40c46a9-5ff9-45fe-9396-a8e7eb6b4716",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "cdeca495-592b-4aac-be5f-81c9c89cf8f3",
+      "refNo": "e NIB 01 of 2026-27",
+      "title": "Construction Of Dam And Development Of Pressurized Irr Network To Irrigate The Command Area Under Andheri Med Irr Proj Including Survey Design Const Operation Maintenance Of Dam And Piped Network Canal Sys Teh-chhabra Distt Baran Epc Turnkey Basis",
+      "buyer": "Water Resources Department",
+      "state": "Rajasthan",
+      "value": 4543300000,
+      "bidDeadline": "2026-06-21T18:30:00.000Z",
+      "postedAt": "2026-05-19T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Agriculture or Forestry Works"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/water-resources-department/detail-cdeca495-592b-4aac-be5f-81c9c89cf8f3",
       "matchedKeywords": []
     },
     {
@@ -7406,21 +7423,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "65b78e0e-42db-4c60-90bf-8b57b939be60",
-      "refNo": "1b276c4d-f1bb-3d18-82a9-777d14c316d0",
-      "title": "Defence Soft Facilities Management (uk Estate)",
-      "buyer": "Defence Infrastructure Organisation",
-      "value": 3792056000,
-      "bidDeadline": "2026-07-31T18:30:00.000Z",
-      "postedAt": "2025-07-31T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/defence-infrastructure-organisation/detail-65b78e0e-42db-4c60-90bf-8b57b939be60",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "465ea85d-5079-453a-b227-360580e76ba7",
       "refNo": "b6feb4d1-0a73-37a0-927f-be5bf911bba7",
       "title": "Defence Soft Facilities Management (uk Estate)",
@@ -7433,6 +7435,21 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/defence-infrastructure-organisation/detail-465ea85d-5079-453a-b227-360580e76ba7",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "65b78e0e-42db-4c60-90bf-8b57b939be60",
+      "refNo": "1b276c4d-f1bb-3d18-82a9-777d14c316d0",
+      "title": "Defence Soft Facilities Management (uk Estate)",
+      "buyer": "Defence Infrastructure Organisation",
+      "value": 3792056000,
+      "bidDeadline": "2026-07-31T18:30:00.000Z",
+      "postedAt": "2025-07-31T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/defence-infrastructure-organisation/detail-65b78e0e-42db-4c60-90bf-8b57b939be60",
       "matchedKeywords": []
     },
     {
@@ -7622,20 +7639,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "95017ca9-eb6a-49f4-9cb9-bb9234fc8d71",
-      "refNo": "86f73644-c1ad-3dd1-861c-60032123e940",
-      "title": "Courier, Distribution, Storage And Specialist Solutions",
-      "buyer": "Crown Commercial Service",
-      "value": 3680000000,
-      "bidDeadline": "2026-07-07T18:30:00.000Z",
-      "postedAt": "2025-07-07T18:30:00.000Z",
-      "sectorNames": [
-        "Transportation and Logistics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-95017ca9-eb6a-49f4-9cb9-bb9234fc8d71",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "d96d1082-8b7a-4c0d-8f98-02a8ba9ed316",
       "refNo": "18a08566-b040-357f-8b2e-802281bb56e0",
       "title": "Courier, Distribution, Storage And Specialist Solutions",
@@ -7650,6 +7653,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "95017ca9-eb6a-49f4-9cb9-bb9234fc8d71",
+      "refNo": "86f73644-c1ad-3dd1-861c-60032123e940",
+      "title": "Courier, Distribution, Storage And Specialist Solutions",
+      "buyer": "Crown Commercial Service",
+      "value": 3680000000,
+      "bidDeadline": "2026-07-07T18:30:00.000Z",
+      "postedAt": "2025-07-07T18:30:00.000Z",
+      "sectorNames": [
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-95017ca9-eb6a-49f4-9cb9-bb9234fc8d71",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "397a197c-4ca7-4eb4-85d7-982ba17dff1a",
       "refNo": "9e6ec25f-1ccb-3271-8d85-9f2cf2e4be06",
       "title": "Rm6354 Courier, Distribution, Storage And Specialist Solutions",
@@ -7661,23 +7678,6 @@
         "Transportation and Logistics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-397a197c-4ca7-4eb4-85d7-982ba17dff1a",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "0a707b8a-472e-419a-8b6b-a32cfd3bad3f",
-      "refNo": "NBCC/CPG/IOC/HUDCO/Noida/UP/2026/568 ; 01",
-      "title": "Construction Of Integrated Office Complex On Design, Engineering, Procurement And Construction (epc) Basis At Hudco Plot A-2, Sector-62, Noida, Uttar Pradesh",
-      "buyer": "NBCC India Limited",
-      "state": "Uttar Pradesh",
-      "value": 3667861578,
-      "emd": 36678616,
-      "bidDeadline": "2026-05-28T05:30:00.000Z",
-      "postedAt": "2026-04-28T13:27:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-0a707b8a-472e-419a-8b6b-a32cfd3bad3f",
       "matchedKeywords": []
     },
     {
@@ -7699,6 +7699,23 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-7f8cbf83-ffa8-40c1-87f1-7efed32fc10e",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0a707b8a-472e-419a-8b6b-a32cfd3bad3f",
+      "refNo": "NBCC/CPG/IOC/HUDCO/Noida/UP/2026/568 ; 01",
+      "title": "Construction Of Integrated Office Complex On Design, Engineering, Procurement And Construction (epc) Basis At Hudco Plot A-2, Sector-62, Noida, Uttar Pradesh",
+      "buyer": "NBCC India Limited",
+      "state": "Uttar Pradesh",
+      "value": 3667861578,
+      "emd": 36678616,
+      "bidDeadline": "2026-05-28T05:30:00.000Z",
+      "postedAt": "2026-04-28T13:27:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-0a707b8a-472e-419a-8b6b-a32cfd3bad3f",
       "matchedKeywords": []
     },
     {
@@ -8272,6 +8289,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "ab11e5b6-e840-4d6a-81c2-36cc114dfd59",
+      "refNo": "MPDIV 21/1/2026 MP Division",
+      "title": "2 Lane Plus Paved Shoulder/4 Lanning Of Damoh Jabalpur (package 2) Section Of Nh 34 From Km. 43.500 To Km 66.800 Under Nh (o) In The State Of Madhya Pradesh On Ham",
+      "buyer": "National Highways Authority Of India",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Madhya Pradesh",
+      "value": 3270900000,
+      "emd": 32700000,
+      "bidDeadline": "2026-06-22T05:30:00.000Z",
+      "postedAt": "2026-05-09T03:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-ab11e5b6-e840-4d6a-81c2-36cc114dfd59",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "32b60178-214a-4026-b141-f5ad455ea315",
       "refNo": "MPDIV 20016/22/2026 MP Division",
       "title": "Independent Engineer Services For 2 Lane Plus Paved Shoulder/4 Lanning Of Damoh Jabalpur (package 2) Section Of Nh 34 From Km. 43.500 To Km 66.800 Under Nh (o)",
@@ -8289,25 +8325,6 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-32b60178-214a-4026-b141-f5ad455ea315",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "ab11e5b6-e840-4d6a-81c2-36cc114dfd59",
-      "refNo": "MPDIV 21/1/2026 MP Division",
-      "title": "2 Lane Plus Paved Shoulder/4 Lanning Of Damoh Jabalpur (package 2) Section Of Nh 34 From Km. 43.500 To Km 66.800 Under Nh (o) In The State Of Madhya Pradesh On Ham",
-      "buyer": "National Highways Authority Of India",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "EPROCURE",
-      "state": "Madhya Pradesh",
-      "value": 3270900000,
-      "emd": 32700000,
-      "bidDeadline": "2026-06-22T05:30:00.000Z",
-      "postedAt": "2026-05-09T03:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-ab11e5b6-e840-4d6a-81c2-36cc114dfd59",
       "matchedKeywords": []
     },
     {
@@ -9489,25 +9506,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "f5ffa922-75af-4cca-80ce-713077c7a828",
-      "refNo": "NIT_996_DME",
-      "title": "Public Private Partnership Request For Proposal For Setting Up Of Medical College And Upgradation Of District Hospital At Shajapur, Madhya Pradesh",
-      "buyer": "Directorate Of Health Services",
-      "purchaserGroup": "Health",
-      "procurementSource": "EPROCURE",
-      "state": "Madhya Pradesh",
-      "value": 2600000000,
-      "emd": 50000000,
-      "bidDeadline": "2026-06-03T12:00:00.000Z",
-      "postedAt": "2025-10-15T10:55:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-health-services/detail-f5ffa922-75af-4cca-80ce-713077c7a828",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "39d97c07-4504-4281-b76b-76c7ae1c24dd",
       "refNo": "NIT_996_DME",
       "title": "Public Private Partnership Request For Proposal For Setting Up Of Medical College And Upgradation Of District Hospital At Sidhi, Madhya Pradesh",
@@ -9527,9 +9525,9 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "f9672a21-ad8d-4c1e-ad2b-8061b114cfc0",
+      "tenderId": "f5ffa922-75af-4cca-80ce-713077c7a828",
       "refNo": "NIT_996_DME",
-      "title": "Public Private Partnership Request For Proposal For Setting Up Of Medical College And Upgradation Of District Hospital At Balaghat, Madhya Pradesh",
+      "title": "Public Private Partnership Request For Proposal For Setting Up Of Medical College And Upgradation Of District Hospital At Shajapur, Madhya Pradesh",
       "buyer": "Directorate Of Health Services",
       "purchaserGroup": "Health",
       "procurementSource": "EPROCURE",
@@ -9537,11 +9535,12 @@
       "value": 2600000000,
       "emd": 50000000,
       "bidDeadline": "2026-06-03T12:00:00.000Z",
-      "postedAt": "2025-10-15T09:50:00.000Z",
+      "postedAt": "2025-10-15T10:55:00.000Z",
       "sectorNames": [
-        "Healthcare and Medicine"
+        "Civil And Construction",
+        "Civil Works Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-health-services/detail-f9672a21-ad8d-4c1e-ad2b-8061b114cfc0",
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-health-services/detail-f5ffa922-75af-4cca-80ce-713077c7a828",
       "matchedKeywords": []
     },
     {
@@ -9650,6 +9649,24 @@
         "Healthcare and Medicine"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/directorate-of-health-services/detail-b5e61a00-636b-4e22-9742-b16879d0999b",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f9672a21-ad8d-4c1e-ad2b-8061b114cfc0",
+      "refNo": "NIT_996_DME",
+      "title": "Public Private Partnership Request For Proposal For Setting Up Of Medical College And Upgradation Of District Hospital At Balaghat, Madhya Pradesh",
+      "buyer": "Directorate Of Health Services",
+      "purchaserGroup": "Health",
+      "procurementSource": "EPROCURE",
+      "state": "Madhya Pradesh",
+      "value": 2600000000,
+      "emd": 50000000,
+      "bidDeadline": "2026-06-03T12:00:00.000Z",
+      "postedAt": "2025-10-15T09:50:00.000Z",
+      "sectorNames": [
+        "Healthcare and Medicine"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-health-services/detail-f9672a21-ad8d-4c1e-ad2b-8061b114cfc0",
       "matchedKeywords": []
     },
     {
@@ -10391,6 +10408,44 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "0c9f9cf5-dd91-4694-b260-10e392e57446",
+      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
+      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Veer Kunwar Singh Link Road with length 3.10 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2436614000,
+      "emd": 25366000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-25T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-0c9f9cf5-dd91-4694-b260-10e392e57446",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "14031fae-5d95-4510-abea-7bbcc2d05758",
+      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
+      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Ara-Salempur Road with length 0.57 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2436614000,
+      "emd": 25366000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-25T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-14031fae-5d95-4510-abea-7bbcc2d05758",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "1886a7b5-2c03-4b45-86fd-0cdc27e094eb",
       "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
       "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: NH-30 (Sapna Cinema) to Katira More with length 3.20 Kms.",
@@ -10410,6 +10465,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "189b7d84-f28f-4290-b93f-2d21d7fa9b27",
+      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
+      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Syndicate More to Singahi More via Bindtolli, Marutinagar, Lakadiya Pul, Balbatara with length 2.40 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2436614000,
+      "emd": 25366000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-25T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-189b7d84-f28f-4290-b93f-2d21d7fa9b27",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "19f28047-c8fc-4cb6-bf9f-71021ed684a2",
       "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
       "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Dharahara to Railway Station via Sishmahal, Lakadiya Pul, Balbatara with length 4.03 Kms.",
@@ -10426,6 +10500,25 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-19f28047-c8fc-4cb6-bf9f-71021ed684a2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "1baf3d06-70d8-4d19-91e8-9197d643d60c",
+      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
+      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Bihiya Chaurasta to Barja via Karja Road with length 13.05 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2436614000,
+      "emd": 25366000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-25T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-1baf3d06-70d8-4d19-91e8-9197d643d60c",
       "matchedKeywords": []
     },
     {
@@ -10901,82 +10994,6 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-fb0639fc-0d8a-48f9-9a5c-461449f37584",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "0c9f9cf5-dd91-4694-b260-10e392e57446",
-      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
-      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Veer Kunwar Singh Link Road with length 3.10 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 2436614000,
-      "emd": 25366000,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-25T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-0c9f9cf5-dd91-4694-b260-10e392e57446",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "14031fae-5d95-4510-abea-7bbcc2d05758",
-      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
-      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Ara-Salempur Road with length 0.57 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 2436614000,
-      "emd": 25366000,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-25T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-14031fae-5d95-4510-abea-7bbcc2d05758",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "189b7d84-f28f-4290-b93f-2d21d7fa9b27",
-      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
-      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Syndicate More to Singahi More via Bindtolli, Marutinagar, Lakadiya Pul, Balbatara with length 2.40 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 2436614000,
-      "emd": 25366000,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-25T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-189b7d84-f28f-4290-b93f-2d21d7fa9b27",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "1baf3d06-70d8-4d19-91e8-9197d643d60c",
-      "refNo": "NIT No.-01MBD/Ara/OPRMC Phase-III Package No. 34A for the year 2026-27",
-      "title": "The Executive Engineer, Shahabad Road Division, Ara, Road Construction Department, Bihar on behalf of Governor of Bihar invites bids for the works detailed below: To undertake Ordinary Maintenance Works and Service Works including re-application of Road Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for a period of 7 years (84 months). The Maintenance Works shall also include the Cross Drainage Works, Minor Works on the selected road limits. This shall be carried out under Output & Performance-based a lump sum basis and shall be paid monthly. Maintenance Works including re-application of Road Safety to the value of the lump sum in km. Specific work: Bihiya Chaurasta to Barja via Karja Road with length 13.05 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 2436614000,
-      "emd": 25366000,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-25T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-1baf3d06-70d8-4d19-91e8-9197d643d60c",
       "matchedKeywords": []
     },
     {
@@ -13193,25 +13210,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
-      "refNo": "GEM/2026/B/7481018",
-      "title": "Category: Hiring Of Consultants - Milestone/deliverable Based - Pm- setu - Selection Of Anchor Industry Partner (non-hiring service) For Cluster-13 (hub Iti, Chittoor And 3 Spoke Itis) - andhra Pradesh State; Ppp And Financial Modelling, Ppp expert, Organizati..",
-      "buyer": "Labour Employment Training And Factories Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "GEM",
-      "state": "Andhra Pradesh",
-      "value": 2000000000,
-      "emd": 6800000,
-      "bidDeadline": "2026-06-03T11:30:00.000Z",
-      "postedAt": "2026-04-27T11:12:53.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "2b6945c2-f937-4c81-b833-283b3f4971f5",
       "refNo": "GEM/2026/B/7481298",
       "title": "Category: Hiring Of Consultants - Milestone/deliverable Based - Pm- setu - Selection Of Anchor Industry Partner (non-hiring",
@@ -13228,6 +13226,25 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-2b6945c2-f937-4c81-b833-283b3f4971f5",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
+      "refNo": "GEM/2026/B/7481018",
+      "title": "Category: Hiring Of Consultants - Milestone/deliverable Based - Pm- setu - Selection Of Anchor Industry Partner (non-hiring service) For Cluster-13 (hub Iti, Chittoor And 3 Spoke Itis) - andhra Pradesh State; Ppp And Financial Modelling, Ppp expert, Organizati..",
+      "buyer": "Labour Employment Training And Factories Department",
+      "purchaserGroup": "Education",
+      "procurementSource": "GEM",
+      "state": "Andhra Pradesh",
+      "value": 2000000000,
+      "emd": 6800000,
+      "bidDeadline": "2026-06-03T11:30:00.000Z",
+      "postedAt": "2026-04-27T11:12:53.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
       "matchedKeywords": []
     },
     {
@@ -13649,6 +13666,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "228e580b-c76d-485c-9aba-b6830de25f1a",
+      "refNo": "d17d2bda-211e-30ca-a443-6c580a0cf0cb",
+      "title": "Managed Equipment Services",
+      "buyer": "Surrey & Boarders Partnership NHS on behalf of NHS Commercial Solutions",
+      "value": 2000000000,
+      "bidDeadline": "2026-07-31T18:30:00.000Z",
+      "postedAt": "2025-07-31T18:30:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-228e580b-c76d-485c-9aba-b6830de25f1a",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "761f4a45-bf8c-489e-b707-9fe8bf466a1e",
       "refNo": "d4fe0c7f-a7dd-3e31-b120-eba69488de05",
       "title": "Sustainable Estates Solutions Framework Agreement",
@@ -13716,20 +13747,6 @@
         "Software and IT Solutions"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-f4c0e59b-36de-4ca9-bd10-1886c5f463c0",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "228e580b-c76d-485c-9aba-b6830de25f1a",
-      "refNo": "d17d2bda-211e-30ca-a443-6c580a0cf0cb",
-      "title": "Managed Equipment Services",
-      "buyer": "Surrey & Boarders Partnership NHS on behalf of NHS Commercial Solutions",
-      "value": 2000000000,
-      "bidDeadline": "2026-07-31T18:30:00.000Z",
-      "postedAt": "2025-07-31T18:30:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-228e580b-c76d-485c-9aba-b6830de25f1a",
       "matchedKeywords": []
     },
     {
@@ -14248,21 +14265,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "16ef22e9-5a29-49d8-8889-4df006d69ca6",
-      "refNo": "1b198682-1c5e-3836-87a5-e1c861000f16",
-      "title": "Dgm/2052 Segmented Sourcing Strategy",
-      "buyer": "Defence Equipment & Support",
-      "value": 1900000000,
-      "bidDeadline": "2026-11-13T18:30:00.000Z",
-      "postedAt": "2025-11-13T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-16ef22e9-5a29-49d8-8889-4df006d69ca6",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "3a59d91a-72ad-496a-91f6-9d9e2729a013",
       "refNo": "1cbce163-3cd8-378e-a489-8416ecd5586d",
       "title": "Dgm/2052 Segmented Sourcing Strategy",
@@ -14275,6 +14277,21 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-3a59d91a-72ad-496a-91f6-9d9e2729a013",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "16ef22e9-5a29-49d8-8889-4df006d69ca6",
+      "refNo": "1b198682-1c5e-3836-87a5-e1c861000f16",
+      "title": "Dgm/2052 Segmented Sourcing Strategy",
+      "buyer": "Defence Equipment & Support",
+      "value": 1900000000,
+      "bidDeadline": "2026-11-13T18:30:00.000Z",
+      "postedAt": "2025-11-13T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-16ef22e9-5a29-49d8-8889-4df006d69ca6",
       "matchedKeywords": []
     },
     {
@@ -14292,20 +14309,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "36908d8b-a9ba-4801-bf04-1ccbd57a21e3",
-      "refNo": "45cca563-c06d-36a8-983d-e3f41d3c7291",
-      "title": "Segmented Sourcing Strategy - Uk1",
-      "buyer": "Defence Equipment & Support",
-      "value": 1900000000,
-      "bidDeadline": "2026-06-29T18:30:00.000Z",
-      "postedAt": "2025-06-29T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-36908d8b-a9ba-4801-bf04-1ccbd57a21e3",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "7042eb5d-9865-4ef2-9580-65d026b6f103",
       "refNo": "7cc9b2a3-e4b2-37bd-91dc-1965f095df7a",
       "title": "Segmented Sourcing Strategy - Uk1",
@@ -14317,6 +14320,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-7042eb5d-9865-4ef2-9580-65d026b6f103",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "36908d8b-a9ba-4801-bf04-1ccbd57a21e3",
+      "refNo": "45cca563-c06d-36a8-983d-e3f41d3c7291",
+      "title": "Segmented Sourcing Strategy - Uk1",
+      "buyer": "Defence Equipment & Support",
+      "value": 1900000000,
+      "bidDeadline": "2026-06-29T18:30:00.000Z",
+      "postedAt": "2025-06-29T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-36908d8b-a9ba-4801-bf04-1ccbd57a21e3",
       "matchedKeywords": []
     },
     {
@@ -14632,6 +14649,63 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/planning-department/detail-45d02929-4d5f-4d32-9ff6-0012f9539480",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "01ae3af7-fff1-4b1e-9d60-883d5380b219",
+      "refNo": "03/RCD/2026-27/ARARIA",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in S.No. 9 below. The Maintenance Works shall also include the Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within the selected road limits. Ordinary Maintenance Works and Services shall be carried out under Output & Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on the basis of actual quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months).",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1808245865,
+      "emd": 190824586.5,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-10T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-01ae3af7-fff1-4b1e-9d60-883d5380b219",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "086bcd38-f030-4f9d-85c2-2211705754d2",
+      "refNo": "03/RCD/2026-27/ARARIA",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in S.No. 9 below. The Maintenance Works shall also include the Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within the selected road limits. Ordinary Maintenance Works and Services shall be carried out under Output & Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on the basis of actual quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months).",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1808245865,
+      "emd": 190824586.5,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-10T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-086bcd38-f030-4f9d-85c2-2211705754d2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "14e52258-6d9a-403f-85d0-528b3daa49de",
+      "refNo": "03/RCD/2026-27/ARARIA",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in S.No. 9 below. The Maintenance Works shall also include the Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within the selected road limits. Ordinary Maintenance Works and Services shall be carried out under Output & Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on the basis of actual quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months).",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1808245865,
+      "emd": 190824586.5,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-10T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-14e52258-6d9a-403f-85d0-528b3daa49de",
       "matchedKeywords": []
     },
     {
@@ -15072,63 +15146,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "01ae3af7-fff1-4b1e-9d60-883d5380b219",
-      "refNo": "03/RCD/2026-27/ARARIA",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in S.No. 9 below. The Maintenance Works shall also include the Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within the selected road limits. Ordinary Maintenance Works and Services shall be carried out under Output & Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on the basis of actual quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months).",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1808245865,
-      "emd": 190824586.5,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-10T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-01ae3af7-fff1-4b1e-9d60-883d5380b219",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "086bcd38-f030-4f9d-85c2-2211705754d2",
-      "refNo": "03/RCD/2026-27/ARARIA",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in S.No. 9 below. The Maintenance Works shall also include the Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within the selected road limits. Ordinary Maintenance Works and Services shall be carried out under Output & Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on the basis of actual quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months).",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1808245865,
-      "emd": 190824586.5,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-10T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-086bcd38-f030-4f9d-85c2-2211705754d2",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "14e52258-6d9a-403f-85d0-528b3daa49de",
-      "refNo": "03/RCD/2026-27/ARARIA",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in S.No. 9 below. The Maintenance Works shall also include the Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within the selected road limits. Ordinary Maintenance Works and Services shall be carried out under Output & Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on the basis of actual quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months).",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1808245865,
-      "emd": 190824586.5,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-10T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-14e52258-6d9a-403f-85d0-528b3daa49de",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "ca75223d-0a12-4d36-93c8-3f9a9c17eec4",
       "refNo": "BUIDCo/Yo- 3020/24(P-02)-20 (Gr-01)",
       "title": "Darbhanga Water Supply Scheme Under Amrut 2.0",
@@ -15286,21 +15303,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "1337bf29-c29c-4944-b84f-44efc7e263f5",
-      "refNo": "872701f2-536e-3668-8de9-9728aae73373",
-      "title": "2025 Standard Crime Contract Stage 3",
-      "buyer": "Legal Aid Agency",
-      "value": 1800000000,
-      "bidDeadline": "2034-09-29T18:30:00.000Z",
-      "postedAt": "2025-12-19T18:30:00.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/legal-aid-agency/detail-1337bf29-c29c-4944-b84f-44efc7e263f5",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "b86c00a9-50f0-4453-8e96-65975519416f",
       "refNo": "675f5887-9342-3488-9cb4-61aea5a4d578",
       "title": "2025 Standard Crime Contract Stage 3",
@@ -15313,6 +15315,21 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/legal-aid-agency/detail-b86c00a9-50f0-4453-8e96-65975519416f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "1337bf29-c29c-4944-b84f-44efc7e263f5",
+      "refNo": "872701f2-536e-3668-8de9-9728aae73373",
+      "title": "2025 Standard Crime Contract Stage 3",
+      "buyer": "Legal Aid Agency",
+      "value": 1800000000,
+      "bidDeadline": "2034-09-29T18:30:00.000Z",
+      "postedAt": "2025-12-19T18:30:00.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/legal-aid-agency/detail-1337bf29-c29c-4944-b84f-44efc7e263f5",
       "matchedKeywords": []
     },
     {
@@ -17835,20 +17852,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "6195fb1e-fd70-434f-80f5-1f45fe6f722d",
-      "refNo": "f967cb75-b007-3984-9186-2e22f90e56f8",
-      "title": "Insourcing And Outsourcing Of Clinical Services - Iocs",
-      "buyer": "NHS Shared Business Services",
-      "value": 1500000000,
-      "bidDeadline": "2026-11-04T18:30:00.000Z",
-      "postedAt": "2025-11-04T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-shared-business-services/detail-6195fb1e-fd70-434f-80f5-1f45fe6f722d",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "7626f737-44e5-4b80-a9c6-618b862dd578",
       "refNo": "4685d714-f6ba-39ac-b000-3c1886d57924",
       "title": "Insourcing And Outsourcing Of Clinical Services - Iocs",
@@ -17860,6 +17863,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nhs-shared-business-services/detail-7626f737-44e5-4b80-a9c6-618b862dd578",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "6195fb1e-fd70-434f-80f5-1f45fe6f722d",
+      "refNo": "f967cb75-b007-3984-9186-2e22f90e56f8",
+      "title": "Insourcing And Outsourcing Of Clinical Services - Iocs",
+      "buyer": "NHS Shared Business Services",
+      "value": 1500000000,
+      "bidDeadline": "2026-11-04T18:30:00.000Z",
+      "postedAt": "2025-11-04T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-shared-business-services/detail-6195fb1e-fd70-434f-80f5-1f45fe6f722d",
       "matchedKeywords": []
     },
     {
@@ -18414,7 +18431,7 @@
       "state": "Delhi",
       "value": 1448809322.88,
       "emd": 17100000,
-      "bidDeadline": "2026-05-28T12:46:00.000Z",
+      "bidDeadline": "2026-05-28T09:30:00.000Z",
       "postedAt": "2026-04-13T11:35:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -18727,6 +18744,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "26946b32-0a2c-4077-a23a-db5313d0480e",
+      "refNo": "ab408b01-04cb-30a0-b2d2-b4088aa869d0",
+      "title": "Patient Healthcare Communications And Related It Services Framework",
+      "buyer": "Surrey & Boarders Partnership NHS on behalf of NHS Commercial Solutions",
+      "value": 1400000000,
+      "bidDeadline": "2026-07-31T18:30:00.000Z",
+      "postedAt": "2025-07-31T18:30:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-26946b32-0a2c-4077-a23a-db5313d0480e",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "06d5acd2-2ea9-48e7-869d-1867204044fa",
       "refNo": "618734ec-82df-3ea3-8521-0e258d8742e7",
       "title": "Patient Healthcare Communications And Related It Services Framework",
@@ -18752,20 +18783,6 @@
         "Software and IT Solutions"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-08702ab2-aa52-4156-bb49-e6a00348ddad",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "26946b32-0a2c-4077-a23a-db5313d0480e",
-      "refNo": "ab408b01-04cb-30a0-b2d2-b4088aa869d0",
-      "title": "Patient Healthcare Communications And Related It Services Framework",
-      "buyer": "Surrey & Boarders Partnership NHS on behalf of NHS Commercial Solutions",
-      "value": 1400000000,
-      "bidDeadline": "2026-07-31T18:30:00.000Z",
-      "postedAt": "2025-07-31T18:30:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-26946b32-0a2c-4077-a23a-db5313d0480e",
       "matchedKeywords": []
     },
     {
@@ -19095,22 +19112,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "fed6e4cd-c952-4694-9ffb-b31f410ba86f",
-      "refNo": "2024-4/TGIIC/LANDS/E-Auction/2025-P4",
-      "title": "City Layout, Sy. No. 83/1, Raidurg Panmaktha, Serilingampally Mandal, Ranga Reddy District, Hyderabad, Telangana On P4 Raidurg Panmaktha, Serilingampally (m)",
-      "buyer": "Telangana State Industrial Infrastructure Corporation Limited",
-      "state": "Telangana",
-      "value": 1390000000,
-      "emd": 10000000,
-      "bidDeadline": "2026-05-29T11:30:00.000Z",
-      "postedAt": "2026-05-05T18:30:00.000Z",
-      "sectorNames": [
-        "Real Estate Service"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/telangana-state-industrial-infrastructure-corporation-limited/detail-fed6e4cd-c952-4694-9ffb-b31f410ba86f",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "2c31ccb9-b443-40b0-a184-096f422edf72",
       "refNo": "2024-4/TGIIC/LANDS/E-Auction/2025-1A&1/F",
       "title": "City Layout, Sy. No. 83/1, Raidurg Panmaktha, Serilingampally Mandal, Ranga Reddy District, Hyderabad, Telangana On 1a & 1/f Raidurg Panmaktha, Serilingampally (m)",
@@ -19124,6 +19125,22 @@
         "Real Estate Service"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/telangana-state-industrial-infrastructure-corporation-limited/detail-2c31ccb9-b443-40b0-a184-096f422edf72",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "fed6e4cd-c952-4694-9ffb-b31f410ba86f",
+      "refNo": "2024-4/TGIIC/LANDS/E-Auction/2025-P4",
+      "title": "City Layout, Sy. No. 83/1, Raidurg Panmaktha, Serilingampally Mandal, Ranga Reddy District, Hyderabad, Telangana On P4 Raidurg Panmaktha, Serilingampally (m)",
+      "buyer": "Telangana State Industrial Infrastructure Corporation Limited",
+      "state": "Telangana",
+      "value": 1390000000,
+      "emd": 10000000,
+      "bidDeadline": "2026-05-29T11:30:00.000Z",
+      "postedAt": "2026-05-05T18:30:00.000Z",
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/telangana-state-industrial-infrastructure-corporation-limited/detail-fed6e4cd-c952-4694-9ffb-b31f410ba86f",
       "matchedKeywords": []
     },
     {
@@ -19344,20 +19361,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "419dc87a-dd0a-4608-8fe9-81f689c1b322",
-      "refNo": "9b23026d-2bb9-36eb-a587-1e8a8734e220",
-      "title": "Non Emergency Patient Transport Services Framework Market Engagement",
-      "buyer": "London Procurement Partnership",
-      "value": 1375000000,
-      "bidDeadline": "2026-11-18T18:30:00.000Z",
-      "postedAt": "2025-11-18T18:30:00.000Z",
-      "sectorNames": [
-        "Transportation and Logistics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/london-procurement-partnership/detail-419dc87a-dd0a-4608-8fe9-81f689c1b322",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "310a434c-4b98-4499-a571-154e2c7ea82f",
       "refNo": "476d537d-6e79-318a-88df-1cde57b952a7",
       "title": "Non Emergency Patient Transport Services Framework Market Engagement",
@@ -19369,6 +19372,20 @@
         "Transportation and Logistics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/london-procurement-partnership/detail-310a434c-4b98-4499-a571-154e2c7ea82f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "419dc87a-dd0a-4608-8fe9-81f689c1b322",
+      "refNo": "9b23026d-2bb9-36eb-a587-1e8a8734e220",
+      "title": "Non Emergency Patient Transport Services Framework Market Engagement",
+      "buyer": "London Procurement Partnership",
+      "value": 1375000000,
+      "bidDeadline": "2026-11-18T18:30:00.000Z",
+      "postedAt": "2025-11-18T18:30:00.000Z",
+      "sectorNames": [
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/london-procurement-partnership/detail-419dc87a-dd0a-4608-8fe9-81f689c1b322",
       "matchedKeywords": []
     },
     {
@@ -19589,6 +19606,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "c0f27156-ed07-4d27-800c-45f4d198e5f6",
+      "refNo": "01d91ddd-5daa-3353-9445-e8a69e5fd13a",
+      "title": "Nhs National Branded Interim - 1 June 2026",
+      "buyer": "NHS Engalnd",
+      "value": 1346663020,
+      "bidDeadline": "2026-12-21T18:30:00.000Z",
+      "postedAt": "2025-12-21T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-c0f27156-ed07-4d27-800c-45f4d198e5f6",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "8382573d-0fcd-4e43-ab28-6a1cade2b73e",
       "refNo": "12edcf25-c65e-3a6a-9e71-bfe12dd26116",
       "title": "Nhs National Branded Interim - 1 June 2026",
@@ -19642,20 +19673,6 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-f4dffb0d-c933-48cd-bd94-c8bd708a98b0",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "c0f27156-ed07-4d27-800c-45f4d198e5f6",
-      "refNo": "01d91ddd-5daa-3353-9445-e8a69e5fd13a",
-      "title": "Nhs National Branded Interim - 1 June 2026",
-      "buyer": "NHS Engalnd",
-      "value": 1346663020,
-      "bidDeadline": "2026-12-21T18:30:00.000Z",
-      "postedAt": "2025-12-21T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-c0f27156-ed07-4d27-800c-45f4d198e5f6",
       "matchedKeywords": []
     },
     {
@@ -19743,6 +19760,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "6f013b95-181c-4829-8536-34f7aeb56f3f",
+      "refNo": "cc83bd34-f7a6-347a-b1f1-b4fa3dff1963",
+      "title": "Nhs National Branded Interim - 1 June 2026",
+      "buyer": "NHS Engalnd",
+      "value": 1346663020,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": "2025-12-28T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-6f013b95-181c-4829-8536-34f7aeb56f3f",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "08615e15-803a-4356-94b1-45e6ce4533be",
       "refNo": "0de74a4a-1e9d-31f6-baff-02e0414a8337",
       "title": "Nhs National Branded Interim - 1 June 2026",
@@ -19768,20 +19799,6 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-20d32529-2f41-461f-b053-e9eb67f373be",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "6f013b95-181c-4829-8536-34f7aeb56f3f",
-      "refNo": "cc83bd34-f7a6-347a-b1f1-b4fa3dff1963",
-      "title": "Nhs National Branded Interim - 1 June 2026",
-      "buyer": "NHS Engalnd",
-      "value": 1346663020,
-      "bidDeadline": "2026-12-28T18:30:00.000Z",
-      "postedAt": "2025-12-28T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-6f013b95-181c-4829-8536-34f7aeb56f3f",
       "matchedKeywords": []
     },
     {
@@ -20444,23 +20461,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "b7ed2904-7ff4-433b-ae88-2eddecab54f9",
-      "refNo": "hudco/Polipathar/2026-27",
-      "title": "Khasra No. 68/1 (ka) And 70/1, Gram Polipathar, Settlement No. 164, Patwari Halka No. 24/2, And The Property Constructed On It, Gwarighat, Polipathar, Tehsil & Distt. Jabalpur (mp),",
-      "buyer": "Housing And Urban Development Corporation Limited",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Madhya Pradesh",
-      "value": 1281100000,
-      "emd": 12820000,
-      "bidDeadline": "2026-06-10T18:30:00.000Z",
-      "postedAt": "2026-04-29T18:30:00.000Z",
-      "sectorNames": [
-        "Real Estate Service"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/housing-and-urban-development-corporation-limited/detail-b7ed2904-7ff4-433b-ae88-2eddecab54f9",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "22648d00-aafd-42cb-a178-7a6e3ffe82cd",
       "refNo": "Banke/Katni/2026-27",
       "title": "The Auction Is For Properties Located In Katni, Madhya Pradesh. Property 1 Is Described As Survey No. 48/1 And 70/1, Village Paloha, Tehsil Bahori Band, District Katni (m.p.),",
@@ -20475,6 +20475,23 @@
         "Real Estate Service"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/housing-and-urban-development-corporation-limited/detail-22648d00-aafd-42cb-a178-7a6e3ffe82cd",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "b7ed2904-7ff4-433b-ae88-2eddecab54f9",
+      "refNo": "hudco/Polipathar/2026-27",
+      "title": "Khasra No. 68/1 (ka) And 70/1, Gram Polipathar, Settlement No. 164, Patwari Halka No. 24/2, And The Property Constructed On It, Gwarighat, Polipathar, Tehsil & Distt. Jabalpur (mp),",
+      "buyer": "Housing And Urban Development Corporation Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Madhya Pradesh",
+      "value": 1281100000,
+      "emd": 12820000,
+      "bidDeadline": "2026-06-10T18:30:00.000Z",
+      "postedAt": "2026-04-29T18:30:00.000Z",
+      "sectorNames": [
+        "Real Estate Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/housing-and-urban-development-corporation-limited/detail-b7ed2904-7ff4-433b-ae88-2eddecab54f9",
       "matchedKeywords": []
     },
     {
@@ -22278,6 +22295,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "0266d672-34b0-4457-bd65-ff860e229b4d",
+      "refNo": "RCD/Jehanabad/01/2026-27",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Strengthening Works and Emergency & Contingent Works on roads. This contract requires specialized maintenance equipment for a period of 7 years (84 months). This specific tender is for the Daharpur to Satanpur via Ahiyasa Road with a length of 5.00 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1134650000,
+      "emd": 12350000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-26T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-0266d672-34b0-4457-bd65-ff860e229b4d",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "02e6fdf1-0fbc-4a9b-b47e-3490e16d6ad0",
       "refNo": "RCD/Jehanabad/01/2026-27",
       "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Strengthening Works and Emergency & Contingent Works on roads. This contract requires specialized maintenance equipment for a period of 7 years (84 months). This specific tender is for the Kajisarai-Imaliya Road with a length of 14.55 Kms.",
@@ -22294,6 +22330,25 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-02e6fdf1-0fbc-4a9b-b47e-3490e16d6ad0",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "1b7082a6-6338-42dd-bffc-96c70bf7fd66",
+      "refNo": "NIT No.-RCD/Jehanabad/01/2026-27",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads. Maintenance Works shall also include Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within selected road limits. Services shall be carried out under Output & Performance Based Road Assets Maintenance Works on a lump sum basis and paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on measured quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires specialized maintenance equipment and the contract obligation is for a period of 7 years (84 months).",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1134650000,
+      "emd": 12350000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-10T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-1b7082a6-6338-42dd-bffc-96c70bf7fd66",
       "matchedKeywords": []
     },
     {
@@ -22427,44 +22482,6 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-d95061fc-6770-46d6-a2f8-6a467035c4e2",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "0266d672-34b0-4457-bd65-ff860e229b4d",
-      "refNo": "RCD/Jehanabad/01/2026-27",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Strengthening Works and Emergency & Contingent Works on roads. This contract requires specialized maintenance equipment for a period of 7 years (84 months). This specific tender is for the Daharpur to Satanpur via Ahiyasa Road with a length of 5.00 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1134650000,
-      "emd": 12350000,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-26T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-0266d672-34b0-4457-bd65-ff860e229b4d",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "1b7082a6-6338-42dd-bffc-96c70bf7fd66",
-      "refNo": "NIT No.-RCD/Jehanabad/01/2026-27",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance Works including re-application of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads. Maintenance Works shall also include Cross Drainage Works, Minor Works on Culverts and Roadside Maintenance within selected road limits. Services shall be carried out under Output & Performance Based Road Assets Maintenance Works on a lump sum basis and paid monthly. Initial Rectification Works and Periodic Maintenance Works including re-application of Road Marking shall be paid on measured quantity to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires specialized maintenance equipment and the contract obligation is for a period of 7 years (84 months).",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1134650000,
-      "emd": 12350000,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-10T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-1b7082a6-6338-42dd-bffc-96c70bf7fd66",
       "matchedKeywords": []
     },
     {
@@ -22849,6 +22866,44 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "0523a168-ab3e-4a76-a698-8cce8c407c9a",
+      "refNo": "NIT No.-01/2026-27",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Bhothathana-Azadnagar-Aambari-Budhra-Pothiya Road with length 12.706 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1091054932,
+      "emd": 11910600,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-10T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-0523a168-ab3e-4a76-a698-8cce8c407c9a",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "1a9ce928-92a2-4cd7-b1dd-abf8ef1453e1",
+      "refNo": "NIT No.-01/2026-27",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Kishanganj-Taiyabpur-Thakurganj-Galgali Link Road Simalbari-Deramari Road with length 1.728 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1091054932,
+      "emd": 11910600,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-10T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-1a9ce928-92a2-4cd7-b1dd-abf8ef1453e1",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "1ebb9f76-77c8-4c25-8535-a3ad7bd1d428",
       "refNo": "NIT No.-01/2026-27",
       "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Kishanganj-Taiyabpur-Thakurganj-Galgali Link Road (Ch 38.0 to 50.10, 55.7 to 58.40 & 59.5 to 60.20) with length 15.22 Kms.",
@@ -23074,44 +23129,6 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-fcf1411a-fbb0-4e92-b1c6-8d896eef416d",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "0523a168-ab3e-4a76-a698-8cce8c407c9a",
-      "refNo": "NIT No.-01/2026-27",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Bhothathana-Azadnagar-Aambari-Budhra-Pothiya Road with length 12.706 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1091054932,
-      "emd": 11910600,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-10T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-0523a168-ab3e-4a76-a698-8cce8c407c9a",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "1a9ce928-92a2-4cd7-b1dd-abf8ef1453e1",
-      "refNo": "NIT No.-01/2026-27",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Kishanganj-Taiyabpur-Thakurganj-Galgali Link Road Simalbari-Deramari Road with length 1.728 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1091054932,
-      "emd": 11910600,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-10T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-1a9ce928-92a2-4cd7-b1dd-abf8ef1453e1",
       "matchedKeywords": []
     },
     {
@@ -23392,6 +23409,23 @@
       "postedAt": "2022-10-06T18:30:00.000Z",
       "sectorNames": [],
       "detailUrl": "https://bidassist.com/global-tenders/lithuanian-railways/detail-e22ae4ae-9cf8-4b79-95da-bd56f79a00c1",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "2ae6a48f-05b3-4825-b1b6-73d73b00d302",
+      "refNo": "CPC-67/2025-26",
+      "title": "Construction Of 2 X 500 Mva 400-220 Kv Grid Sub-station With Automation System At Baisinga",
+      "buyer": "Odisha Power Transmission Corporation Limited",
+      "state": "Odisha",
+      "value": 1044294023,
+      "emd": 10442940,
+      "bidDeadline": "2026-06-11T07:30:00.000Z",
+      "postedAt": "2026-02-27T05:58:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/odisha-power-transmission-corporation-limited/detail-2ae6a48f-05b3-4825-b1b6-73d73b00d302",
       "matchedKeywords": []
     },
     {
@@ -23905,6 +23939,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "01c72773-441d-42f4-81f0-738c8c09cfe1",
+      "refNo": "NIT No.-01/2026-27",
+      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Mahadeodighi To college chowk road with length 9.862 Kms.",
+      "buyer": "Road Construction Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1000000000,
+      "emd": 13453000,
+      "bidDeadline": "2026-06-03T18:30:00.000Z",
+      "postedAt": "2026-05-10T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Road Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-01c72773-441d-42f4-81f0-738c8c09cfe1",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "2637d69d-93b4-4515-bb8b-e0532807d2e7",
       "refNo": "NIT No.-01/2026-27",
       "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Baisi-Amour-Bahadurganj-Dighalbank Road (SH-99) with length 37.14 Kms.",
@@ -23997,25 +24050,6 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-edb1b919-f63e-4242-9f01-2cff7510e30e",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "01c72773-441d-42f4-81f0-738c8c09cfe1",
-      "refNo": "NIT No.-01/2026-27",
-      "title": "To undertake Ordinary Maintenance Works, Initial Rectification Works, Periodic Maintenance of Road Marking, Minor Improvement Works including Strengthening Works and Emergency & Contingent Works on Roads under the Package/s, for total length of as described in The Maintenance Works shall also include Culverts and Roadside Maintenance within Ordinary Maintenance Works and Service Performance-Based Road Assets Maintenance Works on a lump sum basis and shall be paid on measured quantities to the value of the lump sum in km. Minor Improvement Works including Strengthening Works, Emergency and Contingent Works shall be paid on the basis of actual executed quantities of the items. This Contract requires the specialized maintenance equipment and the contract obligations is for a period of 7 years (84 months). Specific work: Maintenance of Mahadeodighi To college chowk road with length 9.862 Kms.",
-      "buyer": "Road Construction Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "NEWSPAPER_AD",
-      "state": "Bihar",
-      "value": 1000000000,
-      "emd": 13453000,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": "2026-05-10T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Road Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/road-construction-department/detail-01c72773-441d-42f4-81f0-738c8c09cfe1",
       "matchedKeywords": []
     },
     {
@@ -24417,26 +24451,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "39e70171-39f0-492c-9a16-45471d716dbe",
-      "refNo": "08261248",
-      "title": "Description :supply, Installation, Interfacing With Electrics Of Emu/memu, Testing And Commissioning Of On-board K avach Equipment As Per Rdso Spec No. Rdso/spn/196/2020, Ver 4.0 Or Latest For Emu/memu. Detailed Description, scope Of Supply, Warranty, Camc And Other Conditions Shall Be Followed As Per \"annexure-a\". Note: 1.the Radio Mod ems Shall Be Delivered, Installed, Tested, And Commissioned At Zonal Railways Depots Directly. 2.quantity Required per Rake Is 2 Sets [ Warranty Period: 60 Months After The Date Of Delivery ] ]",
-      "buyer": "Integral Coach Factory",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Tamil Nadu",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-06-09T08:45:00.000Z",
-      "postedAt": "2026-05-15T09:41:00.000Z",
-      "sectorNames": [
-        "Telecommunication Services",
-        "Electrical Goods and Equipments",
-        "Electrical and Electronics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/integral-coach-factory/detail-39e70171-39f0-492c-9a16-45471d716dbe",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "2b73a21e-2707-4979-92f7-be38f6b0da8d",
       "refNo": "07255039A",
       "title": "Retro-fitment Of Supply, Installation & Commissioning Of Automatic Swing (swivelling) Type Door Locking & Opening Mechanism In The Rake.",
@@ -24455,22 +24469,23 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "8892a0b8-1453-4c7e-b9c2-c7df4968c7eb",
-      "refNo": "13/2026/Tender/G/CE(B)/Bhopal, Dtd. 11.05.2026",
-      "title": "Architectural Design, Dpr Consultancy For Architectural Design, Dpr Consultancy Services For Construction Of Various Buildings Works In The Year Of 2026-27 In Mppwd Building Narmadapuram",
-      "buyer": "Public Works Department",
-      "purchaserGroup": "Road Transportation",
-      "procurementSource": "EPROCURE",
-      "state": "Madhya Pradesh",
+      "tenderId": "39e70171-39f0-492c-9a16-45471d716dbe",
+      "refNo": "08261248",
+      "title": "Description :supply, Installation, Interfacing With Electrics Of Emu/memu, Testing And Commissioning Of On-board K avach Equipment As Per Rdso Spec No. Rdso/spn/196/2020, Ver 4.0 Or Latest For Emu/memu. Detailed Description, scope Of Supply, Warranty, Camc And Other Conditions Shall Be Followed As Per \"annexure-a\". Note: 1.the Radio Mod ems Shall Be Delivered, Installed, Tested, And Commissioned At Zonal Railways Depots Directly. 2.quantity Required per Rake Is 2 Sets [ Warranty Period: 60 Months After The Date Of Delivery ] ]",
+      "buyer": "Integral Coach Factory",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Tamil Nadu",
       "value": 1000000000,
-      "emd": 200000,
-      "bidDeadline": "2026-05-26T12:00:00.000Z",
-      "postedAt": "2026-05-14T12:00:00.000Z",
+      "emd": 5000000,
+      "bidDeadline": "2026-06-09T08:45:00.000Z",
+      "postedAt": "2026-05-15T09:41:00.000Z",
       "sectorNames": [
-        "Consultancy Services",
-        "Civil And Architectural Services"
+        "Telecommunication Services",
+        "Electrical Goods and Equipments",
+        "Electrical and Electronics"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/public-works-department/detail-8892a0b8-1453-4c7e-b9c2-c7df4968c7eb",
+      "detailUrl": "https://bidassist.com/global-tenders/integral-coach-factory/detail-39e70171-39f0-492c-9a16-45471d716dbe",
       "matchedKeywords": []
     },
     {
@@ -24493,21 +24508,22 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "5de377b0-d588-4a87-a3a4-584058336d6d",
-      "refNo": "51266079",
-      "title": "Running Contract For Manufacture And Supply Curved Switches As Per Rdso Drg. No. T-8780, T-9775",
-      "buyer": "Central Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Maharashtra",
+      "tenderId": "8892a0b8-1453-4c7e-b9c2-c7df4968c7eb",
+      "refNo": "13/2026/Tender/G/CE(B)/Bhopal, Dtd. 11.05.2026",
+      "title": "Architectural Design, Dpr Consultancy For Architectural Design, Dpr Consultancy Services For Construction Of Various Buildings Works In The Year Of 2026-27 In Mppwd Building Narmadapuram",
+      "buyer": "Public Works Department",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Madhya Pradesh",
       "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-06-16T06:00:00.000Z",
-      "postedAt": "2026-05-13T07:53:00.000Z",
+      "emd": 200000,
+      "bidDeadline": "2026-05-26T12:00:00.000Z",
+      "postedAt": "2026-05-14T12:00:00.000Z",
       "sectorNames": [
-        "Metals and Non-Metals"
+        "Consultancy Services",
+        "Civil And Architectural Services"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/central-railway/detail-5de377b0-d588-4a87-a3a4-584058336d6d",
+      "detailUrl": "https://bidassist.com/global-tenders/public-works-department/detail-8892a0b8-1453-4c7e-b9c2-c7df4968c7eb",
       "matchedKeywords": []
     },
     {
@@ -24527,6 +24543,24 @@
         "Metals and Non-Metals"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/north-central-railway/detail-9c22768d-e30b-42cf-b492-67dc7a5885d9",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "5de377b0-d588-4a87-a3a4-584058336d6d",
+      "refNo": "51266079",
+      "title": "Running Contract For Manufacture And Supply Curved Switches As Per Rdso Drg. No. T-8780, T-9775",
+      "buyer": "Central Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Maharashtra",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-06-16T06:00:00.000Z",
+      "postedAt": "2026-05-13T07:53:00.000Z",
+      "sectorNames": [
+        "Metals and Non-Metals"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/central-railway/detail-5de377b0-d588-4a87-a3a4-584058336d6d",
       "matchedKeywords": []
     },
     {
@@ -24719,6 +24753,43 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "7f64a364-606f-49c3-af08-eb5c26be34c0",
+      "refNo": "77269001A-RGC",
+      "title": "Running Contract For Thick Web Switch To Rdso Drg. No. T-9791",
+      "buyer": "Northern Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Uttar Pradesh",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-05-26T05:30:00.000Z",
+      "postedAt": "2026-04-28T11:19:00.000Z",
+      "sectorNames": [
+        "Metals and Non-Metals"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/northern-railway/detail-7f64a364-606f-49c3-af08-eb5c26be34c0",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "d3959449-0812-45ca-a05d-5cbedc92f0a1",
+      "refNo": "21261032",
+      "title": "2x500kva Igbt Based Hotel Load Converter",
+      "buyer": "Patiala Locomotive Works",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Punjab",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-05-25T09:30:00.000Z",
+      "postedAt": "2026-04-28T11:06:00.000Z",
+      "sectorNames": [
+        "Electrical Goods and Equipments",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/patiala-locomotive-works/detail-d3959449-0812-45ca-a05d-5cbedc92f0a1",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "65f0c2d2-159d-4951-8de2-dca102c61880",
       "refNo": "6325ENG70",
       "title": "Running Contract For Manufacture & Supply Of Pre Stressed Concrete Line Sleeper Rdso Drg No. Rt-8746.",
@@ -24755,27 +24826,9 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "7f64a364-606f-49c3-af08-eb5c26be34c0",
-      "refNo": "77269001A-RGC",
-      "title": "Running Contract For Thick Web Switch To Rdso Drg. No. T-9791",
-      "buyer": "Northern Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Uttar Pradesh",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-05-26T05:30:00.000Z",
-      "postedAt": "2026-04-28T11:19:00.000Z",
-      "sectorNames": [
-        "Metals and Non-Metals"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/northern-railway/detail-7f64a364-606f-49c3-af08-eb5c26be34c0",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "d3959449-0812-45ca-a05d-5cbedc92f0a1",
-      "refNo": "21261032",
-      "title": "2x500kva Igbt Based Hotel Load Converter",
+      "tenderId": "c4276a3d-6bce-469a-b130-6c60afd7f73c",
+      "refNo": "02251377A",
+      "title": "Set ( Motor Set) Of Mp/cp Coils",
       "buyer": "Patiala Locomotive Works",
       "purchaserGroup": "Railways",
       "procurementSource": "IREPS",
@@ -24783,12 +24836,12 @@
       "value": 1000000000,
       "emd": 5000000,
       "bidDeadline": "2026-05-25T09:30:00.000Z",
-      "postedAt": "2026-04-28T11:06:00.000Z",
+      "postedAt": "2026-04-25T05:37:00.000Z",
       "sectorNames": [
-        "Electrical Goods and Equipments",
+        "Electrical Generators And Transformers",
         "Electrical and Electronics"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/patiala-locomotive-works/detail-d3959449-0812-45ca-a05d-5cbedc92f0a1",
+      "detailUrl": "https://bidassist.com/global-tenders/patiala-locomotive-works/detail-c4276a3d-6bce-469a-b130-6c60afd7f73c",
       "matchedKeywords": []
     },
     {
@@ -24830,22 +24883,21 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "c4276a3d-6bce-469a-b130-6c60afd7f73c",
-      "refNo": "02251377A",
-      "title": "Set ( Motor Set) Of Mp/cp Coils",
-      "buyer": "Patiala Locomotive Works",
+      "tenderId": "92e44f56-5c21-4e94-b908-f06043e707af",
+      "refNo": "03261378",
+      "title": "Unf Double Row Roller Bearing.22328",
+      "buyer": "Integral Coach Factory",
       "purchaserGroup": "Railways",
       "procurementSource": "IREPS",
-      "state": "Punjab",
+      "state": "Tamil Nadu",
       "value": 1000000000,
       "emd": 5000000,
-      "bidDeadline": "2026-05-25T09:30:00.000Z",
-      "postedAt": "2026-04-25T05:37:00.000Z",
+      "bidDeadline": "2026-05-22T08:45:00.000Z",
+      "postedAt": "2026-04-24T16:31:00.000Z",
       "sectorNames": [
-        "Electrical Generators And Transformers",
-        "Electrical and Electronics"
+        "Machinery and Tools"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/patiala-locomotive-works/detail-c4276a3d-6bce-469a-b130-6c60afd7f73c",
+      "detailUrl": "https://bidassist.com/global-tenders/integral-coach-factory/detail-92e44f56-5c21-4e94-b908-f06043e707af",
       "matchedKeywords": []
     },
     {
@@ -24864,24 +24916,6 @@
         "Automobiles and Auto Parts"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/chittaranjan-locomotive-works/detail-f9cb4c9b-3656-41b8-9c42-d0a7ec53e375",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "92e44f56-5c21-4e94-b908-f06043e707af",
-      "refNo": "03261378",
-      "title": "Unf Double Row Roller Bearing.22328",
-      "buyer": "Integral Coach Factory",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Tamil Nadu",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-05-22T08:45:00.000Z",
-      "postedAt": "2026-04-24T16:31:00.000Z",
-      "sectorNames": [
-        "Machinery and Tools"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/integral-coach-factory/detail-92e44f56-5c21-4e94-b908-f06043e707af",
       "matchedKeywords": []
     },
     {
@@ -25048,21 +25082,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "403c52c6-90b4-48bf-85da-f36326e64f15",
-      "refNo": "6854a37d-c168-34b5-a31a-55e2055ffa99",
-      "title": "Tc621 - North West Construction Hub High Value Framework 2027 - 2031",
-      "buyer": "Manchester City Council",
-      "value": 1000000000,
-      "bidDeadline": "2026-10-26T18:30:00.000Z",
-      "postedAt": "2025-10-26T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/manchester-city-council/detail-403c52c6-90b4-48bf-85da-f36326e64f15",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "2219c7d2-ebfa-4512-8734-8fd7d83bee35",
       "refNo": "9133d27f-901a-3f12-915b-f20e82c00ab7",
       "title": "Tc621 - North West Construction Hub High Value Framework 2027 - 2031",
@@ -25075,6 +25094,21 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/manchester-city-council/detail-2219c7d2-ebfa-4512-8734-8fd7d83bee35",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "403c52c6-90b4-48bf-85da-f36326e64f15",
+      "refNo": "6854a37d-c168-34b5-a31a-55e2055ffa99",
+      "title": "Tc621 - North West Construction Hub High Value Framework 2027 - 2031",
+      "buyer": "Manchester City Council",
+      "value": 1000000000,
+      "bidDeadline": "2026-10-26T18:30:00.000Z",
+      "postedAt": "2025-10-26T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/manchester-city-council/detail-403c52c6-90b4-48bf-85da-f36326e64f15",
       "matchedKeywords": []
     },
     {
@@ -25304,6 +25338,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "e0069d1e-4103-467f-abcd-1ef9d1edd75d",
+      "refNo": "bd426b8f-0e74-3951-ac53-f03d5a566775",
+      "title": "Noe Cpc Total Technology Solutions Ii",
+      "buyer": "North of England Commercial Procurement Collaborative",
+      "value": 1000000000,
+      "bidDeadline": "2026-07-03T18:30:00.000Z",
+      "postedAt": "2025-07-03T18:30:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-of-england-commercial-procurement-collaborative/detail-e0069d1e-4103-467f-abcd-1ef9d1edd75d",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "18106eca-e06a-4b64-8e06-ba7a0c408587",
       "refNo": "93875d74-611b-35e2-b41a-7aad3f24ed11",
       "title": "Preliminary Market Testing For Ppp Models For Certain Types Of Primary And Community Health Infrastructure Projects (the Programme)",
@@ -25335,20 +25383,6 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/dhsc-london/detail-1f08ac05-b23c-4db8-b63a-a736458ab580",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "e0069d1e-4103-467f-abcd-1ef9d1edd75d",
-      "refNo": "bd426b8f-0e74-3951-ac53-f03d5a566775",
-      "title": "Noe Cpc Total Technology Solutions Ii",
-      "buyer": "North of England Commercial Procurement Collaborative",
-      "value": 1000000000,
-      "bidDeadline": "2026-07-03T18:30:00.000Z",
-      "postedAt": "2025-07-03T18:30:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/north-of-england-commercial-procurement-collaborative/detail-e0069d1e-4103-467f-abcd-1ef9d1edd75d",
       "matchedKeywords": []
     },
     {
@@ -25462,20 +25496,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "29aed173-3a2f-4135-a9e6-e471ea2a66e5",
-      "refNo": "b3a28d61-edb1-350d-aee1-7d4bf88ed212",
-      "title": "Municipal Resource Management Services 2031-2040",
-      "buyer": "Hampshire County Council",
-      "value": 1000000000,
-      "bidDeadline": "2026-06-19T18:30:00.000Z",
-      "postedAt": "2025-06-19T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/hampshire-county-council/detail-29aed173-3a2f-4135-a9e6-e471ea2a66e5",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "731293c4-fd6b-4f71-b88f-2b39312962b4",
       "refNo": "697a1c8b-700b-32d9-a329-fa733d7ea03b",
       "title": "Municipal Resource Management Services 2031-2040",
@@ -25487,6 +25507,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/hampshire-county-council/detail-731293c4-fd6b-4f71-b88f-2b39312962b4",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "29aed173-3a2f-4135-a9e6-e471ea2a66e5",
+      "refNo": "b3a28d61-edb1-350d-aee1-7d4bf88ed212",
+      "title": "Municipal Resource Management Services 2031-2040",
+      "buyer": "Hampshire County Council",
+      "value": 1000000000,
+      "bidDeadline": "2026-06-19T18:30:00.000Z",
+      "postedAt": "2025-06-19T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/hampshire-county-council/detail-29aed173-3a2f-4135-a9e6-e471ea2a66e5",
       "matchedKeywords": []
     },
     {
@@ -25532,20 +25566,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "b5b48f29-5055-4649-823e-59fd9a0c67f4",
-      "refNo": "b7218a48-7595-37c2-b579-04a8c8a23dc3",
-      "title": "Hire Of Road Rail Vehicles (rrv) Operators And Attachments",
-      "buyer": "Network Rail Limited",
-      "value": 1000000000,
-      "bidDeadline": "2026-06-08T18:30:00.000Z",
-      "postedAt": "2025-06-08T18:30:00.000Z",
-      "sectorNames": [
-        "Automobiles and Auto Parts"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/network-rail-limited/detail-b5b48f29-5055-4649-823e-59fd9a0c67f4",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "002e1053-d578-431a-978d-232820124c43",
       "refNo": "df00115f-cd76-398c-8cbe-bdf8d990ebc8",
       "title": "Courier, Distribution, Storage And Specialist Solutions",
@@ -25557,6 +25577,20 @@
         "Transportation and Logistics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-002e1053-d578-431a-978d-232820124c43",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "b5b48f29-5055-4649-823e-59fd9a0c67f4",
+      "refNo": "b7218a48-7595-37c2-b579-04a8c8a23dc3",
+      "title": "Hire Of Road Rail Vehicles (rrv) Operators And Attachments",
+      "buyer": "Network Rail Limited",
+      "value": 1000000000,
+      "bidDeadline": "2026-06-08T18:30:00.000Z",
+      "postedAt": "2025-06-08T18:30:00.000Z",
+      "sectorNames": [
+        "Automobiles and Auto Parts"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/network-rail-limited/detail-b5b48f29-5055-4649-823e-59fd9a0c67f4",
       "matchedKeywords": []
     },
     {
@@ -25588,8 +25622,8 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "303f5f73-85be-41c5-ab5f-4986cbc18e75",
-      "refNo": "93f55c67-1ba8-3e58-82ea-62c21fdf08cc",
+      "tenderId": "953db4d1-3e7d-458e-9fe6-e33877bfb8af",
+      "refNo": "82d3b429-cd48-34f5-a14f-14d0e572806a",
       "title": "Noe Cpc Total Technology Solutions Ii",
       "buyer": "North of England Commercial Procurement Collaborative",
       "value": 1000000000,
@@ -25598,7 +25632,7 @@
       "sectorNames": [
         "Software and IT Solutions"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/north-of-england-commercial-procurement-collaborative/detail-303f5f73-85be-41c5-ab5f-4986cbc18e75",
+      "detailUrl": "https://bidassist.com/global-tenders/north-of-england-commercial-procurement-collaborative/detail-953db4d1-3e7d-458e-9fe6-e33877bfb8af",
       "matchedKeywords": []
     },
     {
@@ -25616,8 +25650,8 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "953db4d1-3e7d-458e-9fe6-e33877bfb8af",
-      "refNo": "82d3b429-cd48-34f5-a14f-14d0e572806a",
+      "tenderId": "303f5f73-85be-41c5-ab5f-4986cbc18e75",
+      "refNo": "93f55c67-1ba8-3e58-82ea-62c21fdf08cc",
       "title": "Noe Cpc Total Technology Solutions Ii",
       "buyer": "North of England Commercial Procurement Collaborative",
       "value": 1000000000,
@@ -25626,7 +25660,7 @@
       "sectorNames": [
         "Software and IT Solutions"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/north-of-england-commercial-procurement-collaborative/detail-953db4d1-3e7d-458e-9fe6-e33877bfb8af",
+      "detailUrl": "https://bidassist.com/global-tenders/north-of-england-commercial-procurement-collaborative/detail-303f5f73-85be-41c5-ab5f-4986cbc18e75",
       "matchedKeywords": []
     },
     {
@@ -26155,18 +26189,6 @@
       ],
       "detailUrl": "https://bidassist.com/global-tenders/yorkshire-purchasing-organisation/detail-e977276f-3959-4f17-a60d-67828f0b746c",
       "matchedKeywords": []
-    },
-    {
-      "tenderId": "9b0c187b-37f7-4ac0-97ff-9013c2d412ff",
-      "refNo": "",
-      "title": "Building Maintenance And Compliance Dps Ojeu-contract Notice 2019/s 061-140763",
-      "buyer": "Westworks Procurement Limited",
-      "value": 1000000000,
-      "bidDeadline": "2029-04-01T18:30:00.000Z",
-      "postedAt": "2019-03-28T18:30:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/westworks-procurement-limited/detail-9b0c187b-37f7-4ac0-97ff-9013c2d412ff",
-      "matchedKeywords": []
     }
   ],
   "sampleRows": [
@@ -26223,20 +26245,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
-      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
-      "buyer": "Ministry Of Justice",
-      "value": 92000000000,
-      "bidDeadline": "2026-12-16T18:30:00.000Z",
-      "postedAt": "2025-12-16T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "6c135a27-21ca-4746-ae71-b623dd6aac54",
       "refNo": "6f9cda5d-7f86-398a-91fa-48af41fdf4c5",
       "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
@@ -26251,9 +26259,9 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
-      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
-      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
+      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
+      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
       "buyer": "Ministry Of Justice",
       "value": 92000000000,
       "bidDeadline": "2026-12-16T18:30:00.000Z",
@@ -26261,7 +26269,7 @@
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
       "matchedKeywords": []
     },
     {
@@ -26276,6 +26284,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-59d3ca54-4731-4841-872b-57abe9b9f6ac",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
+      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "buyer": "Ministry Of Justice",
+      "value": 92000000000,
+      "bidDeadline": "2026-12-16T18:30:00.000Z",
+      "postedAt": "2025-12-16T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
       "matchedKeywords": []
     },
     {
@@ -26489,21 +26511,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "c69798ca-22f3-45d0-8f4c-d0a342517ae1",
-      "refNo": "ffdab7c8-00b0-396d-b38b-6e36240b4efd",
-      "title": "Environmental Decontamination 2026",
-      "buyer": "Supply Chain Coordination Limited",
-      "value": 77500000000,
-      "bidDeadline": "2026-05-28T18:30:00.000Z",
-      "postedAt": "2025-05-28T18:30:00.000Z",
-      "sectorNames": [
-        "Solid Waste Management",
-        "Environmental Service"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/supply-chain-coordination-limited/detail-c69798ca-22f3-45d0-8f4c-d0a342517ae1",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "e6ec3a1e-c9a5-4546-9862-ecb051bad74f",
       "refNo": "53a8a4b7-d752-3cc7-9f4e-21a3f274eec2",
       "title": "Environmental Decontamination 2026",
@@ -26516,6 +26523,21 @@
         "Environmental Service"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/supply-chain-coordination-limited/detail-e6ec3a1e-c9a5-4546-9862-ecb051bad74f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "c69798ca-22f3-45d0-8f4c-d0a342517ae1",
+      "refNo": "ffdab7c8-00b0-396d-b38b-6e36240b4efd",
+      "title": "Environmental Decontamination 2026",
+      "buyer": "Supply Chain Coordination Limited",
+      "value": 77500000000,
+      "bidDeadline": "2026-05-28T18:30:00.000Z",
+      "postedAt": "2025-05-28T18:30:00.000Z",
+      "sectorNames": [
+        "Solid Waste Management",
+        "Environmental Service"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/supply-chain-coordination-limited/detail-c69798ca-22f3-45d0-8f4c-d0a342517ae1",
       "matchedKeywords": []
     },
     {
