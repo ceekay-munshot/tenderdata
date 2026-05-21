@@ -1,25 +1,11 @@
 {
-  "fetchedAt": "2026-05-20T22:02:57.322Z",
-  "durationMs": 14341,
+  "fetchedAt": "2026-05-21T04:25:25.424Z",
+  "durationMs": 14822,
   "ok": true,
   "apiCalls": 16,
   "totalScanned": 200,
-  "relevantCount": 2,
+  "relevantCount": 3,
   "tenders": [
-    {
-      "tenderId": "1e2f4dd3-a7de-4a5b-9220-b497021b9210",
-      "refNo": "CC/T/W-TW/DOM/A02/26/07157",
-      "title": "Transmission Line Package Tl03 For 765kv Double Circuit (dc) Line With Hexa Zebra Conductor From Kavathampalayam 765/400 Kv Ss To Ariyalur 765/400 Kv Ss Part-ii",
-      "buyer": "Power Grid Corporation Of India Limited",
-      "state": "Unknown",
-      "bidDeadline": "2026-06-01T05:30:00.000Z",
-      "postedAt": "2026-05-20T15:02:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/power-grid-corporation-of-india-limited/detail-1e2f4dd3-a7de-4a5b-9220-b497021b9210",
-      "matchedKeywords": [
-        "transmission line"
-      ]
-    },
     {
       "tenderId": "71527c65-0222-45b1-8feb-7ffa7348e970",
       "refNo": "WR1/NT/W-MISC/DOM/F01/26/06323",
@@ -29,30 +15,65 @@
       "emd": 266000,
       "bidDeadline": "2026-06-10T05:30:00.000Z",
       "postedAt": "2026-05-20T12:30:00.000Z",
-      "sectorNames": [],
+      "sectorNames": [
+        "Electrical Cables And Wires",
+        "Electrical and Electronics"
+      ],
       "detailUrl": "https://bidassist.com/global-tenders/power-grid-corporation-of-india-limited/detail-71527c65-0222-45b1-8feb-7ffa7348e970",
       "matchedKeywords": [
         "transmission line"
+      ]
+    },
+    {
+      "tenderId": "1e2f4dd3-a7de-4a5b-9220-b497021b9210",
+      "refNo": "CC/T/W-TW/DOM/A02/26/07157",
+      "title": "Transmission Line Package Tl03 For 765kv Double Circuit (dc) Line With Hexa Zebra Conductor From Kavathampalayam 765/400 Kv Ss To Ariyalur 765/400 Kv Ss Part-ii",
+      "buyer": "Power Grid Corporation Of India Limited",
+      "state": "Unknown",
+      "bidDeadline": "2026-06-01T05:30:00.000Z",
+      "postedAt": "2026-05-20T15:02:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/power-grid-corporation-of-india-limited/detail-1e2f4dd3-a7de-4a5b-9220-b497021b9210",
+      "matchedKeywords": [
+        "transmission line"
+      ]
+    },
+    {
+      "tenderId": "33185cdc-9009-44aa-a7e6-ea8972d66a0b",
+      "refNo": "802-26-74010",
+      "title": "Desert Bighorn Sheep/aoudad Helicopter Services",
+      "buyer": "Texas Comptroller Of Public Accounts",
+      "bidDeadline": "2026-06-02T18:30:00.000Z",
+      "postedAt": "2026-05-19T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/texas-comptroller-of-public-accounts/detail-33185cdc-9009-44aa-a7e6-ea8972d66a0b",
+      "matchedKeywords": [
+        "helicopter"
       ]
     }
   ],
   "sampleRows": [
     {
-      "tenderId": "f1d68c3e-c18b-4d97-a508-2476d96cfde1",
-      "refNo": "NIT-42/SBD/2025-26/GR-03",
-      "title": "Construction Of Training Class Room At Police Line Purnia In The District Of Purnia With Electrification",
-      "buyer": "Bihar Police Building Construction Corporation",
-      "state": "Bihar",
-      "value": 36159024,
-      "emd": 723180,
-      "bidDeadline": "2026-06-19T11:30:00.000Z",
-      "postedAt": "2026-05-20T13:30:00.000Z",
+      "tenderId": "3b84cc9f-7dd9-4403-bbbc-44303f63540f",
+      "refNo": "CE/BMTZ/T-01/2026-27",
+      "title": "Tender Of Contract For The Work Of Supply & Fixing Special Designed Protection Cover For Rsj Pole In The Area Under Baramati Zone",
+      "buyer": "Maharashtra State Electricity Distribution Company Limited",
+      "state": "Maharashtra",
+      "value": 20000000,
+      "emd": 200000,
+      "bidDeadline": "2026-05-29T04:30:00.000Z",
+      "postedAt": "2026-05-20T18:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Electrical Works",
         "Electrical and Electronics"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-f1d68c3e-c18b-4d97-a508-2476d96cfde1",
+      "detailUrl": "https://bidassist.com/global-tenders/maharashtra-state-electricity-distribution-company-limited/detail-3b84cc9f-7dd9-4403-bbbc-44303f63540f",
       "matchedKeywords": []
     },
     {
@@ -218,6 +239,24 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-0edcaf16-9ee4-4fea-a697-5bf81346e56a",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f1d68c3e-c18b-4d97-a508-2476d96cfde1",
+      "refNo": "NIT-42/SBD/2025-26/GR-03",
+      "title": "Construction Of Training Class Room At Police Line Purnia In The District Of Purnia With Electrification",
+      "buyer": "Bihar Police Building Construction Corporation",
+      "state": "Bihar",
+      "value": 36159024,
+      "emd": 723180,
+      "bidDeadline": "2026-06-19T11:30:00.000Z",
+      "postedAt": "2026-05-20T13:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bihar-police-building-construction-corporation/detail-f1d68c3e-c18b-4d97-a508-2476d96cfde1",
       "matchedKeywords": []
     },
     {
@@ -443,22 +482,6 @@
         "Real Estate Service"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/cholamandalam-investment-and-finance-company-limited/detail-306eb603-2797-4812-9a21-e2a744066c5e",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "3c8f0f4a-5923-4f77-b408-26ecc5df086b",
-      "refNo": "2267747",
-      "title": "Third Floor, H-3/123, Area Measuring 80 Sq. Yds.",
-      "buyer": "LIC Housing Finance Limited",
-      "state": "Delhi",
-      "value": 2725000,
-      "emd": 272500,
-      "bidDeadline": "2026-06-03T18:30:00.000Z",
-      "postedAt": null,
-      "sectorNames": [
-        "Real Estate Service"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/lic-housing-finance-limited/detail-3c8f0f4a-5923-4f77-b408-26ecc5df086b",
       "matchedKeywords": []
     }
   ]
