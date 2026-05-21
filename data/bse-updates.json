@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-21T11:33:17.426Z",
-  "durationMs": 1309,
+  "fetchedAt": "2026-05-21T15:44:58.435Z",
+  "durationMs": 541,
   "window": {
     "daysBack": 30
   },
@@ -16,12 +16,27 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 82,
+    "announcements": 83,
     "negative": 0,
     "positive": 9,
-    "neutral": 73
+    "neutral": 74
   },
   "announcements": [
+    {
+      "newsId": "7ea446fc-ad4f-4bc2-a3a5-d2ed804d238f",
+      "ticker": "BLS",
+      "scripcode": 540073,
+      "companyName": "BLS International Services Ltd",
+      "headline": "In compliance with Regulation 47 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (including any statutory modification(s), amendment(s) and re-enactment(s) thereof), we are hereby enclosing copies of Newspaper advertisement of Audited Financial Results of the Company for the fourth quarter and financial year ended on March 31, 2026, published today i.e. Thursday, May 21, 2026 in the following newspapers:\r\n\r\n1. Business ....",
+      "body": "In compliance with Regulation 47 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (including any statutory modification(s), amendment(s) and re-enactment(s) thereof), we are hereby enclosing copies of Newspaper advertisement of Audited Financial Results of the Company for the fourth quarter and financial year ended on March 31, 2026, published today i.e. Thursday, May 21, 2026 in the following newspapers:\r\n\r\n1. Business Standard  (English Language - All edition)\r\n2. Business Standard  (Hindi Language- Delhi edition) \r\n3. Economic Times (English Language- All edition) \r\n4. Nav Bharat Times (Hindi Language- Delhi edition)",
+      "category": "Company Update",
+      "filedAt": "2026-05-21T18:13:46.383Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ae5b399e-eb06-497d-afd9-49f92ca9864a.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
     {
       "newsId": "add4d8f0-cbae-4372-812a-097a1ab6f081",
       "ticker": "BLS",
@@ -1275,6 +1290,16 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-7ea446fc-ad4f-4bc2-a3a5-d2ed804d238f",
+      "date": "2026-05-21T18:13:46.383Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BLS",
+      "text": "In compliance with Regulation 47 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (including any statutory modification(s), amendment(s) and re-enactment(s) thereof), we are hereby enclosing copies of Newspaper advertisement of Audited Financial Results of the Company for the fourth quarter and financial year ended on March 31, 2026, published today i.e. Thursday, May 21, 2026 in the following newspapers:\r\n\r\n1. Business ....",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-23ea0acf-c67a-422d-ba90-6edae371e612",
       "date": "2026-05-20T20:15:46.620Z",
