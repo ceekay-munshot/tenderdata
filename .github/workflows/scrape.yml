@@ -75,7 +75,7 @@ jobs:
           for f in data/bse-updates.json data/cppp-tenders.json data/bidassist-tenders.json data/bidassist-awards.json; do
             if [ -f "$f" ]; then
               echo "--- $f ---"
-              node -e "const d=require('./$f'); console.log(JSON.stringify(d.counts ?? {ok:d.ok,source:d.source,total:d.totalScanned??d.totalRowsParsed,relevant:d.relevantCount,error:d.error}, null, 2));"
+              node -e "const d=require('./$f'); console.log(JSON.stringify(d.counts ?? {ok:d.ok,sortMode:d.sortMode,total:d.totalScanned??d.totalRowsParsed,relevant:d.relevantCount,error:d.error}, null, 2));"
             else
               echo "--- $f MISSING ---"
             fi

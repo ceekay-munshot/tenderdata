@@ -2,12 +2,10 @@
  * Local sanity test for the BidAssist bid-awards scraper.
  *
  * The scraper reads the tender-results page's window.__INITIAL_STATE__
- * blob and does keyword-targeted ?label= searches. Two scenarios:
- *   1. ?label= filters — a nonsense term returns nothing, so the scraper
- *      trusts it and walks each watchlist search term.
- *   2. ?label= is ignored — the nonsense term returns the same feed, so
- *      the scraper reports searchParam=null and stops after the bare page
- *      (no runaway loop).
+ * blob and keeps awards worth >= Rs 100 crore. It probes for a
+ * value-descending `sort`; two scenarios:
+ *   1. value sort works  — walks the sorted feed, stops below threshold.
+ *   2. value sort ignored — scans the general feed, filters by value.
  *
  * Run:  npx tsx scripts/test-bidassist-awards-parser.mts
  */
@@ -19,8 +17,7 @@ interface MockRow {
   ref: string;
   desc: string;
   buyer: string;
-  src?: string;
-  value?: number;
+  value: number;
 }
 
 /** A TENDER_RESULT-shaped award object. */
@@ -30,14 +27,13 @@ function awardObj(o: MockRow) {
     sourceBidAwardId: o.id,
     tenderId: o.id,
     bidAwardRefNo: o.ref,
-    // BidAssist wraps descriptions in literal quotes — the parser strips them.
     aocDescription: `"${o.desc}"`,
     tenderDetails: `"${o.desc}"`,
     purchaserName: o.buyer,
     displayPurchaserName: `${o.buyer} - Tender Result`,
-    procurementSource: o.src ?? "EPROCURE",
+    procurementSource: "EPROCURE",
     typeOfContract: "WORKS",
-    value: o.value ?? 5_000_000,
+    value: o.value,
     currency: "INR",
     bidAwardStage: "FINANCIAL_BID_OPENING_DATE",
     bidAwardResultStage: "Potential AOC Released",
@@ -59,7 +55,7 @@ function ssrPage(rows: MockRow[]): string {
     pageInfo: {
       url: "/global-tender-results/active",
       path: "/global-tender-results/active",
-      query: { label: "", sort: "RELEVANCE:DESC" },
+      query: { sort: "RELEVANCE:DESC" },
     },
     tenders: { content: rows.map(awardObj), totalElements: 9999 },
   };
@@ -68,49 +64,32 @@ function ssrPage(rows: MockRow[]): string {
   )};</script></body></html>`;
 }
 
-const RADAR1: MockRow = {
-  id: "res-radar-1", ref: "MOD/IAF/2026/9",
-  desc: "Supply of surveillance radar system for the naval base",
-  buyer: "Indian Navy", src: "EPROCURE", value: 2_480_000_000,
-};
-const RADAR2: MockRow = {
-  id: "res-radar-2", ref: "MOD/AD/2026/4",
-  desc: "Air defence radar system procurement and commissioning",
-  buyer: "Ministry of Defence", src: "EPROCURE", value: 3_100_000_000,
-};
-const VISA: MockRow = {
-  id: "res-visa-1", ref: "MEA/CONSULAR/2026/MOR",
-  desc: "Visa and passport seva outsourcing services, Embassy of India",
-  buyer: "Ministry of External Affairs", src: "EPROCURE", value: 845_000_000,
-};
-const GEN1: MockRow = {
-  id: "res-gen-1", ref: "APWD/2026/1",
-  desc: "Renovation of school building", buyer: "Public Works Department",
-};
-const GEN2: MockRow = {
-  id: "res-gen-2", ref: "GEM/2026/77",
-  desc: "Supply of toner cartridges", buyer: "Some Department",
-};
+// Eight awards; five clear the Rs 100 Cr (1e9) bar.
+const A500: MockRow = { id: "a-500", ref: "R500", desc: "Construction of the coastal expressway corridor", buyer: "NHAI", value: 5_000_000_000 };
+const A300: MockRow = { id: "a-300", ref: "R300", desc: "Surveillance radar system installation, naval base", buyer: "Indian Navy", value: 3_000_000_000 };
+const A150: MockRow = { id: "a-150", ref: "R150", desc: "Railway electrification of the Bhusawal section", buyer: "Central Railway", value: 1_500_000_000 };
+const A120: MockRow = { id: "a-120", ref: "R120", desc: "High-level bridge construction across the river", buyer: "State PWD", value: 1_200_000_000 };
+const A100: MockRow = { id: "a-100", ref: "R100", desc: "Supply of 400kV power transformers", buyer: "Power Grid", value: 1_000_000_000 };
+const A40: MockRow = { id: "a-40", ref: "R40", desc: "Renovation of a school building", buyer: "Public Works Department", value: 400_000_000 };
+const A5: MockRow = { id: "a-5", ref: "R5", desc: "Supply of toner cartridges", buyer: "Some Department", value: 50_000_000 };
+const A1: MockRow = { id: "a-1", ref: "R1", desc: "Annual maintenance contract", buyer: "Some Department", value: 10_000_000 };
+
+const VALUE_SORTED = [A500, A300, A150, A120, A100, A40, A5, A1];
+const RELEVANCE_ORDER = [A40, A500, A5, A300, A1, A150, A120, A100];
+const PAGE = 5;
 
 const htmlResponse = (body: string) =>
   new Response(body, { status: 200, headers: { "content-type": "text/html" } });
 
-/** Scenario 1: ?label= filters. Unknown labels (incl. the nonsense probe) return nothing. */
-function searchFetcher(): typeof fetch {
+function mockFetcher(valueSortWorks: boolean): typeof fetch {
   return (async (input: RequestInfo | URL) => {
     const url = new URL(typeof input === "string" ? input : input.toString());
-    const label = url.searchParams.get("label");
-    const page = url.searchParams.get("page");
-    if (!label) return htmlResponse(ssrPage([GEN1, GEN2])); // bare page 0
-    if (label === "visa" && page === "1") return htmlResponse(ssrPage([VISA]));
-    if (label === "radar" && page === "1") return htmlResponse(ssrPage([RADAR1, RADAR2]));
-    return htmlResponse(ssrPage([])); // nonsense probe, other terms, later pages
+    const sort = url.searchParams.get("sort") ?? "";
+    const page = Number(url.searchParams.get("page") ?? 1);
+    const pool = valueSortWorks && sort.startsWith("VALUE") ? VALUE_SORTED : RELEVANCE_ORDER;
+    const slice = pool.slice((page - 1) * PAGE, (page - 1) * PAGE + PAGE);
+    return htmlResponse(ssrPage(slice));
   }) as typeof fetch;
-}
-
-/** Scenario 2: ?label= is ignored — the same feed comes back for everything. */
-function ignoredFetcher(): typeof fetch {
-  return (async () => htmlResponse(ssrPage([GEN1, GEN2]))) as typeof fetch;
 }
 
 let failed = 0;
@@ -124,40 +103,31 @@ function assert(label: string, cond: unknown, detail?: string) {
 
 console.log("\n--- BidAssist bid-awards scraper local sanity test ---\n");
 
-// --- Scenario 1: keyword search works --------------------------------------
-console.log("scenario 1 — ?label= keyword search filters the results:");
-const searched = await scrapeBidAssistAwards({
-  fetcher: searchFetcher(),
-  searchTerms: ["visa", "radar", "aircraft"],
-});
+// --- Scenario 1: value sort works ------------------------------------------
+console.log("scenario 1 — results page honours a value-descending sort:");
+const sorted = await scrapeBidAssistAwards({ fetcher: mockFetcher(true) });
 
-assert("source === ssr", searched.source === "ssr", searched.source);
-assert("search param detected as 'label'", searched.searchParam === "label", String(searched.searchParam));
-// page 0 (GEN1,GEN2) + visa (VISA) + radar (RADAR1,RADAR2) -> 5 unique.
-assert("collected across searches: 5 unique awards", searched.totalScanned === 5, `got ${searched.totalScanned}`);
-// page0 + nonsense probe + visa(p1,p2) + radar(p1,p2) + aircraft(p1) = 7.
-assert("fetch count = 7 (early-breaks on empty pages)", searched.pagesFetched === 7, `got ${searched.pagesFetched}`);
-assert("3 matched (visa + 2 radar)", searched.awards.length === 3, `got ${searched.awards.length}`);
-assert("generic feed rows dropped by the filter", !searched.awards.some((a) => a.title.includes("school")));
+assert("source === ssr", sorted.source === "ssr", sorted.source);
+assert("sortMode === value", sorted.sortMode === "value", sorted.sortMode);
+assert("8 awards scanned", sorted.totalScanned === 8, `got ${sorted.totalScanned}`);
+assert("5 cleared Rs 100 Cr", sorted.awards.length === 5, `got ${sorted.awards.length}`);
+assert("every kept award >= Rs 100 Cr", sorted.awards.every((a) => (a.value ?? 0) >= 1_000_000_000));
+assert("sub-threshold awards dropped", !sorted.awards.some((a) => a.tenderId === "a-40" || a.tenderId === "a-5"));
 
-const radar = searched.allRows.find((r) => r.tenderId === "res-radar-1");
-assert("title quotes stripped", radar?.title === "Supply of surveillance radar system for the naval base", radar?.title);
-assert("awardId mapped from bidAwardId", radar?.awardId === "award-res-radar-1", radar?.awardId);
-assert("resultStage mapped", radar?.resultStage === "Potential AOC Released", radar?.resultStage);
-assert("resultDate -> ISO", typeof radar?.resultDate === "string" && radar!.resultDate!.startsWith("20"), radar?.resultDate ?? "null");
-assert("detail URL points at tender-results", radar?.detailUrl?.startsWith("https://bidassist.com/tender-results/") ?? false, radar?.detailUrl);
+const rail = sorted.allRows.find((r) => r.tenderId === "a-150");
+assert("title quotes stripped", rail?.title === "Railway electrification of the Bhusawal section", rail?.title);
+assert("value mapped (INR)", rail?.value === 1_500_000_000, String(rail?.value));
+assert("resultStage mapped", rail?.resultStage === "Potential AOC Released", rail?.resultStage);
+assert("detail URL points at tender-results", rail?.detailUrl?.startsWith("https://bidassist.com/tender-results/") ?? false);
 
-// --- Scenario 2: keyword search ignored ------------------------------------
-console.log("\nscenario 2 — ?label= ignored, scraper settles for the bare feed:");
-const ignored = await scrapeBidAssistAwards({
-  fetcher: ignoredFetcher(),
-  searchTerms: ["visa", "radar"],
-});
+// --- Scenario 2: value sort ignored ----------------------------------------
+console.log("\nscenario 2 — no value sort; scan the general feed + filter:");
+const scanned = await scrapeBidAssistAwards({ fetcher: mockFetcher(false) });
 
-assert("searchParam === null", ignored.searchParam === null, String(ignored.searchParam));
-assert("no runaway loop — 2 fetches (bare + probe)", ignored.pagesFetched === 2, `got ${ignored.pagesFetched}`);
-assert("only the bare page scanned", ignored.totalScanned === 2, `got ${ignored.totalScanned}`);
-assert("0 matched — bare feed is all generic", ignored.awards.length === 0, `got ${ignored.awards.length}`);
+assert("sortMode === scan", scanned.sortMode === "scan", scanned.sortMode);
+assert("8 awards scanned", scanned.totalScanned === 8, `got ${scanned.totalScanned}`);
+assert("same 5 cleared Rs 100 Cr", scanned.awards.length === 5, `got ${scanned.awards.length}`);
+assert("every kept award >= Rs 100 Cr", scanned.awards.every((a) => (a.value ?? 0) >= 1_000_000_000));
 
 console.log(`\n${failed === 0 ? "All checks passed." : `${failed} check(s) failed.`}\n`);
 process.exit(failed === 0 ? 0 : 1);

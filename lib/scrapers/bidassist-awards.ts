@@ -3,28 +3,23 @@
  *
  * BidAssist's "tender results" product tracks tenders past the bidding
  * phase — financial-bid opening, AOC (Award of Contract) release. Each
- * award entity carries the result stage, the result date, value, buyer
- * and sector: the "a result is coming — here's when" signal.
+ * award entity carries the result stage, the result date, value and
+ * buyer: the "a result is coming — here's when" signal.
  *
  * IMPORTANT: the public listing does NOT name the winning bidder. The
- * winner lives inside the AOC document, which BidAssist paywalls. This
- * scraper surfaces *which* tenders are at decision stage and *when* — the
- * winner is filled in later by the BSE-disclosure correlation.
+ * winner lives inside the paywalled AOC document — it's filled in later by
+ * the BSE-disclosure correlation.
  *
  * Source: the /global-tender-results/active page server-renders a
  * window.__INITIAL_STATE__ blob whose `tenders.content[]` holds the award
- * entities. The SSR page is the only way in — the dedicated
- * /api/bid-award/* endpoints 404 and /api/tender/tenders ignores
- * tenderEntity (it always returns the active-tender feed).
+ * entities. (The SSR page is the only way in — the /api/bid-award/*
+ * endpoints 404 and /api/tender/tenders ignores tenderEntity.)
  *
- * The unfiltered results feed is a grab-bag of every government
- * procurement result (10k+ rows, almost none in a watchlist sector), so
- * the scraper does keyword-targeted searches: the page accepts a `label`
- * query param — the same keyword search the active-tenders API uses — and
- * `?label=<term>&page=<n>` returns results matching the term. The scraper
- * first proves `label` actually filters (a nonsense term must return zero
- * rows); if it doesn't, searchParam is reported null so it can be
- * re-checked from the output.
+ * The dashboard tracks big, stock-moving tenders, so the scraper keeps
+ * only results worth >= MIN_VALUE_INR (Rs 100 crore), across every sector.
+ * Strategy: probe for a value-descending `sort` the page honours; if
+ * found, walk from the top and stop below the threshold; otherwise scan
+ * the general feed and filter by value. The result reports which path ran.
  *
  * Runs ONLY in the GHA scraper (Node). The app imports types only.
  */
@@ -33,26 +28,21 @@ import { matchTenderKeywords } from "./sector-keywords";
 
 const RESULTS_PAGE_URL = "https://bidassist.com/global-tender-results/active";
 
-/** Distinctive search terms — one or two per watchlist sector. */
-const SEARCH_TERMS = [
-  "visa",
-  "passport",
-  "consular",
-  "radar",
-  "electronic warfare",
-  "aircraft",
-  "helicopter",
-  "railway electrification",
-  "metro rail",
-  "freight corridor",
-  "transmission line",
-  "expressway",
+/** Minimum contract value to keep — Rs 100 crore. */
+const MIN_VALUE_INR = 100 * 10_000_000;
+
+/** Candidate value-descending sort tokens (the page defaults to RELEVANCE:DESC). */
+const VALUE_SORT_TOKENS = [
+  "VALUE:DESC",
+  "TENDER_VALUE:DESC",
+  "TENDER_AMOUNT:DESC",
+  "AMOUNT:DESC",
 ];
 
-/** A term that should match nothing — proves ?label= actually filters. */
-const NONSENSE_LABEL = "zqxjvnomatchq";
-/** Max result pages to walk per search term. */
-const SEARCH_PAGE_CAP = 3;
+/** Max pages to walk when a value sort works (stops early below threshold). */
+const VALUE_WALK_PAGE_CAP = 30;
+/** Max pages to scan when no value sort works. */
+const SCAN_PAGE_CAP = 25;
 const REQUEST_DELAY_MS = 600;
 
 const PAGE_HEADERS: Record<string, string> = {
@@ -101,23 +91,23 @@ export interface BidAssistAward {
   documentCount: number;
   sectorNames: string[];
   detailUrl?: string;
-  /** Watchlist sector keywords this award matched. */
+  /** Sector keywords this award's title hit — an informational tag. */
   matchedKeywords: string[];
 }
 
 export interface BidAssistAwardsScrapeResult {
-  /** Awards that matched a watchlist sector keyword. */
+  /** Awards worth >= the value threshold. */
   awards: BidAssistAward[];
-  /** Every award pulled (matchedKeywords may be empty). */
+  /** Every award pulled (below-threshold ones included). */
   allRows: BidAssistAward[];
   totalScanned: number;
   /** Result pages actually fetched. */
   pagesFetched: number;
-  /** "label" if keyword search filtered the page; null if it didn't. */
-  searchParam: string | null;
-  /** totalElements reported by the unfiltered results feed. */
+  /** "value" = walked a value-sorted feed; "scan" = scanned + filtered. */
+  sortMode: "value" | "scan";
+  /** totalElements reported by the results feed. */
   totalAvailable: number | null;
-  /** Trimmed __INITIAL_STATE__.pageInfo (url/path/query) from page 0. */
+  /** Trimmed __INITIAL_STATE__.pageInfo (url/path/query). */
   pageInfo: unknown;
   source: "ssr" | "none";
 }
@@ -125,10 +115,12 @@ export interface BidAssistAwardsScrapeResult {
 interface FetchOptions {
   fetcher?: typeof fetch;
   signal?: AbortSignal;
-  /** Override the search-term list (tests). */
-  searchTerms?: string[];
-  /** Override the per-term page cap (tests). */
-  searchPageCap?: number;
+  /** Override the value threshold (tests). */
+  minValue?: number;
+  /** Override the value-walk page cap (tests). */
+  valueWalkPageCap?: number;
+  /** Override the scan page cap (tests). */
+  scanPageCap?: number;
 }
 
 type RawAward = Omit<BidAssistAward, "matchedKeywords">;
@@ -144,14 +136,16 @@ export async function scrapeBidAssistAwards(
   opts: FetchOptions = {},
 ): Promise<BidAssistAwardsScrapeResult> {
   const fetcher = opts.fetcher ?? fetch;
-  const searchTerms = opts.searchTerms ?? SEARCH_TERMS;
-  const searchPageCap = opts.searchPageCap ?? SEARCH_PAGE_CAP;
+  const minValue = opts.minValue ?? MIN_VALUE_INR;
+  const walkCap = opts.valueWalkPageCap ?? VALUE_WALK_PAGE_CAP;
+  const scanCap = opts.scanPageCap ?? SCAN_PAGE_CAP;
 
   const collected: unknown[] = [];
   const seen = new Set<string>();
   let pagesFetched = 0;
+  let pageInfo: unknown = null;
+  let totalAvailable: number | null = null;
 
-  /** Add only unseen award rows; return how many were new. */
   const ingest = (rows: unknown[]): number => {
     let added = 0;
     for (const r of rows) {
@@ -165,83 +159,109 @@ export async function scrapeBidAssistAwards(
     return added;
   };
 
-  const finish = (
-    searchParam: string | null,
-    totalAvailable: number | null,
-    pageInfo: unknown,
-  ): BidAssistAwardsScrapeResult => {
-    const allRows: BidAssistAward[] = collected.map(mapAward).map((r) => ({
-      ...r,
-      matchedKeywords: matchTenderKeywords(r.title, r.buyer, "", r.sectorNames.join(" "))
-        .matchedKeywords,
-    }));
-    return {
-      awards: allRows.filter((a) => a.matchedKeywords.length > 0),
-      allRows,
-      totalScanned: allRows.length,
-      pagesFetched,
-      searchParam,
-      totalAvailable,
-      pageInfo,
-      source: allRows.length > 0 ? "ssr" : "none",
-    };
-  };
-
-  // Page 0 — the bare results feed. Confirms the page works + carries
-  // pageInfo (the pagination/search metadata).
-  let first: SsrState;
-  try {
-    first = await fetchSsrState(fetcher, RESULTS_PAGE_URL, opts.signal);
-    pagesFetched++;
-  } catch {
-    return finish(null, null, null);
-  }
-  ingest(first.rows);
-  if (collected.length === 0) {
-    return finish(null, first.totalElements, first.pageInfo);
-  }
-
-  // Prove ?label= actually filters: a nonsense term must return nothing.
-  let searchWorks = false;
-  try {
+  // 1. Probe for a value-descending sort the page honours.
+  let valueSort: string | null = null;
+  for (const token of VALUE_SORT_TOKENS) {
+    let state: SsrState;
+    try {
+      state = await fetchSsrState(fetcher, awardsUrl({ sort: token, page: 1 }), opts.signal);
+      pagesFetched++;
+    } catch {
+      continue;
+    }
+    if (pageInfo === null) {
+      pageInfo = state.pageInfo;
+      totalAvailable = state.totalElements;
+    }
     await delay(REQUEST_DELAY_MS);
-    const probe = await fetchSsrState(fetcher, withParams({ label: NONSENSE_LABEL }), opts.signal);
-    pagesFetched++;
-    searchWorks = probe.rows.length === 0;
-  } catch {
-    // leave searchWorks false — fall through with just the bare page
-  }
-
-  // Keyword-targeted searches — the only way to surface watchlist awards
-  // out of the 10k-row general feed.
-  if (searchWorks) {
-    for (const term of searchTerms) {
-      for (let p = 1; p <= searchPageCap; p++) {
-        await delay(REQUEST_DELAY_MS);
-        let page: SsrState;
-        try {
-          page = await fetchSsrState(
-            fetcher,
-            withParams({ label: term, page: String(p) }),
-            opts.signal,
-          );
-          pagesFetched++;
-        } catch {
-          break;
-        }
-        if (ingest(page.rows) === 0) break; // no new rows for this term
-      }
+    if (looksValueSorted(state.rows, minValue)) {
+      valueSort = token;
+      ingest(state.rows);
+      break;
     }
   }
 
-  return finish(searchWorks ? "label" : null, first.totalElements, first.pageInfo);
+  if (valueSort) {
+    // 2a. Value sort works — walk from the top, stop below the threshold.
+    for (let p = 2; p <= walkCap; p++) {
+      let state: SsrState;
+      try {
+        state = await fetchSsrState(
+          fetcher,
+          awardsUrl({ sort: valueSort, page: p }),
+          opts.signal,
+        );
+        pagesFetched++;
+      } catch {
+        break;
+      }
+      const added = ingest(state.rows);
+      if (state.rows.length === 0 || added === 0) break;
+      if (state.rows.every((r) => awardValue(r) < minValue)) break;
+      await delay(REQUEST_DELAY_MS);
+    }
+  } else {
+    // 2b. Fallback — scan the general feed, filter by value afterwards.
+    for (let p = 1; p <= scanCap; p++) {
+      let state: SsrState;
+      try {
+        state = await fetchSsrState(fetcher, awardsUrl({ page: p }), opts.signal);
+        pagesFetched++;
+      } catch {
+        break;
+      }
+      if (pageInfo === null) {
+        pageInfo = state.pageInfo;
+        totalAvailable = state.totalElements;
+      }
+      const added = ingest(state.rows);
+      if (state.rows.length === 0 || added === 0) break;
+      await delay(REQUEST_DELAY_MS);
+    }
+  }
+
+  const allRows: BidAssistAward[] = collected.map(mapAward).map((r) => ({
+    ...r,
+    matchedKeywords: matchTenderKeywords(r.title, r.buyer, "", r.sectorNames.join(" "))
+      .matchedKeywords,
+  }));
+
+  return {
+    awards: allRows.filter((a) => (a.value ?? 0) >= minValue),
+    allRows,
+    totalScanned: allRows.length,
+    pagesFetched,
+    sortMode: valueSort ? "value" : "scan",
+    totalAvailable,
+    pageInfo,
+    source: allRows.length > 0 ? "ssr" : "none",
+  };
 }
 
-/** RESULTS_PAGE_URL with query params applied. */
-function withParams(params: Record<string, string>): string {
+/** RESULTS_PAGE_URL with optional sort + page query params. */
+function awardsUrl(params: { sort?: string; page?: number }): string {
   const url = new URL(RESULTS_PAGE_URL);
-  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
+  if (params.sort) url.searchParams.set("sort", params.sort);
+  if (params.page) url.searchParams.set("page", String(params.page));
   return url.toString();
+}
+
+/** True if a page's award values run high-to-low — i.e. the sort was honoured. */
+function looksValueSorted(rows: unknown[], minValue: number): boolean {
+  const values = rows
+    .map(awardValue)
+    .filter((v) => v > 0);
+  if (values.length < 5) return false;
+  for (let i = 1; i < values.length; i++) {
+    if (values[i] > values[i - 1]) return false;
+  }
+  return values[0] >= minValue;
+}
+
+function awardValue(raw: unknown): number {
+  if (!raw || typeof raw !== "object") return 0;
+  const v = (raw as { value?: unknown }).value;
+  return typeof v === "number" && Number.isFinite(v) ? v : 0;
 }
 
 // ---------------------------------------------------------------------------

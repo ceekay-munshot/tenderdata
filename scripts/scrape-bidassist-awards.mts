@@ -1,10 +1,9 @@
 /**
  * GitHub Actions entrypoint for the BidAssist bid-awards scraper.
  *
- * Scrapes BidAssist's tender-results listing (tenders at decision stage —
- * financial-bid opening, AOC release), keyword-filters to watchlist
- * sectors, and writes data/bidassist-awards.json. The workflow commits it
- * to the data branch.
+ * Scrapes BidAssist's tender-results listing (tenders at decision stage),
+ * keeps results worth >= Rs 100 crore across every sector, and writes
+ * data/bidassist-awards.json. The workflow commits it to the data branch.
  *
  * Run:  pnpm tsx scripts/scrape-bidassist-awards.mts
  */
@@ -20,8 +19,10 @@ async function writePayload(payload: unknown) {
   await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + "\n", "utf8");
 }
 
+const cr = (v?: number) => (typeof v === "number" ? `Rs ${(v / 1e7).toFixed(0)} Cr` : "?");
+
 async function main() {
-  console.log("Scraping BidAssist bid-awards (tender results)...");
+  console.log("Scraping BidAssist bid-awards (tender results, >= Rs 100 Cr)...");
   const started = Date.now();
 
   let result;
@@ -35,8 +36,7 @@ async function main() {
       durationMs: Date.now() - started,
       ok: false,
       error: message,
-      source: "none",
-      searchParam: null,
+      sortMode: "scan",
       pagesFetched: 0,
       totalAvailable: null,
       totalScanned: 0,
@@ -52,34 +52,31 @@ async function main() {
     fetchedAt: new Date().toISOString(),
     durationMs,
     ok: true,
-    source: result.source,
-    searchParam: result.searchParam,
+    sortMode: result.sortMode,
     pagesFetched: result.pagesFetched,
     totalAvailable: result.totalAvailable,
     totalScanned: result.totalScanned,
     relevantCount: result.awards.length,
     awards: result.awards,
-    // Debug: pageInfo exposes the page's pagination/search params if the
-    // keyword search ever stops working; sampleRows show parse quality.
+    // Debug: pageInfo exposes the page's sort/pagination params; sampleRows
+    // show parse quality and the value distribution.
     pageInfo: result.pageInfo,
     sampleRows: result.allRows.slice(0, 25),
   });
 
-  const search = result.searchParam
-    ? `keyword search via ?${result.searchParam}`
-    : "keyword search UNAVAILABLE — bare feed only";
   console.log(
-    `Source: ${result.source} (${search}, ${result.pagesFetched} pages). ` +
-      `Scanned ${result.totalScanned} awards, ${result.awards.length} matched ` +
-      `watchlist sectors, in ${durationMs}ms`,
+    `Sort mode: ${result.sortMode} (${result.pagesFetched} pages). Scanned ` +
+      `${result.totalScanned} awards, ${result.awards.length} worth >= Rs 100 Cr, ` +
+      `in ${durationMs}ms`,
   );
   for (const a of result.awards.slice(0, 12)) {
     const stage = a.resultStage ?? a.awardStage ?? "result";
-    console.log(`  - [${a.matchedKeywords.join(", ")}] ${stage} :: ${a.title.slice(0, 65)}`);
+    console.log(`  - ${cr(a.value)} [${stage}] :: ${a.title.slice(0, 60)}`);
   }
-  if (result.searchParam === null) {
-    console.warn("WARNING: ?label= keyword search did not filter — check pageInfo in the output.");
-  } else if (result.totalScanned === 0) {
+  if (result.sortMode === "scan") {
+    console.warn("NOTE: value sort not found — scanned + filtered. Check pageInfo in the output.");
+  }
+  if (result.totalScanned === 0) {
     console.warn("WARNING: 0 awards parsed — the tender-results page came up empty.");
   }
 }

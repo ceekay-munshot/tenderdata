@@ -125,7 +125,7 @@ export function TenderCard({ tender, onOpen }: { tender: Tender; onOpen: (id: st
           </div>
         ) : (
           <div className="rounded-md border border-dashed bg-muted/20 px-3 py-1.5 text-[11px] text-muted-foreground">
-            Bidders not yet disclosed — CPPP publishes the bidder list only after the financial bid opens.
+            Bids are sealed — bidder names aren&apos;t public until the result is declared.
           </div>
         )}
 

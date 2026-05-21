@@ -8,7 +8,7 @@ import { TenderDetail } from "@/components/tenders/tender-detail";
 import { WatchTenderDialog } from "@/components/tenders/watch-tender-dialog";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { exampleTenders, sortTenders, isWatched } from "@/lib/mock-data";
+import { exampleTenders, sortTenders } from "@/lib/mock-data";
 import { useManualTenders } from "@/lib/manual-tenders";
 import { cn, formatRelativeTime } from "@/lib/utils";
 import type { Tender, Update } from "@/lib/types";
@@ -58,7 +58,6 @@ export function TendersClient({
 }: TendersClientProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
-  const [watchOnly, setWatchOnly] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [editTender, setEditTender] = useState<Tender | null>(null);
 
@@ -85,10 +84,9 @@ export function TendersClient({
         if (statusFilter === "result_in" && t.status !== "result_in") return false;
         if (statusFilter === "awarded" && t.status !== "awarded") return false;
       }
-      if (watchOnly && !t.bidders.some((b) => isWatched(b.ticker))) return false;
       return true;
     });
-  }, [allTenders, statusFilter, watchOnly]);
+  }, [allTenders, statusFilter]);
 
   const counts = useMemo(
     () => ({
@@ -120,7 +118,7 @@ export function TendersClient({
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Government tenders</h1>
           <p className="text-sm text-muted-foreground">
-            Track who&apos;s bidding, when results drop, and what follows after.
+            Big-ticket tenders — ₹100 crore and up — across every sector, with results as they land.
           </p>
         </div>
         <Button onClick={openAdd} className="shrink-0">
@@ -167,16 +165,6 @@ export function TendersClient({
             <Chip active={statusFilter === "result_in"} onClick={() => setStatusFilter("result_in")} label="Result in" count={counts.result_in} tone="positive" />
             <Chip active={statusFilter === "awarded"} onClick={() => setStatusFilter("awarded")} label="Awarded" count={counts.awarded} tone="positive" />
           </div>
-          <button
-            onClick={() => setWatchOnly(!watchOnly)}
-            className={cn(
-              "ml-auto inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-xs transition-colors",
-              watchOnly ? "border-primary/40 bg-primary/15 text-primary" : "border-border bg-card text-muted-foreground hover:bg-accent",
-            )}
-          >
-            <span className={cn("h-2 w-2 rounded-full", watchOnly ? "bg-primary" : "bg-muted-foreground/40")} />
-            Watchlist only
-          </button>
         </div>
       </Card>
 
@@ -239,10 +227,10 @@ function SourceBar({
     message = `BidAssist feed error${error ? `: ${error}` : ""}.`;
     tone = "warn";
   } else if (liveCount > 0) {
-    message = `${liveCount} live tender${liveCount === 1 ? "" : "s"} matched your watchlist — from BidAssist, scanned ${scanned} across all portals.`;
+    message = `${liveCount} tender${liveCount === 1 ? "" : "s"} worth ₹100 Cr+ — from BidAssist, scanned ${scanned} across all portals.`;
     tone = "ok";
   } else {
-    message = `Scanned ${scanned} tenders via BidAssist — 0 matched your watchlist sectors this run. Add tenders directly with "Watch a tender".`;
+    message = `Scanned ${scanned} tenders via BidAssist — none cleared ₹100 Cr this run.`;
     tone = "muted";
   }
 
@@ -301,10 +289,10 @@ function ResultsBar({
     message = `Bid-results feed error${error ? `: ${error}` : ""}.`;
     tone = "warn";
   } else if (resultCount > 0) {
-    message = `${resultCount} tender result${resultCount === 1 ? "" : "s"} at decision stage matched your watchlist — from BidAssist, scanned ${scanned}.`;
+    message = `${resultCount} result${resultCount === 1 ? "" : "s"} worth ₹100 Cr+ at decision stage — from BidAssist, scanned ${scanned}.`;
     tone = "ok";
   } else {
-    message = `Scanned ${scanned} tender result${scanned === 1 ? "" : "s"} via BidAssist — 0 matched your watchlist sectors this run.`;
+    message = `Scanned ${scanned} tender result${scanned === 1 ? "" : "s"} via BidAssist — none cleared ₹100 Cr this run.`;
     tone = "muted";
   }
 

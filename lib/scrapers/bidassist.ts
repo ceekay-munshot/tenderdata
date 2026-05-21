@@ -3,19 +3,21 @@
  *
  * BidAssist is a tender aggregator: it has already de-walled every
  * government portal (CPPP, IREPS, GeM, state e-proc) and normalised them
- * into one feed. Its public JSON API serves the lot — no auth, no captcha,
- * no OTP.
+ * into one feed. Its public JSON API serves the lot — no auth, no captcha.
  *
  *   GET https://api.bidassist.com/api/tender/tenders
- *       ?sort=RELEVANCE:DESC&pageNumber=N&pageSize=S&tenderEntity=TENDER
- *       [&label=<keyword>]
+ *       ?sort=<MODE>&pageNumber=N&pageSize=S&tenderEntity=TENDER
  *   -> { data: { content: [...tenders], totalPages, totalElements, ... } }
  *
- * Strategy: run a keyword search (label=) per watchlist sector term to
- * pull targeted tenders, plus a few pages of the general feed as a
- * baseline, then de-dupe and keyword-filter. If `label` turns out to be
- * ignored, the searches just return the general feed and de-dupe absorbs
- * it — the scrape still works.
+ * The dashboard tracks big, stock-moving tenders, so the scraper keeps
+ * only tenders worth >= MIN_VALUE_INR (Rs 100 crore) across every sector
+ * — no keyword filter.
+ *
+ * Strategy: probe for a value-descending `sort` the API honours; if found,
+ * walk from the top and stop once tenders drop below the threshold (cheap,
+ * complete). If no value sort works, fall back to scanning the general
+ * feed and filtering by value afterwards. The result reports which path
+ * ran, so the first GHA run doubles as a probe.
  *
  * Runs ONLY in the GHA scraper (Node). The app imports types only.
  */
@@ -24,25 +26,22 @@ import { matchTenderKeywords } from "./sector-keywords";
 
 const API_URL = "https://api.bidassist.com/api/tender/tenders";
 
-/** Distinctive search terms — one or two per watchlist sector. */
-const SEARCH_TERMS = [
-  "visa",
-  "passport",
-  "consular",
-  "radar",
-  "electronic warfare",
-  "aircraft",
-  "helicopter",
-  "railway electrification",
-  "metro rail",
-  "freight corridor",
-  "transmission line",
-  "expressway",
+/** Minimum tender value to keep — Rs 100 crore. */
+const MIN_VALUE_INR = 100 * 10_000_000;
+
+/** Candidate value-descending sort tokens (RELEVANCE:DESC is the known default). */
+const VALUE_SORT_TOKENS = [
+  "VALUE:DESC",
+  "TENDER_VALUE:DESC",
+  "TENDER_AMOUNT:DESC",
+  "AMOUNT:DESC",
 ];
 
 const PAGE_SIZE = 50;
-/** Pages of the general (unfiltered) feed to pull as a baseline. */
-const GENERAL_PAGES = 4;
+/** Max pages to walk when a value sort works (stops early below threshold). */
+const VALUE_WALK_PAGE_CAP = 30;
+/** Max pages to scan when no value sort works. */
+const SCAN_PAGE_CAP = 40;
 const REQUEST_DELAY_MS = 450;
 
 const REQUEST_HEADERS: Record<string, string> = {
@@ -80,26 +79,30 @@ export interface BidAssistTender {
   postedAt: string | null;
   sectorNames: string[];
   detailUrl?: string;
-  /** Watchlist sector keywords this tender matched. */
+  /** Sector keywords this tender's title hit — an informational tag. */
   matchedKeywords: string[];
 }
 
 export interface BidAssistScrapeResult {
-  /** Tenders that matched a watchlist sector keyword. */
+  /** Tenders worth >= the value threshold. */
   tenders: BidAssistTender[];
-  /** Every tender pulled (matchedKeywords may be empty). */
+  /** Every tender pulled (below-threshold ones included). */
   allRows: BidAssistTender[];
   totalScanned: number;
   apiCalls: number;
+  /** "value" = walked a value-sorted feed; "scan" = scanned + filtered. */
+  sortMode: "value" | "scan";
 }
 
 interface FetchOptions {
   fetcher?: typeof fetch;
   signal?: AbortSignal;
-  /** Override the search-term list (tests). */
-  searchTerms?: string[];
-  /** Override the general-feed page count. */
-  generalPages?: number;
+  /** Override the value threshold (tests). */
+  minValue?: number;
+  /** Override the value-walk page cap (tests). */
+  valueWalkPageCap?: number;
+  /** Override the scan page cap (tests). */
+  scanPageCap?: number;
 }
 
 type RawTender = Omit<BidAssistTender, "matchedKeywords">;
@@ -112,37 +115,63 @@ interface ApiPage {
 
 export async function scrapeBidAssist(opts: FetchOptions = {}): Promise<BidAssistScrapeResult> {
   const fetcher = opts.fetcher ?? fetch;
-  const searchTerms = opts.searchTerms ?? SEARCH_TERMS;
-  const generalPages = opts.generalPages ?? GENERAL_PAGES;
+  const minValue = opts.minValue ?? MIN_VALUE_INR;
+  const walkCap = opts.valueWalkPageCap ?? VALUE_WALK_PAGE_CAP;
+  const scanCap = opts.scanPageCap ?? SCAN_PAGE_CAP;
 
   const rows: RawTender[] = [];
   let apiCalls = 0;
 
-  // 1. Keyword searches — targeted, high-yield.
-  for (const term of searchTerms) {
+  // 1. Probe for a value-descending sort the API honours.
+  let valueSort: string | null = null;
+  for (const token of VALUE_SORT_TOKENS) {
+    let page: ApiPage;
     try {
-      const page = await fetchApiPage(fetcher, { pageNumber: 0, label: term, signal: opts.signal });
+      page = await fetchApiPage(fetcher, { pageNumber: 0, sort: token, signal: opts.signal });
       apiCalls++;
-      rows.push(...page.content.map(mapTender));
     } catch {
-      // skip this term — one failure shouldn't sink the run
+      continue;
     }
     await delay(REQUEST_DELAY_MS);
+    if (looksValueSorted(page.content, minValue)) {
+      valueSort = token;
+      rows.push(...page.content.map(mapTender)); // page 0 is already useful
+      break;
+    }
   }
 
-  // 2. General feed — a baseline of the most relevant recent tenders.
-  let totalPages = generalPages;
-  for (let p = 0; p < Math.min(generalPages, totalPages); p++) {
-    try {
-      const page = await fetchApiPage(fetcher, { pageNumber: p, signal: opts.signal });
-      apiCalls++;
+  if (valueSort) {
+    // 2a. Value sort works — walk from the top, stop below the threshold.
+    for (let p = 1; p <= walkCap; p++) {
+      let page: ApiPage;
+      try {
+        page = await fetchApiPage(fetcher, { pageNumber: p, sort: valueSort, signal: opts.signal });
+        apiCalls++;
+      } catch {
+        break;
+      }
+      const mapped = page.content.map(mapTender);
+      rows.push(...mapped);
+      if (page.content.length === 0) break;
+      if (mapped.every((t) => (t.value ?? 0) < minValue)) break;
+      await delay(REQUEST_DELAY_MS);
+    }
+  } else {
+    // 2b. Fallback — scan the general feed, filter by value afterwards.
+    let totalPages = scanCap;
+    for (let p = 0; p < Math.min(scanCap, totalPages); p++) {
+      let page: ApiPage;
+      try {
+        page = await fetchApiPage(fetcher, { pageNumber: p, signal: opts.signal });
+        apiCalls++;
+      } catch {
+        break;
+      }
       rows.push(...page.content.map(mapTender));
       if (page.totalPages > 0) totalPages = page.totalPages;
       if (page.content.length === 0) break;
-    } catch {
-      break;
+      await delay(REQUEST_DELAY_MS);
     }
-    await delay(REQUEST_DELAY_MS);
   }
 
   const deduped = dedupe(rows);
@@ -157,11 +186,25 @@ export async function scrapeBidAssist(opts: FetchOptions = {}): Promise<BidAssis
   }));
 
   return {
-    tenders: allRows.filter((t) => t.matchedKeywords.length > 0),
+    tenders: allRows.filter((t) => (t.value ?? 0) >= minValue),
     allRows,
     totalScanned: deduped.length,
     apiCalls,
+    sortMode: valueSort ? "value" : "scan",
   };
+}
+
+/** True if a page's values run high-to-low — i.e. the sort was honoured. */
+function looksValueSorted(content: unknown[], minValue: number): boolean {
+  const values = content
+    .map((c) => (c as RawBidAssistTender)?.value)
+    .filter((v): v is number => typeof v === "number" && v > 0);
+  if (values.length < 5) return false;
+  for (let i = 1; i < values.length; i++) {
+    if (values[i] > values[i - 1]) return false;
+  }
+  // A genuinely value-sorted feed leads with a tender far above the bar.
+  return values[0] >= minValue;
 }
 
 // ---------------------------------------------------------------------------
@@ -172,14 +215,13 @@ const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchApiPage(
   fetcher: typeof fetch,
-  opts: { pageNumber: number; label?: string; signal?: AbortSignal },
+  opts: { pageNumber: number; sort?: string; signal?: AbortSignal },
 ): Promise<ApiPage> {
   const url = new URL(API_URL);
-  url.searchParams.set("sort", "RELEVANCE:DESC");
+  url.searchParams.set("sort", opts.sort ?? "RELEVANCE:DESC");
   url.searchParams.set("pageNumber", String(opts.pageNumber));
   url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("tenderEntity", "TENDER");
-  if (opts.label) url.searchParams.set("label", opts.label);
 
   let lastErr: unknown;
   for (let attempt = 1; attempt <= 4; attempt++) {
