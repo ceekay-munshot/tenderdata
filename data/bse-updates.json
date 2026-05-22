@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-22T10:57:25.652Z",
-  "durationMs": 603,
+  "fetchedAt": "2026-05-22T14:54:34.198Z",
+  "durationMs": 786,
   "window": {
     "daysBack": 30
   },
@@ -16,12 +16,27 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 88,
+    "announcements": 91,
     "negative": 0,
     "positive": 10,
-    "neutral": 78
+    "neutral": 81
   },
   "announcements": [
+    {
+      "newsId": "cba7aa6d-a9d5-483c-9b9e-2317c94b8ab7",
+      "ticker": "BLS",
+      "scripcode": 540073,
+      "companyName": "BLS International Services Ltd",
+      "headline": "Dear Sir/Madam,\r\n\r\nPursuant to Regulation 24A of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed Annual Secretarial Compliance Report for the financial year ended March 31, 2026 issued by M/s. P. K Mishra & Associates, Practicing Company Secretaries.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-22T17:58:50.760Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/11b8738d-0121-4321-a498-b8bfd286f4c7.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
     {
       "newsId": "7ea446fc-ad4f-4bc2-a3a5-d2ed804d238f",
       "ticker": "BLS",
@@ -692,6 +707,36 @@
           "Receipt of LOA",
           "LOA"
         ]
+      }
+    },
+    {
+      "newsId": "5af3a193-4d1e-4d3e-a07d-89b398f0bed1",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "Press release- Highlights of Financial Performance for the fourth quarter and year ended on 31st March, 2026",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-22T17:25:38.143Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0bc2f208-e0c9-4588-9fcf-a2ea76400e57.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "f0e9d2fa-8f36-4861-b0fd-1d07e896d607",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "Investor Presentation for the fourth quarter and financial year ended on 31st March, 2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-22T17:18:42.530Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8e4c1415-3c81-4646-9997-189a6030e140.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
       }
     },
     {
@@ -1368,6 +1413,36 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-cba7aa6d-a9d5-483c-9b9e-2317c94b8ab7",
+      "date": "2026-05-22T17:58:50.760Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BLS",
+      "text": "Dear Sir/Madam,\r\n\r\nPursuant to Regulation 24A of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed Annual Secretarial Compliance Report for the financial year ended March 31, 2026 issued by M/s. P. K Mishra & Associates, Practicing Company Secretaries.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-5af3a193-4d1e-4d3e-a07d-89b398f0bed1",
+      "date": "2026-05-22T17:25:38.143Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "Press release- Highlights of Financial Performance for the fourth quarter and year ended on 31st March, 2026",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-f0e9d2fa-8f36-4861-b0fd-1d07e896d607",
+      "date": "2026-05-22T17:18:42.530Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "Investor Presentation for the fourth quarter and financial year ended on 31st March, 2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-7a8ce693-4815-4f8a-b4b2-c0a6194d7608",
       "date": "2026-05-22T15:44:27.803Z",
