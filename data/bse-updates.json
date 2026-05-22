@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-22T04:19:20.640Z",
-  "durationMs": 642,
+  "fetchedAt": "2026-05-22T10:57:25.652Z",
+  "durationMs": 603,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 82,
+    "announcements": 88,
     "negative": 0,
-    "positive": 9,
-    "neutral": 73
+    "positive": 10,
+    "neutral": 78
   },
   "announcements": [
     {
@@ -218,6 +218,21 @@
       }
     },
     {
+      "newsId": "f8d693ac-c40c-4468-9c52-827286164b94",
+      "ticker": "BEL",
+      "scripcode": 500049,
+      "companyName": "Bharat Electronics Ltd",
+      "headline": "Transcript of the Conference Call with Investors / Analysts held on 20.05.2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-22T12:20:50.680Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f32d2ed7-e599-42b4-ab37-d8e5e79ae0ca.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "23ea0acf-c67a-422d-ba90-6edae371e612",
       "ticker": "BEL",
       "scripcode": 500049,
@@ -374,6 +389,21 @@
       }
     },
     {
+      "newsId": "21f2fd6e-6726-4e10-8655-db15a6fb7eb6",
+      "ticker": "HAL",
+      "scripcode": 541154,
+      "companyName": "Hindustan Aeronautics Ltd",
+      "headline": "Transcript is attached",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-22T11:30:42.703Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "34bcdef4-136b-4938-b233-d120acc0eae2",
       "ticker": "HAL",
       "scripcode": 541154,
@@ -509,6 +539,39 @@
       }
     },
     {
+      "newsId": "19dd0b51-09c8-4fc0-9d27-9df67ca0aebe",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2015- Receipt of Letter of Award of Contract from NMDC Limited.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-22T12:44:45.267Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e13ae091-fa2d-469c-a939-ce6545b229ff.pdf",
+      "classification": {
+        "tone": "positive",
+        "matches": [
+          "Receipt of Letter of Award",
+          "Letter of Award"
+        ]
+      }
+    },
+    {
+      "newsId": "3ae20c59-7b1d-412a-9d82-0e3b558e5b29",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Rail Vikas Nigam Limited emerges as the Lowest Bidder (L1) from West Central Railway- Normal course of business of the Company.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-22T12:34:21.470Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e7b1bcf5-9c17-4d51-84ad-d43f4b1ebbcc.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "8bbcdf5e-584d-4150-982b-df4b7af93cc9",
       "ticker": "RVNL",
       "scripcode": 542649,
@@ -629,6 +692,36 @@
           "Receipt of LOA",
           "LOA"
         ]
+      }
+    },
+    {
+      "newsId": "7a8ce693-4815-4f8a-b4b2-c0a6194d7608",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "Board of Directors in its meeting held on 22.05.2026, has approved the Audited Financial Results (Standalone and Consolidated) for the quarter and financial year ended 31.03.2026",
+      "body": "",
+      "category": "Result",
+      "filedAt": "2026-05-22T15:44:27.803Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d356b54a-2ca0-4e87-9da9-ad837ebcde78.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "edd90d7c-7b2c-45d2-b3cb-1be8bb1bc81f",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "BOD in its meeting held on Friday 220526 has approved the Audited Financial Results (Standalone and Consolidated) for the quarter and financial year ended 31.03.2026 and Recommended a final dividend of Rs0.70 per equity share of face value of Rs.2/- each (35% of the paidup equity share capital) for the financial year 2025-26, subject to the approval of the shareholders at the ensuing AGM of the Company.",
+      "body": "",
+      "category": "Board Meeting",
+      "filedAt": "2026-05-22T15:03:45.953Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0464d160-0013-4599-a0b6-084f77369e2e.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
       }
     },
     {
@@ -1275,6 +1368,66 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-7a8ce693-4815-4f8a-b4b2-c0a6194d7608",
+      "date": "2026-05-22T15:44:27.803Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "Board of Directors in its meeting held on 22.05.2026, has approved the Audited Financial Results (Standalone and Consolidated) for the quarter and financial year ended 31.03.2026",
+      "tone": "neutral",
+      "context": "Result"
+    },
+    {
+      "id": "bse-edd90d7c-7b2c-45d2-b3cb-1be8bb1bc81f",
+      "date": "2026-05-22T15:03:45.953Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "BOD in its meeting held on Friday 220526 has approved the Audited Financial Results (Standalone and Consolidated) for the quarter and financial year ended 31.03.2026 and Recommended a final dividend of Rs0.70 per equity share of face value of Rs.2/- each (35% of the paidup equity share capital) for the financial year 2025-26, subject to the approval of the shareholders at the ensuing AGM of the Company.",
+      "tone": "neutral",
+      "context": "Board Meeting"
+    },
+    {
+      "id": "bse-19dd0b51-09c8-4fc0-9d27-9df67ca0aebe",
+      "date": "2026-05-22T12:44:45.267Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2015- Receipt of Letter of Award of Contract from NMDC Limited.",
+      "tone": "positive",
+      "context": "Triggers: Receipt of Letter of Award, Letter of Award"
+    },
+    {
+      "id": "bse-3ae20c59-7b1d-412a-9d82-0e3b558e5b29",
+      "date": "2026-05-22T12:34:21.470Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Rail Vikas Nigam Limited emerges as the Lowest Bidder (L1) from West Central Railway- Normal course of business of the Company.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-f8d693ac-c40c-4468-9c52-827286164b94",
+      "date": "2026-05-22T12:20:50.680Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BEL",
+      "text": "Transcript of the Conference Call with Investors / Analysts held on 20.05.2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-21f2fd6e-6726-4e10-8655-db15a6fb7eb6",
+      "date": "2026-05-22T11:30:42.703Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "HAL",
+      "text": "Transcript is attached",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-7ea446fc-ad4f-4bc2-a3a5-d2ed804d238f",
       "date": "2026-05-21T18:13:46.383Z",
