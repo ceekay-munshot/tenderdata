@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-23T03:57:46.659Z",
-  "durationMs": 870,
+  "fetchedAt": "2026-05-23T06:40:56.069Z",
+  "durationMs": 698,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 89,
+    "announcements": 90,
     "negative": 0,
     "positive": 9,
-    "neutral": 80
+    "neutral": 81
   },
   "announcements": [
     {
@@ -690,6 +690,21 @@
           "Receipt of LOA",
           "LOA"
         ]
+      }
+    },
+    {
+      "newsId": "998334a3-b08d-4ca8-813c-bd3e4ecb4246",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "A Copy of Audited Financial Results (Standalone and Consolidated) for the quarter and financial year ended 31.03.2026 as published in the newspapers i.e., Financial Express (English edition), The Indian Express (English edition) and Jansatta (Hindi edition) on 23.05.2026, as enclosed.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-23T10:45:25.953Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aa29cdf9-33b6-44f3-bd19-ac1df516ee44.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
       }
     },
     {
@@ -1381,6 +1396,16 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-998334a3-b08d-4ca8-813c-bd3e4ecb4246",
+      "date": "2026-05-23T10:45:25.953Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "A Copy of Audited Financial Results (Standalone and Consolidated) for the quarter and financial year ended 31.03.2026 as published in the newspapers i.e., Financial Express (English edition), The Indian Express (English edition) and Jansatta (Hindi edition) on 23.05.2026, as enclosed.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-cba7aa6d-a9d5-483c-9b9e-2317c94b8ab7",
       "date": "2026-05-22T17:58:50.760Z",
