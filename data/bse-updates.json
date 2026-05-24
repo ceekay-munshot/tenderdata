@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-24T10:02:05.250Z",
-  "durationMs": 893,
+  "fetchedAt": "2026-05-24T13:51:17.279Z",
+  "durationMs": 458,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 86,
+    "announcements": 87,
     "negative": 0,
     "positive": 8,
-    "neutral": 78
+    "neutral": 79
   },
   "announcements": [
     {
@@ -813,6 +813,21 @@
       }
     },
     {
+      "newsId": "7c7a104a-b0bd-4022-a367-9b7157665705",
+      "ticker": "LT",
+      "scripcode": 500510,
+      "companyName": "Larsen & Toubro Ltd",
+      "headline": "Cessation of Independent Director",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-24T18:11:06.073Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/90faea5e-478d-4624-8380-5bdc524d0f6d.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "4b6aa176-b6f8-4cfc-bc03-ba962a18263d",
       "ticker": "LT",
       "scripcode": 500510,
@@ -1334,6 +1349,16 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-7c7a104a-b0bd-4022-a367-9b7157665705",
+      "date": "2026-05-24T18:11:06.073Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "LT",
+      "text": "Cessation of Independent Director",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-998334a3-b08d-4ca8-813c-bd3e4ecb4246",
       "date": "2026-05-23T10:45:25.953Z",
