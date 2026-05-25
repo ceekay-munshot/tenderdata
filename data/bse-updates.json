@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-25T11:58:15.488Z",
-  "durationMs": 641,
+  "fetchedAt": "2026-05-25T15:26:51.087Z",
+  "durationMs": 1017,
   "window": {
     "daysBack": 30
   },
@@ -16,12 +16,27 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 88,
+    "announcements": 94,
     "negative": 0,
     "positive": 9,
-    "neutral": 79
+    "neutral": 85
   },
   "announcements": [
+    {
+      "newsId": "147ca7cd-8de1-4a9e-82fc-bfd3c75fa365",
+      "ticker": "BLS",
+      "scripcode": 540073,
+      "companyName": "BLS International Services Ltd",
+      "headline": "Dear Sir/ Ma'am,\r\n\r\nIn continuation to our intimation dated May 15, 2026 please find enclosed a transcript of the Earnings Call held on Wednesday, May 20, 2026 to discuss the operational and financial performance of the Company for the fourth quarter and financial year ended on March 31, 2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-25T20:42:45.327Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0dfc7598-11ee-4db9-8e83-284d4164347d.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
     {
       "newsId": "b6e897ab-937f-4a8c-b743-7e6b346981a5",
       "ticker": "BLS",
@@ -554,6 +569,51 @@
       }
     },
     {
+      "newsId": "01232598-da6a-4f47-b9fa-947452037290",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Closure of RVNL JV company M/s. Kyrgyzindustry- RVNL CJSC in Kyrgyzstan.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-25T19:04:13.847Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ba0f6d4-5290-4daf-9a81-627e7c18cefd.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "6671deef-f7e6-47f6-ad30-921b76bb9cde",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Board has approved the Financial Results for the quarter and year ended 31.03.2026",
+      "body": "",
+      "category": "Result",
+      "filedAt": "2026-05-25T19:01:52.817Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6520e680-b141-4d93-bdd3-a62f69006a0c.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "08b619de-752c-47d5-9533-14841909d5ad",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "1. Consideration and Approval of Audited Financial Results for the year ended 31st March, 2026\r\n2. Recommendation of Final Dividend for FY 2025-26 and \r\n3. Closure of RVNL JV company M/s. Kyrgyzindustry- RVNL CJSC in Kyrgyzstan (Central Asia Region).",
+      "body": "",
+      "category": "Board Meeting",
+      "filedAt": "2026-05-25T18:12:06.523Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d8028e00-9c86-44cf-87b9-95a36c7eca67.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "19dd0b51-09c8-4fc0-9d27-9df67ca0aebe",
       "ticker": "RVNL",
       "scripcode": 542649,
@@ -710,6 +770,21 @@
       }
     },
     {
+      "newsId": "8a1337bc-7b90-40ce-ba43-fd81485e7c1e",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "Link of the Audio Recording of the Conference Call held on Monday, 25th May, 2026 wherein the Management of IRCON discussed the financial results for the quarter and financial year ended on 31st March, 2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-25T17:56:29.393Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/560fac1d-d68f-4b43-bb15-1f35a7275d6b.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "998334a3-b08d-4ca8-813c-bd3e4ecb4246",
       "ticker": "IRCON",
       "scripcode": 541956,
@@ -839,6 +914,21 @@
       "category": "Company Update",
       "filedAt": "2026-05-07T18:28:16.937Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5d79d0bc-46d3-4f4b-b6c6-83a047e6caac.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "f5741879-d55e-4728-9697-cee9de33a89f",
+      "ticker": "LT",
+      "scripcode": 500510,
+      "companyName": "Larsen & Toubro Ltd",
+      "headline": "Change in Senior Management",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-25T19:19:04.500Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0ed29772-ef15-4ec6-a125-df0826414e90.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1366,6 +1456,66 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-147ca7cd-8de1-4a9e-82fc-bfd3c75fa365",
+      "date": "2026-05-25T20:42:45.327Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BLS",
+      "text": "Dear Sir/ Ma'am,\r\n\r\nIn continuation to our intimation dated May 15, 2026 please find enclosed a transcript of the Earnings Call held on Wednesday, May 20, 2026 to discuss the operational and financial performance of the Company for the fourth quarter and financial year ended on March 31, 2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-f5741879-d55e-4728-9697-cee9de33a89f",
+      "date": "2026-05-25T19:19:04.500Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "LT",
+      "text": "Change in Senior Management",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-01232598-da6a-4f47-b9fa-947452037290",
+      "date": "2026-05-25T19:04:13.847Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Closure of RVNL JV company M/s. Kyrgyzindustry- RVNL CJSC in Kyrgyzstan.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-6671deef-f7e6-47f6-ad30-921b76bb9cde",
+      "date": "2026-05-25T19:01:52.817Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Board has approved the Financial Results for the quarter and year ended 31.03.2026",
+      "tone": "neutral",
+      "context": "Result"
+    },
+    {
+      "id": "bse-08b619de-752c-47d5-9533-14841909d5ad",
+      "date": "2026-05-25T18:12:06.523Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "1. Consideration and Approval of Audited Financial Results for the year ended 31st March, 2026\r\n2. Recommendation of Final Dividend for FY 2025-26 and \r\n3. Closure of RVNL JV company M/s. Kyrgyzindustry- RVNL CJSC in Kyrgyzstan (Central Asia Region).",
+      "tone": "neutral",
+      "context": "Board Meeting"
+    },
+    {
+      "id": "bse-8a1337bc-7b90-40ce-ba43-fd81485e7c1e",
+      "date": "2026-05-25T17:56:29.393Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "Link of the Audio Recording of the Conference Call held on Monday, 25th May, 2026 wherein the Management of IRCON discussed the financial results for the quarter and financial year ended on 31st March, 2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-b5b06427-e9a2-4a3b-b347-ba3d5d2365cf",
       "date": "2026-05-25T16:24:04.247Z",
