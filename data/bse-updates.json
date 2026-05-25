@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-25T04:40:43.605Z",
-  "durationMs": 562,
+  "fetchedAt": "2026-05-25T11:58:15.488Z",
+  "durationMs": 641,
   "window": {
     "daysBack": 30
   },
@@ -16,12 +16,27 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 86,
+    "announcements": 88,
     "negative": 0,
-    "positive": 8,
-    "neutral": 78
+    "positive": 9,
+    "neutral": 79
   },
   "announcements": [
+    {
+      "newsId": "b6e897ab-937f-4a8c-b743-7e6b346981a5",
+      "ticker": "BLS",
+      "scripcode": 540073,
+      "companyName": "BLS International Services Ltd",
+      "headline": "Pursuant to regulation 30(6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (the Listing Regulations) read with part A of Schedule III of the Listing Regulations, we wish to inform that the management and officials of the Company will attend the meeting.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-25T15:28:08.370Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b3fb26c6-4f85-485f-a4a6-8745f0632330.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
     {
       "newsId": "cba7aa6d-a9d5-483c-9b9e-2317c94b8ab7",
       "ticker": "BLS",
@@ -230,6 +245,23 @@
       "classification": {
         "tone": "neutral",
         "matches": []
+      }
+    },
+    {
+      "newsId": "b5b06427-e9a2-4a3b-b347-ba3d5d2365cf",
+      "ticker": "BEL",
+      "scripcode": 500049,
+      "companyName": "Bharat Electronics Ltd",
+      "headline": "BEL receives orders worth Rs. 608 Crores.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-25T16:24:04.247Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89de62a4-10b9-4e16-adc9-9ac591a2a72b.pdf",
+      "classification": {
+        "tone": "positive",
+        "matches": [
+          "receives orders"
+        ]
       }
     },
     {
@@ -1334,6 +1366,26 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-b5b06427-e9a2-4a3b-b347-ba3d5d2365cf",
+      "date": "2026-05-25T16:24:04.247Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BEL",
+      "text": "BEL receives orders worth Rs. 608 Crores.",
+      "tone": "positive",
+      "context": "Triggers: receives orders"
+    },
+    {
+      "id": "bse-b6e897ab-937f-4a8c-b743-7e6b346981a5",
+      "date": "2026-05-25T15:28:08.370Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BLS",
+      "text": "Pursuant to regulation 30(6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (the Listing Regulations) read with part A of Schedule III of the Listing Regulations, we wish to inform that the management and officials of the Company will attend the meeting.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-7c7a104a-b0bd-4022-a367-9b7157665705",
       "date": "2026-05-24T18:11:06.073Z",
