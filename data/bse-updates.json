@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-26T04:15:40.960Z",
-  "durationMs": 645,
+  "fetchedAt": "2026-05-26T15:59:45.397Z",
+  "durationMs": 701,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 94,
+    "announcements": 98,
     "negative": 0,
-    "positive": 9,
-    "neutral": 85
+    "positive": 10,
+    "neutral": 88
   },
   "announcements": [
     {
@@ -569,6 +569,21 @@
       }
     },
     {
+      "newsId": "51ed69db-6fb4-4ba0-bd48-df0576774780",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Audio recording of Conference Call with Investors/Analysts/Institutions",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-26T17:11:06.047Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bf52df1-72dd-4c9e-8dea-713f64ab93a7.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "01232598-da6a-4f47-b9fa-947452037290",
       "ticker": "RVNL",
       "scripcode": 542649,
@@ -770,6 +785,21 @@
       }
     },
     {
+      "newsId": "1550e041-1a7a-4f2c-88c3-820f756b31ca",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "Transcript of the post result Analyst Conference Call held on Monday, 25th May, 2026 to discuss the financial results of the Company for the quarter and financial year ended on 31st March, 2026",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-26T18:21:21.683Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7bd8c990-f839-45cf-8dcc-22b601f1b7ea.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "8a1337bc-7b90-40ce-ba43-fd81485e7c1e",
       "ticker": "IRCON",
       "scripcode": 541956,
@@ -917,6 +947,38 @@
       "classification": {
         "tone": "neutral",
         "matches": []
+      }
+    },
+    {
+      "newsId": "96afda23-068c-4f8d-9429-89286eb44deb",
+      "ticker": "LT",
+      "scripcode": 500510,
+      "companyName": "Larsen & Toubro Ltd",
+      "headline": "Cessation of Independent Director",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-26T18:12:41.343Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/96d86a93-7812-4c3c-a04b-d090b578e671.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "677f61fb-7c34-443a-93bf-ce6835b2d109",
+      "ticker": "LT",
+      "scripcode": 500510,
+      "companyName": "Larsen & Toubro Ltd",
+      "headline": "L&T Wins Orders (Significant*) for GeoStructure Business",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-26T11:58:03.837Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/57a7e599-1e8d-4199-8301-58a773870e94.pdf",
+      "classification": {
+        "tone": "positive",
+        "matches": [
+          "Wins Orders"
+        ]
       }
     },
     {
@@ -1456,6 +1518,46 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-1550e041-1a7a-4f2c-88c3-820f756b31ca",
+      "date": "2026-05-26T18:21:21.683Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "Transcript of the post result Analyst Conference Call held on Monday, 25th May, 2026 to discuss the financial results of the Company for the quarter and financial year ended on 31st March, 2026",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-96afda23-068c-4f8d-9429-89286eb44deb",
+      "date": "2026-05-26T18:12:41.343Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "LT",
+      "text": "Cessation of Independent Director",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-51ed69db-6fb4-4ba0-bd48-df0576774780",
+      "date": "2026-05-26T17:11:06.047Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Audio recording of Conference Call with Investors/Analysts/Institutions",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-677f61fb-7c34-443a-93bf-ce6835b2d109",
+      "date": "2026-05-26T11:58:03.837Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "LT",
+      "text": "L&T Wins Orders (Significant*) for GeoStructure Business",
+      "tone": "positive",
+      "context": "Triggers: Wins Orders"
+    },
     {
       "id": "bse-147ca7cd-8de1-4a9e-82fc-bfd3c75fa365",
       "date": "2026-05-25T20:42:45.327Z",
