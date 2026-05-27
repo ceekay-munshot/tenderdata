@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-27T16:03:16.763Z",
-  "durationMs": 1049,
+  "fetchedAt": "2026-05-27T22:02:43.819Z",
+  "durationMs": 787,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 101,
+    "announcements": 103,
     "negative": 0,
     "positive": 10,
-    "neutral": 91
+    "neutral": 93
   },
   "announcements": [
     {
@@ -584,6 +584,21 @@
       }
     },
     {
+      "newsId": "4668058f-86e6-4df9-8718-e84d55fa7376",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2015- Imposition of fine by NSE for the quarter ended 31st March, 2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-27T22:30:35.700Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f81be4a2-e2a8-48ae-8771-e10898b8a21c.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "ae7797c7-23e1-46a6-ada0-410468c0b4c8",
       "ticker": "RVNL",
       "scripcode": 542649,
@@ -812,6 +827,21 @@
           "Receipt of LOA",
           "LOA"
         ]
+      }
+    },
+    {
+      "newsId": "f7e4f6c2-632d-439c-8a24-49a602b6250a",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "Imposition of Fine by NSE and BSE for the Quarter ended 31st March, 2026",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-27T22:25:36.263Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/153dc41f-0709-449f-8773-28c7f64d1166.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
       }
     },
     {
@@ -1563,6 +1593,26 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-4668058f-86e6-4df9-8718-e84d55fa7376",
+      "date": "2026-05-27T22:30:35.700Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2015- Imposition of fine by NSE for the quarter ended 31st March, 2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-f7e4f6c2-632d-439c-8a24-49a602b6250a",
+      "date": "2026-05-27T22:25:36.263Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "Imposition of Fine by NSE and BSE for the Quarter ended 31st March, 2026",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-ae7797c7-23e1-46a6-ada0-410468c0b4c8",
       "date": "2026-05-27T18:03:05.167Z",
