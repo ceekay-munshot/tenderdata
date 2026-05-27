@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-27T04:38:37.994Z",
-  "durationMs": 635,
+  "fetchedAt": "2026-05-27T11:45:15.248Z",
+  "durationMs": 874,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 98,
+    "announcements": 99,
     "negative": 0,
     "positive": 10,
-    "neutral": 88
+    "neutral": 89
   },
   "announcements": [
     {
@@ -413,6 +413,21 @@
       "category": "Company Update",
       "filedAt": "2026-04-30T17:20:44.460Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e386a48f-89e8-4cda-991e-15fabb09a801.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "0e54b531-e13f-4477-837f-0b78e57af984",
+      "ticker": "HAL",
+      "scripcode": 541154,
+      "companyName": "Hindustan Aeronautics Ltd",
+      "headline": "Announcement as attached",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-27T10:54:31.323Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d2d686a6-4d82-494c-9a10-ee883079f938.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1518,6 +1533,16 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-0e54b531-e13f-4477-837f-0b78e57af984",
+      "date": "2026-05-27T10:54:31.323Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "HAL",
+      "text": "Announcement as attached",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-1550e041-1a7a-4f2c-88c3-820f756b31ca",
       "date": "2026-05-26T18:21:21.683Z",
