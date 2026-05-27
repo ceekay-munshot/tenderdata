@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-27T11:45:15.248Z",
-  "durationMs": 874,
+  "fetchedAt": "2026-05-27T16:03:16.763Z",
+  "durationMs": 1049,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 99,
+    "announcements": 101,
     "negative": 0,
     "positive": 10,
-    "neutral": 89
+    "neutral": 91
   },
   "announcements": [
     {
@@ -584,6 +584,21 @@
       }
     },
     {
+      "newsId": "ae7797c7-23e1-46a6-ada0-410468c0b4c8",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2015- Imposition of fine by BSE for the quarter ended 31st March, 2026",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-27T18:03:05.167Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f624c9b7-62c8-46cc-a3a1-bd1d45525b3d.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
       "newsId": "51ed69db-6fb4-4ba0-bd48-df0576774780",
       "ticker": "RVNL",
       "scripcode": 542649,
@@ -797,6 +812,21 @@
           "Receipt of LOA",
           "LOA"
         ]
+      }
+    },
+    {
+      "newsId": "b2195ddc-24f3-4a58-9d12-d433c548d312",
+      "ticker": "IRCON",
+      "scripcode": 541956,
+      "companyName": "IRCON International Ltd",
+      "headline": "Annual Secretarial Compliance Report for the Financial Year 2025-26",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-27T17:48:24.670Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2553cc7b-d22b-4892-8345-2b7bd8f5827b.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
       }
     },
     {
@@ -1533,6 +1563,26 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-ae7797c7-23e1-46a6-ada0-410468c0b4c8",
+      "date": "2026-05-27T18:03:05.167Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2015- Imposition of fine by BSE for the quarter ended 31st March, 2026",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
+    {
+      "id": "bse-b2195ddc-24f3-4a58-9d12-d433c548d312",
+      "date": "2026-05-27T17:48:24.670Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "IRCON",
+      "text": "Annual Secretarial Compliance Report for the Financial Year 2025-26",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-0e54b531-e13f-4477-837f-0b78e57af984",
       "date": "2026-05-27T10:54:31.323Z",
