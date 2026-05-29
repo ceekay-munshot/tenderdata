@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-29T11:35:53.205Z",
-  "durationMs": 697,
+  "fetchedAt": "2026-05-29T16:01:03.793Z",
+  "durationMs": 736,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 100,
+    "announcements": 101,
     "negative": 0,
     "positive": 9,
-    "neutral": 91
+    "neutral": 92
   },
   "announcements": [
     {
@@ -578,6 +578,21 @@
       "category": "Company Update",
       "filedAt": "2026-05-01T09:07:04.460Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8b8e3ef3-f0da-4147-aae8-6eb9f083b6a7.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "67d695b2-863a-41c9-bb89-da579b4ab29c",
+      "ticker": "RVNL",
+      "scripcode": 542649,
+      "companyName": "Rail Vikas Nigam Ltd",
+      "headline": "Annual Secretarial Compliance Report for the year ended 31st March, 2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-29T18:56:28.000Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c266d60a-9024-42dc-92ca-ef150baa830f.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1545,6 +1560,16 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-67d695b2-863a-41c9-bb89-da579b4ab29c",
+      "date": "2026-05-29T18:56:28.000Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "RVNL",
+      "text": "Annual Secretarial Compliance Report for the year ended 31st March, 2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-c44920b5-0b0f-46b6-8997-da925e256949",
       "date": "2026-05-29T15:24:51.577Z",
