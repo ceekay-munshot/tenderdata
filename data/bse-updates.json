@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-29T04:20:53.592Z",
-  "durationMs": 670,
+  "fetchedAt": "2026-05-29T11:35:53.205Z",
+  "durationMs": 697,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 99,
+    "announcements": 100,
     "negative": 0,
     "positive": 9,
-    "neutral": 90
+    "neutral": 91
   },
   "announcements": [
     {
@@ -257,6 +257,21 @@
       "category": "Company Update",
       "filedAt": "2026-05-11T19:54:01.610Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56ad8d01-3e7d-445c-8127-a46e7f445b78.pdf",
+      "classification": {
+        "tone": "neutral",
+        "matches": []
+      }
+    },
+    {
+      "newsId": "c44920b5-0b0f-46b6-8997-da925e256949",
+      "ticker": "BEL",
+      "scripcode": 500049,
+      "companyName": "Bharat Electronics Ltd",
+      "headline": "Annual Secretarial Compliance Report fot thr year ended 31.03.2026.",
+      "body": "",
+      "category": "Company Update",
+      "filedAt": "2026-05-29T15:24:51.577Z",
+      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c35def05-964f-4cc3-a0fb-b94e632d2972.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1530,6 +1545,16 @@
     }
   ],
   "updates": [
+    {
+      "id": "bse-c44920b5-0b0f-46b6-8997-da925e256949",
+      "date": "2026-05-29T15:24:51.577Z",
+      "tenderId": "",
+      "kind": "follow_up",
+      "ticker": "BEL",
+      "text": "Annual Secretarial Compliance Report fot thr year ended 31.03.2026.",
+      "tone": "neutral",
+      "context": "Company Update"
+    },
     {
       "id": "bse-4522e685-9a61-44b9-9437-fccd04606afc",
       "date": "2026-05-28T15:43:03.267Z",
