@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-28T22:01:51.880Z",
-  "durationMs": 801,
+  "fetchedAt": "2026-05-29T04:20:53.592Z",
+  "durationMs": 670,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 103,
+    "announcements": 99,
     "negative": 0,
-    "positive": 10,
-    "neutral": 93
+    "positive": 9,
+    "neutral": 90
   },
   "announcements": [
     {
@@ -569,21 +569,6 @@
       }
     },
     {
-      "newsId": "18d27756-afef-45c5-ac40-64669d4899ef",
-      "ticker": "HAL",
-      "scripcode": 541154,
-      "companyName": "Hindustan Aeronautics Ltd",
-      "headline": "Announcement as attached",
-      "body": "",
-      "category": "Company Update",
-      "filedAt": "2026-04-28T17:07:09.343Z",
-      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8f1caeb1-9d91-434f-b5bc-2378b3c98e4c.pdf",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
       "newsId": "4668058f-86e6-4df9-8718-e84d55fa7376",
       "ticker": "RVNL",
       "scripcode": 542649,
@@ -809,24 +794,6 @@
       "classification": {
         "tone": "neutral",
         "matches": []
-      }
-    },
-    {
-      "newsId": "fdb1793e-f5ab-46e4-8f34-dc37ca1bfe68",
-      "ticker": "RVNL",
-      "scripcode": 542649,
-      "companyName": "Rail Vikas Nigam Ltd",
-      "headline": "Receipt of LOA from NMDC Limited.",
-      "body": "",
-      "category": "Company Update",
-      "filedAt": "2026-04-28T18:14:37.087Z",
-      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb1bf6b4-16e3-4d4e-94cf-2e20e656567c.pdf",
-      "classification": {
-        "tone": "positive",
-        "matches": [
-          "Receipt of LOA",
-          "LOA"
-        ]
       }
     },
     {
@@ -1556,36 +1523,6 @@
       "category": "Company Update",
       "filedAt": "2026-04-29T17:23:16.343Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/993d2afb-f139-46f4-8615-4adfbf93639a.pdf",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "85a5151a-73e8-467e-8bf0-4afc7446c6c4",
-      "ticker": "LT",
-      "scripcode": 500510,
-      "companyName": "Larsen & Toubro Ltd",
-      "headline": "Schedule of Analyst / Institutional Investors'' Meet",
-      "body": "",
-      "category": "Company Update",
-      "filedAt": "2026-04-28T15:24:53.153Z",
-      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aefeec07-f865-4ef8-97fa-35db1dadc93d.pdf",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "fd765c96-7bd0-40f5-bdac-5aee55248a20",
-      "ticker": "LT",
-      "scripcode": 500510,
-      "companyName": "Larsen & Toubro Ltd",
-      "headline": "Certificate under Regulation 57 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-      "body": "",
-      "category": "",
-      "filedAt": "2026-04-28T15:20:13.400Z",
-      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d05b86d5-aeec-41aa-a3bc-b3b580ccf940.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -2582,46 +2519,6 @@
       "text": "Disposal of stake held by the Company in L&T Metro Rail (Hyderabad) Limited",
       "tone": "neutral",
       "context": "Company Update"
-    },
-    {
-      "id": "bse-fdb1793e-f5ab-46e4-8f34-dc37ca1bfe68",
-      "date": "2026-04-28T18:14:37.087Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "RVNL",
-      "text": "Receipt of LOA from NMDC Limited.",
-      "tone": "positive",
-      "context": "Triggers: Receipt of LOA, LOA"
-    },
-    {
-      "id": "bse-18d27756-afef-45c5-ac40-64669d4899ef",
-      "date": "2026-04-28T17:07:09.343Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "HAL",
-      "text": "Announcement as attached",
-      "tone": "neutral",
-      "context": "Company Update"
-    },
-    {
-      "id": "bse-85a5151a-73e8-467e-8bf0-4afc7446c6c4",
-      "date": "2026-04-28T15:24:53.153Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "LT",
-      "text": "Schedule of Analyst / Institutional Investors'' Meet",
-      "tone": "neutral",
-      "context": "Company Update"
-    },
-    {
-      "id": "bse-fd765c96-7bd0-40f5-bdac-5aee55248a20",
-      "date": "2026-04-28T15:20:13.400Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "LT",
-      "text": "Certificate under Regulation 57 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-      "tone": "neutral",
-      "context": ""
     }
   ]
 }
