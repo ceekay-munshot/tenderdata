@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-30T21:09:26.487Z",
-  "durationMs": 617,
+  "fetchedAt": "2026-05-31T04:40:58.600Z",
+  "durationMs": 716,
   "window": {
     "daysBack": 30
   },
@@ -16,10 +16,10 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 101,
+    "announcements": 98,
     "negative": 0,
     "positive": 9,
-    "neutral": 92
+    "neutral": 89
   },
   "announcements": [
     {
@@ -419,21 +419,6 @@
       }
     },
     {
-      "newsId": "8e90fe29-9b6e-4a0a-86f4-e6177138830a",
-      "ticker": "BEL",
-      "scripcode": 500049,
-      "companyName": "Bharat Electronics Ltd",
-      "headline": "Intimation of Change in Senior Management.",
-      "body": "",
-      "category": "Company Update",
-      "filedAt": "2026-04-30T17:20:44.460Z",
-      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e386a48f-89e8-4cda-991e-15fabb09a801.pdf",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
       "newsId": "0e54b531-e13f-4477-837f-0b78e57af984",
       "ticker": "HAL",
       "scripcode": 541154,
@@ -806,21 +791,6 @@
       "category": "Board Meeting",
       "filedAt": "2026-05-08T16:08:53.953Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5747bf34-2958-4b9f-871a-a517439441ed.pdf",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "76fd8838-b11c-4dc8-acab-9a1d64ca700f",
-      "ticker": "RVNL",
-      "scripcode": 542649,
-      "companyName": "Rail Vikas Nigam Ltd",
-      "headline": "Intimation regarding Change in Management- Superannuation",
-      "body": "",
-      "category": "Company Update",
-      "filedAt": "2026-04-30T18:03:39.053Z",
-      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/66598e66-0839-4c1c-a3f3-89ef21eb120b.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -1538,21 +1508,6 @@
       "category": "Company Update",
       "filedAt": "2026-05-01T17:10:00.033Z",
       "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f4f33827-a771-4458-86c9-a0bd28669ae3.pdf",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "88c25cf9-9986-4054-b285-61e2314d5a8c",
-      "ticker": "LT",
-      "scripcode": 500510,
-      "companyName": "Larsen & Toubro Ltd",
-      "headline": "L&T Divests 100% Stake in L&T Metro Rail (Hyderabad) Limited",
-      "body": "",
-      "category": "Company Update",
-      "filedAt": "2026-04-30T11:51:06.917Z",
-      "attachmentUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5478af50-bbba-4812-b363-cc487a412e77.pdf",
       "classification": {
         "tone": "neutral",
         "matches": []
@@ -2537,36 +2492,6 @@
       "kind": "follow_up",
       "ticker": "HAL",
       "text": "Announcement as attached",
-      "tone": "neutral",
-      "context": "Company Update"
-    },
-    {
-      "id": "bse-76fd8838-b11c-4dc8-acab-9a1d64ca700f",
-      "date": "2026-04-30T18:03:39.053Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "RVNL",
-      "text": "Intimation regarding Change in Management- Superannuation",
-      "tone": "neutral",
-      "context": "Company Update"
-    },
-    {
-      "id": "bse-8e90fe29-9b6e-4a0a-86f4-e6177138830a",
-      "date": "2026-04-30T17:20:44.460Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "BEL",
-      "text": "Intimation of Change in Senior Management.",
-      "tone": "neutral",
-      "context": "Company Update"
-    },
-    {
-      "id": "bse-88c25cf9-9986-4054-b285-61e2314d5a8c",
-      "date": "2026-04-30T11:51:06.917Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "LT",
-      "text": "L&T Divests 100% Stake in L&T Metro Rail (Hyderabad) Limited",
       "tone": "neutral",
       "context": "Company Update"
     }
