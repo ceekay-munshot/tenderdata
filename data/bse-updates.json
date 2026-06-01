@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-01T13:45:08.133Z",
-  "durationMs": 766,
+  "fetchedAt": "2026-06-01T20:22:17.434Z",
+  "durationMs": 596,
   "window": {
     "daysBack": 30
   },
@@ -16,157 +16,11 @@
   "failureCount": 0,
   "failures": [],
   "counts": {
-    "announcements": 6,
+    "announcements": 0,
     "negative": 0,
     "positive": 0,
-    "neutral": 6
+    "neutral": 0
   },
-  "announcements": [
-    {
-      "newsId": "540073--",
-      "ticker": "BLS",
-      "scripcode": 540073,
-      "companyName": "",
-      "headline": "",
-      "body": "",
-      "category": "",
-      "filedAt": "2026-06-01T13:45:07.916Z",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "500049--",
-      "ticker": "BEL",
-      "scripcode": 500049,
-      "companyName": "",
-      "headline": "",
-      "body": "",
-      "category": "",
-      "filedAt": "2026-06-01T13:45:07.851Z",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "541154--",
-      "ticker": "HAL",
-      "scripcode": 541154,
-      "companyName": "",
-      "headline": "",
-      "body": "",
-      "category": "",
-      "filedAt": "2026-06-01T13:45:08.130Z",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "542649--",
-      "ticker": "RVNL",
-      "scripcode": 542649,
-      "companyName": "",
-      "headline": "",
-      "body": "",
-      "category": "",
-      "filedAt": "2026-06-01T13:45:07.850Z",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "541956--",
-      "ticker": "IRCON",
-      "scripcode": 541956,
-      "companyName": "",
-      "headline": "",
-      "body": "",
-      "category": "",
-      "filedAt": "2026-06-01T13:45:07.886Z",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    },
-    {
-      "newsId": "500510--",
-      "ticker": "LT",
-      "scripcode": 500510,
-      "companyName": "",
-      "headline": "",
-      "body": "",
-      "category": "",
-      "filedAt": "2026-06-01T13:45:08.046Z",
-      "classification": {
-        "tone": "neutral",
-        "matches": []
-      }
-    }
-  ],
-  "updates": [
-    {
-      "id": "bse-541154--",
-      "date": "2026-06-01T13:45:08.130Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "HAL",
-      "text": "",
-      "tone": "neutral",
-      "context": ""
-    },
-    {
-      "id": "bse-500510--",
-      "date": "2026-06-01T13:45:08.046Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "LT",
-      "text": "",
-      "tone": "neutral",
-      "context": ""
-    },
-    {
-      "id": "bse-540073--",
-      "date": "2026-06-01T13:45:07.916Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "BLS",
-      "text": "",
-      "tone": "neutral",
-      "context": ""
-    },
-    {
-      "id": "bse-541956--",
-      "date": "2026-06-01T13:45:07.886Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "IRCON",
-      "text": "",
-      "tone": "neutral",
-      "context": ""
-    },
-    {
-      "id": "bse-500049--",
-      "date": "2026-06-01T13:45:07.851Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "BEL",
-      "text": "",
-      "tone": "neutral",
-      "context": ""
-    },
-    {
-      "id": "bse-542649--",
-      "date": "2026-06-01T13:45:07.850Z",
-      "tenderId": "",
-      "kind": "follow_up",
-      "ticker": "RVNL",
-      "text": "",
-      "tone": "neutral",
-      "context": ""
-    }
-  ]
+  "announcements": [],
+  "updates": []
 }
