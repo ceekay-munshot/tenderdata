@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-06-02T19:50:47.489Z",
-  "durationMs": 52845,
+  "fetchedAt": "2026-06-02T22:26:50.603Z",
+  "durationMs": 51813,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 354,
+  "totalRowsParsed": 350,
   "relevantCount": 0,
   "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_SOI_909017_3",
-      "title": "2D STEREO DIGITIZATION",
-      "organisationChain": "Survey of India||Uttarakhand and West Uttar Pradesh Geospatial Data Centre Uttarakhand-SOI",
-      "buyer": "Survey of India",
-      "publishedAt": "2026-05-20T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T03:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2GTOyes7M%2BzTvPCeEtdnhg%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_ITBP_908517_1",
       "title": "NO/ITBP/22NDBN/NONVEG/2026-75",
@@ -28,6 +17,17 @@
       "bidSubmissionCloses": "2026-06-03T03:30:00.000Z",
       "tenderOpensAt": "2026-06-04T04:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfLjQZCI6NY%2BzOxNXKcdNJQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SOI_909017_3",
+      "title": "2D STEREO DIGITIZATION",
+      "organisationChain": "Survey of India||Uttarakhand and West Uttar Pradesh Geospatial Data Centre Uttarakhand-SOI",
+      "buyer": "Survey of India",
+      "publishedAt": "2026-05-20T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T03:30:00.000Z",
+      "tenderOpensAt": "2026-06-04T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2GTOyes7M%2BzTvPCeEtdnhg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -42,17 +42,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IIMU_909867_1",
-      "title": "Internal Electrical work of 4th Floor Studio and 5th Floor BBA Office at IIM Udaipur, Balicha, Udaipur (Rajasthan).",
-      "organisationChain": "Indian Institute of Management Udaipur",
-      "buyer": "Indian Institute of Management Udaipur",
-      "publishedAt": "2026-05-22T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T04:30:00.000Z",
-      "tenderOpensAt": "2026-06-03T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCOS%2BvOdKmjq2HccLywxpWg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ARMHA_908475_1",
       "title": "VIII.11001/Engr/MW/2026-72/04",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -64,14 +53,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_910596_1",
-      "title": "Repair and maintenance of feeder panel and earthing of LT lines of residential and non residential buildings under SHQ BSF Teliamura",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-27T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:00:00.000Z",
-      "tenderOpensAt": "2026-06-04T05:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S98W1N7rZMZDU2s%2FIBRfWNA%3D%3D",
+      "tenderRef": "2026_IIMU_909867_1",
+      "title": "Internal Electrical work of 4th Floor Studio and 5th Floor BBA Office at IIM Udaipur, Balicha, Udaipur (Rajasthan).",
+      "organisationChain": "Indian Institute of Management Udaipur",
+      "buyer": "Indian Institute of Management Udaipur",
+      "publishedAt": "2026-05-22T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T04:30:00.000Z",
+      "tenderOpensAt": "2026-06-03T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCOS%2BvOdKmjq2HccLywxpWg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -97,80 +86,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_AMU_909689_1",
-      "title": "Annual Maintenance Contract (AMC) of Rewinding of Ceiling Fan, Wall Fan, Exhaust Fan, Cooler Kit etc for the financial year 2026-27",
-      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-05-21T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXv87KXYD14ABG5M7qtLXIQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_910106_1",
-      "title": "Replacement of defective Hot Air Blower Motor of sewerage treatment plant STP at 39 Bn BSF Campus Chonp Jaipur under SHQ BSF Bikaner",
-      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "tenderRef": "2026_BSF_910596_1",
+      "title": "Repair and maintenance of feeder panel and earthing of LT lines of residential and non residential buildings under SHQ BSF Teliamura",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
       "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-25T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SaHvatcjuuVHtM6G5DIloEQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ASI_908751_1",
-      "title": "UPoHA for providing toilet and Visitors Public amenities at Shore (Aleva) Temple at Mamallapuram for the year 2026-27",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Chennai Circle-Chennai",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-05-14T12:45:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFXyuy%2BGzcVKjUtONMoz8Ow%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_908717_1",
-      "title": "Replacement of eight solar panels of fuel cell based hybrid power augmentation sys at COB Hedman of 4 AR",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-14T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SK8yytbqUVwV%2FiiL1kjeCiQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_910944_1",
-      "title": "PRE TENDER MEET FOR AMC of PCs, Laptops, Workstations at EIL Delhi and Gurugram Office",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-03T05:35:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SV8h9JIiaNeaA1vczT689HQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_908596_1",
-      "title": "Boring of Tube well at Alampur campus of 54 Bn BSF under Ftr HQ BSF Gujarat SH Installation of submersible pump column pipe cables and control panel",
-      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-13T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQS7V8%2FEMMT3G5E6cQ8g4TQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_908495_1",
-      "title": "Periodical services of Childrens school bldg No AP P 511 at Bn HQ Somsai.",
-      "organisationChain": "Assam Rifles - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-05-14T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDLQtIll9tBwc1dBnYkwHbw%3D%3D",
+      "publishedAt": "2026-05-27T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T05:00:00.000Z",
+      "tenderOpensAt": "2026-06-04T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S98W1N7rZMZDU2s%2FIBRfWNA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -185,14 +108,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_910064_1",
-      "title": "C/O BOUNDARY WALL, GUARD ROOM AND INTERNAL ROADS OF 89BN BSF(NOW 27 BN BSF)DBN (SHIKAR) UNDER SHQ BSF GURDASPUR",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "tenderRef": "2026_BSF_910106_1",
+      "title": "Replacement of defective Hot Air Blower Motor of sewerage treatment plant STP at 39 Bn BSF Campus Chonp Jaipur under SHQ BSF Bikaner",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
       "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-25T04:30:00.000Z",
+      "publishedAt": "2026-05-25T08:30:00.000Z",
       "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
       "tenderOpensAt": "2026-06-04T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWEH04fGARihNUBv%2BXfq7zA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SaHvatcjuuVHtM6G5DIloEQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_909689_1",
+      "title": "Annual Maintenance Contract (AMC) of Rewinding of Ceiling Fan, Wall Fan, Exhaust Fan, Cooler Kit etc for the financial year 2026-27",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-05-21T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-04T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXv87KXYD14ABG5M7qtLXIQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_910869_1",
+      "title": "Managed Team Supply for In-house PMIS Solution Development",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-05-30T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-03T05:50:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FHg5daDdZPUhOlB68%2F%2F1OA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -207,6 +152,50 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_EIL_910944_1",
+      "title": "PRE TENDER MEET FOR AMC of PCs, Laptops, Workstations at EIL Delhi and Gurugram Office",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-06-01T04:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-03T05:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SV8h9JIiaNeaA1vczT689HQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_908751_1",
+      "title": "UPoHA for providing toilet and Visitors Public amenities at Shore (Aleva) Temple at Mamallapuram for the year 2026-27",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Chennai Circle-Chennai",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-05-14T12:45:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-04T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFXyuy%2BGzcVKjUtONMoz8Ow%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_910064_1",
+      "title": "C/O BOUNDARY WALL, GUARD ROOM AND INTERNAL ROADS OF 89BN BSF(NOW 27 BN BSF)DBN (SHIKAR) UNDER SHQ BSF GURDASPUR",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-05-25T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-04T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWEH04fGARihNUBv%2BXfq7zA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_908495_1",
+      "title": "Periodical services of Childrens school bldg No AP P 511 at Bn HQ Somsai.",
+      "organisationChain": "Assam Rifles - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-05-14T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-04T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDLQtIll9tBwc1dBnYkwHbw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_IGCAR_903699_1",
       "title": "Retrofitting works for VNAS building in IGCAR, Kalpakkam.",
       "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
@@ -218,17 +207,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IGCAR_903769_1",
-      "title": "Replacing the corroded outlet and scour pipe in over head tank of various buildings at IGCAR, Kalpakkam.",
-      "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
-      "buyer": "Indira Gandhi Centre for Atomic Research",
-      "publishedAt": "2026-03-26T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-03T06:00:00.000Z",
-      "tenderOpensAt": "2026-06-04T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S81FWYkY8Z2aRxGWpURXZ2g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_IGCAR_904863_1",
       "title": "Miscellaneous Civil works in RML and RHS in FBTR complex at IGCAR, Kalpakkam.",
       "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
@@ -237,6 +215,17 @@
       "bidSubmissionCloses": "2026-06-03T06:00:00.000Z",
       "tenderOpensAt": "2026-06-04T09:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfKb5c3MGuwrvCYU53EZRaw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IGCAR_903769_1",
+      "title": "Replacing the corroded outlet and scour pipe in over head tank of various buildings at IGCAR, Kalpakkam.",
+      "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
+      "buyer": "Indira Gandhi Centre for Atomic Research",
+      "publishedAt": "2026-03-26T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T06:00:00.000Z",
+      "tenderOpensAt": "2026-06-04T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S81FWYkY8Z2aRxGWpURXZ2g%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -262,25 +251,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_905484_1",
-      "title": "JP/B862-000-YC-MR-1340/542 - SELF ACTUATED PRESSURE CONTROL VALVES FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT AT DAHEJ, GUJARAT",
+      "tenderRef": "2026_EIL_905374_1",
+      "title": "SS/C050-1P39A-YR-MR-1360/42 - PRESSURE RELIEF VALVES for Polypropylene Unit (PPU) Project at Numaligarh Refinery, Assam",
       "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
       "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-04-15T13:25:00.000Z",
+      "publishedAt": "2026-04-16T13:25:00.000Z",
       "bidSubmissionCloses": "2026-06-03T06:30:00.000Z",
       "tenderOpensAt": "2026-06-04T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScHXPXFreDVZQ9N%2FVS2mjgg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAsuV7nedZUozaRgMP%2BL6%2BA%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_909435_1",
-      "title": "SPN/ B957-000-WB-MR-3212/166 GATE VALVES WITH EXTENDED SPINDLE FOR Bina Petchem and Refinery Expansion Project (BPREP)-BPCL",
+      "tenderRef": "2026_EIL_910524_1",
+      "title": "SP/B957-000-00-MR-8903/159 - Smart 3D Software for BPREP Project",
       "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
       "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-05-20T12:30:00.000Z",
+      "publishedAt": "2026-05-27T11:30:00.000Z",
       "bidSubmissionCloses": "2026-06-03T06:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMJ3jbZgOhiItDVFh79T4qQ%3D%3D",
+      "tenderOpensAt": "2026-06-04T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SO%2Fnd3tkbNFqDLFv1ZcAIzA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_908520_1",
+      "title": "JP/B862-000-WB-MR-3232/102 - VALVES-GATE, GLOBE AND CHECK (CAST) FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT AT DAHEJ, GUJARAT",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-05-13T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-03T06:30:00.000Z",
+      "tenderOpensAt": "2026-06-04T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0S6GkTvwZTUUOGCNSUz2Tg%3D%3D",
       "matchedKeywords": []
     }
   ]
