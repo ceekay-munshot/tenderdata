@@ -1,13 +1,38 @@
 {
-  "fetchedAt": "2026-06-03T12:48:23.052Z",
-  "durationMs": 50241,
+  "fetchedAt": "2026-06-03T19:55:58.142Z",
+  "durationMs": 50627,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 364,
-  "relevantCount": 0,
-  "tenders": [],
+  "totalRowsParsed": 352,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_IITKG_908526_1",
+      "title": "Operation of Water Treatment Plant at IIT Kharagpur.",
+      "organisationChain": "Indian Institute of Technology Kharagpur",
+      "buyer": "Indian Institute of Technology Kharagpur",
+      "publishedAt": "2026-05-15T11:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-05T11:00:00.000Z",
+      "tenderOpensAt": "2026-06-16T11:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SybTaegKhutzBRKVFZMNVqQ%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
   "sampleRows": [
+    {
+      "tenderRef": "2026_NCERT_908022_1",
+      "title": "To provide catering services in NCERT New Delhi",
+      "organisationChain": "National Council of Educational Research and Training",
+      "buyer": "National Council of Educational Research and Training",
+      "publishedAt": "2026-05-11T04:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T03:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4NQe%2Fjv1e93QSweNx5icnw%3D%3D",
+      "matchedKeywords": []
+    },
     {
       "tenderRef": "2026_DPS_908530_1",
       "title": "Cardiac catheterization laboratory - A Turnkey project",
@@ -28,17 +53,6 @@
       "bidSubmissionCloses": "2026-06-04T03:30:00.000Z",
       "tenderOpensAt": "2026-06-05T03:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnkvcW6YylhRNUg9l1KjRNw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NCERT_908022_1",
-      "title": "To provide catering services in NCERT New Delhi",
-      "organisationChain": "National Council of Educational Research and Training",
-      "buyer": "National Council of Educational Research and Training",
-      "publishedAt": "2026-05-11T04:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T03:30:00.000Z",
-      "tenderOpensAt": "2026-06-05T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4NQe%2Fjv1e93QSweNx5icnw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -75,36 +89,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_AMD_909379_1",
-      "title": "Construction of Watch Tower at AMD complex, NER, Shillong by providing RCC footing, MS tubular structure etc.",
-      "organisationChain": "Atomic Minerals Directorate for Exploration and Research||North Eastern Region Shillong - AMD",
-      "buyer": "Atomic Minerals Directorate for Exploration and Research",
-      "publishedAt": "2026-05-20T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-05T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQsB6OuQSUs3Yc5gdRbXX0A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_910438_1",
-      "title": "C/O 08 BEDDED MAHILA BARRACK AT BOP 1125 OF 59 BN (NOW 68 BN) BSF UNDER SHQ BSF BHUJ",
-      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-27T08:30:00.000Z",
+      "tenderRef": "2026_ICFRE_906129_1",
+      "title": "ANNUAL CONTRACT FOR PRINTING OF INDIAN FORESTER JOURNAL",
+      "organisationChain": "Indian Council of Forestry Research and Education||Forest Research Institute-Dehradun - ICFRE||Administration / Procurement - FRI - ICFRE",
+      "buyer": "Indian Council of Forestry Research and Education",
+      "publishedAt": "2026-05-14T05:30:00.000Z",
       "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
       "tenderOpensAt": "2026-06-05T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOyIW1jF34p0Ky38Au64PIA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NIOT_908497_1",
-      "title": "Procurement of Spares from OEM including Anticipatory Spares for Bow Thrusters and Stern Thrusters of Sagar Manjusha",
-      "organisationChain": "National Institute of Ocean Technology||Stores and Purchase - NIOT",
-      "buyer": "National Institute of Ocean Technology",
-      "publishedAt": "2026-05-13T10:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-04T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STsY02nj3hwhJIhys11Q8lw%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SY7qeVCqTASIBbJiPW6oV3w%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -119,58 +111,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NRL_910819_1",
-      "title": "SUPPLY OF CS PIPES (MTO-05) - (4.230)",
+      "tenderRef": "2026_NRL_910832_1",
+      "title": "SUPPLY OF CS PIPES (MTO-05) - (4.231)",
       "organisationChain": "Numaligarh Refinery Limited",
       "buyer": "Numaligarh Refinery Limited",
       "publishedAt": "2026-05-29T12:50:00.000Z",
       "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
       "tenderOpensAt": "2026-06-04T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Smb26mzEz%2Fp0Uj26N1bnwjg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_910084_1",
-      "title": "Construction of Toillet Block at BOP Digaltari of 162 Bn BSF under SHQ BSF Coochbehar. SH EI and Ex Fans.",
-      "organisationChain": "DG,BSF,MHA||Guwahati FTR(Guwahati),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-25T07:50:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-05T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpE7%2BivIev1DEe87H6jFh6w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ICFRE_906129_1",
-      "title": "ANNUAL CONTRACT FOR PRINTING OF INDIAN FORESTER JOURNAL",
-      "organisationChain": "Indian Council of Forestry Research and Education||Forest Research Institute-Dehradun - ICFRE||Administration / Procurement - FRI - ICFRE",
-      "buyer": "Indian Council of Forestry Research and Education",
-      "publishedAt": "2026-05-14T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-05T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SY7qeVCqTASIBbJiPW6oV3w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ASI_909972_1",
-      "title": "gENERAL PREPRATIONS OF iNDEPENDENCE dAY CELEBRATION 2026 AT rED fORT",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Delhi Circle-Delhi",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-05-23T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-05T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgY4IJHp0NfVJNMerSDQhPQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_910306_1",
-      "title": "Providing and laying pipe line for treated water from STP to various areas at 84 BN BSF Ambasan under SHQ BSF Gandhinagar",
-      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-05-26T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-05T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDX4nUY0nPM1LXe%2BnBprrsw%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpLaGqfTfR72LfLH5o04irg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -185,6 +133,39 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_BSF_910306_1",
+      "title": "Providing and laying pipe line for treated water from STP to various areas at 84 BN BSF Ambasan under SHQ BSF Gandhinagar",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-05-26T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDX4nUY0nPM1LXe%2BnBprrsw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IUCAA_908381_1",
+      "title": "Supply, Installation, Testing and Commissioning (SITC) of High-Bandwidth Servo Controller.",
+      "organisationChain": "Inter-University Centre for Astronomy and Astrophysics||Purchase - IUCAA",
+      "buyer": "Inter-University Centre for Astronomy and Astrophysics",
+      "publishedAt": "2026-05-13T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnfWYdhnto9Pp30SR9Tpgow%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMD_909379_1",
+      "title": "Construction of Watch Tower at AMD complex, NER, Shillong by providing RCC footing, MS tubular structure etc.",
+      "organisationChain": "Atomic Minerals Directorate for Exploration and Research||North Eastern Region Shillong - AMD",
+      "buyer": "Atomic Minerals Directorate for Exploration and Research",
+      "publishedAt": "2026-05-20T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQsB6OuQSUs3Yc5gdRbXX0A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_SAI_907835_1",
       "title": "Tender for Construction of MPH",
       "organisationChain": "Sports Authority of India||Head Office - SAI",
@@ -196,14 +177,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NIOT_908607_1",
-      "title": "Procurement of Spares from OEM including Anticipatory Spares for Main Engines, Auxiliary DG Sets and Emergency DG Sets of Sagar Manjusha",
+      "tenderRef": "2026_ASI_909972_1",
+      "title": "gENERAL PREPRATIONS OF iNDEPENDENCE dAY CELEBRATION 2026 AT rED fORT",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Delhi Circle-Delhi",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-05-23T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgY4IJHp0NfVJNMerSDQhPQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_910084_1",
+      "title": "Construction of Toillet Block at BOP Digaltari of 162 Bn BSF under SHQ BSF Coochbehar. SH EI and Ex Fans.",
+      "organisationChain": "DG,BSF,MHA||Guwahati FTR(Guwahati),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-05-25T07:50:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpE7%2BivIev1DEe87H6jFh6w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NIOT_908497_1",
+      "title": "Procurement of Spares from OEM including Anticipatory Spares for Bow Thrusters and Stern Thrusters of Sagar Manjusha",
       "organisationChain": "National Institute of Ocean Technology||Stores and Purchase - NIOT",
       "buyer": "National Institute of Ocean Technology",
-      "publishedAt": "2026-05-14T03:30:00.000Z",
+      "publishedAt": "2026-05-13T10:00:00.000Z",
       "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
       "tenderOpensAt": "2026-06-04T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzBK1XLd8TOvyRk%2BZ7zniYA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STsY02nj3hwhJIhys11Q8lw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -218,25 +221,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ASI_908521_1",
-      "title": "Annual Maintenance to Palace and temple complex at Navratnagarh distt. Gumal -2026-27",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Ranchi Circle-Ranchi",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-05-14T03:30:00.000Z",
+      "tenderRef": "2026_BSF_910438_1",
+      "title": "C/O 08 BEDDED MAHILA BARRACK AT BOP 1125 OF 59 BN (NOW 68 BN) BSF UNDER SHQ BSF BHUJ",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-05-27T08:30:00.000Z",
       "bidSubmissionCloses": "2026-06-04T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-05T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FAPdebVRPa4KZ4CeQTCN%2BQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ITBP_908799_1",
-      "title": "Supply of Dry Ration items at 26th BN, ITBP, Baddowal Distt- Ludhiana Purjab",
-      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, NORTH WESTERN FTR,ITBP",
-      "buyer": "DG, Indo-Tibetan Border Police Force",
-      "publishedAt": "2026-05-15T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T06:00:00.000Z",
-      "tenderOpensAt": "2026-06-05T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdL1WBjDSRZBIWAss%2BUAlvA%3D%3D",
+      "tenderOpensAt": "2026-06-05T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOyIW1jF34p0Ky38Au64PIA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -251,14 +243,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ESIC_906189_1",
-      "title": "Demolition of existing Staff Quarters (364 Nos.) and Construction of New Staff Quarters (717 Nos.) at Noida on deposit basis",
-      "organisationChain": "Employees State Insurance Corporation||ESIC Hqrs. Office - New Delhi",
-      "buyer": "Employees State Insurance Corporation",
-      "publishedAt": "2026-04-23T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-04T06:30:00.000Z",
+      "tenderRef": "2026_ITBP_908799_1",
+      "title": "Supply of Dry Ration items at 26th BN, ITBP, Baddowal Distt- Ludhiana Purjab",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, NORTH WESTERN FTR,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-05-15T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T06:00:00.000Z",
       "tenderOpensAt": "2026-06-05T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Su7eibGc94jpf1MOce%2BnFkA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdL1WBjDSRZBIWAss%2BUAlvA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -273,14 +265,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_906323_1",
-      "title": "SP/B957-000-YA-MR-1623/140 ANALYSER SYSTEMS-PROCESS STREAM ANALYSERS FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP)",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-04-24T07:00:00.000Z",
+      "tenderRef": "2026_ASI_909733_1",
+      "title": "Upgradation Procurement of Heritage Assets SR to Megalithic bridge known as Thulu-um-wi at Maput, Meghalaya 2025-26 as specified in the BOQ",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-05-21T12:30:00.000Z",
       "bidSubmissionCloses": "2026-06-04T06:30:00.000Z",
       "tenderOpensAt": "2026-06-05T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpEKTA0l8kD9ibeavRnuuRA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SayLdhq53tUaLYuhcptCn4Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRB_910558_1",
+      "title": "Fabrication, Inspection, Testing and Delivery of SS Mechanical Grappler(02Nos.) for Remote Handling of Solid Radioactive Waste Drum at SWMF Tarapur",
+      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
+      "buyer": "Nuclear Recycle Board",
+      "publishedAt": "2026-05-27T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T06:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Std4CmS2gCxTsFoKJlMjiVA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AIIMB_907638_1",
+      "title": "Re-tender for kits and consumables for fully automated Chemistry Analyzer for the Biochemistry",
+      "organisationChain": "All India Institute of Medical Sciences Bathinda||Administration - AIIMS Bathinda",
+      "buyer": "All India Institute of Medical Sciences Bathinda",
+      "publishedAt": "2026-05-06T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-04T06:30:00.000Z",
+      "tenderOpensAt": "2026-06-05T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7kmwxcoqncnWOUvSv3OeQg%3D%3D",
       "matchedKeywords": []
     }
   ]
