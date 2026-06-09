@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-09T11:25:59.526Z",
-  "durationMs": 30593,
+  "fetchedAt": "2026-06-09T15:24:40.033Z",
+  "durationMs": 30726,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 27,
   "totalScanned": 1350,
-  "relevantCount": 1281,
+  "relevantCount": 1287,
   "tenders": [
     {
       "tenderId": "e5f33280-7cb3-445f-90e0-2a0ce47c4269",
@@ -441,7 +441,7 @@
       "value": 55412300000,
       "emd": 100000000,
       "bidDeadline": "2026-07-08T12:00:00.000Z",
-      "postedAt": "2026-05-27T11:47:00.000Z",
+      "postedAt": "2026-05-27T12:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Irrigation Work"
@@ -914,7 +914,7 @@
       "procurementSource": "GEM",
       "state": "Maharashtra",
       "value": 29228874679.45,
-      "bidDeadline": "2026-06-15T10:30:00.000Z",
+      "bidDeadline": "2026-06-18T10:30:00.000Z",
       "postedAt": "2026-05-29T11:57:38.000Z",
       "sectorNames": [
         "Finance And Insurance Sectors"
@@ -1032,6 +1032,23 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "5b4212a0-f603-499a-bd53-c4bc2a45ce77",
+      "refNo": "NBCC/CPG/RIICO/RAJ/Mandapam/Pkg-I/2026/569 ; 1",
+      "title": "Planning, Designing And Construction Of Rajasthan Mandapam (convention Plus Expo), Basement, Roads And Greens And Services -sub Package 1 On Epc Basis",
+      "buyer": "NBCC India Limited",
+      "state": "Rajasthan",
+      "value": 25532200000,
+      "emd": 255322000,
+      "bidDeadline": "2026-06-18T05:30:00.000Z",
+      "postedAt": "2026-05-08T18:23:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-5b4212a0-f603-499a-bd53-c4bc2a45ce77",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "28d36d4a-adce-437e-a477-ae44eb5f9188",
       "refNo": "NBCC/CPG/RIICO/RAJ/ Mandapam/Pkg-I/2026/569",
       "title": "Planning, Designing And Construction Of Rajasthan Mandapam (convention Plus Expo), Basement, Roads And Greens And Services -sub Package 1 On Epc Basis.",
@@ -1047,23 +1064,6 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-28d36d4a-adce-437e-a477-ae44eb5f9188",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "5b4212a0-f603-499a-bd53-c4bc2a45ce77",
-      "refNo": "NBCC/CPG/RIICO/RAJ/Mandapam/Pkg-I/2026/569 ; 1",
-      "title": "Planning, Designing And Construction Of Rajasthan Mandapam (convention Plus Expo), Basement, Roads And Greens And Services -sub Package 1 On Epc Basis",
-      "buyer": "NBCC India Limited",
-      "state": "Rajasthan",
-      "value": 25532200000,
-      "emd": 255322000,
-      "bidDeadline": "2026-06-18T05:30:00.000Z",
-      "postedAt": "2026-05-08T18:23:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-5b4212a0-f603-499a-bd53-c4bc2a45ce77",
       "matchedKeywords": []
     },
     {
@@ -1141,7 +1141,7 @@
       "value": 23865707622,
       "emd": 477314152,
       "bidDeadline": "2026-06-18T12:30:00.000Z",
-      "postedAt": "2025-05-08T12:30:00.000Z",
+      "postedAt": "2026-06-09T12:10:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Water Storage And Supply",
@@ -3698,7 +3698,7 @@
       "value": 8736200000,
       "emd": 87400000,
       "bidDeadline": "2026-07-14T05:30:00.000Z",
-      "postedAt": "2026-05-28T09:44:00.000Z",
+      "postedAt": "2026-05-28T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -4787,7 +4787,7 @@
       "state": "Maharashtra",
       "value": 6473509000,
       "emd": 300000,
-      "bidDeadline": "2026-06-09T05:30:00.000Z",
+      "bidDeadline": "2026-06-16T05:30:00.000Z",
       "postedAt": "2026-05-12T05:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -4825,7 +4825,7 @@
       "state": "Maharashtra",
       "value": 6434125142,
       "emd": 5000000,
-      "bidDeadline": "2026-06-10T11:30:00.000Z",
+      "bidDeadline": "2026-06-25T12:30:00.000Z",
       "postedAt": "2026-05-20T10:42:34.000Z",
       "sectorNames": [
         "Minerals and Mining",
@@ -6631,6 +6631,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "f1074b8b-3785-42ad-bef1-7da235be4bf1",
+      "refNo": "GEM/2026/B/7640562",
+      "title": "Category: Custom Bid For Services - Smart Meter On Opex Model",
+      "buyer": "PFC Consulting Limited",
+      "procurementSource": "GEM",
+      "state": "Delhi",
+      "value": 4430305000,
+      "emd": 78606100,
+      "bidDeadline": "2026-06-24T11:30:00.000Z",
+      "postedAt": "2026-06-09T11:03:33.000Z",
+      "sectorNames": [
+        "Software and IT Solutions",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/pfc-consulting-limited/detail-f1074b8b-3785-42ad-bef1-7da235be4bf1",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "04f56f48-65e6-45d9-9d77-0e320741911f",
       "refNo": "EPC-01-CAO-C-ER-2026",
       "title": "Chandanpur- Shaktigarh 4th Line: Execution Of Civil, P-way, Electrification, Signal And Telecom Works For Construction Of 4th Rail Line Between Chandanpur Station (incl.) And Pallahroad (incl.)",
@@ -6696,7 +6715,7 @@
       "state": "Delhi",
       "value": 4286622018,
       "emd": 5984000,
-      "bidDeadline": "2026-06-11T09:30:00.000Z",
+      "bidDeadline": "2026-06-18T09:30:00.000Z",
       "postedAt": "2026-03-02T11:30:00.000Z",
       "sectorNames": [
         "Electrical Generators And Transformers",
@@ -6759,6 +6778,26 @@
         "Electrical Works"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/south-central-railway/detail-1730ee28-d4e8-4387-867e-41d55c44fbb5",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "fc9e4ed3-66aa-4ee5-a3fc-b31b7cc60318",
+      "refNo": "TGDIV/59/2026 Telangana Division/ E file 318192",
+      "title": "Balance Works For Six Laning Of Existing 4 Lane Stretch From Kallakal At Km. 454.000 To Gundla Pochanpalli At Km 471.000 On Nagpur Hyderabad Section (design Length 17.0 Km) Of Nh 44 In The State Of Telangana Under Bharatmala Pariyojana",
+      "buyer": "National Highways Authority Of India",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Maharashtra",
+      "value": 4145700000,
+      "emd": 41500000,
+      "bidDeadline": "2026-07-27T05:30:00.000Z",
+      "postedAt": "2026-06-09T13:25:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Consultancy Services",
+        "Civil And Architectural Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-fc9e4ed3-66aa-4ee5-a3fc-b31b7cc60318",
       "matchedKeywords": []
     },
     {
@@ -7626,7 +7665,7 @@
       "state": "Tamil Nadu",
       "value": 3557100000,
       "emd": 1000000,
-      "bidDeadline": "2026-06-10T05:30:00.000Z",
+      "bidDeadline": "2026-06-18T05:30:00.000Z",
       "postedAt": "2026-05-12T03:35:00.000Z",
       "sectorNames": [
         "Other Consultancy Services",
@@ -8785,7 +8824,7 @@
       "state": "Gujarat",
       "value": 2912700000,
       "emd": 29100000,
-      "bidDeadline": "2026-07-23T05:30:00.000Z",
+      "bidDeadline": "2026-06-23T12:39:00.000Z",
       "postedAt": "2026-06-06T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -8831,6 +8870,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "64822497-5f21-4d64-bb5c-53c8b9820dc0",
+      "refNo": "TGDIV/59/2026 Telangana Division/ Efile 318191",
+      "title": "Balance Works For 6 Laning Of Existing 4 Lane Stretch Of Nh 44 From Gundlapochampally (design Chainage Km 471.300) To Bowenpally (design Chainage Km 481.331) Total Length 10.031 Km In The State Of Telangana On Epc Mode Under Bharatmala Pariyojana.",
+      "buyer": "National Highways Authority Of India",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Telangana",
+      "value": 2824000000,
+      "emd": 28200000,
+      "bidDeadline": "2026-07-27T05:30:00.000Z",
+      "postedAt": "2026-06-09T13:00:00.000Z",
+      "sectorNames": [
+        "Consultancy Services",
+        "Civil And Architectural Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-64822497-5f21-4d64-bb5c-53c8b9820dc0",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "0b7b4dfe-bb59-449f-849d-e925cdc25d69",
       "refNo": "NBCC/SBGRFM/PFC/2026/06 ; NBCC/SBGRFM/PFC/2026/06",
       "title": "Interior And Fitout Works For The Office Space Of Power Finance Corporation At Tower H World Trade Centre Nauroji Nagar New Delhi 110029 Including Operation And Maintenance For 06 Years",
@@ -8845,6 +8903,25 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-0b7b4dfe-bb59-449f-849d-e925cdc25d69",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "a76e41ea-4e9f-4433-b56a-69745a4b30c8",
+      "refNo": "TGDIV/64/2026 Telangana Division/E file 318193",
+      "title": "Balance Work Of 6 Lanning Of Existing 4 Lane From Km 22.300 (thondupally) To Km 34.144 (kothur) (design Length 11.844 Km) On Hyderabad Bangalore Section Of Nh 44 In The State Of Telangana Under Bharatmala Pariyojana Phase On Epc Mode",
+      "buyer": "National Highways Authority Of India",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Karnataka",
+      "value": 2789900000,
+      "emd": 27900000,
+      "bidDeadline": "2026-07-27T05:30:00.000Z",
+      "postedAt": "2026-06-09T13:25:00.000Z",
+      "sectorNames": [
+        "Consultancy Services",
+        "Civil And Architectural Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-a76e41ea-4e9f-4433-b56a-69745a4b30c8",
       "matchedKeywords": []
     },
     {
@@ -9252,7 +9329,7 @@
       "state": "Uttar Pradesh",
       "value": 2571523664,
       "emd": 51431000,
-      "bidDeadline": "2026-06-11T11:30:00.000Z",
+      "bidDeadline": "2026-06-29T11:30:00.000Z",
       "postedAt": "2026-05-06T08:46:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -16623,6 +16700,23 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "8be2e169-54ae-4922-bfad-160161932f9c",
+      "refNo": "KPTCL/2026-27/SS/WORK_INDENT3774",
+      "title": "Establishing 2x150mva 220/66kv & 1x12.5mva 66/11kv Sub-station At Vemagal In Kolar Taluk & District Alongwith Construction Of 17.817km Of 220kv Dc Line & 27.403km Of 66kv Sc/dc Lines & 66kv",
+      "buyer": "Karnataka Power Transmission Corporation Limited",
+      "state": "Karnataka",
+      "value": 1337040863.46,
+      "emd": 13370000,
+      "bidDeadline": "2026-07-08T18:30:00.000Z",
+      "postedAt": "2026-06-09T12:11:38.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/karnataka-power-transmission-corporation-limited/detail-8be2e169-54ae-4922-bfad-160161932f9c",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "a4e0d66d-d95c-4547-8295-958b03c1bf18",
       "refNo": "20260AB362C0 8DA8 44E6 B93A C5F561F0BF942119DHB",
       "title": "Development Of Distribution Infrastructure Of 11 Kv Feeders (urban And Industrial) Of Su Division Of Gurugram Circle 2, Dhbvn",
@@ -17322,7 +17416,7 @@
       "state": "Maharashtra",
       "value": 1270400000,
       "bidDeadline": "2026-06-11T05:30:00.000Z",
-      "postedAt": "2026-06-06T03:30:00.000Z",
+      "postedAt": "2026-06-06T15:30:00.000Z",
       "sectorNames": [
         "Transportation and Logistics"
       ],
@@ -17891,7 +17985,7 @@
       "state": "Tamil Nadu",
       "value": 1220000000,
       "emd": 1500000,
-      "bidDeadline": "2026-06-19T12:30:00.000Z",
+      "bidDeadline": "2026-06-29T12:30:00.000Z",
       "postedAt": "2025-12-10T04:45:00.000Z",
       "sectorNames": [
         "Aerospace and Defence"
@@ -19778,6 +19872,25 @@
         "Metals and Non-Metals"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/north-eastern-railway/detail-7528daac-29d0-4fe4-bb1b-bdc5c59df757",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ddeeac47-6c0d-431b-95c7-064e72836b99",
+      "refNo": "06265093",
+      "title": "Design, Manufacture, Supply, Installation, Commissioning And Training Of Desktop Simulator Console For Three Phase Electric Locomotives On Turnkey And Ddp (delivery Duty Paid) Basis Along With Concomitants, Accessories And Work As Per Rdso Specification No. Rdso/2024/el/rm/0203 (rev.2) July-2024",
+      "buyer": "South East Central Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Chhattisgarh",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-07-14T05:00:00.000Z",
+      "postedAt": "2026-06-08T10:59:00.000Z",
+      "sectorNames": [
+        "Electronics Equipment",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-east-central-railway/detail-ddeeac47-6c0d-431b-95c7-064e72836b99",
       "matchedKeywords": []
     },
     {
