@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-14T04:56:41.866Z",
-  "durationMs": 60728,
+  "fetchedAt": "2026-06-14T10:52:57.492Z",
+  "durationMs": 840,
   "window": {
     "daysBack": 30
   },
@@ -12,14 +12,9 @@
     "IRCON",
     "LT"
   ],
-  "successCount": 5,
-  "failureCount": 1,
-  "failures": [
-    {
-      "ticker": "BEL",
-      "error": "BSE responded 504"
-    }
-  ],
+  "successCount": 6,
+  "failureCount": 0,
+  "failures": [],
   "counts": {
     "announcements": 0,
     "negative": 0,
