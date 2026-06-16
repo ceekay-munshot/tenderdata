@@ -1,35 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T13:02:07.730Z",
-  "durationMs": 55594,
+  "fetchedAt": "2026-06-16T19:44:02.121Z",
+  "durationMs": 55190,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 354,
+  "totalRowsParsed": 363,
   "relevantCount": 0,
   "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_TMC_909991_1",
-      "title": "Stoma Items at HBCHRC New CHD Pb",
-      "organisationChain": "Tata Memorial Centre||Homi Bhabha Cancer Hospital and R C Mohali Punjab",
-      "buyer": "Tata Memorial Centre",
-      "publishedAt": "2026-05-23T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-16T13:25:00.000Z",
-      "tenderOpensAt": "2026-06-18T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SrOT6IT3WAEXcQShN%2BHyawg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AIMSJ_909153_1",
-      "title": "e-NIT for Round the Clock operation of the HVAC system Installed",
-      "organisationChain": "All India Institute of Medical Sciences Vijaypur Jammu||Procurement - AIIMS Jammu",
-      "buyer": "All India Institute of Medical Sciences Vijaypur Jammu",
-      "publishedAt": "2026-05-18T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-16T13:25:00.000Z",
-      "tenderOpensAt": "2026-06-17T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SS6XONR6VW8nX9Kjckum1HQ%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_IISRT_908326_2",
       "title": "Providing aluminium partition work in VFR Ground floor and basement floor in IISER campus, Vithura",
@@ -53,17 +31,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NITK_911380_1",
-      "title": "Converting ISH Canteen hall to 4 Nos of Commercial shop with aluminium partition and providing interlock to Rear side of ISH Canteen Building in NITK",
-      "organisationChain": "National Institute of Technology Karnataka",
-      "buyer": "National Institute of Technology Karnataka",
-      "publishedAt": "2026-06-03T11:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T04:30:00.000Z",
-      "tenderOpensAt": "2026-06-18T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SISPGaGsUnyWYm5NQ0hv11A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_NITK_911773_1",
       "title": "Providing Galvalume iron trapezoidal sheet roofing over a roof of Tower 1 at 10th Boys Hostel Building Bhramagiri in NITK",
       "organisationChain": "National Institute of Technology Karnataka",
@@ -75,17 +42,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NITK_911390_1",
-      "title": "Providing repair and painting to canteen at Main Administrative Building and Food court building in NITK",
-      "organisationChain": "National Institute of Technology Karnataka",
-      "buyer": "National Institute of Technology Karnataka",
-      "publishedAt": "2026-06-03T11:15:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T04:30:00.000Z",
-      "tenderOpensAt": "2026-06-18T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SO3duXdPrFQ1pnlZjDl0Iog%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_EIL_912945_1",
       "title": "INVITATION TO PRE-TENDER MEETING FOR SUPPLY OF PILOT COLD FLOW SETUP FOR FLUIDIZED BED FACILITY AT R AND D, EIL, GURUGRAM",
       "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
@@ -94,6 +50,28 @@
       "bidSubmissionCloses": "2026-06-17T04:30:00.000Z",
       "tenderOpensAt": "2026-06-17T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgDfX1%2FusdhNk5TECoI1kuA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITK_911380_1",
+      "title": "Converting ISH Canteen hall to 4 Nos of Commercial shop with aluminium partition and providing interlock to Rear side of ISH Canteen Building in NITK",
+      "organisationChain": "National Institute of Technology Karnataka",
+      "buyer": "National Institute of Technology Karnataka",
+      "publishedAt": "2026-06-03T11:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T04:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SISPGaGsUnyWYm5NQ0hv11A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITK_911390_1",
+      "title": "Providing repair and painting to canteen at Main Administrative Building and Food court building in NITK",
+      "organisationChain": "National Institute of Technology Karnataka",
+      "buyer": "National Institute of Technology Karnataka",
+      "publishedAt": "2026-06-03T11:15:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T04:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SO3duXdPrFQ1pnlZjDl0Iog%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -130,17 +108,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_912097_1",
-      "title": "Term Contract work for repair and maint of B and R works for COBs of 15 Assam Rifles",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-08T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T05:00:00.000Z",
-      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SumwiraCm4ow3aHFQ0finHw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ARMHA_912093_1",
       "title": "Repair/maint of Adm Block Bldg No. PMT/798 (A) at Bn HQ Ghaspani",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -149,6 +116,17 @@
       "bidSubmissionCloses": "2026-06-17T05:00:00.000Z",
       "tenderOpensAt": "2026-06-18T06:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sgfz%2FHX47e6QxcbePjv%2F2sQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_912097_1",
+      "title": "Term Contract work for repair and maint of B and R works for COBs of 15 Assam Rifles",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-08T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:00:00.000Z",
+      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SumwiraCm4ow3aHFQ0finHw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -163,6 +141,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_DOP_912499_1",
+      "title": "Provision of Rain water Harvesting at Ayodhya Dham PO under Ayodhya Division",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-06-10T12:15:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ST5TuD38%2BS6Sgzdgxo29geg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_912435_1",
+      "title": "Comprehensive Annual Maintenance contract of CCTV at VD Bhavan, Mumbai.",
+      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-06-10T10:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNdLUeY%2BYH1hHiK1CtUI6Zw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_FACT_910553_1",
       "title": "Construction of storm water drain in front of new heavy workshop building in FACT Cochin Division, Ambalamedu, Kochi.",
       "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
@@ -174,17 +174,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IITKG_908660_1",
-      "title": "Construction of 10 nos. deep tube well I90mmx200mmx150 M at different location at IIT Kharagpur",
-      "organisationChain": "Indian Institute of Technology Kharagpur",
-      "buyer": "Indian Institute of Technology Kharagpur",
-      "publishedAt": "2026-05-14T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScaKCVBXGVaCYEowwTr2g7A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_AMU_911023_2",
       "title": "Internal Electrification at the place Re-roofing for class room 14 and 15 at Abdullah School, AMU",
       "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
@@ -193,6 +182,50 @@
       "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
       "tenderOpensAt": "2026-06-18T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEqlRzyV0vms24VlbDYoddw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_912170_1",
+      "title": "Day to day maintenance of Postaling Building at Bareilly City for Financial Year 2026-27",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||EE (Civil), Postal Division Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-06-09T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S223NSNDSYXczMxOje2Wo8w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SAI_910756_1",
+      "title": "Supplying and Application of Non Toxic Bird Deterrent Gel on",
+      "organisationChain": "Sports Authority of India||Head Office - SAI",
+      "buyer": "Sports Authority of India",
+      "publishedAt": "2026-05-29T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SodKsROwHslzrkwW85lI%2Fqg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITW_909519_1",
+      "title": "COMSOL MULTIPHYSICS SOFTWARE",
+      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
+      "buyer": "National Institute of Technology Warangal",
+      "publishedAt": "2026-05-20T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SD5U3CsPde4tEIohfXRyMuw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITKG_908660_1",
+      "title": "Construction of 10 nos. deep tube well I90mmx200mmx150 M at different location at IIT Kharagpur",
+      "organisationChain": "Indian Institute of Technology Kharagpur",
+      "buyer": "Indian Institute of Technology Kharagpur",
+      "publishedAt": "2026-05-14T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScaKCVBXGVaCYEowwTr2g7A%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -229,50 +262,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_912364_1",
-      "title": "Additional Electrical Works i/c compound light and S/F of inverter at Type V Quarters,Ashok Nagar,Chennai",
-      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Elect.) Dn,RMS Bhawan,Bangalore,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-06-10T07:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRRsjiZn1DOMitVxkGyiu6w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_FACT_909772_1",
-      "title": "Installation of new fenestrations (Door, Window and Ventilator) at FACT Cochin Division, Ambalamedu, Kochi.",
-      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
-      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-05-22T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-18T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSnliDdRblTRHtovIV44Zrw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_912435_1",
-      "title": "Comprehensive Annual Maintenance contract of CCTV at VD Bhavan, Mumbai.",
-      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-06-10T10:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNdLUeY%2BYH1hHiK1CtUI6Zw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_911817_1",
-      "title": "Provn of RCC retaining wall RRM retaining wall PCC hardstanding and wastage disposal pit of HQ IGAR E",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-05T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SO9DqpDhUC4qyDmMqCiODBQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_PDIL_911112_1",
       "title": "PNMM/PC298/E/003 CONSULTANCY SERVICES FOR 220 KV SWITCHYARD",
       "organisationChain": "Projects and Development India Limited, Fert",
@@ -281,6 +270,17 @@
       "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
       "tenderOpensAt": "2026-06-17T09:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkAmMrALs%2FkLGWllCCflf6A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_911791_1",
+      "title": "Provn of RCC retaining wall at landslide prone areas of HQ IGAR E",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-05T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-17T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-18T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdY6oZo5xPPVRv%2FwP2ngV5w%3D%3D",
       "matchedKeywords": []
     }
   ]
