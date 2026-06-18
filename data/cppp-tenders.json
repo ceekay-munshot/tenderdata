@@ -1,12 +1,26 @@
 {
-  "fetchedAt": "2026-06-18T18:31:47.329Z",
-  "durationMs": 57918,
+  "fetchedAt": "2026-06-18T22:22:05.055Z",
+  "durationMs": 51884,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 342,
-  "relevantCount": 0,
-  "tenders": [],
+  "totalRowsParsed": 352,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_DRDO_910852_1",
+      "title": "Operation and Maintenance Services for Water Supply, Raw Water Pump Station and Water Treatment Plant at DRDO Complex, Ojhar, AMBE Hill, Nasik",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) West - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-05-29T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
+      "tenderOpensAt": "2026-06-22T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLmNOO2eD8ubMFSPplnMDIg%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
   "sampleRows": [
     {
       "tenderRef": "2026_NIFT_910632_1",
@@ -17,17 +31,6 @@
       "bidSubmissionCloses": "2026-06-19T03:30:00.000Z",
       "tenderOpensAt": "2026-06-20T03:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEItS%2FpiI5k3nE5aX14xpww%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_IISRT_904413_3",
-      "title": "Fabrication and fixing of gates in new cafeteria near Admin block at IISER campus Thiruvananthapuram",
-      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvananthapuram",
-      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
-      "publishedAt": "2026-06-03T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T03:30:00.000Z",
-      "tenderOpensAt": "2026-06-20T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUVfrG7DOaJoJqQwPoh66sQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -53,6 +56,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_IISRT_904413_3",
+      "title": "Fabrication and fixing of gates in new cafeteria near Admin block at IISER campus Thiruvananthapuram",
+      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvananthapuram",
+      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
+      "publishedAt": "2026-06-03T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T03:30:00.000Z",
+      "tenderOpensAt": "2026-06-20T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUVfrG7DOaJoJqQwPoh66sQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_SAI_909672_1",
       "title": "Supply of Physiotherapy and Massage Items",
       "organisationChain": "Sports Authority of India||SAI NRC Sonepat",
@@ -64,25 +78,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_911511_1",
-      "title": "Internal Electrification and plumbing work in Type III Qtr Bld No AR EPIL 054 at KLP Zokhawsang",
+      "tenderRef": "2026_ARMHA_911528_1",
+      "title": "Internal electrification and plumbing work in type III Qtr Bldg No AR EPIL 055 at KLP Zokhawsang",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
       "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-04T08:30:00.000Z",
+      "publishedAt": "2026-06-04T09:30:00.000Z",
       "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
-      "tenderOpensAt": "2026-06-20T05:35:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSHXJFp2105BM7tNF8kqa1Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_912944_1",
-      "title": "Repairing of 7.5 KVA DG Set installed at BOP Rakesh Joshitilla of 70 BN BSF Under SHQ BSF Teliamura",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-06-13T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
-      "tenderOpensAt": "2026-06-22T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLQfvaotkvowNRksvVMNokg%3D%3D",
+      "tenderOpensAt": "2026-06-20T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEIWSKu6H8R%2Fm6kZHZ%2BAUEQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -97,28 +100,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_911493_1",
-      "title": "Repair and Maint work in Type II Qtr Bldg No AR EPIL 054 at KLP Zokhawsang",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-04T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
-      "tenderOpensAt": "2026-06-20T05:35:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SxK3YZ%2FxLz4AOFXcbF%2BXSSw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_911536_1",
-      "title": "Repair and Maint work in Type II Qtr Bldg No AR EPIL 061 at KLP Zokhawsang",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-04T10:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
-      "tenderOpensAt": "2026-06-20T05:35:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGqiavARWpgW0HSVi%2BsYjTw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ARMHA_912087_1",
       "title": "Repair and maint of 20 Bedded Hospital at Bn HQ Ghaspani",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -130,14 +111,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NBT_910853_1",
-      "title": "Tender notice for providing need-based manpower services and Facility Management Services.",
-      "organisationChain": "National Book Trust-India-Dept of Higher Education||Head Quarters - NBT",
-      "buyer": "National Book Trust-India-Dept of Higher Education",
-      "publishedAt": "2026-05-29T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SL7xxT0nBHgFhM4fvIbAVhA%3D%3D",
+      "tenderRef": "2026_RCFL_910706_1",
+      "title": "CONTRACT FOR RESURFACING OF VARIOUS PLANTS BITUMINOUS ROAD AT RCF THAL",
+      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
+      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
+      "tenderOpensAt": "2026-06-19T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SD%2B3G9sb7oUliQyVk5UOBBA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_912944_1",
+      "title": "Repairing of 7.5 KVA DG Set installed at BOP Rakesh Joshitilla of 70 BN BSF Under SHQ BSF Teliamura",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-06-13T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
+      "tenderOpensAt": "2026-06-22T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLQfvaotkvowNRksvVMNokg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_911493_1",
+      "title": "Repair and Maint work in Type II Qtr Bldg No AR EPIL 054 at KLP Zokhawsang",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-04T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
+      "tenderOpensAt": "2026-06-20T05:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SxK3YZ%2FxLz4AOFXcbF%2BXSSw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_911511_1",
+      "title": "Internal Electrification and plumbing work in Type III Qtr Bld No AR EPIL 054 at KLP Zokhawsang",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-04T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T05:00:00.000Z",
+      "tenderOpensAt": "2026-06-20T05:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSHXJFp2105BM7tNF8kqa1Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -149,6 +163,28 @@
       "bidSubmissionCloses": "2026-06-19T05:30:00.000Z",
       "tenderOpensAt": "2026-06-20T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3aOjHr2Gtjo8LFQ2A%2B%2Fv%2Fg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_911690_2",
+      "title": "Day to Day or any Emergent Electrical Work of Various Quarters/Residences , AMU, Aligarh",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-06-13T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-20T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWheRm%2FsJspSIbtZQjt1VQQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NBT_910853_1",
+      "title": "Tender notice for providing need-based manpower services and Facility Management Services.",
+      "organisationChain": "National Book Trust-India-Dept of Higher Education||Head Quarters - NBT",
+      "buyer": "National Book Trust-India-Dept of Higher Education",
+      "publishedAt": "2026-05-29T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T05:30:00.000Z",
+      "tenderOpensAt": "2026-06-22T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SL7xxT0nBHgFhM4fvIbAVhA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -171,17 +207,6 @@
       "bidSubmissionCloses": "2026-06-19T05:30:00.000Z",
       "tenderOpensAt": "2026-06-20T06:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6DCNrl5rZV0ZuETQzQFGUw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_911690_2",
-      "title": "Day to Day or any Emergent Electrical Work of Various Quarters/Residences , AMU, Aligarh",
-      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-06-13T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T05:30:00.000Z",
-      "tenderOpensAt": "2026-06-20T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWheRm%2FsJspSIbtZQjt1VQQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -218,14 +243,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_912960_1",
-      "title": "CONSTRUCTION OF MI ROOM AT BN HQ KLP BAISHNAVNAGAR UNDER SHQ BSF BHP.",
-      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-06-13T08:50:00.000Z",
+      "tenderRef": "2026_IMSRP_901491_1",
+      "title": "Procurement of Continuous Renal Replacement Therapy Machine for Department of Pediatrics",
+      "organisationChain": "All India Institute of Medical Sciences-Raipur||Administrative Department - AIIMS Raipur",
+      "buyer": "All India Institute of Medical Sciences-Raipur",
+      "publishedAt": "2026-03-06T11:30:00.000Z",
       "bidSubmissionCloses": "2026-06-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T10:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STfPaRJd6H3fxgJwKhDfiDA%3D%3D",
+      "tenderOpensAt": "2026-06-20T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0Jo6fMv7O61PsgZYm6BZ7Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -237,28 +262,6 @@
       "bidSubmissionCloses": "2026-06-19T06:30:00.000Z",
       "tenderOpensAt": "2026-06-22T04:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0uW2yhoUCHIp7O4RW1xpMA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_911760_1",
-      "title": "SPN/B957-300-EE-MR-6380/177 DOUBLE PIPE EXCHANGER AND ANALYZERS FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP) OF M/S BHARAT PETROLEUM CORPORATION LIMITED (BPCL)",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-06-05T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FFSYY0wiQKzPacva7xet6Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_911721_1",
-      "title": "SPN/B957-300-VV-MR-6122/179 PRESSURE VESSEL CS UP TO 25MM FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP)",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-06-05T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-06-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQ6a1hvsddcPCnVMqroas1w%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -281,6 +284,17 @@
       "bidSubmissionCloses": "2026-06-19T06:30:00.000Z",
       "tenderOpensAt": "2026-06-19T06:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBvCNT8pkXk3GuYbTMjkoLg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_911760_1",
+      "title": "SPN/B957-300-EE-MR-6380/177 DOUBLE PIPE EXCHANGER AND ANALYZERS FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP) OF M/S BHARAT PETROLEUM CORPORATION LIMITED (BPCL)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-06-05T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-06-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-06-22T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FFSYY0wiQKzPacva7xet6Q%3D%3D",
       "matchedKeywords": []
     }
   ]
