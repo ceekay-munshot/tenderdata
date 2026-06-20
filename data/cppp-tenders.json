@@ -1,12 +1,26 @@
 {
-  "fetchedAt": "2026-06-19T21:15:21.872Z",
-  "durationMs": 48649,
+  "fetchedAt": "2026-06-20T04:21:56.129Z",
+  "durationMs": 51148,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 342,
-  "relevantCount": 0,
-  "tenders": [],
+  "totalRowsParsed": 344,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_DRDO_910852_1",
+      "title": "Operation and Maintenance Services for Water Supply, Raw Water Pump Station and Water Treatment Plant at DRDO Complex, Ojhar, AMBE Hill, Nasik",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) West - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-05-29T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
+      "tenderOpensAt": "2026-06-22T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLmNOO2eD8ubMFSPplnMDIg%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
   "sampleRows": [
     {
       "tenderRef": "2026_ARMHA_911654_1",
@@ -97,17 +111,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_SCL_908371_1",
-      "title": "Freon 14, Freon 23, Hydrogen Bromide and its cylinder",
-      "organisationChain": "Semi-Conductor Laboratory (SCL)",
-      "buyer": "Semi-Conductor Laboratory (SCL)",
-      "publishedAt": "2026-05-12T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFZIbz39Xu5P6ekcB%2BZE4QQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ARMHA_911969_1",
       "title": "Repair/maint of E and M assets of 36 AR",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -130,25 +133,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_RMLH_911962_1",
-      "title": "Accessories for the Medical Equipment installed ALS Ambulance VVIP Medical Unit",
-      "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
-      "buyer": "Dr. Ram Manohar Lohia Hospital",
-      "publishedAt": "2026-06-08T11:30:00.000Z",
+      "tenderRef": "2026_FACT_910731_1",
+      "title": "Replacement of Damaged Main Entrance Gate and Construction of Shelter for CISF Weapon Clearing Pit at FACT(CD), Ambalamedu.",
+      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
+      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
+      "publishedAt": "2026-05-29T08:30:00.000Z",
       "bidSubmissionCloses": "2026-06-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNfjUfUkf%2B0jsLzd1tClOKA%3D%3D",
+      "tenderOpensAt": "2026-06-22T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Syygjd8c9CL38C2PR8R%2FrSA%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FCI_912225_1",
-      "title": "Comprehensive Annual Maintenance Contract of 60 MT ELWB at FSD Senapati",
+      "tenderRef": "2026_FCI_912263_1",
+      "title": "Comprehensive Annual Maintenance Contract of 60 MT ELWB at FSD Sangaiprou",
       "organisationChain": "Food Corporation of India||Zonal Office, North-East,FCI,MFPD",
       "buyer": "Food Corporation of India",
       "publishedAt": "2026-06-10T10:30:00.000Z",
       "bidSubmissionCloses": "2026-06-20T08:30:00.000Z",
       "tenderOpensAt": "2026-06-22T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgW8H3wk0oJDynIv3piLkTg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQaAI06jwpvj2XPRLkdyy1Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -174,17 +177,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_RMLH_911967_1",
-      "title": "Consumables for EMG NCV EP Machine Make Natus",
-      "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
-      "buyer": "Dr. Ram Manohar Lohia Hospital",
-      "publishedAt": "2026-06-08T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKKgqv7fkJfvWTbuHReoK8A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_RMLH_912386_1",
       "title": "Accessories for Multipara Monitor Model Ultima Prime Make BPL",
       "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
@@ -196,36 +188,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FCI_912263_1",
-      "title": "Comprehensive Annual Maintenance Contract of 60 MT ELWB at FSD Sangaiprou",
-      "organisationChain": "Food Corporation of India||Zonal Office, North-East,FCI,MFPD",
-      "buyer": "Food Corporation of India",
-      "publishedAt": "2026-06-10T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQaAI06jwpvj2XPRLkdyy1Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_RMLH_912015_1",
-      "title": "Laparoscopic needle holder",
+      "tenderRef": "2026_RMLH_911967_1",
+      "title": "Consumables for EMG NCV EP Machine Make Natus",
       "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
       "buyer": "Dr. Ram Manohar Lohia Hospital",
-      "publishedAt": "2026-06-08T10:30:00.000Z",
+      "publishedAt": "2026-06-08T11:30:00.000Z",
       "bidSubmissionCloses": "2026-06-20T08:30:00.000Z",
       "tenderOpensAt": "2026-06-22T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Stoh4HwbnQkA6vbkbQqk6GA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_FACT_910731_1",
-      "title": "Replacement of Damaged Main Entrance Gate and Construction of Shelter for CISF Weapon Clearing Pit at FACT(CD), Ambalamedu.",
-      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
-      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-05-29T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Syygjd8c9CL38C2PR8R%2FrSA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKKgqv7fkJfvWTbuHReoK8A%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -240,25 +210,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DDA_912198_1",
-      "title": "Day to day Electrical Maintenance at Pocket 1A, sector A1 to A4,Narela",
-      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-4-Rohini-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-06-09T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
-      "tenderOpensAt": "2026-06-20T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkQxu17IOU3VdPqQa%2BNTExQ%3D%3D",
+      "tenderRef": "2026_RMLH_912015_1",
+      "title": "Laparoscopic needle holder",
+      "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
+      "buyer": "Dr. Ram Manohar Lohia Hospital",
+      "publishedAt": "2026-06-08T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-20T08:30:00.000Z",
+      "tenderOpensAt": "2026-06-22T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Stoh4HwbnQkA6vbkbQqk6GA%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FCI_912512_1",
-      "title": "Pre and Post monsoon contract of civil work including repairs to rolling shutter,washroom upgradation and other misc. works at FSD Bilaspur, Raigarh, Kargi Road, Bishrampur, Belha, Naila, Sakti and Kharsia under DO Bilaspur for the year 2026-27",
-      "organisationChain": "Food Corporation of India||Regional Office,Chhattisgarh,FCI,MFPD",
-      "buyer": "Food Corporation of India",
-      "publishedAt": "2026-06-10T13:15:00.000Z",
+      "tenderRef": "2026_DDA_912747_1",
+      "title": "Day-to-day Electrical Maintenance at pocket 4, Sector G2/G6, Narela",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-4-Rohini-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-06-12T03:30:00.000Z",
       "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
-      "tenderOpensAt": "2026-06-22T11:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sxz%2BynQ5Q9sHWQkF1Hr8c3A%3D%3D",
+      "tenderOpensAt": "2026-06-20T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SULMxQoLX8kCzsKMVjpMZqg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -273,14 +243,58 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DDA_911846_1",
-      "title": "M/o 1675 MS DUs In-Situ Rehabilitation of slum dwellers at Jailorwala Bagh, Ashok Vihar.",
-      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-9-Rohini-DDA",
+      "tenderRef": "2026_DDA_912198_1",
+      "title": "Day to day Electrical Maintenance at Pocket 1A, sector A1 to A4,Narela",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-4-Rohini-DDA",
       "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-06-06T03:30:00.000Z",
+      "publishedAt": "2026-06-09T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
+      "tenderOpensAt": "2026-06-20T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkQxu17IOU3VdPqQa%2BNTExQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_912203_1",
+      "title": "Day to day Electrical Maintenance at Pocket 1C, Sector A1 to A4, Narela.",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-4-Rohini-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-06-09T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
+      "tenderOpensAt": "2026-06-20T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SxPpm%2B6%2FYt75Rj0hOB5PWLw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ITBP_910868_1",
+      "title": "ITBP/SHQ(SML)/ENGR/2nd Bn/222/2026-27-3210-39 Dtd 29-05-2026",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, NORTHERN FTR,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-05-30T03:30:00.000Z",
       "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
       "tenderOpensAt": "2026-06-22T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2Bm3aRzH%2FdHNAuIpXwCVhaw%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbBDGdIFLZzS6fneyH%2BpwIQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_912737_1",
+      "title": "Maintenance of Various Sports Complexes",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El) Division-3(Sports)-Khelgaon-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-06-12T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
+      "tenderOpensAt": "2026-06-22T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKGzyrQOD6dePKm72351xkA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_912746_1",
+      "title": "Day-to-day Electrical Maintenance at pocket 3, Sector G2/G6, Narela",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-4-Rohini-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-06-12T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-06-20T09:30:00.000Z",
+      "tenderOpensAt": "2026-06-20T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sv3nyqav1%2B8UomtSTLJ4LJw%3D%3D",
       "matchedKeywords": []
     }
   ]
