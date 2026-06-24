@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-24T14:48:44.556Z",
-  "durationMs": 60849,
+  "fetchedAt": "2026-06-24T18:02:41.223Z",
+  "durationMs": 40964,
   "window": {
     "daysBack": 30
   },
@@ -12,14 +12,9 @@
     "IRCON",
     "LT"
   ],
-  "successCount": 5,
-  "failureCount": 1,
-  "failures": [
-    {
-      "ticker": "RVNL",
-      "error": "BSE responded 504"
-    }
-  ],
+  "successCount": 6,
+  "failureCount": 0,
+  "failures": [],
   "counts": {
     "announcements": 0,
     "negative": 0,
