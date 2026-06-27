@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-27T04:08:15.583Z",
-  "durationMs": 29694,
+  "fetchedAt": "2026-06-27T10:18:41.629Z",
+  "durationMs": 29357,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 27,
   "totalScanned": 1350,
-  "relevantCount": 1273,
+  "relevantCount": 1277,
   "tenders": [
     {
       "tenderId": "f294ad61-3b90-42c9-a086-c902dc5c9ffa",
@@ -380,7 +380,7 @@
       "value": 55412300000,
       "emd": 100000000,
       "bidDeadline": "2026-07-08T12:00:00.000Z",
-      "postedAt": "2026-05-27T12:00:00.000Z",
+      "postedAt": "2026-05-27T09:39:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Irrigation Work"
@@ -1177,7 +1177,7 @@
       "value": 22539700000,
       "emd": 100000000,
       "bidDeadline": "2026-07-11T12:00:00.000Z",
-      "postedAt": "2026-05-29T13:25:00.000Z",
+      "postedAt": "2026-05-29T09:39:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Excavation",
@@ -1428,20 +1428,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "0fcb6da4-7849-425d-bc63-ed93e14a783a",
-      "refNo": "38719717-c169-3599-a0d5-22585de5500a",
-      "title": "Technology Products And Associated Services 3",
-      "buyer": "Crown Commercial Service",
-      "value": 20000000000,
-      "bidDeadline": "2026-09-17T18:30:00.000Z",
-      "postedAt": "2025-09-17T18:30:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-0fcb6da4-7849-425d-bc63-ed93e14a783a",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "6f4dacce-40ed-4806-ae11-62d98210a32f",
       "refNo": "66e3fc62-1983-31e0-bef6-d5876807d9eb",
       "title": "Technology Products And Associated Services 3",
@@ -1456,8 +1442,8 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "0bc6bccb-7dec-410a-a7e6-dbee232573e4",
-      "refNo": "0ecbe354-4b09-35c7-b68b-cb26f17ccd79",
+      "tenderId": "0fcb6da4-7849-425d-bc63-ed93e14a783a",
+      "refNo": "38719717-c169-3599-a0d5-22585de5500a",
       "title": "Technology Products And Associated Services 3",
       "buyer": "Crown Commercial Service",
       "value": 20000000000,
@@ -1466,7 +1452,7 @@
       "sectorNames": [
         "Software and IT Solutions"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-0bc6bccb-7dec-410a-a7e6-dbee232573e4",
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-0fcb6da4-7849-425d-bc63-ed93e14a783a",
       "matchedKeywords": []
     },
     {
@@ -1481,6 +1467,20 @@
         "Software and IT Solutions"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-7f36ea11-f4a5-46ad-886c-aea955656f07",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0bc6bccb-7dec-410a-a7e6-dbee232573e4",
+      "refNo": "0ecbe354-4b09-35c7-b68b-cb26f17ccd79",
+      "title": "Technology Products And Associated Services 3",
+      "buyer": "Crown Commercial Service",
+      "value": 20000000000,
+      "bidDeadline": "2026-09-17T18:30:00.000Z",
+      "postedAt": "2025-09-17T18:30:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-0bc6bccb-7dec-410a-a7e6-dbee232573e4",
       "matchedKeywords": []
     },
     {
@@ -2638,23 +2638,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "7a93da43-bd42-4acf-a39b-1a28d4e8c184",
-      "refNo": "23c40cc6-c54f-38d4-92ae-2070f3d2b3e4",
-      "title": "Construction And Development Dps",
-      "buyer": "SEC Procurement",
-      "value": 10000000000,
-      "bidDeadline": "2028-09-18T18:30:00.000Z",
-      "postedAt": "2024-11-18T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction",
-        "Consultancy Services",
-        "Civil And Architectural Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/sec-procurement/detail-7a93da43-bd42-4acf-a39b-1a28d4e8c184",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "29f9946c-7772-46ea-a43f-a048af6ad4c6",
       "refNo": "cc8d5b46-98c1-373d-bf29-3a8e27970fa2",
       "title": "Construction And Development Dps",
@@ -2669,6 +2652,23 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/sec-procurement/detail-29f9946c-7772-46ea-a43f-a048af6ad4c6",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "7a93da43-bd42-4acf-a39b-1a28d4e8c184",
+      "refNo": "23c40cc6-c54f-38d4-92ae-2070f3d2b3e4",
+      "title": "Construction And Development Dps",
+      "buyer": "SEC Procurement",
+      "value": 10000000000,
+      "bidDeadline": "2028-09-18T18:30:00.000Z",
+      "postedAt": "2024-11-18T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction",
+        "Consultancy Services",
+        "Civil And Architectural Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/sec-procurement/detail-7a93da43-bd42-4acf-a39b-1a28d4e8c184",
       "matchedKeywords": []
     },
     {
@@ -4200,7 +4200,7 @@
       "state": "Maharashtra",
       "value": 7003500000,
       "emd": 150000000,
-      "bidDeadline": "2026-07-24T11:30:00.000Z",
+      "bidDeadline": "2026-07-24T09:31:00.000Z",
       "postedAt": "2026-05-12T12:30:00.000Z",
       "sectorNames": [
         "Real Estate Service"
@@ -4919,6 +4919,23 @@
       ]
     },
     {
+      "tenderId": "f787a40c-3365-4c8c-b743-61217edbf8f6",
+      "refNo": "BDA/2026-27/BD/WORK_INDENT256",
+      "title": "Construction Of 3 Bhk And 2 Bhk Housing Project At Sy. No. 95 Of Kanminike Village, Bangalore South Taluk On Lump Sum Turnkey Basis Based On Tenderers Own Design Under Two Cover System",
+      "buyer": "Bangalore Development Authority",
+      "state": "Karnataka",
+      "value": 5760945700,
+      "emd": 86371000,
+      "bidDeadline": "2026-07-21T10:30:00.000Z",
+      "postedAt": "2026-06-25T14:02:25.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bangalore-development-authority/detail-f787a40c-3365-4c8c-b743-61217edbf8f6",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "4e3cbb1d-6e06-4143-a39f-c08d08ceb91b",
       "refNo": "20030833801",
       "title": "Budowa Instalacji Fotowoltaicznej Wraz Z Systemem Magazynowania Energii Na Terenie Domu Pomocy Społecznej W Lubuczewie",
@@ -5602,7 +5619,7 @@
       "value": 4969000000,
       "emd": 50000000,
       "bidDeadline": "2026-07-24T12:30:00.000Z",
-      "postedAt": "2026-05-29T13:25:00.000Z",
+      "postedAt": "2026-05-29T09:39:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas",
         "Electrical Generators And Transformers",
@@ -6121,7 +6138,7 @@
       "state": "Delhi",
       "value": 4286622018,
       "emd": 5984000,
-      "bidDeadline": "2026-06-29T09:30:00.000Z",
+      "bidDeadline": "2026-07-07T09:30:00.000Z",
       "postedAt": "2026-03-02T11:30:00.000Z",
       "sectorNames": [
         "Electrical Generators And Transformers",
@@ -6167,6 +6184,23 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "3332af25-e890-4bb0-bed1-c26e8a4dff40",
+      "refNo": "MCF/2026/D2D/EAST",
+      "title": "Selection Of Agency For Door-to-door Collection, Segregation Of Municipal Solid Waste From Each Establishment And Transportation To The Processing Site For East Zone Of Municipal Corporation Faridabad (mcf)",
+      "buyer": "Directorate Of Urban Local Bodies",
+      "procurementSource": "EPROCURE",
+      "state": "Haryana",
+      "value": 4153700000,
+      "emd": 83074000,
+      "bidDeadline": "2026-07-13T09:30:00.000Z",
+      "postedAt": "2026-06-27T03:30:00.000Z",
+      "sectorNames": [
+        "Solid Waste Management"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-urban-local-bodies/detail-3332af25-e890-4bb0-bed1-c26e8a4dff40",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "fc9e4ed3-66aa-4ee5-a3fc-b31b7cc60318",
       "refNo": "TGDIV/59/2026 Telangana Division/ E file 318192",
       "title": "Balance Works For Six Laning Of Existing 4 Lane Stretch From Kallakal At Km. 454.000 To Gundla Pochanpalli At Km 471.000 On Nagpur Hyderabad Section (design Length 17.0 Km) Of Nh 44 In The State Of Telangana Under Bharatmala Pariyojana",
@@ -6184,6 +6218,23 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-fc9e4ed3-66aa-4ee5-a3fc-b31b7cc60318",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "c9a42c70-a718-4a1c-bafa-7dc563019622",
+      "refNo": "GEM/2026/B/7600923",
+      "title": "CATEGORY: Handling ,Transport and Other Mining Services - Percentage quote based - Coal Extraction",
+      "buyer": "Mahanadi Coalfields Limited",
+      "procurementSource": "GEM",
+      "state": "Odisha",
+      "value": 4137730586.37,
+      "emd": 5000000,
+      "bidDeadline": "2026-06-30T11:30:00.000Z",
+      "postedAt": "2026-05-29T14:51:39.000Z",
+      "sectorNames": [
+        "Minerals and Mining"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/mahanadi-coalfields-limited/detail-c9a42c70-a718-4a1c-bafa-7dc563019622",
       "matchedKeywords": []
     },
     {
@@ -7559,7 +7610,7 @@
       "state": "Delhi",
       "value": 3040000000,
       "emd": 60800000,
-      "bidDeadline": "2026-06-27T10:30:00.000Z",
+      "bidDeadline": "2026-07-03T11:30:00.000Z",
       "postedAt": "2026-01-24T10:21:57.000Z",
       "sectorNames": [
         "Software and IT Solutions"
@@ -14639,7 +14690,7 @@
       "value": 1500000000,
       "emd": 1000000,
       "bidDeadline": "2026-07-01T10:30:00.000Z",
-      "postedAt": "2026-06-11T13:25:00.000Z",
+      "postedAt": "2026-06-11T09:22:00.000Z",
       "sectorNames": [
         "Agriculture or Forestry Works"
       ],
@@ -15363,7 +15414,7 @@
       "value": 1445159607,
       "emd": 14500000,
       "bidDeadline": "2026-06-30T05:30:00.000Z",
-      "postedAt": "2026-06-26T15:22:00.000Z",
+      "postedAt": "2026-05-22T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -15749,6 +15800,24 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-62005b26-c498-4c9f-b9e1-fbad2948d571",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "66c17dc0-1d41-47eb-84a7-ea9b26c9dd89",
+      "refNo": "Tender 10/2026-27",
+      "title": "Construction Of Type Ii-256 Qtrs, Type Iii-28 Qtrs, Type Iv-2 Qtrs, Multipurpose Hall, Police Station Building At Kumar Nagar, Dhule For S.p. Dhule. Including All Infrastructural Amenities",
+      "buyer": "Maharashtra State Police Housing And Welfare Corporation Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Maharashtra",
+      "value": 1402905151,
+      "emd": 14029052,
+      "bidDeadline": "2026-07-20T11:30:00.000Z",
+      "postedAt": "2026-06-26T03:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/maharashtra-state-police-housing-and-welfare-corporation-limited/detail-66c17dc0-1d41-47eb-84a7-ea9b26c9dd89",
       "matchedKeywords": []
     },
     {
@@ -20871,23 +20940,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ef0a6d17-b61f-4a34-bde5-bea6b7078358",
-      "refNo": "a089b85c-294c-3ffb-bd12-12a222718da1",
-      "title": "Preliminary Market Testing For Ppp Models For Certain Types Of Primary And Community Health Infrastructure Projects (the Programme)",
-      "buyer": "DHSC, London",
-      "value": 1000000000,
-      "bidDeadline": "2026-07-01T18:30:00.000Z",
-      "postedAt": "2025-07-01T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction",
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/dhsc-london/detail-ef0a6d17-b61f-4a34-bde5-bea6b7078358",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "63034838-cc4f-4dc9-a48d-2eed6d0abbb2",
       "refNo": "05183b34-84a6-37a0-9f2b-465ed34253d2",
       "title": "Preliminary Market Testing For Ppp Models For Certain Types Of Primary And Community Health Infrastructure Projects (the Programme)",
@@ -20902,6 +20954,23 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/dhsc-london/detail-63034838-cc4f-4dc9-a48d-2eed6d0abbb2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ef0a6d17-b61f-4a34-bde5-bea6b7078358",
+      "refNo": "a089b85c-294c-3ffb-bd12-12a222718da1",
+      "title": "Preliminary Market Testing For Ppp Models For Certain Types Of Primary And Community Health Infrastructure Projects (the Programme)",
+      "buyer": "DHSC, London",
+      "value": 1000000000,
+      "bidDeadline": "2026-07-01T18:30:00.000Z",
+      "postedAt": "2025-07-01T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction",
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/dhsc-london/detail-ef0a6d17-b61f-4a34-bde5-bea6b7078358",
       "matchedKeywords": []
     },
     {
@@ -21628,7 +21697,7 @@
       "value": 55412300000,
       "emd": 100000000,
       "bidDeadline": "2026-07-08T12:00:00.000Z",
-      "postedAt": "2026-05-27T12:00:00.000Z",
+      "postedAt": "2026-05-27T09:39:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Irrigation Work"
