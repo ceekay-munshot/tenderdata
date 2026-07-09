@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-07-09T07:50:36.429Z",
-  "durationMs": 28727,
+  "fetchedAt": "2026-07-09T11:14:56.449Z",
+  "durationMs": 33733,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 24,
   "totalScanned": 1200,
-  "relevantCount": 1120,
+  "relevantCount": 1126,
   "tenders": [
     {
       "tenderId": "f294ad61-3b90-42c9-a086-c902dc5c9ffa",
@@ -35,7 +35,7 @@
       "state": "Tamil Nadu",
       "value": 98594500000,
       "emd": 1163415100,
-      "bidDeadline": "2026-07-21T21:30:00.000Z",
+      "bidDeadline": "2026-07-22T09:30:00.000Z",
       "postedAt": "2025-12-27T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -599,7 +599,7 @@
       "value": 33884000000,
       "emd": 338800000,
       "bidDeadline": "2026-07-30T05:30:00.000Z",
-      "postedAt": "2026-06-15T20:30:00.000Z",
+      "postedAt": "2026-06-16T08:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -1695,7 +1695,7 @@
       "state": "Madhya Pradesh",
       "value": 14621900000,
       "emd": 146200000,
-      "bidDeadline": "2026-07-13T05:30:00.000Z",
+      "bidDeadline": "2026-07-21T05:30:00.000Z",
       "postedAt": "2026-03-19T11:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -1714,8 +1714,8 @@
       "state": "Bihar",
       "value": 14600000000,
       "emd": 146000000,
-      "bidDeadline": "2026-07-23T05:30:00.000Z",
-      "postedAt": "2025-07-03T13:00:00.000Z",
+      "bidDeadline": "2026-08-24T05:30:00.000Z",
+      "postedAt": "2026-07-03T09:53:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction",
@@ -1771,7 +1771,7 @@
       "state": "Bihar",
       "value": 14000000000,
       "emd": 140000000,
-      "bidDeadline": "2026-07-23T05:30:00.000Z",
+      "bidDeadline": "2026-08-24T05:30:00.000Z",
       "postedAt": "2025-07-03T13:25:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -2038,7 +2038,7 @@
       "state": "Madhya Pradesh",
       "value": 12595300000,
       "emd": 126000000,
-      "bidDeadline": "2026-07-13T05:30:00.000Z",
+      "bidDeadline": "2026-07-21T05:30:00.000Z",
       "postedAt": "2026-03-19T11:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -2862,7 +2862,7 @@
       "state": "Bihar",
       "value": 9100000000,
       "emd": 91000000,
-      "bidDeadline": "2026-07-23T05:30:00.000Z",
+      "bidDeadline": "2026-08-24T05:30:00.000Z",
       "postedAt": "2025-07-03T13:25:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -4398,23 +4398,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "2ab02f32-931f-4765-98e4-aeec23625814",
-      "refNo": "TN-DSM-115",
-      "title": "Desit&ampc Of 1,00,000 Nos. Of Consumers Through Net Metering And O&ampm For 5 Years With Additional 5 Years For Grid Connected Rooftop Solar Plants Through Utility Led Aggregation (capex) Mode In Jodhpur Discom Under Pm- Surya Ghar: Muft Bijli Yojna",
-      "buyer": "Jodhpur Vidyut Vitran Nigam Limited",
-      "state": "Rajasthan",
-      "value": 6275000000,
-      "bidDeadline": "2026-07-28T18:30:00.000Z",
-      "postedAt": "2026-07-08T18:30:00.000Z",
-      "sectorNames": [
-        "Energy, Oil and Gas",
-        "Solar Installation and Products",
-        "Electrical and Electronics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/jodhpur-vidyut-vitran-nigam-limited/detail-2ab02f32-931f-4765-98e4-aeec23625814",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "8f8551ba-e3ee-46af-921b-d416a7dff32c",
       "refNo": "TN-DSM-115",
       "title": "Desit And C Of 100000 Nos Of Consumers Through Net Metering And Oandm For 5 Years With Additional 5 Years By Competitive Bidding For Grid Connected Rooftop Solar Plants Through Capex Mode In Jodhpur Discom",
@@ -4446,6 +4429,23 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/jaipur-vidyut-vitran-nigam-limited/detail-3ff869db-5744-4bbc-8ab0-952c5ede7ab0",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "2ab02f32-931f-4765-98e4-aeec23625814",
+      "refNo": "TN-DSM-115",
+      "title": "Desit&ampc Of 1,00,000 Nos. Of Consumers Through Net Metering And O&ampm For 5 Years With Additional 5 Years For Grid Connected Rooftop Solar Plants Through Utility Led Aggregation (capex) Mode In Jodhpur Discom Under Pm- Surya Ghar: Muft Bijli Yojna",
+      "buyer": "Jodhpur Vidyut Vitran Nigam Limited",
+      "state": "Rajasthan",
+      "value": 6275000000,
+      "bidDeadline": "2026-07-28T18:30:00.000Z",
+      "postedAt": "2026-07-08T18:30:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Solar Installation and Products",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/jodhpur-vidyut-vitran-nigam-limited/detail-2ab02f32-931f-4765-98e4-aeec23625814",
       "matchedKeywords": []
     },
     {
@@ -5108,7 +5108,7 @@
       "value": 5009300000,
       "emd": 50100000,
       "bidDeadline": "2026-08-06T06:30:00.000Z",
-      "postedAt": "2026-07-09T13:00:00.000Z",
+      "postedAt": "2026-06-11T13:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Electrical Works",
@@ -5555,7 +5555,7 @@
       "value": 4969000000,
       "emd": 50000000,
       "bidDeadline": "2026-07-24T12:30:00.000Z",
-      "postedAt": "2026-05-29T05:51:00.000Z",
+      "postedAt": "2026-05-29T13:25:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas",
         "Electrical Generators And Transformers",
@@ -6471,7 +6471,7 @@
       "state": "Jammu & Kashmir",
       "value": 3834700000,
       "emd": 9250000,
-      "bidDeadline": "2026-07-09T10:30:00.000Z",
+      "bidDeadline": "2026-07-16T10:30:00.000Z",
       "postedAt": "2026-06-04T11:30:00.000Z",
       "sectorNames": [
         "Solid Waste Management",
@@ -7251,7 +7251,7 @@
       "state": "Haryana",
       "value": 3202734770,
       "emd": 64054695,
-      "bidDeadline": "2026-07-10T05:22:00.000Z",
+      "bidDeadline": "2026-07-10T11:30:00.000Z",
       "postedAt": "2026-06-26T03:30:00.000Z",
       "sectorNames": [
         "Solid Waste Management",
@@ -8324,7 +8324,7 @@
       "state": "Jammu & Kashmir",
       "value": 2676000000,
       "emd": 5000000,
-      "bidDeadline": "2026-07-09T10:30:00.000Z",
+      "bidDeadline": "2026-07-16T10:30:00.000Z",
       "postedAt": "2026-06-10T09:30:00.000Z",
       "sectorNames": [
         "Solid Waste Management",
@@ -9107,6 +9107,23 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "b5f0a081-95b3-4e68-b523-d8fce7b6cead",
+      "refNo": "GEM/2026/B/7754920",
+      "title": "Category: Handling And Transport On Lumpsum Basis - Handling & transport Service",
+      "buyer": "Patratu Vidyut Utpadan Nigam Limited",
+      "procurementSource": "GEM",
+      "state": "Jharkhand",
+      "value": 2433529865,
+      "emd": 5000000,
+      "bidDeadline": "2026-07-30T04:30:00.000Z",
+      "postedAt": "2026-07-09T06:07:24.000Z",
+      "sectorNames": [
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/patratu-vidyut-utpadan-nigam-limited/detail-b5f0a081-95b3-4e68-b523-d8fce7b6cead",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "e86d34f9-53b2-4e4e-81d3-5e33060eafc0",
       "refNo": "SAC/CMG/CPHD/CW/EPC-I/02/2026-2027 DATED 25.06.2026",
       "title": "Planning Design Construction And Commissioning Of Technical Centre Building For In-space At New Bopal Campus Ahmedabad Civil Ph Electrical Ac Mechanical And Allied Works In Epc Mode-1",
@@ -9496,6 +9513,26 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/urban-improvement-trust/detail-c1567d6b-8bcd-4b81-85ac-f4fd59c5f623",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "64a64dd1-e9ed-445a-89b0-f3b8aff10ec4",
+      "refNo": "100/PPP CELL/2026-65 PPP/2023 VOL 2",
+      "title": "Ppp Model Development Of Bus Terminal Cum Commercial Complex At Bhinga Bus Terminal, Uttar Pradesh",
+      "buyer": "Uttar Pradesh State Road Transport Corporation",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Uttar Pradesh",
+      "value": 2270000000,
+      "emd": 22700000,
+      "bidDeadline": "2026-08-10T08:30:00.000Z",
+      "postedAt": "2026-04-13T03:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/uttar-pradesh-state-road-transport-corporation/detail-64a64dd1-e9ed-445a-89b0-f3b8aff10ec4",
       "matchedKeywords": []
     },
     {
@@ -10496,6 +10533,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "dbb1f70d-1c0c-47d3-affc-f912fc2dbc00",
+      "refNo": "37bfa899-8b28-3339-8c18-33a0aaa8546a",
+      "title": "Sustainable Estates Solutions Framework Agreement",
+      "buyer": "Surrey & Boarders Partnership NHS on behalf of NHS Commercial Solutions",
+      "value": 2000000000,
+      "bidDeadline": "2026-07-31T18:30:00.000Z",
+      "postedAt": "2025-07-31T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-dbb1f70d-1c0c-47d3-affc-f912fc2dbc00",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "228e580b-c76d-485c-9aba-b6830de25f1a",
       "refNo": "d17d2bda-211e-30ca-a443-6c580a0cf0cb",
       "title": "Managed Equipment Services",
@@ -10549,20 +10600,6 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-9b7c4fc1-6f32-4cd3-a97c-94f608ce6933",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "dbb1f70d-1c0c-47d3-affc-f912fc2dbc00",
-      "refNo": "37bfa899-8b28-3339-8c18-33a0aaa8546a",
-      "title": "Sustainable Estates Solutions Framework Agreement",
-      "buyer": "Surrey & Boarders Partnership NHS on behalf of NHS Commercial Solutions",
-      "value": 2000000000,
-      "bidDeadline": "2026-07-31T18:30:00.000Z",
-      "postedAt": "2025-07-31T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/surrey-boarders-partnership-nhs-on-behalf-of-nhs-commercial-solutions/detail-dbb1f70d-1c0c-47d3-affc-f912fc2dbc00",
       "matchedKeywords": []
     },
     {
@@ -10817,7 +10854,7 @@
       "state": "Maharashtra",
       "value": 1923900000,
       "emd": 1923900000,
-      "bidDeadline": "2026-07-17T09:30:00.000Z",
+      "bidDeadline": "2026-08-17T09:30:00.000Z",
       "postedAt": "2025-08-22T10:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -14047,6 +14084,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "03b55191-7de4-4eb8-84fb-65641583680e",
+      "refNo": "GEM/2026/B/7760325",
+      "title": "Category: Manpower Outsourcing Services - Minimum Wage - Skilled; secondary School; Admin",
+      "buyer": "All India Institute Of Medical Sciences",
+      "purchaserGroup": "Education",
+      "procurementSource": "GEM",
+      "state": "Delhi",
+      "value": 1377324000,
+      "emd": 27500000,
+      "bidDeadline": "2026-08-06T06:30:00.000Z",
+      "postedAt": "2026-07-09T05:45:45.000Z",
+      "sectorNames": [
+        "Manpower Supply"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/all-india-institute-of-medical-sciences/detail-03b55191-7de4-4eb8-84fb-65641583680e",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "7b2c9188-2807-4152-a615-70946248593b",
       "refNo": "CKP-GSU-ADD-26-27-06",
       "title": "Name Of Work:- Balance Abss Works At Ckp, Gp, Ppo, Dps, Jrli, Mou, Rksn, Gmh, Buf, Sny, Cbsa, Bjmd And Bmpr",
@@ -14830,6 +14885,26 @@
         "Healthcare and Medicine"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/animal-husbandry-department/detail-9fa93257-059e-4c4f-9105-0747b428172e",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "d41e8492-1b00-4838-a130-30bd34227c81",
+      "refNo": "137/PPP CELL/2026-65 PPP/2023 VOL 2",
+      "title": "Ppp Model Development Of Bus Terminal Cum Commercial Complex At Nichlaul",
+      "buyer": "Uttar Pradesh State Road Transport Corporation",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Uttar Pradesh",
+      "value": 1310000000,
+      "emd": 13100000,
+      "bidDeadline": "2026-08-10T08:30:00.000Z",
+      "postedAt": "2026-04-13T03:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/uttar-pradesh-state-road-transport-corporation/detail-d41e8492-1b00-4838-a130-30bd34227c81",
       "matchedKeywords": []
     },
     {
@@ -16260,7 +16335,7 @@
       "value": 1187820825,
       "emd": 11900000,
       "bidDeadline": "2026-07-13T05:30:00.000Z",
-      "postedAt": "2026-06-01T10:35:00.000Z",
+      "postedAt": "2026-06-01T09:53:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -16439,7 +16514,7 @@
       "state": "Uttar Pradesh",
       "value": 1160000000,
       "emd": 23200000,
-      "bidDeadline": "2026-07-09T07:30:00.000Z",
+      "bidDeadline": "2026-07-23T07:30:00.000Z",
       "postedAt": "2026-06-12T11:30:00.000Z",
       "sectorNames": [
         "Healthcare and Medicine"
@@ -17051,6 +17126,26 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "b56d3a07-0b44-44a2-b2b4-f45a350436ba",
+      "refNo": "99/PPP CELL/2026-65 PPP/2023 VOL 2",
+      "title": "Ppp Model Development Of Bus Terminal Cum Commercial Complex At Badaun Bus Terminal, Uttar Pradesh",
+      "buyer": "Uttar Pradesh State Road Transport Corporation",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Uttar Pradesh",
+      "value": 1060000000,
+      "emd": 10600000,
+      "bidDeadline": "2026-08-10T08:30:00.000Z",
+      "postedAt": "2026-04-13T03:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/uttar-pradesh-state-road-transport-corporation/detail-b56d3a07-0b44-44a2-b2b4-f45a350436ba",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "49e001f4-2e83-4b73-8f99-743ca1a34acc",
       "refNo": "SQC-Roads-5997",
       "title": "Mprrda Invites Online Proposals From The Reputed Bidders For Supervision And Quality Control Consultancy Of Rural Roads Being Constructed Under Mprcp, Pmgsy, Pmjanman, Mmtsy",
@@ -17257,6 +17352,22 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "0d876928-2649-46b7-80c0-b8e23c3f402e",
+      "refNo": "NAL/EXP/T(CA)/S/0349",
+      "title": "Bid Invitation For Export Sale Of 30,000 Mt Plus Or Minus 2 Pct Shipping Tolerance Calcined Alumina On Fob Visakhapatnam Seaport Basis",
+      "buyer": "National Aluminium Company Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Andhra Pradesh",
+      "value": 1010000000,
+      "bidDeadline": "2026-07-17T11:30:00.000Z",
+      "postedAt": "2026-07-09T05:30:00.000Z",
+      "sectorNames": [
+        "Metals and Non-Metals"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-aluminium-company-limited/detail-0d876928-2649-46b7-80c0-b8e23c3f402e",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "95f0e3e4-6621-479a-96c7-4e5003eb00d3",
       "refNo": "153/PWD/NPP/2026",
       "title": "Sewerage Project Of Nagar Palika Parishad Seoniunder Amrut 2.0",
@@ -17404,6 +17515,21 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "9aadef7b-5a95-4754-8fa2-4da1b66fc6b4",
+      "refNo": "16/2026-27",
+      "title": "E-tender For Supply &amp Installation Of Quality Steel Furniture Items Are Invited From The Eligible Msme Situated In Rajasthan Manufacturer Of Bid Items",
+      "buyer": "Rajasthan Small Industries Corporation Limited",
+      "state": "Rajasthan",
+      "value": 1000000000,
+      "bidDeadline": "2026-08-02T18:30:00.000Z",
+      "postedAt": "2026-07-01T18:30:00.000Z",
+      "sectorNames": [
+        "Furnitures and Fixtures"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/rajasthan-small-industries-corporation-limited/detail-9aadef7b-5a95-4754-8fa2-4da1b66fc6b4",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "4e5fc515-5502-43c7-88ec-26f65eb6d9ab",
       "refNo": "15/2026",
       "title": "Appointment Of Project Management Consultant (pmc) For The Construction Of Various Buildings And Infrastructure Works In Bknmu, Junagadh.(2nd Attempt)",
@@ -17419,21 +17545,6 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/department-of-education/detail-4e5fc515-5502-43c7-88ec-26f65eb6d9ab",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "9aadef7b-5a95-4754-8fa2-4da1b66fc6b4",
-      "refNo": "16/2026-27",
-      "title": "E-tender For Supply &amp Installation Of Quality Steel Furniture Items Are Invited From The Eligible Msme Situated In Rajasthan Manufacturer Of Bid Items",
-      "buyer": "Rajasthan Small Industries Corporation Limited",
-      "state": "Rajasthan",
-      "value": 1000000000,
-      "bidDeadline": "2026-08-02T18:30:00.000Z",
-      "postedAt": "2026-07-01T18:30:00.000Z",
-      "sectorNames": [
-        "Furnitures and Fixtures"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/rajasthan-small-industries-corporation-limited/detail-9aadef7b-5a95-4754-8fa2-4da1b66fc6b4",
       "matchedKeywords": []
     },
     {
@@ -17650,6 +17761,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "411d6f8a-9596-4c60-96bd-4114c746ee0c",
+      "refNo": "07253021",
+      "title": "S &i Of Vacuum Evac System Vb Sleeper With Camc",
+      "buyer": "Integral Coach Factory",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Tamil Nadu",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-07-13T08:45:00.000Z",
+      "postedAt": "2026-06-11T02:00:00.000Z",
+      "sectorNames": [
+        "Electrical Goods and Equipments",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/integral-coach-factory/detail-411d6f8a-9596-4c60-96bd-4114c746ee0c",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "e6d4f841-4cfc-4cfd-9913-02463116b3ad",
       "refNo": "6326ENG01",
       "title": "Manufacturing And Supply Of Elastic Rail Clips Mk-v As Per Rdso/drawing No. T- 5919",
@@ -17721,25 +17851,6 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/chittaranjan-locomotive-works/detail-b2931988-d5e3-43cf-946c-af761e626ef0",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "411d6f8a-9596-4c60-96bd-4114c746ee0c",
-      "refNo": "07253021",
-      "title": "S &i Of Vacuum Evac System Vb Sleeper With Camc",
-      "buyer": "Integral Coach Factory",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Tamil Nadu",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-07-13T08:45:00.000Z",
-      "postedAt": "2026-06-11T02:00:00.000Z",
-      "sectorNames": [
-        "Electrical Goods and Equipments",
-        "Electrical and Electronics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/integral-coach-factory/detail-411d6f8a-9596-4c60-96bd-4114c746ee0c",
       "matchedKeywords": []
     },
     {
@@ -18613,18 +18724,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "e32a63ed-943b-43a4-838f-1ff5a850df7b",
-      "refNo": "",
-      "title": "Alternative Fuelled Vehicles Dps",
-      "buyer": "Yorkshire Purchasing Organisation",
-      "value": 1000000000,
-      "bidDeadline": "2031-05-02T18:30:00.000Z",
-      "postedAt": "2021-03-08T18:30:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/yorkshire-purchasing-organisation/detail-e32a63ed-943b-43a4-838f-1ff5a850df7b",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "e977276f-3959-4f17-a60d-67828f0b746c",
       "refNo": "fdc103a5-070f-4b30-8c74-349bb13bc929",
       "title": "Ypo - 001066 Alternative Fuelled Vehicles Dps",
@@ -18636,6 +18735,18 @@
         "Energy, Oil and Gas"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/yorkshire-purchasing-organisation/detail-e977276f-3959-4f17-a60d-67828f0b746c",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "e32a63ed-943b-43a4-838f-1ff5a850df7b",
+      "refNo": "",
+      "title": "Alternative Fuelled Vehicles Dps",
+      "buyer": "Yorkshire Purchasing Organisation",
+      "value": 1000000000,
+      "bidDeadline": "2031-05-02T18:30:00.000Z",
+      "postedAt": "2021-03-08T18:30:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/yorkshire-purchasing-organisation/detail-e32a63ed-943b-43a4-838f-1ff5a850df7b",
       "matchedKeywords": []
     },
     {
@@ -18680,7 +18791,7 @@
       "state": "Tamil Nadu",
       "value": 98594500000,
       "emd": 1163415100,
-      "bidDeadline": "2026-07-21T21:30:00.000Z",
+      "bidDeadline": "2026-07-22T09:30:00.000Z",
       "postedAt": "2025-12-27T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
