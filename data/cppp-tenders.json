@@ -1,24 +1,27 @@
 {
-  "fetchedAt": "2026-07-09T21:36:27.153Z",
-  "durationMs": 51275,
+  "fetchedAt": "2026-07-10T04:00:55.999Z",
+  "durationMs": 53475,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 361,
-  "relevantCount": 0,
-  "tenders": [],
-  "sampleRows": [
+  "totalRowsParsed": 359,
+  "relevantCount": 1,
+  "tenders": [
     {
-      "tenderRef": "2026_IISRT_915715_1",
-      "title": "Providing Stainless Steel gratings and corner band in Central Dining Hall-1 at IISER Thiruvananthapuram",
-      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvananthapuram",
-      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
-      "publishedAt": "2026-07-03T07:20:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T03:30:00.000Z",
-      "tenderOpensAt": "2026-07-11T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScNfnggtUJIjbAyi0yHHVqA%3D%3D",
-      "matchedKeywords": []
-    },
+      "tenderRef": "2026_IISRP_913764_1",
+      "title": "Procurement of Resonant, free-space Electro-Optic PHASE Modulator for Single Photons in the visible range with all required accessories",
+      "organisationChain": "Indian Institute of Science Education and Research - Pune",
+      "buyer": "Indian Institute of Science Education and Research - Pune",
+      "publishedAt": "2026-06-18T12:45:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7bWZm6JwxLCJH9XYk9JfKw%3D%3D",
+      "matchedKeywords": [
+        "electro-optic"
+      ]
+    }
+  ],
+  "sampleRows": [
     {
       "tenderRef": "2026_NALCO_914842_1",
       "title": "DESILTING OF DRAINS AND BERMS DRESSING INSIDE NALCO ALUMINA REFINERY AND CISF ESTABLISHMENTS AT DAMANJODI",
@@ -28,72 +31,6 @@
       "bidSubmissionCloses": "2026-07-10T04:30:00.000Z",
       "tenderOpensAt": "2026-07-11T04:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4oJ7x%2BlIJGG1o3vSej6fjQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_914968_1",
-      "title": "6 Sect/Engr/MW/2026-27/240",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-27T12:50:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8TjJM2p7DAG%2Byycmphdv%2Bw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_914965_1",
-      "title": "6 Sect/Engr/MW/2026-27/238",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-27T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Scd%2F2IHgp5UKcxEUpU6LAQQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_914961_1",
-      "title": "6 Sect/Engr/MW/2026-27/237",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-27T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-11T05:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sg%2BbhbbR8Al3zE%2FsBQMHRyw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_915628_1",
-      "title": "Repair of Toilet and Bathroom",
-      "organisationChain": "DG,CRPF,MHA||Dehradun Sector - CRPF - MHA||GC Rampur -Dehradun Sector- CRPF - MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-07-03T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-11T05:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BAkjKBLm%2BsGB4i79SU4tfg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_914923_1",
-      "title": "VIII.11011/9 Sect/Engr/-AMC/2026-27/01",
-      "organisationChain": "Assam Rifles - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-27T04:15:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfzBGikvI9Kj%2BqwkEyGKutg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_914966_1",
-      "title": "6 Sect/Engr/MW/2026-27/239",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-06-27T12:40:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sl%2FLc%2BzIdp7fRu7FAw0kDnA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -108,6 +45,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_ARMHA_914961_1",
+      "title": "6 Sect/Engr/MW/2026-27/237",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-27T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-07-11T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sg%2BbhbbR8Al3zE%2FsBQMHRyw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_ARMHA_914971_1",
       "title": "Wksp/Engr/MW/2026-27/232",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -119,6 +67,138 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_ARMHA_914965_1",
+      "title": "6 Sect/Engr/MW/2026-27/238",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-27T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Scd%2F2IHgp5UKcxEUpU6LAQQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_914966_1",
+      "title": "6 Sect/Engr/MW/2026-27/239",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-27T12:40:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sl%2FLc%2BzIdp7fRu7FAw0kDnA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_914923_1",
+      "title": "VIII.11011/9 Sect/Engr/-AMC/2026-27/01",
+      "organisationChain": "Assam Rifles - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-27T04:15:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfzBGikvI9Kj%2BqwkEyGKutg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_915628_1",
+      "title": "Repair of Toilet and Bathroom",
+      "organisationChain": "DG,CRPF,MHA||Dehradun Sector - CRPF - MHA||GC Rampur -Dehradun Sector- CRPF - MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-07-03T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-07-11T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BAkjKBLm%2BsGB4i79SU4tfg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_914968_1",
+      "title": "6 Sect/Engr/MW/2026-27/240",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-06-27T12:50:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8TjJM2p7DAG%2Byycmphdv%2Bw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AUS_915273_1",
+      "title": "Repairing work including repairing of false ceiling, windows, doors, ventilators, tiles work at toilets, pipeline and sanitary fittings at toilets, roof repairing etc at Dept of Pharmaceutical Sciences at Assam University, Silchar, Assam.",
+      "organisationChain": "Assam University Silchar",
+      "buyer": "Assam University Silchar",
+      "publishedAt": "2026-07-01T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SA%2Bh6LNgGCyKWiVjLIkKovA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_915633_2",
+      "title": "Annual Repair and maintenance of residential building at KLP Karahalli 103 Bn BSF under SHQ BSF Chennai",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-02T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Shjfpo%2FUG898yoUfq0cO1Xw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_915887_1",
+      "title": "REPAIR MAINTENANCE OF TOILET BLOCKS AT 08 BOPS KK BARRIER, MW UTTAR, HARDEEP, PRAHLAD, MP BASE, RATTOKE, GAJJAL AND JN MOHD OF 148 BN BSF UNDER SHQ BSF FEROZEPUR",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-04T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1DiC8ygsP5attG8tbtDmsQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_915888_1",
+      "title": "RENOVATION UPGRADATION OF 02 NOS TOILET BLOCK LEFT SIDE OF THE 120 MEN JAWAN BARRACK, OLD 103 BN NOW 142 BN BSF UNDER SHQ BSF FEROZEPUR",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-04T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQwxpBnfycDnj9HjEATJsMg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_915889_1",
+      "title": "RENOVATION UPGRADATION OF 120 MEN JAWAN BARRACK AT SHQ BSF FEROZEPUR SUB HEAD RENOVATION OF NCO SINGLE ACCOMMODATION",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-04T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sr7W9OCi4BmD5rWBCushcfQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_915633_1",
+      "title": "Annual Repair and Maintenance of Non Residential building at KLP Karahalli 103 Bn BSF Campus under SHQ BSF Chennai",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-02T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FAVDNNsS%2Be7hwC9RsjqBqw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FACT_913865_1",
+      "title": "Annual Contract for Radiography/Ultrasonic Testing of Weld joints, FEW-2026",
+      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
+      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
+      "publishedAt": "2026-06-20T05:20:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-11T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SV8jgJeamdPFyCuI5n7cQxA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_BSF_915633_3",
       "title": "Repair/Maintenance and replacement of damage GI water supply Line KLP Karahalli (Bn HQ 142 Bn BSF) under SHQ BSF Chennai",
       "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
@@ -127,6 +207,39 @@
       "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
       "tenderOpensAt": "2026-07-13T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCeHto6sJeZEcE0%2BtM9knLA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_915498_1",
+      "title": "1 Repair and Renovation of toilet No 19 and 74 including fixing Damaged Doors Plaster Repairs Replacing tiles and Repair of Sewer Line at S S Hall South 2 Repair of Corridor in front of toilet No 6 and 7 at S S Hall",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-07-02T07:15:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-11T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAIks4w%2BgABgP40tr5gKuww%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AUS_915285_1",
+      "title": "Repairing works (including painting, sanitary works, door repairing, seepage treatment, tiles work etc) at qaurters no 34 and 33 (teaching side) and Type4 (Q-9) at Assam University, Silchar, Assam.",
+      "organisationChain": "Assam University Silchar",
+      "buyer": "Assam University Silchar",
+      "publishedAt": "2026-07-01T06:20:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPU0%2Ff8igMBSivh8lSd8UjA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_915643_1",
+      "title": "Replacement of damaged water supply line at GM F PAF building Aliganj Lucknow",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-07-04T07:35:00.000Z",
+      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvhT5j%2BcpuA05EksxUcqtHQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -163,17 +276,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_AMU_915509_1",
-      "title": "Providing and Laying RCC Pipe for Disposal of Kitchen Waste water in Mohammad Habib Hall",
-      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-07-02T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpRsTzUF0l8fem%2FKpUof9QA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_AMU_915314_1",
       "title": "Providing and Laying D I pipe line 300 mm dia rising main to connect OPD Sumpwell to Engineering college sumpwell and installation of Sewage submersible pump set 02 Nos to upgrade the sewage system of JN Medical College and Hospital",
       "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
@@ -185,102 +287,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_915643_1",
-      "title": "Replacement of damaged water supply line at GM F PAF building Aliganj Lucknow",
-      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-07-04T07:35:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvhT5j%2BcpuA05EksxUcqtHQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_915828_1",
-      "title": "Repair and Maintenance of Parapet Wall of Adm Block at Bn HQ Campus of 19 Bn BSF under SHQ BSF Abohar",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-03T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyEVQ3t9y9eiTUyvlhiAiKA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_915506_1",
-      "title": "Day to Day Repairs of Ceiling Plaster Patch Repair and Roof Treatment in University Campus Aligarh",
-      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-07-02T07:25:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLAFmJfJeWIwm9UogPGh7qA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_915633_1",
-      "title": "Annual Repair and Maintenance of Non Residential building at KLP Karahalli 103 Bn BSF Campus under SHQ BSF Chennai",
-      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-02T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FAVDNNsS%2Be7hwC9RsjqBqw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AUS_915280_1",
-      "title": "Repairing works (including painting, sanitary works, door repairing,seepage treatment, tiles work etc) at quarters no 30, 32, 36 (teaching side) at AssamUniversity, Silchar, Assam.",
-      "organisationChain": "Assam University Silchar",
-      "buyer": "Assam University Silchar",
-      "publishedAt": "2026-07-01T06:15:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sglx%2B2AK1m9b5U79L%2BGQmrQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_915887_1",
-      "title": "REPAIR MAINTENANCE OF TOILET BLOCKS AT 08 BOPS KK BARRIER, MW UTTAR, HARDEEP, PRAHLAD, MP BASE, RATTOKE, GAJJAL AND JN MOHD OF 148 BN BSF UNDER SHQ BSF FEROZEPUR",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-04T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1DiC8ygsP5attG8tbtDmsQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AUS_915273_1",
-      "title": "Repairing work including repairing of false ceiling, windows, doors, ventilators, tiles work at toilets, pipeline and sanitary fittings at toilets, roof repairing etc at Dept of Pharmaceutical Sciences at Assam University, Silchar, Assam.",
-      "organisationChain": "Assam University Silchar",
-      "buyer": "Assam University Silchar",
-      "publishedAt": "2026-07-01T06:00:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SA%2Bh6LNgGCyKWiVjLIkKovA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AUS_915285_1",
-      "title": "Repairing works (including painting, sanitary works, door repairing, seepage treatment, tiles work etc) at qaurters no 34 and 33 (teaching side) and Type4 (Q-9) at Assam University, Silchar, Assam.",
-      "organisationChain": "Assam University Silchar",
-      "buyer": "Assam University Silchar",
-      "publishedAt": "2026-07-01T06:20:00.000Z",
-      "bidSubmissionCloses": "2026-07-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPU0%2Ff8igMBSivh8lSd8UjA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_909959_1",
-      "title": "JP/B862-000-YC-MR-1455/548 - ON-OFF VALVES (SWITCHING VALVES) FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT AT DAHEJ, GUJARAT",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-05-22T13:25:00.000Z",
+      "tenderRef": "2026_ITBP_913604_1",
+      "title": "Renovation of VIP Suits and Sitting Hall of Officer Mess at 32 Bn I.T.B.Police Maharajpur, Kanpur (U.P)",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, EASTERN FTR,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-06-18T06:30:00.000Z",
       "bidSubmissionCloses": "2026-07-10T06:30:00.000Z",
-      "tenderOpensAt": "2026-07-13T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2Feur2SLJbhiR4Y0rcs1crw%3D%3D",
+      "tenderOpensAt": "2026-07-13T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzDwdRbGx%2BuqCLBHEgZ3dCw%3D%3D",
       "matchedKeywords": []
     }
   ]
