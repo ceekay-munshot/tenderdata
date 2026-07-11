@@ -1,9 +1,301 @@
 {
-  "fetchedAt": "1970-01-01T00:00:00.000Z",
-  "durationMs": 0,
-  "ok": false,
-  "error": "Not yet scraped — awaiting first GitHub Actions run.",
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": []
+  "fetchedAt": "2026-07-11T09:45:09.060Z",
+  "durationMs": 50668,
+  "ok": true,
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 361,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2025_PDIL_881016_1",
+      "title": "COAL GASIFICATION PLANT FOR GENERATING SYNTHETIC NATURAL GAS (SNG) AT BARDHAMAN, WEST BENGAL (INDIA)",
+      "organisationChain": "Projects and Development India Limited, Fert||Corporate Office,Noida,PDIL,Fert",
+      "buyer": "Projects and Development India Limited, Fert",
+      "publishedAt": "2025-10-10T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-14T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-15T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SsAMHR27uuxVDUX4stY7IJw%3D%3D",
+      "matchedKeywords": [
+        "coal gasification"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_DIT_912086_1",
+      "title": "Composite Tender for Hiring a Vendor for Civil, Plumbing, Electrical and Networking Work for the Renovation and Refurbishment of NIELIT Centre, Ahmedabad.",
+      "organisationChain": "Department of Electronics and Information Technology(DeitY)||National Institute of Electronics and Information Technology, NIELIT,DeitY||NIELIT,Hqrs New Delhi,DeitY",
+      "buyer": "Department of Electronics and Information Technology(DeitY)",
+      "publishedAt": "2026-06-08T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T10:00:00.000Z",
+      "tenderOpensAt": "2026-07-13T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0A6HDWZpy%2B97X7DrxK8pMA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CWC_915852_1",
+      "title": "Repair and Maintenance of Transit Room under MGD- 3 CWC Varanasi.",
+      "organisationChain": "Central Water Commission- DoWR RD and GR||Upper Ganga Basin Organisation- Lucknow||SE(HOC)- Varanasi||Middle Ganga Division-III- Varanasi",
+      "buyer": "Central Water Commission- DoWR RD and GR",
+      "publishedAt": "2026-07-03T13:15:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T10:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T11:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeCeq10l5Pi3TP7OV8SzIqA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_915799_1",
+      "title": "FCI Smart Warehouse Electrical Infrastructure Project for Installation of Power Sockets for AI Sensor Integration at FSD Patran under DO Patiala for FY 2026-27.",
+      "organisationChain": "Food Corporation of India||Regional Office, Punjab,FCI,MFPD",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-07-03T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAFYFgCsVoCppcffyIoFU3w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AIMSM_915962_1",
+      "title": "Provision of Institute Logo and Brass Signage at the East Gate of AIIMS Mangalagiri, Complete with Architectural Lighting and Associated Electrical Works",
+      "organisationChain": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh||Procurement Cell - AIIMS Mangalagiri",
+      "buyer": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh",
+      "publishedAt": "2026-07-04T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCiajqN6XohlFeO9FG5XRMg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ITBP_913806_1",
+      "title": "SUPPLY OF FRESH MUTTON",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG TRG CUM DIRECTOR ACADEMY,MUSOORIE,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-06-20T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T11:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S08qI999J9n08Ovup5YdAcQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_RMLH_914769_1",
+      "title": "Procurement of Inj.Deferoxamine 500mg",
+      "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
+      "buyer": "Dr. Ram Manohar Lohia Hospital",
+      "publishedAt": "2026-06-25T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfgQhPXAH7mswbsNLpxEnoQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_RMLH_914791_1",
+      "title": "Tab.Levodopa 100mg and Carbidopa 25mg",
+      "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
+      "buyer": "Dr. Ram Manohar Lohia Hospital",
+      "publishedAt": "2026-06-25T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFbk6LOdfvwzC8UlTe9BOMA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NIFT_913991_1",
+      "title": "Running of Stationery Shop at NIFT Raebareli Campus",
+      "organisationChain": "National Institute of Fashion Technology||Raebareli - NIFT",
+      "buyer": "National Institute of Fashion Technology",
+      "publishedAt": "2026-06-20T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1OEa2dxT1fuzbJ%2BUiz%2FvuQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_915805_1",
+      "title": "FCI Smart Warehouse Electrical Infrastructure Project for Installation of Power Sockets for AI Sensor Integration at FSD Mullanpur(J.P.) under DO Ludhiana for FY 2026-27",
+      "organisationChain": "Food Corporation of India||Regional Office, Punjab,FCI,MFPD",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-07-03T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4bm0oXDFHQyKaLeqHZrwxQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_JMI_913877_1",
+      "title": "Covering existing unused Toilet Block (Ladies and Gents) adjacent to Concrete Laboratory into an Advance Concrete Laboratory located at the ground floor of Faculty of Engineering and Technology Library Building, JMI",
+      "organisationChain": "Jamia Millia Islamia||Building and Construction Department - JMI",
+      "buyer": "Jamia Millia Islamia",
+      "publishedAt": "2026-06-19T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-14T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCVWLJVq0VzKpzTISx60EHw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IMSBP_910214_1",
+      "title": "Supply, Installation, Testing and Commissioning of High End Surgical Drill System with Attachments for Department of Surgical Oncology",
+      "organisationChain": "All India Institute of Medical Sciences-Bhopal",
+      "buyer": "All India Institute of Medical Sciences-Bhopal",
+      "publishedAt": "2026-05-25T12:55:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T12:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SU8aMweqTpW3k9w4jY9TGkw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NHPC_914022_1",
+      "title": "Renovation and Modernization of the existing Guest House situated at Loktak Project",
+      "organisationChain": "NHPC Limited||Loktak power station-NHPC",
+      "buyer": "NHPC Limited",
+      "publishedAt": "2026-06-20T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sxq4f56aUmm0BmDA6ent2Rg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NHPC_914074_1",
+      "title": "Repair of one number Runner (RN#3) of 3X15 MW Nimoo Bazgo Power Station, Alchi, Distt. Sham, Ladakh",
+      "organisationChain": "NHPC Limited||Nimoo Bazgo Power Station-NHPC",
+      "buyer": "NHPC Limited",
+      "publishedAt": "2026-06-20T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-16T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNKMfCjEPDYmSfN1E8ZG26w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_TMC_914994_1",
+      "title": "Supply Installation Testing and Commissioning of 15 passenger bed cum passenger hospital lift G Plus 4 stop at IPD building of Dr B Borooah Cancer Institute 16",
+      "organisationChain": "Tata Memorial Centre||Dr B Borooah Cancer Institute Guwahati",
+      "buyer": "Tata Memorial Centre",
+      "publishedAt": "2026-06-29T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-14T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sf4hqtX3cdgWltIh%2FwogQEQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NHPC_914913_1",
+      "title": "Cleaning of septic tanks and chambers located at the Dam Office Complex of CPS-1",
+      "organisationChain": "NHPC Limited||Chamera Power Station-I-NHPC",
+      "buyer": "NHPC Limited",
+      "publishedAt": "2026-06-26T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-14T11:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOVAKxdJ7GTnuxRh4IFJVzA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_915833_1",
+      "title": "Internal and External finishing of Type VI staff quarter at HPO compound Golghar, Gorakhpur",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-07-03T12:45:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdyMPME%2BAueUoKWyz61KEqg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_914960_1",
+      "title": "Construction of semi-permanent store room for Subsidiary Bhandar",
+      "organisationChain": "DG,CRPF,MHA||North East Sector,CRPF,MHA||GC Silchar,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-06-27T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRBsSxFpHoIQjaCGc%2FbX%2B5g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NIFT_913147_1",
+      "title": "NIT for Disposal of Scrap items furniture and fixture etc",
+      "organisationChain": "National Institute of Fashion Technology||Kangra - NIFT",
+      "buyer": "National Institute of Fashion Technology",
+      "publishedAt": "2026-06-15T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T12:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sbk50qvglEoU3nirMlt%2Bhkg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SAI_915711_1",
+      "title": "Providing and Fixing of Welded Mesh Boundary",
+      "organisationChain": "Sports Authority of India||Head Office - SAI",
+      "buyer": "Sports Authority of India",
+      "publishedAt": "2026-07-03T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgfUsrq8lH50VVOoE9YB1Mg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_913216_1",
+      "title": "COMPREHENSIVE ANNUAL MAINTENANCE CONTRACT (CAMC) FOR TROUBLE FREE OPERATION OF UPS (NUMERIC/LEGRAND) INSTALLED IN IIT ROORKEE CAMPUS.",
+      "organisationChain": "Indian Institute of Technology Roorkee||Estate and Works - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-06-16T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEdX%2B1hSaa7STzDlZr97Agg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IIMJ_913857_1",
+      "title": "EMPANELEMENT OF SERVICE PROVIDER",
+      "organisationChain": "Indian Institute of Management Jammu",
+      "buyer": "Indian Institute of Management Jammu",
+      "publishedAt": "2026-06-19T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sk%2BBqaXNyvVwBZjtSSf6BbA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_913206_1",
+      "title": "COMPREHENSIVE ANNUAL MAINTENANCE CONTRACT (CAMC) FOR TROUBLE FREE OPERATION OF UPS (VERTIV/EMMERSION) INSTALLED AT VARIOUS LOCATION IN IIT ROORKEE CAMPUS.",
+      "organisationChain": "Indian Institute of Technology Roorkee||Estate and Works - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-06-16T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-13T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkTWToq1b7rRIEm82eBBNvA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_911786_3",
+      "title": "Repair to Fort wall at Diu",
+      "organisationChain": "Archaeological Survey of India||O/o SA - ASI - Rajkot circle",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-06-30T13:15:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T13:15:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3CUHCs8%2F1TMwvlFexVnP2g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_916567_1",
+      "title": "Additional Civil works for NREP",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-07-08T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T13:25:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIJ7%2BtQ98eD4mI0bDPcLx4g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NSG_912696_1",
+      "title": "Procurement of Indian Made Foreign Liquor, Whiskey, Rum, Beer",
+      "organisationChain": "DG,National Security Guard,MHA||Provisioning Branch(Procurement Cell),NSG,MHA",
+      "buyer": "DG,National Security Guard,MHA",
+      "publishedAt": "2026-06-11T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-11T13:25:00.000Z",
+      "tenderOpensAt": "2026-07-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sj6y1PdvXYnaJTj29hImFtA%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
