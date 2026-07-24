@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-07-24T03:29:48.058Z",
-  "durationMs": 30866,
+  "fetchedAt": "2026-07-24T06:34:53.649Z",
+  "durationMs": 29900,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 24,
   "totalScanned": 1200,
-  "relevantCount": 1145,
+  "relevantCount": 1147,
   "tenders": [
     {
       "tenderId": "f294ad61-3b90-42c9-a086-c902dc5c9ffa",
@@ -2324,7 +2324,7 @@
       "state": "Madhya Pradesh",
       "value": 11822500000,
       "emd": 118200000,
-      "bidDeadline": "2026-08-06T05:30:00.000Z",
+      "bidDeadline": "2026-08-06T05:58:00.000Z",
       "postedAt": "2026-05-18T08:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -2701,7 +2701,7 @@
       "value": 9592500000,
       "emd": 95900000,
       "bidDeadline": "2026-08-20T05:30:00.000Z",
-      "postedAt": "2026-07-23T21:44:00.000Z",
+      "postedAt": "2026-07-07T05:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Bridge Construction"
@@ -4872,7 +4872,7 @@
       "value": 5768620829,
       "emd": 14237242,
       "bidDeadline": "2026-08-10T11:30:00.000Z",
-      "postedAt": "2026-07-21T04:30:00.000Z",
+      "postedAt": "2026-07-24T05:57:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Civil Works Others",
@@ -5477,7 +5477,7 @@
       "state": "Delhi",
       "value": 4975800000,
       "emd": 49800000,
-      "bidDeadline": "2026-07-27T05:30:00.000Z",
+      "bidDeadline": "2026-08-21T05:30:00.000Z",
       "postedAt": "2026-05-14T09:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -7396,7 +7396,7 @@
       "state": "Himachal Pradesh",
       "value": 3002800000,
       "emd": 30000000,
-      "bidDeadline": "2026-07-24T11:30:00.000Z",
+      "bidDeadline": "2026-07-28T11:30:00.000Z",
       "postedAt": "2026-06-17T05:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -7902,11 +7902,11 @@
       "buyer": "National Highways Authority Of India",
       "purchaserGroup": "Road Transportation",
       "procurementSource": "EPROCURE",
-      "state": "Karnataka",
+      "state": "Telangana",
       "value": 2789900000,
       "emd": 27900000,
       "bidDeadline": "2026-08-04T05:30:00.000Z",
-      "postedAt": "2026-06-09T13:25:00.000Z",
+      "postedAt": "2026-07-24T05:58:00.000Z",
       "sectorNames": [
         "Consultancy Services",
         "Civil And Architectural Services"
@@ -8901,6 +8901,27 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "84ff0b29-5163-45e5-8ef2-307992eb149d",
+      "refNo": "TE-25027R/2025-26",
+      "title": "Rfp For Upgradation Of Industrial Training Institutes (itis) For Cluster I - (nagpur) In Maharashtra Under Component I Of Pm-setu",
+      "buyer": "Directorate Of Vocational Education And Training",
+      "purchaserGroup": "Education",
+      "procurementSource": "EPROCURE",
+      "state": "Maharashtra",
+      "value": 2410000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-07-24T09:30:00.000Z",
+      "postedAt": "2026-07-03T12:25:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-vocational-education-and-training/detail-84ff0b29-5163-45e5-8ef2-307992eb149d",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "2241e0c5-dae1-44a3-9fec-106a3f733c4c",
       "refNo": "TE-25026R/2025-26",
       "title": "Rfp For Upgradation Of Industrial Training Institutes (itis) For Cluster Ii - (chhatrapati Sambhajinagar) In Maharashtra Under Component I Of Pm-setu",
@@ -8938,27 +8959,6 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/directorate-of-vocational-education-and-training/detail-7b542070-0cee-4148-a6e6-ecb983e53609",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "84ff0b29-5163-45e5-8ef2-307992eb149d",
-      "refNo": "TE-25027R/2025-26",
-      "title": "Rfp For Upgradation Of Industrial Training Institutes (itis) For Cluster I - (nagpur) In Maharashtra Under Component I Of Pm-setu",
-      "buyer": "Directorate Of Vocational Education And Training",
-      "purchaserGroup": "Education",
-      "procurementSource": "EPROCURE",
-      "state": "Maharashtra",
-      "value": 2410000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-07-24T09:30:00.000Z",
-      "postedAt": "2026-07-03T12:25:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others",
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-vocational-education-and-training/detail-84ff0b29-5163-45e5-8ef2-307992eb149d",
       "matchedKeywords": []
     },
     {
@@ -10266,7 +10266,7 @@
       "state": "Andhra Pradesh",
       "value": 2000000000,
       "emd": 6800000,
-      "bidDeadline": "2026-08-05T11:30:00.000Z",
+      "bidDeadline": "2026-08-14T11:30:00.000Z",
       "postedAt": "2026-07-15T04:02:15.000Z",
       "sectorNames": [
         "Other Consultancy Services",
@@ -13220,7 +13220,7 @@
       "state": "Gujarat",
       "value": 1500000000,
       "emd": 20000000,
-      "bidDeadline": "2026-08-04T05:30:00.000Z",
+      "bidDeadline": "2026-08-04T11:30:00.000Z",
       "postedAt": "2026-07-21T10:00:00.000Z",
       "sectorNames": [
         "Transportation and Logistics"
@@ -13912,8 +13912,8 @@
       "state": "Jharkhand",
       "value": 1408100000,
       "emd": 14100000,
-      "bidDeadline": "2026-08-24T11:30:00.000Z",
-      "postedAt": "2026-05-08T13:00:00.000Z",
+      "bidDeadline": "2026-08-24T05:30:00.000Z",
+      "postedAt": "2026-05-08T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -14910,7 +14910,7 @@
       "value": 1323077767,
       "emd": 13230778,
       "bidDeadline": "2026-07-27T08:30:00.000Z",
-      "postedAt": "2026-05-18T09:30:00.000Z",
+      "postedAt": "2026-07-18T05:58:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -15632,7 +15632,7 @@
       "state": "Rajasthan",
       "value": 1259821000,
       "emd": 25196500,
-      "bidDeadline": "2026-08-05T12:30:00.000Z",
+      "bidDeadline": "2026-08-05T04:30:00.000Z",
       "postedAt": "2026-07-06T09:30:00.000Z",
       "sectorNames": [
         "Electrical Works",
@@ -15938,6 +15938,25 @@
         "Automobiles and Auto Parts"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/gujarat-state-road-transport-corporation/detail-1d195294-ec4f-47aa-a02e-3843582cd2c5",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "bffb31d1-e97e-40d2-bf31-82aa967d5a62",
+      "refNo": "NHAI/19011/09/01/2020/ RO Madurai Part(1)/E 97825",
+      "title": "Rectification Of 3 Blackspots At Km 314.500 (maruthi Nagar) Km 316.400 (srirangam Y Junction) And Km 320.070 (sanjeevi Nagar) In Padalur Trichy Section Of Nh 38 In Tamil Nadu On Epc Mode",
+      "buyer": "National Highways Authority Of India",
+      "purchaserGroup": "Road Transportation",
+      "procurementSource": "EPROCURE",
+      "state": "Tamil Nadu",
+      "value": 1216800000,
+      "emd": 12200000,
+      "bidDeadline": "2026-09-08T05:30:00.000Z",
+      "postedAt": "2026-07-24T03:30:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-bffb31d1-e97e-40d2-bf31-82aa967d5a62",
       "matchedKeywords": []
     },
     {
@@ -17041,6 +17060,25 @@
       "postedAt": "2019-05-09T00:00:00.000Z",
       "sectorNames": [],
       "detailUrl": "https://bidassist.com/global-tenders/westworks-procurement-limited/detail-96d1a124-ebfb-46ad-8f0b-c6d8fcefb4b5",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "8bab2340-35b3-4a92-b809-18e2762fa515",
+      "refNo": "2x25kV-OHE-MED-MUE",
+      "title": "Design, Supply, Erection, Testing And Commissioning For Ohe Upgradation From Existing 1x25kv System To 2x25kv At Feeding System With Feeder And Earthing Works In Medchal (med)(excl) - Mudkhed (mue)(incl) Section Of Hyderabad Division Under South Central Railway. Total 225 Rkm/225 Tkm",
+      "buyer": "South Central Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Maharashtra",
+      "value": 1099398888.68,
+      "emd": 21988000,
+      "bidDeadline": "2026-09-08T09:30:00.000Z",
+      "postedAt": "2026-07-23T11:39:00.000Z",
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-central-railway/detail-8bab2340-35b3-4a92-b809-18e2762fa515",
       "matchedKeywords": []
     },
     {
