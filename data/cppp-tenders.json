@@ -1,132 +1,22 @@
 {
-  "fetchedAt": "2026-07-25T03:27:17.044Z",
-  "durationMs": 52506,
+  "fetchedAt": "2026-07-25T06:25:48.730Z",
+  "durationMs": 54813,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 348,
+  "totalRowsParsed": 350,
   "relevantCount": 0,
   "tenders": [],
   "sampleRows": [
     {
-      "tenderRef": "2026_RCFL_918616_1",
-      "title": "SUPPLY OF RO MEMBRANE",
-      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
-      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
-      "publishedAt": "2026-07-22T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T04:30:00.000Z",
-      "tenderOpensAt": "2026-07-25T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sc4jnf%2FV6ws9iBBHDScF1kA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_916128_1",
-      "title": "Repair/replacement of rusted external water supply pipe line, pump/motors, sluice valves and Misc work",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-06T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T04:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVkHJcPV5HA7C5eyT0rcn3A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_916137_1",
-      "title": "Term contract for repair/replacement of internal wiring for certain OTM Accns, Cook houses, toilet blocks, Class rooms, Officers/JCOs/OR Md Accn",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-06T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T04:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyilxjKt4Rju9icl9H4NE%2FQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_917042_1",
-      "title": "Repair/ maint of JCOs/ OR toilets /bathroom of MT Platoon, P-85 / combined bathroom near Cook House",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-11T13:20:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SStc%2F73xy5BVTsdpfXEdyGw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_917038_3",
-      "title": "Repair/ Maint of sewage line, soakage pit and drain at Happy Valley",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-11T12:50:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGXGdM3jYRTHMo4X2iBsQBg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_917041_1",
-      "title": "Term contract for welcome wash for Offrs married and single accn at Laitkor Grn",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-11T13:20:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SrJqL%2BV4046knnA5MsdQJNQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_917045_1",
-      "title": "Repair/ maint of cook house SP-15, Happy Valley",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-11T13:20:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:00:00.000Z",
-      "tenderOpensAt": "2026-07-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFxxbSkcfLnzY0w%2BLqsmMlw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DAE_917312_1",
-      "title": "SOFTWARE MISC FOR TIFR ARCHIVE",
-      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
-      "buyer": "Department of Atomic Energy",
-      "publishedAt": "2026-07-14T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeRMdonUVSmwgIMBCH6y7EA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DAE_916727_1",
-      "title": "GAS CHROMATOGRAPH WITH TCD, FID AND GAS SAMPLING VALVES FOR ANALYSIS OF REACTOR GASES",
-      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
-      "buyer": "Department of Atomic Energy",
-      "publishedAt": "2026-07-09T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SespAUSf3%2BF8GPJWeC3byBQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_918036_1",
-      "title": "Renovation Upgradation of the Chandan Hostel of the BSF Academy Tekanpur SH Electrical works",
-      "organisationChain": "DG,BSF,MHA||BSF Acadamy(Tekanpur),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-18T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SlIQsY8ySRy6rJtAzmHiTXw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_918597_1",
-      "title": "INVITATION TO PRE-TENDER MEETING FOR AMBIENT AIR ANALYSER SYSTEMS FOR PP PROJECT BPCL KOCHI",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-07-22T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SsNFrJFzw6qppHI8iS5ErEg%3D%3D",
+      "tenderRef": "2026_NRB_917525_1",
+      "title": "Fabrication and Installation of a SS Valve Cubicle for a Waste Receiving Station located in the Old Tank Yard at LWTP of RWM,NRB, BARC, Tarapur",
+      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
+      "buyer": "Nuclear Recycle Board",
+      "publishedAt": "2026-07-15T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHl9TQKlbtV7SlXpmB3pSjA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -152,14 +42,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NRB_917525_1",
-      "title": "Fabrication and Installation of a SS Valve Cubicle for a Waste Receiving Station located in the Old Tank Yard at LWTP of RWM,NRB, BARC, Tarapur",
-      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
-      "buyer": "Nuclear Recycle Board",
-      "publishedAt": "2026-07-15T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T06:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHl9TQKlbtV7SlXpmB3pSjA%3D%3D",
+      "tenderRef": "2025_DARE_875651_2",
+      "title": "Repair of crossing block lights and replacement of Damaged Cable",
+      "organisationChain": "Department of Agricultural Research and Education||Indian Council of Agricultural Research,DoARE,MoA||CPRI-Shimla-ICAR-DoARE||Patna-CPRS",
+      "buyer": "Department of Agricultural Research and Education",
+      "publishedAt": "2026-07-03T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T08:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWe1YioS5CREZTFcq5GdLKA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -174,28 +64,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2025_DARE_875651_2",
-      "title": "Repair of crossing block lights and replacement of Damaged Cable",
-      "organisationChain": "Department of Agricultural Research and Education||Indian Council of Agricultural Research,DoARE,MoA||CPRI-Shimla-ICAR-DoARE||Patna-CPRS",
-      "buyer": "Department of Agricultural Research and Education",
-      "publishedAt": "2026-07-03T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T08:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWe1YioS5CREZTFcq5GdLKA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DDA_916556_1",
-      "title": "M/O Completed Scheme under Nazul A/C -II.(North Zone)",
-      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-8-Vikas Minar-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-07-08T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDLwrF8MjpRcJ4olvubh%2B%2Fw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_DDA_917185_1",
       "title": "Construction of 40 m and 60 m ROW Master Plan Road in Sector G-2/G-6, Narela. (through contigencies)",
       "organisationChain": "Delhi Development Authority||CE-Rohini Zone-DDA||EE(RPD-7)-Madhuban Chowk-Sec-14-Rohini-DDA",
@@ -207,25 +75,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_CWC_917605_1",
-      "title": "Fabrication and installation of Retro-Reflective sign boards, Direction boards and Salient feature boards for HO sites of MISD-I, CWC, Shillong under MID, CWC, Shillong",
-      "organisationChain": "Central Water Commission- DoWR RD and GR||Brahmaputra and Barak Basin Organisation - Shillong||SE Meghna Circle - Silchar||Meghna Investigation Division - Shillong",
-      "buyer": "Central Water Commission- DoWR RD and GR",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "tenderRef": "2026_TMC_912953_1",
+      "title": "Supply, Installation, Testing and Commissioning of Fire Alarm System for Pump Houses at ACTREC",
+      "organisationChain": "Tata Memorial Centre||ACTREC Kharghar Navi Mumbai",
+      "buyer": "Tata Memorial Centre",
+      "publishedAt": "2026-06-13T08:00:00.000Z",
       "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sk%2F1dFTQgfnj9c50gktFRRA%3D%3D",
+      "tenderOpensAt": "2026-07-27T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIrJYhO7%2BLmABmt5n92E8YA%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DDA_917109_1",
-      "title": "M o Various Colonies Under Nazul Account-II Dwarka Zone",
-      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-5-Dwarka-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-07-13T10:30:00.000Z",
+      "tenderRef": "2026_ISRTP_914116_1",
+      "title": "TENDER FORCATERINGANDALLIEDSERVICES FOR DINING HALL NORTH INDIAN AT IISERTIRUPATI",
+      "organisationChain": "Indian Institute of Science Education and Research - Tirupati",
+      "buyer": "Indian Institute of Science Education and Research - Tirupati",
+      "publishedAt": "2026-06-20T13:25:00.000Z",
       "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5YrGMSz6amr4t5oWthw5qQ%3D%3D",
+      "tenderOpensAt": "2026-07-27T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SH3S%2BjYHcFPF2PzWtYcbMtQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -240,17 +108,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DDA_916908_1",
-      "title": "M/o Completed scheme under Nazul A/C-II Hort. Zone.",
-      "organisationChain": "Delhi Development Authority||CE-Dwarka Zone-DDA||EE-WD-2-Janak Puri-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-07-10T11:00:00.000Z",
-      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
-      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzlKW57fzl8kU4UTT%2FvMCLA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_DDA_918077_1",
       "title": "M/o Completed scheme under N/A-II Hort. Zone.",
       "organisationChain": "Delhi Development Authority||CE-East Zone-DDA||EE(Eastern Division no-4)-Karkardooma-DDA",
@@ -259,6 +116,83 @@
       "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
       "tenderOpensAt": "2026-07-27T10:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SsuKD%2BEeMxrbnN7wu9DJHYA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_HURL_917983_1",
+      "title": "Procurement of flexible coupling for lube oil pump of purifier expander. 131-JX",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||Gorakhpur-UP - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-07-17T13:05:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1zGeIo7GjPqyVxcPDr5X9Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_918007_1",
+      "title": "M/o Scheme under Nazul A/C-II, Hort. Zone.",
+      "organisationChain": "Delhi Development Authority||CE-Rohini Zone-DDA||EE(RPD-1)-Deepali Chowk-Sec-3-Rohini-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-07-18T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-26T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeZ%2Fdjv8FxuppWoeG41SG7A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_916556_1",
+      "title": "M/O Completed Scheme under Nazul A/C -II.(North Zone)",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-8-Vikas Minar-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-07-08T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDLwrF8MjpRcJ4olvubh%2B%2Fw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_918080_1",
+      "title": "M/o Completed scheme under N/A-II Hort. Zone",
+      "organisationChain": "Delhi Development Authority||CE-East Zone-DDA||EE(Eastern Division no-4)-Karkardooma-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-07-18T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScOr1u6dE%2B6G4qGMEH45b7w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DAE_901964_3",
+      "title": "Setting up of conference room and Lecture hall in Ramanujan Guest House at TIFR Mumbai",
+      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
+      "buyer": "Department of Atomic Energy",
+      "publishedAt": "2026-07-10T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Ss3gNudl1Pwn7AQRxbxF1JQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_HWB_917271_1",
+      "title": "Replacement of piping and structural supports at HWPT",
+      "organisationChain": "Heavy Water Board||Heavy Water Plant Tuticorin",
+      "buyer": "Heavy Water Board",
+      "publishedAt": "2026-07-15T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSGKmIO0Apl3uEioqDSV9jg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_916978_1",
+      "title": "M/O completed Scheme under Narela Zone.",
+      "organisationChain": "Delhi Development Authority||CE-Rohini Zone-DDA||EE(RPD-7)-Madhuban Chowk-Sec-14-Rohini-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-07-11T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-26T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SK8IBktujnx%2Be0LybnVDk%2Fg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -273,14 +207,80 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_HWB_917271_1",
-      "title": "Replacement of piping and structural supports at HWPT",
-      "organisationChain": "Heavy Water Board||Heavy Water Plant Tuticorin",
-      "buyer": "Heavy Water Board",
-      "publishedAt": "2026-07-15T04:30:00.000Z",
+      "tenderRef": "2026_DDA_917109_1",
+      "title": "M o Various Colonies Under Nazul Account-II Dwarka Zone",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-5-Dwarka-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-07-13T10:30:00.000Z",
       "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
-      "tenderOpensAt": "2026-07-30T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSGKmIO0Apl3uEioqDSV9jg%3D%3D",
+      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5YrGMSz6amr4t5oWthw5qQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_917153_1",
+      "title": "M/o various parks (296.38) acres under North zone and East Zone.",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(EI)/ED-13-Near Hasanpur Depot-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-07-13T11:40:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmNIHlab3hPtazn8Zq8njJg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DMRC_917002_1",
+      "title": "CPM4/2026-27/01",
+      "organisationChain": "Delhi Metro Rail Corporation Limited||CPM-4 - DMRC",
+      "buyer": "Delhi Metro Rail Corporation Limited",
+      "publishedAt": "2026-07-11T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S69M2JAXDfd9eghASCwpEWg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_918062_1",
+      "title": "MC and EW (CAM) Special Repairs to Hazara Ramachandra Temple (Pathway and Stone Flooring) at Kamalapur for the year 2025-26.",
+      "organisationChain": "Archaeological Survey of India||O/o Dy. SA-ASI-Mini Circle Hampi-Hampi",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-07-18T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SclEU1W8eX47%2BB%2FeRKBBs5A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_HURL_917937_1",
+      "title": "Procurement of spares for secondary reformer jacket cooling water pump 181-J/JA",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||Gorakhpur-UP - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-07-17T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SYAQGEncujwZuiQOwJ%2B5C6g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NHDC_916571_1",
+      "title": "Repair works of Nallah near 11KV substation at Urja Vihar Parishar of Omkareshwar Power station",
+      "organisationChain": "NHDC Ltd.||Omakareshwar Power Station",
+      "buyer": "NHDC Ltd.",
+      "publishedAt": "2026-07-09T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-28T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SB4iQ0UeWpxaeedgLai0DOg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IMSRP_914732_1",
+      "title": "Supply of Lead Lined Foot Operated Waste Bin with Shielding and Lead Line Mobile Barrier Iodine",
+      "organisationChain": "All India Institute of Medical Sciences-Raipur||Administrative Department - AIIMS Raipur",
+      "buyer": "All India Institute of Medical Sciences-Raipur",
+      "publishedAt": "2026-06-25T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-25T09:30:00.000Z",
+      "tenderOpensAt": "2026-07-27T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUlCkeGsZOiPJ7rPmHfNdqQ%3D%3D",
       "matchedKeywords": []
     }
   ]
