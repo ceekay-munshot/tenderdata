@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-07-27T07:41:20.907Z",
-  "durationMs": 31802,
+  "fetchedAt": "2026-07-27T11:34:10.067Z",
+  "durationMs": 37298,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 25,
   "totalScanned": 1250,
-  "relevantCount": 1160,
+  "relevantCount": 1161,
   "tenders": [
     {
       "tenderId": "f294ad61-3b90-42c9-a086-c902dc5c9ffa",
@@ -1387,7 +1387,7 @@
       "value": 19791100000,
       "emd": 197900000,
       "bidDeadline": "2026-08-27T05:30:00.000Z",
-      "postedAt": "2026-07-09T05:55:00.000Z",
+      "postedAt": "2026-07-09T11:45:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -1772,7 +1772,7 @@
       "value": 14600000000,
       "emd": 146000000,
       "bidDeadline": "2026-08-24T05:30:00.000Z",
-      "postedAt": "2025-07-03T13:00:00.000Z",
+      "postedAt": "2026-07-27T09:53:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction",
@@ -2094,7 +2094,7 @@
       "value": 12725873216,
       "emd": 500000,
       "bidDeadline": "2026-08-21T11:30:00.000Z",
-      "postedAt": "2026-05-12T01:06:00.000Z",
+      "postedAt": "2026-05-12T12:30:00.000Z",
       "sectorNames": [
         "Real Estate Service"
       ],
@@ -2168,7 +2168,7 @@
       "state": "Uttar Pradesh",
       "value": 12450000000,
       "emd": 30000000,
-      "bidDeadline": "2026-07-28T11:30:00.000Z",
+      "bidDeadline": "2026-08-17T11:30:00.000Z",
       "postedAt": "2026-06-11T04:00:00.000Z",
       "sectorNames": [
         "Automobiles and Auto Parts"
@@ -2789,7 +2789,7 @@
       "value": 9592500000,
       "emd": 95900000,
       "bidDeadline": "2026-08-20T05:30:00.000Z",
-      "postedAt": "2026-07-07T05:55:00.000Z",
+      "postedAt": "2026-07-07T05:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Bridge Construction"
@@ -3714,7 +3714,7 @@
       "state": "Gujarat",
       "value": 7493900000,
       "emd": 74900000,
-      "bidDeadline": "2026-07-31T05:30:00.000Z",
+      "bidDeadline": "2026-09-02T05:30:00.000Z",
       "postedAt": "2026-03-16T09:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -4512,25 +4512,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "3ff869db-5744-4bbc-8ab0-952c5ede7ab0",
-      "refNo": "NIT No JVVNL PMSG ULA TN 01 2026 27",
-      "title": "Rooftop Solar Installation And Maintenance",
-      "buyer": "Jaipur Vidyut Vitran Nigam Limited",
-      "procurementSource": "EPROCURE",
-      "state": "Rajasthan",
-      "value": 6275000000,
-      "emd": 125500000,
-      "bidDeadline": "2026-07-29T11:30:00.000Z",
-      "postedAt": "2026-07-09T03:30:00.000Z",
-      "sectorNames": [
-        "Energy, Oil and Gas",
-        "Solar Installation and Products",
-        "Electrical and Electronics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/jaipur-vidyut-vitran-nigam-limited/detail-3ff869db-5744-4bbc-8ab0-952c5ede7ab0",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "8f8551ba-e3ee-46af-921b-d416a7dff32c",
       "refNo": "TN-DSM-115",
       "title": "Desit And C Of 100000 Nos Of Consumers Through Net Metering And Oandm For 5 Years With Additional 5 Years By Competitive Bidding For Grid Connected Rooftop Solar Plants Through Capex Mode In Jodhpur Discom",
@@ -4543,6 +4524,25 @@
       "postedAt": "2026-07-09T03:30:00.000Z",
       "sectorNames": [],
       "detailUrl": "https://bidassist.com/global-tenders/jodhpur-vidyut-vitran-nigam-limited/detail-8f8551ba-e3ee-46af-921b-d416a7dff32c",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "3ff869db-5744-4bbc-8ab0-952c5ede7ab0",
+      "refNo": "NIT No JVVNL PMSG ULA TN 01 2026 27",
+      "title": "Rooftop Solar Installation And Maintenance",
+      "buyer": "Jaipur Vidyut Vitran Nigam Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Rajasthan",
+      "value": 6275000000,
+      "emd": 125500000,
+      "bidDeadline": "2026-07-29T11:30:00.000Z",
+      "postedAt": "2026-07-27T09:13:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Solar Installation and Products",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/jaipur-vidyut-vitran-nigam-limited/detail-3ff869db-5744-4bbc-8ab0-952c5ede7ab0",
       "matchedKeywords": []
     },
     {
@@ -5014,7 +5014,7 @@
       "value": 5768620829,
       "emd": 14237242,
       "bidDeadline": "2026-08-10T11:30:00.000Z",
-      "postedAt": "2026-07-21T04:30:00.000Z",
+      "postedAt": "2026-07-21T09:54:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Civil Works Others",
@@ -7770,7 +7770,7 @@
       "value": 2940498866,
       "emd": 88214966,
       "bidDeadline": "2026-09-07T06:30:00.000Z",
-      "postedAt": "2026-07-22T05:55:00.000Z",
+      "postedAt": "2026-07-22T09:53:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Civil Works Others",
@@ -8486,7 +8486,7 @@
       "state": "Tamil Nadu",
       "value": 2535000000,
       "emd": 25000000,
-      "bidDeadline": "2026-07-28T11:30:00.000Z",
+      "bidDeadline": "2026-08-17T11:30:00.000Z",
       "postedAt": "2026-02-23T10:30:00.000Z",
       "sectorNames": [
         "Software and IT Solutions"
@@ -10103,7 +10103,7 @@
       "value": 2088241000,
       "emd": 41764900,
       "bidDeadline": "2026-08-19T09:30:00.000Z",
-      "postedAt": "2026-07-15T05:11:00.000Z",
+      "postedAt": "2026-07-15T05:30:00.000Z",
       "sectorNames": [
         "Metals and Non-Metals"
       ],
@@ -10495,25 +10495,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "b15b3bbb-7cc6-470e-83fd-ca7dea9521e7",
-      "refNo": "GEM/2026/B/7480534",
-      "title": "CATEGORY: Hiring of Consultants - Milestone/Deliverable Based - PM- SETU - Selection of Anchor Industry Partner (Non-Hiring Service) for Cluster-7 (Hub ITI, Vijayawada and 3 Spoke ITIs) - Andhra Pradesh State; PPP and Financial Modelling, PPP Expert, Organizat..",
-      "buyer": "Labour Employment Training And Factories Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "GEM",
-      "state": "Andhra Pradesh",
-      "value": 2000000000,
-      "emd": 6800000,
-      "bidDeadline": "2026-08-14T11:30:00.000Z",
-      "postedAt": "2026-04-27T10:13:25.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-b15b3bbb-7cc6-470e-83fd-ca7dea9521e7",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "d90435fa-464e-44f7-9137-5fd5cdc92134",
       "refNo": "GEM/2026/B/7480936",
       "title": "CATEGORY: Hiring of Consultants - Milestone/Deliverable Based - PM- SETU - Selection of Anchor Industry Partner (Non-Hiring Service) for Cluster-12 (Hub ITI, Santhipuram and 3 Spoke ITIs) - Andhra Pradesh State; PPP and Financial Modelling, PPP Expert, Organiz..",
@@ -10549,6 +10530,25 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-debcbf67-ea63-4cdb-a6bd-0c5bf12d73b3",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "b15b3bbb-7cc6-470e-83fd-ca7dea9521e7",
+      "refNo": "GEM/2026/B/7480534",
+      "title": "CATEGORY: Hiring of Consultants - Milestone/Deliverable Based - PM- SETU - Selection of Anchor Industry Partner (Non-Hiring Service) for Cluster-7 (Hub ITI, Vijayawada and 3 Spoke ITIs) - Andhra Pradesh State; PPP and Financial Modelling, PPP Expert, Organizat..",
+      "buyer": "Labour Employment Training And Factories Department",
+      "purchaserGroup": "Education",
+      "procurementSource": "GEM",
+      "state": "Andhra Pradesh",
+      "value": 2000000000,
+      "emd": 6800000,
+      "bidDeadline": "2026-08-14T11:30:00.000Z",
+      "postedAt": "2026-04-27T10:13:25.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-b15b3bbb-7cc6-470e-83fd-ca7dea9521e7",
       "matchedKeywords": []
     },
     {
@@ -12052,7 +12052,7 @@
       "value": 1777400000,
       "emd": 17800000,
       "bidDeadline": "2026-08-10T05:30:00.000Z",
-      "postedAt": "2026-07-10T05:58:00.000Z",
+      "postedAt": "2026-07-10T13:25:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Drainage Work"
@@ -12487,7 +12487,7 @@
       "state": "Gujarat",
       "value": 1680000000,
       "emd": 20000000,
-      "bidDeadline": "2026-07-29T10:30:00.000Z",
+      "bidDeadline": "2026-08-08T10:30:00.000Z",
       "postedAt": "2026-06-20T07:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -14261,7 +14261,7 @@
       "value": 1375500000,
       "emd": 5000000,
       "bidDeadline": "2026-08-13T09:30:00.000Z",
-      "postedAt": "2026-07-14T11:30:00.000Z",
+      "postedAt": "2026-07-27T09:53:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas",
         "Metals and Non-Metals"
@@ -15160,7 +15160,7 @@
       "value": 1309827000,
       "emd": 5000000,
       "bidDeadline": "2026-08-03T12:00:00.000Z",
-      "postedAt": "2026-06-09T12:40:00.000Z",
+      "postedAt": "2026-06-09T09:50:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Pipe Line Project"
@@ -16922,7 +16922,7 @@
       "value": 1127666869,
       "emd": 22553000,
       "bidDeadline": "2026-07-30T05:30:00.000Z",
-      "postedAt": "2026-06-15T10:00:00.000Z",
+      "postedAt": "2026-07-27T09:53:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -18151,6 +18151,25 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/odisha-power-transmission-corporation-limited/detail-68bbc302-d0b1-43d8-98b2-2d385e0d685d",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "d5e839f6-e439-4ae6-b634-eccefa73cf34",
+      "refNo": "rc26-46550306",
+      "title": "Rate Contract For Copper Contact Wire 107 Sq.mm.",
+      "buyer": "Northern Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Rajasthan",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-08-24T05:30:00.000Z",
+      "postedAt": "2026-07-27T07:46:00.000Z",
+      "sectorNames": [
+        "Electrical Cables And Wires",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/northern-railway/detail-d5e839f6-e439-4ae6-b634-eccefa73cf34",
       "matchedKeywords": []
     },
     {
