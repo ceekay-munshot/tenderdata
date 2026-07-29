@@ -1,9 +1,301 @@
 {
-  "fetchedAt": "1970-01-01T00:00:00.000Z",
-  "durationMs": 0,
-  "ok": false,
-  "error": "Not yet scraped — awaiting first GitHub Actions run.",
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": []
+  "fetchedAt": "2026-07-29T10:47:39.487Z",
+  "durationMs": 91927,
+  "ok": true,
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 349,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_NHPC_914891_1",
+      "title": "Fencing work around the office-cum-residential complex, construction of a gabion structure behind Prefab Block-1, construction of R.R. masonry boundary wall, and plinth protection work around Prefab Block-1 for the Sawalkote Hydroelectric Project",
+      "organisationChain": "NHPC Limited||Sawalkote HE Project - NHPC",
+      "buyer": "NHPC Limited",
+      "publishedAt": "2026-06-27T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-31T12:30:00.000Z",
+      "tenderOpensAt": "2026-08-05T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvDbLiJl0WVqrz2jA9DzxDw%3D%3D",
+      "matchedKeywords": [
+        "hydroelectric"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_WBNPI_916011_1",
+      "title": "50 KN Universal Testing Machine",
+      "organisationChain": "National Project Implementation Unit - World Bank Tenders||PSG COLLEGE OF TECHNOLOGY COIMBATORE",
+      "buyer": "National Project Implementation Unit - World Bank Tenders",
+      "publishedAt": "2026-07-08T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScBYKGmW1%2Bhe0rVLyyjcOdQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CURAJ_916298_1",
+      "title": "Supply and Installation of Dilution Sampling System with Portable CO2 Analyzer and Pitot Tube",
+      "organisationChain": "Central University of Rajasthan",
+      "buyer": "Central University of Rajasthan",
+      "publishedAt": "2026-07-08T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T11:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZH%2B72s7k4iHFsVVksc%2Bxvg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_WBNPI_916422_1",
+      "title": "Rehabilitation and waterproofing treatment to Administrative building at VNIT, Nagpur.",
+      "organisationChain": "National Project Implementation Unit - World Bank Tenders||Visvesvaraya National Institute of Technology Nagpur",
+      "buyer": "National Project Implementation Unit - World Bank Tenders",
+      "publishedAt": "2026-07-08T07:35:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCg%2BshwaE2do0%2Fj2uhTIwBQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ESIC_916671_1",
+      "title": "EOI FOR EMPANELMENT OF HOSPITAL FOR SST AND SECONDRY CARE SERVICES FROM CENTRAL AND STATE GOVT./PSU/PUBLIC SECTOR HOSPITALS, PM-JAY CGHS EMPANELLED HOSPITALS/INSTITUTIONS AND PRIVATE HEALTH CARE ORGANIZATIONS (HCOs) IN WEST CHAMPARAN DIST OF BIHAR",
+      "organisationChain": "Employees State Insurance Corporation||R.O. Bihar",
+      "buyer": "Employees State Insurance Corporation",
+      "publishedAt": "2026-07-09T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T11:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1oZChl1XPUpLrWPFSpEpYg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_916728_1",
+      "title": "Provision of pathway and other public amenities at the temples of Nilamadhava and Siddheswara at Gandharadi, Boudh for 2025-26.",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Bhubaneswar Circle-Bhubaneswar",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-07-09T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T12:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sg8VPLlzCczLIQOUmO2b8qw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_WBNPI_916396_1",
+      "title": "REHABILITATION AND WATER PROOFING TREATMENT TO J.C. BOSE HOSTEL AT VNIT, NAGPUR.",
+      "organisationChain": "National Project Implementation Unit - World Bank Tenders||Visvesvaraya National Institute of Technology Nagpur",
+      "buyer": "National Project Implementation Unit - World Bank Tenders",
+      "publishedAt": "2026-07-08T07:00:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOFtqvKDTREq%2BdK8%2FGMW6Xg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ESIC_916637_1",
+      "title": "EOI FOR EMPANELMENT OF HOSPITAL FOR SST AND SECONDRY CARE SERVICES FROM CENTRAL AND STATE GOVT./PSU/PUBLIC SECTOR HOSPITALS, PM-JAY CGHS EMPANELLED HOSPITALS/INSTITUTIONS AND PRIVATE HEALTH CARE ORGANIZATIONS (HCOs) IN SHEIKHPURA DIST OF BIHAR",
+      "organisationChain": "Employees State Insurance Corporation||R.O. Bihar",
+      "buyer": "Employees State Insurance Corporation",
+      "publishedAt": "2026-07-09T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T11:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNcvs863AYlxrgrRTakuBpQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NHPC_916395_1",
+      "title": "Hill Slope Stabilization work of Slide Area in front of Intake structure on left bank, Dul Dam at DPS Kishtwar",
+      "organisationChain": "NHPC Limited||Dulhasti Power Station-NHPC",
+      "buyer": "NHPC Limited",
+      "publishedAt": "2026-07-08T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-08-01T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQtVbi9h1zdfgKZauy2mB2g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NIMSM_917599_1",
+      "title": "Training and Technical Support to CRP-EP and BDSP under the SVEP/OSF Programme across 45 blocks in Chhattisgarh (CGSRLM-Bihan)",
+      "organisationChain": "National Institute for Micro Small and Medium Enterprises",
+      "buyer": "National Institute for Micro Small and Medium Enterprises",
+      "publishedAt": "2026-07-15T11:50:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T11:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sj9AqVbB2Ksof%2Bf5HCVGPAA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_916714_1",
+      "title": "Public amenities at Paschima Somanatha, Bhubanesvara and Kapileswar Temple, Boudh for 2025-26.",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Bhubaneswar Circle-Bhubaneswar",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-07-09T12:40:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T12:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmFReyzIWlizPLqpoJrIGVA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IMSBP_916197_1",
+      "title": "AIIMS/BPL/2026-27/36",
+      "organisationChain": "All India Institute of Medical Sciences-Bhopal",
+      "buyer": "All India Institute of Medical Sciences-Bhopal",
+      "publishedAt": "2026-07-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T11:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T12:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Shvx9pjRmDILS%2FKyIysHwfw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DREV_916403_1",
+      "title": "Tender for Hardware and Software",
+      "organisationChain": "Department of Revenue||Central Board of Excise and Customs||DGARM Mumbai",
+      "buyer": "Department of Revenue",
+      "publishedAt": "2026-07-08T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T12:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMRGEl7%2FtZlqxPpZcBX0Qrg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_918653_2",
+      "title": "Improvement of Semi-Permanent Structure old officers mess at BSF Campus Kadamtala under FTR HQ BSF North Bengal (SH EI and Fans).",
+      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-23T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STlvTZlqqy5zd8yGOtt6yeQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_918087_1",
+      "title": "Construction of parking shed near training block at CEDCO BSF Bangalore.",
+      "organisationChain": "DG,BSF,MHA||STC BSF Bangalore-BSF-MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-20T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNf9udjys6FhFS2kJ8zxP8A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_918425_3",
+      "title": "Filtering dehydration and refilling of transformer oil in transformer installed in Sub-station of STC BSF North Bengal.",
+      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-21T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SG18pV5wBzY6fz72FUM2Ygw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_919200_1",
+      "title": "PRE-TENDER MEET FOR PIPES FOR LMBU PROJECT OF HPCL",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-07-27T12:10:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-29T12:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3A1W5tVqohXPJjBV09kScA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSNL_918881_1",
+      "title": "protection shed dampier nagar mathura",
+      "organisationChain": "Bharat Sanchar Nigam Limited||CGMT,UP(WEST) Telecom Circle, Meerut,BSNL||CE(Civil),UP(WEST) Telecom Circle,Meerut,BSNL",
+      "buyer": "Bharat Sanchar Nigam Limited",
+      "publishedAt": "2026-07-24T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SYvxwQPTSgs9moQJLDPFaZw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DHSGS_918511_1",
+      "title": "Repair and renovation of various quarters at University premises",
+      "organisationChain": "Dr. Harisingh Gour Vishwavidyalaya||Internal Works Department - DHSGSU",
+      "buyer": "Dr. Harisingh Gour Vishwavidyalaya",
+      "publishedAt": "2026-07-22T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-08-04T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sr5SJSqGjmVM34TTeDq8YCA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_918425_2",
+      "title": "Providing illumination with LED flood lights in children Park at STC BSF North Bengal.",
+      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-21T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdSzMhc%2FB23ugbrmF%2F%2F2VBQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AIMSM_915048_1",
+      "title": "Supply of Blood Bags on Rate Contract Basis for a period of One (01) year for the department of Transfusion Medicine and Hemotherapy at AIIMS Mangalagiri",
+      "organisationChain": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh||Procurement Cell - AIIMS Mangalagiri",
+      "buyer": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh",
+      "publishedAt": "2026-06-29T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T12:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjHoWvRizAjqyDdgnWMyjjA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_915410_1",
+      "title": "Comprehensive Renovation and Modernization of the Auditorium in the Department of Electrical Engineering, IIT Roorkee including Civil and E and M Works under Composite Contract",
+      "organisationChain": "Indian Institute of Technology Roorkee||Estate and Works - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-07-02T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T12:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJg2LWWDbdfFRVULr%2FNjPfA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_918425_1",
+      "title": "Replacement of defective LED Lights in existing HML installed at STC BSF North Bengal.",
+      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-21T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUU77Pcq7ys8oxvmDzAhx6g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_918365_1",
+      "title": "Repair and maintenance Electrical side of temporary structure Jawan barrack at BOP Ryngku at BOP Mukamchhera of 2 BN BSF under SHQ BSF Jowai",
+      "organisationChain": "DG,BSF,MHA||Srinagar FTR(Srinagar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-21T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyWE0sIHSfCmSVedrjkJYLQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BARC_915049_1",
+      "title": "Civil upgradation works 2026-27 of HLUD at South Site, BARC, Trombay, Mumbai 400085",
+      "organisationChain": "Bhabha Atomic Research Centre||Bhabha Atomic Research Centre Mumbai||Hot Lab Utility and Engineering Services Section",
+      "buyer": "Bhabha Atomic Research Centre",
+      "publishedAt": "2026-07-01T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-31T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXVseQXz6Oq4mpkmnQ6I%2BYQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_916464_1",
+      "title": "Providing treated water pipeline for the use of treated/recycled water from STP for irrigation and Flushing 3rd Phase at IIT Roorkee",
+      "organisationChain": "Indian Institute of Technology Roorkee||Estate and Works - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-07-08T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-07-29T12:30:00.000Z",
+      "tenderOpensAt": "2026-07-30T12:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SETZiHYlfgZ6hmZzYzUGhGQ%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
