@@ -1,26 +1,12 @@
 {
-  "fetchedAt": "2026-08-07T17:01:30.319Z",
-  "durationMs": 141004,
+  "fetchedAt": "2026-08-07T20:50:45.136Z",
+  "durationMs": 49689,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 336,
-  "relevantCount": 1,
-  "tenders": [
-    {
-      "tenderRef": "2026_PDIL_917776_1",
-      "title": "EPC WORK FOR 33 kV OVERHEAD TRANSMISSION LINE AND ASSOCIATED SYSTEM FOR CONSTRUCTION POWER REQUIREMENT BCGCL",
-      "organisationChain": "Projects and Development India Limited, Fert||Corporate Office,Noida,PDIL,Fert",
-      "buyer": "Projects and Development India Limited, Fert",
-      "publishedAt": "2026-07-16T11:45:00.000Z",
-      "bidSubmissionCloses": "2026-08-11T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StaeJ3iwUQtnruhPcnnWQ7A%3D%3D",
-      "matchedKeywords": [
-        "transmission line"
-      ]
-    }
-  ],
+  "totalRowsParsed": 341,
+  "relevantCount": 0,
+  "tenders": [],
   "sampleRows": [
     {
       "tenderRef": "2026_EIL_920792_1",
@@ -42,6 +28,83 @@
       "bidSubmissionCloses": "2026-08-08T04:30:00.000Z",
       "tenderOpensAt": "2026-08-10T06:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SxmpX1JfwuzvauIrIAABPVw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_919237_2",
+      "title": "Construction of 02 Nos semi permanent toilets cum Bathrooms at KLP Khurda (Bn HQ 02 Bn BSF) (Now 110 Bn BSF) under SHQ BSF Chennai",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-28T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmgQf%2FFUAlBCiy2V6aF7wQA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920225_1",
+      "title": "Repair Reconstruction of damaged septic tanks Manholes and sewer lines etc BOP Sadartilla Kakripara Jhalachar Diara Sanjay sadhu Deepchar and Ashmeralga of 183 BN BSF under SHQ BSF Dhubri",
+      "organisationChain": "DG,BSF,MHA||Guwahati FTR(Guwahati),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-01T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T11:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeoiKZGeFIjVAeBA07el2ww%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_920175_1",
+      "title": "Renovation work in Institute of Persian",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-08-01T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIYQmZgQD35x%2BbRXMkJK22A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_920176_1",
+      "title": "Renovation of TPO Building Convention Centre ZHCET AMU Aligarh",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-08-01T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SM8wKMXTxT26ji5aQ6YEO2w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DAE_913740_2",
+      "title": "Procurement of 3 GHz RF Signal Generator",
+      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
+      "buyer": "Department of Atomic Energy",
+      "publishedAt": "2026-07-24T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeR74ipggn8MnCQmz%2Fum%2FUQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_919212_1",
+      "title": "Improvement of toilet of SOs mess at KLP Khurdha (Bn HQ 02 Bn BSF) (now 110 Bn BSF) under SHQ BSF Chennai",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-27T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCN040kIZwYZ0p7yg5WaSWg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920250_1",
+      "title": "Construction of deep borewell near boundary wall adjoining Gate No. 03 at BSF Campus FTR HQ BSF Jalandhar PB( SH-SITC of submersible Pumpset and accessories)",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-03T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SClaew41T2LMqu5YpSNDYTw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -67,72 +130,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DAE_913740_2",
-      "title": "Procurement of 3 GHz RF Signal Generator",
-      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
-      "buyer": "Department of Atomic Energy",
-      "publishedAt": "2026-07-24T06:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeR74ipggn8MnCQmz%2Fum%2FUQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_920175_1",
-      "title": "Renovation work in Institute of Persian",
-      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-08-01T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIYQmZgQD35x%2BbRXMkJK22A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ESIC_918008_1",
-      "title": "Special repair works for the reconstruction of the damaged boundary wall",
-      "organisationChain": "Employees State Insurance Corporation||ESIC Hospital and Medical College-Sanathnagar Telangana||Construction Branch",
-      "buyer": "Employees State Insurance Corporation",
-      "publishedAt": "2026-07-18T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2%2Bea0W46AHiXy12Wy6iGxA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_919237_2",
-      "title": "Construction of 02 Nos semi permanent toilets cum Bathrooms at KLP Khurda (Bn HQ 02 Bn BSF) (Now 110 Bn BSF) under SHQ BSF Chennai",
-      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-28T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmgQf%2FFUAlBCiy2V6aF7wQA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_919212_1",
-      "title": "Improvement of toilet of SOs mess at KLP Khurdha (Bn HQ 02 Bn BSF) (now 110 Bn BSF) under SHQ BSF Chennai",
-      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-27T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCN040kIZwYZ0p7yg5WaSWg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_920176_1",
-      "title": "Renovation of TPO Building Convention Centre ZHCET AMU Aligarh",
-      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-08-01T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SM8wKMXTxT26ji5aQ6YEO2w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_BSF_920012_1",
       "title": "IMPROVEMENT AND PROVIDING OF ESSENTIAL ELECTRICAL SERVICE CONNECTION TO THE MULTIPURPOSE HALL AT BSF CAMPUS UMPLING UNDER FTR HQ BSF MEGHALAYA(SH PROVIDING AND FIXING OF EI FANS SERVICE CONNECTION)",
       "organisationChain": "DG,BSF,MHA||Meghalya FTR(Shillong),BSF,MHA",
@@ -141,28 +138,6 @@
       "bidSubmissionCloses": "2026-08-08T06:30:00.000Z",
       "tenderOpensAt": "2026-08-10T06:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SYUSAfTsUUX56wbysz1mivA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_919642_1",
-      "title": "Term Contract for repair/maint and periodical service of ORs Md living accn at Bn HQ KLP Moreh of 36 Assam Rifles (Manipur)",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-29T07:50:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T07:00:00.000Z",
-      "tenderOpensAt": "2026-08-10T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCwSsA%2FmK%2Fu47QcD7Tc%2F8RA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_919679_1",
-      "title": "Repair of Septic Tank, Manhole Chambers and cleaning of septic tank including connected sewerage pipeline in Non Resdl bldgs at Bn HQ KLP Moreh of 36 Assam Rifles",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-29T09:45:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T07:00:00.000Z",
-      "tenderOpensAt": "2026-08-10T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5ie%2ByvBcJwnS5R3N3gJpjg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -177,36 +152,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FCI_919761_1",
-      "title": "Systematic maintenance of railway siding at FSD Mavelikkara for the year 2026 27",
-      "organisationChain": "Food Corporation of India||Regional Office,Kerela,FCI,MFPD",
-      "buyer": "Food Corporation of India",
-      "publishedAt": "2026-07-29T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvoMe0v1yzaS8lWSruubb%2FA%3D%3D",
+      "tenderRef": "2026_ARMHA_919679_1",
+      "title": "Repair of Septic Tank, Manhole Chambers and cleaning of septic tank including connected sewerage pipeline in Non Resdl bldgs at Bn HQ KLP Moreh of 36 Assam Rifles",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-29T09:45:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T07:00:00.000Z",
+      "tenderOpensAt": "2026-08-10T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5ie%2ByvBcJwnS5R3N3gJpjg%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IISER_920113_1",
-      "title": "IISER-K/PurEnq/470/G/DCS/26-27",
-      "organisationChain": "Indian Institute of Science Education and Research - Kolkata||Administration - IISER - Kolkata",
-      "buyer": "Indian Institute of Science Education and Research - Kolkata",
-      "publishedAt": "2026-07-31T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Scq36ay3QT9d3z9hV319mqg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NFC_919154_1",
-      "title": "ZC/NFC/SPF/ED/2026/Chloride",
-      "organisationChain": "Nuclear Fuel Complex||Nuclear Fuel Complex Pazhayakayal",
-      "buyer": "Nuclear Fuel Complex",
-      "publishedAt": "2026-07-27T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZ0nZebKi9S5VYCbOHzXHAw%3D%3D",
+      "tenderRef": "2026_ARMHA_919642_1",
+      "title": "Term Contract for repair/maint and periodical service of ORs Md living accn at Bn HQ KLP Moreh of 36 Assam Rifles (Manipur)",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-29T07:50:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T07:00:00.000Z",
+      "tenderOpensAt": "2026-08-10T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCwSsA%2FmK%2Fu47QcD7Tc%2F8RA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -221,25 +185,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FACT_916989_1",
-      "title": "AMC for weigh scales in FACT Petrochemical plant-UC",
-      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
-      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-07-11T08:30:00.000Z",
+      "tenderRef": "2026_RCFL_918013_1",
+      "title": "Annual Rate Contract for Miscellaneous Civil Maintenance Works in Three Groups, inside Rashtriya Chemicals and Fertilizers Limited Trombay Factory, Chembur, Mumbai-400074",
+      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
+      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
+      "publishedAt": "2026-07-18T08:30:00.000Z",
       "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ST8jjtZfXRI8vnfwaAxeaJA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_FCI_919567_1",
-      "title": "Repair maintenance of QCC building, and shed no 3 and 5 along with replacement of valley gutter of shed 5, rolling shutters, water supply and other misc work at FSD Dighaghat",
-      "organisationChain": "Food Corporation of India||Regional Office, Bihar,FCI,MFPD||Information Technology Dn,Bihar,FCI",
-      "buyer": "Food Corporation of India",
-      "publishedAt": "2026-07-28T12:15:00.000Z",
-      "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBTJPQ4mhnGTVz16P9vjVAg%3D%3D",
+      "tenderOpensAt": "2026-08-08T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIfk18DkUdeNikqYRW7b5IQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -254,14 +207,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_RCFL_918013_1",
-      "title": "Annual Rate Contract for Miscellaneous Civil Maintenance Works in Three Groups, inside Rashtriya Chemicals and Fertilizers Limited Trombay Factory, Chembur, Mumbai-400074",
-      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
-      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
-      "publishedAt": "2026-07-18T08:30:00.000Z",
+      "tenderRef": "2026_FCI_919761_1",
+      "title": "Systematic maintenance of railway siding at FSD Mavelikkara for the year 2026 27",
+      "organisationChain": "Food Corporation of India||Regional Office,Kerela,FCI,MFPD",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-07-29T12:00:00.000Z",
       "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-08T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIfk18DkUdeNikqYRW7b5IQ%3D%3D",
+      "tenderOpensAt": "2026-08-10T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvoMe0v1yzaS8lWSruubb%2FA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_RMLH_918356_1",
+      "title": "Accessories of Minimally Invasive advanced Hemodynamic Cardiac Output Monitor with Cerebral Oximetry",
+      "organisationChain": "Dr. Ram Manohar Lohia Hospital||Procurement Section",
+      "buyer": "Dr. Ram Manohar Lohia Hospital",
+      "publishedAt": "2026-07-21T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeDa9Y5m0hht2ev06DJra5w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IISER_920113_1",
+      "title": "IISER-K/PurEnq/470/G/DCS/26-27",
+      "organisationChain": "Indian Institute of Science Education and Research - Kolkata||Administration - IISER - Kolkata",
+      "buyer": "Indian Institute of Science Education and Research - Kolkata",
+      "publishedAt": "2026-07-31T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Scq36ay3QT9d3z9hV319mqg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_919567_1",
+      "title": "Repair maintenance of QCC building, and shed no 3 and 5 along with replacement of valley gutter of shed 5, rolling shutters, water supply and other misc work at FSD Dighaghat",
+      "organisationChain": "Food Corporation of India||Regional Office, Bihar,FCI,MFPD||Information Technology Dn,Bihar,FCI",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-07-28T12:15:00.000Z",
+      "bidSubmissionCloses": "2026-08-08T08:30:00.000Z",
+      "tenderOpensAt": "2026-08-10T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBTJPQ4mhnGTVz16P9vjVAg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -287,14 +273,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DHI_918640_1",
-      "title": "RATE CONTRACT FOR HIGH BASICITY OF PAC",
-      "organisationChain": "Department of Heavy Industry||NEPA Limited-MHIPE",
-      "buyer": "Department of Heavy Industry",
-      "publishedAt": "2026-07-22T12:35:00.000Z",
+      "tenderRef": "2026_DDA_918070_1",
+      "title": "Maintenance of Various Sports Complexes",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El) Division-3(Sports)-Khelgaon-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-07-18T13:25:00.000Z",
       "bidSubmissionCloses": "2026-08-08T09:30:00.000Z",
-      "tenderOpensAt": "2026-08-10T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7xPxvEA79lLp9z7Zyyf3pA%3D%3D",
+      "tenderOpensAt": "2026-08-10T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzMC5c1atP7fg0FdLs1esXQ%3D%3D",
       "matchedKeywords": []
     }
   ]
