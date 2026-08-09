@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-08-09T02:17:17.761Z",
-  "durationMs": 31685,
+  "fetchedAt": "2026-08-09T05:13:13.708Z",
+  "durationMs": 31022,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 24,
   "totalScanned": 1200,
-  "relevantCount": 1137,
+  "relevantCount": 1138,
   "tenders": [
     {
       "tenderId": "defa2cf8-e63f-41e7-a8be-830485fa42ba",
@@ -100,20 +100,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
-      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
-      "buyer": "Ministry Of Justice",
-      "value": 92000000000,
-      "bidDeadline": "2026-12-16T18:30:00.000Z",
-      "postedAt": "2025-12-16T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "6c135a27-21ca-4746-ae71-b623dd6aac54",
       "refNo": "6f9cda5d-7f86-398a-91fa-48af41fdf4c5",
       "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
@@ -128,9 +114,9 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
-      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
-      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
+      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
+      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
       "buyer": "Ministry Of Justice",
       "value": 92000000000,
       "bidDeadline": "2026-12-16T18:30:00.000Z",
@@ -138,7 +124,7 @@
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
       "matchedKeywords": []
     },
     {
@@ -153,6 +139,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-59d3ca54-4731-4841-872b-57abe9b9f6ac",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
+      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "buyer": "Ministry Of Justice",
+      "value": 92000000000,
+      "bidDeadline": "2026-12-16T18:30:00.000Z",
+      "postedAt": "2025-12-16T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
       "matchedKeywords": []
     },
     {
@@ -770,6 +770,22 @@
         "Drainage Work"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-50ac0161-36a2-4944-8de7-cf8581eadfd4",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "a1b1529d-4bcd-48bb-887f-66b1fc845f5b",
+      "refNo": "CAO-C-BSP-26-27-16",
+      "title": "Construction Of New Bg Double Line From Kharsia (km 0.00) To Balodabazar (km 110.500) And Y-connectivity From Jharadih Including Earthwork In Formation, Bridges, Ror (rail Over Rail), Rob (road Over Bridge), Rub (road Under Bridge), Service Buildings, Staff Quarters, P-way Works (including Supply Of Ballast, P-way Material Exept Rail), Electrification (2x25 Kv Ohe, Psi, Plc & Electrical General Work), And Signalling & Telecommunication Works, Along With Allied And Associated Miscellaneous Works In Connection With Kharsia- Parmalkasa 5th & 6th New Bg Line Project Under South East Central Railway In The State Of Chhattisgarh.",
+      "buyer": "South East Central Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Chhattisgarh",
+      "value": 31036913378.58,
+      "emd": 620738300,
+      "bidDeadline": "2026-11-11T09:30:00.000Z",
+      "postedAt": "2026-08-08T17:26:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/south-east-central-railway/detail-a1b1529d-4bcd-48bb-887f-66b1fc845f5b",
       "matchedKeywords": []
     },
     {
@@ -9120,24 +9136,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "005286be-c56c-4dbc-bd1e-7c6126b80ba5",
-      "refNo": "RAILTEL/TENDER/OT/CO/ ITP/2026-27/DC-DR Infra/018",
-      "title": "Design, Supply, Installation, Testing, Commissioning, Configuration, Integration, Migration, And Deployment Of Cloud Infrastructure Solution At Railtel Dc And Dr Site",
-      "buyer": "Railtel Corporation Of India Limited",
-      "purchaserGroup": "Railways",
-      "procurementSource": "EPROCURE",
-      "state": "Delhi",
-      "value": 2472934651,
-      "emd": 10000000,
-      "bidDeadline": "2026-08-12T09:30:00.000Z",
-      "postedAt": "2026-06-26T03:30:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/railtel-corporation-of-india-limited/detail-005286be-c56c-4dbc-bd1e-7c6126b80ba5",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "e67d355c-8760-4687-860f-c4d3ea6eba1f",
       "refNo": "RAILTEL/TENDER/OT/CO/ITP/2026-27/DC-DR_Infra/018 ; RAILTEL/TENDER/OT/CO/ITP/2026-27/DC-DR-Infra/018",
       "title": "Design, Supply, Installation, Testing, Commissioning, Configuration, Integration, Migration, And Deployment Of Cloud Infrastructure Solution At Railtel Dc And Dr Site",
@@ -9153,6 +9151,24 @@
         "Telecommunication Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/railtel-corporation-of-india-limited/detail-e67d355c-8760-4687-860f-c4d3ea6eba1f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "005286be-c56c-4dbc-bd1e-7c6126b80ba5",
+      "refNo": "RAILTEL/TENDER/OT/CO/ ITP/2026-27/DC-DR Infra/018",
+      "title": "Design, Supply, Installation, Testing, Commissioning, Configuration, Integration, Migration, And Deployment Of Cloud Infrastructure Solution At Railtel Dc And Dr Site",
+      "buyer": "Railtel Corporation Of India Limited",
+      "purchaserGroup": "Railways",
+      "procurementSource": "EPROCURE",
+      "state": "Delhi",
+      "value": 2472934651,
+      "emd": 10000000,
+      "bidDeadline": "2026-08-12T09:30:00.000Z",
+      "postedAt": "2026-06-26T03:30:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/railtel-corporation-of-india-limited/detail-005286be-c56c-4dbc-bd1e-7c6126b80ba5",
       "matchedKeywords": []
     },
     {
@@ -9351,6 +9367,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "2241e0c5-dae1-44a3-9fec-106a3f733c4c",
+      "refNo": "TE-25026R/2025-26",
+      "title": "Rfp For Upgradation Of Industrial Training Institutes (itis) For Cluster Ii - (chhatrapati Sambhajinagar) In Maharashtra Under Component I Of Pm-setu",
+      "buyer": "Directorate Of Vocational Education And Training",
+      "purchaserGroup": "Education",
+      "procurementSource": "EPROCURE",
+      "state": "Maharashtra",
+      "value": 2410000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-08-21T09:30:00.000Z",
+      "postedAt": "2026-07-03T12:00:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-vocational-education-and-training/detail-2241e0c5-dae1-44a3-9fec-106a3f733c4c",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "7b542070-0cee-4148-a6e6-ecb983e53609",
       "refNo": "TE-25025R/2025-26",
       "title": "Rfp For Upgradation Of Industrial Training Institutes (itis) For Cluster Iii - (pune) In Maharashtra Under Component I Of Pm-setu",
@@ -9369,25 +9404,6 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/directorate-of-vocational-education-and-training/detail-7b542070-0cee-4148-a6e6-ecb983e53609",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "2241e0c5-dae1-44a3-9fec-106a3f733c4c",
-      "refNo": "TE-25026R/2025-26",
-      "title": "Rfp For Upgradation Of Industrial Training Institutes (itis) For Cluster Ii - (chhatrapati Sambhajinagar) In Maharashtra Under Component I Of Pm-setu",
-      "buyer": "Directorate Of Vocational Education And Training",
-      "purchaserGroup": "Education",
-      "procurementSource": "EPROCURE",
-      "state": "Maharashtra",
-      "value": 2410000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-08-21T09:30:00.000Z",
-      "postedAt": "2026-07-03T12:00:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-vocational-education-and-training/detail-2241e0c5-dae1-44a3-9fec-106a3f733c4c",
       "matchedKeywords": []
     },
     {
@@ -9412,25 +9428,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ab58d326-aa7d-4257-911e-8a4c082e16a9",
-      "refNo": "309930",
-      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Clusters Godhara- Halol Under Pm-setu In The State Of Gujarat",
-      "buyer": "Directorate Of Employment And Training",
-      "purchaserGroup": "Education",
-      "procurementSource": "NPROCURE",
-      "state": "Gujarat",
-      "value": 2410000000,
-      "emd": 72300000,
-      "bidDeadline": "2026-09-07T12:30:00.000Z",
-      "postedAt": "2026-06-01T05:00:00.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-employment-and-training/detail-ab58d326-aa7d-4257-911e-8a4c082e16a9",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "f16569b9-460c-47b7-9d21-a192940c5ae0",
       "refNo": "309921",
       "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Clusters Morbi-surendranagar Under Pm-setu In The State Of Gujarat",
@@ -9447,6 +9444,25 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/directorate-of-employment-and-training/detail-f16569b9-460c-47b7-9d21-a192940c5ae0",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ab58d326-aa7d-4257-911e-8a4c082e16a9",
+      "refNo": "309930",
+      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Clusters Godhara- Halol Under Pm-setu In The State Of Gujarat",
+      "buyer": "Directorate Of Employment And Training",
+      "purchaserGroup": "Education",
+      "procurementSource": "NPROCURE",
+      "state": "Gujarat",
+      "value": 2410000000,
+      "emd": 72300000,
+      "bidDeadline": "2026-09-07T12:30:00.000Z",
+      "postedAt": "2026-06-01T05:00:00.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-employment-and-training/detail-ab58d326-aa7d-4257-911e-8a4c082e16a9",
       "matchedKeywords": []
     },
     {
@@ -10589,9 +10605,9 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
-      "refNo": "GEM/2026/B/7481018",
-      "title": "CATEGORY: Hiring of Consultants - Milestone/Deliverable Based - PM- SETU - Selection of Anchor Industry Partner (Non-Hiring Service) for Cluster-13 (Hub ITI, Chittoor and 3 Spoke ITIs) - Andhra Pradesh State; PPP and Financial Modelling, PPP Expert, Organizati..",
+      "tenderId": "debcbf67-ea63-4cdb-a6bd-0c5bf12d73b3",
+      "refNo": "GEM/2026/B/7480312",
+      "title": "Category: Hiring Of Consultants - Milestone/deliverable Based - Pm- setu - Selection Of Anchor Industry Partner (non-hiring",
       "buyer": "Labour Employment Training And Factories Department",
       "purchaserGroup": "Education",
       "procurementSource": "GEM",
@@ -10599,12 +10615,12 @@
       "value": 2000000000,
       "emd": 6800000,
       "bidDeadline": "2026-08-14T11:30:00.000Z",
-      "postedAt": "2026-04-27T11:12:53.000Z",
+      "postedAt": "2026-04-27T09:51:21.000Z",
       "sectorNames": [
         "Other Consultancy Services",
         "Consultancy Services"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
+      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-debcbf67-ea63-4cdb-a6bd-0c5bf12d73b3",
       "matchedKeywords": []
     },
     {
@@ -10646,25 +10662,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "debcbf67-ea63-4cdb-a6bd-0c5bf12d73b3",
-      "refNo": "GEM/2026/B/7480312",
-      "title": "Category: Hiring Of Consultants - Milestone/deliverable Based - Pm- setu - Selection Of Anchor Industry Partner (non-hiring",
-      "buyer": "Labour Employment Training And Factories Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "GEM",
-      "state": "Andhra Pradesh",
-      "value": 2000000000,
-      "emd": 6800000,
-      "bidDeadline": "2026-08-14T11:30:00.000Z",
-      "postedAt": "2026-04-27T09:51:21.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-debcbf67-ea63-4cdb-a6bd-0c5bf12d73b3",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "6d88b023-2761-4e6e-8e01-774db96a7296",
       "refNo": "GEM/2026/B/7480462",
       "title": "CATEGORY: Hiring of Consultants - Milestone/Deliverable Based - PM- SETU - Selection of Anchor Industry Partner (Non-Hiring Service) for Cluster-5 (Hub ITI, Kakinada and 3 Spoke ITIs) - Andhra Pradesh State; PPP and Financial Modelling, PPP Expert, Organizatio..",
@@ -10681,6 +10678,25 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-6d88b023-2761-4e6e-8e01-774db96a7296",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
+      "refNo": "GEM/2026/B/7481018",
+      "title": "CATEGORY: Hiring of Consultants - Milestone/Deliverable Based - PM- SETU - Selection of Anchor Industry Partner (Non-Hiring Service) for Cluster-13 (Hub ITI, Chittoor and 3 Spoke ITIs) - Andhra Pradesh State; PPP and Financial Modelling, PPP Expert, Organizati..",
+      "buyer": "Labour Employment Training And Factories Department",
+      "purchaserGroup": "Education",
+      "procurementSource": "GEM",
+      "state": "Andhra Pradesh",
+      "value": 2000000000,
+      "emd": 6800000,
+      "bidDeadline": "2026-08-14T11:30:00.000Z",
+      "postedAt": "2026-04-27T11:12:53.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/labour-employment-training-and-factories-department/detail-92490d37-6ef0-4bb5-a28d-12ef9d7d7ff8",
       "matchedKeywords": []
     },
     {
@@ -14442,6 +14458,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "99e7d323-e74c-4c45-82d0-73f726aabe19",
+      "refNo": "7bd266d6-33c0-30d8-b7e9-6311e9f81702",
+      "title": "Nhs National Branded Interim - 1 June 2026",
+      "buyer": "NHS Engalnd",
+      "value": 1346663020,
+      "bidDeadline": "2026-12-22T18:30:00.000Z",
+      "postedAt": "2025-12-22T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-99e7d323-e74c-4c45-82d0-73f726aabe19",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "564ee630-ee3e-4b23-84f4-83941e4efc4d",
       "refNo": "ce2bf939-5ed3-36fc-a634-d5c9bf6ac6d2",
       "title": "Nhs National Branded Interim - 1 June 2026",
@@ -14467,20 +14497,6 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-754d68c9-2b52-4157-8d13-03d793b152d2",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "99e7d323-e74c-4c45-82d0-73f726aabe19",
-      "refNo": "7bd266d6-33c0-30d8-b7e9-6311e9f81702",
-      "title": "Nhs National Branded Interim - 1 June 2026",
-      "buyer": "NHS Engalnd",
-      "value": 1346663020,
-      "bidDeadline": "2026-12-22T18:30:00.000Z",
-      "postedAt": "2025-12-22T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-99e7d323-e74c-4c45-82d0-73f726aabe19",
       "matchedKeywords": []
     },
     {
@@ -17682,25 +17698,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "409414c1-e6e3-420e-8d5e-7ff696d537b5",
-      "refNo": "56261007",
-      "title": "Tender For Entering Into Rate Contract For A Period Of One Year For Supply Of Pvc Underground Railway Signaling Cable Copper Conductor Of Size 12 Core X 1.5 Sq. Mm Conforming To Rdso Specification No. Irs: S-63/2014 Rev. 4 Or Latest For Different Consignees All Over South Central Railway And South Coast Railway (excluding Visakhapatnam Division Of South Coast Railway)",
-      "buyer": "South Central Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Rajasthan",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-08-31T09:00:00.000Z",
-      "postedAt": "2026-08-07T06:07:00.000Z",
-      "sectorNames": [
-        "Electrical Cables And Wires",
-        "Electrical and Electronics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/south-central-railway/detail-409414c1-e6e3-420e-8d5e-7ff696d537b5",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "9ac7c1de-092b-4fac-b046-74712feaa4cf",
       "refNo": "1226-Glued_2572",
       "title": "Running Contract For Manufacture And Supply Of 60 Kg Glued Insulated Rail Joints (g-3) (l) Type Conforming To Rdso Drg No. T-2572.",
@@ -17719,23 +17716,22 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "e88cb618-ec0d-46dd-92fe-180427f68236",
-      "refNo": "03261499",
-      "title": "3-phase Asynchronous Traction Motor",
-      "buyer": "Banaras Locomotive Works",
+      "tenderId": "409414c1-e6e3-420e-8d5e-7ff696d537b5",
+      "refNo": "56261007",
+      "title": "Tender For Entering Into Rate Contract For A Period Of One Year For Supply Of Pvc Underground Railway Signaling Cable Copper Conductor Of Size 12 Core X 1.5 Sq. Mm Conforming To Rdso Specification No. Irs: S-63/2014 Rev. 4 Or Latest For Different Consignees All Over South Central Railway And South Coast Railway (excluding Visakhapatnam Division Of South Coast Railway)",
+      "buyer": "South Central Railway",
       "purchaserGroup": "Railways",
       "procurementSource": "IREPS",
-      "state": "Uttar Pradesh",
+      "state": "Rajasthan",
       "value": 1000000000,
       "emd": 5000000,
-      "bidDeadline": "2026-08-31T09:30:00.000Z",
-      "postedAt": "2026-08-06T05:22:00.000Z",
+      "bidDeadline": "2026-08-31T09:00:00.000Z",
+      "postedAt": "2026-08-07T06:07:00.000Z",
       "sectorNames": [
-        "Electrical Generators And Transformers",
-        "Electrical Goods and Equipments",
+        "Electrical Cables And Wires",
         "Electrical and Electronics"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/banaras-locomotive-works/detail-e88cb618-ec0d-46dd-92fe-180427f68236",
+      "detailUrl": "https://bidassist.com/global-tenders/south-central-railway/detail-409414c1-e6e3-420e-8d5e-7ff696d537b5",
       "matchedKeywords": []
     },
     {
@@ -17775,6 +17771,26 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/south-central-railway/detail-07903597-2a47-485f-8d7e-44f5c82db020",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "e88cb618-ec0d-46dd-92fe-180427f68236",
+      "refNo": "03261499",
+      "title": "3-phase Asynchronous Traction Motor",
+      "buyer": "Banaras Locomotive Works",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Uttar Pradesh",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-08-31T09:30:00.000Z",
+      "postedAt": "2026-08-06T05:22:00.000Z",
+      "sectorNames": [
+        "Electrical Generators And Transformers",
+        "Electrical Goods and Equipments",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/banaras-locomotive-works/detail-e88cb618-ec0d-46dd-92fe-180427f68236",
       "matchedKeywords": []
     },
     {
@@ -17835,24 +17851,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "5a89dbc6-0e24-4498-9514-f01501991155",
-      "refNo": "50265120_RC2",
-      "title": "Rate Contract For Supply Of Underground Railway Jelly Filled Telecom Quad Cables Of Size 06 Quad",
-      "buyer": "West Central Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Rajasthan",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-08-31T07:00:00.000Z",
-      "postedAt": "2026-07-31T11:03:00.000Z",
-      "sectorNames": [
-        "Telecommunication Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/west-central-railway/detail-5a89dbc6-0e24-4498-9514-f01501991155",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "4e0f307b-442f-469e-b864-16fdaafe3ccc",
       "refNo": "GEM/2026/B/7833011",
       "title": "Category: Off Grid Spvpp Cap 1000w 150ah 48v With Lmla Battery bank 12v Cell Allowed , Off Grid Spvpp Cap 2000w 300ah 48v With Lmla Battery Bank Only 02v Cell Allowed , Off Grid spvpp Cap 3000w 400ah 48v With Lmla Battery Bank Only 02v Cell Allowed , Off Grid Spvpp Cap 4000w 400ah 96v with Lmla Battery Bank Only 02v Cell Allowed , Off Grid spvpp Cap 6000w 400ah 96v With Lmla Battery Bank Only 02v Cell Allowed , Off Grid Spvpp Cap 8000w 400ah 120v with Lmla Battery Bank Only 02v Cell Allowed , Off Grid spvpp Cap 10000w 300ah 240v With Lmla Battery Bank only 02v Cell Allowed , Off Grid Spvpp Cap 15000w 400ah 240v With Lmla Battery Bank Only 02v Cell Allowed , Off grid Spvpp Cap 20000w 600ah 240v With Lmla Battery bank Only 02v Cell Allowed , Off Grid Spvpp Cap 25000w 600ah 240v With Lmla Battery Bank Only 02v Cell Allowed , off Grid Spvpp Cap 30000w 800ah 240v With Lmla Battery bank Only 02v Cell Allowed , Off Grid Spvpp Cap 40000w 1000ah 240v With Lmla Battery Bank Only 02v Cell Allowed , Off Grid Spvpp Cap 45000w 1000ah 240v With Lmla battery Bank Only 02v Cell Allowed , Off Grid Spvpp Cap 50000w 1000ah 240v With Lmla Battery Bank Only 02v Cell allowed , Off Grid Spvpp Cap 1000w 150ah 48v With T-gel battery Bank 12v Cell Allowed , Off Grid Spvpp Cap 2000w 300ah 48v With T-gel Battery Bank Only 02v Cell Allowed , off Grid Spvpp Cap 3000w 400ah 48v With T-gel Battery bank Only 02v Cell Allowed , Off Grid Spvpp Cap 4000w 400ah 96v With T-gel Battery Bank Only 02v Cell Allowed , off Grid Spvpp Cap 6000w 400ah 96v With T-gel Battery bank Only 02v Cell Allowed , Off Grid Spvpp Cap 8000w 400ah 120v With T-gel Battery Bank Only 02v Cell Allowed , off Grid Spvpp Cap 10000w 300ah 240v With T-gel Battery bank Only 02v Cell Allowed , Off Grid Spvpp Cap 15000w 400ah 240v With T-gel Battery Bank Only 02v Cell Allowed , off Grid Spvpp Cap 20000w 600ah 240v With T-gelbattery bank Only 02v Cell Allowed , Off Grid Spvpp Cap 25000w 600ah 240v With T-gel Battery Bank Only 02v Cell Allowed , off Grid Spvpp Cap 30000w 800ah 240v With T-gel Battery bank Only 02v Cell Allowed , Off Grid Spvpp Cap 40000w 1000ah 240v With T-gel Battery Bank Only 02v Cell Allowed , Off Grid Spvpp Cap 45000w 1000ah 240v With T-gel battery Bank Only 02v Cell Allowed , Off Grid Spvpp Cap 50000w 1000ah 240v With T-gel Battery Bank Only 02v Cell allowed , Roof Top Mounted Hot Dip Galvanized Mms 80 Mic per Kg , Parking Shed Type Galvanized Mms 80 Mic Per Kg",
@@ -17869,6 +17867,24 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/chhattisgarh-state-renewable-energy-development-agency/detail-4e0f307b-442f-469e-b864-16fdaafe3ccc",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "5a89dbc6-0e24-4498-9514-f01501991155",
+      "refNo": "50265120_RC2",
+      "title": "Rate Contract For Supply Of Underground Railway Jelly Filled Telecom Quad Cables Of Size 06 Quad",
+      "buyer": "West Central Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Rajasthan",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-08-31T07:00:00.000Z",
+      "postedAt": "2026-07-31T11:03:00.000Z",
+      "sectorNames": [
+        "Telecommunication Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/west-central-railway/detail-5a89dbc6-0e24-4498-9514-f01501991155",
       "matchedKeywords": []
     },
     {
@@ -17999,24 +18015,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "236f7187-bbf5-4d2f-964b-2b081578d1fe",
-      "refNo": "01261138",
-      "title": "Air Spring 160kn",
-      "buyer": "Rail Coach Factory",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Punjab",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-08-19T09:00:00.000Z",
-      "postedAt": "2026-07-20T11:26:00.000Z",
-      "sectorNames": [
-        "Automobiles and Auto Parts"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/rail-coach-factory/detail-236f7187-bbf5-4d2f-964b-2b081578d1fe",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "f2b5b639-266f-4f32-a10e-092345312689",
       "refNo": "2026RSI8741TC",
       "title": "Procurement Of Upgraded Class 'e' (6\" X 11\") Cartridge Tapered Roller Bearings Used On Cast Steel Bogies (narrow/wide-jaw) Of Freight Stock Of Indian Railways For 22.9/25t Axle Load Application To Str No. Ab/rb-40-2016(rev.2) Of June, 2021 Or Latest Amendment, If Any.",
@@ -18032,6 +18030,24 @@
         "Metals and Non-Metals"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/railway-board/detail-f2b5b639-266f-4f32-a10e-092345312689",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "236f7187-bbf5-4d2f-964b-2b081578d1fe",
+      "refNo": "01261138",
+      "title": "Air Spring 160kn",
+      "buyer": "Rail Coach Factory",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Punjab",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-08-19T09:00:00.000Z",
+      "postedAt": "2026-07-20T11:26:00.000Z",
+      "sectorNames": [
+        "Automobiles and Auto Parts"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/rail-coach-factory/detail-236f7187-bbf5-4d2f-964b-2b081578d1fe",
       "matchedKeywords": []
     },
     {
@@ -18985,20 +19001,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
-      "refNo": "79552-2024",
-      "title": "Norway – E-learning Services – 1-ude- 2024 Dynamic Procurement Scheme For Digital Teaching Aids For The Oslo School",
-      "buyer": "Oslo Kommune V Utdanningsetaten",
-      "value": 1000000000,
-      "bidDeadline": "2034-03-06T18:30:00.000Z",
-      "postedAt": "2024-02-06T18:30:00.000Z",
-      "sectorNames": [
-        "Education And Training Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "05dd6080-5264-4067-8275-fb0fa0e28649",
       "refNo": "2024-101721",
       "title": "1-ude- 2024 Dynamisk Innkjøpsordning For Digitale Læremidler I Osloskolen",
@@ -19010,6 +19012,20 @@
         "Education And Training Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-05dd6080-5264-4067-8275-fb0fa0e28649",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
+      "refNo": "79552-2024",
+      "title": "Norway – E-learning Services – 1-ude- 2024 Dynamic Procurement Scheme For Digital Teaching Aids For The Oslo School",
+      "buyer": "Oslo Kommune V Utdanningsetaten",
+      "value": 1000000000,
+      "bidDeadline": "2034-03-06T18:30:00.000Z",
+      "postedAt": "2024-02-06T18:30:00.000Z",
+      "sectorNames": [
+        "Education And Training Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
       "matchedKeywords": []
     },
     {
@@ -19202,20 +19218,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
-      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
-      "buyer": "Ministry Of Justice",
-      "value": 92000000000,
-      "bidDeadline": "2026-12-16T18:30:00.000Z",
-      "postedAt": "2025-12-16T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "6c135a27-21ca-4746-ae71-b623dd6aac54",
       "refNo": "6f9cda5d-7f86-398a-91fa-48af41fdf4c5",
       "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
@@ -19230,9 +19232,9 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
-      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
-      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "tenderId": "ca74c1cc-752e-41cb-9373-e7a88939a823",
+      "refNo": "9f9b162c-3092-330a-a5bf-ffe359b04b44",
+      "title": "Prison Operator Services Framework 2 - January 2026 1-2-1 Market Engagement Sessions",
       "buyer": "Ministry Of Justice",
       "value": 92000000000,
       "bidDeadline": "2026-12-16T18:30:00.000Z",
@@ -19240,7 +19242,7 @@
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-ca74c1cc-752e-41cb-9373-e7a88939a823",
       "matchedKeywords": []
     },
     {
@@ -19255,6 +19257,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-59d3ca54-4731-4841-872b-57abe9b9f6ac",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "996c3ed9-faab-4f87-b2df-09236f6bd969",
+      "refNo": "62fa73c7-d39a-39af-b44f-c57281eaa729",
+      "title": "Prison Operator Services - January 2026 Subject Matter Experts Panel Market Engagement Event",
+      "buyer": "Ministry Of Justice",
+      "value": 92000000000,
+      "bidDeadline": "2026-12-16T18:30:00.000Z",
+      "postedAt": "2025-12-16T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/ministry-of-justice/detail-996c3ed9-faab-4f87-b2df-09236f6bd969",
       "matchedKeywords": []
     },
     {
