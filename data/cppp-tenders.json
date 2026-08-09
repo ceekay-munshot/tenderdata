@@ -1,22 +1,36 @@
 {
-  "fetchedAt": "2026-08-09T08:53:41.052Z",
-  "durationMs": 50699,
+  "fetchedAt": "2026-08-09T13:06:14.424Z",
+  "durationMs": 51427,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
   "totalRowsParsed": 330,
-  "relevantCount": 0,
-  "tenders": [],
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_PDIL_917776_1",
+      "title": "EPC WORK FOR 33 kV OVERHEAD TRANSMISSION LINE AND ASSOCIATED SYSTEM FOR CONSTRUCTION POWER REQUIREMENT BCGCL",
+      "organisationChain": "Projects and Development India Limited, Fert||Corporate Office,Noida,PDIL,Fert",
+      "buyer": "Projects and Development India Limited, Fert",
+      "publishedAt": "2026-07-16T11:45:00.000Z",
+      "bidSubmissionCloses": "2026-08-11T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StaeJ3iwUQtnruhPcnnWQ7A%3D%3D",
+      "matchedKeywords": [
+        "transmission line"
+      ]
+    }
+  ],
   "sampleRows": [
     {
-      "tenderRef": "2026_NRL_920896_1",
-      "title": "MISCELLANEOUS ELECTRICAL WORKS FOR NREP AT NUMALIGARH REFINERY LIMITED ASSAM",
-      "organisationChain": "Numaligarh Refinery Limited",
-      "buyer": "Numaligarh Refinery Limited",
-      "publishedAt": "2026-08-06T09:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-09T09:00:00.000Z",
-      "tenderOpensAt": "2026-08-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOQOzzql4W09QDDthFzjnBg%3D%3D",
+      "tenderRef": "2026_NCDC_920264_1",
+      "title": "Tender Document for civil works for development of children park construction of 30x5 meter interlocking area",
+      "organisationChain": "National Cooperative Development Corporation||LINAC-NCDC",
+      "buyer": "National Cooperative Development Corporation",
+      "publishedAt": "2026-08-03T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T03:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FvH5qQovSmq1qAWbA8RLFg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -31,14 +45,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NCDC_920264_1",
-      "title": "Tender Document for civil works for development of children park construction of 30x5 meter interlocking area",
-      "organisationChain": "National Cooperative Development Corporation||LINAC-NCDC",
-      "buyer": "National Cooperative Development Corporation",
-      "publishedAt": "2026-08-03T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T03:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2FvH5qQovSmq1qAWbA8RLFg%3D%3D",
+      "tenderRef": "2026_ARMHA_919416_1",
+      "title": "11014/9255/28 Sect/31 COB/Engr/2026/03",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-28T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S33nczPxg4MWdrWhOu74aJQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_918151_1",
+      "title": "Annual Maintenance and Upkeep of Archaeological Garden at Shivdol, Gaurisagar, Assam as enumerated in tender for the year 2026-27 as on required basis.",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-07-20T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNFWXCgkY1lpmloTLbkEzww%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_918125_1",
+      "title": "Annual Maintenance and Upkeep of Archaeological Garden at Ahom Rajas Palace, Garhgaon, Assam as enumerated in tender for the year 2026-27 as on required basis.",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-07-20T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6AF8uaJJe%2BzdRBAmEdE6Kg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -64,39 +100,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ASI_918157_1",
-      "title": "Annual Maintenance and Upkeep of Archaeological Garden at Vishnudol, Gaurisagar, Assam as enumerated in tender for the year 2026-27 as on required basis.",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-07-20T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SL8o11IkavFVi7lHwRHOwrg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NHDCL_920603_1",
-      "title": "Infra work, Publicity and support",
-      "organisationChain": "National Handloom Development Corporation Ltd",
-      "buyer": "National Handloom Development Corporation Ltd",
-      "publishedAt": "2026-08-04T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Shdyy8OfpUaFio62Q9Xsbng%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_919416_1",
-      "title": "11014/9255/28 Sect/31 COB/Engr/2026/03",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-28T06:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S33nczPxg4MWdrWhOu74aJQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ASI_918144_1",
       "title": "Annual Maintenance and Upkeep of Archaeological Garden at Devidol, Gaurisagar, Assam as enumerated in tender for the year 2026-27 as on required basis.",
       "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
@@ -119,36 +122,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ASI_918125_1",
-      "title": "Annual Maintenance and Upkeep of Archaeological Garden at Ahom Rajas Palace, Garhgaon, Assam as enumerated in tender for the year 2026-27 as on required basis.",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-07-20T08:30:00.000Z",
+      "tenderRef": "2026_BSF_920039_1",
+      "title": "Annual repair and maintenance of officers institute at SHQ BSF Bhopal",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-31T12:30:00.000Z",
       "bidSubmissionCloses": "2026-08-10T04:30:00.000Z",
       "tenderOpensAt": "2026-08-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6AF8uaJJe%2BzdRBAmEdE6Kg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_919396_1",
-      "title": "Repair and maintainance of Tennis court with synthetic acrylic paint at khasiamangal campus 104 Bn BSF under SHQ BSF Teliamura SH Electrical",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-28T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-08-12T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZm6m3Xt9ZqteoEIZFz6Gnw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_919432_1",
-      "title": "Supplying and laying of LT cable for T III Qtr 31 to 38 near family welfare centre of 104 Bn BSF under SHQ BSF Teliamura",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-07-28T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T05:00:00.000Z",
-      "tenderOpensAt": "2026-08-12T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sy%2BPZlYLkGGqq16sogAiJ2w%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SroNnSbJZZPFEffGTrBd4fA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -163,14 +144,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_919252_1",
-      "title": "TC Wk for JCOs Mess and ORs CH/DH of HQ IGAR (S) at Mantripukhri",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-27T08:00:00.000Z",
+      "tenderRef": "2026_BSF_919432_1",
+      "title": "Supplying and laying of LT cable for T III Qtr 31 to 38 near family welfare centre of 104 Bn BSF under SHQ BSF Teliamura",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-28T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-08-12T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sy%2BPZlYLkGGqq16sogAiJ2w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_919396_1",
+      "title": "Repair and maintainance of Tennis court with synthetic acrylic paint at khasiamangal campus 104 Bn BSF under SHQ BSF Teliamura SH Electrical",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-07-28T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T05:00:00.000Z",
+      "tenderOpensAt": "2026-08-12T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZm6m3Xt9ZqteoEIZFz6Gnw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_920365_1",
+      "title": "CAMC for ELWB FSD Sultanpur Lodhi",
+      "organisationChain": "Food Corporation of India||Regional Office, Punjab,FCI,MFPD||DO-Kapurthala_PB_FCI",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-08-03T12:30:00.000Z",
       "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
       "tenderOpensAt": "2026-08-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvsonBPl2ClULao4%2Fp%2BQyHg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXdwKvftBPtTGxqAzDMlBQA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -196,14 +199,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FCI_920365_1",
-      "title": "CAMC for ELWB FSD Sultanpur Lodhi",
-      "organisationChain": "Food Corporation of India||Regional Office, Punjab,FCI,MFPD||DO-Kapurthala_PB_FCI",
-      "buyer": "Food Corporation of India",
-      "publishedAt": "2026-08-03T12:30:00.000Z",
+      "tenderRef": "2026_ASI_920633_1",
+      "title": "Annual Repairs and Maintenance to Thoudand Pillar Temple, Hanamkonda for 2026-27",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Hyderabad Circle-Hyderabad",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-08-04T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SD%2FRzGaRc%2Fm9la5O8Xph8Vg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920204_1",
+      "title": "Annual Maintenance contract (AMC) of Reverse Osmosis plant installed at BOPs of 109 Bn BSF Madhopur under SHQ BSF I/Nagar",
+      "organisationChain": "DG,BSF,MHA||Jammu FTR(Jammu),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-01T10:30:00.000Z",
       "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
       "tenderOpensAt": "2026-08-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXdwKvftBPtTGxqAzDMlBQA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiBbn81wQiBAAoeReIaD3ZQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920427_1",
+      "title": "Repair Improvement and Establishment of Toilet Block Near ADM Block of 1055 Arty HQ under SHQ BSF Jaisalmer S",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-04T03:40:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sd8iOJva3JTayPnYtTRaIbQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_918353_1",
+      "title": "ANNUAL MAINTENANCE AND UPKEEP OF ARCHAEOLOGICAL GARDEN AT SARDHANA CEMETERY MEERUT U P FOR THE YEAR 2026 2027",
+      "organisationChain": "Archaeological Survey of India||O/o SA - ASI - Merrut circle",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-07-21T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-11T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StXCmUiBD0Dd7gIS8EifmAQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -218,14 +254,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_920427_1",
-      "title": "Repair Improvement and Establishment of Toilet Block Near ADM Block of 1055 Arty HQ under SHQ BSF Jaisalmer S",
-      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-04T03:40:00.000Z",
+      "tenderRef": "2026_ARMHA_919252_1",
+      "title": "TC Wk for JCOs Mess and ORs CH/DH of HQ IGAR (S) at Mantripukhri",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-27T08:00:00.000Z",
       "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
       "tenderOpensAt": "2026-08-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sd8iOJva3JTayPnYtTRaIbQ%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvsonBPl2ClULao4%2Fp%2BQyHg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -251,17 +287,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ASI_920633_1",
-      "title": "Annual Repairs and Maintenance to Thoudand Pillar Temple, Hanamkonda for 2026-27",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Hyderabad Circle-Hyderabad",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-08-04T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SD%2FRzGaRc%2Fm9la5O8Xph8Vg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ARMHA_919835_1",
       "title": "Repair/maint of Resdl furniture of HQ 26 Sect AR at Pallel",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -270,17 +295,6 @@
       "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
       "tenderOpensAt": "2026-08-11T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVg%2B0%2FmJy9a8R7HJWiAvmXw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_919255_1",
-      "title": "TC Wk for SM Bk of HQ IGAR (S) at Mantripukhri",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-27T08:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-10T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-11T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0%2FlVB%2FEKzpxQ58UCh%2Bdz0g%3D%3D",
       "matchedKeywords": []
     }
   ]
