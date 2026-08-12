@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-11T20:56:05.955Z",
-  "durationMs": 52911,
+  "fetchedAt": "2026-08-12T02:31:10.719Z",
+  "durationMs": 50296,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 349,
+  "totalRowsParsed": 348,
   "relevantCount": 1,
   "tenders": [
     {
@@ -22,6 +22,17 @@
     }
   ],
   "sampleRows": [
+    {
+      "tenderRef": "2026_DAE_919890_1",
+      "title": "4894B114-Filament,AL4S",
+      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
+      "buyer": "Department of Atomic Energy",
+      "publishedAt": "2026-07-30T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T03:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T04:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGgxMAn%2F7WElj0GZrLwnq8Q%3D%3D",
+      "matchedKeywords": []
+    },
     {
       "tenderRef": "2026_DAE_920066_1",
       "title": "Parts For Optical Microscope And Accessories Controller Tpc",
@@ -45,28 +56,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DAE_919890_1",
-      "title": "4894B114-Filament,AL4S",
-      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
-      "buyer": "Department of Atomic Energy",
-      "publishedAt": "2026-07-30T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T03:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T04:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGgxMAn%2F7WElj0GZrLwnq8Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_918828_1",
-      "title": "Manning and Operation of 33 KV, 2.5 MVA Transformer and Switch Yard",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-23T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJGnXiGINnVHSMuYNoGmH%2BQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_BSF_920408_1",
       "title": "Renovation of Officers Mess Toilets-Bathroom of all Suits and Common Bathroom at KLP Coimbatore BN HQ 136 BN BSF under SHQ BSF Bhopal",
       "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
@@ -75,39 +64,6 @@
       "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
       "tenderOpensAt": "2026-08-13T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sp%2BrTxQLobYW7hFFu8w8lTA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_918857_1",
-      "title": "Manning and Operation of packaged type STP and allied works at ARCH",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-23T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0%2FeidddGgoJ9JSGP6DnLkw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_918844_1",
-      "title": "Manning and Operation E/M Installation and Eqpt",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-23T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyLIjH%2FTm7WnRYF6QT85xVg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_920470_1",
-      "title": "Maintenance Works at SOs Dormitory Shangrilla such as Flooring Lounge, Entry Hall, Dining Hall, Repair of Door and Windows in the entry point at RTC, CRPF, Avadi, Chennai",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-08-05T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S008UOGPvvZq8wLyl6p4gVQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -122,6 +78,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_ARMHA_918828_1",
+      "title": "Manning and Operation of 33 KV, 2.5 MVA Transformer and Switch Yard",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-23T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJGnXiGINnVHSMuYNoGmH%2BQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_ASI_919853_1",
       "title": "Outsource Skilled, Semi-skilled and unskilled Manpower for Execution of the Work Conservation and Developmental Works of Karenghar of the Ahom Kings at Jaysagar under ASI-ONGC-NCF Project (2022-23).",
       "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
@@ -130,6 +97,28 @@
       "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
       "tenderOpensAt": "2026-08-13T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfYXBwAxPlUSCFhZSd5d%2BYA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_918844_1",
+      "title": "Manning and Operation E/M Installation and Eqpt",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-23T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyLIjH%2FTm7WnRYF6QT85xVg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_918857_1",
+      "title": "Manning and Operation of packaged type STP and allied works at ARCH",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-23T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0%2FeidddGgoJ9JSGP6DnLkw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -144,17 +133,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_918049_1",
-      "title": "Repair maint of roof treatment of bldg No PMT 47 at Laitumkhrah Grn",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-07-18T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:00:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0T5DWRDQpAHUlus3GYbZeA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_DOP_920908_1",
       "title": "Misc. civil work in IQ No. 4 , 6 , waiting area and Kitchen of DAP Civil Line Delhi.",
       "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
@@ -166,91 +144,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DCHC_912008_1",
-      "title": "License for Carpet Design Software",
-      "organisationChain": "Development Commissioner(Handicrafts)",
-      "buyer": "Development Commissioner(Handicrafts)",
-      "publishedAt": "2026-06-08T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderRef": "2026_ARMHA_918049_1",
+      "title": "Repair maint of roof treatment of bldg No PMT 47 at Laitumkhrah Grn",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-07-18T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:00:00.000Z",
       "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SsSgT%2BYQ1634JLqFlAlSzfg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_920384_1",
-      "title": "Repair and Replacement of security light fittings near Ankur play School, Hanger (STC location) and FTR Jodhpur Campus at BSF Campus Jodhpur under Ftr HQ BSF Rajasthan",
-      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-03T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBHENvtGAYL6Y76KaMIwvMw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_IIMJ_915986_2",
-      "title": "Website, Social Media Marketing, Creative Video and Design Services",
-      "organisationChain": "Indian Institute of Management Jammu",
-      "buyer": "Indian Institute of Management Jammu",
-      "publishedAt": "2026-08-05T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyqOV%2BIMBrAxpwmxhetD4CA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_921018_1",
-      "title": "Improvement of Non residential buildings at Mahatpur campus of 32 BN BSF under SHQ BSF Krishnanagar(SH Providing internal wiring and electrical installations)",
-      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-07T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SC37nQ2hl%2F%2F2j%2BMnR%2F6c9gg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DDA_920842_1",
-      "title": "M/o completed scheme of Nazul A/c-II under SWZ.SH-Supplying and installation of Hand rail in Parks at various location and steel Jali at opening points of drain to cover the Drain/Nallah at Lajpat Nagar.",
-      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/FOD-2-DDA Office Complex-Seed Bed Park-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-08-06T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-12T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STc%2Bt4fjoNzARLOm5nlrWcw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_TU_920686_1",
-      "title": "Repair and maintenance work in Vice Chancellor Bungalow and Office Secretariat",
-      "organisationChain": "Tripura University",
-      "buyer": "Tripura University",
-      "publishedAt": "2026-08-05T07:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdIuceFN87EVaHkFrSRdehw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_920472_1",
-      "title": "Construction/Installation and Commissioning of deep tube well boring at Bn HQ 160 Bn (Now 50 Bn) BSF Jalalabad under SHQ BSF Abohar (2nd Call)",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-04T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1HoAu0KjyyI1RK7No46jyA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_HRI_914013_3",
-      "title": "Some civil work related to toilets of two flats and painting of one office room etc. at HRI, Prayagraj",
-      "organisationChain": "Harish-Chandra Research Institute",
-      "buyer": "Harish-Chandra Research Institute",
-      "publishedAt": "2026-08-04T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SX8z8hVTiZAmEpef7aqHtmg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0T5DWRDQpAHUlus3GYbZeA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -265,25 +166,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_920967_1",
-      "title": "INVITATION TO PRE-TENDER MEET FOR ON-OFF VALVES (SPECIAL) FOR POLYPROPYLENE UNIT (PPU) PROJECT AT NUMALIGARH REFINERY, ASSAM",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-08-06T13:25:00.000Z",
+      "tenderRef": "2026_DCHC_912008_1",
+      "title": "License for Carpet Design Software",
+      "organisationChain": "Development Commissioner(Handicrafts)",
+      "buyer": "Development Commissioner(Handicrafts)",
+      "publishedAt": "2026-06-08T13:00:00.000Z",
       "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-13T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkTqPf2TWmpTTLcxY1b5jrQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DDA_920843_1",
-      "title": "M/o completed scheme of Nazul A/c-II under SWZ.SH-Construction of damaged footpath in Parks Over Covered Drain/Nallah at Lajpat Nagar",
-      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/FOD-2-DDA Office Complex-Seed Bed Park-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-08-06T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-12T06:15:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4NpJxgWG1ynC%2BLa0YOr%2FnQ%3D%3D",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SsSgT%2BYQ1634JLqFlAlSzfg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -295,6 +185,116 @@
       "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
       "tenderOpensAt": "2026-08-13T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHzo33lMh3%2BahSQXPoigLpA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920421_1",
+      "title": "Repair maintenance and serving of 315 KVA and 500 KVA Distribution transformer installed at 26 Bn BSF HQ Ramgarh under SHQ BSF JSMR N",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-04T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCUX6YR1PrwPy9UAmm%2B11dQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920384_1",
+      "title": "Repair and Replacement of security light fittings near Ankur play School, Hanger (STC location) and FTR Jodhpur Campus at BSF Campus Jodhpur under Ftr HQ BSF Rajasthan",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-03T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBHENvtGAYL6Y76KaMIwvMw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_920844_1",
+      "title": "M/O of District Centre Nehru place.sh-Supplying and carriage of water through stainless steel water tankers for ensuring the functioning of public toilets at Nehru Place District Centre",
+      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/FOD-2-DDA Office Complex-Seed Bed Park-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-08-06T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-12T06:45:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SoouzNqbz6Gu%2Bh3Jf88ed7g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_TU_920686_1",
+      "title": "Repair and maintenance work in Vice Chancellor Bungalow and Office Secretariat",
+      "organisationChain": "Tripura University",
+      "buyer": "Tripura University",
+      "publishedAt": "2026-08-05T07:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdIuceFN87EVaHkFrSRdehw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IIMJ_915986_2",
+      "title": "Website, Social Media Marketing, Creative Video and Design Services",
+      "organisationChain": "Indian Institute of Management Jammu",
+      "buyer": "Indian Institute of Management Jammu",
+      "publishedAt": "2026-08-05T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyqOV%2BIMBrAxpwmxhetD4CA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920299_1",
+      "title": "Renovation/UP Gradation of 02 Nos 120 Men Jawan Barrack at BSF Campus 57 Bn now 72 Bn BSF Pokaran under SHQ BSF JAISALMER North Sub Head Electrical Fittings and Fans",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-04T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sj%2BJSq8Sv7ivlhC5muY26Eg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_920967_1",
+      "title": "INVITATION TO PRE-TENDER MEET FOR ON-OFF VALVES (SPECIAL) FOR POLYPROPYLENE UNIT (PPU) PROJECT AT NUMALIGARH REFINERY, ASSAM",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-08-06T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkTqPf2TWmpTTLcxY1b5jrQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_920417_1",
+      "title": "Renovation of PFT Shelter OR of HQ 25 Sect AR at Lekhapani",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-03T13:10:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9rBs1ZGcjEUSmKxCVjfyUA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_918782_1",
+      "title": "Heritage Assets Providing Granite Stone flooring CCTV and other public amenities in CPM Jaina Statue of Gommatheswara Karkala 2026 27",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Bangalore Circle-Bangalore",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-07-23T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sjr5nN53oBYh7k8u%2BWYqWAA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_920419_1",
+      "title": "Repair and maintenance of old Composite Hospital Building (Being used by recruitment Cell as part of Adm Block) under FTR HQ BSF Rajasthan.(SH Electrical work)",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-04T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-12T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-13T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4MQUbNSpYQZobDn3LdqJWw%3D%3D",
       "matchedKeywords": []
     }
   ]
