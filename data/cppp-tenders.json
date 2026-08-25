@@ -1,82 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T01:42:24.104Z",
-  "durationMs": 58998,
+  "fetchedAt": "2026-08-25T04:47:10.360Z",
+  "durationMs": 36817,
   "ok": true,
-  "view": "14day",
-  "pagesFetched": 50,
-  "totalRowsParsed": 348,
-  "relevantCount": 1,
-  "tenders": [
-    {
-      "tenderRef": "2026_FACT_921522_1",
-      "title": "Repair works of Water treatment Plant and Providing a New Raw water line in Bagging Plant at FACT CD, Ambalamedu.",
-      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
-      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-08-11T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-27T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-28T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbZx5F1A9jLGBz2yVfE4M4Q%3D%3D",
-      "matchedKeywords": [
-        "water treatment plant"
-      ]
-    }
-  ],
+  "view": "today",
+  "pagesFetched": 21,
+  "totalRowsParsed": 154,
+  "relevantCount": 0,
+  "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_NHPC_916817_2",
-      "title": "Repair and Maintenance of the Security Post at Surge Shaft of Chamera-II Power Station",
-      "organisationChain": "NHPC Limited||Chamera-II Power Station-NHPC",
-      "buyer": "NHPC Limited",
-      "publishedAt": "2026-07-31T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T03:30:00.000Z",
-      "tenderOpensAt": "2026-08-29T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwKuVJu679pRRYW8DtSBerw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_IITTP_917125_1",
-      "title": "NOTICE INVITING TENDER FOR THE SUPPLY INSTALLATION TESTING COMMISSIONING AND TRAINING OF DIFFERENTIAL SCANNING CALORIMETER LOW VOLUME 01 NO",
-      "organisationChain": "Indian Institute of Technology Tirupati||Purchase and Stores - IITTP",
-      "buyer": "Indian Institute of Technology Tirupati",
-      "publishedAt": "2026-07-13T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-26T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S21CRKEpwknNxaeK0MFdsxQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_913712_3",
-      "title": "Recarpeting and patch hole work of the existing road of CRPF Public School, Jawahar Nagar, GC CRPF Rangareddy",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-08-18T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-26T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0tGvMGEMwNxRup6eHinCcg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ALHW_922379_1",
-      "title": "Providing a Pathway from main road to Temporary Ramp, Phase-I and Phase-II site at Galathea Bay in GNI.",
-      "organisationChain": "Andaman Lakshadweep Harbour Works||Executive Engineer (K and GN) -Campbell Bay ALHW",
-      "buyer": "Andaman Lakshadweep Harbour Works",
-      "publishedAt": "2026-08-18T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SatYJ9a%2FU3Sb3U7ZnFwvTLQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ESIC_920784_1",
-      "title": "Services",
-      "organisationChain": "Employees State Insurance Corporation||R.O. Punjab",
-      "buyer": "Employees State Insurance Corporation",
-      "publishedAt": "2026-08-05T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-26T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMEUy7Ak8a%2BzIpBuZqlEJBQ%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_BSF_922108_1",
       "title": "Replacement of Overhead LT line into underground cable at Ankur Bal Vatika premises under SHQ BSF Teliamura",
@@ -86,116 +17,6 @@
       "bidSubmissionCloses": "2026-08-25T05:00:00.000Z",
       "tenderOpensAt": "2026-08-27T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2whO%2B3tD%2B7wDOMVLaTDvZg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_921504_1",
-      "title": "Replacement of Over head LT line with under ground cable in AOR of Ftr HQ BSF Salbagan SH 81 Bn Gen Room to 81 Adm Block and Gate No-04",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-11T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDnm59BP1QVyLqVIvZfEHkg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DDA_922581_1",
-      "title": "Maintenance of various Sports Complex/Golf Courses (A/R and M/o of works at Dwarka Sports Complex, Sector 23, Dwarka for the year 2026-27).",
-      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/Sports Division I-DDA Office-KhelGaon-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-08-18T08:55:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBbS8aRJl4gYfKWUKCstJqg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NITW_920607_1",
-      "title": "COMPREHENSIVE FUND MANAGEMENT SERVICES FOR THE INSTITUTE FUND FOR 3 YEARS",
-      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
-      "buyer": "National Institute of Technology Warangal",
-      "publishedAt": "2026-08-04T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-26T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMPvPnt51EAaeYMyMldtYGQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_921929_1",
-      "title": "REPLACEMENT OF OVER HEAD LINES WITH AB/UG CABLES IN BN HQ BAGMA OF 169 BN BSF UNDER SHQ BSF UDAIPUR",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-13T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFQAIfctU%2BkpjCyRrLpPX%2Fw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_922111_1",
-      "title": "AUGMENTATION OF SEWERAGE SYSTEM FOR RESIDENTIAL QUARTERS TYPE I QTR NO 01 TO 03 TYPE II QTR NO 1 TO 42 AND TYPE III QTR NO 1 TO 15 UNDER SWACHCHHA BHARAT MISSION OF SHQ BSF BHUJ",
-      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-14T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbjrFwzRAu%2Bppf6F%2FUOuf7Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_TU_920767_1",
-      "title": "Repair and Maintenance work in various Academic Buildings and Departments in Tripura University campus Surjyamaninagar",
-      "organisationChain": "Tripura University",
-      "buyer": "Tripura University",
-      "publishedAt": "2026-08-05T11:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-26T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAIWsa8xK9a9eNFXIQUnJag%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_922661_1",
-      "title": "SITC of 1 Nos 8 Passenger Lift at Rajkot HO Building in Rajkot Region Gujarat.",
-      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-08-18T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-26T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6JXjtL5Ejtnf4ZmIBMuJQQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_922646_1",
-      "title": "Providing wiring for EI and Fans LED fittings ceiling fans exhaust fans under Phase III at MMS unit MMS Toilet Storage unit of Heritage building GPO Mumbai",
-      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShvH8dZ6yT45W5PlfH9mCeg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_921486_1",
-      "title": "Improvement and up gradation of electrical fitments installed in Adm Block and officers mess at FTR HQ BSF Tripura",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-10T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6dAJMmTFpAvtYLujsz4oyg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DDA_922576_1",
-      "title": "Development of Golf Course at Sector 24, Dwarka.",
-      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/Sports Division I-DDA Office-KhelGaon-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-08-18T08:50:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShbOcnohrLecw1oUVsUr2XQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -210,25 +31,58 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DREV_921376_1",
-      "title": "Renovation and Modification of STP",
-      "organisationChain": "Department of Revenue||Central Board of Direct Taxes - DOR||Pr. DGIT (Trg.) NADT Nagpur - CBDT||ADG(Trg.)-1-Pr. DGIT (Trg.) NADT Nagpur - CBDT",
-      "buyer": "Department of Revenue",
-      "publishedAt": "2026-08-10T12:30:00.000Z",
+      "tenderRef": "2026_BSF_921929_1",
+      "title": "REPLACEMENT OF OVER HEAD LINES WITH AB/UG CABLES IN BN HQ BAGMA OF 169 BN BSF UNDER SHQ BSF UDAIPUR",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-13T03:30:00.000Z",
       "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdKhmW%2BAvc8gbKol3dx9yTA%3D%3D",
+      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFQAIfctU%2BkpjCyRrLpPX%2Fw%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_922926_1",
-      "title": "PRE-TENDER MEETING FOR PROCUREMENT OF GPU SERVERS FOR AI APPLICATIONS AT EIL GURUGRAM",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-08-20T07:30:00.000Z",
+      "tenderRef": "2026_TU_920767_1",
+      "title": "Repair and Maintenance work in various Academic Buildings and Departments in Tripura University campus Surjyamaninagar",
+      "organisationChain": "Tripura University",
+      "buyer": "Tripura University",
+      "publishedAt": "2026-08-05T11:00:00.000Z",
       "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-25T05:35:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SlXxtucEb2PGRnB0z70EZmw%3D%3D",
+      "tenderOpensAt": "2026-08-26T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAIWsa8xK9a9eNFXIQUnJag%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITW_920607_1",
+      "title": "COMPREHENSIVE FUND MANAGEMENT SERVICES FOR THE INSTITUTE FUND FOR 3 YEARS",
+      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
+      "buyer": "National Institute of Technology Warangal",
+      "publishedAt": "2026-08-04T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-26T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMPvPnt51EAaeYMyMldtYGQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_922111_1",
+      "title": "AUGMENTATION OF SEWERAGE SYSTEM FOR RESIDENTIAL QUARTERS TYPE I QTR NO 01 TO 03 TYPE II QTR NO 1 TO 42 AND TYPE III QTR NO 1 TO 15 UNDER SWACHCHHA BHARAT MISSION OF SHQ BSF BHUJ",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-14T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbjrFwzRAu%2Bppf6F%2FUOuf7Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_922576_1",
+      "title": "Development of Golf Course at Sector 24, Dwarka.",
+      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/Sports Division I-DDA Office-KhelGaon-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-08-18T08:50:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShbOcnohrLecw1oUVsUr2XQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -243,14 +97,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_921800_1",
-      "title": "I.15032/NIT/Engr/ TCamp/Emergent/ 2026-27/250",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-08-12T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-25T06:00:00.000Z",
-      "tenderOpensAt": "2026-08-26T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZS1qTaIq0ZgZEiVPoXaJUQ%3D%3D",
+      "tenderRef": "2026_DDA_922581_1",
+      "title": "Maintenance of various Sports Complex/Golf Courses (A/R and M/o of works at Dwarka Sports Complex, Sector 23, Dwarka for the year 2026-27).",
+      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/Sports Division I-DDA Office-KhelGaon-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-08-18T08:55:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBbS8aRJl4gYfKWUKCstJqg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_921504_1",
+      "title": "Replacement of Over head LT line with under ground cable in AOR of Ftr HQ BSF Salbagan SH 81 Bn Gen Room to 81 Adm Block and Gate No-04",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-11T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDnm59BP1QVyLqVIvZfEHkg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_922926_1",
+      "title": "PRE-TENDER MEETING FOR PROCUREMENT OF GPU SERVERS FOR AI APPLICATIONS AT EIL GURUGRAM",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-08-20T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-25T05:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SlXxtucEb2PGRnB0z70EZmw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_921486_1",
+      "title": "Improvement and up gradation of electrical fitments installed in Adm Block and officers mess at FTR HQ BSF Tripura",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-10T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6dAJMmTFpAvtYLujsz4oyg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -276,14 +163,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_922647_1",
-      "title": "Day to day maintenance of Electrical installation, Substation, Generator, drinking water pump, compound lights, Networking including Operation of EA Set, drinking water Pump at O/O the GM (F ), sector-D and sector-O PAO bldg. Aliganj, Lucknow for the",
+      "tenderRef": "2026_ARMHA_921800_1",
+      "title": "I.15032/NIT/Engr/ TCamp/Emergent/ 2026-27/250",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-12T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:00:00.000Z",
+      "tenderOpensAt": "2026-08-26T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZS1qTaIq0ZgZEiVPoXaJUQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DAE_922575_1",
+      "title": "Procurement of Pure and Ultra-Pure Water Purification System Elix Essential 15 Kit",
+      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
+      "buyer": "Department of Atomic Energy",
+      "publishedAt": "2026-08-18T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVu%2BG3%2Bg%2Ff7B5PenoCsWPYw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922593_1",
+      "title": "SITC of 40 KWp On Grid type Solar Power Pack at Dak Bhawan, Bhopal",
       "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
       "buyer": "Department of Posts",
-      "publishedAt": "2026-08-18T12:30:00.000Z",
+      "publishedAt": "2026-08-18T10:30:00.000Z",
       "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
       "tenderOpensAt": "2026-08-26T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOAlGbCWuxYYq9fw5mp5MNA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVNLMqZIcK8rLuzN7Q8v05w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_920394_1",
+      "title": "MKP/C280-073-VV-MR-6010/01 FOR OLD NIU REVAMP PROJECT OF M/s Hindustan Petroleum Corporation Ltd. (HPCL)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-08-03T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEGhaDO0pMfIeDhaueqJf0Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -295,6 +215,72 @@
       "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
       "tenderOpensAt": "2026-08-27T06:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5WA2DQAeqt1Li4Qh2frq5g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SCL_916062_1",
+      "title": "ELM C30 or ELM C30T02",
+      "organisationChain": "Semi-Conductor Laboratory (SCL)",
+      "buyer": "Semi-Conductor Laboratory (SCL)",
+      "publishedAt": "2026-07-07T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-26T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFmCFcsMDeBpL%2BG%2BcsFnb4w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922523_1",
+      "title": "Renovation of EI and Fans ,LED fixtures,UPS,Networking , Security lights, earthing and Main distribution boards etc for SRO Itarshi , MP Region, Bhopal (MP).",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-18T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-26T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQJix9LprUe2BHWwR9eeggQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_908489_1",
+      "title": "SP/B957-000-YK-MR-1080/149 LOADING AUTOMATION SYSTEM ROAD LOADING FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-05-13T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCe5nJK21XKly%2FiEVbepgrA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922647_1",
+      "title": "Day to day maintenance of Electrical installation, Substation, Generator, drinking water pump, compound lights, Networking including Operation of EA Set, drinking water Pump at O/O the GM (F ), sector-D and sector-O PAO bldg. Aliganj, Lucknow for the",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-18T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-26T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOAlGbCWuxYYq9fw5mp5MNA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922652_1",
+      "title": "Operation/Rescue operation of 4 nos 13 passenger lift at O/o The G.M.(Fina), PAO Bldg, Aliganj, Lucknow. (For 2026-27)",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-18T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-26T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sd0%2FwdmNsUhhMo8QQyZp7fg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_914894_1",
+      "title": "SP/B957-000-YF-MR-1055/178 - ULTRASONIC FLOWMETERS FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP) OF M/S BHARAT PETROLEUM CORPORATION LIMITED (BPCL)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-06-26T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-25T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQ09mZ7zpEM4jI0fBdYm%2BHQ%3D%3D",
       "matchedKeywords": []
     }
   ]
