@@ -1,55 +1,36 @@
 {
-  "fetchedAt": "2026-08-26T01:48:09.157Z",
-  "durationMs": 70234,
+  "fetchedAt": "2026-08-26T04:49:05.410Z",
+  "durationMs": 57982,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 350,
-  "relevantCount": 0,
-  "tenders": [],
+  "totalRowsParsed": 342,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_FACT_921522_1",
+      "title": "Repair works of Water treatment Plant and Providing a New Raw water line in Bagging Plant at FACT CD, Ambalamedu.",
+      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
+      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
+      "publishedAt": "2026-08-11T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T08:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbZx5F1A9jLGBz2yVfE4M4Q%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
   "sampleRows": [
     {
-      "tenderRef": "2026_MGIRI_918900_1",
-      "title": "Supply of Manpower for MGIRI",
-      "organisationChain": "Mahatma Gandhi Institute for Rural Industrilization",
-      "buyer": "Mahatma Gandhi Institute for Rural Industrilization",
-      "publishedAt": "2026-07-27T05:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T03:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnlSlMvh9AXVrJYVq3ayomw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_IITTP_920627_1",
-      "title": "NOTICE INVITING TENDER FOR THE SUPPLY AND INSTALLATION OF DESKTOP COMPUTERS - 200 Nos",
-      "organisationChain": "Indian Institute of Technology Tirupati||Purchase and Stores - IITTP",
-      "buyer": "Indian Institute of Technology Tirupati",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T05:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BKSC4N3ALQbJbmzKE6UirQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DARE_920768_1",
-      "title": "Providing of Parapet wall comprises of PCC work, MS Grill and painting etc. at ICAR-NMRI, Hyderabad",
-      "organisationChain": "Department of Agricultural Research and Education||Indian Council of Agricultural Research,DoARE,MoA||National Research Centre on Meat-Telangana",
-      "buyer": "Department of Agricultural Research and Education",
-      "publishedAt": "2026-08-05T11:35:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T04:45:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8rvlus2eYBcrsST4QOaDMw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NEIAH_920495_1",
-      "title": "Construction of Aluminium Partition for 3 OPDs and 1 No Anaesthesiologists room in Ayurveda Hospital at NEIAH Mawdiangdiang Shillong Meghalaya",
-      "organisationChain": "North Eastern Institute of Ayurveda And Homoeopathy",
-      "buyer": "North Eastern Institute of Ayurveda And Homoeopathy",
-      "publishedAt": "2026-08-05T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T04:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRQ5qPAdbkoQOMwSmnsdH7g%3D%3D",
+      "tenderRef": "2026_RCFL_921886_1",
+      "title": "AN 89146 of Plate Fin Tube Bundle Assembly for 1st and 2nd Stage Intercoolers of PAC III",
+      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
+      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T05:00:00.000Z",
+      "tenderOpensAt": "2026-08-26T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzNKrS%2BOZZ7jGYmGibvm49Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -64,17 +45,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_RCFL_921886_1",
-      "title": "AN 89146 of Plate Fin Tube Bundle Assembly for 1st and 2nd Stage Intercoolers of PAC III",
-      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
-      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T05:00:00.000Z",
-      "tenderOpensAt": "2026-08-26T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzNKrS%2BOZZ7jGYmGibvm49Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_BSF_922738_1",
       "title": "REPAIR AND MAINTENANCE OF 250 KVA TRANSFORMER INSTALLED NEAR GENRATOR ROOM AT BN HQ 169 BN BSF UNDER SHQ BSF UDAIPUR.",
       "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
@@ -83,28 +53,6 @@
       "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
       "tenderOpensAt": "2026-08-27T06:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sn9L0XQGSD4L6tf48mU3rJw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_PGIME_920689_2",
-      "title": "Urgent Repair of AMF Panel at NINE Substation, PGIMER, Chandigarh",
-      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
-      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
-      "publishedAt": "2026-08-19T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdPBPPl8J7TkFJd893ynKCQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_922306_1",
-      "title": "C O OF 08 BEDDED MAHILA BARRACK AT BOP MATAHILL OF 149 BN NOW 35 BN BSF UNDER SHQ BSF JSMR S SH EI and FANS",
-      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-14T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVE99sY0DGCnj%2FXFDWi5Gww%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -119,25 +67,58 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_920877_1",
-      "title": "VIII.11011/33 AR/Engr/MW/2026-27/08",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-08-06T07:00:00.000Z",
+      "tenderRef": "2026_BSF_922318_1",
+      "title": "CO OF 08 BEDDED MAHILA BARRACK AT BOP MKT OF 149 BN NOW 35 BN BSF UNDER SHQ BSF JSMR S SH EI and FANS",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-15T03:30:00.000Z",
       "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
       "tenderOpensAt": "2026-08-27T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SaDDZBs%2Foz6lNvHo%2BVxa%2FqA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjDET5%2F%2BJbQHkw8Ae61lLvg%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ITBP_920670_1",
-      "title": "SUPPLY OF FRESH RATION ITEMS AT BHQ 30TH BN JALANDHAR PUNJAB",
-      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, NORTH WESTERN FTR,ITBP",
-      "buyer": "DG, Indo-Tibetan Border Police Force",
-      "publishedAt": "2026-08-05T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T06:00:00.000Z",
+      "tenderRef": "2026_BSF_922722_1",
+      "title": "Repair and maintenance of 250 KVA transformer installed near family quarters at BN HQ 114 Bn BSF under SHQ BSF Udaipur",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-19T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
       "tenderOpensAt": "2026-08-27T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEes%2FiL7GY3oerAc1cE5sqw%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SstIGwtP6bEAtKhn7ajv%2FDA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_PGIME_920689_2",
+      "title": "Urgent Repair of AMF Panel at NINE Substation, PGIMER, Chandigarh",
+      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
+      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
+      "publishedAt": "2026-08-19T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdPBPPl8J7TkFJd893ynKCQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_920897_1",
+      "title": "VIII.11011/33 AR/Engr/AMC/2026-27/03",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-06T07:35:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHHrY0mRpmb5mLhXng1cQyA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_922306_1",
+      "title": "C O OF 08 BEDDED MAHILA BARRACK AT BOP MATAHILL OF 149 BN NOW 35 BN BSF UNDER SHQ BSF JSMR S SH EI and FANS",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-14T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVE99sY0DGCnj%2FXFDWi5Gww%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -152,14 +133,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NRB_921825_1",
-      "title": "Boiler tube and drum cleaning descaling and certification of RP boilers at RP Boiler House NRB BARC Tarapur",
-      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
-      "buyer": "Nuclear Recycle Board",
-      "publishedAt": "2026-08-14T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-08-26T06:30:00.000Z",
+      "tenderRef": "2026_ITBP_920670_1",
+      "title": "SUPPLY OF FRESH RATION ITEMS AT BHQ 30TH BN JALANDHAR PUNJAB",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, NORTH WESTERN FTR,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-08-05T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T06:00:00.000Z",
       "tenderOpensAt": "2026-08-27T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdNN7RzMYsFLti%2FYJnaqQzw%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEes%2FiL7GY3oerAc1cE5sqw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922569_1",
+      "title": "Electrical works",
+      "organisationChain": "Department of Posts||North East Circle ,Dept. of Posts||CPMG,North East Circle,Shillong,POST||AE(E) , Postal Electrical Sub Dn, Shillong,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-18T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T06:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:45:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6T8NUQLuSAzo86VAm7MFsA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -185,25 +177,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IITKG_919711_1",
-      "title": "Abrasive Cutting Machine for TEM Sample Preparation",
-      "organisationChain": "Indian Institute of Technology Kharagpur||SRIC - IIT Kharagpur",
-      "buyer": "Indian Institute of Technology Kharagpur",
-      "publishedAt": "2026-07-29T11:30:00.000Z",
+      "tenderRef": "2026_NRB_921825_1",
+      "title": "Boiler tube and drum cleaning descaling and certification of RP boilers at RP Boiler House NRB BARC Tarapur",
+      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
+      "buyer": "Nuclear Recycle Board",
+      "publishedAt": "2026-08-14T06:30:00.000Z",
       "bidSubmissionCloses": "2026-08-26T06:30:00.000Z",
       "tenderOpensAt": "2026-08-27T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SqbCRWzJws%2BmV90ivd7gXtA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdNN7RzMYsFLti%2FYJnaqQzw%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_922569_1",
-      "title": "Electrical works",
-      "organisationChain": "Department of Posts||North East Circle ,Dept. of Posts||CPMG,North East Circle,Shillong,POST||AE(E) , Postal Electrical Sub Dn, Shillong,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-08-18T09:30:00.000Z",
+      "tenderRef": "2026_NEHU_922604_1",
+      "title": "Providing a new Feeder Pillar behind qtr. no. 5, Type-IV areas at NEHU Campus, Shillong",
+      "organisationChain": "North-Eastern Hill University (NEHU)||Campus Development Dept. (CDD) -NEHU",
+      "buyer": "North-Eastern Hill University (NEHU)",
+      "publishedAt": "2026-08-18T10:30:00.000Z",
       "bidSubmissionCloses": "2026-08-26T06:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T06:45:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6T8NUQLuSAzo86VAm7MFsA%3D%3D",
+      "tenderOpensAt": "2026-08-27T07:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SM8NwgQ4mEqabEf78Op%2FFHw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -240,14 +232,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_HWB_920003_1",
-      "title": "HWPM/PP/DUCWS/26/01",
-      "organisationChain": "Heavy Water Board||Heavy Water Plant Manuguru",
-      "buyer": "Heavy Water Board",
-      "publishedAt": "2026-08-10T11:30:00.000Z",
+      "tenderRef": "2026_IIMU_920675_1",
+      "title": "Extension and Upgradation of the Existing Cricket Ground at IIM Udaipur.",
+      "organisationChain": "Indian Institute of Management Udaipur",
+      "buyer": "Indian Institute of Management Udaipur",
+      "publishedAt": "2026-08-05T08:30:00.000Z",
       "bidSubmissionCloses": "2026-08-26T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-27T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SssJAVcIDluv%2F9ob6koYMBw%3D%3D",
+      "tenderOpensAt": "2026-08-26T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQq2jTgXIdMKoL2wS%2BRCu4A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NS_923089_1",
+      "title": "Electrical connection for 10 No.s AC for Faculty cabins, ECE department NIT Silchar.",
+      "organisationChain": "National Institute of Technology Silchar",
+      "buyer": "National Institute of Technology Silchar",
+      "publishedAt": "2026-08-21T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T08:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8Ca5WykMr%2Bfi%2BZ8ZJqkkOg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -262,14 +265,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IIMU_920675_1",
-      "title": "Extension and Upgradation of the Existing Cricket Ground at IIM Udaipur.",
-      "organisationChain": "Indian Institute of Management Udaipur",
-      "buyer": "Indian Institute of Management Udaipur",
-      "publishedAt": "2026-08-05T08:30:00.000Z",
+      "tenderRef": "2026_HWB_920003_1",
+      "title": "HWPM/PP/DUCWS/26/01",
+      "organisationChain": "Heavy Water Board||Heavy Water Plant Manuguru",
+      "buyer": "Heavy Water Board",
+      "publishedAt": "2026-08-10T11:30:00.000Z",
       "bidSubmissionCloses": "2026-08-26T08:30:00.000Z",
-      "tenderOpensAt": "2026-08-26T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQq2jTgXIdMKoL2wS%2BRCu4A%3D%3D",
+      "tenderOpensAt": "2026-08-27T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SssJAVcIDluv%2F9ob6koYMBw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -281,6 +284,17 @@
       "bidSubmissionCloses": "2026-08-26T08:30:00.000Z",
       "tenderOpensAt": "2026-08-27T09:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNvfQW%2BIvEhzhSizhwnnNFw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ALHW_920628_1",
+      "title": "BEACHING OF DEPARTMENTAL FLOATING CRAFTS DB AMAN, HB ALLAPPEY AND HB ARAVIND AT KAVARATTI",
+      "organisationChain": "Andaman Lakshadweep Harbour Works||Executive Engineer (Civil)- Kavarath ALHW",
+      "buyer": "Andaman Lakshadweep Harbour Works",
+      "publishedAt": "2026-08-04T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-26T09:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SczwgcWEN%2Br0ERjG6pRtz%2BQ%3D%3D",
       "matchedKeywords": []
     }
   ]
