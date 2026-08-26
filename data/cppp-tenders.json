@@ -1,9 +1,301 @@
 {
-  "fetchedAt": "1970-01-01T00:00:00.000Z",
-  "durationMs": 0,
-  "ok": false,
-  "error": "Not yet scraped — awaiting first GitHub Actions run.",
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": []
+  "fetchedAt": "2026-08-26T23:16:51.401Z",
+  "durationMs": 56283,
+  "ok": true,
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 337,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_DDA_922035_1",
+      "title": "Completed Scheme Under N.A.-II (Hort.Zone). 1. Rejuvenation and Restoration of River Yamuna flood plains. Area from Old Railway Bridge to Geeta Colony Bridge (Yamuna Vatiika Part A-93 Hact.) 2. Park at Anandita. 3. Atal Sadbhavana Park. 4. Park at Ro",
+      "organisationChain": "Delhi Development Authority||Dir-Horticulture (South East)-DDA||Dy Director-Horticulture Div-9-VMC-Vivek Vihar-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-08-13T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-28T09:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiXpzkCFpJQUNpADsMci86A%3D%3D",
+      "matchedKeywords": [
+        "railway bridge"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_AIIBB_913638_2",
+      "title": "Automated System for Bacterial Identification and Sensitivity",
+      "organisationChain": "All india Institute of Medical Sciences Bibinagar",
+      "buyer": "All india Institute of Medical Sciences Bibinagar",
+      "publishedAt": "2026-08-06T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T03:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwMLeMQbCItA4qZqYpmDyKg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_923197_1",
+      "title": "Repair and Maintenance work of Hospital at CIAT Shivpuri",
+      "organisationChain": "DG,CRPF,MHA||Rapid Action Force,CRPF,MHA||Rapid Action Force-3 Dehradun-CRPF-MHA||106 RAF - CRPF MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-22T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T03:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T04:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sl36xpridIQVYsmaKCxs%2FtQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_922007_1",
+      "title": "Repairing of roof leakage of existing SM Bks at KLP Radhanagar",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBt7A8wdW54oO8ccs%2BopXYg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_922261_1",
+      "title": "Annual Maintenance and Upkeep of Archaeological Garden at Monoliths of Kachari Ruins, Dimapur, Nagaland as enumerated in tender for the year 2026-27 as on required basis.",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6PLyEIQaLQcGmaKg8K4G8w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_921943_1",
+      "title": "VIII.11011/33 AR/Engr/AMC/2026-27/04",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-13T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHoxR2O5mCG1xvZF2sIw43Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_922891_1",
+      "title": "Repairing and painting of office Toilet in Adm Block at GC CRPF, Nagpur Maharashtra Campus",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-20T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdwGQwxuhKD%2BjtplYHYylYQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITK_921199_1",
+      "title": "Comprehensive Annual Maintenance Contract for Civil Works at NITK",
+      "organisationChain": "National Institute of Technology Karnataka",
+      "buyer": "National Institute of Technology Karnataka",
+      "publishedAt": "2026-08-07T12:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5TwQYcxPDlXh8IHYeKn3sg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_922256_1",
+      "title": "Annual Maintenance and Upkeep of Archaeological Garden at Museum Complex, Sri Suryapahar, Goalpara, Assam as enumerated in tender for the year 2026-27 as on required basis.",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Guwahati Circle-Guwahati",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5FOljdtGjP3D6eyr%2ByKmBA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_922008_1",
+      "title": "Repair/maint of Roof treatment and periodical services of Type-IV Md accn Bldg No P/656 at Bn HQ 35 Assam Rifles",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHMUKPZAKrZQHphtyLHBrtg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_RCFL_920863_1",
+      "title": "CONTRACT FOR SHEETING WORKS FOR CONVEYOR GANTRIES IN PHP AT RCF THAL",
+      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
+      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
+      "publishedAt": "2026-08-06T06:15:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:00:00.000Z",
+      "tenderOpensAt": "2026-08-27T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmCRmPieklTqfpnFW0%2BRNZw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AUS_922962_1",
+      "title": "Construction of chain link fencing, drain and apron repairing etc. at BH-2 at Assam University, Silchar, Assam.",
+      "organisationChain": "Assam University Silchar",
+      "buyer": "Assam University Silchar",
+      "publishedAt": "2026-08-20T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCCL%2BrQotJyR4bj9cJMVohQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_921047_1",
+      "title": "CD Works for Transplantation of Shiva Temple at Vellaturu Village under Pulichintala Project, Suryapet Dist. Telangana-Execution of Work",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Hyderabad Circle-Hyderabad",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-08-07T06:20:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SO0lOSc2MdZdVBT8h1gW3Cg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NIOT_917800_1",
+      "title": "Comprehensive Architectural and Structural Design and Project Management for the Construction of the Advanced Marine Station for Ocean Biology AMSOB at Nemmeli Village Chengalpattu District Tamil Nadu",
+      "organisationChain": "National Institute of Ocean Technology||Stores and Purchase - NIOT",
+      "buyer": "National Institute of Ocean Technology",
+      "publishedAt": "2026-07-16T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShIQ%2B6KsvkfpN2G93j1UU6Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_920652_1",
+      "title": "DSC (Differential Scanning Calorimeter)",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-05T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SofdLGd8n4UBvm6ayDfD%2FXQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_922311_1",
+      "title": "MW (C) Conservation to the Outer Surface of CharMinar West side Hyderabad 2025-26- Execution of work",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Hyderabad Circle-Hyderabad",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-08-14T13:10:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzrPJP9yM5PIIWPm9FAn0mA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_PGIME_923192_1",
+      "title": "Providing and fixing 35 Nos Geysers in visitors Hostel at PGI Satellite Centre Sangrur, Punjab.",
+      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
+      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
+      "publishedAt": "2026-08-21T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjWbG4txwHTYQrb8Z5gawfw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_920661_1",
+      "title": "Two port glove box",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-05T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2fjhUqNwMhG3ZfpTCl1AvA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITW_918818_1",
+      "title": "SETTING UP and OPERATION OF SUPERMARKET SHOP AT NIT WARANGAL",
+      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
+      "buyer": "National Institute of Technology Warangal",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StOqyTSsJ19Ac6bWK9jL0QQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_923058_1",
+      "title": "SITC of 10 kWp Rooftop Ongrid Solar Power Plant at Jalna HO in Chh Sambhajinagr Region",
+      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-20T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGmedbzea%2FeaIE71QkrQTWw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_923036_1",
+      "title": "SITC of 10 kWp Rooftop Ongrid Solar Power Plant at Mapusa MDG under Goa Region 2nd Call",
+      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-20T11:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SP5O%2BtG82lKaLE2lyRj9suw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_923067_1",
+      "title": "SITC of 10 kWp Rooftop Ongrid Solar Power Plant at Vashi MDG under Navi Mumbai Region",
+      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-20T11:45:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdwKxx%2B8flJ31JEMeaxa25Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922465_1",
+      "title": "SITC of 01 No. Fedder Pillar and 2 Nos cubical LT panel for Intergated Hub Silchar and Sub Panel for Arunachal SO, Assam. (2nd call)",
+      "organisationChain": "Department of Posts||Telangana Circle- Dept of Posts",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-17T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sux5wAMwQnCv1t5bWc1fspg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SAI_922048_1",
+      "title": "Tender for Supply of OBO Hockey Equipments",
+      "organisationChain": "Sports Authority of India||SAI Regional Centre Lucknow",
+      "buyer": "Sports Authority of India",
+      "publishedAt": "2026-08-13T11:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyCS3h2rIgJHmTqI6AjNe3Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_921714_1",
+      "title": "Optical Tables",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-27T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7%2FPS1FIBWon9Rv%2FwKbJ6mg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITW_919923_1",
+      "title": "AMC OF GPU WORKSTATION FOR ONE YEAR",
+      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
+      "buyer": "National Institute of Technology Warangal",
+      "publishedAt": "2026-07-30T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRmeFBxI4X2Ahfg7xyc3dxw%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
