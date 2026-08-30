@@ -1,9 +1,303 @@
 {
-  "fetchedAt": "1970-01-01T00:00:00.000Z",
-  "durationMs": 0,
-  "ok": false,
-  "error": "Not yet scraped — awaiting first GitHub Actions run.",
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": []
+  "fetchedAt": "2026-08-30T05:03:43.178Z",
+  "durationMs": 55411,
+  "ok": true,
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 315,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_DRDO_922826_1",
+      "title": "Operation and Maintenance of Water Treatment Plant Sprinkler System and Water Supply at VRDE Ahilyanagar",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) West - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-08-19T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUJ2hHfI925y2F14cKrbeLA%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_IIAP_921648_1",
+      "title": "Drilling of 200 mm Diameter Borewell Including Installation and Commissioning of Submersible Pump Set with Allied Works at NLST Site, IAO Merak, Leh Ladakh.",
+      "organisationChain": "Indian Institute of Astrophysics||CIVIL DEPARTMENT-IIAP",
+      "buyer": "Indian Institute of Astrophysics",
+      "publishedAt": "2026-08-11T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T03:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sn3kqnCoVNNfGGSd6qlcJeA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_922503_1",
+      "title": "Comprehensive Annual Maintenance Contract of 40 MT pit shallowpit pit less type Fully Electronic Computerized Lorry Weighbridge at FSD TANGLA under DO Tezpur",
+      "organisationChain": "Food Corporation of India||Regional Office,Assam,FCI,MFPD||DO-Tezpur_ASSAM_FCI",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-08-18T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T03:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJEVghl8ouAxv%2BWdPZC6AGg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ESIC_921623_1",
+      "title": "Tea Corner",
+      "organisationChain": "Employees State Insurance Corporation||ESIC Hospital-Indore M.P.",
+      "buyer": "Employees State Insurance Corporation",
+      "publishedAt": "2026-08-11T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T03:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9IDyhSEWHzuCD61MLYxk7g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SSB_923024_1",
+      "title": "Providing, installation, testing and commissioning of 16 mtr high mast light pole with LED Lights near children park of SFA Quarters at Frontier Hqrs SSB Guwahati",
+      "organisationChain": "DG Sashastra Seema Bal,MHA||IG FTR HQRS Guwahati,SSB",
+      "buyer": "DG Sashastra Seema Bal,MHA",
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:00:00.000Z",
+      "tenderOpensAt": "2026-09-01T04:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbXFlYvSDlgkiLXTPqvvUJg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_922672_2",
+      "title": "Annual systematic maintenance work at Railway siding at FSD OJM (2nd Call)",
+      "organisationChain": "Food Corporation of India||Regional Office,West Bengal,FCI,MFPD",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-08-19T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SU2%2Fubt4v%2Fu5kyf6DRnyWyA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_923498_2",
+      "title": "Electrification of extended portion of officers institute of SHQ BSF Baramulla",
+      "organisationChain": "DG,BSF,MHA||Srinagar FTR(Srinagar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-24T13:10:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SuOQWHkPeCoeEvcdriumF2g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ALHW_921843_1",
+      "title": "Revamping of ALHW Multipurpose Hall at Campbell Bay in Great Nicobar Island",
+      "organisationChain": "Andaman Lakshadweep Harbour Works||Executive Engineer (K and GN) -Campbell Bay ALHW",
+      "buyer": "Andaman Lakshadweep Harbour Works",
+      "publishedAt": "2026-08-14T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJOApXieL9OXsaf2k3MpatA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRB_923452_1",
+      "title": "Fabrication, Inspection and supply of Muff coupling and modification bearing housing of attritor.",
+      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
+      "buyer": "Nuclear Recycle Board",
+      "publishedAt": "2026-08-24T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SYjAInQwnTsB2kyq1gPQmNQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_923390_1",
+      "title": "Repair and Maintenance of toilet of Jawan Barrack No.1 and2 Hospital toilet block and SOs Mess at BSF Campus Coimbatore of 136 Bn BSF",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-08-24T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S105VSikHcmNmYHIlWwpCoA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_922553_1",
+      "title": "AMC for the FY 2026-27 in respect of HQ 23 Sect and under comd unit",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-18T07:40:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeBGMuI%2BqYjqPEHwpMp3ezQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITK_922282_1",
+      "title": "Daily operation and Regular Comprehensive maintenance of 4 numbers of Sewage Treatment Plants 2 nos of 500KLD and 1 no. of 220KLD capacity and no.of new 40KLD capacity at NITK- 2nd call",
+      "organisationChain": "National Institute of Technology Karnataka",
+      "buyer": "National Institute of Technology Karnataka",
+      "publishedAt": "2026-08-14T12:15:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SS4pIRSxPrwQw42ZpJo206w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_922672_3",
+      "title": "Annual systematic maintenance work at Railway siding at FSD JJP",
+      "organisationChain": "Food Corporation of India||Regional Office,West Bengal,FCI,MFPD",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-08-19T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVSAXJU9ESw3%2FhfEOavcsNw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IIMT_920816_1",
+      "title": "Tender for the Supply, Installation, Testing, and Commissioning of Laser Projector, LED Display, and Lapel Mic with Receiver for IIM Tiruchirappalli",
+      "organisationChain": "Indian Institute of Management Tiruchirappalli||Stores and Purchase",
+      "buyer": "Indian Institute of Management Tiruchirappalli",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:00:00.000Z",
+      "tenderOpensAt": "2026-09-01T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SqvWkI2JwxslBt%2FKtmL2fEg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_HURL_921922_1",
+      "title": "EOI for empanelment of vendors for Supply of PDR, Sulphur 90 percent (Powder) and Boronated CN in HURL APNA brand in U.P, Rajasthan, Punjab, Haryana, M.P, W.B, Bihar, Odisha, Jharkhand, Assam, Chhattisgarh, J and K, H.P, MH, Gujarat,Uttarakhand",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||HQ-Delhi - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:00:00.000Z",
+      "tenderOpensAt": "2026-08-31T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBeRxKjFPoKTu%2FPQAIL13Uw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_921218_1",
+      "title": "E beam evaporation system",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-07T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnprsxjIvBNuoLRbk52ZA4A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DRDO_922826_1",
+      "title": "Operation and Maintenance of Water Treatment Plant Sprinkler System and Water Supply at VRDE Ahilyanagar",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) West - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-08-19T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUJ2hHfI925y2F14cKrbeLA%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    },
+    {
+      "tenderRef": "2026_IITR_922167_1",
+      "title": "Interactive Panel- 65 with OPS",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-14T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Stz6Bx7kUZcw7972VBGYfTw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_923405_1",
+      "title": "SUPPLY OF WROUGHT FITTINGS - (4.196)",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-08-24T08:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2Ar%2BBPtDnTyeGQvAOoQmYw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_922157_1",
+      "title": "PRECISION IMPEDANCE ANALYZER",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-14T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScdKNLpno9rE%2Bnn0TCiFI4w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_922994_1",
+      "title": "Internal Electrification in Renovation of Toilets different hostels, at Aftab Hall, AMU, Aligarh",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-08-20T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDBbIsvxUbwQsxRhGYPb0xw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DRDO_923091_1",
+      "title": "Operation and Maintenance of EOT Cranes and Sliding Doors at Acem, Nasik",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) West - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sxt%2BJaWWnJ0ANd4L774R%2F9Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_921160_1",
+      "title": "Single Mode Patch Cables, Fiber Chuck, Polarization Controllers",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SaW8gn2keV0Yq7OYxjGZ78w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_923001_1",
+      "title": "S.I.T.C. of one number 1 x 58.5 KVA DG Set along with acoustic enclosure and other miscelinius work at Navsari HPO Bldg., Navsari (Gujarat).",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-20T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-01T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SggqATZJcnDk%2F1p0%2B7iyMhQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_921171_1",
+      "title": "Tapered Optical Fibers",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-07T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sl%2FVs0UpBg50moht%2B960aHw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITR_921206_1",
+      "title": "Table Top Probe Station",
+      "organisationChain": "Indian Institute of Technology Roorkee||Material Management - IIT Roorkee",
+      "buyer": "Indian Institute of Technology Roorkee",
+      "publishedAt": "2026-08-07T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-08-31T05:30:00.000Z",
+      "tenderOpensAt": "2026-08-31T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQW%2FVt4VVjFb5rbD9G8tRDQ%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
