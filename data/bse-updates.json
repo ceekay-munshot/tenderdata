@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-01T04:46:12.255Z",
-  "durationMs": 1521,
+  "fetchedAt": "2026-09-01T13:24:44.984Z",
+  "durationMs": 2543,
   "window": {
     "daysBack": 30
   },
@@ -12,9 +12,34 @@
     "IRCON",
     "LT"
   ],
-  "successCount": 6,
-  "failureCount": 0,
-  "failures": [],
+  "successCount": 0,
+  "failureCount": 6,
+  "failures": [
+    {
+      "ticker": "BLS",
+      "error": "BSE responded 503"
+    },
+    {
+      "ticker": "BEL",
+      "error": "BSE responded 503"
+    },
+    {
+      "ticker": "HAL",
+      "error": "BSE responded 503"
+    },
+    {
+      "ticker": "RVNL",
+      "error": "BSE responded 503"
+    },
+    {
+      "ticker": "IRCON",
+      "error": "BSE responded 503"
+    },
+    {
+      "ticker": "LT",
+      "error": "BSE responded 503"
+    }
+  ],
   "counts": {
     "announcements": 0,
     "negative": 0,
