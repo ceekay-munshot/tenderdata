@@ -1,38 +1,13 @@
 {
-  "fetchedAt": "2026-09-04T12:40:14.229Z",
-  "durationMs": 54321,
+  "fetchedAt": "2026-09-04T18:56:40.608Z",
+  "durationMs": 15112,
   "ok": true,
   "view": "14day",
-  "pagesFetched": 50,
-  "totalRowsParsed": 344,
-  "relevantCount": 1,
-  "tenders": [
-    {
-      "tenderRef": "2026_DMRC_917442_1",
-      "title": "Supply, Installation, Testing and Commissioning for shifting / raising the height of 400KV D/C Transmission Lines of PGCIL (NR-1) and DTL infringing near MCD WtE Bawana Plant in Rithala - Kundli (Nathupur) Corridor of Delhi Metro Phase-IV Project.",
-      "organisationChain": "Delhi Metro Rail Corporation Limited||ED/Contracts - DMRC",
-      "buyer": "Delhi Metro Rail Corporation Limited",
-      "publishedAt": "2026-07-15T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-07T09:30:00.000Z",
-      "tenderOpensAt": "2026-09-08T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SYud%2BL7zJ3ZyMnejjR%2FimMg%3D%3D",
-      "matchedKeywords": [
-        "transmission line"
-      ]
-    }
-  ],
+  "pagesFetched": 12,
+  "totalRowsParsed": 95,
+  "relevantCount": 0,
+  "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_TMC_919186_1",
-      "title": "CMC of Printers and Scanner of HBCH, Sangrur for Two years",
-      "organisationChain": "Tata Memorial Centre||Homi Bhabha Cancer Hospital and R C Mohali Punjab",
-      "buyer": "Tata Memorial Centre",
-      "publishedAt": "2026-07-27T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-09-04T13:00:00.000Z",
-      "tenderOpensAt": "2026-09-07T05:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sx7ixyXQpceQsuLjQj%2FcalQ%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_MGIMS_922178_1",
       "title": "Supply of Mirrorless Video Camera and Photo Camera Professional 4K Camcorder System including accessories",
@@ -42,72 +17,6 @@
       "bidSubmissionCloses": "2026-09-05T03:30:00.000Z",
       "tenderOpensAt": "2026-09-07T03:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQydvBeUY6NxYLi8%2FRyPwKQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_923975_1",
-      "title": "Repair and Maintenance OF OLD TYPE II BLOCK 03 BLOCK AT CRPF, G.C II, AJMER Raj",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-08-29T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7%2FU9Kxc%2FyZ5NFRqReIJH0A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_924048_1",
-      "title": "Repair Maintenance of office of DC PPS, DC M, AC PS, AC HQ, AC ENG, AC OL, Visitor Room and Adm Branch, and Org, Prov, Contract Cell, Pers and CR Vigilance, Finance and Accounts, Legal Cell at JKZ",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-08-29T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWYohroYyFykXmWgl%2BC%2Bi9g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NALCO_923556_1",
-      "title": "HIRING OF VEHICLES ON AS AND WHEN REQUIREMENT BASIS FOR DUTY IN ALUMINA REFINERY, NALCO, DAMANJODI",
-      "organisationChain": "National Aluminium Company Limited,NALCO||NALCO-Alumina Division-Damanjodi||Tender and Contract-AD-Damanjodi-NALCO",
-      "buyer": "National Aluminium Company Limited,NALCO",
-      "publishedAt": "2026-08-26T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SqkessaBSRTCSmnK0EN%2FOEw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_924061_1",
-      "title": "Repair and Maintenance of AWS Office at GC CRPF Jammu",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-08-29T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8mHat0LJrh3JeVWnusm4bg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_924065_1",
-      "title": "Repair and Maintenance of Type V No 02 Family residential quarters at GC CRPF Jammu",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-08-29T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5gt%2BRiVpFcZ3qv%2BLphh%2B%2FA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_923373_1",
-      "title": "IV.11012/MW/CA-33/2026-27",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-08-22T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SheVWXjRPuvgS9n55dkOSJw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -122,17 +31,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NECBD_921932_1",
-      "title": "Supply of Tools and Machineries",
-      "organisationChain": "North East Cane and Bamboo Development Council (NECBDC) Burnihat Assam",
-      "buyer": "North East Cane and Bamboo Development Council (NECBDC) Burnihat Assam",
-      "publishedAt": "2026-08-13T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAhqXJvpM%2Fc8ivTHM6xrmMw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_CRPF_916763_2",
       "title": "Renovation and upgradation of VIP Room RTC, CRPF, Palari Khichiyan Jodhpur",
       "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
@@ -144,14 +42,80 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_RCFL_921956_1",
-      "title": "AN 88583 Trapped Bushing Seals Spares for Ammonia Refrigeration Compressor Unit",
-      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
-      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
-      "publishedAt": "2026-08-13T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T05:00:00.000Z",
-      "tenderOpensAt": "2026-09-05T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S85BsJhrd1mhc4qINiZ8I2Q%3D%3D",
+      "tenderRef": "2026_ARMHA_923373_1",
+      "title": "IV.11012/MW/CA-33/2026-27",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-22T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SheVWXjRPuvgS9n55dkOSJw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_924066_1",
+      "title": "REPAIR MAINTENANCE OF SEMI PERMANENT ORS ATTACHED LINE AT CLUB GATE ISA CRPF, MOUNT ABU Raj",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-29T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLwsOPGTWrZVzwtHZiz6FpQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_924060_1",
+      "title": "Repair and Maintenance of Room No.17, 18 and Lounge of GOs Mess at GC CRPF Jammu J and K",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-29T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJVWXxmSgOblcLEms9Jk1pw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_924065_1",
+      "title": "Repair and Maintenance of Type V No 02 Family residential quarters at GC CRPF Jammu",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-29T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5gt%2BRiVpFcZ3qv%2BLphh%2B%2FA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NECBD_921932_1",
+      "title": "Supply of Tools and Machineries",
+      "organisationChain": "North East Cane and Bamboo Development Council (NECBDC) Burnihat Assam",
+      "buyer": "North East Cane and Bamboo Development Council (NECBDC) Burnihat Assam",
+      "publishedAt": "2026-08-13T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAhqXJvpM%2Fc8ivTHM6xrmMw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_924061_1",
+      "title": "Repair and Maintenance of AWS Office at GC CRPF Jammu",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-29T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8mHat0LJrh3JeVWnusm4bg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_916797_2",
+      "title": "Repairing of Plastering and MS Grill Paining Work of Boundary Wall Gate No.02 to Mocha No. 05 and Morcha No. 05 to Morcha No. 08 at RTC Jodhpur",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-29T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBP0KyjTTtOXBqo7kuphg3g%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -166,69 +130,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_AMU_923668_1",
-      "title": "Providing and Installation of Emergency (Critical Areas) Panel at Substation Trauma Centre JNMCH, AMU, Aligarh",
-      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-08-25T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sh0w3bwk7PM07iMrOPxEaFg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ITBP_921794_1",
-      "title": "ARM OF RESIDENTIAL BUILDING, PAINTING WORK AT 18TH BN",
-      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, EASTERN FTR,ITBP||DIG(PROV),FTR HQ,ITBP",
-      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "tenderRef": "2026_RCFL_921956_1",
+      "title": "AN 88583 Trapped Bushing Seals Spares for Ammonia Refrigeration Compressor Unit",
+      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
+      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
       "publishedAt": "2026-08-13T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFbWOlf9GylFPFgDf2Of2cQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_924087_1",
-      "title": "Term contract for Repair Maint of various assets of HQ 25 Sect AR at Lekhapani",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-08-29T07:05:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Spn9838lApLggK4x6I9K30w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DAE_922836_1",
-      "title": "Procurement of 3GHZ Signal Generator",
-      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
-      "buyer": "Department of Atomic Energy",
-      "publishedAt": "2026-08-20T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S631t9XW4wWxPPDOIg94ADA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NBT_922030_1",
-      "title": "Tender for Designing and Fabrication of Stalls at ITPO.",
-      "organisationChain": "National Book Trust-India-Dept of Higher Education||Head Quarters - NBT",
-      "buyer": "National Book Trust-India-Dept of Higher Education",
-      "publishedAt": "2026-08-13T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T05:35:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2maDGHwp3hAJM4IAI4woQA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_923436_1",
-      "title": "PROVIDING AND FIXING OF 02NOS DUCT COOLER AT 120 MEN JAWAN BARRACK OF SHQ BSF JSMR SOUTH",
-      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-24T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SsT4xeQsyX7ZICR7dH3ZhSw%3D%3D",
+      "bidSubmissionCloses": "2026-09-05T05:00:00.000Z",
+      "tenderOpensAt": "2026-09-05T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S85BsJhrd1mhc4qINiZ8I2Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -243,14 +152,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_AMU_923703_1",
-      "title": "Providing Spare / Emergency Supply Cable and its Accessories from Substation of Trauma Centre to Radiology OPD JNMCH, AMU, Aligarh",
-      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-08-26T03:30:00.000Z",
+      "tenderRef": "2026_ITBP_921794_1",
+      "title": "ARM OF RESIDENTIAL BUILDING, PAINTING WORK AT 18TH BN",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, EASTERN FTR,ITBP||DIG(PROV),FTR HQ,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-08-13T05:30:00.000Z",
       "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-07T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Spv8N9p1OoqTsqEu7ksJ65w%3D%3D",
+      "tenderOpensAt": "2026-09-07T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFbWOlf9GylFPFgDf2Of2cQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NBT_922030_1",
+      "title": "Tender for Designing and Fabrication of Stalls at ITPO.",
+      "organisationChain": "National Book Trust-India-Dept of Higher Education||Head Quarters - NBT",
+      "buyer": "National Book Trust-India-Dept of Higher Education",
+      "publishedAt": "2026-08-13T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T05:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2maDGHwp3hAJM4IAI4woQA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -265,14 +185,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NHPC_916392_1",
-      "title": "ANNUAL MAINTENANCE CONTRACT (AMC) FOR CLEANING OF OVERHEAD RCC WATER STORAGE TANK and PVC/RCC TANKS SITUATED AT VARIOUS LOCATIONS AT TANAKPUR POWER STATION BANBASA",
+      "tenderRef": "2026_AMU_923668_1",
+      "title": "Providing and Installation of Emergency (Critical Areas) Panel at Substation Trauma Centre JNMCH, AMU, Aligarh",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-08-25T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sh0w3bwk7PM07iMrOPxEaFg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_923703_1",
+      "title": "Providing Spare / Emergency Supply Cable and its Accessories from Substation of Trauma Centre to Radiology OPD JNMCH, AMU, Aligarh",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-08-26T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Spv8N9p1OoqTsqEu7ksJ65w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NHPC_920872_1",
+      "title": "Repair of HR bridge road and CC Road on Left afflux bund of Tanakpur Power Station",
       "organisationChain": "NHPC Limited||Tanakpur Power Station-NHPC",
       "buyer": "NHPC Limited",
-      "publishedAt": "2026-07-08T06:00:00.000Z",
+      "publishedAt": "2026-08-08T06:00:00.000Z",
       "bidSubmissionCloses": "2026-09-05T06:00:00.000Z",
       "tenderOpensAt": "2026-09-08T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwLMTQ2SqZ8HTIQI2sMA3Hg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzqpaF2sdDteXWVUmEjlAwA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -287,14 +229,58 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NHPC_920872_1",
-      "title": "Repair of HR bridge road and CC Road on Left afflux bund of Tanakpur Power Station",
+      "tenderRef": "2026_NHPC_916392_1",
+      "title": "ANNUAL MAINTENANCE CONTRACT (AMC) FOR CLEANING OF OVERHEAD RCC WATER STORAGE TANK and PVC/RCC TANKS SITUATED AT VARIOUS LOCATIONS AT TANAKPUR POWER STATION BANBASA",
       "organisationChain": "NHPC Limited||Tanakpur Power Station-NHPC",
       "buyer": "NHPC Limited",
-      "publishedAt": "2026-08-08T06:00:00.000Z",
+      "publishedAt": "2026-07-08T06:00:00.000Z",
       "bidSubmissionCloses": "2026-09-05T06:00:00.000Z",
       "tenderOpensAt": "2026-09-08T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzqpaF2sdDteXWVUmEjlAwA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwLMTQ2SqZ8HTIQI2sMA3Hg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NEHU_921818_1",
+      "title": "Supply of Medicines and other surgical or dressing items",
+      "organisationChain": "North-Eastern Hill University (NEHU)||Campus Development Dept. (CDD) -NEHU",
+      "buyer": "North-Eastern Hill University (NEHU)",
+      "publishedAt": "2026-08-13T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Ss87%2FZcXdfwyCMOQTylVXGg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NEHU_923832_1",
+      "title": "Repairing work of Quarter L 8, L 33, L 34, L24 and L 26 at Permanent Campus, NEHU, Shillong.",
+      "organisationChain": "North-Eastern Hill University (NEHU)||Campus Development Dept. (CDD) -NEHU",
+      "buyer": "North-Eastern Hill University (NEHU)",
+      "publishedAt": "2026-08-27T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T07:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnqKRb7nQB37bbYK1NbZqgw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NEHU_923822_1",
+      "title": "Minor Repairing works of Quarter L 35 at Permanent Campus, NEHU, Shillong.",
+      "organisationChain": "North-Eastern Hill University (NEHU)||Campus Development Dept. (CDD) -NEHU",
+      "buyer": "North-Eastern Hill University (NEHU)",
+      "publishedAt": "2026-08-27T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T07:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9FWnXgDfIG3JgFvaXOIFEg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ZSI_921082_1",
+      "title": "e-NIT/ZSI/HQ/01/2026-27",
+      "organisationChain": "Zoological Survey of India",
+      "buyer": "Zoological Survey of India",
+      "publishedAt": "2026-08-07T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-05T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-07T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIxl9ZfvLvqivtHmNP5yYlw%3D%3D",
       "matchedKeywords": []
     }
   ]
