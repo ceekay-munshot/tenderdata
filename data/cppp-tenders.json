@@ -1,12 +1,39 @@
 {
-  "fetchedAt": "2026-09-07T19:54:23.095Z",
-  "durationMs": 339406,
+  "fetchedAt": "2026-09-07T22:44:39.382Z",
+  "durationMs": 53321,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 359,
-  "relevantCount": 0,
-  "tenders": [],
+  "totalRowsParsed": 369,
+  "relevantCount": 2,
+  "tenders": [
+    {
+      "tenderRef": "2026_CWPRS_923423_1",
+      "title": "Construction of Physical model for Khorlochhu Hydroelectric Project 1 50 scale at HAPT Division CWPRS Pune",
+      "organisationChain": "Central Water and Power Research Station",
+      "buyer": "Central Water and Power Research Station",
+      "publishedAt": "2026-08-25T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T09:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQcxKEnena5m%2B6HyJropbPw%3D%3D",
+      "matchedKeywords": [
+        "hydroelectric"
+      ]
+    },
+    {
+      "tenderRef": "2026_HURL_922687_1",
+      "title": "INSTALLATION OF AN ADDITIONAL DEEP BOREWELL TO ENSURE UNINTERRUPTED RAW WATER SUPPLY TO THE WATER TREATMENT PLANT, HURL TOWNSHIP",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||Baruni-Bihar - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-08-19T05:00:00.000Z",
+      "bidSubmissionCloses": "2026-09-09T05:00:00.000Z",
+      "tenderOpensAt": "2026-09-10T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3a5jtA8z2R8NFHIUvDuCOw%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
   "sampleRows": [
     {
       "tenderRef": "2026_AMSBL_922059_1",
@@ -17,39 +44,6 @@
       "bidSubmissionCloses": "2026-09-08T03:30:00.000Z",
       "tenderOpensAt": "2026-09-09T03:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sh4JUpQwJwgGeCj6EX%2F6Ggg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ESIC_924493_1",
-      "title": "SITC of VFD water pump panel, piping work , Insulation work and replacement of by valves at ESI, Hospital Durgapur, West Bengal",
-      "organisationChain": "Employees State Insurance Corporation||R.O. West Bengal||Construction Branch",
-      "buyer": "Employees State Insurance Corporation",
-      "publishedAt": "2026-09-02T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4inyKDoh6f26nTPnbTWJjQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NITK_923480_1",
-      "title": "Providing non-essential panel and LT UG cable work for the Idea factory building in NITK",
-      "organisationChain": "National Institute of Technology Karnataka",
-      "buyer": "National Institute of Technology Karnataka",
-      "publishedAt": "2026-08-24T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T05:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQs%2FCAx2mzBotMw9y87Kezw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_920733_2",
-      "title": "Repair Maint and periodical services of JCOs Mess and JCO s Club of Bldg No. AR CCP 17 and AR CCP 155 at Bn HQ Veng",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-08-31T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzG0mwJS0YFafPsWFskL8FQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -64,14 +58,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_CRPF_916973_2",
-      "title": "Repairing of SOs mess kitchen at GC CRPF Sonipat HR",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-08-28T03:30:00.000Z",
+      "tenderRef": "2026_NITK_923480_1",
+      "title": "Providing non-essential panel and LT UG cable work for the Idea factory building in NITK",
+      "organisationChain": "National Institute of Technology Karnataka",
+      "buyer": "National Institute of Technology Karnataka",
+      "publishedAt": "2026-08-24T11:30:00.000Z",
       "bidSubmissionCloses": "2026-09-08T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-11T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SoDgs0%2BMRs82WaIuTllAFLw%3D%3D",
+      "tenderOpensAt": "2026-09-09T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQs%2FCAx2mzBotMw9y87Kezw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -86,69 +80,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_924286_1",
-      "title": "ELECTRICAL RENOVATION OF GOS MESS ROOMS NO 01 TO 04 AT 88 BN BSF HQ CAMPUS UNDER SHQ BSF MALDA",
-      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-09-01T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S75SkUWaeEQlMRJvOGqlS5Q%3D%3D",
+      "tenderRef": "2026_ESIC_924493_1",
+      "title": "SITC of VFD water pump panel, piping work , Insulation work and replacement of by valves at ESI, Hospital Durgapur, West Bengal",
+      "organisationChain": "Employees State Insurance Corporation||R.O. West Bengal||Construction Branch",
+      "buyer": "Employees State Insurance Corporation",
+      "publishedAt": "2026-09-02T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4inyKDoh6f26nTPnbTWJjQ%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_924485_1",
-      "title": "Repair and renovation of the qtr No. 867 (Type-IV), Laxmi Bai Nagar, New Delhi",
-      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
+      "tenderRef": "2026_ARMHA_920733_2",
+      "title": "Repair Maint and periodical services of JCOs Mess and JCO s Club of Bldg No. AR CCP 17 and AR CCP 155 at Bn HQ Veng",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-31T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzG0mwJS0YFafPsWFskL8FQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_916973_2",
+      "title": "Repairing of SOs mess kitchen at GC CRPF Sonipat HR",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-08-28T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-11T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SoDgs0%2BMRs82WaIuTllAFLw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922592_1",
+      "title": "S.I.T.C. of Fire Detection and Alarm System under fire safety precautions at Surat Head Post Office, Surat, Gujarat.",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
       "buyer": "Department of Posts",
-      "publishedAt": "2026-09-01T12:20:00.000Z",
+      "publishedAt": "2026-08-18T12:30:00.000Z",
       "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
       "tenderOpensAt": "2026-09-09T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STV1BybTq6enfOQaQ4eBjgQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_924229_1",
-      "title": "Renovation of EI and Fans at Erasama PO under Cuttack South Division.",
-      "organisationChain": "Department of Posts||Odisha Circle ,Dept. of Posts||CPMG,Odisha Circle,Bhubaneswar,POST||MM Sec.,Odisha Circle,Bhubaneswar,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-08-31T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2hbJpBvZrVXefLlY5xwh%2FA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMD_922686_1",
-      "title": "T-347",
-      "organisationChain": "Atomic Minerals Directorate for Exploration and Research||Contract Drilling Group - AMD",
-      "buyer": "Atomic Minerals Directorate for Exploration and Research",
-      "publishedAt": "2026-08-19T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGzb2d0juYsACbnqiDnBfYA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_RCFL_924991_1",
-      "title": "AU-90778 supply of methanol",
-      "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
-      "buyer": "Rashtriya Chemicals and Fertilizers Ltd.",
-      "publishedAt": "2026-09-05T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-08T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sx0hnVlfJvTHklyAin3lDhg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_924255_1",
-      "title": "SITC of Automatic Mains Failure (AMF) Control Panel and interconnecting power cabling for 150 kVA DG Set at RTC, Bhubaneswar.",
-      "organisationChain": "Department of Posts||Odisha Circle ,Dept. of Posts||CPMG,Odisha Circle,Bhubaneswar,POST||MM Sec.,Odisha Circle,Bhubaneswar,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-08-31T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Ska%2BG1%2BxXJSNN70GMdEdZiA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCZejYZG3BEooojMel74omQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -174,36 +146,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_923001_1",
-      "title": "S.I.T.C. of one number 1 x 58.5 KVA DG Set along with acoustic enclosure and other miscelinius work at Navsari HPO Bldg., Navsari (Gujarat).",
-      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "tenderRef": "2026_DOP_924485_1",
+      "title": "Repair and renovation of the qtr No. 867 (Type-IV), Laxmi Bai Nagar, New Delhi",
+      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
       "buyer": "Department of Posts",
-      "publishedAt": "2026-08-20T10:30:00.000Z",
+      "publishedAt": "2026-09-01T12:20:00.000Z",
       "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
       "tenderOpensAt": "2026-09-09T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SggqATZJcnDk%2F1p0%2B7iyMhQ%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STV1BybTq6enfOQaQ4eBjgQ%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_922054_2",
-      "title": "S.I.T.C. of On Grid type Solar Power Pack at Santrampur SO (5 kWp) in SGR Region, Botad MDG (5 kWp) in S and K Region and Gandhinagar HO (5 kWp) in North Gujarat Region, Gujarat Circle. (2nd Call)",
-      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-09-02T10:30:00.000Z",
+      "tenderRef": "2026_BSF_924286_1",
+      "title": "ELECTRICAL RENOVATION OF GOS MESS ROOMS NO 01 TO 04 AT 88 BN BSF HQ CAMPUS UNDER SHQ BSF MALDA",
+      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-01T03:30:00.000Z",
       "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SszPQwXweFFqtSH3Mrjeuug%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NITRK_922364_1",
-      "title": "Extension of 33 kV Bay at MRSS for housing outgoing feeder for new hostel buildings in NIT Rourkela",
-      "organisationChain": "National Institute of Technology Rourkela||Estate and Maintenance - NITRKL",
-      "buyer": "National Institute of Technology Rourkela",
-      "publishedAt": "2026-08-17T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-09T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7X8yFtKd31qhdsCf6IrPdQ%3D%3D",
+      "tenderOpensAt": "2026-09-09T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S75SkUWaeEQlMRJvOGqlS5Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -218,25 +179,113 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_921068_2",
-      "title": "Electrical Rewiring of Type-I SFA Qtr (01 to 24) at BSF Campus Salt Lake under Ftr HQ BSF SB",
-      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-08-28T07:00:00.000Z",
+      "tenderRef": "2026_DOP_922651_1",
+      "title": "S.I.T.C. of Fire Detection and Alarm System under fire safety precautions at Nanpura Head Post Office, Surat, Gujarat.",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-18T12:30:00.000Z",
       "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
       "tenderOpensAt": "2026-09-09T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkysLDmOOqmgukbaLvcndRA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNhrw6WtBdrfSqXlcpsUn2A%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_924634_1",
-      "title": "Annual Comprehensive maintenance of Air Conditioner Units installed at O/o GM Finance , Jaipur.",
+      "tenderRef": "2026_DOP_922054_2",
+      "title": "S.I.T.C. of On Grid type Solar Power Pack at Santrampur SO (5 kWp) in SGR Region, Botad MDG (5 kWp) in S and K Region and Gandhinagar HO (5 kWp) in North Gujarat Region, Gujarat Circle. (2nd Call)",
       "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
       "buyer": "Department of Posts",
-      "publishedAt": "2026-09-02T11:30:00.000Z",
+      "publishedAt": "2026-09-02T10:30:00.000Z",
       "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
       "tenderOpensAt": "2026-09-09T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShkWU5SlQhLiRnM%2BuwoSegg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SszPQwXweFFqtSH3Mrjeuug%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMD_922686_1",
+      "title": "T-347",
+      "organisationChain": "Atomic Minerals Directorate for Exploration and Research||Contract Drilling Group - AMD",
+      "buyer": "Atomic Minerals Directorate for Exploration and Research",
+      "publishedAt": "2026-08-19T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGzb2d0juYsACbnqiDnBfYA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_924445_1",
+      "title": "SUPPLY OF FORGED VALVES- (4.122 and 4.123)- MTO-5",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-09-01T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-08T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Su%2B2YRFz4ZmtdJV%2BWp%2FWyXQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922222_2",
+      "title": "Renovation of Electrical installation , fans and fitting ,Computer networking and Survelliance system at Baran MDG , Jaipur (2nd Call)",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-09-02T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Ssu%2Fi%2BzvSZLpuj3BeKXYgJQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FACT_922526_1",
+      "title": "Repair of flooring and painting of CISF barrack at WI, FACT CD.",
+      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
+      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
+      "publishedAt": "2026-08-18T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKz4ZelJlPG06lIYhm2B3pQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_923001_1",
+      "title": "S.I.T.C. of one number 1 x 58.5 KVA DG Set along with acoustic enclosure and other miscelinius work at Navsari HPO Bldg., Navsari (Gujarat).",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-20T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SggqATZJcnDk%2F1p0%2B7iyMhQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_924255_1",
+      "title": "SITC of Automatic Mains Failure (AMF) Control Panel and interconnecting power cabling for 150 kVA DG Set at RTC, Bhubaneswar.",
+      "organisationChain": "Department of Posts||Odisha Circle ,Dept. of Posts||CPMG,Odisha Circle,Bhubaneswar,POST||MM Sec.,Odisha Circle,Bhubaneswar,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-31T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Ska%2BG1%2BxXJSNN70GMdEdZiA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_924289_1",
+      "title": "ELECTRICAL IMPROVEMENT OF CONFERENCE HALL OF SECTOR HQ NARAYANPUR UNDER SHQ BSF MALDA",
+      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-01T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEbQeGgU%2B8z%2FyoowmRe92JQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_924229_1",
+      "title": "Renovation of EI and Fans at Erasama PO under Cuttack South Division.",
+      "organisationChain": "Department of Posts||Odisha Circle ,Dept. of Posts||CPMG,Odisha Circle,Bhubaneswar,POST||MM Sec.,Odisha Circle,Bhubaneswar,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-08-31T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-08T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-09T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2hbJpBvZrVXefLlY5xwh%2FA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -248,28 +297,6 @@
       "bidSubmissionCloses": "2026-09-08T05:55:00.000Z",
       "tenderOpensAt": "2026-09-09T06:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SE0ZwQ1SNeqzxgrD3J4fncQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_922921_2",
-      "title": "i). Internal Electrification in G.I. Sheet over Substations at M.M. Hall, AMU., Aligarh. ii). Minor Repair work in selected rooms of different hostels at R.M. Hall AMU, Aligarh",
-      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-09-01T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T06:00:00.000Z",
-      "tenderOpensAt": "2026-09-09T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ST7EGoJot6mEx%2B%2BAzXf%2Ferg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_922994_2",
-      "title": "Internal Electrification in Renovation of toilets at Aftab Hall, AMU., Aligarh",
-      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-09-01T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-08T06:00:00.000Z",
-      "tenderOpensAt": "2026-09-09T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sxt7DeGUE7UXLgT8dNhmHlg%3D%3D",
       "matchedKeywords": []
     },
     {
