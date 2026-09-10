@@ -1,12 +1,26 @@
 {
-  "fetchedAt": "2026-09-10T12:53:30.429Z",
-  "durationMs": 55130,
+  "fetchedAt": "2026-09-10T19:04:34.452Z",
+  "durationMs": 52547,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 347,
-  "relevantCount": 0,
-  "tenders": [],
+  "totalRowsParsed": 353,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_HURL_922687_1",
+      "title": "INSTALLATION OF AN ADDITIONAL DEEP BOREWELL TO ENSURE UNINTERRUPTED RAW WATER SUPPLY TO THE WATER TREATMENT PLANT, HURL TOWNSHIP",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||Baruni-Bihar - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-08-19T05:00:00.000Z",
+      "bidSubmissionCloses": "2026-09-14T05:00:00.000Z",
+      "tenderOpensAt": "2026-09-15T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3a5jtA8z2R8NFHIUvDuCOw%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
   "sampleRows": [
     {
       "tenderRef": "2026_DU_923066_1",
@@ -17,17 +31,6 @@
       "bidSubmissionCloses": "2026-09-11T03:30:00.000Z",
       "tenderOpensAt": "2026-09-14T03:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRo71aAfBBR42r%2FJlavPoNw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DREV_922801_1",
-      "title": "Annual Maintenance Contract",
-      "organisationChain": "Department of Revenue||Central Board of Direct Taxes - DOR||Pr. CCIT NER Guwahati - CBDT||CIT(Admin and TPS) Guwahati",
-      "buyer": "Department of Revenue",
-      "publishedAt": "2026-08-20T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T03:30:00.000Z",
-      "tenderOpensAt": "2026-09-14T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiwEqeDt78XeLQgj8HhGR3Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -42,17 +45,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DU_923082_1",
-      "title": "Providing security services at Zone 3, North Campus, University of Delhi",
-      "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
-      "buyer": "Delhi University",
-      "publishedAt": "2026-08-21T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T03:30:00.000Z",
-      "tenderOpensAt": "2026-09-14T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPT%2Frh8N2NUY6p7Ba81T6Hg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_DREV_922639_1",
       "title": "Annual Maintenance Contract",
       "organisationChain": "Department of Revenue||Central Board of Direct Taxes - DOR||Pr. CCIT NER Guwahati - CBDT||CIT(Admin and TPS) Guwahati",
@@ -64,14 +56,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_CRPF_924907_1",
-      "title": "Comprehensive maintenance (civil Electrical and Plumbing) of East campus at GC CRPF Yelahanka Bengaluru",
+      "tenderRef": "2026_DU_923082_1",
+      "title": "Providing security services at Zone 3, North Campus, University of Delhi",
+      "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
+      "buyer": "Delhi University",
+      "publishedAt": "2026-08-21T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T03:30:00.000Z",
+      "tenderOpensAt": "2026-09-14T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPT%2Frh8N2NUY6p7Ba81T6Hg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DREV_922801_1",
+      "title": "Annual Maintenance Contract",
+      "organisationChain": "Department of Revenue||Central Board of Direct Taxes - DOR||Pr. CCIT NER Guwahati - CBDT||CIT(Admin and TPS) Guwahati",
+      "buyer": "Department of Revenue",
+      "publishedAt": "2026-08-20T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T03:30:00.000Z",
+      "tenderOpensAt": "2026-09-14T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiwEqeDt78XeLQgj8HhGR3Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_918078_3",
+      "title": "Repair of toilet and Wash area of 01 No 180 Men barrack at RTC CRPF Peringome",
       "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
       "buyer": "DG,CRPF,MHA",
       "publishedAt": "2026-09-04T03:30:00.000Z",
       "bidSubmissionCloses": "2026-09-11T04:30:00.000Z",
       "tenderOpensAt": "2026-09-14T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SE36aflgRxrk6T%2BxA73IAXA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCwFmWy0VeuZX2tHg3PnQ7w%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -83,6 +97,17 @@
       "bidSubmissionCloses": "2026-09-11T04:30:00.000Z",
       "tenderOpensAt": "2026-09-14T04:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sjy4%2FuBVPjVgsZxVYhW5Fgw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_924907_1",
+      "title": "Comprehensive maintenance (civil Electrical and Plumbing) of East campus at GC CRPF Yelahanka Bengaluru",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-09-04T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-14T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SE36aflgRxrk6T%2BxA73IAXA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -108,28 +133,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_CRPF_918078_3",
-      "title": "Repair of toilet and Wash area of 01 No 180 Men barrack at RTC CRPF Peringome",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-09-04T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T04:30:00.000Z",
-      "tenderOpensAt": "2026-09-14T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCwFmWy0VeuZX2tHg3PnQ7w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_924902_1",
-      "title": "12/SHQ BLA/CIVIL/2026-27",
-      "organisationChain": "DG,BSF,MHA||Srinagar FTR(Srinagar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-09-04T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4%2FVBb%2FKv9jCpMvAthbJiuw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_CNCI_924267_1",
       "title": "Renovation and Modernization Work of the 1st Floor Corridor at the Research Building (Hazra Campus)",
       "organisationChain": "Chittaranjan National Cancer Institute - Kolkata",
@@ -138,50 +141,6 @@
       "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
       "tenderOpensAt": "2026-09-12T06:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SC4f3T%2FoSlHwUSInoG4CJ7g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_925021_1",
-      "title": "Repair and maintenance of feeder pillar and painting of street light pole and Distribution electric feeder A and B campus under SHQ BSF Bikaner",
-      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-09-05T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-12T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZ493cN46BYYI4tz%2FJZroDg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_924626_1",
-      "title": "Construction of two Special ward rooms on 1st floor for the Teachers from the fund Donated by Amuta",
-      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-09-02T11:10:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbSYhV%2BtglLldw6OjFlTpLg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_924904_1",
-      "title": "13/SHQ BLA/CIVIL/2026-27",
-      "organisationChain": "DG,BSF,MHA||Srinagar FTR(Srinagar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-09-04T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgxNecxL0FHEGKL1hwIIfyQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_924005_1",
-      "title": "Repair maint of OC Line QRT Bk at Bn HQ Somsai",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-08-29T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Su8aeYs4MZN53MfEY6rLnAQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -196,25 +155,58 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IITKG_920981_1",
-      "title": "MARITIME SIMULATOR SERVICES INCLUDING SCENARIO EXECUTION AND HUMAN PARAMETER DATA ACQUISITION",
-      "organisationChain": "Indian Institute of Technology Kharagpur||SRIC - IIT Kharagpur",
-      "buyer": "Indian Institute of Technology Kharagpur",
-      "publishedAt": "2026-08-06T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
-      "tenderOpensAt": "2026-09-12T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHhE%2B5nGaiRg1hAurY%2FgpQg%3D%3D",
+      "tenderRef": "2026_ARMHA_924005_1",
+      "title": "Repair maint of OC Line QRT Bk at Bn HQ Somsai",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-08-29T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Su8aeYs4MZN53MfEY6rLnAQ%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_922288_1",
-      "title": "SS/C050-1P39A-KA-MR-5180/53 - CENTRIFUGAL COMPRESSOR (SPP-REGENERATION RECYCLE NITROGEN BLOWER PACKAGE) FOR POLYPROPYLENE PROJECT OF M/S NUMALIGARH REFINERY LIMITED",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-08-14T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
-      "tenderOpensAt": "2026-09-14T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIVgIGuNZdV6gqFCQVtId2A%3D%3D",
+      "tenderRef": "2026_BSF_924904_1",
+      "title": "13/SHQ BLA/CIVIL/2026-27",
+      "organisationChain": "DG,BSF,MHA||Srinagar FTR(Srinagar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-04T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgxNecxL0FHEGKL1hwIIfyQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_924626_1",
+      "title": "Construction of two Special ward rooms on 1st floor for the Teachers from the fund Donated by Amuta",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-09-02T11:10:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbSYhV%2BtglLldw6OjFlTpLg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_924902_1",
+      "title": "12/SHQ BLA/CIVIL/2026-27",
+      "organisationChain": "DG,BSF,MHA||Srinagar FTR(Srinagar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-04T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-12T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4%2FVBb%2FKv9jCpMvAthbJiuw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_925021_1",
+      "title": "Repair and maintenance of feeder pillar and painting of street light pole and Distribution electric feeder A and B campus under SHQ BSF Bikaner",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-05T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-12T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZ493cN46BYYI4tz%2FJZroDg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -229,25 +221,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_919988_1",
-      "title": "Guaranteed Parmeters for AKG/C068-000-KA-MR-5041/72",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-08-05T10:30:00.000Z",
+      "tenderRef": "2026_NITT_923044_1",
+      "title": "Annual Maintenance Contract for Civil Works for Institute and Quarters Zones at NIT-Trichy.",
+      "organisationChain": "National Institute of Technology Tiruchirappalli",
+      "buyer": "National Institute of Technology Tiruchirappalli",
+      "publishedAt": "2026-08-21T10:30:00.000Z",
       "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
-      "tenderOpensAt": "2026-09-14T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKhEcLttXe%2F0gleu%2B83wG8g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_919977_1",
-      "title": "COMP-ROTARY SCREW (PROCESS SERVICE)",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-08-05T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
-      "tenderOpensAt": "2026-09-14T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sr5hKLk3lE0W5YT%2BuCNwfnQ%3D%3D",
+      "tenderOpensAt": "2026-09-14T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9LuPFUeWsnrxNUMxaWJieg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -273,14 +254,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NITT_923044_1",
-      "title": "Annual Maintenance Contract for Civil Works for Institute and Quarters Zones at NIT-Trichy.",
-      "organisationChain": "National Institute of Technology Tiruchirappalli",
-      "buyer": "National Institute of Technology Tiruchirappalli",
-      "publishedAt": "2026-08-21T10:30:00.000Z",
+      "tenderRef": "2026_IITKG_920981_1",
+      "title": "MARITIME SIMULATOR SERVICES INCLUDING SCENARIO EXECUTION AND HUMAN PARAMETER DATA ACQUISITION",
+      "organisationChain": "Indian Institute of Technology Kharagpur||SRIC - IIT Kharagpur",
+      "buyer": "Indian Institute of Technology Kharagpur",
+      "publishedAt": "2026-08-06T12:30:00.000Z",
       "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
-      "tenderOpensAt": "2026-09-14T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9LuPFUeWsnrxNUMxaWJieg%3D%3D",
+      "tenderOpensAt": "2026-09-12T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHhE%2B5nGaiRg1hAurY%2FgpQg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_922288_1",
+      "title": "SS/C050-1P39A-KA-MR-5180/53 - CENTRIFUGAL COMPRESSOR (SPP-REGENERATION RECYCLE NITROGEN BLOWER PACKAGE) FOR POLYPROPYLENE PROJECT OF M/S NUMALIGARH REFINERY LIMITED",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-08-14T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-14T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIVgIGuNZdV6gqFCQVtId2A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_919988_1",
+      "title": "Guaranteed Parmeters for AKG/C068-000-KA-MR-5041/72",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-08-05T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-14T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKhEcLttXe%2F0gleu%2B83wG8g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_924705_1",
+      "title": "Construction of 02 sump with 500 LPH RO water purification plant near residential building under 180 BN BSF at Bn HQ Bhopal",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-03T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-11T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-12T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCPUqmEtOHWlqbx8sRYKnXA%3D%3D",
       "matchedKeywords": []
     }
   ]
