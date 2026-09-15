@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-15T13:24:46.401Z",
-  "durationMs": 40949,
+  "fetchedAt": "2026-09-15T19:39:01.106Z",
+  "durationMs": 51759,
   "ok": true,
   "view": "14day",
-  "pagesFetched": 38,
-  "totalRowsParsed": 252,
+  "pagesFetched": 50,
+  "totalRowsParsed": 338,
   "relevantCount": 2,
   "tenders": [
     {
@@ -36,17 +36,6 @@
   ],
   "sampleRows": [
     {
-      "tenderRef": "2026_TMC_924581_1",
-      "title": "Annual Comprehensive Maintenance Contract with onsite manpower for Fire Alarm and Public Address System for TMH other than HBB and PG Hostel Anushaktinagar",
-      "organisationChain": "Tata Memorial Centre||Tata Memorial Hospital Mumbai",
-      "buyer": "Tata Memorial Centre",
-      "publishedAt": "2026-09-02T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-15T13:25:00.000Z",
-      "tenderOpensAt": "2026-09-17T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SE3weCsYU58IOZ5nP%2F7ljqg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_IGCAR_924303_1",
       "title": "Revamping of power distribution systems periodic preventive maintenance of MCC and blower motors of ACV system at MCMFCG IGCAR",
       "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
@@ -66,28 +55,6 @@
       "bidSubmissionCloses": "2026-09-16T04:30:00.000Z",
       "tenderOpensAt": "2026-09-17T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sx4e6o7%2FNoE3ASDTwqaAKzA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_924830_2",
-      "title": "Repair/ maint to VTC, Laitkor",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-09-03T12:20:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:00:00.000Z",
-      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHPrbQWJJcBt%2BUSC8255ulg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_924620_2",
-      "title": "Repair/ maint to Holiday Home, Laitumkhrah Grn",
-      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-09-03T13:05:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:00:00.000Z",
-      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMkuZ2cQtCDUOPvfalfVicw%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -124,6 +91,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_ARMHA_924830_2",
+      "title": "Repair/ maint to VTC, Laitkor",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-09-03T12:20:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:00:00.000Z",
+      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHPrbQWJJcBt%2BUSC8255ulg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_924620_2",
+      "title": "Repair/ maint to Holiday Home, Laitumkhrah Grn",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-09-03T13:05:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:00:00.000Z",
+      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMkuZ2cQtCDUOPvfalfVicw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_ARMHA_924647_2",
       "title": "Maint of borewell and allied wks at Guwahati Transit Camp",
       "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
@@ -135,14 +124,113 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_AUS_925463_1",
-      "title": "Renovation works including providing and fixing Aluminium partition, shelves (plywood) for laboratories, painting etc at Department of Microbiology at Assam University, Silchar, Assam.",
+      "tenderRef": "2026_ASI_923301_1",
+      "title": "Conservation work of emergency repair to north west bastion no 3 phase I of purana Qila New Delhi",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Delhi Circle-Delhi",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-08-21T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STfrc6KG2T6cYaoP31K4cQQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DAREA_920526_1",
+      "title": "Procurement of Design and Build containment facility for grapes CPC 1 Pune",
+      "organisationChain": "Department of Agricultural Research and Education - ADB Tenders||Indian Council of Agricultural Research DoARE MoA - ADB Tenders||National Research Centre for Grapes- Pune - ADB Tenders",
+      "buyer": "Department of Agricultural Research and Education - ADB Tenders",
+      "publishedAt": "2026-08-04T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-16T05:45:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BkxG0e%2B5Oris%2BrOEnEQQnA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NSG_925202_1",
+      "title": "Operation and Running Swimming pool at NSG Campus 28 SCG NSG for the year 2026 27",
+      "organisationChain": "DG,National Security Guard,MHA||Construction Squadron,NSG,MHA",
+      "buyer": "DG,National Security Guard,MHA",
+      "publishedAt": "2026-09-07T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Smc%2BkM2xc9UZpZY2PRZ1FMA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DAE_924315_1",
+      "title": "Procurement of Enterprise Rack Server",
+      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
+      "buyer": "Department of Atomic Energy",
+      "publishedAt": "2026-09-01T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SULL3iiNOaiAWuBED6sCRGg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SCL_922232_1",
+      "title": "Supply, Installation, Testing and Commissioning of Centralized Kitchen Exhaust System for SCL Canteen",
+      "organisationChain": "Semi-Conductor Laboratory (SCL)",
+      "buyer": "Semi-Conductor Laboratory (SCL)",
+      "publishedAt": "2026-08-18T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1LBPJVb71OmawS0T4PwG8g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AUS_925456_1",
+      "title": "Repairing work including fixing of doors at toilets, sanitary fittings, pipeline fittings etc. at BH-5 at Assam University, Silchar, Assam",
       "organisationChain": "Assam University Silchar",
       "buyer": "Assam University Silchar",
       "publishedAt": "2026-09-09T07:30:00.000Z",
       "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
       "tenderOpensAt": "2026-09-17T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BGokUQsqKRTuaSCxsysuFA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SlLq5eQVhG%2FAKm%2F0Q6TOebw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SCL_922729_1",
+      "title": "Sealing Lid with preform LWP OD 1170 mils x 1170 mils ID1093 mils x 1093 mils",
+      "organisationChain": "Semi-Conductor Laboratory (SCL)",
+      "buyer": "Semi-Conductor Laboratory (SCL)",
+      "publishedAt": "2026-08-19T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQPT4cFg5E%2B6rNlMPk%2BsjlA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_925447_1",
+      "title": "Repair and maintenance of GOs mess of 38 BN BSF under SHQ BSF JSMR North",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-09T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiP9WiVKo%2BoVkWg6waSy1%2FA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_925480_1",
+      "title": "SITC of 3 KWp Grid connected Rooftop Solar PV Power Plant at Nandanam PO under Chennai City South Division(3rd call)",
+      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Elect.) Dn,RMS Bhawan,Bangalore,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-09-09T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGQOsEpd3l1t0NmLVGtECmQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_924563_1",
+      "title": "Repair/Maint of external electrification for HQ IGAR(S) Mantripukhri",
+      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-09-02T09:00:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SqsWtwNkY6oq3HLetyaai4w%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -168,102 +256,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_SOI_922367_1",
-      "title": "Request for Proposal for providing Services for 2D 3D Mapping of Urban Areas in West Bengal",
-      "organisationChain": "Survey of India||West Bengal and Sikkim Geospatial Data Centre Kolkata -SOI",
-      "buyer": "Survey of India",
-      "publishedAt": "2026-08-18T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
+      "tenderRef": "2026_IGCAR_923568_1",
+      "title": "Masonry maintenance, miscellaneous works and disposal of garbage of various labs and buildings inside IGCAR complex for the year 2027-2028.",
+      "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
+      "buyer": "Indira Gandhi Centre for Atomic Research",
+      "publishedAt": "2026-08-25T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T06:00:00.000Z",
       "tenderOpensAt": "2026-09-17T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Slzo4FVfUtBcDtQ%2B3LAFvtQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_SCL_922729_1",
-      "title": "Sealing Lid with preform LWP OD 1170 mils x 1170 mils ID1093 mils x 1093 mils",
-      "organisationChain": "Semi-Conductor Laboratory (SCL)",
-      "buyer": "Semi-Conductor Laboratory (SCL)",
-      "publishedAt": "2026-08-19T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQPT4cFg5E%2B6rNlMPk%2BsjlA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_SCL_922232_1",
-      "title": "Supply, Installation, Testing and Commissioning of Centralized Kitchen Exhaust System for SCL Canteen",
-      "organisationChain": "Semi-Conductor Laboratory (SCL)",
-      "buyer": "Semi-Conductor Laboratory (SCL)",
-      "publishedAt": "2026-08-18T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1LBPJVb71OmawS0T4PwG8g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AUS_925471_1",
-      "title": "Provision of Iron grill and Iron door (1 no) at GH-2at Assam University, Silchar, Assam.",
-      "organisationChain": "Assam University Silchar",
-      "buyer": "Assam University Silchar",
-      "publishedAt": "2026-09-09T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SoheGYOGztHsP%2FlzVZB5KSg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ASI_923301_1",
-      "title": "Conservation work of emergency repair to north west bastion no 3 phase I of purana Qila New Delhi",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Delhi Circle-Delhi",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-08-21T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STfrc6KG2T6cYaoP31K4cQQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_925480_1",
-      "title": "SITC of 3 KWp Grid connected Rooftop Solar PV Power Plant at Nandanam PO under Chennai City South Division(3rd call)",
-      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Elect.) Dn,RMS Bhawan,Bangalore,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-09-09T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGQOsEpd3l1t0NmLVGtECmQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AUS_925456_1",
-      "title": "Repairing work including fixing of doors at toilets, sanitary fittings, pipeline fittings etc. at BH-5 at Assam University, Silchar, Assam",
-      "organisationChain": "Assam University Silchar",
-      "buyer": "Assam University Silchar",
-      "publishedAt": "2026-09-09T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SlLq5eQVhG%2FAKm%2F0Q6TOebw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_924563_1",
-      "title": "Repair/Maint of external electrification for HQ IGAR(S) Mantripukhri",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-09-02T09:00:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SqsWtwNkY6oq3HLetyaai4w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NSG_925202_1",
-      "title": "Operation and Running Swimming pool at NSG Campus 28 SCG NSG for the year 2026 27",
-      "organisationChain": "DG,National Security Guard,MHA||Construction Squadron,NSG,MHA",
-      "buyer": "DG,National Security Guard,MHA",
-      "publishedAt": "2026-09-07T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T05:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Smc%2BkM2xc9UZpZY2PRZ1FMA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFK9hMep9Pz6cR3OuItwNpQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -278,36 +278,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IGCAR_923568_1",
-      "title": "Masonry maintenance, miscellaneous works and disposal of garbage of various labs and buildings inside IGCAR complex for the year 2027-2028.",
-      "organisationChain": "Indira Gandhi Centre for Atomic Research||IGCAR",
-      "buyer": "Indira Gandhi Centre for Atomic Research",
-      "publishedAt": "2026-08-25T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-09-16T06:00:00.000Z",
-      "tenderOpensAt": "2026-09-17T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFK9hMep9Pz6cR3OuItwNpQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_923646_1",
-      "title": "SPN/ B957-000-YS-MR-1556/214 - OPTICAL FIBRE CABLE AND ASSOCIATED ITEM FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP)",
+      "tenderRef": "2026_EIL_922829_1",
+      "title": "SPN/ B957-000-YT-MR-1410/213 TEMPERATURE ELEMENTS, THERMOWELLS FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP)",
       "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
       "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-08-26T07:00:00.000Z",
+      "publishedAt": "2026-08-25T09:15:00.000Z",
       "bidSubmissionCloses": "2026-09-16T06:30:00.000Z",
       "tenderOpensAt": "2026-09-17T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SCSaH4m5agBaudvL36Vk3Lw%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Scw2KDGOI8hsEHxolRImM2Q%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_SSB_919086_2",
-      "title": "Construction of Infrastructure including development works at BOP Santhalia of 42nd Bn SSB Bahraich under Frontier Lucknow.",
-      "organisationChain": "DG Sashastra Seema Bal,MHA||IG FTR HQRS Lucknow,SSB||DIG SHQ L-Kheri,Lucknow,SSB",
-      "buyer": "DG Sashastra Seema Bal,MHA",
-      "publishedAt": "2026-09-05T09:30:00.000Z",
+      "tenderRef": "2026_NRB_925286_1",
+      "title": "Fabrication of MS scaffolding",
+      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
+      "buyer": "Nuclear Recycle Board",
+      "publishedAt": "2026-09-08T10:30:00.000Z",
       "bidSubmissionCloses": "2026-09-16T06:30:00.000Z",
-      "tenderOpensAt": "2026-09-17T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfmBhoFkJGd7BqDMLIe%2BFfg%3D%3D",
+      "tenderOpensAt": "2026-09-17T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEC%2FKma9Z0JxA3sKG1uWPEQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_925798_1",
+      "title": "SUPPLY AND DISTRIBUTION OF ELECTRONIC RELOADABLE PIN BASED MEAL CARD-DC/8589-000-SE-T-5038/102",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-09-11T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-16T06:30:00.000Z",
+      "tenderOpensAt": "2026-09-17T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpYIiaLrDiuJFDQT16I2Apw%3D%3D",
       "matchedKeywords": []
     }
   ]
