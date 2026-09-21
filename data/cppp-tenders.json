@@ -1,11 +1,302 @@
 {
-  "fetchedAt": "2026-09-21T15:05:36.465Z",
-  "durationMs": 263303,
+  "fetchedAt": "2026-09-21T20:22:47.506Z",
+  "durationMs": 41803,
   "ok": true,
-  "view": "today",
-  "pagesFetched": 1,
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": [],
-  "sampleRows": []
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 348,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_PDIL_924429_1",
+      "title": "RAW WATER TREATMENT PLANT, DM WATER, CONDENSATE POLISHING UNIT, EFFLUENT TREATMENT PLANT WITH ZLD AND SEWAGE TREATMENT PLANT AT BHARAT COAL GASIFICATION AND CHEMICALS LIMITED AT JHARSUGUDA, ODISHA (INDIA)",
+      "organisationChain": "Projects and Development India Limited, Fert",
+      "buyer": "Projects and Development India Limited, Fert",
+      "publishedAt": "2026-09-01T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T09:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sj%2F8mTXzwuQjI3tu5CenJtQ%3D%3D",
+      "matchedKeywords": [
+        "coal gasification",
+        "water treatment plant"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_SOI_918092_1",
+      "title": "DSM to DTM Conversion Service",
+      "organisationChain": "Survey of India||Assam and Nagaland GeoSpatial Data Centre Guwahati-SOI",
+      "buyer": "Survey of India",
+      "publishedAt": "2026-09-08T07:45:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T03:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyQKDMWJzKcQp97aSCjJKCw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITP_922356_1",
+      "title": "Supply of Desktop Plasma Jet Printing System",
+      "organisationChain": "Indian Institute of Technology Patna||Research and Development Section",
+      "buyer": "Indian Institute of Technology Patna",
+      "publishedAt": "2026-08-18T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T03:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SuIPQbtwuCSnOIaJ5AYaBog%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CCRH_925314_1",
+      "title": "PRINTING AND DISPATCHING THE COPIES OF INDIAN JOURNAL OF RESEARCH IN HOMOEOPATHY",
+      "organisationChain": "Central Council for Research in Homoeopathy",
+      "buyer": "Central Council for Research in Homoeopathy",
+      "publishedAt": "2026-09-08T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9Hr3wUF5N7vKSNgAnnEA2Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ITPO_923243_1",
+      "title": "Study on Strategic Redevelopment and Optimal FAR Utilisation of the ITPO Bharat Mandapam",
+      "organisationChain": "India Trade Promotion Organisation||Corporate Head Quarters-New Delhi - ITPO||IT Division - ITPO",
+      "buyer": "India Trade Promotion Organisation",
+      "publishedAt": "2026-08-21T11:15:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-24T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDTfNkaUJ%2BS2oboZ%2BSK4zXg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMSBL_926478_1",
+      "title": "Hiring of an Agency for Providing Event Management Services for the 1st Convocation of AIIMS Bilaspur",
+      "organisationChain": "All india Institute of Medical Sciences Bilaspur||Administration unit - AIIMS Bilaspur",
+      "buyer": "All india Institute of Medical Sciences Bilaspur",
+      "publishedAt": "2026-09-16T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T04:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeOi4z6EEwYov5mW%2F0bQrlQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_924144_1",
+      "title": "Valuation of Land at Barabanki, Uttar Pradesh (Group A)",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-08-31T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBixWuueCb4svZK5%2FZYMdng%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_922528_1",
+      "title": "Supply, Fabrication, Erection, Testing of Piping, Equipment Including Allied Civil Works, and Commissioning Assistance of POL Terminal of NRL at Panchgram, Cachar, Assam",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-08-18T07:55:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T05:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7%2Fl0xhrJSWGEeb1HfrkCyA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_926729_1",
+      "title": "SUPPLY OF SPECIAL GATE, GLOBE and CHECK VALVES",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-09-18T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-22T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SoVXc9fJnSUSIPmT9AtLW7g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_924144_2",
+      "title": "Valuation of Land at Jagraon, Punjab (Group B)",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-08-31T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sj7N6p2vfDCITPvD5fobYFA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_925988_1",
+      "title": "Repair and maintenance of SOT Standard Obstacle Training under STC BSF Hazaribag",
+      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-12T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SEw7D8h93PZxeDOk6gUSpNA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_926136_1",
+      "title": "C/O 11 Nos light / medium vehicle 06 Nos heavy vehicle garage at BSF Academy Tekanpur. (SH Soil Testing, structural design and consultancy)",
+      "organisationChain": "DG,BSF,MHA||BSF Acadamy(Tekanpur),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-14T13:15:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5BHZFvTfUgFcqccrwgRPPg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922277_3",
+      "title": "Renoavtion of Electrical installation, fans and fitting and Computer networking and Survelliance system at Nohar SO under Sriganganagar Division, Rajasthan. (3nd Call)",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-09-14T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0M1pLMOs%2BJdgXQbbEKqitA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NALCO_923466_1",
+      "title": "eOffice on CLOUD migration",
+      "organisationChain": "National Aluminium Company Limited,NALCO||NALCO-Corporate Office-Bhubaneswar||Materials,CO,Bhubhaneswar,NALCO",
+      "buyer": "National Aluminium Company Limited,NALCO",
+      "publishedAt": "2026-08-24T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-29T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXnebw0A2bIjwQPvyG1dWNw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_925840_1",
+      "title": "Construction of 02 Nos septic tank for 120 men jawan barrack at silwar range and HQ GD barrack at STC BSF Hazaribag",
+      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-12T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4nE6apTX%2FJ5MlFPUwMhI%2Bg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_926171_1",
+      "title": "Providing and Installation of 50 LPH RO Plant with 120 Ltr water cooler at 06 Nos BOPs of 115 BN BSF under SHQ BSF ASR",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-15T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHwr0gJ3LOXExHZXYOBk79A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_926044_1",
+      "title": "ARTCS/NIT/Engr/2026-27/70",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-09-14T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPjYPD%2FVzXikXWreODexcaA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_922054_3",
+      "title": "S.I.T.C. of On Grid type Solar Power Pack at Santrampur SO (5 kWp) in SGR Region, Botad MDG (5 kWp) in S and K Region and Gandhinagar HO (5 kWp) in North Gujarat Region, Gujarat Circle. (3rd call)",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-09-14T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIlj6ctifth6sRRcn6KOuww%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRL_926118_1",
+      "title": "SUPPLY OF STEAM TRAPS - (4.115)",
+      "organisationChain": "Numaligarh Refinery Limited",
+      "buyer": "Numaligarh Refinery Limited",
+      "publishedAt": "2026-09-14T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-22T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLBEH%2BeVkyLgFyF0VYKoZUw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IGRMS_925402_1",
+      "title": "SITC of Streetlighting in IGRMS campus",
+      "organisationChain": "Indira Gandhi Rashtriya Manav Sangrahalaya",
+      "buyer": "Indira Gandhi Rashtriya Manav Sangrahalaya",
+      "publishedAt": "2026-09-08T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T05:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8byMlvfrdnQ0b8cZEU926Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_926215_1",
+      "title": "Repair/maint of sewage line incl manholes for Md accn at ARCH, Shokhuvi, Nagaland",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-09-15T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVGDb96iIIEni5%2FtrUSAkOg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_926330_1",
+      "title": "Providing Spare / Emergency Supply Cable and its Accessories from Substation of Trauma Centre to Central Sterilization Service Department (CSSD) JNMCH, AMU, Aligarh",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-09-16T05:00:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSSsYTlBg0OdIXtMY%2FIqSDA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_924789_2",
+      "title": "Supply, Installation and Commissioning of Lift at S.T.S. School, Aligarh",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-09-15T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVkXvuUatFvHW0DQ9EbkXTg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_926200_1",
+      "title": "12/SHQ BLA/CIVIL/2026-27",
+      "organisationChain": "DG,BSF,MHA||Srinagar FTR(Srinagar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-09-16T06:20:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMsuxGV%2FE%2FyqFHTYqUSduFQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_926262_1",
+      "title": "SITC of 5 KWp Grid connected Rooftop Solar PV Power Plant at Thattamangalam PO Under Palakkad Division (NR-Kerala) (2nd Call)",
+      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Elect.) Dn,RMS Bhawan,Bangalore,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-09-15T11:00:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T05:30:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyRVhvLrDitq3hLdrkXBlHg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_HURL_924310_1",
+      "title": "Hiring Services for Refractory Works during shutdown period at HURL Barauni",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||Baruni-Bihar - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-09-01T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-09-22T06:00:00.000Z",
+      "tenderOpensAt": "2026-09-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVOiiqEZLBZon%2FHqG2jIbUQ%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
