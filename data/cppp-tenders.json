@@ -1,11 +1,301 @@
 {
-  "fetchedAt": "2026-10-01T15:24:50.452Z",
-  "durationMs": 262761,
+  "fetchedAt": "2026-10-01T20:57:53.534Z",
+  "durationMs": 39881,
   "ok": true,
-  "view": "today",
-  "pagesFetched": 1,
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": [],
-  "sampleRows": []
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 342,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_FACT_926881_1",
+      "title": "Routine Civil Maintenance Works for Ph-1 area, Thermal Plant,Water Treatment Plant, Silo, Main Canteen Building,Administrative Building and other Non- Plant Buildings etc.of FACT (Cochin Division), Ambalamedu, Kochi.",
+      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
+      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
+      "publishedAt": "2026-09-19T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-05T08:30:00.000Z",
+      "tenderOpensAt": "2026-10-06T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShSZkXXnIiRAcsYxN29zF4A%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_IITP_922356_1",
+      "title": "Supply of Desktop Plasma Jet Printing System",
+      "organisationChain": "Indian Institute of Technology Patna||Research and Development Section",
+      "buyer": "Indian Institute of Technology Patna",
+      "publishedAt": "2026-08-18T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T03:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SuIPQbtwuCSnOIaJ5AYaBog%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_927478_1",
+      "title": "Repair and maintenance of 240 Mens Barrack No. 1 (Outer Portion).",
+      "organisationChain": "DG,CRPF,MHA||Jammu Sector,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-09-24T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T03:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNzakVEGGKSsOr%2B5C5fLkUw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FCI_927128_1",
+      "title": "CAMC of 02 ELWBs at MD Visakhapatnam",
+      "organisationChain": "Food Corporation of India||Regional Office,Andhra Pradesh,FCI,MFPD||DO-Vishakhapatnam_AP_FCI",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-09-22T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJ281280Jte%2FyiTTGI%2BTVSg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_926953_1",
+      "title": "Comprehensive maintenance care at CH, CRPF, Hyderabad",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-09-21T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1yNYu%2B80%2FOhIjgktQa9vDA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ITG_927451_1",
+      "title": "Balance Internal and External Electrical Works for Hostel Buildings near Academic Block II of IIT Goa",
+      "organisationChain": "Indian Institute of Technology (IIT) Goa||Institute Works Department-IIT Goa",
+      "buyer": "Indian Institute of Technology (IIT) Goa",
+      "publishedAt": "2026-09-24T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1nJMCFZtYQVB4wKATbNX5w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FACT_925862_1",
+      "title": "Repair works, including arresting water leakage and replacement of damaged roofing sheets of the high roofed Store Building at FACT, Cochin Division, Ambalamedu.",
+      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
+      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
+      "publishedAt": "2026-09-11T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SStfy1Sx10cXLaCEL4d%2FegA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_925914_1",
+      "title": "PROVIDING BOUNDARY WALL AND BARBED WIRE FENCING AROUND A SEVERAL LARGE TUMULI KHERA S IN AND ABOUT AHAR BULANDSHAHR",
+      "organisationChain": "Archaeological Survey of India||O/o SA - ASI - Merrut circle",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-11T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnqkY3bql0Nd6xubf0hrQMw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_925905_1",
+      "title": "SCIENTIFIC EXCAVATION CUM CONSERVATION OF THE EXCAVATED TRENCHES OF 1950 52 EXCAVATION AT THE MOUND KNOWN AS ULTA KHERA HASTINAPUR",
+      "organisationChain": "Archaeological Survey of India||O/o SA - ASI - Merrut circle",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-11T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SrEHPPIzuE3V7FDoX31AwoQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_927746_1",
+      "title": "Urgent repair of existing boundary wall of Khairul Manazil Mosque Purana Qila Delhi",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Delhi Circle-Delhi",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-25T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3D2YXISrEw%2BI82s6FkFjmg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_925887_1",
+      "title": "UPGRADATION OF EXISTING ANTIQUITY GODOWN AND SUB CIRCLE OFFICE AT AHICHCHHATRA BAREILLY",
+      "organisationChain": "Archaeological Survey of India||O/o SA - ASI - Merrut circle",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-11T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4c%2BnRJwavTrfy3QoMf1RBA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NFC_926973_1",
+      "title": "Miscellaneous works for revamping of primary ventilation system for Press area, CFFP P",
+      "organisationChain": "Nuclear Fuel Complex||Nuclear Fuel Complex Hyderabad||Electrical Projects - NFC Hyderabad",
+      "buyer": "Nuclear Fuel Complex",
+      "publishedAt": "2026-09-21T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T08:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPcv8aZ6VqFex5WE1L993fA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IIMCT_927879_1",
+      "title": "ED/IIMC/NIT/1/26-27/196",
+      "organisationChain": "INDIAN INSTITUTE OF MANAGEMENT CALCUTTA",
+      "buyer": "INDIAN INSTITUTE OF MANAGEMENT CALCUTTA",
+      "publishedAt": "2026-09-26T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T08:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T09:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMAXNBde8MSupBx580W5rog%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CCRH_923824_1",
+      "title": "Procurement and Supply of Homoeopathy Wellness Kits under Scheduled Caste Sub Plan (SCSP)",
+      "organisationChain": "Central Council for Research in Homoeopathy",
+      "buyer": "Central Council for Research in Homoeopathy",
+      "publishedAt": "2026-09-08T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpbtYHC8FthaTTxyFepM4sw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_925823_1",
+      "title": "Preparation of Photogrammetric Drone Survey",
+      "organisationChain": "Archaeological Survey of India||O/o SA - ASI - Rajkot circle",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-11T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvlkEIQ0WOM9KvIsklyI9iw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IISRT_925461_1",
+      "title": "Supply, Installation and Commissioning of High Capacity Network Attached Storage",
+      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Purchase and Stores-IISER - Thiruvananthapuram",
+      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
+      "publishedAt": "2026-09-09T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0sNqU8KA9PXLdgOIPDdHmA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AIMSM_926754_1",
+      "title": "Annual Maintenance Contract (AMC) for Horticulture and Landscape Maintenance at AIIMS Mangalagiri",
+      "organisationChain": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh||Procurement Cell - AIIMS Mangalagiri",
+      "buyer": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh",
+      "publishedAt": "2026-09-18T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBr3mSFt%2F%2FVYg%2FASkkE6hOQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_926513_1",
+      "title": "M/o completed scheme under N/A-II Hort. Zone",
+      "organisationChain": "Delhi Development Authority||CE-North Zone-DDA||EE-ND 5-Keshav Puram-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-09-17T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Shu73R%2BY2IZsd2VCmrBXKUg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_926512_1",
+      "title": "M/o completed scheme under N/A-II Hort. Zone",
+      "organisationChain": "Delhi Development Authority||CE-North Zone-DDA||EE-ND 5-Keshav Puram-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-09-17T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-03T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4kS02xHRVgZfoPcLCFhSNQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ALHW_926206_1",
+      "title": "ANNUAL MAINTENANCE OF NAVIGATIONAL AIDS AT AGATTI,BANGARAM AND THINNAKARA ISLAND FOR THE YEAR 2026-27",
+      "organisationChain": "Andaman Lakshadweep Harbour Works||Executive Engineer (Civil)- Kavarath ALHW",
+      "buyer": "Andaman Lakshadweep Harbour Works",
+      "publishedAt": "2026-09-15T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjjgvKPaNnYDSS6R%2BQughqg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_JNPT_924845_1",
+      "title": "Construction of RCC drain along Jaskhar village to connect railway balancer culvert No.08, 09 and 10 at JN Port",
+      "organisationChain": "Jawaharlal Nehru Port Trust||PP and D-JNPT||Port area - PP and D - JNPT",
+      "buyer": "Jawaharlal Nehru Port Trust",
+      "publishedAt": "2026-09-04T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfhpFktS%2FpXuJ1%2FwEc%2FP27Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SSB_923647_1",
+      "title": "Supply of Spare parts for 07 weapons",
+      "organisationChain": "DG Sashastra Seema Bal,MHA||Provisioning Directorate,FHQ,SSB,MHA",
+      "buyer": "DG Sashastra Seema Bal,MHA",
+      "publishedAt": "2026-08-26T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2BjUfifXw%2FDipoCwZ6ZbbQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_WBNPI_924707_1",
+      "title": "Quotation Enquiry for OFC Connectivity and LAN Infrastructure Work at Electrical Annex Building VNIT Nagpur",
+      "organisationChain": "National Project Implementation Unit - World Bank Tenders||Visvesvaraya National Institute of Technology Nagpur",
+      "buyer": "National Project Implementation Unit - World Bank Tenders",
+      "publishedAt": "2026-09-03T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-02T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIbFATDzX7phv46O5F0zBuw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_MGIMS_921790_1",
+      "title": "Supply of Gafchromic EBT4 Films (14inch X 17inch)",
+      "organisationChain": "Mahatma Gandhi Institute of Medical Sciences",
+      "buyer": "Mahatma Gandhi Institute of Medical Sciences",
+      "publishedAt": "2026-08-12T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T10:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbcJyVKQYCauTyB47XR7iGA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IITK_925828_1",
+      "title": "Upgrade for measuring conductivity at molecular resolution for existing AFM and Control electronics for Bruker MS10 STM",
+      "organisationChain": "Indian Institute of Technology Kanpur||Central Stores and Purchase Section - IITK",
+      "buyer": "Indian Institute of Technology Kanpur",
+      "publishedAt": "2026-09-11T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T10:30:00.000Z",
+      "tenderOpensAt": "2026-10-05T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sdd%2F4XBvxrXTwM729tALwZQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IISER_927652_1",
+      "title": "IISER-K/EOI/1102/G/DORD/26-27",
+      "organisationChain": "Indian Institute of Science Education and Research - Kolkata||Administration - IISER - Kolkata",
+      "buyer": "Indian Institute of Science Education and Research - Kolkata",
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-02T10:30:00.000Z",
+      "tenderOpensAt": "2026-10-02T10:45:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMlhtUeaLwOh8qMtR%2F7RtEQ%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
