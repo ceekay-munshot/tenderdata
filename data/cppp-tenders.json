@@ -1,24 +1,13 @@
 {
-  "fetchedAt": "2026-10-14T20:09:47.167Z",
-  "durationMs": 194879,
+  "fetchedAt": "2026-10-15T04:17:02.230Z",
+  "durationMs": 41955,
   "ok": true,
   "view": "14day",
-  "pagesFetched": 27,
-  "totalRowsParsed": 199,
+  "pagesFetched": 50,
+  "totalRowsParsed": 370,
   "relevantCount": 0,
   "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_DREV_929241_1",
-      "title": "Repair and renovation works for the Gents Washroom on the Ground floor of Aayakar Bhawan, Tinsukia",
-      "organisationChain": "Department of Revenue||Central Board of Direct Taxes - DOR||Pr. CCIT NER Guwahati - CBDT||Pr. CIT, Shillong",
-      "buyer": "Department of Revenue",
-      "publishedAt": "2026-10-08T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T03:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgKJwuvS0Z7ApOf7%2BP13PaA%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_CRPF_928460_1",
       "title": "Repairing of toilets, polishing of floor and interior painting of ADM block at Southern sector HQr Hyderabad (Telangana)",
@@ -86,6 +75,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_NIOT_929720_1",
+      "title": "Construction of Open Storage Shed with roof near Auditorium at NIOT campus",
+      "organisationChain": "National Institute of Ocean Technology||Stores and Purchase - NIOT",
+      "buyer": "National Institute of Ocean Technology",
+      "publishedAt": "2026-10-09T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-15T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Slv4WHjIL%2FTIsZigfS7QUkQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_CRPF_928420_1",
       "title": "Request for Proposal for RFID based PET",
       "organisationChain": "DG,CRPF,MHA||PERS BRANCH - CRPF - MHA||DIG(Rectt) - CRPF - MHA",
@@ -94,17 +94,6 @@
       "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
       "tenderOpensAt": "2026-10-16T05:40:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3%2FTVzDYh%2BaBaRhFDRhLr%2BQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_929275_1",
-      "title": "Annual repair _ Maintenance of Non residential Buildings at SHQ BSF SGNR (SH Providing _ fixing of electrical items)",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-10-07T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbXKgPeUO6%2Fo%2Bu3iXGw6YkQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -119,28 +108,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NIOT_929720_1",
-      "title": "Construction of Open Storage Shed with roof near Auditorium at NIOT campus",
-      "organisationChain": "National Institute of Ocean Technology||Stores and Purchase - NIOT",
-      "buyer": "National Institute of Ocean Technology",
-      "publishedAt": "2026-10-09T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-15T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Slv4WHjIL%2FTIsZigfS7QUkQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_JNPT_929238_1",
-      "title": "Budgetary Quote for Annual Maintenance Contract (AMC) of CCTV System installed at Container Scanning Yards, JNPA",
-      "organisationChain": "Jawaharlal Nehru Port Trust||Finance-JNPT||M S - Management Services - Fin - JNPT",
-      "buyer": "Jawaharlal Nehru Port Trust",
-      "publishedAt": "2026-10-07T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SemqikObvKETQqVjmr2vS7Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_SCI_928977_1",
       "title": "Rate Contract for Procurement of Network Routers",
       "organisationChain": "Supreme Court of India||ADMN. MATERIALS - SCI",
@@ -149,17 +116,6 @@
       "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
       "tenderOpensAt": "2026-10-16T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmvcNiTLcn1B%2BzpP8eqOwMQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_PGIME_928735_1",
-      "title": "Shifting of main LT panel D Block and UPS Panel Kidney Block alongwith Replacement of 01 Nos. ACB in old LT Panel, A Block including Rewiring with replacement of electrical fixtures in LT canteen, Nehru Hospital, PGIMER, Chandigarh",
-      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
-      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
-      "publishedAt": "2026-10-03T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0evapCCOfRY%2B6ycENWHdMQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -174,6 +130,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_BSF_929275_1",
+      "title": "Annual repair _ Maintenance of Non residential Buildings at SHQ BSF SGNR (SH Providing _ fixing of electrical items)",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-10-07T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-16T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbXKgPeUO6%2Fo%2Bu3iXGw6YkQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_PGIME_928735_1",
+      "title": "Shifting of main LT panel D Block and UPS Panel Kidney Block alongwith Replacement of 01 Nos. ACB in old LT Panel, A Block including Rewiring with replacement of electrical fixtures in LT canteen, Nehru Hospital, PGIMER, Chandigarh",
+      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
+      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
+      "publishedAt": "2026-10-03T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-16T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0evapCCOfRY%2B6ycENWHdMQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_NRL_928624_1",
       "title": "Design, Engineering, Supply, and Supervision of Installation and Commissioning of an 800 m3/hr Portable / Modular Cooling Water System for the 2.4 KTPA Green Hydrogen Plant (GHGU) at NRL SITE",
       "organisationChain": "Numaligarh Refinery Limited",
@@ -185,36 +163,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_929182_1",
-      "title": "Renovation of New lift area at CO Shillong 2nd call",
-      "organisationChain": "Department of Posts||North East Circle ,Dept. of Posts||CPMG,North East Circle,Shillong,POST||AE(C), Postal Civil Sub Dn, Shillong,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-10-07T07:10:00.000Z",
+      "tenderRef": "2026_IUCAA_928866_1",
+      "title": "Fabrication Truss Assembly",
+      "organisationChain": "Inter-University Centre for Astronomy and Astrophysics||Purchase - IUCAA",
+      "buyer": "Inter-University Centre for Astronomy and Astrophysics",
+      "publishedAt": "2026-10-05T11:30:00.000Z",
       "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SrJO7z4uZiQuJ6ovZsib7FA%3D%3D",
+      "tenderOpensAt": "2026-10-16T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SuR7tqVhhspxrvEAw0CC03g%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NHPC_923336_1",
-      "title": "Purchase of 45Ton Gantry Crane with lifting beam",
-      "organisationChain": "NHPC Limited||Tanakpur Power Station-NHPC",
-      "buyer": "NHPC Limited",
-      "publishedAt": "2026-08-22T06:00:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T06:00:00.000Z",
-      "tenderOpensAt": "2026-10-19T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S14rvTOs8SRV%2Bm7cNhkoyGQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_929551_1",
-      "title": "Provision of aluminum partition in Ist floor canteen at Dak Bhawan, New Delhi.",
-      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-10-09T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T06:00:00.000Z",
-      "tenderOpensAt": "2026-10-16T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0JNc58FOIVWA3sTaD5rcSQ%3D%3D",
+      "tenderRef": "2026_JNPT_929238_1",
+      "title": "Budgetary Quote for Annual Maintenance Contract (AMC) of CCTV System installed at Container Scanning Yards, JNPA",
+      "organisationChain": "Jawaharlal Nehru Port Trust||Finance-JNPT||M S - Management Services - Fin - JNPT",
+      "buyer": "Jawaharlal Nehru Port Trust",
+      "publishedAt": "2026-10-07T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-16T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SemqikObvKETQqVjmr2vS7Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -229,25 +196,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_917846_1",
-      "title": "SS/C050-1P39A-RA-MR-6008/1504 - POLYMERISER REACTOR SYSTEM for Polypropylene Unit (PPU) Project at Numaligarh Refinery, Assam",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-07-18T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOjNIsBoQqFeCOK4jcg7QMw%3D%3D",
+      "tenderRef": "2026_DOP_929551_1",
+      "title": "Provision of aluminum partition in Ist floor canteen at Dak Bhawan, New Delhi.",
+      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-09T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T06:00:00.000Z",
+      "tenderOpensAt": "2026-10-16T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0JNc58FOIVWA3sTaD5rcSQ%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_PGIME_925829_2",
-      "title": "Replacement of AC DC capacitors of 30 KVA UPS installed at Robotic OT, PGIMER, Chandigarh.",
-      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.3) - PGIMER Chandigarh",
-      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
-      "publishedAt": "2026-10-09T06:30:00.000Z",
+      "tenderRef": "2026_NHPC_923336_1",
+      "title": "Purchase of 45Ton Gantry Crane with lifting beam",
+      "organisationChain": "NHPC Limited||Tanakpur Power Station-NHPC",
+      "buyer": "NHPC Limited",
+      "publishedAt": "2026-08-22T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T06:00:00.000Z",
+      "tenderOpensAt": "2026-10-19T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S14rvTOs8SRV%2Bm7cNhkoyGQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_928792_1",
+      "title": "C/O GOs MESS G plus 1 AT BN HQ KLP BAISHNAVNAGAR UNDER SHQ BSF BHP.",
+      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-10-03T13:25:00.000Z",
       "bidSubmissionCloses": "2026-10-15T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRyuDJiYFmaCAs%2BlpJpYBng%3D%3D",
+      "tenderOpensAt": "2026-10-16T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S6oskkzWzZEW8BlcOjhgh0Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -262,25 +240,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_EIL_927183_1",
-      "title": "BALANCE PIPING WORKS FOR AUGMENTATION PROJECT",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-09-24T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-15T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-16T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SasTisCp3Bt4j03zFk7b8OQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_929559_1",
-      "title": "Repairing and Internal Painting of 240 Men Barrack at GC CRPF Bhubaneswar",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
+      "tenderRef": "2026_PGIME_925829_2",
+      "title": "Replacement of AC DC capacitors of 30 KVA UPS installed at Robotic OT, PGIMER, Chandigarh.",
+      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.3) - PGIMER Chandigarh",
+      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
       "publishedAt": "2026-10-09T06:30:00.000Z",
       "bidSubmissionCloses": "2026-10-15T06:30:00.000Z",
       "tenderOpensAt": "2026-10-16T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2KPMP6qEDhisbpmLePjBXA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRyuDJiYFmaCAs%2BlpJpYBng%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_917846_1",
+      "title": "SS/C050-1P39A-RA-MR-6008/1504 - POLYMERISER REACTOR SYSTEM for Polypropylene Unit (PPU) Project at Numaligarh Refinery, Assam",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-07-18T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-16T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOjNIsBoQqFeCOK4jcg7QMw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CDOT_928473_1",
+      "title": "Tender for Construction of Store and Washroom",
+      "organisationChain": "Centre for Development of Telematics||Corporate HQ-New Delhi - C-DOT||Purchase - C-DOT",
+      "buyer": "Centre for Development of Telematics",
+      "publishedAt": "2026-10-01T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-16T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdMnPey%2ByEGBSx%2F2ZghTGFA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ESIC_912332_2",
+      "title": "Re-Tender for Comprehensive Electrical Annual Repair and Maintenance Operation (ARMO) of ESIS Hospital Agra along with attached dispensaries, offices and Staff quarters during the year 2026-27.",
+      "organisationChain": "Employees State Insurance Corporation||R.O. Uttar Pradesh",
+      "buyer": "Employees State Insurance Corporation",
+      "publishedAt": "2026-10-01T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-15T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-16T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SELJ2tleXGYSW7PUEZlKY6w%3D%3D",
       "matchedKeywords": []
     }
   ]
