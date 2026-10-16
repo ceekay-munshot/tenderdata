@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-15T23:01:39.637Z",
-  "durationMs": 31818,
+  "fetchedAt": "2026-10-16T04:13:10.180Z",
+  "durationMs": 29901,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 24,
   "totalScanned": 1200,
-  "relevantCount": 1140,
+  "relevantCount": 1141,
   "tenders": [
     {
       "tenderId": "531fad29-b3fe-4cdd-a145-6bafa0486da4",
@@ -1573,7 +1573,7 @@
       "value": 19791100000,
       "emd": 197900000,
       "bidDeadline": "2026-10-29T05:30:00.000Z",
-      "postedAt": "2026-07-09T11:45:00.000Z",
+      "postedAt": "2026-07-09T05:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -2044,7 +2044,7 @@
       "state": "Delhi",
       "value": 13733600000,
       "emd": 10000000,
-      "bidDeadline": "2026-10-28T19:46:00.000Z",
+      "bidDeadline": "2026-10-29T09:30:00.000Z",
       "postedAt": "2026-08-05T07:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -2706,8 +2706,8 @@
       "state": "Delhi",
       "value": 11006900000,
       "emd": 110100000,
-      "bidDeadline": "2026-11-19T05:30:00.000Z",
-      "postedAt": "2026-07-24T13:00:00.000Z",
+      "bidDeadline": "2026-11-19T03:01:00.000Z",
+      "postedAt": "2026-10-16T03:01:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Consultancy Services",
@@ -3183,6 +3183,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "338a03d6-c9a9-4375-9d1b-45230a95e99b",
+      "refNo": "NBCC/CPG/Supertech/Sport- Village/Pkg-III/2026/610",
+      "title": "Construction Of Balance Works Of Sports Village For 08 Residential Towers (ta1 To Ta8), Commercial-a, B, Including All Allied Services Etc., On As Is Where Is Basis At Plot B, Sc-02-d, Sector-27, Greater Noida, U.p., For Acc-supertech Pkg-iii",
+      "buyer": "NBCC India Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Uttar Pradesh",
+      "value": 9394478992,
+      "emd": 93944790,
+      "bidDeadline": "2026-11-04T05:30:00.000Z",
+      "postedAt": "2026-10-06T10:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction",
+        "Sports and Fitness"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-338a03d6-c9a9-4375-9d1b-45230a95e99b",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "089ba8a1-1f94-49d0-9868-9e87deed9bac",
       "refNo": "AAI/CHQ/ENGG-NR/Srinagar/PMC/",
       "title": "Project Management Consultancy Services For Construction Of New Integrated Terminal Building And Allied Works Including Extension Of Apron At Srinagar Airport (2nd Call)",
@@ -3543,7 +3562,7 @@
       "value": 8633000000,
       "emd": 86300000,
       "bidDeadline": "2026-11-02T05:30:00.000Z",
-      "postedAt": "2026-09-14T19:46:00.000Z",
+      "postedAt": "2026-09-15T09:50:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -4106,22 +4125,6 @@
       ]
     },
     {
-      "tenderId": "f8866c10-abe8-4410-8fb5-de37d3fe45e7",
-      "refNo": "13123",
-      "title": "Operation And Management Of Police Mobile Units/frvs Under Erss Project",
-      "buyer": "Police Department",
-      "purchaserGroup": "Road Transportation",
-      "state": "Rajasthan",
-      "value": 7356000000,
-      "bidDeadline": "2026-10-29T18:30:00.000Z",
-      "postedAt": "2026-09-30T18:30:00.000Z",
-      "sectorNames": [
-        "Security and Emergency Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/police-department/detail-f8866c10-abe8-4410-8fb5-de37d3fe45e7",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "52055139-7135-401e-8722-27cd0d58fcbb",
       "refNo": "NIT 13123 DT. 30.09.26 ERSS VEHICLE",
       "title": "Erss Implementation Of Operations And Management Of Police Mobile Unit/ Frv Services In Rajasthan For Charges For Turnkey Basis (operation And Management Of The Police Mobile Unit/ Frv Services",
@@ -4138,6 +4141,22 @@
         "Security and Emergency Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/police-department/detail-52055139-7135-401e-8722-27cd0d58fcbb",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f8866c10-abe8-4410-8fb5-de37d3fe45e7",
+      "refNo": "13123",
+      "title": "Operation And Management Of Police Mobile Units/frvs Under Erss Project",
+      "buyer": "Police Department",
+      "purchaserGroup": "Road Transportation",
+      "state": "Rajasthan",
+      "value": 7356000000,
+      "bidDeadline": "2026-10-29T18:30:00.000Z",
+      "postedAt": "2026-09-30T18:30:00.000Z",
+      "sectorNames": [
+        "Security and Emergency Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/police-department/detail-f8866c10-abe8-4410-8fb5-de37d3fe45e7",
       "matchedKeywords": []
     },
     {
@@ -4533,6 +4552,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "b46414cb-21cc-4a27-a91d-fc0e38433256",
+      "refNo": "NBCC/CPG/Supertech/ Sport-Village/Pkg-I/ 2026/608",
+      "title": "Construction Of Balance Works Of Sports Village Project Package-1, Villas And Sport Centre On As Is Where Is Basis At Plot No Sc-02-d, Sector-27, Greater Noida (up) For Acc-supertech On Engineering, Procurement And Construction (epc) Basis",
+      "buyer": "NBCC India Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Uttar Pradesh",
+      "value": 6573580437,
+      "emd": 65735804,
+      "bidDeadline": "2026-11-04T05:30:00.000Z",
+      "postedAt": "2026-10-06T10:00:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-b46414cb-21cc-4a27-a91d-fc0e38433256",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "666cc62b-55d0-41fe-a20b-df2c338e4510",
       "refNo": "NBCC/CPG/Supertech/Sport-Village/Pkg-I/2026/608 ; 1",
       "title": "Construction Of Balance Works Of Sports Village Project Package-1, Villas And Sport Centre On As Is Where Is Basis At Plot No Sc-02-d, Sector-27, Greater Noida (up) For Acc-supertech On Engineering, Procurement And Construction (epc) Basis",
@@ -4549,24 +4586,6 @@
         "Sports and Fitness"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-666cc62b-55d0-41fe-a20b-df2c338e4510",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "b46414cb-21cc-4a27-a91d-fc0e38433256",
-      "refNo": "NBCC/CPG/Supertech/ Sport-Village/Pkg-I/ 2026/608",
-      "title": "Construction Of Balance Works Of Sports Village Project Package-1, Villas And Sport Centre On As Is Where Is Basis At Plot No Sc-02-d, Sector-27, Greater Noida (up) For Acc-supertech On Engineering, Procurement And Construction (epc) Basis",
-      "buyer": "NBCC India Limited",
-      "procurementSource": "EPROCURE",
-      "state": "Uttar Pradesh",
-      "value": 6573580437,
-      "emd": 65735804,
-      "bidDeadline": "2026-11-04T05:30:00.000Z",
-      "postedAt": "2026-10-06T10:00:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-b46414cb-21cc-4a27-a91d-fc0e38433256",
       "matchedKeywords": []
     },
     {
@@ -5833,20 +5852,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ee5b631e-996d-4989-a154-a583a518159f",
-      "refNo": "f74fb044-3d67-3959-9eec-47f295094889",
-      "title": "Vehicle Lease, Fleet Management And Salary Sacrifice Car Schemes",
-      "buyer": "Crown Commercial Service",
-      "value": 5000000000,
-      "bidDeadline": "2027-01-01T18:30:00.000Z",
-      "postedAt": "2026-01-01T18:30:00.000Z",
-      "sectorNames": [
-        "Automobiles and Auto Parts"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-ee5b631e-996d-4989-a154-a583a518159f",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "e7d495ad-a6a8-4a61-9df1-d9a2f99b0714",
       "refNo": "8502561b-cea5-353a-bd75-66898d905ba0",
       "title": "Vehicle Lease, Fleet Management And Salary Sacrifice Car Schemes",
@@ -5858,6 +5863,20 @@
         "Automobiles and Auto Parts"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-e7d495ad-a6a8-4a61-9df1-d9a2f99b0714",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ee5b631e-996d-4989-a154-a583a518159f",
+      "refNo": "f74fb044-3d67-3959-9eec-47f295094889",
+      "title": "Vehicle Lease, Fleet Management And Salary Sacrifice Car Schemes",
+      "buyer": "Crown Commercial Service",
+      "value": 5000000000,
+      "bidDeadline": "2027-01-01T18:30:00.000Z",
+      "postedAt": "2026-01-01T18:30:00.000Z",
+      "sectorNames": [
+        "Automobiles and Auto Parts"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-ee5b631e-996d-4989-a154-a583a518159f",
       "matchedKeywords": []
     },
     {
@@ -6048,24 +6067,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "b79cf3eb-b58d-4dad-92c5-77e84afbc555",
-      "refNo": "NBCC/CPG/Supertech/Northeye/Pkg-I/2026/602 ; 1",
-      "title": "Construction Of Balance Works Of North Eye On As Is Where Is Basis At Plot No Gh-01a Sector-74, Noida, For Acc-supertech On Engineering, Procurement And Construction (epc) Basis -(package I)",
-      "buyer": "NBCC India Limited",
-      "state": "Uttar Pradesh",
-      "value": 4884288300,
-      "emd": 48842883,
-      "bidDeadline": "2026-11-04T05:30:00.000Z",
-      "postedAt": "2026-10-05T17:56:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-b79cf3eb-b58d-4dad-92c5-77e84afbc555",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "e5f723d7-305b-4cb3-9558-ebdd338e6caf",
       "refNo": "NBCC/CPG/Supertech/ Northeye/Pkg- I/2026/602",
       "title": "Construction Of Balance Works Of North Eye On As Is Where Is Basis At Plot No Gh-01a Sector-74, Noida, Package-1, For Acc-supertech On Engineering, Procurement And Construction (epc) Basis",
@@ -6082,6 +6083,24 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-e5f723d7-305b-4cb3-9558-ebdd338e6caf",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "b79cf3eb-b58d-4dad-92c5-77e84afbc555",
+      "refNo": "NBCC/CPG/Supertech/Northeye/Pkg-I/2026/602 ; 1",
+      "title": "Construction Of Balance Works Of North Eye On As Is Where Is Basis At Plot No Gh-01a Sector-74, Noida, For Acc-supertech On Engineering, Procurement And Construction (epc) Basis -(package I)",
+      "buyer": "NBCC India Limited",
+      "state": "Uttar Pradesh",
+      "value": 4884288300,
+      "emd": 48842883,
+      "bidDeadline": "2026-11-04T05:30:00.000Z",
+      "postedAt": "2026-10-05T17:56:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-b79cf3eb-b58d-4dad-92c5-77e84afbc555",
       "matchedKeywords": []
     },
     {
@@ -6684,24 +6703,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ddba8a6e-6d10-40e6-adc7-a8503a9163e5",
-      "refNo": "NBCC/CPG/Supertech/EcoVillage-I/GreaterNoida/2026/600 ; 1",
-      "title": "Construction Of Balance Works Of Eco Village I, On As Is Where Is Basis At Plot No Gh-08, Sector-1 Greater Noida, (up) For Acc-supertech On Design, Engineering, Procurement And Construction (epc) Basis",
-      "buyer": "NBCC India Limited",
-      "state": "Uttar Pradesh",
-      "value": 4306977146,
-      "emd": 43069772,
-      "bidDeadline": "2026-11-04T05:30:00.000Z",
-      "postedAt": "2026-10-05T15:56:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-ddba8a6e-6d10-40e6-adc7-a8503a9163e5",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "8796b7ad-b7ea-462e-b0e7-ab39a9eb2a55",
       "refNo": "NBCC/CPG/Supertech/ EcoVillage-I/2026/600",
       "title": "Construction Of Balance Works Of Eco Village I, On As Is Where Is Basis At Plot No Gh-08, Sector -1 Greater Noida, (up) For Acc Supertech On Design, Engineering, Procurement And Construction (epc) Basis",
@@ -6718,6 +6719,24 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-8796b7ad-b7ea-462e-b0e7-ab39a9eb2a55",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ddba8a6e-6d10-40e6-adc7-a8503a9163e5",
+      "refNo": "NBCC/CPG/Supertech/EcoVillage-I/GreaterNoida/2026/600 ; 1",
+      "title": "Construction Of Balance Works Of Eco Village I, On As Is Where Is Basis At Plot No Gh-08, Sector-1 Greater Noida, (up) For Acc-supertech On Design, Engineering, Procurement And Construction (epc) Basis",
+      "buyer": "NBCC India Limited",
+      "state": "Uttar Pradesh",
+      "value": 4306977146,
+      "emd": 43069772,
+      "bidDeadline": "2026-11-04T05:30:00.000Z",
+      "postedAt": "2026-10-05T15:56:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-ddba8a6e-6d10-40e6-adc7-a8503a9163e5",
       "matchedKeywords": []
     },
     {
@@ -6927,7 +6946,7 @@
       "value": 4029642802,
       "emd": 40296428,
       "bidDeadline": "2026-11-04T05:30:00.000Z",
-      "postedAt": "2026-10-07T03:30:00.000Z",
+      "postedAt": "2026-10-07T04:45:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Civil Works Others",
@@ -7511,23 +7530,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "b9b6c90b-2920-49b2-8a44-6220e432a95d",
-      "refNo": "NBCC/CPG/CB/Bengaluru/2026/594 ; 1",
-      "title": "Constuction Of Annex Head Office Building For Canara Bank At Manyata Tech Park, Bengaluru",
-      "buyer": "NBCC India Limited",
-      "state": "Karnataka",
-      "value": 3490095900,
-      "emd": 34900959,
-      "bidDeadline": "2026-10-21T05:30:00.000Z",
-      "postedAt": "2026-09-21T15:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-b9b6c90b-2920-49b2-8a44-6220e432a95d",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "8dab379c-7fa4-4136-99ce-eead10da75d0",
       "refNo": "NBCC/CPG/CB/Bengaluru/2026/594",
       "title": "Construction Of Annex Head Office Building For Canara Bank At Manyata Tech Park, Bengaluru",
@@ -7561,6 +7563,23 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/canara-bank/detail-c9a4d870-a087-4cc1-8618-11b57caa9fe2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "b9b6c90b-2920-49b2-8a44-6220e432a95d",
+      "refNo": "NBCC/CPG/CB/Bengaluru/2026/594 ; 1",
+      "title": "Constuction Of Annex Head Office Building For Canara Bank At Manyata Tech Park, Bengaluru",
+      "buyer": "NBCC India Limited",
+      "state": "Karnataka",
+      "value": 3490095900,
+      "emd": 34900959,
+      "bidDeadline": "2026-10-21T05:30:00.000Z",
+      "postedAt": "2026-09-21T15:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-b9b6c90b-2920-49b2-8a44-6220e432a95d",
       "matchedKeywords": []
     },
     {
@@ -8025,29 +8044,12 @@
       "value": 3078200000,
       "emd": 30782000,
       "bidDeadline": "2026-11-03T05:30:00.000Z",
-      "postedAt": "2026-09-19T12:30:00.000Z",
+      "postedAt": "2026-10-19T03:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/border-roads-organisation/detail-8fd5a7b4-fba7-4918-a76e-9dbd5962015c",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "fa14f459-c868-42ea-afaf-8d4f8e07954e",
-      "refNo": "NBCC/CPG/Supertech/Capetown/Pkg-1/2026/601 ; 1",
-      "title": "Construction Of Balance Works Of Capetown On As Is Where Is Basis At Plot No Gh-01a Sector-74, Noida, For Acc-supertech On Engineering, Procurement And Construction (epc) Basis - (package-1)",
-      "buyer": "NBCC India Limited",
-      "state": "Uttar Pradesh",
-      "value": 3051730000,
-      "emd": 30517300,
-      "bidDeadline": "2026-11-04T05:30:00.000Z",
-      "postedAt": "2026-10-05T14:47:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-fa14f459-c868-42ea-afaf-8d4f8e07954e",
       "matchedKeywords": []
     },
     {
@@ -8067,6 +8069,23 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-00b899f4-e604-4389-b464-cdd7d8926ce9",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "fa14f459-c868-42ea-afaf-8d4f8e07954e",
+      "refNo": "NBCC/CPG/Supertech/Capetown/Pkg-1/2026/601 ; 1",
+      "title": "Construction Of Balance Works Of Capetown On As Is Where Is Basis At Plot No Gh-01a Sector-74, Noida, For Acc-supertech On Engineering, Procurement And Construction (epc) Basis - (package-1)",
+      "buyer": "NBCC India Limited",
+      "state": "Uttar Pradesh",
+      "value": 3051730000,
+      "emd": 30517300,
+      "bidDeadline": "2026-11-04T05:30:00.000Z",
+      "postedAt": "2026-10-05T14:47:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-fa14f459-c868-42ea-afaf-8d4f8e07954e",
       "matchedKeywords": []
     },
     {
@@ -8231,21 +8250,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "3f77d289-53e9-4406-80bc-33703dbcb296",
-      "refNo": "88718f7d-60f2-3aa5-a05b-5a130f1b09af",
-      "title": "Scape Professional Services And Development Framework",
-      "buyer": "Scape Procure Limited",
-      "value": 3000000000,
-      "bidDeadline": "2026-11-04T18:30:00.000Z",
-      "postedAt": "2025-11-04T18:30:00.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/scape-procure-limited/detail-3f77d289-53e9-4406-80bc-33703dbcb296",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "1f7ec50b-7b4e-41bb-8762-8425369ae3fc",
       "refNo": "ec6f1819-72f4-3827-8762-741600a07e39",
       "title": "Scape Professional Services And Development Framework",
@@ -8258,6 +8262,21 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/scape-procure-limited/detail-1f7ec50b-7b4e-41bb-8762-8425369ae3fc",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "3f77d289-53e9-4406-80bc-33703dbcb296",
+      "refNo": "88718f7d-60f2-3aa5-a05b-5a130f1b09af",
+      "title": "Scape Professional Services And Development Framework",
+      "buyer": "Scape Procure Limited",
+      "value": 3000000000,
+      "bidDeadline": "2026-11-04T18:30:00.000Z",
+      "postedAt": "2025-11-04T18:30:00.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/scape-procure-limited/detail-3f77d289-53e9-4406-80bc-33703dbcb296",
       "matchedKeywords": []
     },
     {
@@ -8333,7 +8352,7 @@
       "value": 2989400000,
       "emd": 29894000,
       "bidDeadline": "2026-10-30T12:00:00.000Z",
-      "postedAt": "2026-05-29T19:48:00.000Z",
+      "postedAt": "2025-05-30T11:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Bridge Construction"
@@ -9153,22 +9172,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "2e0487f1-1261-4ebf-bdc4-d41c65dfb085",
-      "refNo": "NBCC/SBG-RFM/PFC/2026/18 ; NBCC/SBG-RFM/PFC/2026/18",
-      "title": "Interior Fit-out Works For The Office Space Of Power Finance Corporation At Tower H World Trade Centre Nauroji Nagar New Delhi 110029 Including Operation Maintenance For 3 Years",
-      "buyer": "NBCC India Limited",
-      "state": "Delhi",
-      "value": 2582312426,
-      "emd": 25823124,
-      "bidDeadline": "2026-10-23T05:30:00.000Z",
-      "postedAt": "2026-09-30T13:55:00.000Z",
-      "sectorNames": [
-        "Furnitures and Fixtures"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-2e0487f1-1261-4ebf-bdc4-d41c65dfb085",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "cf2522d8-a464-48a3-a42e-c966ff18d9b2",
       "refNo": "NBCC/SBG-RFM/PFC/2026/18",
       "title": "Interior And Fit-out Works For The Office Space Of Power Finance Corporation At Tower H, World Trade Centre Nauroji Nagar, New Delhi-110029 Including Operation And Maintenance For 03 Years",
@@ -9184,6 +9187,22 @@
         "Furnitures and Fixtures"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-cf2522d8-a464-48a3-a42e-c966ff18d9b2",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "2e0487f1-1261-4ebf-bdc4-d41c65dfb085",
+      "refNo": "NBCC/SBG-RFM/PFC/2026/18 ; NBCC/SBG-RFM/PFC/2026/18",
+      "title": "Interior Fit-out Works For The Office Space Of Power Finance Corporation At Tower H World Trade Centre Nauroji Nagar New Delhi 110029 Including Operation Maintenance For 3 Years",
+      "buyer": "NBCC India Limited",
+      "state": "Delhi",
+      "value": 2582312426,
+      "emd": 25823124,
+      "bidDeadline": "2026-10-23T05:30:00.000Z",
+      "postedAt": "2026-09-30T13:55:00.000Z",
+      "sectorNames": [
+        "Furnitures and Fixtures"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-2e0487f1-1261-4ebf-bdc4-d41c65dfb085",
       "matchedKeywords": []
     },
     {
@@ -9237,23 +9256,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "a3ca08fe-80e2-4369-825f-c10b3c40f1c8",
-      "refNo": "NBCC/CPG/Supertech/Meerut-Green-Village/Meerut/2026/596 ; 1",
-      "title": "Construction Of Balance Work Of The Green Village On As Is Where Is Basis Located At Village Nur Nagar And Nagal Sharkhan Along The Meerut-hapur Bypass (delhi-meerut Highway), Meerut, Uttar Pradesh Pertains To Acc-supertech On Epc Mode",
-      "buyer": "NBCC India Limited",
-      "state": "Uttar Pradesh",
-      "value": 2552020768,
-      "emd": 25520208,
-      "bidDeadline": "2026-11-04T05:30:00.000Z",
-      "postedAt": "2026-10-05T15:07:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-a3ca08fe-80e2-4369-825f-c10b3c40f1c8",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "eb4b236e-e1be-4cb8-a90e-b0df2705ce95",
       "refNo": "NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596",
       "title": "Construction Of Balance Work Of The Green Village On As Is Where Is Basis Located At Village Nur Nagar And Nagal Sharkhan Along The Meerut-hapur Bypass (delhi-meerut Highway), Meerut, Uttar Pradesh Pertains To Acc-supertech On Epc Mode",
@@ -9269,6 +9271,23 @@
         "Civil Works Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-eb4b236e-e1be-4cb8-a90e-b0df2705ce95",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "a3ca08fe-80e2-4369-825f-c10b3c40f1c8",
+      "refNo": "NBCC/CPG/Supertech/Meerut-Green-Village/Meerut/2026/596 ; 1",
+      "title": "Construction Of Balance Work Of The Green Village On As Is Where Is Basis Located At Village Nur Nagar And Nagal Sharkhan Along The Meerut-hapur Bypass (delhi-meerut Highway), Meerut, Uttar Pradesh Pertains To Acc-supertech On Epc Mode",
+      "buyer": "NBCC India Limited",
+      "state": "Uttar Pradesh",
+      "value": 2552020768,
+      "emd": 25520208,
+      "bidDeadline": "2026-11-04T05:30:00.000Z",
+      "postedAt": "2026-10-05T15:07:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-a3ca08fe-80e2-4369-825f-c10b3c40f1c8",
       "matchedKeywords": []
     },
     {
@@ -9655,8 +9674,8 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "9771e24a-b7b4-4b70-96ce-505dac846673",
-      "refNo": "PM-SETU/AIP/220",
+      "tenderId": "b5b8a7d5-82ac-4bf7-be13-5304b3c1b017",
+      "refNo": "PM-SETU/AIP/216",
       "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
       "buyer": "Technical Education And Training Department",
       "purchaserGroup": "Education",
@@ -9665,11 +9684,11 @@
       "value": 2410000000,
       "emd": 8194000,
       "bidDeadline": "2026-11-14T11:30:00.000Z",
-      "postedAt": "2026-09-22T13:25:00.000Z",
+      "postedAt": "2026-09-22T11:30:00.000Z",
       "sectorNames": [
         "Software and IT Solutions"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-9771e24a-b7b4-4b70-96ce-505dac846673",
+      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-b5b8a7d5-82ac-4bf7-be13-5304b3c1b017",
       "matchedKeywords": []
     },
     {
@@ -9709,6 +9728,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "9771e24a-b7b4-4b70-96ce-505dac846673",
+      "refNo": "PM-SETU/AIP/220",
+      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
+      "buyer": "Technical Education And Training Department",
+      "purchaserGroup": "Education",
+      "procurementSource": "EPROCURE",
+      "state": "West Bengal",
+      "value": 2410000000,
+      "emd": 8194000,
+      "bidDeadline": "2026-11-14T11:30:00.000Z",
+      "postedAt": "2026-09-22T13:25:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-9771e24a-b7b4-4b70-96ce-505dac846673",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "71303b9f-1f4c-4589-b067-efccc761c844",
       "refNo": "PM-SETU/AIP/218",
       "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
@@ -9724,24 +9761,6 @@
         "Software and IT Solutions"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-71303b9f-1f4c-4589-b067-efccc761c844",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "b5b8a7d5-82ac-4bf7-be13-5304b3c1b017",
-      "refNo": "PM-SETU/AIP/216",
-      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
-      "buyer": "Technical Education And Training Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "EPROCURE",
-      "state": "West Bengal",
-      "value": 2410000000,
-      "emd": 8194000,
-      "bidDeadline": "2026-11-14T11:30:00.000Z",
-      "postedAt": "2026-09-22T11:30:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-b5b8a7d5-82ac-4bf7-be13-5304b3c1b017",
       "matchedKeywords": []
     },
     {
@@ -9794,25 +9813,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "ab58d326-aa7d-4257-911e-8a4c082e16a9",
-      "refNo": "309930",
-      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Clusters Godhara- Halol Under Pm-setu In The State Of Gujarat",
-      "buyer": "Directorate Of Employment And Training",
-      "purchaserGroup": "Education",
-      "procurementSource": "NPROCURE",
-      "state": "Gujarat",
-      "value": 2410000000,
-      "emd": 72300000,
-      "bidDeadline": "2026-10-30T12:30:00.000Z",
-      "postedAt": "2026-06-01T05:00:00.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-employment-and-training/detail-ab58d326-aa7d-4257-911e-8a4c082e16a9",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "f16569b9-460c-47b7-9d21-a192940c5ae0",
       "refNo": "309921",
       "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Clusters Morbi-surendranagar Under Pm-setu In The State Of Gujarat",
@@ -9829,6 +9829,25 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/directorate-of-employment-and-training/detail-f16569b9-460c-47b7-9d21-a192940c5ae0",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ab58d326-aa7d-4257-911e-8a4c082e16a9",
+      "refNo": "309930",
+      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Clusters Godhara- Halol Under Pm-setu In The State Of Gujarat",
+      "buyer": "Directorate Of Employment And Training",
+      "purchaserGroup": "Education",
+      "procurementSource": "NPROCURE",
+      "state": "Gujarat",
+      "value": 2410000000,
+      "emd": 72300000,
+      "bidDeadline": "2026-10-30T12:30:00.000Z",
+      "postedAt": "2026-06-01T05:00:00.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/directorate-of-employment-and-training/detail-ab58d326-aa7d-4257-911e-8a4c082e16a9",
       "matchedKeywords": []
     },
     {
@@ -9851,23 +9870,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "264cf990-ca00-4ba6-b559-96753018b430",
-      "refNo": "NBCC/CPG/Supertech/Eco-Village-2/Pkg-III/2026/617 ; 1",
-      "title": "Construction Of Residential Towers D6 And D7, And Completion Of Balance Works Of Existing Club And Balance Flats Of Eco Village-ii On An As-is-where-is Basis At Plot No. Gh-01, Sector-16b, Greater Noida, Gautam Budh Nagar, Uttar Pradesh, For Acc- Supertech On Engineering, Procurement And Construction (epc) Basis- Package-iii",
-      "buyer": "NBCC India Limited",
-      "state": "Uttar Pradesh",
-      "value": 2404817269,
-      "emd": 24048173,
-      "bidDeadline": "2026-10-26T05:30:00.000Z",
-      "postedAt": "2026-10-05T16:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-264cf990-ca00-4ba6-b559-96753018b430",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "92c87d3f-e22a-4775-8441-09d743a1b562",
       "refNo": "NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617",
       "title": "Construction Of Residential Towers D6 And D7, And Completion Of Balance Works Of Existing Club, Balance Flats Of Eco Village-ii On An As-is-where-is Basis At Plot No. Gh-01, Sector-16b, Greater Noida, Gautam Budh Nagar, U.p., For Acc Pkg-iii",
@@ -9883,6 +9885,23 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-92c87d3f-e22a-4775-8441-09d743a1b562",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "264cf990-ca00-4ba6-b559-96753018b430",
+      "refNo": "NBCC/CPG/Supertech/Eco-Village-2/Pkg-III/2026/617 ; 1",
+      "title": "Construction Of Residential Towers D6 And D7, And Completion Of Balance Works Of Existing Club And Balance Flats Of Eco Village-ii On An As-is-where-is Basis At Plot No. Gh-01, Sector-16b, Greater Noida, Gautam Budh Nagar, Uttar Pradesh, For Acc- Supertech On Engineering, Procurement And Construction (epc) Basis- Package-iii",
+      "buyer": "NBCC India Limited",
+      "state": "Uttar Pradesh",
+      "value": 2404817269,
+      "emd": 24048173,
+      "bidDeadline": "2026-10-26T05:30:00.000Z",
+      "postedAt": "2026-10-05T16:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-264cf990-ca00-4ba6-b559-96753018b430",
       "matchedKeywords": []
     },
     {
@@ -10770,25 +10789,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "42a39f97-6ed5-4027-97ee-3263182629a6",
-      "refNo": "NBCC/CPG/Supertech/Meerut-Sports-City/Meerut/2026/597 ; 1",
-      "title": "Construction Of Balance Works Of Meerut Sports City On As Is Where Is Basis Located At Modipuram, Along With District Meerut, Uttar Pradesh For Acc-supertech On Engineering, Procurement And Construction (epc) Mode",
-      "buyer": "NBCC India Limited",
-      "state": "Uttar Pradesh",
-      "value": 2062056373,
-      "emd": 20620564,
-      "bidDeadline": "2026-10-26T05:30:00.000Z",
-      "postedAt": "2026-10-05T15:31:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Civil Works Others",
-        "Building Construction",
-        "Sports and Fitness"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-42a39f97-6ed5-4027-97ee-3263182629a6",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "bace7ba6-20e7-40e1-8585-eb4cf6674b58",
       "refNo": "NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597",
       "title": "Construction Of Balance Works Of Meerut Sports City On As Is Where Is Basis Located At Modipuram, Along With District Meerut, Uttar Pradesh For Acc Supertech On Engineering, Procurement And Construction (epc) Mode",
@@ -10806,6 +10806,25 @@
         "Sports and Fitness"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-bace7ba6-20e7-40e1-8585-eb4cf6674b58",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "42a39f97-6ed5-4027-97ee-3263182629a6",
+      "refNo": "NBCC/CPG/Supertech/Meerut-Sports-City/Meerut/2026/597 ; 1",
+      "title": "Construction Of Balance Works Of Meerut Sports City On As Is Where Is Basis Located At Modipuram, Along With District Meerut, Uttar Pradesh For Acc-supertech On Engineering, Procurement And Construction (epc) Mode",
+      "buyer": "NBCC India Limited",
+      "state": "Uttar Pradesh",
+      "value": 2062056373,
+      "emd": 20620564,
+      "bidDeadline": "2026-10-26T05:30:00.000Z",
+      "postedAt": "2026-10-05T15:31:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Civil Works Others",
+        "Building Construction",
+        "Sports and Fitness"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-42a39f97-6ed5-4027-97ee-3263182629a6",
       "matchedKeywords": []
     },
     {
@@ -10922,6 +10941,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "0eeae87f-1c5e-49db-8079-ba7657d24083",
+      "refNo": "PM-SETU/AIP/221",
+      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
+      "buyer": "Technical Education And Training Department",
+      "purchaserGroup": "Education",
+      "procurementSource": "EPROCURE",
+      "state": "West Bengal",
+      "value": 2010000000,
+      "emd": 6834000,
+      "bidDeadline": "2026-11-14T11:30:00.000Z",
+      "postedAt": "2026-09-22T13:25:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-0eeae87f-1c5e-49db-8079-ba7657d24083",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "25fd6035-88f0-45e8-a2ec-e486bb6f2e21",
       "refNo": "PM-SETU/AIP/219",
       "title": "Selection Of An Anchor Industry Partner",
@@ -10955,24 +10992,6 @@
         "Software and IT Solutions"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-a3e97269-51cd-471f-8685-754386878ba8",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "0eeae87f-1c5e-49db-8079-ba7657d24083",
-      "refNo": "PM-SETU/AIP/221",
-      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
-      "buyer": "Technical Education And Training Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "EPROCURE",
-      "state": "West Bengal",
-      "value": 2010000000,
-      "emd": 6834000,
-      "bidDeadline": "2026-11-14T11:30:00.000Z",
-      "postedAt": "2026-09-22T13:25:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-0eeae87f-1c5e-49db-8079-ba7657d24083",
       "matchedKeywords": []
     },
     {
@@ -11552,23 +11571,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "0f26f3af-4cc2-4223-9c77-dc0428bed91a",
-      "refNo": "JVVNL/RDSS/VFS/TN-633",
-      "title": "Virtual Feeder Segregation (vfs) System For 11 Kv Feeders Using Industrial Internet Of Things (iiot)-based Devices On Existing And Upcoming (projected) Agricultural Distribution Transformers",
-      "buyer": "Jaipur Vidyut Vitran Nigam Limited",
-      "state": "Rajasthan",
-      "value": 1933800000,
-      "bidDeadline": "2026-11-01T18:30:00.000Z",
-      "postedAt": "2026-09-30T18:30:00.000Z",
-      "sectorNames": [
-        "Energy, Oil and Gas",
-        "Electrical Generators And Transformers",
-        "Electrical and Electronics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/jaipur-vidyut-vitran-nigam-limited/detail-0f26f3af-4cc2-4223-9c77-dc0428bed91a",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "b4f86ced-4251-4bc4-9478-3f15b90837b9",
       "refNo": "JVVNL/RDSS/VFS/TN-633",
       "title": "Vfs System For 11 Kv Feeders Using Industrial Internet Of Things Iiot Based Devices On Existing And Upcoming Projected Ag Dt Including Development Integration Of Online Monitoring Portal",
@@ -11584,6 +11586,23 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/jaipur-vidyut-vitran-nigam-limited/detail-b4f86ced-4251-4bc4-9478-3f15b90837b9",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0f26f3af-4cc2-4223-9c77-dc0428bed91a",
+      "refNo": "JVVNL/RDSS/VFS/TN-633",
+      "title": "Virtual Feeder Segregation (vfs) System For 11 Kv Feeders Using Industrial Internet Of Things (iiot)-based Devices On Existing And Upcoming (projected) Agricultural Distribution Transformers",
+      "buyer": "Jaipur Vidyut Vitran Nigam Limited",
+      "state": "Rajasthan",
+      "value": 1933800000,
+      "bidDeadline": "2026-11-01T18:30:00.000Z",
+      "postedAt": "2026-09-30T18:30:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Generators And Transformers",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/jaipur-vidyut-vitran-nigam-limited/detail-0f26f3af-4cc2-4223-9c77-dc0428bed91a",
       "matchedKeywords": []
     },
     {
@@ -13648,6 +13667,22 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "755d42f5-2928-46f2-a87f-5518f3a82e75",
+      "refNo": "1e01ac36-f927-3642-8bf8-95d457ac6c72",
+      "title": "Major Infrastructure Delivery Framework",
+      "buyer": "Anglian Water Services Limited",
+      "value": 1500000000,
+      "bidDeadline": "2026-12-02T18:30:00.000Z",
+      "postedAt": "2025-12-02T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Consultancy Services",
+        "Civil And Architectural Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/anglian-water-services-limited/detail-755d42f5-2928-46f2-a87f-5518f3a82e75",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "6a401664-bd3a-4fb0-a221-1c2ed671d4c9",
       "refNo": "afc3c1eb-56c6-3ae4-89b5-7dfb2cedd3d4",
       "title": "Scottish Procurement Alliance (spa) – Pre-tender Engagement For Upcoming Housing Construction, Demolition And Remediation (h3) Framework",
@@ -13662,22 +13697,6 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/lhc-for-the-scottish-procurement-alliance/detail-6a401664-bd3a-4fb0-a221-1c2ed671d4c9",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "755d42f5-2928-46f2-a87f-5518f3a82e75",
-      "refNo": "1e01ac36-f927-3642-8bf8-95d457ac6c72",
-      "title": "Major Infrastructure Delivery Framework",
-      "buyer": "Anglian Water Services Limited",
-      "value": 1500000000,
-      "bidDeadline": "2026-12-02T18:30:00.000Z",
-      "postedAt": "2025-12-02T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Consultancy Services",
-        "Civil And Architectural Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/anglian-water-services-limited/detail-755d42f5-2928-46f2-a87f-5518f3a82e75",
       "matchedKeywords": []
     },
     {
@@ -13759,21 +13778,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "fa8888ab-6d6e-40ca-a094-d70a2908916d",
-      "refNo": "ab376382-f703-3062-a087-4bdec9c1615f",
-      "title": "Housing Maintenance & Repair",
-      "buyer": "Crown Commercial Service",
-      "value": 1500000000,
-      "bidDeadline": "2029-02-22T18:30:00.000Z",
-      "postedAt": "2025-11-11T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-fa8888ab-6d6e-40ca-a094-d70a2908916d",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "20de4186-a84e-4b00-b861-307213dccda1",
       "refNo": "da2bb41d-70d8-345f-bc35-880185a38e43",
       "title": "Housing Maintenance & Repair",
@@ -13786,6 +13790,21 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-20de4186-a84e-4b00-b861-307213dccda1",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "fa8888ab-6d6e-40ca-a094-d70a2908916d",
+      "refNo": "ab376382-f703-3062-a087-4bdec9c1615f",
+      "title": "Housing Maintenance & Repair",
+      "buyer": "Crown Commercial Service",
+      "value": 1500000000,
+      "bidDeadline": "2029-02-22T18:30:00.000Z",
+      "postedAt": "2025-11-11T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-fa8888ab-6d6e-40ca-a094-d70a2908916d",
       "matchedKeywords": []
     },
     {
@@ -14776,17 +14795,17 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "8f2acf6f-69bd-40ab-8318-81e8300d4ceb",
-      "refNo": "e312671b-5797-3413-86cc-78a8ec30a863",
+      "tenderId": "3f0a9651-e6ba-41a5-93be-0864a4e6d14b",
+      "refNo": "62dc8015-7e19-3c91-973e-e138d6075d24",
       "title": "Nhs National Branded Interim - 1 June 2026",
       "buyer": "NHS Engalnd",
       "value": 1346663020,
-      "bidDeadline": "2026-12-22T18:30:00.000Z",
-      "postedAt": "2025-12-22T18:30:00.000Z",
+      "bidDeadline": "2026-12-21T18:30:00.000Z",
+      "postedAt": "2025-12-21T18:30:00.000Z",
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-8f2acf6f-69bd-40ab-8318-81e8300d4ceb",
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-3f0a9651-e6ba-41a5-93be-0864a4e6d14b",
       "matchedKeywords": []
     },
     {
@@ -14804,17 +14823,17 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "3f0a9651-e6ba-41a5-93be-0864a4e6d14b",
-      "refNo": "62dc8015-7e19-3c91-973e-e138d6075d24",
+      "tenderId": "8f2acf6f-69bd-40ab-8318-81e8300d4ceb",
+      "refNo": "e312671b-5797-3413-86cc-78a8ec30a863",
       "title": "Nhs National Branded Interim - 1 June 2026",
       "buyer": "NHS Engalnd",
       "value": 1346663020,
-      "bidDeadline": "2026-12-21T18:30:00.000Z",
-      "postedAt": "2025-12-21T18:30:00.000Z",
+      "bidDeadline": "2026-12-22T18:30:00.000Z",
+      "postedAt": "2025-12-22T18:30:00.000Z",
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-3f0a9651-e6ba-41a5-93be-0864a4e6d14b",
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-8f2acf6f-69bd-40ab-8318-81e8300d4ceb",
       "matchedKeywords": []
     },
     {
@@ -14958,6 +14977,20 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "62b8cf18-a6c5-4fbc-85b5-733cfdd16f53",
+      "refNo": "060fa8c2-496f-3f8b-9218-a4edbb134e89",
+      "title": "Nhs National Branded Interim - 1 June 2026",
+      "buyer": "NHS Engalnd",
+      "value": 1346663020,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": "2025-12-28T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-62b8cf18-a6c5-4fbc-85b5-733cfdd16f53",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "567ce212-ca98-4e25-a47e-e77601eca4d0",
       "refNo": "b1f12543-1fab-3b9f-95c0-74178b8ec77d",
       "title": "Nhs National Branded Interim - 1 June 2026",
@@ -14986,17 +15019,17 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "62b8cf18-a6c5-4fbc-85b5-733cfdd16f53",
-      "refNo": "060fa8c2-496f-3f8b-9218-a4edbb134e89",
+      "tenderId": "08615e15-803a-4356-94b1-45e6ce4533be",
+      "refNo": "0de74a4a-1e9d-31f6-baff-02e0414a8337",
       "title": "Nhs National Branded Interim - 1 June 2026",
       "buyer": "NHS Engalnd",
       "value": 1346663020,
-      "bidDeadline": "2026-12-28T18:30:00.000Z",
-      "postedAt": "2025-12-28T18:30:00.000Z",
+      "bidDeadline": "2026-12-21T18:30:00.000Z",
+      "postedAt": "2025-12-21T18:30:00.000Z",
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-62b8cf18-a6c5-4fbc-85b5-733cfdd16f53",
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-08615e15-803a-4356-94b1-45e6ce4533be",
       "matchedKeywords": []
     },
     {
@@ -15025,20 +15058,6 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-6f013b95-181c-4829-8536-34f7aeb56f3f",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "08615e15-803a-4356-94b1-45e6ce4533be",
-      "refNo": "0de74a4a-1e9d-31f6-baff-02e0414a8337",
-      "title": "Nhs National Branded Interim - 1 June 2026",
-      "buyer": "NHS Engalnd",
-      "value": 1346663020,
-      "bidDeadline": "2026-12-21T18:30:00.000Z",
-      "postedAt": "2025-12-21T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-08615e15-803a-4356-94b1-45e6ce4533be",
       "matchedKeywords": []
     },
     {
@@ -16115,7 +16134,7 @@
       "value": 1263733813,
       "emd": 6319000,
       "bidDeadline": "2026-10-26T12:30:00.000Z",
-      "postedAt": "2026-10-06T07:00:00.000Z",
+      "postedAt": "2026-10-16T03:07:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Civil Works Others",
@@ -16309,7 +16328,7 @@
       "state": "Gujarat",
       "value": 1244000000,
       "emd": 12400000,
-      "bidDeadline": "2026-10-22T05:30:00.000Z",
+      "bidDeadline": "2026-10-22T02:53:00.000Z",
       "postedAt": "2026-09-08T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -18282,6 +18301,23 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "f2ec168e-a2d0-42bf-a7be-99265c58e87a",
+      "refNo": "6026PT002",
+      "title": "Price Agreement For Manufacture And Supply Of Elastic Rail Clip(erc) Mk-v With Flat Toe For 60kg Uic/52kg Rail Sections Drg: (rdso) Rdso_t_5919_ Alt_2 Spec: (rdso) Irs/t-31-2025 Sixth Revision.",
+      "buyer": "South Coast Railway",
+      "procurementSource": "IREPS",
+      "state": "Andhra Pradesh",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-11-17T09:00:00.000Z",
+      "postedAt": "2026-10-14T09:40:00.000Z",
+      "sectorNames": [
+        "Metals and Non-Metals"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-coast-railway/detail-f2ec168e-a2d0-42bf-a7be-99265c58e87a",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "d74c1299-cf6d-4bf2-b584-e22cb2f6ff3f",
       "refNo": "07264988",
       "title": "Elastic Rail Clip(erc) Mk-v With Flat Toe For 60kg Uic/52kg Rail Sections Drg: (rdso) Rdso_t_5919_ Alt_2 Spec: (rdso) Irs/t-31-2025 Sixth Revision",
@@ -18297,23 +18333,6 @@
         "Metals and Non-Metals"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/east-central-railway/detail-d74c1299-cf6d-4bf2-b584-e22cb2f6ff3f",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "f2ec168e-a2d0-42bf-a7be-99265c58e87a",
-      "refNo": "6026PT002",
-      "title": "Price Agreement For Manufacture And Supply Of Elastic Rail Clip(erc) Mk-v With Flat Toe For 60kg Uic/52kg Rail Sections Drg: (rdso) Rdso_t_5919_ Alt_2 Spec: (rdso) Irs/t-31-2025 Sixth Revision.",
-      "buyer": "South Coast Railway",
-      "procurementSource": "IREPS",
-      "state": "Andhra Pradesh",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-11-17T09:00:00.000Z",
-      "postedAt": "2026-10-14T09:40:00.000Z",
-      "sectorNames": [
-        "Metals and Non-Metals"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/south-coast-railway/detail-f2ec168e-a2d0-42bf-a7be-99265c58e87a",
       "matchedKeywords": []
     },
     {
@@ -18354,6 +18373,24 @@
         "Metals and Non-Metals"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/east-central-railway/detail-c2cb71a5-5755-4c51-8069-69191946a6b7",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "c11de857-9d96-45ea-a989-990d23ab3fbf",
+      "refNo": "26265061C",
+      "title": "Elastic Rail Clip(erc) Mk-v With Flat Toe For 60kg Uic/52kg Rail Sections Drg: (rdso) Rdso_t_5919_ Alt_2 Spec: (rdso) Irs/t-31-2025 Sixth Revision",
+      "buyer": "North Eastern Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Uttar Pradesh",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-10-31T06:00:00.000Z",
+      "postedAt": "2026-10-09T15:07:00.000Z",
+      "sectorNames": [
+        "Metals and Non-Metals"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-eastern-railway/detail-c11de857-9d96-45ea-a989-990d23ab3fbf",
       "matchedKeywords": []
     },
     {
@@ -18407,24 +18444,6 @@
       "postedAt": "2026-10-09T07:58:00.000Z",
       "sectorNames": [],
       "detailUrl": "https://bidassist.com/global-tenders/south-western-railway/detail-89f67dc5-5348-4a50-9d40-69aa51a1f980",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "c11de857-9d96-45ea-a989-990d23ab3fbf",
-      "refNo": "26265061C",
-      "title": "Elastic Rail Clip(erc) Mk-v With Flat Toe For 60kg Uic/52kg Rail Sections Drg: (rdso) Rdso_t_5919_ Alt_2 Spec: (rdso) Irs/t-31-2025 Sixth Revision",
-      "buyer": "North Eastern Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Uttar Pradesh",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-10-31T06:00:00.000Z",
-      "postedAt": "2026-10-09T15:07:00.000Z",
-      "sectorNames": [
-        "Metals and Non-Metals"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/north-eastern-railway/detail-c11de857-9d96-45ea-a989-990d23ab3fbf",
       "matchedKeywords": []
     },
     {
@@ -18579,6 +18598,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "38c6442c-3a4b-44c7-8ad2-63b1b8ef5deb",
+      "refNo": "10261019A",
+      "title": "Price Agreement /running Contract For Supply Of Steel- Crankshafts (sae 5046- Modified) As Per Drg.no. 9557162 Alt A Specn: Ems-153 Rev.c, Misc:690",
+      "buyer": "Banaras Locomotive Works",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Uttar Pradesh",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-10-23T09:30:00.000Z",
+      "postedAt": "2026-10-01T14:38:00.000Z",
+      "sectorNames": [
+        "Machinery and Tools",
+        "Metals and Non-Metals"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/banaras-locomotive-works/detail-38c6442c-3a4b-44c7-8ad2-63b1b8ef5deb",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "a793a5ac-a9f2-45c1-b972-933fc80ef1b7",
       "refNo": "08260193",
       "title": "Propulsion Electrics For Vande Bharat Train Sets",
@@ -18614,25 +18652,6 @@
         "Furnitures and Fixtures"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/rail-coach-factory/detail-ddd7839b-24ed-4a28-8086-8666cbf71697",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "38c6442c-3a4b-44c7-8ad2-63b1b8ef5deb",
-      "refNo": "10261019A",
-      "title": "Price Agreement /running Contract For Supply Of Steel- Crankshafts (sae 5046- Modified) As Per Drg.no. 9557162 Alt A Specn: Ems-153 Rev.c, Misc:690",
-      "buyer": "Banaras Locomotive Works",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Uttar Pradesh",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-10-23T09:30:00.000Z",
-      "postedAt": "2026-10-01T14:38:00.000Z",
-      "sectorNames": [
-        "Machinery and Tools",
-        "Metals and Non-Metals"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/banaras-locomotive-works/detail-38c6442c-3a4b-44c7-8ad2-63b1b8ef5deb",
       "matchedKeywords": []
     },
     {
@@ -19208,20 +19227,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "64ccf58b-c231-4025-b94c-1372f7705c14",
-      "refNo": "9716d39f-0a4b-300d-88a6-b2c4d8e1e56f",
-      "title": "Cheddar 2 Reservoir",
-      "buyer": "South West Water Limited",
-      "value": 1000000000,
-      "bidDeadline": "2027-11-25T18:30:00.000Z",
-      "postedAt": "2025-07-06T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/south-west-water-limited/detail-64ccf58b-c231-4025-b94c-1372f7705c14",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "2adef7a4-74b8-4187-bdbc-c42aab690ab9",
       "refNo": "14c01e1c-0719-3e6a-8628-f674742fcdce",
       "title": "Cheddar 2 Reservoir",
@@ -19233,6 +19238,20 @@
         "Others"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/south-west-water-limited/detail-2adef7a4-74b8-4187-bdbc-c42aab690ab9",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "64ccf58b-c231-4025-b94c-1372f7705c14",
+      "refNo": "9716d39f-0a4b-300d-88a6-b2c4d8e1e56f",
+      "title": "Cheddar 2 Reservoir",
+      "buyer": "South West Water Limited",
+      "value": 1000000000,
+      "bidDeadline": "2027-11-25T18:30:00.000Z",
+      "postedAt": "2025-07-06T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-west-water-limited/detail-64ccf58b-c231-4025-b94c-1372f7705c14",
       "matchedKeywords": []
     },
     {
@@ -19442,20 +19461,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
-      "refNo": "79552-2024",
-      "title": "Norway – E-learning Services – 1-ude- 2024 Dynamic Procurement Scheme For Digital Teaching Aids For The Oslo School",
-      "buyer": "Oslo Kommune V Utdanningsetaten",
-      "value": 1000000000,
-      "bidDeadline": "2034-03-06T18:30:00.000Z",
-      "postedAt": "2024-02-06T18:30:00.000Z",
-      "sectorNames": [
-        "Education And Training Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "05dd6080-5264-4067-8275-fb0fa0e28649",
       "refNo": "2024-101721",
       "title": "1-ude- 2024 Dynamisk Innkjøpsordning For Digitale Læremidler I Osloskolen",
@@ -19467,6 +19472,20 @@
         "Education And Training Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-05dd6080-5264-4067-8275-fb0fa0e28649",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
+      "refNo": "79552-2024",
+      "title": "Norway – E-learning Services – 1-ude- 2024 Dynamic Procurement Scheme For Digital Teaching Aids For The Oslo School",
+      "buyer": "Oslo Kommune V Utdanningsetaten",
+      "value": 1000000000,
+      "bidDeadline": "2034-03-06T18:30:00.000Z",
+      "postedAt": "2024-02-06T18:30:00.000Z",
+      "sectorNames": [
+        "Education And Training Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
       "matchedKeywords": []
     },
     {
