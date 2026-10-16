@@ -1,12 +1,26 @@
 {
-  "fetchedAt": "2026-10-16T19:31:15.405Z",
-  "durationMs": 108311,
+  "fetchedAt": "2026-10-16T22:45:02.269Z",
+  "durationMs": 78044,
   "ok": true,
   "view": "14day",
-  "pagesFetched": 21,
-  "totalRowsParsed": 195,
-  "relevantCount": 0,
-  "tenders": [],
+  "pagesFetched": 50,
+  "totalRowsParsed": 410,
+  "relevantCount": 1,
+  "tenders": [
+    {
+      "tenderRef": "2026_NERIW_927631_1",
+      "title": "SUPPLY, INSTALLATION AND COMMISSIONING OF 70-WATT STREET LIGHTS IN THE RESEARCH FARM, SUB STATION AND WATER TREATMENT PLANT INCLUDING ASSOCIATED CIVIL WORKS IN NERIWALM CAMPUS, DOLABARI, TEZPUR",
+      "organisationChain": "North Eastern Regional Institute of Water and Land Management",
+      "buyer": "North Eastern Regional Institute of Water and Land Management",
+      "publishedAt": "2026-09-24T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-21T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-22T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SF92SLmfLXj5Z0KuwW0XYww%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
   "sampleRows": [
     {
       "tenderRef": "2026_CRPF_929544_1",
@@ -229,17 +243,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_NITK_929100_1",
-      "title": "Chemicals and Materials",
-      "organisationChain": "National Institute of Technology Karnataka",
-      "buyer": "National Institute of Technology Karnataka",
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-10-17T09:30:00.000Z",
-      "tenderOpensAt": "2026-10-19T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4%2BGVtojmlcsTxRG2LcramA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_DDA_928690_1",
       "title": "Conservation of Water body",
       "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-10-Janak Puri-DDA",
@@ -251,36 +254,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IMSBP_926603_1",
-      "title": "Annual Operation, Maintenance and Repair of DG Sets of different capacity Installed at AIIMS Bhopal.",
-      "organisationChain": "All India Institute of Medical Sciences-Bhopal",
-      "buyer": "All India Institute of Medical Sciences-Bhopal",
-      "publishedAt": "2026-09-17T10:30:00.000Z",
+      "tenderRef": "2026_HURL_929437_1",
+      "title": "Procurement of KSB make MOV for HRSG and Aux Boiler",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||Gorakhpur-UP - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-10-09T11:30:00.000Z",
       "bidSubmissionCloses": "2026-10-17T09:30:00.000Z",
-      "tenderOpensAt": "2026-10-19T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sk99tSXsoxuNTX2zqgTOUeA%3D%3D",
+      "tenderOpensAt": "2026-10-19T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkMHMRgBZxEp9SODNJer7EQ%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2025_DDA_867668_1",
-      "title": "REQUEST FOR PROPOSAL for Engagement of DEA Empaneled Transaction Advisor for providing Transaction Advisory Services for Repurposing of Rajghat Power Plant as a one-stop entertainment destination in Delhi on PPP mode",
-      "organisationChain": "Delhi Development Authority||CE-North Zone-DDA||EE-ND 3-Kingsway Camp-BBM Depot-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2025-07-07T08:45:00.000Z",
+      "tenderRef": "2026_DRDO_927918_1",
+      "title": "MAINTENANCE OF ARBORICULTURE ASSETS OF CAS AND HWT SITE BM",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) South - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-09-28T12:30:00.000Z",
       "bidSubmissionCloses": "2026-10-17T09:30:00.000Z",
       "tenderOpensAt": "2026-10-19T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIJQLryWCi720H%2Bh%2FTYQ1HA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SgldMj4F%2Fd5ZA12HZdHV%2F9A%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DDA_928663_1",
-      "title": "Electrical Maintenance Fund of 14Dwarka Greens.................Sector 14 Dwarka Ph 2",
-      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-5-Dwarka-DDA",
+      "tenderRef": "2026_DDA_928397_1",
+      "title": "EMF of Sector 18B, Dwarka HIG Flats HS-2010.",
+      "organisationChain": "Delhi Development Authority||CE-Electrical-DDA||EE(El)/ED-10-Janak Puri-DDA",
       "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-10-01T13:05:00.000Z",
+      "publishedAt": "2026-09-30T11:40:00.000Z",
       "bidSubmissionCloses": "2026-10-17T09:30:00.000Z",
       "tenderOpensAt": "2026-10-19T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STC4HhDlVnO7Tk8lYK6sFaA%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGHa7BKIGU7sQXEX2tGeBnw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_929369_1",
+      "title": "Dehydration of 02 Nos 400 KVA and 02 Nos 200 KVA Transformers installed at KLP Nagpur",
+      "organisationChain": "DG,BSF,MHA||ANO FTR(Bangalore),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-10-08T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-17T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-19T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sho1fjFzz9rWuDn1v023pgQ%3D%3D",
       "matchedKeywords": []
     }
   ]
