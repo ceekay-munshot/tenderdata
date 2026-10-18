@@ -1,38 +1,40 @@
 {
-  "fetchedAt": "2026-10-18T18:33:52.901Z",
-  "durationMs": 40655,
+  "fetchedAt": "2026-10-18T22:22:02.250Z",
+  "durationMs": 51936,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 369,
-  "relevantCount": 1,
+  "totalRowsParsed": 416,
+  "relevantCount": 2,
   "tenders": [
     {
-      "tenderRef": "2026_NERIW_927631_1",
-      "title": "SUPPLY, INSTALLATION AND COMMISSIONING OF 70-WATT STREET LIGHTS IN THE RESEARCH FARM, SUB STATION AND WATER TREATMENT PLANT INCLUDING ASSOCIATED CIVIL WORKS IN NERIWALM CAMPUS, DOLABARI, TEZPUR",
-      "organisationChain": "North Eastern Regional Institute of Water and Land Management",
-      "buyer": "North Eastern Regional Institute of Water and Land Management",
-      "publishedAt": "2026-09-24T12:30:00.000Z",
+      "tenderRef": "2026_IGRUA_926348_1",
+      "title": "FIVE (05) SINGLE ENGINE TRAINER AIRCRAFT INSTALLED WITH ATF OPERATED ENGINE ONLY",
+      "organisationChain": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+      "buyer": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+      "publishedAt": "2026-09-16T11:00:00.000Z",
       "bidSubmissionCloses": "2026-10-21T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-22T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SF92SLmfLXj5Z0KuwW0XYww%3D%3D",
+      "tenderOpensAt": "2026-10-22T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1LWHspPzEaV%2BnL53xvrsMg%3D%3D",
       "matchedKeywords": [
-        "water treatment plant"
+        "aircraft"
+      ]
+    },
+    {
+      "tenderRef": "2026_DRDO_928377_1",
+      "title": "Consultancy Services for Engg. Consultancy Services Including Site Survey and Soil Investigation for Technology for High Energy and Allied Materials for New Generation Armament and Missile System, THEAM NGARMS at HEMRL, Pune",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) West - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-09-30T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-21T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-22T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SrXyRN%2Br3MHdXpfkUZ7N84w%3D%3D",
+      "matchedKeywords": [
+        "missile system"
       ]
     }
   ],
   "sampleRows": [
-    {
-      "tenderRef": "2026_ALHW_929142_1",
-      "title": "Conveying and Placing of Tetrapods from the Casting Yard to Breakwater in Car Nicobar.",
-      "organisationChain": "Andaman Lakshadweep Harbour Works||Executive Engineer (K and GN) -Campbell Bay ALHW",
-      "buyer": "Andaman Lakshadweep Harbour Works",
-      "publishedAt": "2026-10-07T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T04:30:00.000Z",
-      "tenderOpensAt": "2026-10-20T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwVVdCZPPqcB8wVFv2lhdjw%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_CRPF_929894_1",
       "title": "Repair and Cleaning of underground sump and overhead tank at GC CRPF Jammu",
@@ -56,6 +58,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_ALHW_929142_1",
+      "title": "Conveying and Placing of Tetrapods from the Casting Yard to Breakwater in Car Nicobar.",
+      "organisationChain": "Andaman Lakshadweep Harbour Works||Executive Engineer (K and GN) -Campbell Bay ALHW",
+      "buyer": "Andaman Lakshadweep Harbour Works",
+      "publishedAt": "2026-10-07T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-20T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwVVdCZPPqcB8wVFv2lhdjw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_RCFL_927720_1",
       "title": "CONTRACT FOR CONSTRUCTION OF CHAIN LINK FENCING AROUND OPEN LAND OUTSIDE BOUNDARY WALL OF FACTORY PREMISES (PHASE-II) AT RCF THAL",
       "organisationChain": "Rashtriya Chemicals and Fertilizers Ltd.||IT,RCFLTD,MCF",
@@ -67,14 +80,36 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_930121_1",
-      "title": "Anti termite treatment of buildings in RAKNPA Ghaziabad.",
-      "organisationChain": "Department of Posts||Delhi Circle, Dept. of Posts||Off. of EE(C),Delhi Circle,POST||Postal Civil Division,EE(C),Delhi Circle",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-10-13T09:30:00.000Z",
+      "tenderRef": "2026_BSF_929932_1",
+      "title": "Repair and maintenance of War Memorial at BOP Dalu of 22 Bn BSF under SHQ BSF Tura.",
+      "organisationChain": "DG,BSF,MHA||Meghalya FTR(Shillong),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-10-12T08:45:00.000Z",
       "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
       "tenderOpensAt": "2026-10-20T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1J1dTv7F2JRbW4pQo7Dirw%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sd1e94cPPMkigzPgRINv0kw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DGHS_927005_1",
+      "title": "Tender for supply of Quadrivalent Meningococcal Meningitis Vaccine QMMV ACYW 135 Polysaccharide Conjugate",
+      "organisationChain": "Directorate General Health Services,MHFW||Medical Stores Organisation,DGHS,MHFW||Govt. Medical Stroes Depot,New Delhi,MSO,DGHS,MHFW",
+      "buyer": "Directorate General Health Services,MHFW",
+      "publishedAt": "2026-09-22T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StT3rtxmfoEI6Rrc3Z7J%2B9Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_929950_1",
+      "title": "SITC of VRF AC wiring and EI and Fans light fittings ceiling fans AC wiring computer wiring and net working for Second floor AO Chambers under Mumbai Region at West wing GPO Heritage Building Mumbai 3rd Call",
+      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-12T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-20T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SNSvCrUqwDS7cCylTBBAx0A%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -111,17 +146,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_929913_1",
-      "title": "Improvement of toilet block attached with DIG Office of Adm block under SHQ BSF Tura.",
-      "organisationChain": "DG,BSF,MHA||Meghalya FTR(Shillong),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-10-12T07:45:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-20T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SFmXTsBNjHVbZt1MyNvYxSw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_NIRD_927690_1",
       "title": "Comprehensive Annual Maintenance Contract (AMC) service for one year for Ductable and Non-ductable (Split Window/Tower) Air Conditioners at NIRDPR Office and Hostel Buildings(2nd call)",
       "organisationChain": "National Institute of Rural Development-MoRD||NIRD-Hyderabad",
@@ -130,28 +154,6 @@
       "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
       "tenderOpensAt": "2026-10-21T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSEZLb7MMU9XDIUPYt2h5Tw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_JNPT_927800_1",
-      "title": "Providing and Laying Factory made Precast RCC SW Drain Covers and DI Manhole Covers at JNPA SEZ",
-      "organisationChain": "Jawaharlal Nehru Port Trust||CME-Chief Mechanical Engineering-JNPT||Materials - CME - JNPT",
-      "buyer": "Jawaharlal Nehru Port Trust",
-      "publishedAt": "2026-09-25T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-20T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StsmGP6TIIKimEqoEflmh%2Fw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DGHS_927005_1",
-      "title": "Tender for supply of Quadrivalent Meningococcal Meningitis Vaccine QMMV ACYW 135 Polysaccharide Conjugate",
-      "organisationChain": "Directorate General Health Services,MHFW||Medical Stores Organisation,DGHS,MHFW||Govt. Medical Stroes Depot,New Delhi,MSO,DGHS,MHFW",
-      "buyer": "Directorate General Health Services,MHFW",
-      "publishedAt": "2026-09-22T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StT3rtxmfoEI6Rrc3Z7J%2B9Q%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -166,6 +168,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_SSC_925144_1",
+      "title": "RFP for Development, Optimization and Delivery of On-Premises Multi-Language AI/ML Translation Models for Examination Content",
+      "organisationChain": "Staff Selection Commission",
+      "buyer": "Staff Selection Commission",
+      "publishedAt": "2026-09-07T11:10:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRXWyNE9fIXwCJ4eCs%2FAzfQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_JNPT_927800_1",
+      "title": "Providing and Laying Factory made Precast RCC SW Drain Covers and DI Manhole Covers at JNPA SEZ",
+      "organisationChain": "Jawaharlal Nehru Port Trust||CME-Chief Mechanical Engineering-JNPT||Materials - CME - JNPT",
+      "buyer": "Jawaharlal Nehru Port Trust",
+      "publishedAt": "2026-09-25T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-20T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StsmGP6TIIKimEqoEflmh%2Fw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_NHPC_927865_1",
       "title": "Supply and Application of Surface Protective Coating on Inlet pipe of Spiral Casing, Part of Penstock and Lower DT cone of Generating Units of Tanakpur Power Station",
       "organisationChain": "NHPC Limited||Tanakpur Power Station-NHPC",
@@ -174,6 +198,94 @@
       "bidSubmissionCloses": "2026-10-19T06:00:00.000Z",
       "tenderOpensAt": "2026-10-22T06:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBroIJ3xNUPAZOiBBApzZlg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_927876_1",
+      "title": "RCM/B957-300-CG-T-8006/1034 - UG PIPING AND MISCELLANEOUS WORKS FOR ECU FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP), BINA REFINERY OF M/S BHARAT PETROLEUM CORPORATION LIMITED (BPCL)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjEOszj6FfQOY3UD1alPzaQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_929923_1",
+      "title": "Providing counters and cycle shed to Vungutur SO under Gudivada Division",
+      "organisationChain": "Department of Posts||Telangana Circle- Dept of Posts",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-12T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sd2RGA%2FrpBkj8u3M7wenQZw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_928062_1",
+      "title": "EXECUTION OF WORK UNDER MW (CONS) TO REPAIRS AND RECONSTRUCTION OF FORTIFICATION WALL WESTERN SIDE AT KOLABA FORT. AS SPECIFIED IN THE BOQ.",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Mumbai Circle-Mumbai",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-28T13:20:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-20T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBBGxBdKzhxgXZnHfGOoRog%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AYJNI_928669_1",
+      "title": "SITC of GI perforated cable trays (ceiling suspended) and PVC trunking and at main building of AYJ",
+      "organisationChain": "Ali Yavar Jung National Institute For Hearing Handicapped - Mumbai",
+      "buyer": "Ali Yavar Jung National Institute For Hearing Handicapped - Mumbai",
+      "publishedAt": "2026-10-01T12:15:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-20T06:35:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sj1b7YgYLopos6FSD5IbzIA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SB_929716_1",
+      "title": "Notice Inviting Tender for designing and fabrication of Spices Boards stall in India International Trade Fair 2026 at Bharat Mandapam, New Delhi",
+      "organisationChain": "Spices Board",
+      "buyer": "Spices Board",
+      "publishedAt": "2026-10-09T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmlTK6DMoLMkYZxopgJNUnA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_919928_1",
+      "title": "JP/B862-000-XC-MR-0040/108 - SWITCHBOARD-LV-DRAWOUT WITH ACB FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT OF PETRONET LNG LIMITED, DAHEJ (GUJARAT)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-07-31T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScSFvCo%2B7F9xxLssBPB0WLw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_925721_1",
+      "title": "SPN/B957-000-YC-MR-1350/221 SPECIAL CONTROL VALVES-MIXED FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-09-11T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPegDVH%2FxaPYlwJsyp46BRA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NRB_928351_1",
+      "title": "BARCT/NRB/EMC/EMT204/2026/529",
+      "organisationChain": "Nuclear Recycle Board||Tarapur - Operations (INRPO) - NRB",
+      "buyer": "Nuclear Recycle Board",
+      "publishedAt": "2026-10-01T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGTyYuXbTL0uge6yKt%2FHdHA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -196,105 +308,6 @@
       "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
       "tenderOpensAt": "2026-10-21T06:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMOv4K3o0WnSieoO3GItopg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_SB_929716_1",
-      "title": "Notice Inviting Tender for designing and fabrication of Spices Boards stall in India International Trade Fair 2026 at Bharat Mandapam, New Delhi",
-      "organisationChain": "Spices Board",
-      "buyer": "Spices Board",
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SmlTK6DMoLMkYZxopgJNUnA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ASI_928062_1",
-      "title": "EXECUTION OF WORK UNDER MW (CONS) TO REPAIRS AND RECONSTRUCTION OF FORTIFICATION WALL WESTERN SIDE AT KOLABA FORT. AS SPECIFIED IN THE BOQ.",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Mumbai Circle-Mumbai",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-09-28T13:20:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-20T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SBBGxBdKzhxgXZnHfGOoRog%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_929923_1",
-      "title": "Providing counters and cycle shed to Vungutur SO under Gudivada Division",
-      "organisationChain": "Department of Posts||Telangana Circle- Dept of Posts",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-10-12T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sd2RGA%2FrpBkj8u3M7wenQZw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_929865_1",
-      "title": "Repair and maintenance of 7.5/ 15/ 40/ 125 KVA non BFL DG sets installed at BOPs and HQ of 165 Bn (Now 141 Bn) BSF under SHQ BSF Jammu.",
-      "organisationChain": "DG,BSF,MHA||Jammu FTR(Jammu),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-10-12T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Spnlm83etpm%2FtJ1Ow29G7lg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_929864_1",
-      "title": "Repair and maintenance of 7.5/ 15/ 40/ 62.5 KVA non BFL DG sets installed at BOPs and HQ of 101 Bn BSF under SHQ BSF Jammu.",
-      "organisationChain": "DG,BSF,MHA||Jammu FTR(Jammu),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-10-12T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUdZHaREWxw1jWSdlygccfw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_929919_1",
-      "title": "Providing and fixing false ceiling and repairs to counters at Muthukur SO under Nellore Division",
-      "organisationChain": "Department of Posts||Telangana Circle- Dept of Posts",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-10-12T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHx%2F2DK4nngDqoT%2Bi3QJ0%2Bw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_919928_1",
-      "title": "JP/B862-000-XC-MR-0040/108 - SWITCHBOARD-LV-DRAWOUT WITH ACB FOR PDH PP PLANT WITH ETHANE AND PROPANE HANDLING FACILITIES PROJECT OF PETRONET LNG LIMITED, DAHEJ (GUJARAT)",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-07-31T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T08:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScSFvCo%2B7F9xxLssBPB0WLw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_EIL_927876_1",
-      "title": "RCM/B957-300-CG-T-8006/1034 - UG PIPING AND MISCELLANEOUS WORKS FOR ECU FOR BINA PETCHEM AND REFINERY EXPANSION PROJECT (BPREP), BINA REFINERY OF M/S BHARAT PETROLEUM CORPORATION LIMITED (BPCL)",
-      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
-      "buyer": "Engineers India Limited,MoPNG",
-      "publishedAt": "2026-09-30T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-21T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjEOszj6FfQOY3UD1alPzaQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_929563_1",
-      "title": "REPAIR AND MAINTENANCE OF 10 NOS OR S TOILETS SIZE (5X4X7) feet,BATHING POINT SIZE(15X15 feet, TOILETS SEPTIC TANK SIZE(15X8X7) feet and FLOOR TILES OF MT LINE BARRACK AT IG SECTOR HQR JKD CRPF RANCHI",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-10-09T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-10-19T06:30:00.000Z",
-      "tenderOpensAt": "2026-10-20T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0SWMoJ35mahj%2FkhEtmkKXg%3D%3D",
       "matchedKeywords": []
     }
   ]
