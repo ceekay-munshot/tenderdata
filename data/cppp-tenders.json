@@ -1,11 +1,314 @@
 {
-  "fetchedAt": "2026-10-19T15:32:58.635Z",
-  "durationMs": 263755,
+  "fetchedAt": "2026-10-19T20:58:50.443Z",
+  "durationMs": 40411,
   "ok": true,
-  "view": "today",
-  "pagesFetched": 1,
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": [],
-  "sampleRows": []
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 362,
+  "relevantCount": 2,
+  "tenders": [
+    {
+      "tenderRef": "2026_NERIW_927631_1",
+      "title": "SUPPLY, INSTALLATION AND COMMISSIONING OF 70-WATT STREET LIGHTS IN THE RESEARCH FARM, SUB STATION AND WATER TREATMENT PLANT INCLUDING ASSOCIATED CIVIL WORKS IN NERIWALM CAMPUS, DOLABARI, TEZPUR",
+      "organisationChain": "North Eastern Regional Institute of Water and Land Management",
+      "buyer": "North Eastern Regional Institute of Water and Land Management",
+      "publishedAt": "2026-09-24T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-21T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-22T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SF92SLmfLXj5Z0KuwW0XYww%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    },
+    {
+      "tenderRef": "2026_IGRUA_926348_1",
+      "title": "FIVE (05) SINGLE ENGINE TRAINER AIRCRAFT INSTALLED WITH ATF OPERATED ENGINE ONLY",
+      "organisationChain": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+      "buyer": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+      "publishedAt": "2026-09-16T11:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-21T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-22T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1LWHspPzEaV%2BnL53xvrsMg%3D%3D",
+      "matchedKeywords": [
+        "aircraft"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_NK_926659_1",
+      "title": "Providing Patent Attorney Services",
+      "organisationChain": "National Institute of Technology Kurukshetra||Central Store - NIT Kurukshetra",
+      "buyer": "National Institute of Technology Kurukshetra",
+      "publishedAt": "2026-09-17T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T03:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMTXEqx6HI7vuaSvYnmPdGA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_929545_1",
+      "title": "Repair Renovation of 09 Nos. Toilet Bathroom of officers annexes at BCS Camp CRPF, Rambagh, Srinagar J and K.",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-10-09T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-30T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=StSdwY6rsCJp%2F0t3z%2BRzPRw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_928312_1",
+      "title": "Retrofitting, Preservation and Conservation of Kalyana Mandapa at Vijaya Vittala Temple, Hampi under MPLADS funds for the year 2026-27",
+      "organisationChain": "Archaeological Survey of India||O/o Dy. SA-ASI-Mini Circle Hampi-Hampi",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-30T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STnc68kwtVXFC3epK4PJDCg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NS_929996_1",
+      "title": "Repairing of CC Block roads and main Iron Gates in MSH.",
+      "organisationChain": "National Institute of Technology Silchar",
+      "buyer": "National Institute of Technology Silchar",
+      "publishedAt": "2026-10-14T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SP68O%2Fnxnr%2FN1ulLUoldTDg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NS_930225_1",
+      "title": "Flooring with Kota Stone in Structural Dynamics Laboratory Civil Engineering Department",
+      "organisationChain": "National Institute of Technology Silchar",
+      "buyer": "National Institute of Technology Silchar",
+      "publishedAt": "2026-10-14T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SWF1HhCdMNetbo4iV7HjiXA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NS_929991_1",
+      "title": "Painting with Solar Reflective paint on the Roofing sheets of the Old Gallery Classroom Building of NIT Silchar.",
+      "organisationChain": "National Institute of Technology Silchar",
+      "buyer": "National Institute of Technology Silchar",
+      "publishedAt": "2026-10-14T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScMH0B%2BUhO5LnAIsvoylwUQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SAI_930226_1",
+      "title": "Selection of an Event Management Agency for conducting Sundays on Cycle (SOC) at Hubballi on 25th October 2026",
+      "organisationChain": "Sports Authority of India||SSAI NSSC Bangaluru",
+      "buyer": "Sports Authority of India",
+      "publishedAt": "2026-10-14T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDRYJujv%2BDVhSQvRXavMjsA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_928029_1",
+      "title": "MC and EW (CAM) special repairs to Hill fort and Ruined palace at Uchchangidurga",
+      "organisationChain": "Archaeological Survey of India||O/o Dy. SA-ASI-Mini Circle Hampi-Hampi",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-28T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScYlgbWo81jhOEUHREZ8iWw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_HURL_928038_1",
+      "title": "RCC, Brickwork, Tiling, paving and other allied works at HURL, Barauni.",
+      "organisationChain": "Hindustan Urvarak and Rasayan Limited||Baruni-Bihar - HURL",
+      "buyer": "Hindustan Urvarak and Rasayan Limited",
+      "publishedAt": "2026-09-29T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3msnhVbgU9JYimWe%2BM8SUw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_928004_1",
+      "title": "MC and EW (CAM) to Conservation to Madarasa Mahmud Gaawan at Bidar",
+      "organisationChain": "Archaeological Survey of India||O/o Dy. SA-ASI-Mini Circle Hampi-Hampi",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-09-28T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOE%2FSQsgwvlmzPJsQSWMgJA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929294_1",
+      "title": "M and O of 33 KV power house with allied works at Laitkor Grn",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SbdAukU6xcrh4apg%2BOoaRHQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929262_1",
+      "title": "AMC for one year for one No lift installed at ARMH Hospital, Laitkor",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGfhszRZezSXC4qwCIw1%2BDg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929315_1",
+      "title": "Repair/ maint to seating gallery for sports facility at Laitkor",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T13:05:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=St30XoWMtvR27zcTtyeUOcw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929313_1",
+      "title": "Repair/Maint to storage spaces, electrification and other minor allied works in DPB-94 and DPB-95, DGSE, Laitkor",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T12:55:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=STWmTa39%2BLX%2BiPwn8CyAnag%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929270_1",
+      "title": "Repair and Maint of Offr Mess incl GRs at TC Guwahati",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5085nU7uPJYL4C855OGHsg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929218_1",
+      "title": "M and O of 11 KV substation and water supply installation at SF accn Dwarka",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGPZdiZO9wTwdoMVXMaGkXA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929232_1",
+      "title": "AMC for one year for two Nos lifts installed at Adm block, Laitkor",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S9AF9FTeNe4IbuHsT0k9yyA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929243_1",
+      "title": "AMC for four Nos lifts (Phase-I) at type-II and type-III SF accn at Dwarka",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0%2BEbxU%2FY1mVGNi7gkWiOSA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929249_1",
+      "title": "AMC for four Nos lifts (Phase-II) at type-II and type-IV SF accn at Dwarka",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8F8qUSWTmdUvXm7mjvaESA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929205_1",
+      "title": "Repair/maint of DG Sets, Transformer, Pumps, ACs, Geysers, Fan, Desert Cooler, Pannels and RO plants at LOAR and SF accn Dwarka, New Delhi",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SglhnE0T%2FV5igyhoupnUW8w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IUCAA_928866_1",
+      "title": "Fabrication Truss Assembly",
+      "organisationChain": "Inter-University Centre for Astronomy and Astrophysics||Purchase - IUCAA",
+      "buyer": "Inter-University Centre for Astronomy and Astrophysics",
+      "publishedAt": "2026-10-05T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SuR7tqVhhspxrvEAw0CC03g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_930442_1",
+      "title": "Necessary wiring/cabling work at Speed Post Bhawan, Shahibaug, Ahmedabad.",
+      "organisationChain": "Department of Posts||Rajasthan Circle,Dept. of Posts||CPMG,Rajasthan Circle,Jaipur,POST||EE(Electrical) Postal Electrical Dn,Jaipur,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-14T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SztnqeuolvZzQNSFcydmJIA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_930315_1",
+      "title": "Replacement of 04 Damaged PVC Tanks of 5000 liters Capacity Sr School Boys",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-10-14T09:20:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Spf8bI1DuMSgMLZ8y7sWjIg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_930352_1",
+      "title": "Construction of 12x12 Sq ft Room required including trench for HT Meeting HT Panel at Abdullah Hall",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-10-14T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SUaFue1adS%2FTetklqj5jHKA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_PGIME_928735_1",
+      "title": "Shifting of main LT panel D Block and UPS Panel Kidney Block alongwith Replacement of 01 Nos. ACB in old LT Panel, A Block including Rewiring with replacement of electrical fixtures in LT canteen, Nehru Hospital, PGIMER, Chandigarh",
+      "organisationChain": "Postgraduate Institute of Medical and Education and Research Chandigarh||Engineering department - PGIMER Chandigarh||H.E. Electrical - PGIMER Chandigarh||A.E. (Elect.1) - PGIMER Chandigarh",
+      "buyer": "Postgraduate Institute of Medical and Education and Research Chandigarh",
+      "publishedAt": "2026-10-03T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0evapCCOfRY%2B6ycENWHdMQ%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
