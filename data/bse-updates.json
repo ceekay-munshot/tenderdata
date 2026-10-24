@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T18:42:33.713Z",
-  "durationMs": 10517,
+  "fetchedAt": "2026-10-24T22:23:03.601Z",
+  "durationMs": 521,
   "window": {
     "daysBack": 30
   },
@@ -12,14 +12,9 @@
     "IRCON",
     "LT"
   ],
-  "successCount": 5,
-  "failureCount": 1,
-  "failures": [
-    {
-      "ticker": "BEL",
-      "error": "fetch failed"
-    }
-  ],
+  "successCount": 6,
+  "failureCount": 0,
+  "failures": [],
   "counts": {
     "announcements": 0,
     "negative": 0,
