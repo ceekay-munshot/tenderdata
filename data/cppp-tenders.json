@@ -1,9 +1,327 @@
 {
-  "fetchedAt": "1970-01-01T00:00:00.000Z",
-  "durationMs": 0,
-  "ok": false,
-  "error": "Not yet scraped — awaiting first GitHub Actions run.",
-  "totalRowsParsed": 0,
-  "relevantCount": 0,
-  "tenders": []
+  "fetchedAt": "2026-10-26T15:05:29.246Z",
+  "durationMs": 50144,
+  "ok": true,
+  "view": "14day",
+  "pagesFetched": 50,
+  "totalRowsParsed": 370,
+  "relevantCount": 3,
+  "tenders": [
+    {
+      "tenderRef": "2026_IGRUA_926348_1",
+      "title": "FIVE (05) SINGLE ENGINE TRAINER AIRCRAFT INSTALLED WITH ATF OPERATED ENGINE ONLY",
+      "organisationChain": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+      "buyer": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+      "publishedAt": "2026-09-16T11:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-28T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-29T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S1LWHspPzEaV%2BnL53xvrsMg%3D%3D",
+      "matchedKeywords": [
+        "aircraft"
+      ]
+    },
+    {
+      "tenderRef": "2026_DRDO_928377_1",
+      "title": "Consultancy Services for Engg. Consultancy Services Including Site Survey and Soil Investigation for Technology for High Energy and Allied Materials for New Generation Armament and Missile System, THEAM NGARMS at HEMRL, Pune",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) West - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-09-30T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-28T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-29T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SrXyRN%2Br3MHdXpfkUZ7N84w%3D%3D",
+      "matchedKeywords": [
+        "missile system"
+      ]
+    },
+    {
+      "tenderRef": "2026_SEEPZ_929129_1",
+      "title": "DEVELOPMENT OF A 1 MLD WATER TREATMENT PLANT ON THE DEVAL TALAO AND CAMPUS DUG WELL SOURCE AND ASSOCIATED INFRASTRUCTURE AT SEEPZ SEZ MUMBAI ON HYBRID ANNUITY MODEL",
+      "organisationChain": "Santacruz Electronics Export Processing Zone Special Economic Zone Mumbai",
+      "buyer": "Santacruz Electronics Export Processing Zone Special Economic Zone Mumbai",
+      "publishedAt": "2026-10-07T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-28T09:30:00.000Z",
+      "tenderOpensAt": "2026-10-29T10:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiOrMWChYZQNGeVXayOqd%2Bg%3D%3D",
+      "matchedKeywords": [
+        "water treatment plant"
+      ]
+    }
+  ],
+  "sampleRows": [
+    {
+      "tenderRef": "2026_CRPF_928250_2",
+      "title": "Re-carpeting of internal road Main gate No. 02 to Unit Temple at 206 CoBRA Bn, CRPF, Chitapur Bhandara (MH).",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-10-20T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjMj63wQiggIyhnWA1Gw65Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_931062_1",
+      "title": "Comprehensive, maintenance and pathway repairing and painting of 1900 KLD sewage treatment plant STP at GC CRPF Avadi",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-10-20T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfonSKBveKicSvfBY9Zk9KQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_930600_1",
+      "title": "Repair work of roof top and flooring of existing cycle/two wheeler stand at 02 signal Bn",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-10-16T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T04:30:00.000Z",
+      "tenderOpensAt": "2026-10-30T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfFQmzbS1lhWrcmk6tK3M8g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ITBP_928926_1",
+      "title": "Vertical extension of Boundary wall with 02 nos entry gate and 02 nos guard room at 26th Bn ITBP, Ludhiana, Punjab.",
+      "organisationChain": "DG, Indo-Tibetan Border Police Force||IG, NORTH WESTERN FTR,ITBP",
+      "buyer": "DG, Indo-Tibetan Border Police Force",
+      "publishedAt": "2026-10-06T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:00:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4F0D1Rh4onKYpIH712YMSw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NISER_929039_1",
+      "title": "NVIDIA RTX PRO 4000 Blackwell Graphics Card",
+      "organisationChain": "National Institute of Science Education and Research - Odisha||Stores and Purchase Section",
+      "buyer": "National Institute of Science Education and Research - Odisha",
+      "publishedAt": "2026-10-06T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Su6M9iaRfm8gmORuf7%2BkvcQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITHP_905423_2",
+      "title": "Repair maintenance of fire hydrant, fire alarm system at Himgiri, Himadari Udaygiri Hostels in NIT Hamirpur.",
+      "organisationChain": "National Institute of Technology Hamirpur||Store Purchse Cell - NITHP",
+      "buyer": "National Institute of Technology Hamirpur",
+      "publishedAt": "2026-10-13T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sg2eeIt1qAu4ONpeIYehsoA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_930531_1",
+      "title": "C/O MI ROOM (10 BEDDED) AT BN HQ AMBASAN UNDER SHQ BSF GANDHINAGAR.",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-10-15T08:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2FG6zIHtkeNf3oY2ZdE%2F1w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_931085_1",
+      "title": "Repair and Replacement with wall panels and floor Tiling D o Medicine JNMCH",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-10-21T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SOHdBl6rgUFoBhindKCY4Ow%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_931090_1",
+      "title": "Raising of Existing boundary wall by 03 feet with P F concertina coil fencing near Abadi side at Solar Plant Patwari Nagla",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-10-21T06:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SK16K9SE8LHoBrfVyY%2BroFw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IUCAA_928278_1",
+      "title": "SUPPLY AND INSTALLATION OF GW-LABS CLEAN ROOM FURNITURE AT IUCAA, PUNE",
+      "organisationChain": "Inter-University Centre for Astronomy and Astrophysics||Purchase - IUCAA",
+      "buyer": "Inter-University Centre for Astronomy and Astrophysics",
+      "publishedAt": "2026-09-30T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SPT7o2wkulYBLiTJKogD0AQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_931124_1",
+      "title": "Laying of CAT-6 cable for related work to Lease Line in Chief PMG, PMG (Mails and BD), DPS (HQ) and vigilance officer Chambers at O/O The CPMG UP Circle Lucknow.",
+      "organisationChain": "Department of Posts||UP Circle, Dept of Posts||CPMG,UP Circle,POST||DPS (HQ), CPMG UP Circle,Lucknow,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-21T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SYdJYxJUQxMIJw4TL4BVmHQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_931133_2",
+      "title": "Internal Electrification at the place of renovated are Pharmacy and OPD No. 01 at RRIUM Building, AMU, Aligarh",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-10-21T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SoS6dXflSq9AfzKgjNJRsyQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_931209_1",
+      "title": "Providing Electrical work for NSH area APTMO proposed shed,additional work for main hall for EI and fans UPS wiring LAN Cabling at APSO Bldg Mumbai",
+      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-21T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDvPR1ZBQJhgNw2IZKjBgMw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ISID_929097_1",
+      "title": "Supply Installation Testing and Commissioning of Laptops Desktop Computers Monitors Keyboard Mouse Combos and MacBook Air",
+      "organisationChain": "Institute for Studies in Industrial Development- ISID",
+      "buyer": "Institute for Studies in Industrial Development- ISID",
+      "publishedAt": "2026-10-07T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Saj9h6YKWqWy%2BjWSgWWuxtQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_930000_2",
+      "title": "Supplying, Installation, Testing and Commissioning of HT Panel with TPMO at Abdullah Hall, AMU, Aligarh.",
+      "organisationChain": "Aligarh Muslim University||Electricity Department||Member-In-Charge",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-10-22T05:10:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiAhSm%2BhGF5MJLXXgIRqS2Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_931215_1",
+      "title": "Providing and fixing PVC Conduit at Proposed CPSO area Meghdooth Bhawan Part II and Rotunda First Floor area at Heritage building GPO Mumbai under Phase III",
+      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||CPMG,Maharashtra Circle,Mumbai,POST||EE ( Electrical),Postal Electrical Division,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-22T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SF5uVsxNNFjautqPgZsMerg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DRDO_929057_1",
+      "title": "Provision of Topographical Survey, Soil Investigations and Design Consultancy Services for Multi Spectral Characterization Centre at Defence Laboratory, Jodhpur",
+      "organisationChain": "Defence Research and Development Organisation||Directorate of Civil Works and Estates - DRDO||Chief Construction Engineer (R and D) Delhi - DRDO",
+      "buyer": "Defence Research and Development Organisation",
+      "publishedAt": "2026-10-06T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sr2STz0b4C07NFWJRtPfUDA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_930340_1",
+      "title": "Dismantling and reinstallation of existing Solar panels and accessories at C.O. Building, BBSR (CCA Part).",
+      "organisationChain": "Department of Posts||Odisha Circle ,Dept. of Posts||CPMG,Odisha Circle,Bhubaneswar,POST||MM Sec.,Odisha Circle,Bhubaneswar,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-10-14T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S2pAoRL6MPVJ%2FgyMW2RusVQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ASI_929093_1",
+      "title": "Upgradation of visitors amenities (Visitors toilet, cafeteria, baby care room) at Thousand Pillar temple, Hanamkonda dist. for the Fy 2025-26- Execution of work",
+      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Hyderabad Circle-Hyderabad",
+      "buyer": "Archaeological Survey of India",
+      "publishedAt": "2026-10-07T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T05:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SC8qIIt1qiW%2B%2BH7rncUwt9w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929186_1",
+      "title": "Term contract for Cleaning of wild grass and mosses grow on building walls and roofs at various resdl and non resdl accn at Jwalamukhi Grn.",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T07:40:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T06:00:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0QY5sNB37Q8iJ39rlzo9Cg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929312_1",
+      "title": "Repair/maint and periodical services of Type-V accn CMO Res (Bldg No. T-V/SPD/248) at Jwalamukhi Grn",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T13:10:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T06:00:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sft7VeKa68soMkj%2BoqkPBCA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_929196_1",
+      "title": "Repair/ maint of leakage seepage in Type-V accn (Bldg No. NPCCL/36AR/T-V/03) at Jwalamukhi Grn",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-10-07T07:50:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T06:00:00.000Z",
+      "tenderOpensAt": "2026-10-28T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ScPJ%2Bq786Hf4TGeDgcSx4yQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_929220_1",
+      "title": "Renovation of Flats (Garden Apartment) at EIL-Kolkata-DC/ 8590-000-PK-T-8207/361",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-10-07T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeuZW8B7Mf%2FOIlp%2F%2F9igAwg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IIEST_928939_1",
+      "title": "e-Proc/HOSTEL10_05102026/ IWD_IIEST/673",
+      "organisationChain": "Indian Institute of Engineering Science and Technology - Shibpur",
+      "buyer": "Indian Institute of Engineering Science and Technology - Shibpur",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SDpNXbNl3k4MkS5GBIhfHEQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_MANIT_928131_1",
+      "title": "Supply of GaussView 6 Software.",
+      "organisationChain": "Maulana Azad National Institute of Technology||Centre Stores and Purchase - MANIT",
+      "buyer": "Maulana Azad National Institute of Technology",
+      "publishedAt": "2026-09-29T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-10-27T06:30:00.000Z",
+      "tenderOpensAt": "2026-10-28T09:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SiEZDUV%2Fq4Ti%2BPHSrY3bNJQ%3D%3D",
+      "matchedKeywords": []
+    }
+  ]
 }
