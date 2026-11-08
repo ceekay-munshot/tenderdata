@@ -1,25 +1,12 @@
 {
-  "fetchedAt": "2026-11-08T14:57:54.200Z",
-  "durationMs": 44049,
+  "fetchedAt": "2026-11-08T20:21:10.639Z",
+  "durationMs": 39373,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 378,
-  "relevantCount": 2,
+  "totalRowsParsed": 366,
+  "relevantCount": 1,
   "tenders": [
-    {
-      "tenderRef": "2026_IITGN_931207_1",
-      "title": "Operation and Maintenance of Water Treatment Plant (WTP), Sewage Treatment Plant (STP), Pumping Stations, Irrigation System, Kitchen Exhaust and Ventilation System, Fire Fighting Installations, etc., at IIT Gandhinagar Campus, Palaj, Gandhinagar, Guj",
-      "organisationChain": "Indian Institute of Technology Gandhinagar||Building and Works Department - IITGN",
-      "buyer": "Indian Institute of Technology Gandhinagar",
-      "publishedAt": "2026-10-21T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-11-09T09:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfG9RllAqsjARHZ%2B2PnprKg%3D%3D",
-      "matchedKeywords": [
-        "water treatment plant"
-      ]
-    },
     {
       "tenderRef": "2026_IITMD_930695_1",
       "title": "Repairing, waterproofing, maintenance, cleaning of RCC Water Tanks and filter media of Water Treatment Plants at South campus of IIT Mandi",
@@ -36,6 +23,17 @@
   ],
   "sampleRows": [
     {
+      "tenderRef": "2026_IITRP_932506_1",
+      "title": "S and I of Single Photon Sensitive Timepix4 Detector System",
+      "organisationChain": "Indian Institute of Technology Ropar",
+      "buyer": "Indian Institute of Technology Ropar",
+      "publishedAt": "2026-10-30T11:45:00.000Z",
+      "bidSubmissionCloses": "2026-11-09T03:30:00.000Z",
+      "tenderOpensAt": "2026-11-09T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpdkXF%2FJatBMSN4BTG1C8Cg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_IITTP_928188_1",
       "title": "NOTICE INVITING TENDER FOR THE SUPPLY AND INSTALLATION OF COMPUTER WORKSTATIONS AND NETWORK ATTACHED STORAGE",
       "organisationChain": "Indian Institute of Technology Tirupati||Purchase and Stores - IITTP",
@@ -44,17 +42,6 @@
       "bidSubmissionCloses": "2026-11-09T03:30:00.000Z",
       "tenderOpensAt": "2026-11-10T04:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQe2e1Kh9vPXxgKUTwbGdWA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_IISRT_932280_1",
-      "title": "Partition work near PA Deputy Director office at Second Floor of Admin block at IISER Campus, Vithura",
-      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvananthapuram",
-      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
-      "publishedAt": "2026-10-29T08:55:00.000Z",
-      "bidSubmissionCloses": "2026-11-09T03:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMxF2LKOCeCwRKRGH4YDpZA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -69,36 +56,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IITRP_932506_1",
-      "title": "S and I of Single Photon Sensitive Timepix4 Detector System",
-      "organisationChain": "Indian Institute of Technology Ropar",
-      "buyer": "Indian Institute of Technology Ropar",
-      "publishedAt": "2026-10-30T11:45:00.000Z",
+      "tenderRef": "2026_IISRT_932280_1",
+      "title": "Partition work near PA Deputy Director office at Second Floor of Admin block at IISER Campus, Vithura",
+      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvananthapuram",
+      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
+      "publishedAt": "2026-10-29T08:55:00.000Z",
       "bidSubmissionCloses": "2026-11-09T03:30:00.000Z",
-      "tenderOpensAt": "2026-11-09T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpdkXF%2FJatBMSN4BTG1C8Cg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CRPF_931655_1",
-      "title": "Repair and ReCarpeting of Bituminous MT Parking Stand at HQr Kashmir Ops Sector Pantha Chowk Srinagar JK",
-      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
-      "buyer": "DG,CRPF,MHA",
-      "publishedAt": "2026-10-26T05:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-09T04:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvTIrV%2BHe4eg%2FcjWUisatYQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_932539_1",
-      "title": "SITC of AMF Panel at Gen room of CH Agartala Salbagan",
-      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-10-30T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-11-09T04:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHm5XI70T6HvF7Ed6gfxy0A%3D%3D",
+      "tenderOpensAt": "2026-11-10T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMxF2LKOCeCwRKRGH4YDpZA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -113,6 +78,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_DREV_932546_1",
+      "title": "Tender Notice for Security Services for One Year",
+      "organisationChain": "Department of Revenue||Central Board of Excise and Customs||GST and CE Aurangabad Nagpur Zone||Land n Building Headquarters-Aurangabad NagpurZone",
+      "buyer": "Department of Revenue",
+      "publishedAt": "2026-11-02T06:25:00.000Z",
+      "bidSubmissionCloses": "2026-11-09T04:30:00.000Z",
+      "tenderOpensAt": "2026-11-10T07:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeU2xzaVMEe%2FABVfbE5XBmg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_932539_1",
+      "title": "SITC of AMF Panel at Gen room of CH Agartala Salbagan",
+      "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-10-30T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-11-09T04:30:00.000Z",
+      "tenderOpensAt": "2026-11-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SHm5XI70T6HvF7Ed6gfxy0A%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_BSF_932525_1",
       "title": "Repair of defective UG cable after finding the fault at IG Chock under FTR HQ BSF Tripura",
       "organisationChain": "DG,BSF,MHA||Tripura FTR(Agartala),BSF,MHA",
@@ -124,14 +111,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DREV_932546_1",
-      "title": "Tender Notice for Security Services for One Year",
-      "organisationChain": "Department of Revenue||Central Board of Excise and Customs||GST and CE Aurangabad Nagpur Zone||Land n Building Headquarters-Aurangabad NagpurZone",
-      "buyer": "Department of Revenue",
-      "publishedAt": "2026-11-02T06:25:00.000Z",
+      "tenderRef": "2026_CRPF_931655_1",
+      "title": "Repair and ReCarpeting of Bituminous MT Parking Stand at HQr Kashmir Ops Sector Pantha Chowk Srinagar JK",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-10-26T05:30:00.000Z",
       "bidSubmissionCloses": "2026-11-09T04:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T07:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SeU2xzaVMEe%2FABVfbE5XBmg%3D%3D",
+      "tenderOpensAt": "2026-11-10T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SvTIrV%2BHe4eg%2FcjWUisatYQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -179,14 +166,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_932555_1",
-      "title": "Repair and Maintenance of Prahari Gas Agency at BSF Campus Jalandhar under Ftr HQ BSF Punjab.",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-11-02T06:35:00.000Z",
+      "tenderRef": "2026_NITRK_930704_1",
+      "title": "Supply, Installation, Testing and Commissioning of streetlights in Residential Area in NIT Rourkela",
+      "organisationChain": "National Institute of Technology Rourkela||Estate and Maintenance - NITRKL",
+      "buyer": "National Institute of Technology Rourkela",
+      "publishedAt": "2026-10-16T07:30:00.000Z",
       "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
       "tenderOpensAt": "2026-11-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAex9Y6%2BXThL8yc5degnhkg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXJkixbtNyrSKFKMmW%2B6plg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_932156_1",
+      "title": "Maintenance of various Sports Complexes/Golf Courses (A/R and M/O of the works at Siri Fort Sports Complex for the year 2026-27).",
+      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/Sports Division I-DDA Office-KhelGaon-DDA",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-10-28T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sskxcku68zOgx%2BaLRzAT1pQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -201,6 +199,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_BSF_932650_1",
+      "title": "Renovation Up_gradation of 03 Nos 120 Men jawan Barrack of SHQ Bikaner SH IEEI and Fans",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-03T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SqARZz4EppwVRwEWPoPG41g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_BSF_932091_1",
       "title": "Repair and maintenance of residential buildings at Bn HQ of 76 Bn BSF under SHQ BSF Barmer",
       "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
@@ -212,14 +221,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_932550_1",
-      "title": "Repair and maintenance of Roller shutters gates and change over switches of Genearator room at Bn HQ Fazilka of 65 Bn BSF under SHQ BSF Abohar",
-      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-10-31T06:30:00.000Z",
+      "tenderRef": "2026_DOP_932661_1",
+      "title": "SITC of 1 no 10KVA UPS and allied Electrical works in premises of O/o GM(PA and F), Chennai",
+      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Elect.) Dn,RMS Bhawan,Bangalore,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-11-02T07:45:00.000Z",
       "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8fW5dfSbHUnCaqDEsDuG0g%3D%3D",
+      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGaKHZ9qmbw%2FmqFYenkIbUQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -245,6 +254,17 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_NITW_931043_1",
+      "title": "TENDER FOR SUPPLY, INSTALLATION, TRAINING AND COMMISSIONING OF WORKSTATION WITH ONE YEAR ONSITE ALL INCLUSIVES WARRANTY PERIOD to NIT WARANGAL AS PER THE SPECIFICATIONS ATTACHED IN SECTION - 3.",
+      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
+      "buyer": "National Institute of Technology Warangal",
+      "publishedAt": "2026-10-19T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyiUAtFqpeVSG%2FjSiWqtQIA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_ASI_932568_1",
       "title": "Minor Conservation and Maintenance Works, Including Re-Toning, Lime Plastering, Repointing, Painting, and Provision of Visitor Amenities at Various Centrally Protected Monuments under Kanchipuram Sub-Circle for the Year 2026 27",
       "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Chennai Circle-Chennai",
@@ -256,58 +276,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_932944_1",
-      "title": "Further extension of CPMG and DPS HQ vehicle entry passage at Meghdoot Bhawan complex Guwahati",
-      "organisationChain": "Department of Posts||Assam Circle,POST||Chief Postamster General,Assam Circle,Guwahati||EE,Postal Civil Division,Guwahati,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-11-03T11:35:00.000Z",
-      "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S49fP%2FzG9g8YNLvhikSqc1Q%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NITRK_930704_1",
-      "title": "Supply, Installation, Testing and Commissioning of streetlights in Residential Area in NIT Rourkela",
-      "organisationChain": "National Institute of Technology Rourkela||Estate and Maintenance - NITRKL",
-      "buyer": "National Institute of Technology Rourkela",
-      "publishedAt": "2026-10-16T07:30:00.000Z",
+      "tenderRef": "2026_BSF_932555_1",
+      "title": "Repair and Maintenance of Prahari Gas Agency at BSF Campus Jalandhar under Ftr HQ BSF Punjab.",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-02T06:35:00.000Z",
       "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
       "tenderOpensAt": "2026-11-10T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXJkixbtNyrSKFKMmW%2B6plg%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SAex9Y6%2BXThL8yc5degnhkg%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_932661_1",
-      "title": "SITC of 1 no 10KVA UPS and allied Electrical works in premises of O/o GM(PA and F), Chennai",
-      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Elect.) Dn,RMS Bhawan,Bangalore,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-11-02T07:45:00.000Z",
+      "tenderRef": "2026_BSF_932550_1",
+      "title": "Repair and maintenance of Roller shutters gates and change over switches of Genearator room at Bn HQ Fazilka of 65 Bn BSF under SHQ BSF Abohar",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-10-31T06:30:00.000Z",
       "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGaKHZ9qmbw%2FmqFYenkIbUQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DDA_932156_1",
-      "title": "Maintenance of various Sports Complexes/Golf Courses (A/R and M/O of the works at Siri Fort Sports Complex for the year 2026-27).",
-      "organisationChain": "Delhi Development Authority||CE-Projects Zone-DDA||EE/Sports Division I-DDA Office-KhelGaon-DDA",
-      "buyer": "Delhi Development Authority",
-      "publishedAt": "2026-10-28T12:00:00.000Z",
-      "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sskxcku68zOgx%2BaLRzAT1pQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NITW_931043_1",
-      "title": "TENDER FOR SUPPLY, INSTALLATION, TRAINING AND COMMISSIONING OF WORKSTATION WITH ONE YEAR ONSITE ALL INCLUSIVES WARRANTY PERIOD to NIT WARANGAL AS PER THE SPECIFICATIONS ATTACHED IN SECTION - 3.",
-      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
-      "buyer": "National Institute of Technology Warangal",
-      "publishedAt": "2026-10-19T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-09T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-10T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyiUAtFqpeVSG%2FjSiWqtQIA%3D%3D",
+      "tenderOpensAt": "2026-11-10T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8fW5dfSbHUnCaqDEsDuG0g%3D%3D",
       "matchedKeywords": []
     }
   ]
