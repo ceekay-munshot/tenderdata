@@ -1,238 +1,13 @@
 {
-  "fetchedAt": "2026-11-14T11:20:42.816Z",
-  "durationMs": 39754,
+  "fetchedAt": "2026-11-14T17:56:25.666Z",
+  "durationMs": 212454,
   "ok": true,
   "view": "14day",
-  "pagesFetched": 50,
-  "totalRowsParsed": 307,
-  "relevantCount": 1,
-  "tenders": [
-    {
-      "tenderRef": "2026_DAE_932646_1",
-      "title": "Fiber Electro-Optic Phase Modulator 20 GHz Model - exail",
-      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
-      "buyer": "Department of Atomic Energy",
-      "publishedAt": "2026-11-02T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:00:00.000Z",
-      "tenderOpensAt": "2026-11-16T04:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXU7hsz3CcgCZtBm1C8UwhQ%3D%3D",
-      "matchedKeywords": [
-        "electro-optic"
-      ]
-    }
-  ],
+  "pagesFetched": 35,
+  "totalRowsParsed": 207,
+  "relevantCount": 0,
+  "tenders": [],
   "sampleRows": [
-    {
-      "tenderRef": "2026_NHPC_932410_1",
-      "title": "Comprehensive Repair of Damaged Runner (OP-4) of Dulhasti Power Station",
-      "organisationChain": "NHPC Limited||Dulhasti Power Station-NHPC",
-      "buyer": "NHPC Limited",
-      "publishedAt": "2026-10-30T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-17T11:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfRByS43UtSgsWsftU6xAew%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CWC_930323_2",
-      "title": "CONSTRUCTION OF BOUNDARY WALL AT PANGIN SITE OFFICE CAMPUS UNDER SDSD, CWC, PASIGHAT AND CWC, DIBRUGARH, ARUNACHAL PRADESH DURING 2026-27",
-      "organisationChain": "Central Water Commission- DoWR RD and GR||Brahmaputra and Barak Basin Organisation - Shillong||SE(HOC) - Guwahati||Upper Brahmaputra Division - Dibrugarh",
-      "buyer": "Central Water Commission- DoWR RD and GR",
-      "publishedAt": "2026-11-02T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T12:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKrG9qqZ1W2bmIzTjJdYn0g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NALCO_932418_1",
-      "title": "RE-CARPETING OF ROADS AT NALCO, DAMANJODI",
-      "organisationChain": "National Aluminium Company Limited,NALCO||NALCO-Alumina Division-Damanjodi||Tender and Contract-AD-Damanjodi-NALCO",
-      "buyer": "National Aluminium Company Limited,NALCO",
-      "publishedAt": "2026-10-30T11:00:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyzmC9VLWUX9%2FdwB5LQL9bw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_MGIMS_931597_1",
-      "title": "Supply of Workstation- Run the Vesalius 3D Software for Radiotherapy Department",
-      "organisationChain": "Mahatma Gandhi Institute of Medical Sciences",
-      "buyer": "Mahatma Gandhi Institute of Medical Sciences",
-      "publishedAt": "2026-10-24T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2B7jJedoIgQBro7PEqPT8cw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_IITK_932498_1",
-      "title": "Providing and Fixing of Soft Partition Including Painting of Entire Floor and Miscellaneous Works at 1st Floor of BBlock, PEB Building Near Flight Lab and Construction of Platform i/c Connecting Path for Juice Corner Setup With Necessary Water and dr",
-      "organisationChain": "Indian Institute of Technology Kanpur||Institute Works Department - IITK||IWD Civil Division-I - IITK",
-      "buyer": "Indian Institute of Technology Kanpur",
-      "publishedAt": "2026-10-30T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfSm6LM2jOiQy0S3LN7HsUg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ARMHA_932763_1",
-      "title": "I.15032/NIT/Engr/MW/6 Sect/2026-27/266",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-11-02T12:20:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S7xBK5HOu%2B7QwTa4cxJrUgQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_CAG_932162_1",
-      "title": "CAG/Copilot/56ISW2024/28102026",
-      "organisationChain": "Office of the CAG of India||Information Systems HQ - CAG",
-      "buyer": "Office of the CAG of India",
-      "publishedAt": "2026-10-28T12:20:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5iNWJIIGH6UpFI9ylM05RQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_HWB_927947_1",
-      "title": "HWPK/INST/2026/CAL/306",
-      "organisationChain": "Heavy Water Board||Heavy Water Plant Kota",
-      "buyer": "Heavy Water Board",
-      "publishedAt": "2026-10-01T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T11:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SW8hwkp53DNDxHK3YBxmYAA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DAE_932646_1",
-      "title": "Fiber Electro-Optic Phase Modulator 20 GHz Model - exail",
-      "organisationChain": "Department of Atomic Energy||Tata Institute of Fundamental Research-Colaba-Mumbai-Purchase Dept-TIFR-DAE||TIFR(HQ)-Mumbai-TIFR-DAE",
-      "buyer": "Department of Atomic Energy",
-      "publishedAt": "2026-11-02T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:00:00.000Z",
-      "tenderOpensAt": "2026-11-16T04:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXU7hsz3CcgCZtBm1C8UwhQ%3D%3D",
-      "matchedKeywords": [
-        "electro-optic"
-      ]
-    },
-    {
-      "tenderRef": "2026_NCSM_932011_1",
-      "title": "FABRICATION, SUPPLY AND INSTALLATION OF WOODEN PANELS AND CABINETS FOR FUN SCIENCE GALLERY AT JABALPUR SCIENCE CENTRE",
-      "organisationChain": "National Council of Science Museums||Science City-Kolkata - NCSM||Stores and Purchase-SC - NCSM",
-      "buyer": "National Council of Science Museums",
-      "publishedAt": "2026-10-28T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T04:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ST%2FYybOSHBhlphtN7S6yEBw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DOP_931862_1",
-      "title": "Tender for renting out additional vacant space available at Girgaon Post Office under Mumbai South Division for hyperlocal deliveries through India Post",
-      "organisationChain": "Department of Posts||Maharashtra Circle,Dept. of Posts||PMG,Mumbai Region,Mumbai,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-10-27T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShL08MVvrp38FqHu6EaLwXw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_933593_1",
-      "title": "REPAIR REWINDING OF CEILING FAN, EXHAUST FAN, WALL FAN INSTALLED IN VARIOUS LOCATION OF FTR HQ BSF NB.",
-      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-11-07T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SaacKUSV%2Bu5z0%2FAmVOSWCZw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DREV_929168_1",
-      "title": "Hiring of Office Premises",
-      "organisationChain": "Department of Revenue||Central Board of Excise and Customs||DG Vigilance, Ahmedabad Zonal Unit, ADG",
-      "buyer": "Department of Revenue",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSQDuX%2FMHDmDIEh5Y7bqcBA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_933593_2",
-      "title": "IMPROVEMENT/REPLACEMENT OF ELECTRICAL INSTALLATIONS OF G BRANCH TRAINING ROOM OF FTR HQ BSF NORTH BENGAL KADAMTALA.",
-      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-11-07T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SpB1RpT5TVhteM2460xJMmw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_ASI_932454_1",
-      "title": "EXECUTION OF WORK UNDER Maintenance of Staff Quarters at the Ruins of Fort, Bamanpukur, District Nadia (2026 - 27) for the Financial Year 2026-27",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Kolkata Circle-Kolkata",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-10-31T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sb%2BNJILd6xc4e18spZgN8Aw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_JNPT_933755_1",
-      "title": "Budgetary Quote for Misc. Works at JNPA data Centre, PFC building Inside port, JNP SEZ",
-      "organisationChain": "Jawaharlal Nehru Port Trust||Finance-JNPT||M S - Management Services - Fin - JNPT",
-      "buyer": "Jawaharlal Nehru Port Trust",
-      "publishedAt": "2026-11-09T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGPi3Ftq4nevRnZB%2BCkRq7w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_NSG_932493_1",
-      "title": "Mother Fill Gun alongwith Accessories",
-      "organisationChain": "DG,National Security Guard,MHA||Provisioning Branch(Procurement Cell),NSG,MHA",
-      "buyer": "DG,National Security Guard,MHA",
-      "publishedAt": "2026-10-30T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T12:30:00.000Z",
-      "tenderOpensAt": "2026-11-16T12:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyW6QmaZ0LM7uNiKtEEjL8w%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AIMSM_933167_1",
-      "title": "Day to Day Operation and Comprehensive Annual Maintenance Contract of 33kV and 11kV Electrical Substations, Online UPS, HT and LT DG sets, External Lighting System and LED signages installed at AIIMS, Mangalagiri",
-      "organisationChain": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh||Procurement Cell - AIIMS Mangalagiri",
-      "buyer": "All India Institute of Medical Sciences-Mangalagiri-Andhra Pradesh",
-      "publishedAt": "2026-11-04T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T13:00:00.000Z",
-      "tenderOpensAt": "2026-11-16T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SG1K6aBFR32mwczm2LPsChA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_HWB_930912_1",
-      "title": "Maintenance of Drinking Water Pumps",
-      "organisationChain": "Heavy Water Board||Heavy Water Plant Manuguru",
-      "buyer": "Heavy Water Board",
-      "publishedAt": "2026-10-21T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-14T13:15:00.000Z",
-      "tenderOpensAt": "2026-11-21T09:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S64Nzhx1%2FuDkci9YFSPyE%2Bg%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_NRB_933258_1",
       "title": "Up gradation of audio system of community hall of BARC Colony",
@@ -297,6 +72,215 @@
       "bidSubmissionCloses": "2026-11-16T04:30:00.000Z",
       "tenderOpensAt": "2026-11-17T04:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BtIS5HEPRx9FrrI%2BIiMvng%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_EIL_934009_1",
+      "title": "INVITATION TO PRE-TENDER MEET MACHINE ASSET MANAGEMENT AND ANALYSIS SYSTEM FOR BPCL, BINA PETCHEM AND REFINERY EXPANSION PROJECTS (BPREP) AT BINA REFINERY, MADHYA PRADESH (INDIA)",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-11-12T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T04:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2Bz71l8ZbGYWwJOhl6k%2F4kQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITK_932387_1",
+      "title": "Replace the Existing Squat Toilets to European Water Closet in Aravali and Karavali Boys Hostel, in NITK",
+      "organisationChain": "National Institute of Technology Karnataka",
+      "buyer": "National Institute of Technology Karnataka",
+      "publishedAt": "2026-10-30T05:20:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T04:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T04:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SSKFKnrJMC8kgc0D12DkdRA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_933760_1",
+      "title": "Annual repair and maintenance of 13 Nos BOPs buildings in AOR of 32 Bn BSF for FY 2026-27 under SHQ BSF Krishnanagar(SH Electrical work)",
+      "organisationChain": "DG,BSF,MHA||South Bengal(Kolkata),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-10T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:00:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sxq%2BwHN4jMQW9QKVMExfPnA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ARMHA_933753_1",
+      "title": "Provn of sewage cleaning and toilet block at Tac HQ Noklak COB Chokla and COB Dan of 32 AR",
+      "organisationChain": "Assam Rifles - MHA||Administration Branch - AR - MHA||Prov Branch - Admin Branch - AR - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-11-09T12:05:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:00:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkqWuv99zSKTENThb7%2FbQlA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_933758_1",
+      "title": "REPAIRING REWINDING OF DIFFERENT CAPACITY MOTOR PUMPS SET INSTALLED AT BSF CAMPUS JODHPUR UNDER FTR HQ BSF RAJASTHAN.",
+      "organisationChain": "DG,BSF,MHA||Rajasthan FTR(Rajasthan),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-10T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwaygChR83TKrl9Kvd29sIA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_926898_5",
+      "title": "REPAIR AND MAINTENANCE OF TOILET CUM BATH BLOCK OF GROUND FLOOR 1ST AND 2ND FLOOR OF 120 MEN JAWAN BARRACK AT BN HQ 84 BN BSF UNDER SHQ BSF GANDHINAGAR",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-10T07:00:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJ%2BSxipOtbhBPqx92kB8nkQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CWC_933142_1",
+      "title": "Expansion of Chambal River Water Quality Laboratory (Level-II) at Middle Chambal Sub-Division, CWC, Kota",
+      "organisationChain": "Central Water Commission- DoWR RD and GR||Yamuna Basin Organisation- New Delhi||SE(HOC)- Vaishali||Chambal Division- Jaipur",
+      "buyer": "Central Water Commission- DoWR RD and GR",
+      "publishedAt": "2026-11-05T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXxUScFbUZQP2%2F1yCiuF4dw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_933145_1",
+      "title": "Running Maintenance of Electrical Installations and Electro Mechanical Accessories at CO Daksadan, Telangana Circle, Hyderabad",
+      "organisationChain": "Department of Posts||Telangana Circle- Dept of Posts",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-11-04T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SIM8KbL2dHDC4O06X4jOfFw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_927109_4",
+      "title": "Annual repair and maintenance of BOP buildings in AOR of 21 Bn BSF under SHQ BSF Gandhinagar BOPs Jhajham FWD Gyanchand Kailash Lal Gurdeep Rama Jairaj Firdosh Kumar Harish Chhapriya Boriyabet and bela SH Contract work",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-10T05:05:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SM%2F8ikSyaxgaJL2iddN5Ajg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_930866_2",
+      "title": "Construction of Chamber and Laying Cleaning of sewerage Line Type II Qtr. No. 33 to 44 21 to 24 and near Boundary wall of 08 Bn BSF under SHQ BSF Gandhinagar",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SzJMuZlZPAJcLEbVCVGfxIQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NITW_931043_1",
+      "title": "TENDER FOR SUPPLY, INSTALLATION, TRAINING AND COMMISSIONING OF WORKSTATION WITH ONE YEAR ONSITE ALL INCLUSIVES WARRANTY PERIOD to NIT WARANGAL AS PER THE SPECIFICATIONS ATTACHED IN SECTION - 3.",
+      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
+      "buyer": "National Institute of Technology Warangal",
+      "publishedAt": "2026-10-19T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyiUAtFqpeVSG%2FjSiWqtQIA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_931064_4",
+      "title": "realignment of the existing pedestrian pathway near Gate No .at BSF Campus Gandhinagar",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-10T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJcInfpU5Sc9YaodOzO%2Bq9w%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_IUCAA_930731_1",
+      "title": "Supply, Installation, Testing and Commissioning (SITC) Energy Storage system for Existing ting",
+      "organisationChain": "Inter-University Centre for Astronomy and Astrophysics||Purchase - IUCAA",
+      "buyer": "Inter-University Centre for Astronomy and Astrophysics",
+      "publishedAt": "2026-10-19T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SkxKcICSE5HQjGKVyUo8gyg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NBT_932973_1",
+      "title": "Tender Fabrication of the Bodies of Mobile Exhibition Vans",
+      "organisationChain": "National Book Trust-India-Dept of Higher Education||Head Quarters - NBT",
+      "buyer": "National Book Trust-India-Dept of Higher Education",
+      "publishedAt": "2026-11-03T12:45:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sc2xAWZIs8mfk06TjMxu2yA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_933610_1",
+      "title": "Repair and maintenance of Border Flood lights UG cables and making straight through joints in AOR of 19 BN BSF under SHQ BSF Abohar",
+      "organisationChain": "DG,BSF,MHA||Punjab Ftr(Jallundhar),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-07T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SXt2paOi2DML%2BATPIDcaeaw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_933460_1",
+      "title": "DEVELOPMENT WORK AND BULK SERVICE FOR BN HQ BSF KHAGRA BIHAR UNDER SHQ BSF KISHANGANJ SH UPGRADATION OR IMPROVEMENT OF STREET LIGHT AND OVERHEAD LINES",
+      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-06T09:00:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLXz5YhaMlYJ1bdfBZ39hSg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_933639_1",
+      "title": "OUTSOURCING OF MANPOWER FOR OPERATION AND DAY TO DAY MAINTENANCE OF BORDER FLOOD LIGHT INSTALLED ALONG INDOBANGLADESH BORDER IN AOR OF 63 BN BSF UNDER SHQ BSF KISHANGANJ",
+      "organisationChain": "DG,BSF,MHA||North Benga(Siliguri),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-07T09:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SjBfXk1EncRkkQf3yF7QX0g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_NIOT_930646_1",
+      "title": "Annual Maintenance and Operation of Scientific Equipment for NIOT Research Vessels",
+      "organisationChain": "National Institute of Ocean Technology||Stores and Purchase - NIOT",
+      "buyer": "National Institute of Ocean Technology",
+      "publishedAt": "2026-10-15T13:25:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-16T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfJim7z1Ya33Fi0dbRxSrxA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DDA_933096_1",
+      "title": "M/o DDA Golf Course, Dwarka",
+      "organisationChain": "Delhi Development Authority||Commissioner (Sports)-DDA||AAO --Dwarka Sports Complex Sector-8 (DSC-8)",
+      "buyer": "Delhi Development Authority",
+      "publishedAt": "2026-11-04T12:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-16T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-17T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SwwHdYL%2BHwx9KanMzzdED1Q%3D%3D",
       "matchedKeywords": []
     }
   ]
