@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-11-16T05:59:52.938Z",
-  "durationMs": 22734,
+  "fetchedAt": "2026-11-16T18:17:37.277Z",
+  "durationMs": 23242,
   "ok": true,
   "sortMode": "value",
-  "apiCalls": 24,
-  "totalScanned": 1200,
-  "relevantCount": 1150,
+  "apiCalls": 25,
+  "totalScanned": 1248,
+  "relevantCount": 1179,
   "tenders": [
     {
       "tenderId": "4b8ea967-2535-4b5b-8d75-58bfc2871de0",
@@ -41,6 +41,23 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/western-railway/detail-531fad29-b3fe-4cdd-a145-6bafa0486da4",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "2a31a91a-524e-4dd7-97ac-a1f12123fec6",
+      "refNo": "E0426O0174R",
+      "title": "Procurement Of High Speed Diesel (hsd) On Rate Contract Basis For A Period Of Two Years.",
+      "buyer": "The Singareni Collieries Company Limited",
+      "state": "Telangana",
+      "value": 118170000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-12-07T11:30:00.000Z",
+      "postedAt": "2026-11-23T11:30:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Machinery and Tools"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/the-singareni-collieries-company-limited/detail-2a31a91a-524e-4dd7-97ac-a1f12123fec6",
       "matchedKeywords": []
     },
     {
@@ -141,7 +158,7 @@
       "state": "Maharashtra",
       "value": 90303800000,
       "emd": 903000000,
-      "bidDeadline": "2026-11-26T05:30:00.000Z",
+      "bidDeadline": "2026-12-10T05:30:00.000Z",
       "postedAt": "2026-05-09T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -210,7 +227,7 @@
       "state": "Delhi",
       "value": 75963300000,
       "emd": 759600000,
-      "bidDeadline": "2026-11-26T05:30:00.000Z",
+      "bidDeadline": "2026-12-10T05:30:00.000Z",
       "postedAt": "2026-05-09T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -255,7 +272,7 @@
       "state": "Telangana",
       "value": 67925200000,
       "emd": 679200000,
-      "bidDeadline": "2026-11-23T05:30:00.000Z",
+      "bidDeadline": "2026-12-30T05:30:00.000Z",
       "postedAt": "2026-09-23T03:35:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -464,7 +481,7 @@
       "state": "Telangana",
       "value": 41356000000,
       "emd": 413600000,
-      "bidDeadline": "2026-11-19T05:30:00.000Z",
+      "bidDeadline": "2026-12-30T05:30:00.000Z",
       "postedAt": "2026-05-20T13:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -556,7 +573,7 @@
       "state": "Telangana",
       "value": 37273200000,
       "emd": 372700000,
-      "bidDeadline": "2026-11-19T05:30:00.000Z",
+      "bidDeadline": "2026-12-30T05:30:00.000Z",
       "postedAt": "2026-05-20T13:15:00.000Z",
       "sectorNames": [
         "Consultancy Services",
@@ -1360,6 +1377,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "e9a360d5-4404-4328-abdd-8cd91afa70d4",
+      "refNo": "4695-GRC-CE-C-II-56-2026",
+      "title": "Construction Of New Bg Railway Line Between Badampahar And Kendujhargarh Station (77.110 Km) (excluding Badampahar & Kendujhargarh Yards) Including Earthwork, Blanketing, Major & Minor Bridges, Road Over Bridges, Road Under Bridges, Residential & Service Buildings And Other Miscellaneous Works For 25t Indian Railway Standard Loading, Execution Of Indoor & Outdoor S&t Works, Execution Of General Electrical Works, Installation And Commissioning Of 2x25 Kv Overhead Equipments (ohe) For Traction And Power Supply In Chakradharpur Division Of South Eastern Railway On Engineering, Procurement & Construction (epc) Mode.",
+      "buyer": "South Eastern Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Odisha",
+      "value": 20044605006.07,
+      "emd": 400892100,
+      "bidDeadline": "2027-02-19T06:30:00.000Z",
+      "postedAt": "2026-11-16T09:56:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Energy, Oil and Gas",
+        "Excavation"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-eastern-railway/detail-e9a360d5-4404-4328-abdd-8cd91afa70d4",
+      "matchedKeywords": [
+        "overhead equipment"
+      ]
+    },
+    {
       "tenderId": "4d4c362f-9d2f-4b3c-831b-5027b9889f64",
       "refNo": "538664e6-dc21-35a4-a816-d48c583bd716",
       "title": "Technology Products And Associated Services (tepas) 3",
@@ -1501,7 +1540,7 @@
       "state": "Telangana",
       "value": 19791100000,
       "emd": 197900000,
-      "bidDeadline": "2026-11-26T05:30:00.000Z",
+      "bidDeadline": "2026-12-30T05:30:00.000Z",
       "postedAt": "2026-07-09T11:45:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -1596,7 +1635,7 @@
       "state": "Odisha",
       "value": 16769579953,
       "emd": 167695800,
-      "bidDeadline": "2026-11-16T07:30:00.000Z",
+      "bidDeadline": "2026-11-30T07:30:00.000Z",
       "postedAt": "2026-10-05T12:09:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas"
@@ -1680,6 +1719,23 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-2c16f55d-dad3-4495-90f1-72597db46a96",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "90789bba-d398-49da-ab7a-fffad155dd9b",
+      "refNo": "TN-07 / 2026-27",
+      "title": "Setting Up Of 250 Mw/1000 Mwh Standalone Battery Energy Storage Systems Under Tariff Based Global Competitive Bidding In Rajasthan With/without Viability Gap Funding Support Under Boo Model.",
+      "buyer": "Rajasthan Rajya Vidyut Utpadan Nigam Limited",
+      "procurementSource": "EPROCURE",
+      "state": "Rajasthan",
+      "value": 16000000000,
+      "emd": 320000000,
+      "bidDeadline": "2026-12-21T08:30:00.000Z",
+      "postedAt": "2026-11-16T17:46:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/rajasthan-rajya-vidyut-utpadan-nigam-limited/detail-90789bba-d398-49da-ab7a-fffad155dd9b",
       "matchedKeywords": []
     },
     {
@@ -2882,7 +2938,7 @@
       "state": "Chhattisgarh",
       "value": 9896294783.04,
       "emd": 197925900,
-      "bidDeadline": "2026-11-30T11:30:00.000Z",
+      "bidDeadline": "2026-12-10T11:30:00.000Z",
       "postedAt": "2026-06-17T13:38:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -2969,6 +3025,24 @@
       "detailUrl": "https://bidassist.com/global-tenders/western-railway/detail-391e1d13-b108-4c78-a482-fc54cd6e8013",
       "matchedKeywords": [
         "new railway line"
+      ]
+    },
+    {
+      "tenderId": "55215811-f192-4f4e-bb3d-47559f9c1ca7",
+      "refNo": "CPC-106/2026-27",
+      "title": "Design Engineering Supply Erection Testing And Commissioning Of Work Towards Construction Of 2x500mva 400/220kv Icts 2x100mva 220/33kv Power Transformers 02 Nos. 80mvar Line Reactors And 01 No. Of 125mvar Bus Reactor At 400/220/33kv Ais Titlagarh With Sas Along With 400kv Dc Transmission Line Twin Moose On Quad Moose Tower From Titlagarh Gss To Kolabira Gss Line Length- 262km Approx. In The State Of Odisha On Epc Contract Basis.",
+      "buyer": "Odisha Power Transmission Corporation Limited",
+      "state": "Odisha",
+      "value": 9809378011,
+      "emd": 98093780,
+      "bidDeadline": "2026-12-17T07:30:00.000Z",
+      "postedAt": "2026-11-16T10:04:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/odisha-power-transmission-corporation-limited/detail-55215811-f192-4f4e-bb3d-47559f9c1ca7",
+      "matchedKeywords": [
+        "transmission line"
       ]
     },
     {
@@ -3351,21 +3425,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "7644c2df-c795-40af-8c81-bc0ca4441d9c",
-      "refNo": "8407c124-b259-3c5a-8e57-6c91bde9a588",
-      "title": "Global Travel, Accommodation And Venue Management Services",
-      "buyer": "Crown Commercial Service",
-      "value": 9000000000,
-      "bidDeadline": "2026-12-15T18:30:00.000Z",
-      "postedAt": "2025-12-15T18:30:00.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-7644c2df-c795-40af-8c81-bc0ca4441d9c",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "253184a3-b14b-46ba-9d59-0517f609a49f",
       "refNo": "f115405e-32cc-3663-90c0-1ee853210d51",
       "title": "Global Travel, Accommodation And Venue Management Services",
@@ -3378,6 +3437,21 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-253184a3-b14b-46ba-9d59-0517f609a49f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "7644c2df-c795-40af-8c81-bc0ca4441d9c",
+      "refNo": "8407c124-b259-3c5a-8e57-6c91bde9a588",
+      "title": "Global Travel, Accommodation And Venue Management Services",
+      "buyer": "Crown Commercial Service",
+      "value": 9000000000,
+      "bidDeadline": "2026-12-15T18:30:00.000Z",
+      "postedAt": "2025-12-15T18:30:00.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/crown-commercial-service/detail-7644c2df-c795-40af-8c81-bc0ca4441d9c",
       "matchedKeywords": []
     },
     {
@@ -3592,6 +3666,28 @@
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-c3c258e6-5b44-401b-aeb7-4ff842910416",
       "matchedKeywords": []
+    },
+    {
+      "tenderId": "a9c91e1c-0820-4b93-a207-c9a4a2b16059",
+      "refNo": "4697-GRC-CE-C-SO-58-2026",
+      "title": "Construction Of New Line Work Including Earthwork, Blanketing, Major Bridges, Minor Bridges And Other Miscellaneous Works For 25t Axle Load Of Indian Railway Standard Loading, Execution Of Indoor & Outdoor S&t Works, Execution Of General Electrical Works, Installation And Commissioning Of Overhead Equipment (ohe) For Traction And Power Supply In Connection With The Bangriposi - Gorumahisani Section From Banki (ch 52+400 Km) To Gorumahisani Ex. (ch 84+760 Km) Of Kharagpur Division, South Eastern Railway On Engineering, Procurement & Construction (epc) Mode.",
+      "buyer": "South Eastern Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Odisha",
+      "value": 8390478672.89,
+      "emd": 167809600,
+      "bidDeadline": "2027-01-29T06:30:00.000Z",
+      "postedAt": "2026-11-16T07:13:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Energy, Oil and Gas",
+        "Excavation"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-eastern-railway/detail-a9c91e1c-0820-4b93-a207-c9a4a2b16059",
+      "matchedKeywords": [
+        "overhead equipment"
+      ]
     },
     {
       "tenderId": "5b28188d-4ec2-4e22-bcd5-ce06218de833",
@@ -3861,7 +3957,7 @@
       "state": "Gujarat",
       "value": 7851300000,
       "bidDeadline": "2026-11-25T06:30:00.000Z",
-      "postedAt": "2026-09-29T09:30:00.000Z",
+      "postedAt": "2026-09-29T11:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Consultancy Services",
@@ -3966,7 +4062,7 @@
       "state": "Haryana",
       "value": 7652700000,
       "emd": 0,
-      "bidDeadline": "2026-11-16T11:30:00.000Z",
+      "bidDeadline": "2026-12-07T11:30:00.000Z",
       "postedAt": "2025-08-22T07:10:00.000Z",
       "sectorNames": [
         "Transportation and Logistics"
@@ -4027,6 +4123,21 @@
         "Excavation"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-03ef1fa8-ab14-40fd-9393-e40a8a3a8f7a",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "eb63473a-61db-4757-8407-e9761f10b108",
+      "refNo": "33172-207 dt. 13.11.2026",
+      "title": "Short Term/working Capital Loan Upto Rs. 750.00 Crores For The Year 2026-27",
+      "buyer": "Rajasthan Cooperative Dairy Federation",
+      "state": "Rajasthan",
+      "value": 7500000000,
+      "bidDeadline": "2026-12-06T18:30:00.000Z",
+      "postedAt": "2026-11-15T18:30:00.000Z",
+      "sectorNames": [
+        "Finance And Insurance Sectors"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/rajasthan-cooperative-dairy-federation/detail-eb63473a-61db-4757-8407-e9761f10b108",
       "matchedKeywords": []
     },
     {
@@ -4122,6 +4233,22 @@
         "Security and Emergency Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/police-department/detail-52055139-7135-401e-8722-27cd0d58fcbb",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "f8866c10-abe8-4410-8fb5-de37d3fe45e7",
+      "refNo": "13123",
+      "title": "Operation And Management Of Police Mobile Units/frvs Under Erss Project",
+      "buyer": "Police Department",
+      "purchaserGroup": "Road Transportation",
+      "state": "Rajasthan",
+      "value": 7356000000,
+      "bidDeadline": "2026-11-30T18:30:00.000Z",
+      "postedAt": "2026-09-30T18:30:00.000Z",
+      "sectorNames": [
+        "Security and Emergency Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/police-department/detail-f8866c10-abe8-4410-8fb5-de37d3fe45e7",
       "matchedKeywords": []
     },
     {
@@ -4449,7 +4576,7 @@
       "value": 6576527000,
       "emd": 131530540,
       "bidDeadline": "2026-11-26T05:30:00.000Z",
-      "postedAt": "2026-09-04T04:30:00.000Z",
+      "postedAt": "2026-09-04T13:22:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Water Storage And Supply",
@@ -4513,7 +4640,7 @@
       "value": 6411100000,
       "emd": 64100000,
       "bidDeadline": "2026-11-24T09:00:00.000Z",
-      "postedAt": "2026-11-16T03:42:00.000Z",
+      "postedAt": "2026-05-29T13:25:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas",
         "Electrical and Electronics"
@@ -4568,7 +4695,7 @@
       "state": "Tamil Nadu",
       "value": 6352700000,
       "emd": 63500000,
-      "bidDeadline": "2026-11-17T05:30:00.000Z",
+      "bidDeadline": "2026-11-26T05:30:00.000Z",
       "postedAt": "2026-08-01T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -4603,10 +4730,10 @@
       "buyer": "National Highways Authority Of India",
       "purchaserGroup": "Road Transportation",
       "procurementSource": "EPROCURE",
-      "state": "Tamil Nadu",
+      "state": "Karnataka",
       "value": 6331200000,
       "emd": 63300000,
-      "bidDeadline": "2026-11-17T05:30:00.000Z",
+      "bidDeadline": "2026-11-30T05:30:00.000Z",
       "postedAt": "2026-09-02T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -5945,7 +6072,7 @@
       "value": 4560000000,
       "emd": 1500000,
       "bidDeadline": "2026-11-28T12:30:00.000Z",
-      "postedAt": "2026-10-09T13:00:00.000Z",
+      "postedAt": "2026-10-09T18:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -6313,7 +6440,7 @@
       "state": "Maharashtra",
       "value": 4376868419,
       "emd": 21884000,
-      "bidDeadline": "2026-11-18T12:15:00.000Z",
+      "bidDeadline": "2026-12-04T12:15:00.000Z",
       "postedAt": "2026-11-04T10:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -6802,7 +6929,7 @@
       "state": "Uttar Pradesh",
       "value": 3711500000,
       "emd": 37115000,
-      "bidDeadline": "2026-11-18T05:30:00.000Z",
+      "bidDeadline": "2026-11-25T05:30:00.000Z",
       "postedAt": "2026-08-11T11:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -6892,6 +7019,25 @@
       "postedAt": "2026-11-14T03:30:00.000Z",
       "sectorNames": [],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-a0b3bc02-e49c-4503-9174-eb5f51224a1b",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "9129f1cf-16c4-4c78-a8bc-41461464782a",
+      "refNo": "53PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Samastipur district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 3619000000,
+      "emd": 50000000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-9129f1cf-16c4-4c78-a8bc-41461464782a",
       "matchedKeywords": []
     },
     {
@@ -7774,6 +7920,7 @@
       "bidDeadline": "2026-12-09T10:30:00.000Z",
       "postedAt": "2026-11-13T10:30:00.000Z",
       "sectorNames": [
+        "Energy, Oil and Gas",
         "Solar Installation and Products",
         "Electrical and Electronics"
       ],
@@ -8085,6 +8232,44 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "9b4de0c2-9599-4a92-881c-79aa1b0174a4",
+      "refNo": "54PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in East Champaran district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2881600000,
+      "emd": 50000000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-9b4de0c2-9599-4a92-881c-79aa1b0174a4",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "5898bb11-d648-4dae-a2d8-38972fc506ef",
+      "refNo": "55PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Saran district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2881100000,
+      "emd": 50000000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-5898bb11-d648-4dae-a2d8-38972fc506ef",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "3a311623-6024-4edf-8f41-5421f03a7e50",
       "refNo": "CE(P) BCN/EPC/05/2026-27",
       "title": "Construction Of Road From Cheema To Leechi Nalah Km 16.950 To Km 56.200 To Nhsl With Ps Specifications And Connecting Road To Gurdaligali Post Length 3.170 Km And Sarson Post Length 1.310 Km To Nhsl Specifications Under 99 Rcc/760 Tf P Bcn (pkg-2)",
@@ -8133,7 +8318,7 @@
       "value": 2864300000,
       "emd": 28600000,
       "bidDeadline": "2026-11-26T05:30:00.000Z",
-      "postedAt": "2026-07-29T11:00:00.000Z",
+      "postedAt": "2026-07-29T14:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -8404,7 +8589,7 @@
       "state": "Madhya Pradesh",
       "value": 2742100000,
       "emd": 27400000,
-      "bidDeadline": "2026-11-17T05:30:00.000Z",
+      "bidDeadline": "2026-12-17T05:30:00.000Z",
       "postedAt": "2026-08-13T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -8628,6 +8813,25 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/tourism-infrastructure-and-enterprise-zone-authority/detail-c566a6c9-cd93-405f-b787-3247656f2fa5",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "dd65b727-76c1-424e-bf3a-987f291f962a",
+      "refNo": "56PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Katihar district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2671900000,
+      "emd": 50000000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-dd65b727-76c1-424e-bf3a-987f291f962a",
       "matchedKeywords": []
     },
     {
@@ -8984,6 +9188,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "c93deb0b-6549-46f5-9fd1-c8326f47dac5",
+      "refNo": "B AND R / NZ / VMMC / 51339 / QTR / NIT / CS / 01",
+      "title": "Engagement Of “architect Cum Design Consultant” For Surveying, Geotechnical & Soil Investigation, Conceptual Design, Architectural Planning & Drawings",
+      "buyer": "Bridge And Roof Company India Limited",
+      "state": "Delhi",
+      "value": 2500000000,
+      "emd": 100000,
+      "bidDeadline": "2026-12-03T18:30:00.000Z",
+      "postedAt": "2026-11-12T18:30:00.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services",
+        "Civil And Architectural Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/bridge-and-roof-company-india-limited/detail-c93deb0b-6549-46f5-9fd1-c8326f47dac5",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "da415e31-28aa-413d-8aa9-109ad911af65",
       "refNo": "Ethnic India Rai",
       "title": "Proposal For Selection Of Concessionaire For Development, Operation And Maintenance Of Ethnic India Tourist Resort, Sonipat, Haryana On Design, Build, Finance, Operate And Transfer Basis",
@@ -9050,21 +9272,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "74f93326-73ee-49a2-bf5f-8c8beae00f90",
-      "refNo": "0c795f38-78ee-3129-98e8-33ced4eb8e0c",
-      "title": "714964450 - Engineering Delivery Partner (edp) Future Contract - Pd1 - Pipeline Notice (uk 1)",
-      "buyer": "Defence Equipment & Support",
-      "value": 2500000000,
-      "bidDeadline": "2026-11-18T18:30:00.000Z",
-      "postedAt": "2025-11-18T18:30:00.000Z",
-      "sectorNames": [
-        "Others",
-        "Civil And Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-74f93326-73ee-49a2-bf5f-8c8beae00f90",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "89415641-d461-4ae1-a9fa-7129b8ee4dae",
       "refNo": "f8834e6d-da4e-3426-a063-0fb4fd1f64fa",
       "title": "714964450 - Engineering Delivery Partner (edp) Future Contract - Pd1 - Pipeline Notice (uk 1)",
@@ -9077,6 +9284,21 @@
         "Civil And Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-89415641-d461-4ae1-a9fa-7129b8ee4dae",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "74f93326-73ee-49a2-bf5f-8c8beae00f90",
+      "refNo": "0c795f38-78ee-3129-98e8-33ced4eb8e0c",
+      "title": "714964450 - Engineering Delivery Partner (edp) Future Contract - Pd1 - Pipeline Notice (uk 1)",
+      "buyer": "Defence Equipment & Support",
+      "value": 2500000000,
+      "bidDeadline": "2026-11-18T18:30:00.000Z",
+      "postedAt": "2025-11-18T18:30:00.000Z",
+      "sectorNames": [
+        "Others",
+        "Civil And Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/defence-equipment-support/detail-74f93326-73ee-49a2-bf5f-8c8beae00f90",
       "matchedKeywords": []
     },
     {
@@ -9419,21 +9641,21 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "40b7b322-c59e-4003-a613-c2b6bf8e3fd4",
-      "refNo": "PM-SETU/RFP-CHITRADURGA/CR-21",
-      "title": "Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster-8 Chitradurga",
+      "tenderId": "1b210cae-9743-40f4-b0b1-77256b73cc48",
+      "refNo": "PM-SETU/RFP-D.Samudra/CR-24",
+      "title": "Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster-11 Devaraya Samudra",
       "buyer": "Department Of Industrial Training And Employment",
       "procurementSource": "EPROCURE",
       "state": "Karnataka",
       "value": 2410000000,
       "emd": 4000000,
       "bidDeadline": "2026-12-01T11:30:00.000Z",
-      "postedAt": "2026-10-28T08:30:00.000Z",
+      "postedAt": "2026-10-28T07:30:00.000Z",
       "sectorNames": [
         "Other Consultancy Services",
         "Consultancy Services"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/department-of-industrial-training-and-employment/detail-40b7b322-c59e-4003-a613-c2b6bf8e3fd4",
+      "detailUrl": "https://bidassist.com/global-tenders/department-of-industrial-training-and-employment/detail-1b210cae-9743-40f4-b0b1-77256b73cc48",
       "matchedKeywords": []
     },
     {
@@ -9452,21 +9674,21 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "1b210cae-9743-40f4-b0b1-77256b73cc48",
-      "refNo": "PM-SETU/RFP-D.Samudra/CR-24",
-      "title": "Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster-11 Devaraya Samudra",
+      "tenderId": "40b7b322-c59e-4003-a613-c2b6bf8e3fd4",
+      "refNo": "PM-SETU/RFP-CHITRADURGA/CR-21",
+      "title": "Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster-8 Chitradurga",
       "buyer": "Department Of Industrial Training And Employment",
       "procurementSource": "EPROCURE",
       "state": "Karnataka",
       "value": 2410000000,
       "emd": 4000000,
       "bidDeadline": "2026-12-01T11:30:00.000Z",
-      "postedAt": "2026-10-28T07:30:00.000Z",
+      "postedAt": "2026-10-28T08:30:00.000Z",
       "sectorNames": [
         "Other Consultancy Services",
         "Consultancy Services"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/department-of-industrial-training-and-employment/detail-1b210cae-9743-40f4-b0b1-77256b73cc48",
+      "detailUrl": "https://bidassist.com/global-tenders/department-of-industrial-training-and-employment/detail-40b7b322-c59e-4003-a613-c2b6bf8e3fd4",
       "matchedKeywords": []
     },
     {
@@ -9640,8 +9862,8 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "655dbb1b-6b4b-41d8-b128-34d7d6764e6a",
-      "refNo": "PM-SETU/AIP/214",
+      "tenderId": "71303b9f-1f4c-4589-b067-efccc761c844",
+      "refNo": "PM-SETU/AIP/218",
       "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
       "buyer": "Technical Education And Training Department",
       "purchaserGroup": "Education",
@@ -9650,11 +9872,11 @@
       "value": 2410000000,
       "emd": 8194000,
       "bidDeadline": "2026-11-30T11:30:00.000Z",
-      "postedAt": "2026-09-22T11:30:00.000Z",
+      "postedAt": "2026-09-22T12:30:00.000Z",
       "sectorNames": [
         "Software and IT Solutions"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-655dbb1b-6b4b-41d8-b128-34d7d6764e6a",
+      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-71303b9f-1f4c-4589-b067-efccc761c844",
       "matchedKeywords": []
     },
     {
@@ -9730,8 +9952,8 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "71303b9f-1f4c-4589-b067-efccc761c844",
-      "refNo": "PM-SETU/AIP/218",
+      "tenderId": "655dbb1b-6b4b-41d8-b128-34d7d6764e6a",
+      "refNo": "PM-SETU/AIP/214",
       "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
       "buyer": "Technical Education And Training Department",
       "purchaserGroup": "Education",
@@ -9740,11 +9962,11 @@
       "value": 2410000000,
       "emd": 8194000,
       "bidDeadline": "2026-11-30T11:30:00.000Z",
-      "postedAt": "2026-09-22T12:30:00.000Z",
+      "postedAt": "2026-09-22T11:30:00.000Z",
       "sectorNames": [
         "Software and IT Solutions"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-71303b9f-1f4c-4589-b067-efccc761c844",
+      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-655dbb1b-6b4b-41d8-b128-34d7d6764e6a",
       "matchedKeywords": []
     },
     {
@@ -9844,7 +10066,7 @@
       "state": "Telangana",
       "value": 2400000000,
       "emd": 8200000,
-      "bidDeadline": "2026-11-16T12:00:00.000Z",
+      "bidDeadline": "2026-11-30T12:00:00.000Z",
       "postedAt": "2026-07-13T09:30:00.000Z",
       "sectorNames": [
         "Other Consultancy Services",
@@ -9862,7 +10084,7 @@
       "state": "Telangana",
       "value": 2400000000,
       "emd": 8200000,
-      "bidDeadline": "2026-11-16T12:00:00.000Z",
+      "bidDeadline": "2026-11-30T12:00:00.000Z",
       "postedAt": "2026-07-13T09:30:00.000Z",
       "sectorNames": [
         "Other Consultancy Services",
@@ -10051,7 +10273,7 @@
       "value": 2369400000,
       "emd": 23700000,
       "bidDeadline": "2026-11-30T05:30:00.000Z",
-      "postedAt": "2026-10-16T04:00:00.000Z",
+      "postedAt": "2026-10-16T14:04:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction",
@@ -10150,6 +10372,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "021abb3c-bdff-4010-8601-7ee0b722e1e4",
+      "refNo": "57PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in West Champaran district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2345900000,
+      "emd": 46918000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-021abb3c-bdff-4010-8601-7ee0b722e1e4",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "875b729f-47ac-4b3a-b318-45b7818926c8",
       "refNo": "WBDIV-20017/18/2026-PIU Jalpaiguri/E-306917",
       "title": "Upgradation From Intermediate 2-lane Ps To 2-4 Lane Ps Of Kharibari Ghoshpukur Portion Of Nh-327c In The State Of West Bengal On Hybrid Annuity Mode Under Nh(o)",
@@ -10224,6 +10464,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "14e6a2f7-6f0b-4858-b56b-84fba1c3b47c",
+      "refNo": "58PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Begusarai district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2240900000,
+      "emd": 44818000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-14e6a2f7-6f0b-4858-b56b-84fba1c3b47c",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "e6f42f12-b25e-4b21-8f54-6bd6c9b16fac",
       "refNo": "07/SE/2026-27",
       "title": "Flood Protection Work From The Huddi River For The Villages Falling Between Chinigoth To Jakbouda Bridge And Jakbouda Bridge To The Sharda Canal Siphon In Poornagiri Tehsil Of Champawat District",
@@ -10267,7 +10526,7 @@
       "state": "Chhattisgarh",
       "value": 2211906122,
       "emd": 11100000,
-      "bidDeadline": "2026-11-16T12:00:00.000Z",
+      "bidDeadline": "2026-11-30T12:00:00.000Z",
       "postedAt": "2026-09-16T14:00:00.000Z",
       "sectorNames": [
         "Solid Waste Management"
@@ -10408,6 +10667,23 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "30918c69-9659-4625-8004-e177ecbed780",
+      "refNo": "KSWC/ENG/F-03/241/2026-27",
+      "title": "The work encompasses the development of Cold Storage and Temperature Control Warehouses at 19 Centres: Akki Alur, Badami, Ballary, Byadagi, Channapatna, Gangavathi, Haveri, Hirekerur, Hiriyur, Hospete, Indi, Jamakandi, Karatagi, Kundhagol, Sagara, Sedam, Shahabad, Shikaripura, and Sindagi.",
+      "buyer": "State Warehousing Corporation",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Karnataka",
+      "value": 2154800000,
+      "emd": 21548000,
+      "bidDeadline": "2026-12-09T18:30:00.000Z",
+      "postedAt": "2026-11-10T18:30:00.000Z",
+      "sectorNames": [
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/state-warehousing-corporation/detail-30918c69-9659-4625-8004-e177ecbed780",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "d157414a-1b9f-4e17-b116-f0b37cb5fcec",
       "refNo": "WRO/CON/1052/347",
       "title": "Nit For Appointment Of Consultancy Services For Redevelopment Of Three Properties Mumbai A Minerva Mansion And Minerva Building Dadar B Indian Mercantile Building Dadar C Bhatia Bhawan Dadar Of Lic Of India At Mumbai",
@@ -10537,6 +10813,43 @@
         "Pipe Line Project"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/urban-administration-and-development/detail-6b155944-49b2-4cd1-8531-c86a0e524f7d",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "2bb63109-b48f-4c8e-a28c-b2441b92f9bf",
+      "refNo": "59PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Gopalganj district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2110400000,
+      "emd": 42208000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-2bb63109-b48f-4c8e-a28c-b2441b92f9bf",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "cba4335d-f4b2-4295-aaee-a0b2c7674aba",
+      "refNo": "60PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Supaul district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 2107500000,
+      "emd": 42150000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-cba4335d-f4b2-4295-aaee-a0b2c7674aba",
       "matchedKeywords": []
     },
     {
@@ -10747,7 +11060,7 @@
       "state": "West Bengal",
       "value": 2033300000,
       "emd": 20333000,
-      "bidDeadline": "2026-12-07T05:30:00.000Z",
+      "bidDeadline": "2026-12-28T05:30:00.000Z",
       "postedAt": "2026-10-23T09:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -10786,7 +11099,7 @@
       "value": 2015200000,
       "emd": 20200000,
       "bidDeadline": "2026-12-08T09:30:00.000Z",
-      "postedAt": "2026-10-21T13:25:00.000Z",
+      "postedAt": "2026-11-16T13:59:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Civil Works Others",
@@ -10868,24 +11181,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "0eeae87f-1c5e-49db-8079-ba7657d24083",
-      "refNo": "PM-SETU/AIP/221",
-      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
-      "buyer": "Technical Education And Training Department",
-      "purchaserGroup": "Education",
-      "procurementSource": "EPROCURE",
-      "state": "West Bengal",
-      "value": 2010000000,
-      "emd": 6834000,
-      "bidDeadline": "2026-11-30T11:30:00.000Z",
-      "postedAt": "2026-09-22T13:25:00.000Z",
-      "sectorNames": [
-        "Software and IT Solutions"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-0eeae87f-1c5e-49db-8079-ba7657d24083",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "25fd6035-88f0-45e8-a2ec-e486bb6f2e21",
       "refNo": "PM-SETU/AIP/219",
       "title": "Selection Of An Anchor Industry Partner",
@@ -10919,6 +11214,24 @@
         "Software and IT Solutions"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-a3e97269-51cd-471f-8685-754386878ba8",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0eeae87f-1c5e-49db-8079-ba7657d24083",
+      "refNo": "PM-SETU/AIP/221",
+      "title": "Request For Proposal (rfp) For Selection Of An Anchor Industry Partner (aip) For Upgradation Of Iti Cluster Under Pm-setu In The State Of West Bengal",
+      "buyer": "Technical Education And Training Department",
+      "purchaserGroup": "Education",
+      "procurementSource": "EPROCURE",
+      "state": "West Bengal",
+      "value": 2010000000,
+      "emd": 6834000,
+      "bidDeadline": "2026-11-30T11:30:00.000Z",
+      "postedAt": "2026-09-22T13:25:00.000Z",
+      "sectorNames": [
+        "Software and IT Solutions"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/technical-education-and-training-department/detail-0eeae87f-1c5e-49db-8079-ba7657d24083",
       "matchedKeywords": []
     },
     {
@@ -11460,7 +11773,7 @@
       "state": "Meghalaya",
       "value": 1976300000,
       "emd": 46229746,
-      "bidDeadline": "2026-11-15T18:30:00.000Z",
+      "bidDeadline": "2026-11-16T18:30:00.000Z",
       "postedAt": "2026-11-09T18:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -11489,6 +11802,26 @@
       "detailUrl": "https://bidassist.com/global-tenders/gujarat-metro-rail-corporation-limited/detail-7cc53818-6541-4cc5-89c8-dd432ce51f5a",
       "matchedKeywords": [
         "metro rail project"
+      ]
+    },
+    {
+      "tenderId": "f6818fab-9780-46c1-a64b-13be01a5d340",
+      "refNo": "GEM/2026/B/8265458",
+      "title": "Category: Custom Bid For Services - Hiring Of Four Utility helicopters Along With Associated Equipment For A duration Of Two Years",
+      "buyer": "Indian Navy",
+      "purchaserGroup": "Defence",
+      "procurementSource": "GEM",
+      "state": "Delhi",
+      "value": 1967500000,
+      "emd": 59025000,
+      "bidDeadline": "2026-12-28T12:30:00.000Z",
+      "postedAt": "2026-11-16T09:03:44.000Z",
+      "sectorNames": [
+        "Hiring of Vehicles"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/indian-navy/detail-f6818fab-9780-46c1-a64b-13be01a5d340",
+      "matchedKeywords": [
+        "helicopter"
       ]
     },
     {
@@ -11749,6 +12082,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "5907405b-7bb3-44e1-b41f-7b24d1b556ce",
+      "refNo": "61PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Madhubani district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1887000000,
+      "emd": 37740000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-5907405b-7bb3-44e1-b41f-7b24d1b556ce",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "ccf5b510-8fdf-46ed-9fdc-003fab3f88fe",
       "refNo": "1188/2025-26/Einc/Etendering/ dt. 04-12-2025",
       "title": "Construction Of Atps Sone Barrage Chachai On Sone River",
@@ -11846,7 +12198,7 @@
       "state": "West Bengal",
       "value": 1859640000,
       "emd": 18596400,
-      "bidDeadline": "2026-12-07T05:30:00.000Z",
+      "bidDeadline": "2026-12-28T05:30:00.000Z",
       "postedAt": "2026-10-23T09:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -12111,6 +12463,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "78bb95c7-8ae9-46bf-b202-bb9ba4447b2d",
+      "refNo": "62PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Darbhanga district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1811000000,
+      "emd": 36220000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Electrical Cables And Wires",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-78bb95c7-8ae9-46bf-b202-bb9ba4447b2d",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "83931394-741e-45de-97eb-27237d433ed0",
       "refNo": "GEM/2026/B/8261037",
       "title": "Category: Warehousing Service - Per Mt - Monthly Basis - Food Grain storage, District: Sri Muktsar Sahib Locations: Gidderbaha, malout, Sri Muktsar Sahib Total Capacity: 5,02,880 Mt; As per Mtf; Godown Without Services; Hardware By The Buyer , warehousing Service - Per Mt - Monthly Basis - Food Grain storage, District: Sri Muktsar Sahib Locations: Gidderbaha, malout, Sri Muktsar Sahib Total Capacity: 5,02,880 Mt; As per Mtf; Godown With Services (preservation, Insurance, watch & Ward); Har..",
@@ -12135,7 +12506,7 @@
       "state": "Uttar Pradesh",
       "value": 1800000000,
       "emd": 36000000,
-      "bidDeadline": "2026-11-21T07:30:00.000Z",
+      "bidDeadline": "2026-11-27T07:30:00.000Z",
       "postedAt": "2026-10-17T09:30:00.000Z",
       "sectorNames": [
         "Machinery and Tools"
@@ -12313,21 +12684,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "0f8127ec-9c66-4d53-9cd9-83ed92e2ad19",
-      "refNo": "d8166b31-8a9a-3313-9860-84da0bcefebb",
-      "title": "2025 Standard Crime Contract Stage 3",
-      "buyer": "Legal Aid Agency",
-      "value": 1800000000,
-      "bidDeadline": "2034-09-29T18:30:00.000Z",
-      "postedAt": "2025-12-18T18:30:00.000Z",
-      "sectorNames": [
-        "Other Consultancy Services",
-        "Consultancy Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/legal-aid-agency/detail-0f8127ec-9c66-4d53-9cd9-83ed92e2ad19",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "948fee8a-9878-4b11-85af-6c5576201eee",
       "refNo": "9d81d667-f9d4-3a40-8427-d6e962c5659c",
       "title": "2025 Standard Crime Contract Stage 3",
@@ -12340,6 +12696,21 @@
         "Consultancy Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/legal-aid-agency/detail-948fee8a-9878-4b11-85af-6c5576201eee",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0f8127ec-9c66-4d53-9cd9-83ed92e2ad19",
+      "refNo": "d8166b31-8a9a-3313-9860-84da0bcefebb",
+      "title": "2025 Standard Crime Contract Stage 3",
+      "buyer": "Legal Aid Agency",
+      "value": 1800000000,
+      "bidDeadline": "2034-09-29T18:30:00.000Z",
+      "postedAt": "2025-12-18T18:30:00.000Z",
+      "sectorNames": [
+        "Other Consultancy Services",
+        "Consultancy Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/legal-aid-agency/detail-0f8127ec-9c66-4d53-9cd9-83ed92e2ad19",
       "matchedKeywords": []
     },
     {
@@ -12636,7 +13007,7 @@
       "state": "Odisha",
       "value": 1752866504,
       "emd": 17528665,
-      "bidDeadline": "2026-11-18T07:30:00.000Z",
+      "bidDeadline": "2026-12-02T07:30:00.000Z",
       "postedAt": "2026-09-25T10:12:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas",
@@ -12686,7 +13057,7 @@
       "state": "Uttarakhand",
       "value": 1749400000,
       "emd": 35000000,
-      "bidDeadline": "2026-11-16T06:30:00.000Z",
+      "bidDeadline": "2026-11-18T06:30:00.000Z",
       "postedAt": "2026-04-21T13:15:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -12907,7 +13278,7 @@
       "state": "Odisha",
       "value": 1689109023,
       "emd": 16891090,
-      "bidDeadline": "2026-11-16T07:30:00.000Z",
+      "bidDeadline": "2026-12-09T07:30:00.000Z",
       "postedAt": "2026-10-12T13:50:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas",
@@ -12942,7 +13313,7 @@
       "state": "Chhattisgarh",
       "value": 1687287524,
       "emd": 8500000,
-      "bidDeadline": "2026-11-16T12:00:00.000Z",
+      "bidDeadline": "2026-11-30T12:00:00.000Z",
       "postedAt": "2026-09-16T14:00:00.000Z",
       "sectorNames": [
         "Solid Waste Management"
@@ -13210,6 +13581,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "a4dcef2d-882f-4841-90e8-4cb303085326",
+      "refNo": "63PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Saharsa district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1619000000,
+      "emd": 32380000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-a4dcef2d-882f-4841-90e8-4cb303085326",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "f99820ef-d7e1-4801-ad0e-05b9fdaa1048",
       "refNo": "NHAI/RO/NAG/PIU/NAG/2026/46",
       "title": "Construction Of Six Lane Flyover And Vup With Service Roads, Service Road Bridges Across Chandrabhaga River And Allied Works For Long Term Road Safety Improvement At Dhapewada And Adasa Junction From Km 11.930 To Km 14.100 Of Nh547e On Epc Mode In Mh",
@@ -13278,7 +13668,7 @@
       "state": "Andaman & Nicobar Islands",
       "value": 1610000000,
       "emd": 32200000,
-      "bidDeadline": "2026-11-16T04:30:00.000Z",
+      "bidDeadline": "2026-11-30T04:30:00.000Z",
       "postedAt": "2026-09-02T04:30:00.000Z",
       "sectorNames": [
         "Education And Training Services"
@@ -13497,6 +13887,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "a07a217f-4ec3-4097-8677-98c2a9da2a3a",
+      "refNo": "64PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Madhepura district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1559200000,
+      "emd": 31192000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-a07a217f-4ec3-4097-8677-98c2a9da2a3a",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "d2674c70-4542-4e65-b827-377c56bf9c64",
       "refNo": "PWD/2026-27/BG/WORK_INDENT40194/CALL-2",
       "title": "Construction Of Bridge Across Nethravathi River For Connecting Kotepura To Bolar (on Mangaluru-chervathur-karavali Mdr)in Mangaluru,dakshina Kannada District, (design, Construction & Maintanance Of Bridge Work On Turnkey Basis )",
@@ -13505,7 +13914,7 @@
       "state": "Karnataka",
       "value": 1549183001.47,
       "emd": 15500000,
-      "bidDeadline": "2026-11-17T11:30:00.000Z",
+      "bidDeadline": "2026-11-30T11:30:00.000Z",
       "postedAt": "2026-09-19T12:30:48.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -13875,6 +14284,24 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "fa92f6bc-9d9a-4672-97a9-84fb7b5ab1c2",
+      "refNo": "65PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Araria district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1501000000,
+      "emd": 30020000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-fa92f6bc-9d9a-4672-97a9-84fb7b5ab1c2",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "4ad66309-95a7-499a-8825-c4a50e480804",
       "refNo": "KRDIV-20019/11/2026-Kerala Division/efile-330568",
       "title": "One Time Improvement Of Existing 2-lane Kozhikode Palakkad Section Of Nh-966 (old Nh-213) From Km.18.056 To Km.87.000 (excluding Km 27.450 To 29.200) And From Km 133.720 To Km 140.960 In Keralam On Item Rate Basis.",
@@ -13944,22 +14371,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "1c8bd109-0b1c-4f9b-a8d5-e7a6e9947266",
-      "refNo": "48a5c745-3767-367e-89b3-3039c89fb246",
-      "title": "Major Infrastructure Delivery Framework",
-      "buyer": "Anglian Water Services Limited",
-      "value": 1500000000,
-      "bidDeadline": "2026-12-02T18:30:00.000Z",
-      "postedAt": "2025-12-02T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Consultancy Services",
-        "Civil And Architectural Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/anglian-water-services-limited/detail-1c8bd109-0b1c-4f9b-a8d5-e7a6e9947266",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "af17a3a4-e641-427e-a2d7-06d93e9cb9a9",
       "refNo": "79ca5ce0-d312-3d65-9f36-dc2c5215bf78",
       "title": "Scottish Procurement Alliance (spa) – Pre-tender Engagement For Upcoming Housing Construction, Demolition And Remediation (h3) Framework",
@@ -13974,6 +14385,22 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/lhc-for-the-scottish-procurement-alliance/detail-af17a3a4-e641-427e-a2d7-06d93e9cb9a9",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "1c8bd109-0b1c-4f9b-a8d5-e7a6e9947266",
+      "refNo": "48a5c745-3767-367e-89b3-3039c89fb246",
+      "title": "Major Infrastructure Delivery Framework",
+      "buyer": "Anglian Water Services Limited",
+      "value": 1500000000,
+      "bidDeadline": "2026-12-02T18:30:00.000Z",
+      "postedAt": "2025-12-02T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Consultancy Services",
+        "Civil And Architectural Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/anglian-water-services-limited/detail-1c8bd109-0b1c-4f9b-a8d5-e7a6e9947266",
       "matchedKeywords": []
     },
     {
@@ -14377,7 +14804,7 @@
       "state": "Chhattisgarh",
       "value": 1448200000,
       "emd": 14500000,
-      "bidDeadline": "2026-11-17T10:30:00.000Z",
+      "bidDeadline": "2026-11-23T10:30:00.000Z",
       "postedAt": "2026-09-21T11:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -14522,7 +14949,7 @@
       "value": 1427389613,
       "emd": 14274000,
       "bidDeadline": "2026-12-11T09:30:00.000Z",
-      "postedAt": "2026-11-12T09:30:00.000Z",
+      "postedAt": "2026-11-12T09:50:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Irrigation Work",
@@ -15001,20 +15428,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "310a434c-4b98-4499-a571-154e2c7ea82f",
-      "refNo": "476d537d-6e79-318a-88df-1cde57b952a7",
-      "title": "Non Emergency Patient Transport Services Framework Market Engagement",
-      "buyer": "London Procurement Partnership",
-      "value": 1375000000,
-      "bidDeadline": "2026-11-18T18:30:00.000Z",
-      "postedAt": "2025-11-18T18:30:00.000Z",
-      "sectorNames": [
-        "Transportation and Logistics"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/london-procurement-partnership/detail-310a434c-4b98-4499-a571-154e2c7ea82f",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "419dc87a-dd0a-4608-8fe9-81f689c1b322",
       "refNo": "9b23026d-2bb9-36eb-a587-1e8a8734e220",
       "title": "Non Emergency Patient Transport Services Framework Market Engagement",
@@ -15026,6 +15439,20 @@
         "Transportation and Logistics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/london-procurement-partnership/detail-419dc87a-dd0a-4608-8fe9-81f689c1b322",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "310a434c-4b98-4499-a571-154e2c7ea82f",
+      "refNo": "476d537d-6e79-318a-88df-1cde57b952a7",
+      "title": "Non Emergency Patient Transport Services Framework Market Engagement",
+      "buyer": "London Procurement Partnership",
+      "value": 1375000000,
+      "bidDeadline": "2026-11-18T18:30:00.000Z",
+      "postedAt": "2025-11-18T18:30:00.000Z",
+      "sectorNames": [
+        "Transportation and Logistics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/london-procurement-partnership/detail-310a434c-4b98-4499-a571-154e2c7ea82f",
       "matchedKeywords": []
     },
     {
@@ -15344,17 +15771,17 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "99e7d323-e74c-4c45-82d0-73f726aabe19",
-      "refNo": "7bd266d6-33c0-30d8-b7e9-6311e9f81702",
+      "tenderId": "564ee630-ee3e-4b23-84f4-83941e4efc4d",
+      "refNo": "ce2bf939-5ed3-36fc-a634-d5c9bf6ac6d2",
       "title": "Nhs National Branded Interim - 1 June 2026",
       "buyer": "NHS Engalnd",
       "value": 1346663020,
-      "bidDeadline": "2026-12-22T18:30:00.000Z",
-      "postedAt": "2025-12-22T18:30:00.000Z",
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": "2025-12-28T18:30:00.000Z",
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-99e7d323-e74c-4c45-82d0-73f726aabe19",
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-564ee630-ee3e-4b23-84f4-83941e4efc4d",
       "matchedKeywords": []
     },
     {
@@ -15372,17 +15799,31 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "564ee630-ee3e-4b23-84f4-83941e4efc4d",
-      "refNo": "ce2bf939-5ed3-36fc-a634-d5c9bf6ac6d2",
+      "tenderId": "99e7d323-e74c-4c45-82d0-73f726aabe19",
+      "refNo": "7bd266d6-33c0-30d8-b7e9-6311e9f81702",
       "title": "Nhs National Branded Interim - 1 June 2026",
       "buyer": "NHS Engalnd",
       "value": 1346663020,
-      "bidDeadline": "2026-12-28T18:30:00.000Z",
-      "postedAt": "2025-12-28T18:30:00.000Z",
+      "bidDeadline": "2026-12-22T18:30:00.000Z",
+      "postedAt": "2025-12-22T18:30:00.000Z",
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-564ee630-ee3e-4b23-84f4-83941e4efc4d",
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-99e7d323-e74c-4c45-82d0-73f726aabe19",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "567ce212-ca98-4e25-a47e-e77601eca4d0",
+      "refNo": "b1f12543-1fab-3b9f-95c0-74178b8ec77d",
+      "title": "Nhs National Branded Interim - 1 June 2026",
+      "buyer": "NHS Engalnd",
+      "value": 1346663020,
+      "bidDeadline": "2026-12-21T18:30:00.000Z",
+      "postedAt": "2025-12-21T18:30:00.000Z",
+      "sectorNames": [
+        "Others"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-567ce212-ca98-4e25-a47e-e77601eca4d0",
       "matchedKeywords": []
     },
     {
@@ -15414,31 +15855,17 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "567ce212-ca98-4e25-a47e-e77601eca4d0",
-      "refNo": "b1f12543-1fab-3b9f-95c0-74178b8ec77d",
+      "tenderId": "20d32529-2f41-461f-b053-e9eb67f373be",
+      "refNo": "bc096bdf-4a71-38c0-891f-7667eabf96bb",
       "title": "Nhs National Branded Interim - 1 June 2026",
       "buyer": "NHS Engalnd",
       "value": 1346663020,
-      "bidDeadline": "2026-12-21T18:30:00.000Z",
-      "postedAt": "2025-12-21T18:30:00.000Z",
+      "bidDeadline": "2026-12-22T18:30:00.000Z",
+      "postedAt": "2025-12-22T18:30:00.000Z",
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-567ce212-ca98-4e25-a47e-e77601eca4d0",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "6f013b95-181c-4829-8536-34f7aeb56f3f",
-      "refNo": "cc83bd34-f7a6-347a-b1f1-b4fa3dff1963",
-      "title": "Nhs National Branded Interim - 1 June 2026",
-      "buyer": "NHS Engalnd",
-      "value": 1346663020,
-      "bidDeadline": "2026-12-28T18:30:00.000Z",
-      "postedAt": "2025-12-28T18:30:00.000Z",
-      "sectorNames": [
-        "Others"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-6f013b95-181c-4829-8536-34f7aeb56f3f",
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-20d32529-2f41-461f-b053-e9eb67f373be",
       "matchedKeywords": []
     },
     {
@@ -15456,17 +15883,17 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "20d32529-2f41-461f-b053-e9eb67f373be",
-      "refNo": "bc096bdf-4a71-38c0-891f-7667eabf96bb",
+      "tenderId": "6f013b95-181c-4829-8536-34f7aeb56f3f",
+      "refNo": "cc83bd34-f7a6-347a-b1f1-b4fa3dff1963",
       "title": "Nhs National Branded Interim - 1 June 2026",
       "buyer": "NHS Engalnd",
       "value": 1346663020,
-      "bidDeadline": "2026-12-22T18:30:00.000Z",
-      "postedAt": "2025-12-22T18:30:00.000Z",
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": "2025-12-28T18:30:00.000Z",
       "sectorNames": [
         "Others"
       ],
-      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-20d32529-2f41-461f-b053-e9eb67f373be",
+      "detailUrl": "https://bidassist.com/global-tenders/nhs-engalnd/detail-6f013b95-181c-4829-8536-34f7aeb56f3f",
       "matchedKeywords": []
     },
     {
@@ -15898,7 +16325,7 @@
       "state": "Madhya Pradesh",
       "value": 1307563000,
       "emd": 4872500,
-      "bidDeadline": "2026-11-16T12:00:00.000Z",
+      "bidDeadline": "2026-11-21T12:00:00.000Z",
       "postedAt": "2026-10-07T05:00:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -16111,29 +16538,12 @@
       "state": "Chhattisgarh",
       "value": 1298689011,
       "emd": 6500000,
-      "bidDeadline": "2026-11-16T12:00:00.000Z",
+      "bidDeadline": "2026-11-30T12:00:00.000Z",
       "postedAt": "2026-09-16T14:00:00.000Z",
       "sectorNames": [
         "Solid Waste Management"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/urban-administration-and-development/detail-d18561bd-b168-4539-bd37-32a2a5c4638c",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "ab7daf66-8b66-4964-a657-670cd64e1751",
-      "refNo": "NBCC/SBG/etender/2026/208",
-      "title": "Construction Of Nbcc Towers Phase Ii Residential Housing Complex (3 Towers Of Ground 10 Floors, Lig Ews Ground 11 Floors) With Land Measuring 10651.0 Sqm (2.631 Acres) At Bahadurpur , Patna Including Operation Maintenance Of 5 Years",
-      "buyer": "NBCC India Limited",
-      "state": "Bihar",
-      "value": 1293924679,
-      "emd": 12939247,
-      "bidDeadline": "2026-12-01T05:30:00.000Z",
-      "postedAt": "2026-11-09T12:36:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-ab7daf66-8b66-4964-a657-670cd64e1751",
       "matchedKeywords": []
     },
     {
@@ -16152,6 +16562,23 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-1a1d5570-61f3-40df-a7f6-941ead2a5c1d",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "ab7daf66-8b66-4964-a657-670cd64e1751",
+      "refNo": "NBCC/SBG/etender/2026/208",
+      "title": "Construction Of Nbcc Towers Phase Ii Residential Housing Complex (3 Towers Of Ground 10 Floors, Lig Ews Ground 11 Floors) With Land Measuring 10651.0 Sqm (2.631 Acres) At Bahadurpur , Patna Including Operation Maintenance Of 5 Years",
+      "buyer": "NBCC India Limited",
+      "state": "Bihar",
+      "value": 1293924679,
+      "emd": 12939247,
+      "bidDeadline": "2026-12-01T05:30:00.000Z",
+      "postedAt": "2026-11-09T12:36:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/nbcc-india-limited/detail-ab7daf66-8b66-4964-a657-670cd64e1751",
       "matchedKeywords": []
     },
     {
@@ -16209,6 +16636,25 @@
         "Civil And Architectural Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/northeast-frontier-railway/detail-afc9002c-ac48-47eb-a2df-40e75701ae2f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "da890e8f-e19c-49bc-a483-9e0e6c65c42c",
+      "refNo": "66PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Sitamarhi district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1291700000,
+      "emd": 25834000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-da890e8f-e19c-49bc-a483-9e0e6c65c42c",
       "matchedKeywords": []
     },
     {
@@ -16317,7 +16763,7 @@
       "state": "Telangana",
       "value": 1280285873,
       "emd": 12802859,
-      "bidDeadline": "2026-11-16T10:30:00.000Z",
+      "bidDeadline": "2026-11-18T10:30:00.000Z",
       "postedAt": "2026-11-02T10:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -16655,7 +17101,7 @@
       "state": "Rajasthan",
       "value": 1242000000,
       "emd": 24840000,
-      "bidDeadline": "2026-11-17T12:30:00.000Z",
+      "bidDeadline": "2026-12-03T12:30:00.000Z",
       "postedAt": "2026-10-07T11:30:00.000Z",
       "sectorNames": [
         "Solid Waste Management"
@@ -16923,6 +17369,25 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "384501f9-085e-4d16-b799-1f58b0d498ea",
+      "refNo": "67PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Vaishali district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1206000000,
+      "emd": 24120000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-384501f9-085e-4d16-b799-1f58b0d498ea",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "10b39de6-4a04-494b-a421-abcd58f3a94e",
       "refNo": "NHAI/13012/255/RO/OD/2038/2026",
       "title": "Construction Of 4 No Underpasses Comprising 2 No Vups And 2 Lvups At Identified Blackspot/ Accident Prone Locations Of Angul Sambalpur Of Nh 55 In The State Of Odisha",
@@ -16939,6 +17404,21 @@
         "Bridge Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/national-highways-authority-of-india/detail-10b39de6-4a04-494b-a421-abcd58f3a94e",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "4e33ff5c-6073-4c29-863d-53d1e29eb4ac",
+      "refNo": "E Tender Notice No 05/2026-27",
+      "title": "Construction Of Nerla Lift Irrigation Scheme Stage 2 Offtaking Rd 5080 M On Nerla Main Canal Of Nerla Lift Irrigation Scheme Including Survey, Planning, Design Of Entire Scheme With Construction Of Pump House And Rising Main, Pumping Machinery, Mecha",
+      "buyer": "Water Resources Department",
+      "procurementSource": "EPROCURE",
+      "state": "Maharashtra",
+      "value": 1202721349,
+      "emd": 6014000,
+      "bidDeadline": "2026-12-01T12:15:00.000Z",
+      "postedAt": "2026-11-16T13:00:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/water-resources-department/detail-4e33ff5c-6073-4c29-863d-53d1e29eb4ac",
       "matchedKeywords": []
     },
     {
@@ -17137,7 +17617,7 @@
       "state": "West Bengal",
       "value": 1195600000,
       "emd": 11956000,
-      "bidDeadline": "2026-12-07T05:30:00.000Z",
+      "bidDeadline": "2026-12-28T05:30:00.000Z",
       "postedAt": "2026-10-23T09:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -17209,7 +17689,7 @@
       "buyer": "ITI Limited",
       "state": "Manipur",
       "value": 1173060000,
-      "bidDeadline": "2026-11-17T08:30:00.000Z",
+      "bidDeadline": "2026-11-20T08:30:00.000Z",
       "postedAt": "2026-11-13T13:31:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -17628,7 +18108,7 @@
       "value": 1131692000,
       "emd": 11317000,
       "bidDeadline": "2026-11-30T11:30:00.000Z",
-      "postedAt": "2026-11-03T02:57:00.000Z",
+      "postedAt": "2026-11-03T11:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Drainage Work",
@@ -17799,7 +18279,7 @@
       "state": "Chhattisgarh",
       "value": 1113629648,
       "emd": 5600000,
-      "bidDeadline": "2026-11-16T12:00:00.000Z",
+      "bidDeadline": "2026-11-30T12:00:00.000Z",
       "postedAt": "2026-09-16T14:00:00.000Z",
       "sectorNames": [
         "Solid Waste Management"
@@ -17875,12 +18355,30 @@
       "value": 1105181495.24,
       "emd": 729000,
       "bidDeadline": "2026-11-23T10:30:00.000Z",
-      "postedAt": "2026-11-16T03:40:00.000Z",
+      "postedAt": "2026-10-23T12:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/ministry-of-road-transport-and-highways/detail-217ba0e1-26f2-4784-9ec5-2bc81c79b48d",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "fa0bd540-0003-4fac-ba40-36c4df096b56",
+      "refNo": "68PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Purnea district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1105100000,
+      "emd": 22102000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-fa0bd540-0003-4fac-ba40-36c4df096b56",
       "matchedKeywords": []
     },
     {
@@ -18151,7 +18649,7 @@
       "value": 1080000000,
       "emd": 10800000,
       "bidDeadline": "2026-11-23T12:00:00.000Z",
-      "postedAt": "2026-08-25T03:40:00.000Z",
+      "postedAt": "2026-08-25T12:00:00.000Z",
       "sectorNames": [
         "Consultancy Services",
         "Civil And Architectural Services"
@@ -18334,7 +18832,7 @@
       "state": "Delhi",
       "value": 1057652065.62,
       "emd": 4660000,
-      "bidDeadline": "2026-11-16T06:30:00.000Z",
+      "bidDeadline": "2026-11-17T06:30:00.000Z",
       "postedAt": "2026-11-04T13:00:00.000Z",
       "sectorNames": [
         "Software and IT Solutions",
@@ -18530,6 +19028,24 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/project-implementation-unit/detail-ac6f32dc-16e3-4a0a-9de5-16056b282965",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "10624614-e490-40e5-b7ee-70d0adceb4b6",
+      "refNo": "69PRNBPDCL2026",
+      "title": "LT System Strengthening, LT AB Cable and DTR Augmentation in Muzaffarpur district.",
+      "buyer": "North Bihar Power Distribution Company Limited",
+      "procurementSource": "NEWSPAPER_AD",
+      "state": "Bihar",
+      "value": 1032700000,
+      "emd": 20654000,
+      "bidDeadline": "2026-12-28T18:30:00.000Z",
+      "postedAt": null,
+      "sectorNames": [
+        "Electrical Works",
+        "Electrical and Electronics"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/north-bihar-power-distribution-company-limited/detail-10624614-e490-40e5-b7ee-70d0adceb4b6",
       "matchedKeywords": []
     },
     {
@@ -18749,6 +19265,24 @@
         "Road Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/municipal-corporation/detail-7c6b1060-51cf-45fe-a64b-27e682e6040f",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "0a443662-6f9f-4466-9d3b-a3a0ed5d16df",
+      "refNo": "71265039",
+      "title": "Computerised Numerically Controlled (cnc) Tandem Under Floor Wheel Lathe (tufwl) For Bg Wheel Sets On Turnkey Basis With Camc. Qty. 2 Nos.",
+      "buyer": "Central Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Maharashtra",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-12-23T05:30:00.000Z",
+      "postedAt": "2026-11-16T11:07:00.000Z",
+      "sectorNames": [
+        "Machinery and Tools"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/central-railway/detail-0a443662-6f9f-4466-9d3b-a3a0ed5d16df",
       "matchedKeywords": []
     },
     {
@@ -19028,22 +19562,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "e10badaa-46de-4533-b41d-3f4d94216357",
-      "refNo": "51266101",
-      "title": "Running Contract For Goods, Manufacture And Supply Of Elastic Rail Clips Mk-v Confirming To Rdso Drg.no.t-5919 Alt-2(latest Alteration) And Confirming To Irs Specification For Erc S. No. T-31-2025 (revision 06 Latest Alteration). (note : Latest Alteration Wherever Used Will Mean The Alterations Up To The Actual Date Of Closing Tender.",
-      "buyer": "Central Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Maharashtra",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-11-23T06:00:00.000Z",
-      "postedAt": "2026-10-28T12:19:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/central-railway/detail-e10badaa-46de-4533-b41d-3f4d94216357",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "3d1d1aa8-a817-4740-a108-ae55d6a535ab",
       "refNo": "06262028",
       "title": "Rate Contract For Manufacture And Supply Of Nylon Cord Reinforced Grooved Rubber Sole Plate (ncr Grsp) For 1 In 12 Tws 60e1 Turn Out.",
@@ -19060,6 +19578,22 @@
         "Metals and Non-Metals"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/east-coast-railway/detail-3d1d1aa8-a817-4740-a108-ae55d6a535ab",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "e10badaa-46de-4533-b41d-3f4d94216357",
+      "refNo": "51266101",
+      "title": "Running Contract For Goods, Manufacture And Supply Of Elastic Rail Clips Mk-v Confirming To Rdso Drg.no.t-5919 Alt-2(latest Alteration) And Confirming To Irs Specification For Erc S. No. T-31-2025 (revision 06 Latest Alteration). (note : Latest Alteration Wherever Used Will Mean The Alterations Up To The Actual Date Of Closing Tender.",
+      "buyer": "Central Railway",
+      "purchaserGroup": "Railways",
+      "procurementSource": "IREPS",
+      "state": "Maharashtra",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-11-23T06:00:00.000Z",
+      "postedAt": "2026-10-28T12:19:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/central-railway/detail-e10badaa-46de-4533-b41d-3f4d94216357",
       "matchedKeywords": []
     },
     {
@@ -19157,6 +19691,23 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "f2ec168e-a2d0-42bf-a7be-99265c58e87a",
+      "refNo": "6026PT002",
+      "title": "Price Agreement For Manufacture And Supply Of Elastic Rail Clip(erc) Mk-v With Flat Toe For 60kg Uic/52kg Rail Sections Drg: (rdso) Rdso_t_5919_ Alt_2 Spec: (rdso) Irs/t-31-2025 Sixth Revision.",
+      "buyer": "South Coast Railway",
+      "procurementSource": "IREPS",
+      "state": "Andhra Pradesh",
+      "value": 1000000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-11-17T09:00:00.000Z",
+      "postedAt": "2026-10-14T09:40:00.000Z",
+      "sectorNames": [
+        "Metals and Non-Metals"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/south-coast-railway/detail-f2ec168e-a2d0-42bf-a7be-99265c58e87a",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "194be51d-3805-4aa8-875e-318c88bae730",
       "refNo": "06265003",
       "title": "Two Year Rate Contract Of Turnout Psc Sleeper, Drg: (rdso) Rdso/t-9841 & Drg: (rdso) Rdso/t-9790.",
@@ -19172,23 +19723,6 @@
         "Metals and Non-Metals"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/east-coast-railway/detail-194be51d-3805-4aa8-875e-318c88bae730",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "f2ec168e-a2d0-42bf-a7be-99265c58e87a",
-      "refNo": "6026PT002",
-      "title": "Price Agreement For Manufacture And Supply Of Elastic Rail Clip(erc) Mk-v With Flat Toe For 60kg Uic/52kg Rail Sections Drg: (rdso) Rdso_t_5919_ Alt_2 Spec: (rdso) Irs/t-31-2025 Sixth Revision.",
-      "buyer": "South Coast Railway",
-      "procurementSource": "IREPS",
-      "state": "Andhra Pradesh",
-      "value": 1000000000,
-      "emd": 5000000,
-      "bidDeadline": "2026-11-17T09:00:00.000Z",
-      "postedAt": "2026-10-14T09:40:00.000Z",
-      "sectorNames": [
-        "Metals and Non-Metals"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/south-coast-railway/detail-f2ec168e-a2d0-42bf-a7be-99265c58e87a",
       "matchedKeywords": []
     },
     {
@@ -19369,7 +19903,7 @@
       "state": "Tamil Nadu",
       "value": 1000000000,
       "emd": 5000000,
-      "bidDeadline": "2026-11-20T08:45:00.000Z",
+      "bidDeadline": "2026-12-04T08:45:00.000Z",
       "postedAt": "2026-10-01T12:31:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas",
@@ -19679,21 +20213,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "6d2ebe0d-8978-404b-8148-ac951976688a",
-      "refNo": "259d2d37-1aaa-3837-92ac-949fc518a10d",
-      "title": "Non-residential Construction",
-      "buyer": "Procurement for Housing",
-      "value": 1000000000,
-      "bidDeadline": "2029-01-30T18:30:00.000Z",
-      "postedAt": "2024-12-07T18:30:00.000Z",
-      "sectorNames": [
-        "Civil And Construction",
-        "Building Construction"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/procurement-for-housing/detail-6d2ebe0d-8978-404b-8148-ac951976688a",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "ce7d5407-4d9d-4803-88e2-7a877dac4b05",
       "refNo": "7217173d-41a2-35fe-9d5b-a630d0585e79",
       "title": "Non-residential Construction",
@@ -19706,6 +20225,21 @@
         "Building Construction"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/procurement-for-housing/detail-ce7d5407-4d9d-4803-88e2-7a877dac4b05",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "6d2ebe0d-8978-404b-8148-ac951976688a",
+      "refNo": "259d2d37-1aaa-3837-92ac-949fc518a10d",
+      "title": "Non-residential Construction",
+      "buyer": "Procurement for Housing",
+      "value": 1000000000,
+      "bidDeadline": "2029-01-30T18:30:00.000Z",
+      "postedAt": "2024-12-07T18:30:00.000Z",
+      "sectorNames": [
+        "Civil And Construction",
+        "Building Construction"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/procurement-for-housing/detail-6d2ebe0d-8978-404b-8148-ac951976688a",
       "matchedKeywords": []
     },
     {
@@ -19815,20 +20349,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderId": "8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
-      "refNo": "79552-2024",
-      "title": "Norway – E-learning Services – 1-ude- 2024 Dynamic Procurement Scheme For Digital Teaching Aids For The Oslo School",
-      "buyer": "Oslo Kommune V Utdanningsetaten",
-      "value": 1000000000,
-      "bidDeadline": "2034-03-06T18:30:00.000Z",
-      "postedAt": "2024-02-06T18:30:00.000Z",
-      "sectorNames": [
-        "Education And Training Services"
-      ],
-      "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
-      "matchedKeywords": []
-    },
-    {
       "tenderId": "05dd6080-5264-4067-8275-fb0fa0e28649",
       "refNo": "2024-101721",
       "title": "1-ude- 2024 Dynamisk Innkjøpsordning For Digitale Læremidler I Osloskolen",
@@ -19840,6 +20360,20 @@
         "Education And Training Services"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-05dd6080-5264-4067-8275-fb0fa0e28649",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
+      "refNo": "79552-2024",
+      "title": "Norway – E-learning Services – 1-ude- 2024 Dynamic Procurement Scheme For Digital Teaching Aids For The Oslo School",
+      "buyer": "Oslo Kommune V Utdanningsetaten",
+      "value": 1000000000,
+      "bidDeadline": "2034-03-06T18:30:00.000Z",
+      "postedAt": "2024-02-06T18:30:00.000Z",
+      "sectorNames": [
+        "Education And Training Services"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/oslo-kommune-v-utdanningsetaten/detail-8d8b31b2-ef8d-4fe1-879f-b874ad50ecbf",
       "matchedKeywords": []
     },
     {
@@ -19900,6 +20434,18 @@
       "matchedKeywords": []
     },
     {
+      "tenderId": "e32a63ed-943b-43a4-838f-1ff5a850df7b",
+      "refNo": "",
+      "title": "Alternative Fuelled Vehicles Dps",
+      "buyer": "Yorkshire Purchasing Organisation",
+      "value": 1000000000,
+      "bidDeadline": "2031-05-02T18:30:00.000Z",
+      "postedAt": "2021-03-08T18:30:00.000Z",
+      "sectorNames": [],
+      "detailUrl": "https://bidassist.com/global-tenders/yorkshire-purchasing-organisation/detail-e32a63ed-943b-43a4-838f-1ff5a850df7b",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "e977276f-3959-4f17-a60d-67828f0b746c",
       "refNo": "fdc103a5-070f-4b30-8c74-349bb13bc929",
       "title": "Ypo - 001066 Alternative Fuelled Vehicles Dps",
@@ -19911,18 +20457,6 @@
         "Energy, Oil and Gas"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/yorkshire-purchasing-organisation/detail-e977276f-3959-4f17-a60d-67828f0b746c",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "e32a63ed-943b-43a4-838f-1ff5a850df7b",
-      "refNo": "",
-      "title": "Alternative Fuelled Vehicles Dps",
-      "buyer": "Yorkshire Purchasing Organisation",
-      "value": 1000000000,
-      "bidDeadline": "2031-05-02T18:30:00.000Z",
-      "postedAt": "2021-03-08T18:30:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/yorkshire-purchasing-organisation/detail-e32a63ed-943b-43a4-838f-1ff5a850df7b",
       "matchedKeywords": []
     },
     {
@@ -19973,6 +20507,23 @@
         "Electrical and Electronics"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/western-railway/detail-531fad29-b3fe-4cdd-a145-6bafa0486da4",
+      "matchedKeywords": []
+    },
+    {
+      "tenderId": "2a31a91a-524e-4dd7-97ac-a1f12123fec6",
+      "refNo": "E0426O0174R",
+      "title": "Procurement Of High Speed Diesel (hsd) On Rate Contract Basis For A Period Of Two Years.",
+      "buyer": "The Singareni Collieries Company Limited",
+      "state": "Telangana",
+      "value": 118170000000,
+      "emd": 5000000,
+      "bidDeadline": "2026-12-07T11:30:00.000Z",
+      "postedAt": "2026-11-23T11:30:00.000Z",
+      "sectorNames": [
+        "Energy, Oil and Gas",
+        "Machinery and Tools"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/the-singareni-collieries-company-limited/detail-2a31a91a-524e-4dd7-97ac-a1f12123fec6",
       "matchedKeywords": []
     },
     {
@@ -20073,7 +20624,7 @@
       "state": "Maharashtra",
       "value": 90303800000,
       "emd": 903000000,
-      "bidDeadline": "2026-11-26T05:30:00.000Z",
+      "bidDeadline": "2026-12-10T05:30:00.000Z",
       "postedAt": "2026-05-09T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -20142,7 +20693,7 @@
       "state": "Delhi",
       "value": 75963300000,
       "emd": 759600000,
-      "bidDeadline": "2026-11-26T05:30:00.000Z",
+      "bidDeadline": "2026-12-10T05:30:00.000Z",
       "postedAt": "2026-05-09T03:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -20187,7 +20738,7 @@
       "state": "Telangana",
       "value": 67925200000,
       "emd": 679200000,
-      "bidDeadline": "2026-11-23T05:30:00.000Z",
+      "bidDeadline": "2026-12-30T05:30:00.000Z",
       "postedAt": "2026-09-23T03:35:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -20339,22 +20890,6 @@
         "Excavation"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/central-railway/detail-1470d556-1adb-427a-adb9-d755d7f58c53",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "699c30ae-3fc9-438d-ad61-cd16735979c9",
-      "refNo": "ELWDB2526LOCOPOH06R",
-      "title": "Operation & Maintenance Of Dabhoi Workshop (elw/db) And Maintenance Of 3 Phase Locomotive (poh Of Wap7 And Wag9, Ioh Of Motorized Bogie Of Co-co Type, Ioh Of Traction Motor Of 6fra 6068 Type) For A Period Of 18 Year",
-      "buyer": "Western Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Gujarat",
-      "value": 46080040480.92,
-      "emd": 921600800,
-      "bidDeadline": "2026-11-23T05:30:00.000Z",
-      "postedAt": "2026-06-30T10:12:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/western-railway/detail-699c30ae-3fc9-438d-ad61-cd16735979c9",
       "matchedKeywords": []
     }
   ]
