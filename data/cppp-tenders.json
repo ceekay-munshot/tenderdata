@@ -1,49 +1,27 @@
 {
-  "fetchedAt": "2026-11-19T12:46:23.398Z",
-  "durationMs": 57001,
+  "fetchedAt": "2026-11-19T22:59:50.806Z",
+  "durationMs": 53557,
   "ok": true,
   "view": "14day",
   "pagesFetched": 50,
-  "totalRowsParsed": 331,
+  "totalRowsParsed": 333,
   "relevantCount": 1,
   "tenders": [
     {
-      "tenderRef": "2026_CWC_934235_1",
-      "title": "Repair and Renovation of the Delhi Railway Bridge site office building and supply and installation of modular furniture/cabinets for the laboratory under Sahibi Sub-Division, New Delhi",
-      "organisationChain": "Central Water Commission- DoWR RD and GR||Yamuna Basin Organisation- New Delhi||SE(HOC)- Vaishali||Upper Yamuna Division- New Delhi",
-      "buyer": "Central Water Commission- DoWR RD and GR",
-      "publishedAt": "2026-11-14T04:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-21T10:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SVaF4lhyS55oFAP%2F6tqrjRg%3D%3D",
+      "tenderRef": "2026_IITGN_931207_1",
+      "title": "Operation and Maintenance of Water Treatment Plant (WTP), Sewage Treatment Plant (STP), Pumping Stations, Irrigation System, Kitchen Exhaust and Ventilation System, Fire Fighting Installations, etc., at IIT Gandhinagar Campus, Palaj, Gandhinagar, Guj",
+      "organisationChain": "Indian Institute of Technology Gandhinagar||Building and Works Department - IITGN",
+      "buyer": "Indian Institute of Technology Gandhinagar",
+      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "bidSubmissionCloses": "2026-11-23T09:30:00.000Z",
+      "tenderOpensAt": "2026-11-24T10:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfG9RllAqsjARHZ%2B2PnprKg%3D%3D",
       "matchedKeywords": [
-        "railway bridge"
+        "water treatment plant"
       ]
     }
   ],
   "sampleRows": [
-    {
-      "tenderRef": "2026_SAI_933844_1",
-      "title": "Daedo Taekwondo Equipment",
-      "organisationChain": "Sports Authority of India||SAI Regional Centre Trivandrum",
-      "buyer": "Sports Authority of India",
-      "publishedAt": "2026-11-11T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T03:30:00.000Z",
-      "tenderOpensAt": "2026-11-21T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8GpPwbYiaYFf8AEjzT%2BSzA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_SAI_933579_1",
-      "title": "Procurement of Track Argon 18 TKO Electron Pro Pursuit Bike Through Proprietary Article Certificate (PAC)",
-      "organisationChain": "Sports Authority of India||SAI Regional Centre Trivandrum",
-      "buyer": "Sports Authority of India",
-      "publishedAt": "2026-11-09T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T03:30:00.000Z",
-      "tenderOpensAt": "2026-11-21T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SShAocAg2dJcIGst%2Bjy%2BmBg%3D%3D",
-      "matchedKeywords": []
-    },
     {
       "tenderRef": "2026_SAI_933624_1",
       "title": "Procurement of Look Make Non Cycling Equipment",
@@ -53,6 +31,17 @@
       "bidSubmissionCloses": "2026-11-20T03:30:00.000Z",
       "tenderOpensAt": "2026-11-21T03:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sl4HSpq%2BcX%2B2wESe0kmC4PA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SAI_933844_1",
+      "title": "Daedo Taekwondo Equipment",
+      "organisationChain": "Sports Authority of India||SAI Regional Centre Trivandrum",
+      "buyer": "Sports Authority of India",
+      "publishedAt": "2026-11-11T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T03:30:00.000Z",
+      "tenderOpensAt": "2026-11-21T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S8GpPwbYiaYFf8AEjzT%2BSzA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -67,14 +56,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_934327_1",
-      "title": "Repair/Maint of defective BFL UG cables in AOR of BFL source BOP Amar of 90 BN BSF under SHQ BSF Bhuj.",
-      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-11-14T03:30:00.000Z",
+      "tenderRef": "2026_SAI_933579_1",
+      "title": "Procurement of Track Argon 18 TKO Electron Pro Pursuit Bike Through Proprietary Article Certificate (PAC)",
+      "organisationChain": "Sports Authority of India||SAI Regional Centre Trivandrum",
+      "buyer": "Sports Authority of India",
+      "publishedAt": "2026-11-09T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T03:30:00.000Z",
+      "tenderOpensAt": "2026-11-21T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SShAocAg2dJcIGst%2Bjy%2BmBg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SOI_931657_1",
+      "title": "Providing Services for 2D/3D Mapping of Kakrapar (NPCIL) Extended area, Gujarat Area using Aerial Platform (Manned/ Unmanned) fitted on-board with Nadir camera and LiDAR sensor",
+      "organisationChain": "Survey of India||Gujarat Daman and Diu GeoSpatial Data Centre Gandhinagar-SOI",
+      "buyer": "Survey of India",
+      "publishedAt": "2026-10-27T03:30:00.000Z",
       "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-21T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ST5k3trF%2FXY4Ttby3Tz5yHg%3D%3D",
+      "tenderOpensAt": "2026-11-23T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S5TfJjYuJUJS2hEPrIZf%2ByA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -89,28 +89,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_933189_1",
-      "title": "Construction of deficient element at non-composite BOP Old KKD PL of 28 Bn BSF under SHQ BSF Barmer SH- C/o Office Block, 28 Men JBK, Sarv Dharam Sthal, Toilet Block, 02 Nos Central Morcha, 04 Nos Corner Bunker, 02 Men Bunker 02 Nos, Garage and POL",
-      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-11-05T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJLJWFmkNSTEnKTUY5csMyA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_SCL_929230_1",
-      "title": "Sealing Lid with preform (LWP) 414 mils x 360 mils ID 363 mils x 308 mils",
-      "organisationChain": "Semi-Conductor Laboratory (SCL)",
-      "buyer": "Semi-Conductor Laboratory (SCL)",
-      "publishedAt": "2026-10-07T11:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-21T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SLi%2F1EtLE664q8fxCFeDB8g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_FACT_932441_1",
       "title": "Yard paving works for settling pit access in Phase 2 gypsum yard area in Phosphoric acid plant at FACT Cochin Division, Ambalamedu, Kochi.",
       "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
@@ -119,28 +97,6 @@
       "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
       "tenderOpensAt": "2026-11-21T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SnGAbsk6QNPqqdNXr7YkE%2Bw%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_AMU_934378_1",
-      "title": "Passage Connect at D o Statistics and Operation Research",
-      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
-      "buyer": "Aligarh Muslim University",
-      "publishedAt": "2026-11-14T10:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-21T05:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4NqP4rwdHnP%2BXEg9SEkIug%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_BSF_933195_1",
-      "title": "Construction of 01 No Type-V residential quarter at Barmer-I Nehru Nagar Campus, Dist- Barmer (Rajasthan) under SHQ BSF Barmer.",
-      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-11-05T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sw%2FFsCXjSRFZx6MAnHrrktg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -155,6 +111,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_BSF_934327_1",
+      "title": "Repair/Maint of defective BFL UG cables in AOR of BFL source BOP Amar of 90 BN BSF under SHQ BSF Bhuj.",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-14T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ST5k3trF%2FXY4Ttby3Tz5yHg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_CRPF_930233_2",
+      "title": "Repair and Maintenance of interior, exterior wall painting, damaged plaster works, Sanitary/ plumbing, floor/wall tile etc. of Guard room and 22 Nos Sentry post along the boundary wall included elevated sentry post at GC CRPF, Srinagar, JK",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-11-13T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S0ChkWTdb0sW4gq%2BDXWYkWg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_IISC_932031_1",
       "title": "FACILITY MANAGEMENT SERVICES",
       "organisationChain": "Indian Institute of Science - Bangalore||Divison of Administration||Office of Administration - DR-Admin.",
@@ -163,6 +141,50 @@
       "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
       "tenderOpensAt": "2026-11-21T05:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfvdJI3qUC5rr%2F4EvUZC5QA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_933195_1",
+      "title": "Construction of 01 No Type-V residential quarter at Barmer-I Nehru Nagar Campus, Dist- Barmer (Rajasthan) under SHQ BSF Barmer.",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-05T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sw%2FFsCXjSRFZx6MAnHrrktg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_933189_1",
+      "title": "Construction of deficient element at non-composite BOP Old KKD PL of 28 Bn BSF under SHQ BSF Barmer SH- C/o Office Block, 28 Men JBK, Sarv Dharam Sthal, Toilet Block, 02 Nos Central Morcha, 04 Nos Corner Bunker, 02 Men Bunker 02 Nos, Garage and POL",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-05T03:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJLJWFmkNSTEnKTUY5csMyA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_934244_1",
+      "title": "Leveling of Cricket Playground at PTC Guwahati.",
+      "organisationChain": "Department of Posts||Assam Circle,POST||Chief Postamster General,Assam Circle,Guwahati||EE,Postal Civil Division,Guwahati,POST",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-11-13T09:40:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-23T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SGyv6n%2FcCInOsu%2B34nFzwbw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_AMU_934378_1",
+      "title": "Passage Connect at D o Statistics and Operation Research",
+      "organisationChain": "Aligarh Muslim University||Building Department||University Engineer",
+      "buyer": "Aligarh Muslim University",
+      "publishedAt": "2026-11-14T10:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-21T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4NqP4rwdHnP%2BXEg9SEkIug%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -188,28 +210,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_934202_1",
-      "title": "Repairs and Maintenance of toilets at 8th and 9th floors Dak Sadan Hyderabad",
-      "organisationChain": "Department of Posts||Telangana Circle- Dept of Posts",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-11-13T07:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SC23EI80%2F1k9B0Wdm2hkceQ%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_FCI_930876_1",
-      "title": "Construction of godown at FSD KESINGA land on Build, Finance and Maintain basis under the Asset Monetization Policy of the Government of India",
-      "organisationChain": "Food Corporation of India||Regional Office,Orissa,FCI,MFPD||Information Technology Dn,Orissa,FCI",
-      "buyer": "Food Corporation of India",
-      "publishedAt": "2026-10-17T06:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T06:30:00.000Z",
-      "tenderOpensAt": "2026-11-21T07:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SujrQDVjZar2D7B7cKxtGwA%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_EIL_929406_1",
       "title": "SS/C050-1P39A-YF-MR-1020/66 - VARIABLE AREA FLOWMETERS (INDICATORS,TRANSMITTERS) for Polypropylene Unit (PPU) Project at Numaligarh Refinery, Assam",
       "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
@@ -232,6 +232,28 @@
       "matchedKeywords": []
     },
     {
+      "tenderRef": "2026_FCI_930876_1",
+      "title": "Construction of godown at FSD KESINGA land on Build, Finance and Maintain basis under the Asset Monetization Policy of the Government of India",
+      "organisationChain": "Food Corporation of India||Regional Office,Orissa,FCI,MFPD||Information Technology Dn,Orissa,FCI",
+      "buyer": "Food Corporation of India",
+      "publishedAt": "2026-10-17T06:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T06:30:00.000Z",
+      "tenderOpensAt": "2026-11-21T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SujrQDVjZar2D7B7cKxtGwA%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_DOP_934202_1",
+      "title": "Repairs and Maintenance of toilets at 8th and 9th floors Dak Sadan Hyderabad",
+      "organisationChain": "Department of Posts||Telangana Circle- Dept of Posts",
+      "buyer": "Department of Posts",
+      "publishedAt": "2026-11-13T07:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T06:30:00.000Z",
+      "tenderOpensAt": "2026-11-23T07:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SC23EI80%2F1k9B0Wdm2hkceQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
       "tenderRef": "2026_FCI_930865_1",
       "title": "Construction of godown at FSD HIRAKUD land on Build, Finance and Maintain basis under the Asset Monetization Policy of the Government of India",
       "organisationChain": "Food Corporation of India||Regional Office,Orissa,FCI,MFPD||Information Technology Dn,Orissa,FCI",
@@ -243,25 +265,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DU_933686_1",
-      "title": "Repair/ renovation of various classrooms including repairing of floor in room no 58, 59, 60, 61, 62, 67, 68, 69, 77, 78 in Arts Faculty, University of Delhi",
-      "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
-      "buyer": "Delhi University",
-      "publishedAt": "2026-11-09T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T07:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T07:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S4SCJqGM93tvx7jeb%2FfSwrg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DU_933701_1",
-      "title": "Repairing ceiling plaster and construction of boundary wall with BRC fencing, Anti -termite Treatment, plumbing and other miscellaneous work at flat No 38/13 and Anti-termite Treatment at flat No 38/7 and repairing of G.I. barbed wire fencing of back",
-      "organisationChain": "Delhi University||Central Office - DU||Engineering - DU",
-      "buyer": "Delhi University",
-      "publishedAt": "2026-11-09T12:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T07:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T07:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SYGkB8hU%2FWUTPgy9oLuAMSA%3D%3D",
+      "tenderRef": "2026_EIL_932702_1",
+      "title": "TN/B943-000-MR-T-3170/1014 - MISCELLANEOUS MECHANICAL WORKS FOR EXECUTION OF BIO-ATF PROJECT OF MRPL",
+      "organisationChain": "Engineers India Limited,MoPNG||Head Office-Delhi,EIL,MoPNG",
+      "buyer": "Engineers India Limited,MoPNG",
+      "publishedAt": "2026-11-02T11:45:00.000Z",
+      "bidSubmissionCloses": "2026-11-20T06:30:00.000Z",
+      "tenderOpensAt": "2026-11-23T08:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sa3JSfFfB2fXO7W6nHB2gDA%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -284,17 +295,6 @@
       "bidSubmissionCloses": "2026-11-20T07:30:00.000Z",
       "tenderOpensAt": "2026-11-21T09:00:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SrKgNjTRCSBc3uP%2BFuBoP1A%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_DARE_926697_3",
-      "title": "Subsurface irrigation system at ICAR-IISR, RS, Appangala",
-      "organisationChain": "Department of Agricultural Research and Education||Indian Council of Agricultural Research,DoARE,MoA||Indian Institute of Spices Research-Kerala",
-      "buyer": "Department of Agricultural Research and Education",
-      "publishedAt": "2026-11-06T03:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-20T08:30:00.000Z",
-      "tenderOpensAt": "2026-11-21T08:35:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZoRBftvrUv7spW%2BUKAgkcg%3D%3D",
       "matchedKeywords": []
     }
   ]
