@@ -1,12 +1,29 @@
 {
-  "fetchedAt": "2026-11-21T21:34:25.772Z",
-  "durationMs": 22921,
+  "fetchedAt": "2026-11-22T06:20:48.147Z",
+  "durationMs": 23766,
   "ok": true,
   "sortMode": "value",
   "apiCalls": 25,
   "totalScanned": 1250,
-  "relevantCount": 1165,
+  "relevantCount": 1166,
   "tenders": [
+    {
+      "tenderId": "c89d249a-29c6-4a89-ab7b-cceceea35a72",
+      "refNo": "9040M26J72",
+      "title": "Outright Sale Of Spent Catalyst Of Isom,cidw",
+      "buyer": "Indian Oil Corporation Limited",
+      "procurementSource": "EPROCURE",
+      "state": "West Bengal",
+      "value": 196169663023.37,
+      "emd": 1486011,
+      "bidDeadline": "2027-02-03T09:30:00.000Z",
+      "postedAt": "2026-11-21T13:25:00.000Z",
+      "sectorNames": [
+        "Scraps"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/indian-oil-corporation-limited/detail-c89d249a-29c6-4a89-ab7b-cceceea35a72",
+      "matchedKeywords": []
+    },
     {
       "tenderId": "531fad29-b3fe-4cdd-a145-6bafa0486da4",
       "refNo": "CPMSHSRADIWRSEJDSIREPC01",
@@ -1256,7 +1273,7 @@
       "value": 22000000000,
       "emd": 220000000,
       "bidDeadline": "2026-11-26T08:30:00.000Z",
-      "postedAt": "2026-10-29T05:30:00.000Z",
+      "postedAt": "2026-11-22T02:56:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Water Storage And Supply",
@@ -1657,7 +1674,7 @@
       "value": 16000000000,
       "emd": 320000000,
       "bidDeadline": "2026-12-21T08:30:00.000Z",
-      "postedAt": "2026-11-16T10:30:00.000Z",
+      "postedAt": "2026-11-22T03:08:00.000Z",
       "sectorNames": [
         "Energy, Oil and Gas"
       ],
@@ -1762,7 +1779,7 @@
       "state": "Bihar",
       "value": 15492500000,
       "emd": 155900000,
-      "bidDeadline": "2026-11-27T09:30:00.000Z",
+      "bidDeadline": "2026-12-07T05:30:00.000Z",
       "postedAt": "2026-10-28T09:19:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -1779,8 +1796,8 @@
       "procurementSource": "EPROCURE",
       "state": "Bihar",
       "value": 15492500000,
-      "emd": 155900000,
-      "bidDeadline": "2026-11-27T09:30:00.000Z",
+      "emd": 154389659,
+      "bidDeadline": "2026-12-07T05:30:00.000Z",
       "postedAt": "2026-10-28T11:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
@@ -3919,8 +3936,8 @@
       "state": "Haryana",
       "value": 7761900000,
       "emd": 155238450,
-      "bidDeadline": "2026-12-03T18:12:00.000Z",
-      "postedAt": "2026-10-01T18:12:00.000Z",
+      "bidDeadline": "2026-12-03T11:30:00.000Z",
+      "postedAt": "2026-10-01T13:25:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Civil Works Others"
@@ -5342,7 +5359,7 @@
       "value": 5170000000,
       "emd": 51700000,
       "bidDeadline": "2026-11-25T09:30:00.000Z",
-      "postedAt": "2026-09-10T09:00:00.000Z",
+      "postedAt": "2026-09-10T13:42:00.000Z",
       "sectorNames": [
         "Civil And Construction"
       ],
@@ -5977,7 +5994,7 @@
       "state": "Delhi",
       "value": 4658640000,
       "emd": 1000000,
-      "bidDeadline": "2026-11-26T11:30:00.000Z",
+      "bidDeadline": "2026-11-25T09:30:00.000Z",
       "postedAt": "2026-09-17T06:30:00.000Z",
       "sectorNames": [
         "Transportation and Logistics"
@@ -15352,7 +15369,7 @@
       "value": 1367635796,
       "emd": 13700000,
       "bidDeadline": "2026-12-17T09:30:00.000Z",
-      "postedAt": "2026-11-12T18:42:00.000Z",
+      "postedAt": "2026-10-13T08:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -18078,7 +18095,7 @@
       "value": 1106100000,
       "emd": 11100000,
       "bidDeadline": "2026-11-26T05:30:00.000Z",
-      "postedAt": "2026-05-07T11:30:00.000Z",
+      "postedAt": "2026-05-07T03:36:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -18116,7 +18133,7 @@
       "value": 1105181495.24,
       "emd": 729000,
       "bidDeadline": "2026-11-23T10:30:00.000Z",
-      "postedAt": "2026-11-22T18:42:00.000Z",
+      "postedAt": "2026-10-23T12:30:00.000Z",
       "sectorNames": [
         "Civil And Construction",
         "Road Construction"
@@ -20319,6 +20336,23 @@
   ],
   "sampleRows": [
     {
+      "tenderId": "c89d249a-29c6-4a89-ab7b-cceceea35a72",
+      "refNo": "9040M26J72",
+      "title": "Outright Sale Of Spent Catalyst Of Isom,cidw",
+      "buyer": "Indian Oil Corporation Limited",
+      "procurementSource": "EPROCURE",
+      "state": "West Bengal",
+      "value": 196169663023.37,
+      "emd": 1486011,
+      "bidDeadline": "2027-02-03T09:30:00.000Z",
+      "postedAt": "2026-11-21T13:25:00.000Z",
+      "sectorNames": [
+        "Scraps"
+      ],
+      "detailUrl": "https://bidassist.com/global-tenders/indian-oil-corporation-limited/detail-c89d249a-29c6-4a89-ab7b-cceceea35a72",
+      "matchedKeywords": []
+    },
+    {
       "tenderId": "531fad29-b3fe-4cdd-a145-6bafa0486da4",
       "refNo": "CPMSHSRADIWRSEJDSIREPC01",
       "title": "Construction Of Sarkhej-dholera Semi High-speed Double Railway Line, Including Spur Lines To Lothal Nmhc And Dholera Airport Terminal; Comprising Civil Works, Which Includes Formation & Viaduct, Bridges, Station Buildings, & Associated Works; Track System (ballasted & Blt), Overhead Traction System Including Electrical General Services; Signalling & Telecommunication System, Operating Control Centre, Integration Of All Systems Complete In All Respect Including Testing & Commissioning And All Appurtenant Works Under Jurisdiction Of Western Railway",
@@ -20721,22 +20755,6 @@
         "Excavation"
       ],
       "detailUrl": "https://bidassist.com/global-tenders/central-railway/detail-1470d556-1adb-427a-adb9-d755d7f58c53",
-      "matchedKeywords": []
-    },
-    {
-      "tenderId": "699c30ae-3fc9-438d-ad61-cd16735979c9",
-      "refNo": "ELWDB2526LOCOPOH06R",
-      "title": "Operation & Maintenance Of Dabhoi Workshop (elw/db) And Maintenance Of 3 Phase Locomotive (poh Of Wap7 And Wag9, Ioh Of Motorized Bogie Of Co-co Type, Ioh Of Traction Motor Of 6fra 6068 Type) For A Period Of 18 Year",
-      "buyer": "Western Railway",
-      "purchaserGroup": "Railways",
-      "procurementSource": "IREPS",
-      "state": "Gujarat",
-      "value": 46080040480.92,
-      "emd": 921600800,
-      "bidDeadline": "2026-12-23T05:30:00.000Z",
-      "postedAt": "2026-06-30T10:12:00.000Z",
-      "sectorNames": [],
-      "detailUrl": "https://bidassist.com/global-tenders/western-railway/detail-699c30ae-3fc9-438d-ad61-cd16735979c9",
       "matchedKeywords": []
     }
   ]
