@@ -1,61 +1,22 @@
 {
-  "fetchedAt": "2026-11-22T06:20:23.922Z",
-  "durationMs": 53120,
+  "fetchedAt": "2026-11-22T16:14:03.275Z",
+  "durationMs": 347186,
   "ok": true,
   "view": "14day",
-  "pagesFetched": 50,
-  "totalRowsParsed": 345,
-  "relevantCount": 2,
-  "tenders": [
-    {
-      "tenderRef": "2026_IITGN_931207_1",
-      "title": "Operation and Maintenance of Water Treatment Plant (WTP), Sewage Treatment Plant (STP), Pumping Stations, Irrigation System, Kitchen Exhaust and Ventilation System, Fire Fighting Installations, etc., at IIT Gandhinagar Campus, Palaj, Gandhinagar, Guj",
-      "organisationChain": "Indian Institute of Technology Gandhinagar||Building and Works Department - IITGN",
-      "buyer": "Indian Institute of Technology Gandhinagar",
-      "publishedAt": "2026-10-21T13:00:00.000Z",
-      "bidSubmissionCloses": "2026-11-23T09:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T10:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SfG9RllAqsjARHZ%2B2PnprKg%3D%3D",
-      "matchedKeywords": [
-        "water treatment plant"
-      ]
-    },
-    {
-      "tenderRef": "2026_PDIL_924429_1",
-      "title": "RAW WATER TREATMENT PLANT, DM WATER, CONDENSATE POLISHING UNIT, EFFLUENT TREATMENT PLANT WITH ZLD AND SEWAGE TREATMENT PLANT AT BHARAT COAL GASIFICATION AND CHEMICALS LIMITED AT JHARSUGUDA, ODISHA (INDIA)",
-      "organisationChain": "Projects and Development India Limited, Fert",
-      "buyer": "Projects and Development India Limited, Fert",
-      "publishedAt": "2026-09-01T13:25:00.000Z",
-      "bidSubmissionCloses": "2026-11-25T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-25T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sj%2F8mTXzwuQjI3tu5CenJtQ%3D%3D",
-      "matchedKeywords": [
-        "coal gasification",
-        "water treatment plant"
-      ]
-    }
-  ],
+  "pagesFetched": 23,
+  "totalRowsParsed": 138,
+  "relevantCount": 0,
+  "tenders": [],
   "sampleRows": [
     {
-      "tenderRef": "2026_NITJ_931392_1",
-      "title": "Purchase of Advanced Rotational Rheometer",
-      "organisationChain": "Dr.B.R.Ambedkar National Institute of Technology-Jalandhar",
-      "buyer": "Dr.B.R.Ambedkar National Institute of Technology-Jalandhar",
-      "publishedAt": "2026-10-25T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-22T09:30:00.000Z",
-      "tenderOpensAt": "2026-11-23T09:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SO8kjSAPyDRKbxJVfsGZXYg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_SOI_933336_1",
-      "title": "DRONE SERVICES FOR 3D CITY MODEL",
-      "organisationChain": "Survey of India||Survey(Air) and Delhi Geospatial Data Centre New Delhi-SOI",
-      "buyer": "Survey of India",
-      "publishedAt": "2026-11-06T04:30:00.000Z",
+      "tenderRef": "2026_IISRT_934472_1",
+      "title": "Providing an Approach Road to the Waste Segregation Shed near the Shopping Complex at IISER Thiruvananthapuram",
+      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvananthapuram",
+      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
+      "publishedAt": "2026-11-16T10:40:00.000Z",
       "bidSubmissionCloses": "2026-11-23T03:30:00.000Z",
       "tenderOpensAt": "2026-11-24T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKAbdiBdqK5CLC6PZ5wLiuQ%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMdl2J5NWQ07v7dzTPcYuNg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -70,17 +31,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_IISRT_934472_1",
-      "title": "Providing an Approach Road to the Waste Segregation Shed near the Shopping Complex at IISER Thiruvananthapuram",
-      "organisationChain": "Indian Institute of Science Education and Research - Thiruvananthapuram||Construction and Engineering-IISER - Thiruvananthapuram",
-      "buyer": "Indian Institute of Science Education and Research - Thiruvananthapuram",
-      "publishedAt": "2026-11-16T10:40:00.000Z",
-      "bidSubmissionCloses": "2026-11-23T03:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T03:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SMdl2J5NWQ07v7dzTPcYuNg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_DREV_932424_2",
       "title": "Civil Repair Works for Establishment Room on the first floor of Aayakar Bhawan, Tinsukia",
       "organisationChain": "Department of Revenue||Central Board of Direct Taxes - DOR||Pr. CCIT NER Guwahati - CBDT||Pr. CIT, Shillong",
@@ -89,6 +39,17 @@
       "bidSubmissionCloses": "2026-11-23T03:30:00.000Z",
       "tenderOpensAt": "2026-11-24T03:30:00.000Z",
       "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SB%2FnxQKyfdZY4tmgZrXIiFg%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_SOI_933336_1",
+      "title": "DRONE SERVICES FOR 3D CITY MODEL",
+      "organisationChain": "Survey of India||Survey(Air) and Delhi Geospatial Data Centre New Delhi-SOI",
+      "buyer": "Survey of India",
+      "publishedAt": "2026-11-06T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-23T03:30:00.000Z",
+      "tenderOpensAt": "2026-11-24T03:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SKAbdiBdqK5CLC6PZ5wLiuQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -103,47 +64,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_FACT_933626_1",
-      "title": "Handling Dummy Plates, Slip Plates etc. of various vessels/equipments/pipelines in PA and PC Plants",
+      "tenderRef": "2026_CRPF_931062_2",
+      "title": "Comprehensive, maintenance and pathway repairing and painting of 1900 KLD sewage treatment plant (STP) at GC CRPF Avadi",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-11-16T04:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
+      "tenderOpensAt": "2026-11-24T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S3GkVy0%2B6y6W%2F9ccqJIcv6Q%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FACT_932437_1",
+      "title": "Miscellaneous mechanical maintenance jobs in SO2 or DCDA Acid Plant and Pollution Control area.",
       "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
       "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-11-07T09:30:00.000Z",
+      "publishedAt": "2026-10-31T08:30:00.000Z",
       "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
       "tenderOpensAt": "2026-11-24T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SJSXm6EbuPMAWYAP1YHLdeQ%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BtIS5HEPRx9FrrI%2BIiMvng%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_933817_1",
-      "title": "Repair and maint of internal and external E and M services at HQ 21 Sect AR",
+      "tenderRef": "2026_ARMHA_933832_1",
+      "title": "Repair/maint of Single Offrs accn of HQ 21 Sect AR at Agartala",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
       "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-11-10T08:40:00.000Z",
+      "publishedAt": "2026-11-10T09:25:00.000Z",
       "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
       "tenderOpensAt": "2026-11-24T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SxNlxh00I9UVTRkmY1gIBow%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sbxiwmp7wOoUK6kJ7bqmaPg%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_933845_1",
-      "title": "Term contract for existing Dental Unit (Bldg No P/75/2010) of Bn HQ of 41 AR",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-11-10T09:50:00.000Z",
+      "tenderRef": "2026_CRPF_929737_2",
+      "title": "General Repair and painting of buildings of Library (Now CWWA), RO plant, old CRS and CLMS at RTC, CRPF, Avadi.",
+      "organisationChain": "DG,CRPF,MHA||South Zone,CRPF,MHA",
+      "buyer": "DG,CRPF,MHA",
+      "publishedAt": "2026-11-16T04:30:00.000Z",
       "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SlMmS46I7QU%2Fbv81qx6Od1g%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_FACT_933612_1",
-      "title": "Dismantling and fixing-back of pipelines and fittings for choke clearing at NP Plant, FACT CD",
-      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
-      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-11-07T09:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SQNoTuDHA2qwtu65VgL%2BDiQ%3D%3D",
+      "tenderOpensAt": "2026-11-24T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sv12%2BbrQ0EJ7%2FYizO0%2Bt6Rg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -169,17 +130,6 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_933841_1",
-      "title": "Term contract for existing Hospital bldg (Bldg No P/79/2012) of Bn HQ of 41 AR",
-      "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-11-10T09:40:00.000Z",
-      "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S34eI8bP51RfyW6NV64GZYg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
       "tenderRef": "2026_ARMHA_933837_1",
       "title": "Repair maint of Type-III accn of HQ 21 Sect AR at Agartala",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
@@ -191,25 +141,14 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_933832_1",
-      "title": "Repair/maint of Single Offrs accn of HQ 21 Sect AR at Agartala",
+      "tenderRef": "2026_ARMHA_933841_1",
+      "title": "Term contract for existing Hospital bldg (Bldg No P/79/2012) of Bn HQ of 41 AR",
       "organisationChain": "Assam Rifles - MHA||Engineer Branch - AR - MHA",
       "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-11-10T09:25:00.000Z",
+      "publishedAt": "2026-11-10T09:40:00.000Z",
       "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
       "tenderOpensAt": "2026-11-24T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sbxiwmp7wOoUK6kJ7bqmaPg%3D%3D",
-      "matchedKeywords": []
-    },
-    {
-      "tenderRef": "2026_FACT_932437_1",
-      "title": "Miscellaneous mechanical maintenance jobs in SO2 or DCDA Acid Plant and Pollution Control area.",
-      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
-      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
-      "publishedAt": "2026-10-31T08:30:00.000Z",
-      "bidSubmissionCloses": "2026-11-23T04:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T04:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S%2BtIS5HEPRx9FrrI%2BIiMvng%3D%3D",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=S34eI8bP51RfyW6NV64GZYg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -224,14 +163,47 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_BSF_934578_1",
-      "title": "Repair and Maintenance of 06 Nos Surveillance cum OP Shelter G 2 in AOR of BOP Silbari, Gasuapara, Angratoli, Namchapara and Damdama of 144 Bn BSF under SHQ BSF Tura..",
-      "organisationChain": "DG,BSF,MHA||Meghalya FTR(Shillong),BSF,MHA",
-      "buyer": "DG,BSF,MHA",
-      "publishedAt": "2026-11-17T07:00:00.000Z",
+      "tenderRef": "2026_NESBD_931342_1",
+      "title": "EoI for Empanelment",
+      "organisationChain": "National Institute for Entrepreneurship and Small Business Development",
+      "buyer": "National Institute for Entrepreneurship and Small Business Development",
+      "publishedAt": "2026-10-23T03:30:00.000Z",
       "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdLqv2GADTV84SO3mqty0tg%3D%3D",
+      "tenderOpensAt": "2026-11-24T06:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SM6t6Ns1fNDqadbjSN7iZ5g%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_ESIC_932355_1",
+      "title": "Request For Proposal For Empanelment Of Charitable Hospitals For Primary And SecondaryCare Medical Services",
+      "organisationChain": "Employees State Insurance Corporation||R.O. Gujarat",
+      "buyer": "Employees State Insurance Corporation",
+      "publishedAt": "2026-10-30T05:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-24T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SRVQZDXGYCjjwcmodu0Jhyw%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_BSF_934362_1",
+      "title": "Providing and Fixing security perimeter chain link fencing around Magazine building under SHQ BSF Gandhinagar Gujarat",
+      "organisationChain": "DG,BSF,MHA||Gujarat FTR(Gujarat),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-14T09:00:00.000Z",
+      "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-25T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SaqYNOzDb0mrsKovuD5yPyQ%3D%3D",
+      "matchedKeywords": []
+    },
+    {
+      "tenderRef": "2026_FACT_932687_1",
+      "title": "Routine Civil Maintenance works in PAP, PCP, PAT and Boat basin area of FACT Cochin Division, Ambalamedu.",
+      "organisationChain": "The Fertilisers And Chemicals Travancore Ltd.||Head Office - FACT||Corporate materials - FACT",
+      "buyer": "The Fertilisers And Chemicals Travancore Ltd.",
+      "publishedAt": "2026-11-02T11:30:00.000Z",
+      "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
+      "tenderOpensAt": "2026-11-24T05:30:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Slw47nQO%2F0KcAj4Gk%2B7qgHg%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -257,25 +229,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ARMHA_933646_1",
-      "title": "21 AR/Engr/MW/2026-27/13",
-      "organisationChain": "Assam Rifles - MHA",
-      "buyer": "Assam Rifles - MHA",
-      "publishedAt": "2026-11-07T09:10:00.000Z",
+      "tenderRef": "2026_BSF_934578_1",
+      "title": "Repair and Maintenance of 06 Nos Surveillance cum OP Shelter G 2 in AOR of BOP Silbari, Gasuapara, Angratoli, Namchapara and Damdama of 144 Bn BSF under SHQ BSF Tura..",
+      "organisationChain": "DG,BSF,MHA||Meghalya FTR(Shillong),BSF,MHA",
+      "buyer": "DG,BSF,MHA",
+      "publishedAt": "2026-11-17T07:00:00.000Z",
       "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-25T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sh%2BZ5%2BobjFiF1OqvvKSupqw%3D%3D",
+      "tenderOpensAt": "2026-11-24T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SdLqv2GADTV84SO3mqty0tg%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_ASI_932779_1",
-      "title": "MC and EW Cons Water tightening of roofs ancient structures inside inner fortification in Golconda Fort, Hyderabad for the year 2026-27",
-      "organisationChain": "Archaeological Survey of India||O/o SA-ASI-Hyderabad Circle-Hyderabad",
-      "buyer": "Archaeological Survey of India",
-      "publishedAt": "2026-11-02T13:00:00.000Z",
+      "tenderRef": "2026_ARMHA_933443_1",
+      "title": "21 AR/Engr/MW/2026-27/11",
+      "organisationChain": "Assam Rifles - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-11-06T12:40:00.000Z",
       "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SII3mSL%2FWKjhEhBnOXTpi2g%3D%3D",
+      "tenderOpensAt": "2026-11-25T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SZ9O1%2Btjxpi%2BVwWZyIs4LKQ%3D%3D",
       "matchedKeywords": []
     },
     {
@@ -290,25 +262,25 @@
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_DOP_934282_1",
-      "title": "Provision of Rain water Harvesting for main building and Type III quarters at PTC Mysuru-570010",
-      "organisationChain": "Department of Posts||Karnataka Circle,Dept. of Posts||CPMG,Karnataka Circle,Bangalore,POST||Supdt. Eng.(Civil) Dn,R T Nagar HO,Bangalore,POST",
-      "buyer": "Department of Posts",
-      "publishedAt": "2026-11-13T11:00:00.000Z",
+      "tenderRef": "2026_NITW_931043_1",
+      "title": "TENDER FOR SUPPLY, INSTALLATION, TRAINING AND COMMISSIONING OF WORKSTATION WITH ONE YEAR ONSITE ALL INCLUSIVES WARRANTY PERIOD to NIT WARANGAL AS PER THE SPECIFICATIONS ATTACHED IN SECTION - 3.",
+      "organisationChain": "National Institute of Technology Warangal||Purchase and Stores Section - NIT Warangal",
+      "buyer": "National Institute of Technology Warangal",
+      "publishedAt": "2026-10-19T12:30:00.000Z",
       "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-25T06:00:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=ShOVSz6FqulVdXPfRbyK%2F4A%3D%3D",
+      "tenderOpensAt": "2026-11-24T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SyiUAtFqpeVSG%2FjSiWqtQIA%3D%3D",
       "matchedKeywords": []
     },
     {
-      "tenderRef": "2026_CWC_933912_1",
-      "title": "fabrication of Gauge Post",
-      "organisationChain": "Central Water Commission- DoWR RD and GR||Lower Ganga Basin Organisation- Patna||Director (Mon) - Patna||Lower Ganga Division-I - Patna",
-      "buyer": "Central Water Commission- DoWR RD and GR",
-      "publishedAt": "2026-11-11T05:30:00.000Z",
+      "tenderRef": "2026_ARMHA_933646_1",
+      "title": "21 AR/Engr/MW/2026-27/13",
+      "organisationChain": "Assam Rifles - MHA",
+      "buyer": "Assam Rifles - MHA",
+      "publishedAt": "2026-11-07T09:10:00.000Z",
       "bidSubmissionCloses": "2026-11-23T05:30:00.000Z",
-      "tenderOpensAt": "2026-11-24T06:30:00.000Z",
-      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=SlTwEhpD8FWn1GBSizPZe3g%3D%3D",
+      "tenderOpensAt": "2026-11-25T06:00:00.000Z",
+      "detailUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndListTendersbyDate&service=direct&session=T&sp=Sh%2BZ5%2BobjFiF1OqvvKSupqw%3D%3D",
       "matchedKeywords": []
     }
   ]
